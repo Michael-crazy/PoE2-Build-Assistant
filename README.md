@@ -11,9 +11,9 @@
   - `Ctrl+Shift+A` 把装备加进 PoB 当前 BD 的物品列表（不穿上、不保存），方便继续在 PoB 里比较。
 - **PoB 全汉化**：菜单、控件、计算页、配置页、提示等界面文字，以及技能、天赋、装备、词缀、物品库全部显示简体中文；支持中文输入、粘贴和中文搜索。游戏术语一律用[流放编年史](https://poe2db.tw/cn/)的译名，不自行翻译。
 - **查价与 PoB 市集交易**：PoB 自带的市集交易（Trader）支持国服；按当前 BD 和槽位生成市集筛选，搜出候选后逐件试穿，按“每 1 神圣石带来的提升”排序。浮层显示挂单价和性价比，跨通货用同服同赛季的汇率换算（国际服取自 poe.ninja，国服可在 PoB 选项里填写）。
-- **自带市集窗口**：助手里直接打开官方市集网页，每条结果旁显示这件装备对当前 BD 的试算和性价比；也提供同样功能的浏览器扩展（国际服官方市集）。
+- **自带市集窗口**：助手里直接打开官方市集网页，每条结果旁显示这件装备对当前 BD 的试算和性价比。
 - **导入国服角色**：在 PoB 导入页贴 WeGame 分享链接，导入装备、天赋、珠宝和技能。
-- **MCP（在 Claude 等 AI 客户端里问 BD）**：安装包带 [POBG](https://github.com/Michael-crazy/POBG)，通过本地 MCP 用中文查询技能、天赋、词缀，生成 BD（带 PoB 导入码），或读取“我 PoB 里当前 BD 的 DPS 和抗性”。数字由包里的 PoB 引擎计算。
+- **MCP（在 Claude、ChatGPT、Cursor、Gemini 等 AI 客户端里问 BD）**：安装包带 [POBG](https://github.com/Michael-crazy/POBG)，通过本地 MCP 用中文查询技能、天赋、词缀，生成 BD（带 PoB 导入码），或读取“我 PoB 里当前 BD 的 DPS 和抗性”。数字由包里的 PoB 引擎计算。双击包里的 `显示MCP配置.cmd` 得到各客户端（Claude Code/桌面版、Cursor、VS Code、Gemini CLI、Codex、ChatGPT 桌面版、Cherry Studio）的配置写法。
 - **导出 .build**：复用 PoB 上游功能导出游戏内 Build Planner 可读取的文件。
 
 ## 效果截图
@@ -45,7 +45,7 @@
 | [Michael-crazy/PathOfBuilding-PoE2](https://github.com/Michael-crazy/PathOfBuilding-PoE2) | PoB fork，分支 `poe2-assistant`：汉化、中文输入、助手桥接与设置、国服市集交易。也是助手的试算引擎 |
 | [Michael-crazy/Exiled-Exchange-2](https://github.com/Michael-crazy/Exiled-Exchange-2) | Exiled Exchange 2 fork，分支 `poe2-assistant`：游戏内快捷键与评估浮层、自带市集窗口 |
 | [Michael-crazy/POBG](https://github.com/Michael-crazy/POBG) | POBG fork：简体中文数据与 Windows 原生运行，提供 MCP |
-| [Michael-crazy/poe-trade2text](https://github.com/Michael-crazy/poe-trade2text) | 浏览器扩展 fork：官方市集网页上的试算预览 |
+| [Michael-crazy/poe-trade2text](https://github.com/Michael-crazy/poe-trade2text) | 市集预览脚本的来源（助手自带市集窗口复用其解析代码） |
 
 PoB 与 EE2 的改动都是叠在固定上游提交上的补丁提交，跟随上游时变基，见 [sources/pob-branch.md](sources/pob-branch.md)。各模块的接口说明在 [`sources/`](sources/)：
 

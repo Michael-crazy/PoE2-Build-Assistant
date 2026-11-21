@@ -1,0 +1,13 @@
+[Unit]
+Description=PoE2 assistant: follow upstream PoB/EE2 releases, refresh PoE2DB/trade data (U05/R03)
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h
+# Always the watcher of the private repo's main (not a copy that can go stale).
+ExecStartPre=/bin/sh -c 'git -C %h/git/PoE2-Build-Assistant.git show main:ops/upstream_watch.py > %t/poe2-upstream-watch.py'
+ExecStart=/usr/bin/python3 -B %t/poe2-upstream-watch.py check
+# A new season refetches about 2300 PoE2DB pages (about 2.5 h) plus two full check runs.
+TimeoutStartSec=6h
+Nice=10

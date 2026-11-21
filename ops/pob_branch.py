@@ -69,7 +69,7 @@ def apply_scripts(tree, release, source):
     apply_localize(tree, release, source)
     enable_pob_unicode_paste.patch_edit_control(tree / "src/Classes/EditControl.lua")
     localize_pob_calcs.install(tree)
-    hook_pob_assistant.install(tree)
+    hook_pob_assistant.install(tree, hook_pob_assistant.U01_HOOK)
 
 
 def runtime_provenance(release):
@@ -122,7 +122,7 @@ def migrate(repo, base, release, source):
     commits.append(commit(repo, "P07: keep valid UTF-8 when pasting into edit controls", ["."]))
     localize_pob_calcs.install(repo)
     commits.append(commit(repo, "P08: Simplified Chinese calculation labels", ["."]))
-    hook_pob_assistant.install(repo)
+    hook_pob_assistant.install(repo, hook_pob_assistant.U01_HOOK)
     commits.append(commit(repo, "U01: start the in-game assistant shipped next to PoB", ["."]))
     return commits
 

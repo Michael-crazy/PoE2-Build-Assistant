@@ -54,7 +54,10 @@ ATTRIBUTES = {"力量": "Str", "敏捷": "Dex", "智慧": "Int", "Str": "Str", "
 LEVEL_WORDS = ("等级", "等級", "Level")
 STATUS = {"被腐化": "Corrupted", "已腐化": "Corrupted", "已汙染": "Corrupted", "已污染": "Corrupted",
           "Corrupted": "Corrupted", "未鉴定": "Unidentified", "未鑑定": "Unidentified",
-          "Unidentified": "Unidentified", "镜像": "Mirrored", "鏡像": "Mirrored", "Mirrored": "Mirrored"}
+          "Unidentified": "Unidentified", "镜像": "Mirrored", "鏡像": "Mirrored", "Mirrored": "Mirrored",
+          # PoE2DB keyword 圣化物品 / 聖化物品 = "Sanctified Items" (values rerolled 78%-122%, no more
+          # crafting); PoB reads the status line "Sanctified".
+          "圣化物品": "Sanctified", "聖化物品": "Sanctified", "Sanctified": "Sanctified"}
 # Market price note: "Note: ~b/o 5 exalted" (Traditional "備註", Simplified "备注").
 PRICE_NOTE = re.compile(r"^(?:Note|備註|备注)\s*[:：]\s*~(b/o|price)\s+(\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?)\s+(\S.*?)\s*$")
 PRICE_KINDS = {"b/o": "buyout", "price": "price"}
@@ -73,7 +76,8 @@ HEADER_WORDS = (
 )
 LINE_FLAGS = re.compile(r"\s*\(([a-z]+)\)$")
 UNSCALABLE = re.compile(r"\s*[—-]\s*(?:無法變動的值|无法变动的值|不可变动的值|数值不可调整|數值不可調整|Unscalable Value)$")
-BONDED = re.compile(r"^(?:羁绊|羈絆|Bonded)\s*[:：]\s*")
+# Traditional client: "命定" (PoE2DB zh_hant writes Bonded modifiers as 命定詞綴).
+BONDED = re.compile(r"^(?:羁绊|羈絆|命定|Bonded)\s*[:：]\s*")
 GRANTED = re.compile(r"^(?:获得技能|賦予技能|Grants Skill)\s*[:：]\s*(?:(?:等级|等級|Level)\s*(\d+)\s+)?(.+)$")
 PLACEHOLDER = {"Rare": "Unnamed Rare", "Unique": "Unknown Unique"}
 DAMAGE_RANGE = re.compile(r"(\d)\s*(?:到|至|to)\s*(\d)")
@@ -86,8 +90,16 @@ PUNCTUATION = str.maketrans({"：": ":", "，": ",", "（": "(", "）": ")", "�
 CJK = re.compile(r"[㐀-鿿]")
 # Lines the client adds that are no modifier. "引路石掉落" closes Tencent copies of every rarity
 # (meaning unconfirmed); "由<符文>铸造" heads the rune lines of an item a converting rune such as
-# 奥杜尔之热情 (Passion of Aldur) went into, whose effect is already in the item's own lines.
-MARKERS = re.compile(r"^(?:引路石掉落|由(?P<rune>\S+)铸造)$")
+# 奥杜尔之热情 (Passion of Aldur) went into, whose effect is already in the item's own lines;
+# "分裂之物" is the "Fractured Item" line (PoeCharm statDescriptions: 分裂之物 = Fractured Item).
+# PoB has no such line (it flags fractured modifiers one by one), so the line is dropped.
+MARKERS = re.compile(r"^(?:引路石掉落|分裂之物|由(?P<rune>\S+)铸造)$")
+MARKER_NOTES = {"引路石掉落": "引路石掉落标记，不是词缀，PoB 不读取；含义未确认",
+                "分裂之物": "分裂物品标记（Fractured Item），PoB 不读此行，分裂词缀按行标记"}
+# Singular count written as a word: "擲彈技能發射額外一個投射物" (PoE2DB "#個") is the base text
+# "Grenade Skills Fire an additional Projectile" in PoB.
+ONE_COUNT = re.compile(r"一(?=[個个])")
+SINGULAR = re.compile(r"\b1 additional (\w+?)s\b")
 # Unique lines with a name slot: PoE2DB writes the slot as an English word in every language.
 SLOTS = {"Passive Skill": "passive", "Specific Skill": "skill"}
 PASSIVES = Path(__file__).resolve().parents[1] / "data/terms/pob-localization/passives.json"
@@ -330,10 +342,27 @@ KIND_ORDER = {
 }
 
 
+def lookup(body, lang):
+    """Index hits for a line: (body as matched, hits, singular). Besides the plain skeleton this
+    tries the client's other wordings of a PoE2DB template."""
+    index = terms().index[lang]
+    key = skeleton(body)
+    if key in index:
+        return body, index[key], False
+    # The international Traditional client writes a lone "+N" first where PoE2DB puts it last
+    # ("+5全部投射物技能等級" / "全部投射物技能等級+#").
+    if key.startswith("#") and key.count("#") == 1 and key[1:] + "#" in index:
+        return body, index[key[1:] + "#"], False
+    counted = ONE_COUNT.sub("1", body)
+    if counted != body and skeleton(counted) in index:
+        return counted, index[skeleton(counted)], True
+    return body, [], False
+
+
 def match_line(body, flags, lang, context, header=None, block=None):
     """Match one modifier line; returns (english, ids, status, note)."""
+    body, found, singular = lookup(body, lang)
     values = numbers(tokens(body.translate(PUNCTUATION)))
-    found = terms().index[lang].get(skeleton(body), [])
     fitted = [(entry, number, slots) for entry, number in found
               for slots in [fit(entry, number, lang, values)] if slots is not None]
     if not fitted:
@@ -367,6 +396,8 @@ def match_line(body, flags, lang, context, header=None, block=None):
     renders = {}
     for entry, number, slots in group:
         text = body if lang == "en" else render(entry["texts"]["en"][number], slots)
+        if singular:
+            text = SINGULAR.sub(r"an additional \1", text)
         renders.setdefault(text.casefold(), text)
     ids = sorted({f"{entry['kind']}:{entry['id']}" for entry, _, _ in group})
     if len(renders) > 1:
@@ -612,7 +643,7 @@ def parse_item(text, lang=None):
             if marker and (not marker.group("rune") or terms().bases.get((lang, marker.group("rune")))):
                 result.update(kind="marker", status="dropped",
                               note="符文说明，效果已在物品词缀里，PoB 不需要" if marker.group("rune")
-                              else "引路石掉落标记，不是词缀，PoB 不读取；含义未确认")
+                              else MARKER_NOTES[body])
                 continue
             position = (block["lines"].index(result), len(block["lines"])) if block else None
             header = block and block["header"]

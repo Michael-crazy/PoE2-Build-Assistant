@@ -7,6 +7,8 @@
 Steps (each one a script that can also be run alone):
   fetch        scripts/poe2db_fetch.py: class pages + sub pages + Keywords (us/cn/tw), gem pages (us/cn);
                cached pages and recorded 404s are not fetched again; 4 s between requests. --offline skips it.
+               R03: --refresh-index DAYS refetches the index pages older than DAYS (new gems/items);
+               --refresh-before ISO refetches the whole cache first (new season, resumable).
   terms        scripts/poe2db_terms.py -> data/terms/poe2db-1.0/<class>.json + mods.json
   names        ops/poe2db_item_classes.py, ops/poe2db_keywords.py -> data/terms/poe2db-1.0/names/
   localization scripts/pob_localization.py -> data/terms/pob-localization/ (PoB's display tables)
@@ -97,6 +99,12 @@ def main(argv=None):
     parser.add_argument("--out-root", type=Path, default=ROOT)
     parser.add_argument("--offline", action="store_true", help="never use the network")
     parser.add_argument("--only", help="comma-separated steps: " + ",".join(STEPS))
+    parser.add_argument("--refresh-index", type=float, metavar="DAYS",
+                        help="R03: refetch the class/sub/Keywords pages and gem indexes older than DAYS "
+                             "(finds new gems and items; other cached pages are kept)")
+    parser.add_argument("--refresh-before", metavar="ISO",
+                        help="R03 new season: refetch every cached page fetched before this time first "
+                             "(resumable with the same value)")
     args = parser.parse_args(argv)
     steps = args.only.split(",") if args.only else STEPS
     unknown = set(steps) - set(STEPS)
@@ -116,8 +124,14 @@ def main(argv=None):
     if "fetch" in steps and not args.offline:
         import poe2db_terms
         pages = list(CLASSES) + [p for c in CLASSES for p in poe2db_terms.SUBPAGES.get(c, [])] + EXTRA_PAGES
-        run(ROOT / "scripts/poe2db_fetch.py", "--cache", cache, "pages", *pages, env=env)
-        run(ROOT / "scripts/poe2db_fetch.py", "--cache", cache, "gems", env=env)
+        fetch = [ROOT / "scripts/poe2db_fetch.py", "--cache", cache]
+        if args.refresh_before:  # R03 new season: every cached page again, then the lists below
+            run(*fetch, "--refresh-before", args.refresh_before, "refresh", env=env)
+            fetch += ["--refresh-before", args.refresh_before]
+        index = ["--max-age", str(args.refresh_index)] if args.refresh_index is not None else []
+        gem_index = ["--index-max-age", str(args.refresh_index)] if args.refresh_index is not None else []
+        run(*fetch, *index, "pages", *pages, env=env)
+        run(*fetch, "gems", *gem_index, env=env)
         done.append("fetch")
     if "terms" in steps:
         run(ROOT / "scripts/poe2db_terms.py", "--cache", cache, "--pob", args.engine, "--out", terms,

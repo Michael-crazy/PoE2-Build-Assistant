@@ -41,9 +41,18 @@ def verify_engine(engine):
         raise ValueError(f'引擎导出标记不是固定提交 {PIN}')
 
 
+def engine_layout(engine):
+    """(scripts directory, runtime directory): src/ and runtime/ in a repository checkout or
+    export, or both the engine root in the official release layout (R02 package: PoB/)."""
+    if (engine / 'src/Launch.lua').is_file():
+        return engine / 'src', engine / 'runtime'
+    return engine, engine
+
+
 def default_runtime(engine):
     if sys.platform == 'win32':
-        return engine / 'runtime/lua51.dll', str(engine / 'runtime/?.dll')
+        runtime = engine_layout(engine)[1]
+        return runtime / 'lua51.dll', str(runtime / '?.dll')
     return LINUX_RUNTIME / 'LuaJIT/src/libluajit.so', str(LINUX_RUNTIME / '?.so')
 
 
@@ -72,12 +81,15 @@ class LuaEngine:
         lua.lua_settop.argtypes = [p, i]
         self.state = lua.luaL_newstate()
         lua.luaL_openlibs(self.state)
-        os.chdir(engine / 'src')
+        scripts, runtime = engine_layout(engine)
+        os.chdir(scripts)
+        # Relative: LuaJIT opens files in the ANSI code page and the package path may be Chinese.
+        lua_dir = os.path.relpath(runtime / 'lua', scripts).replace(os.sep, '/').encode()
         self._set_global(b'POB_CPATH', (cpath or default_cpath).encode())
         self._set_global(b'POB_SERVER_LUA', str(SERVER_LUA).encode())
         # The luajit executable sets `arg`; Main.lua reads arg[1] at startup.
         self._run(b"arg = {}\n"
-                  b"package.path = '../runtime/lua/?.lua;../runtime/lua/?/init.lua;' .. package.path\n"
+                  b"package.path = '" + lua_dir + b"/?.lua;" + lua_dir + b"/?/init.lua;' .. package.path\n"
                   b"package.cpath = POB_CPATH .. ';' .. package.cpath\n"
                   b"dofile(POB_SERVER_LUA)", 0)
 

@@ -43,6 +43,15 @@ class TemplateTests(unittest.TestCase):
         rules, why = gen.template_rules("%d ^x7F7F7F(%.1fs)", "%d (%.1f 秒)")
         self.assertIsNone(rules)
 
+    def test_loose_template(self):
+        # V10: "%sLevel %d %s" turned "# to Level of all Cold Spell Skills" into "# to 等级 of all ..."
+        self.assertTrue(gen.loose("%sLevel %d %s"))
+        rules, why = gen.template_rules("%sLevel %d %s", "%s等级 %d %s")
+        self.assertIsNone(rules)
+        self.assertIn("both ends", why)
+        self.assertFalse(gen.loose("%s to Level %d of %s"))
+        self.assertFalse(gen.loose("Requires Level %s"))
+
 
 class BuildTests(unittest.TestCase):
     def setUp(self):
@@ -132,12 +141,46 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(exact["Helmet: Armour/Evasion"], "头盔：护甲/闪避")
         self.assertNotIn("Bow: Armour", exact)
 
+    def test_currency_names(self):
+        currency = {"currencies": {"Divine_Orb": {"en": "Divine Orb", "zh_hans": "神圣石"},
+                                   "Odd": {"en": "Odd", "zh_hans": ""}}}
+        tables, stats = gen.build({"entries": []}, {"zh": {"Odd": "奇"}}, currency=currency)
+        self.assertEqual(tables["exact"]["Divine Orb"], "神圣石")
+        self.assertEqual(tables["exact"]["Odd"], "奇")
+        self.assertEqual(stats["used_by_source"]["poe2db-currency"], 1)
+
+    def test_pseudo_stats_from_tencent_trade(self):
+        trade = {"pseudo.pseudo_number_of_empty_prefix_mods": {"en": "# Empty Prefix Modifiers", "zh": "# 空前缀词缀",
+                                                                "type": "pseudo"},
+                 "explicit.stat_1": {"en": "# to maximum Life", "zh": "# 生命上限", "type": "explicit"}}
+        tables, _ = gen.build({"entries": []}, {}, trade_stats=trade)
+        self.assertEqual(tables["exact"]["# Empty Prefix Modifiers"], "# 空前缀词缀")
+        self.assertNotIn("# to maximum Life", tables["exact"])
+
     def test_lua_module_round_trip(self):
         tables, stats = gen.build(self.fallback, self.overrides)
         text = gen.lua_module(tables, stats)
         self.assertIn('["Delete All"] = "删除全部",', text)
         self.assertIn('{ "^Requires Level (.-)$", "需求等级 %1" },', text)
         self.assertEqual(gen.lua_string('a"b\\c\nd'), '"a\\"b\\\\c\\nd"')
+
+
+TERMS_STUB = r'''
+local names = { ["Amber Amulet"] = "琥珀项链", ["Barrage"] = "弹幕", ["Ring"] = "戒指" }
+local mods = { ["# to level of all cold spell skills"] = "所有冰霜法术技能等级 +#",
+               ["#% increased attack speed"] = "攻击速度提高 #%" }
+local function name(t) return names[t] or t end
+return {
+  baseName = name, nameText = name,
+  uniqueName = function(t) return t == "Astramentis" and "星辰项链" or t end, skillNameLoose = function(t) return t end,
+  skillList = function(t) return t end, modLine = function(t) return t end,
+  tradeModText = function(t)
+    local body, isLocal = t:gsub("%s*%(Local%)$", "")
+    local zh = mods[body:lower()]
+    return zh and zh .. (isLocal > 0 and " (区域)" or "") or t
+  end,
+}
+'''
 
 
 @unittest.skipUnless(os.environ.get("POB_ENGINE") and LUAJIT.exists(), "needs POB_ENGINE and the P02 LuaJIT runtime")
@@ -157,8 +200,9 @@ class RuntimeTests(unittest.TestCase):
             shutil.copy(pob / "src/Modules/AssistantUiText.lua", mods)
             (mods / "AssistantUiFallback.lua").write_text(gen.lua_module(tables, stats), encoding="utf-8")
             (mods / "AssistantConfigText.lua").write_text("return { label = function(t) return t end }\n")
-            (mods / "AssistantTerms.lua").write_text(
-                "return { baseName = function(t) return t == 'Amber Amulet' and '琥珀项链' or t end }\n")
+            (mods / "AssistantTerms.lua").write_text(TERMS_STUB, encoding="utf-8")
+            (mods / "AssistantCalcLabels.lua").write_text(
+                "return function(t) return t == 'Full DPS' and '全部技能 DPS' or t end\n", encoding="utf-8")
             script = r'''
 function LoadModule(name) return dofile(name .. ".lua") end
 local ui = LoadModule("Modules/AssistantUiText")
@@ -172,11 +216,42 @@ local cases = {
   { "Amber Amulet", "琥珀项链" },
   { "Line one\nDelete All", "Line one\n删除全部" },
   { "Something else", "Something else" },
+  -- V10: colour-keyed table entries, the sidebar label table, PoE2DB names and joined text
+  { "^7Tree set:", "^7天赋方案：" },
+  { "Tree set:", "天赋方案：" },
+  { "^7Full DPS", "^7全部技能 DPS" },
+  { "+ ^x70FFAFBarrage^7 19/5", "+ ^x70FFAF弹幕^7 19/5" },
+  { "^x7F7F7F- Barrage^7", "^x7F7F7F- 弹幕^7" },
+  { "Ring 1:", "戒指 1：" },
+  { "Ring 1 Swap", "戒指 1（副）" },
+  { "Foe Rosary, Amber Amulet, Ring 2", "Foe Rosary 琥珀项链, 戒指 2" },
+  { "Hate Chant, Amber Amulet", "Hate Chant 琥珀项链" },
+  { "Astramentis, Amber Amulet", "星辰项链" },
+  { "Hate Chant, Odd Staff", "Hate Chant, Odd Staff" },
+  { "Amber Amulet, Ring 2", "琥珀项链, 戒指 2" },
+  { "Jewel: Radius", "Jewel: Radius" },
+  { "Delete All  (2 diffs)", "删除全部（2 处差异）" },
+  { "^x8888FF# to Level of all Cold Spell Skills ^x9E3E38(Corrupted)", "^x8888FF所有冰霜法术技能等级 +# ^x9E3E38(腐化)" },
+  { "^x8888FF#% increased Attack Speed (Local)", "^x8888FF攻击速度提高 #% (区域)" },
+  { "^x8888FF# Empty Modifiers ^7(Pseudo)", "^x8888FF# Empty Modifiers ^7(Pseudo)" },
+  { "^x8888FF# Empty Modifiers ^7", "^x8888FF# Empty Modifiers ^7" },
 }
 for _, c in ipairs(cases) do
   local got = ui.draw(c[1])
   assert(got == c[2], ("%q -> %q, want %q"):format(c[1], got, c[2]))
 end
+-- The draw hook: DrawString/DrawStringWidth see the translated text, not inside M.raw.
+local seen
+DrawString = function(x, y, a, h, f, text) seen = text end
+DrawStringWidth = function(h, f, text) return #text end
+ui.installDrawHook()
+DrawString(0, 0, "LEFT", 16, "VAR", "^7Full DPS")
+assert(seen == "^7全部技能 DPS", seen)
+DrawString(0, 0, "LEFT", 16, "VAR", "12345")
+assert(seen == "12345", seen)
+ui.raw(function() DrawString(0, 0, "LEFT", 16, "VAR", "Full DPS") end)
+assert(seen == "Full DPS", seen)
+assert(DrawStringWidth(16, "VAR", "Full DPS") == #"全部技能 DPS")
 print("ok")
 '''
             result = subprocess.run([str(LUAJIT), "-e", script], cwd=tmp, capture_output=True, text=True,

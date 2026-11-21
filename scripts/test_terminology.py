@@ -10,7 +10,9 @@ from terminology import Catalog, ROOT, normalize
 
 
 FIXTURE = ROOT / "tests/fixtures/p03/terms.json"
-PIN = json.loads((ROOT / "sources/pob.json").read_text())["commit"]
+# The synthetic fixture names its own engine commit; the catalog only has to match it (the engine pin
+# itself moves with upstream releases, U05).
+PIN = json.loads(FIXTURE.read_text(encoding="utf-8"))["engine_commit"]
 
 
 class TerminologyTests(unittest.TestCase):
@@ -69,8 +71,12 @@ class TerminologyTests(unittest.TestCase):
                 self.load(bad)
 
     def test_cli_utf8_statuses_and_invalid_files(self):
+        # the CLI binds a catalog to sources/pob.json: give it the fixture under the current pin
+        pinned = Path(self.enterContext(tempfile.TemporaryDirectory())) / "terms.json"
+        engine = json.loads((ROOT / "sources/pob.json").read_text())["commit"]
+        pinned.write_text(json.dumps({**self.data, "engine_commit": engine}, ensure_ascii=False), encoding="utf-8")
         base = [sys.executable, "-B", str(ROOT / "scripts/terminology.py"),
-                "--catalog", str(FIXTURE), "--data-version", "synthetic/1"]
+                "--catalog", str(pinned), "--data-version", "synthetic/1"]
         for query, code, status in [("紙燈籠", 0, "found"), ("练习火花", 3, "ambiguous"),
                                     ("unknown", 2, "not_found")]:
             result = subprocess.run(base + ["--alias", query], cwd="/tmp", capture_output=True,

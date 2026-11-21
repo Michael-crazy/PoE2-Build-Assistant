@@ -158,7 +158,8 @@ def real_engine():
     engine = Path(os.environ.get('POB_ENGINE', '/tmp/poe2-pob-source'))
     if sys.platform != 'win32' and not (LINUX_RUNTIME / 'LuaJIT/src/libluajit.so').exists():
         return None
-    return engine if (engine / 'src/HeadlessWrapper.lua').exists() else None
+    # A repository checkout/export, or the release package's PoB/ (R02: scripts next to the runtime).
+    return engine if any((engine / name).exists() for name in ('src/HeadlessWrapper.lua', 'HeadlessWrapper.lua')) else None
 
 
 @unittest.skipUnless(real_engine(), 'pinned PoB engine or LuaJIT runtime unavailable')
@@ -202,7 +203,8 @@ class RealEngineTests(unittest.TestCase):
                 self.assertEqual(result['baseline'][key], expected['baseline'][key])
                 self.assertEqual(row['metrics'][key], case['replacement'][key])
             self.assertEqual(row['displaced'], [] if name == 'wand' else
-                             [{'slot': 'Weapon 2', 'name': 'P02 Focus, Hallowed Focus'}])
+                             [{'slot': 'Weapon 2', 'name': 'P02 Focus, Hallowed Focus', 'title': 'P02 Focus',
+                               'base': 'Hallowed Focus', 'rarity': 'RARE'}])
             self.assertEqual(result['skill'], {'dps_source': 'player', 'main_skill': 'Fireball', 'minion_skill': None})
             self.assertEqual(row['metrics']['DPS'], row['metrics']['CombinedDPS'])
         rejected = self.ask(cmd='evaluate', slot='Weapon 1 Swap', item_text=(REAL / 'bow.txt').read_text())

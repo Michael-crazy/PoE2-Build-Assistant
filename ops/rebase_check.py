@@ -10,6 +10,7 @@ taking upstream's lock file and regenerating it.
       [--pob-suite]   also run the full scripts/ suite against the rebased PoB
       [--pob-branch task/X]  check a task branch of the PoB home repo instead of the pinned one
       [--ee2-branch task/X]  same for the EE2 home repo
+      [--sources DIR]  read pob-branch.json / ee2.json from DIR instead of sources/ (U05 watcher, drills)
 
 Pins and repositories come from sources/pob-branch.json and sources/ee2.json; see
 sources/pob-branch.md. Exit status 0 only when every rebase and check passes.
@@ -47,8 +48,11 @@ def git(repo, *args, check=True):
     return run(["git", "-C", str(repo), *args], check=check)
 
 
+SOURCES = ROOT / "sources"
+
+
 def load(name):
-    return json.loads((ROOT / "sources" / name).read_text(encoding="utf-8"))
+    return json.loads((SOURCES / name).read_text(encoding="utf-8"))
 
 
 def clone(home, work, upstream_refs):
@@ -163,8 +167,12 @@ def pob_checks(repo, work, suite):
         return " ".join(out.stdout.strip().splitlines()[-3:])
 
     def full_suite():
-        out = run([sys.executable, "-B", "-m", "unittest", "discover", "-s", "scripts", "-p", "test_*.py"],
-                  cwd=ROOT, env=engine_env).stderr.strip().splitlines()
+        result = run([sys.executable, "-B", "-m", "unittest", "discover", "-s", "scripts", "-p", "test_*.py"],
+                     cwd=ROOT, env=engine_env, check=False)
+        out = result.stderr.strip().splitlines()
+        if result.returncode:  # name the failing tests (the report keeps the last 3000 characters)
+            failing = [line for line in out if line.startswith(("ERROR: ", "FAIL: "))]
+            raise AssertionError("\n".join(failing[:40] + out[-3:]))
         return " ".join(out[-3:])
 
     for name, func in [("replay install scripts", replay), ("i18n runtime", runtime),
@@ -204,7 +212,11 @@ def main():
     parser.add_argument("--pob-suite", action="store_true", help="run the full scripts/ suite too")
     parser.add_argument("--pob-branch", help="PoB branch to check (default: pob-branch.json name)")
     parser.add_argument("--ee2-branch", help="EE2 branch to check (default: ee2.json branch)")
+    parser.add_argument("--sources", type=Path, help="folder with the pins (default: sources/)")
     args = parser.parse_args()
+    if args.sources:
+        global SOURCES
+        SOURCES = args.sources.resolve()
     args.work.mkdir(parents=True, exist_ok=True)
     report = {}
 
@@ -228,7 +240,7 @@ def main():
         repo = args.work / "ee2"
         clone(home, repo, "+refs/heads/*:refs/remotes/origin/*")
         git(repo, "remote", "add", "upstream", pin["upstream"])
-        git(repo, "fetch", "-q", "upstream")
+        git(repo, "fetch", "-q", "--tags", "upstream")
         result = rebase(repo, pin["base"], args.ee2_onto, f"origin/{args.ee2_branch or pin['branch']}",
                         resolve_lockfile=True)
         if not result["conflicts"]:

@@ -49,6 +49,25 @@ def local_name(kind, key, language):
     return record[language] if record and record.get(language) else (record["en"] if record else key)
 
 
+def item_display_name(name, title, base, rarity, language):
+    """Name of an equipped item as the overlay shows it (V10, #23, user decision 2026-11-21): uniques by
+    their PoE2DB name; rare/magic items keep their random name (it has no translation) followed by the
+    PoE2DB base name, e.g. "Hate Chant 鸣谐长杖"; anything not in the tables stays as PoB names it."""
+    if not name or language == "en":
+        return name
+    if rarity in ("UNIQUE", "RELIC") and title:
+        records = terms().uniques.get(("en", title)) or []
+        return records[0][language] if records and records[0].get(language) else name
+    if base:
+        base_name = local_name("base", base, language)
+        if base_name == base:
+            return name
+        if title:
+            return f"{title} {base_name}"
+        return base_name if name == base else name
+    return name
+
+
 def number(value):
     return f"{value:+.0f}" if abs(value) >= 1 or value == 0 else f"{value:+.1f}"
 
@@ -101,8 +120,12 @@ def overlay(result, language):
     for slot in slots:
         after = slot["metrics"]
         slot["label"] = labels[slot["slot"]]
+        slot["replaced"] = item_display_name(slot["replaced"], slot.get("replaced_title"), slot.get("replaced_base"),
+                                             slot.get("replaced_rarity"), language)
         for other in slot["displaced"]:
             other["label"] = SLOT_LABELS.get(other["slot"], other["slot"])
+            other["name"] = item_display_name(other.get("name"), other.get("title"), other.get("base"),
+                                              other.get("rarity"), language)
         slot["dps"] = dps_change(baseline["DPS"], after["DPS"])
         slot["resists"] = {key: {"label": label, "before": baseline["resists"][key]["value"],
                                  "change": after["resists"][key]["value"] - baseline["resists"][key]["value"],

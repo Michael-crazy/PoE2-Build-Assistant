@@ -103,6 +103,7 @@ class RespondTests(unittest.TestCase):
         self.assertTrue(reply["slot"]["summary"].startswith("比当前手套强"))
         value = reply["value"]  # 50 exalted = 0.1 divine
         self.assertAlmostEqual(value["price_in_base"], 0.1)
+        self.assertAlmostEqual(value["price_in_divine"], 0.1)
         self.assertAlmostEqual(value["dps_percent"], 100.0)
         self.assertAlmostEqual(value["ehp"], 3000.0)
         self.assertEqual((value["base_name"], value["price_name"]), ("神圣石", "崇高石"))

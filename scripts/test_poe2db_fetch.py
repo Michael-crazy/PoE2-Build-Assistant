@@ -144,5 +144,93 @@ class FetcherTests(unittest.TestCase):
         self.assertEqual(len(self.manifest()["pages"]), 1)
 
 
+class RefreshTests(unittest.TestCase):
+    """R03: refetch only pages older than the limit."""
+    setUp, tearDown, manifest = FetcherTests.setUp, FetcherTests.tearDown, FetcherTests.manifest
+
+    def age(self, url, stamp, key="pages", field="fetched"):
+        manifest = self.manifest()
+        for entry in manifest[key]:
+            if entry["url"] == url:
+                entry[field] = stamp
+        (self.cache / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+
+    def limit(self):
+        return pf.parse_limit(refresh_before="2026-02-01T00:00:00+08:00")
+
+    def test_only_stale_pages_refetched(self):
+        f = fetcher(self.cache, self.site, self.clock)
+        f.page("us", "Rings")
+        f.page("cn", "Rings")
+        self.age("https://poe2db.tw/us/Rings", "2026-01-01T10:00+08:00")
+        self.age("https://poe2db.tw/cn/Rings", "2026-03-02T10:00:00+08:00")
+        self.site.pages["https://poe2db.tw/us/Rings"] = "<title>Rings v2</title>"
+        g = fetcher(self.cache, self.site, self.clock, stale_before=self.limit())
+        self.assertEqual(pf.stale_urls(g), ["https://poe2db.tw/us/Rings"])
+        self.assertEqual(g.page("us", "Rings"), "<title>Rings v2</title>")
+        self.assertIn("戒指", g.page("cn", "Rings"))
+        self.assertEqual([u for u, _ in g.fetched], ["https://poe2db.tw/us/Rings"])
+        # the refreshed page is newer than the limit: a second pass (resume) fetches nothing
+        h = fetcher(self.cache, self.site, self.clock, stale_before=self.limit())
+        self.assertEqual(pf.refresh_all(h), {"refreshed": 0, "gone": [], "failed": [], "left": 0})
+        self.assertEqual(h.fetched, [])
+
+    def test_refresh_all_resumes_and_handles_gone(self):
+        f = fetcher(self.cache, self.site, self.clock)
+        f.page("us", "Rings")
+        f.page("cn", "Rings")
+        f.page("us", "Nope")
+        for url in ("https://poe2db.tw/us/Rings", "https://poe2db.tw/cn/Rings"):
+            self.age(url, "2026-01-01T10:00+08:00")
+        self.age("https://poe2db.tw/us/Nope", "2026-01-01T10:00+08:00", "missing", "checked")
+        del self.site.pages["https://poe2db.tw/cn/Rings"]          # removed upstream
+        self.site.pages["https://poe2db.tw/us/Nope"] = "new gem"   # appeared
+        g = fetcher(self.cache, self.site, self.clock, stale_before=self.limit())
+        result = pf.refresh_all(g)
+        self.assertEqual(result["refreshed"], 2)
+        self.assertEqual(result["gone"], ["https://poe2db.tw/cn/Rings"])
+        self.assertEqual(result["left"], 0)
+        manifest = self.manifest()
+        self.assertEqual(sorted(p["url"] for p in manifest["pages"]),
+                         ["https://poe2db.tw/us/Nope", "https://poe2db.tw/us/Rings"])
+        self.assertEqual([m["url"] for m in manifest["missing"]], ["https://poe2db.tw/cn/Rings"])
+        self.assertFalse((self.cache / "cn/Rings.html").exists())
+        self.assertTrue(all(a >= 4 for a in self.clock.slept))
+
+    def test_offline_serves_stale_copy(self):
+        f = fetcher(self.cache, self.site, self.clock)
+        f.page("us", "Rings")
+        self.age("https://poe2db.tw/us/Rings", "2026-01-01T10:00+08:00")
+        g = fetcher(self.cache, self.site, self.clock, offline=True, stale_before=self.limit())
+        self.assertIn("Rings", g.page("us", "Rings"))
+        self.assertEqual(len(self.site.calls), 1)
+
+    def test_parse_limit(self):
+        now = pf.datetime(2026, 12, 10, tzinfo=pf.CST)
+        self.assertIsNone(pf.parse_limit())
+        self.assertEqual(pf.parse_limit(max_age=2, now=now), pf.datetime(2026, 12, 8, tzinfo=pf.CST))
+        self.assertEqual(pf.parse_limit(max_age=30, refresh_before="2026-12-05T00:00", now=now),
+                         pf.datetime(2026, 12, 5, tzinfo=pf.CST))
+
+    def test_gem_index_refresh_finds_new_gems(self):
+        index = "https://poe2db.tw/us/Skill_Gems"
+        self.site.pages[index] = '<a class="gem_red" href="/us/Fireball">'
+        self.site.pages["https://poe2db.tw/us/Fireball"] = "fire"
+        self.site.pages["https://poe2db.tw/us/Frost_Bomb"] = "frost"
+        f = fetcher(self.cache, self.site, self.clock)
+        pf.fetch_pages(f, pf.gem_pages(f), ["us"])
+        self.age(index, "2026-01-01T10:00+08:00")
+        self.age("https://poe2db.tw/us/Fireball", "2026-01-01T10:00+08:00")
+        self.site.pages[index] += '<a class="gem_blue" href="/us/Frost_Bomb">'
+        calls = len(self.site.calls)
+        g = fetcher(self.cache, self.site, self.clock)
+        idx = fetcher(self.cache, self.site, self.clock, stale_before=self.limit())
+        pf.fetch_pages(g, pf.gem_pages(idx), ["us"])
+        fetched = [u for u, _ in self.site.calls[calls:]]
+        self.assertIn(index, fetched)
+        self.assertIn("https://poe2db.tw/us/Frost_Bomb", fetched)
+        self.assertNotIn("https://poe2db.tw/us/Fireball", fetched)   # old gem page stays cached
+
+
 if __name__ == "__main__":
     unittest.main()

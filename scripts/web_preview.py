@@ -252,6 +252,10 @@ class WebPreview:
             return reply
         amount = converted["value"]
         reply["price_in_base"] = amount
+        # V10 #21: the trade window (EE2 trade-window-rules.previewValue, the overlay's rules) shows
+        # the plain gains below 0.05 Divine Orbs, whatever the base currency.
+        divines = price_in_base(price, "divine", rates)
+        reply["price_in_divine"] = divines["value"] if divines["ok"] else None
         percent = slot["dps"]["percent"]
         reply["dps_percent"] = None if percent is None else percent / amount
         reply["ehp"] = slot["delta"].get("TotalEHP", 0) / amount

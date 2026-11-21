@@ -304,6 +304,33 @@ class TencentSecondRoundTests(unittest.TestCase):
                 with self.subTest(path.name):
                     self.assertEqual(parse_item(path.read_text(encoding="utf-8-sig"))["unrecognized"], [])
 
+    def test_traditional_bonded_singular_implicit_and_leading_level(self):
+        # V10 #20: international crossbow, the three lines rebuilt from the user's screenshot.
+        result = parse_item(read("synthetic/intl-zh-hant-crossbow-bonded-desecrated.txt"))
+        self.assertEqual(result["unrecognized"], [])
+        lines = {line["text"]: line for line in result["lines"]}
+        bonded = lines["命定: 增加60%完全破甲的效果 (rune)"]
+        self.assertEqual(bonded["english"], "Bonded: 60% increased effect of Fully Broken Armour (rune)")
+        self.assertTrue(all(i.startswith("socketable:") for i in bonded["ids"]))
+        implicit = lines["擲彈技能發射額外一個投射物 (implicit)"]
+        self.assertEqual(implicit["english"], "Grenade Skills Fire an additional Projectile (implicit)")
+        self.assertEqual(implicit["ids"], ["implicit:Siege_Crossbow#0"])
+        level = lines["+5全部投射物技能等級 (desecrated)"]
+        self.assertEqual(level["english"], "+5 to Level of all Projectile Skills (desecrated)")
+        # The word-order variant only applies to a lone leading number.
+        self.assertEqual(match_line("5全部投射物技能等級", [], "zh_hant", {})[2], "matched")
+        self.assertEqual(match_line("5全部投射物技能等級3", [], "zh_hant", {})[2], "unrecognized")
+
+    def test_sanctified_status_and_fractured_marker(self):
+        # V10 #25: Tencent "圣化物品" (Sanctified) and "分裂之物" (Fractured Item) lines.
+        result = parse_item(read("synthetic/tencent-staff-sanctified-fractured.txt"))
+        self.assertEqual(result["unrecognized"], [])
+        lines = {line["text"]: line for line in result["lines"]}
+        self.assertEqual((lines["圣化物品"]["kind"], lines["圣化物品"]["english"]), ("status", "Sanctified"))
+        self.assertEqual((lines["分裂之物"]["kind"], lines["分裂之物"]["status"]), ("marker", "dropped"))
+        self.assertTrue(result["text"].endswith("--------\nSanctified\n"))
+        self.assertNotIn("分裂", result["text"])
+
     def test_rune_forged_note_is_dropped(self):
         text = "稀有度: 稀有\n仇恨 圣曲\n鸣谐长杖\n--------\n由奥杜尔之热情铸造 (rune)\n所有法术技能等级 +1 (rune)\n"
         result = parse_item(text, "zh_hans")

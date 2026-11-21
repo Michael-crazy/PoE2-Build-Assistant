@@ -19,7 +19,12 @@ PoB2-i18n Traditional text (`i18n-zh_TW`) is converted to Simplified with OpenCC
 This needs `pip install opencc-python-reimplemented` (0.1.7) where the script runs; PoB does not.
 PoB item type names (`Bow`, `Body Armour: Armour/Evasion`, `Flask: Life`...) come from the PoE2DB
 class table `data/terms/poe2db-1.0/names/item_classes.json` (ops/poe2db_item_classes.py), defence subtypes
-from `overrides.subTypes`; types the class table lacks stay English.
+from `overrides.subTypes`; types the class table lacks stay English. Currency names (Trader
+max-price list) come from the PoE2DB table `data/terms/poe2db-1.0/stackable_currency.json` (V10).
+Trade-site pseudo stats (Trader query options, `# Empty Prefix Modifiers`) have no PoE2DB text; they use the
+Tencent trade site's own Simplified text from `data/trade/stats.json` (V10, user decision 2026-11-21).
+Templates with a value at both ends and one fixed word in between are not used (V10: `%sLevel %d %s`
+turned `# to Level of ...` into half Chinese).
 `overrides.zh` also replaces a candidate's text or adds strings the prep script found no
 candidate for. `overrides.formats` adds string.format-style templates (`%d`, `%s`, `{0}`), and
 `overrides.patterns` / `overrides.plainPatterns` add Lua patterns for lines PoB joins with `..`
@@ -103,6 +108,16 @@ def literal_letters(template):
     return len(re.findall(r"[A-Za-z]", COLOUR.sub("", SPEC.sub("", template))))
 
 
+def loose(template):
+    """A template that starts and ends with a value and has a single fixed word in between
+    (`%sLevel %d %s`) matches any text containing that word, e.g. a trade mod line."""
+    plain = COLOUR.sub("", template).strip()
+    marks = [m for m in SPEC.finditer(plain) if m.group(0) != "%%"]
+    if not marks or marks[0].start() != 0 or marks[-1].end() != len(plain):
+        return False
+    return len(re.findall(r"[A-Za-z]+", SPEC.sub(" ", plain))) < 2
+
+
 def recolour(en, zh):
     """Carry the English colour codes the source text dropped: the leading one, and one inner code
     that follows a value (`= %.1f ^8per second` -> `= {0} ^8每秒`)."""
@@ -131,6 +146,8 @@ def template_rules(en, zh):
     count = len(placeholders(en))
     if literal_letters(en) < 3:
         return None, "too little fixed text to match safely"
+    if loose(en):
+        return None, "value at both ends and one fixed word: matches unrelated text"
     zh = recolour(en, zh)
     repl = replacement(zh, count)
     if repl is None:
@@ -200,7 +217,23 @@ def with_names(zh, rules):
     return zh
 
 
-def build(fallback, overrides, classes=None, to_simplified=lambda text: text, keywords=None):
+def currency_names(currency):
+    """Exact entries for currency names (Trader max-price list) from the PoE2DB currency table."""
+    out = {}
+    for entry in ((currency or {}).get("currencies") or {}).values():
+        if entry.get("en") and entry.get("zh_hans"):
+            out[entry["en"]] = entry["zh_hans"]
+    return out
+
+
+def pseudo_stats(trade_stats):
+    """Exact entries for the trade site's pseudo stats: English text -> Tencent trade site text."""
+    return {normalize(entry["en"]): entry["zh"] for entry in (trade_stats or {}).values()
+            if entry.get("type") == "pseudo" and entry.get("en") and entry.get("zh")}
+
+
+def build(fallback, overrides, classes=None, to_simplified=lambda text: text, keywords=None, currency=None,
+          trade_stats=None):
     names = name_rules(keywords, overrides.get("names"))
     zh_over = {normalize(key): text for key, text in overrides.get("zh", {}).items()}
     english = {normalize(key) for key in overrides.get("english", [])}
@@ -243,6 +276,14 @@ def build(fallback, overrides, classes=None, to_simplified=lambda text: text, ke
         if key not in zh_over:
             exact[key] = zh
             stats["used_by_source"]["poe2db-classes"] += 1
+    for key, zh in currency_names(currency).items():
+        if key not in zh_over and key not in exact:
+            exact[key] = zh
+            stats["used_by_source"]["poe2db-currency"] += 1
+    for key, zh in pseudo_stats(trade_stats).items():
+        if key not in zh_over and key not in exact:
+            exact[key] = zh
+            stats["used_by_source"]["tencent-trade-pseudo"] += 1
     known = {e["key"] for e in fallback["entries"]}
     for key, zh in zh_over.items():
         if key in known:
@@ -304,6 +345,8 @@ def main():
     parser.add_argument("--overrides", type=Path, default=DEFAULT_OVERRIDES)
     parser.add_argument("--classes", type=Path, default=ROOT / "data/terms/poe2db-1.0/names/item_classes.json")
     parser.add_argument("--keywords", type=Path, default=ROOT / "data/terms/poe2db-1.0/names/keywords.json")
+    parser.add_argument("--currency", type=Path, default=ROOT / "data/terms/poe2db-1.0/stackable_currency.json")
+    parser.add_argument("--trade-stats", type=Path, default=ROOT / "data/trade/stats.json")
     parser.add_argument("--stats", type=Path, help="write the counts and rejected templates here (JSON)")
     args = parser.parse_args()
     fallback = json.loads(args.fallback.read_text(encoding="utf-8"))
@@ -312,7 +355,10 @@ def main():
     import opencc  # generation only: pip install opencc-python-reimplemented
     tw2sp = opencc.OpenCC("tw2sp").convert
     keywords = json.loads(args.keywords.read_text(encoding="utf-8")) if args.keywords.exists() else None
-    tables, stats = build(fallback, overrides, classes, lambda text: tw2sp(text).replace("缺省", "默认"), keywords)
+    currency = json.loads(args.currency.read_text(encoding="utf-8")) if args.currency.exists() else None
+    tables, stats = build(fallback, overrides, classes, lambda text: tw2sp(text).replace("缺省", "默认"), keywords,
+                          currency, json.loads(args.trade_stats.read_text(encoding="utf-8"))
+                          if args.trade_stats.exists() else None)
     (args.pob / MODULE).write_text(lua_module(tables, stats), encoding="utf-8", newline="\n")
     summary = {k: (dict(v) if isinstance(v, Counter) else v) for k, v in stats.items() if k != "rejected"}
     summary["rejected"] = len(stats["rejected"])

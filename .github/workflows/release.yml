@@ -1,0 +1,77 @@
+name: release
+
+# A version tag (v0.1.0, matching the newest entry of release/changelog.txt) builds the Windows
+# package from the commits pinned in sources/*.json, creates the GitHub release with its assets and
+# pushes the update files to the PoB fork's branch assistant-release (PoB's updater reads them).
+# Run it by hand (workflow_dispatch) to build without publishing; the outputs are kept as an artifact.
+# All steps are in ops/release_build.py, which runs the same way on a local Windows machine.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # create the release in this repository
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: windows-2022
+    timeout-minutes: 120
+    env:
+      PUBLISH: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v') }}
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: "1"
+    steps:
+      - name: Long paths
+        run: git config --global core.longpaths true
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"  # same minor version as the embedded Python in the package
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24.22.1"  # as the EE2 builds of U01
+
+      - name: Deploy key for the PoB fork's release branch
+        if: env.PUBLISH == 'true'
+        shell: bash
+        env:
+          KEY: ${{ secrets.POB_RELEASE_DEPLOY_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "::error::secret POB_RELEASE_DEPLOY_KEY is missing (write deploy key of Michael-crazy/PathOfBuilding-PoE2)"
+            exit 1
+          fi
+          mkdir -p ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/pob_release
+          chmod 600 ~/.ssh/pob_release
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          echo "GIT_SSH_COMMAND=ssh -i ~/.ssh/pob_release -o IdentitiesOnly=yes" >> "$GITHUB_ENV"
+
+      - name: Build and publish
+        if: env.PUBLISH == 'true'
+        run: python -B ops/release_build.py --work "${{ runner.temp }}\rel" --tag "${{ github.ref_name }}" --publish
+
+      - name: Build only
+        if: env.PUBLISH != 'true'
+        run: python -B ops/release_build.py --work "${{ runner.temp }}\rel"
+
+      - name: Keep the outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-${{ github.ref_name }}
+          path: |
+            ${{ runner.temp }}\rel\out\*.zip
+            ${{ runner.temp }}\rel\out\SHA256SUMS.txt
+            ${{ runner.temp }}\rel\out\notes.md
+          if-no-files-found: warn
+          retention-days: 14

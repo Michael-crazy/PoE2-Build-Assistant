@@ -15,6 +15,10 @@ dofile = function(path)
     if path == '_SimpleGraphic.def.lua' then
         LaunchSubScript = function() error('background scripts disabled') end
         OpenURL = function() error('URLs disabled') end
+    elseif path == 'Launch.lua' then
+        -- R02: in the release layout the manifest turns dev mode off, so OnInit would start
+        -- PoB's background update check; the engine never updates itself.
+        launch.CheckForUpdate = function() end
     end
     return result
 end
@@ -169,12 +173,17 @@ local function evaluate(request)
         local displaced = {}
         for slot, old in pairs(state.items) do
             if slot ~= target and items[slot] ~= old then
-                displaced[#displaced + 1] = {slot = slot, name = old.name}
+                displaced[#displaced + 1] = {slot = slot, name = old.name, title = old.title or json.null,
+                    base = old.baseName or json.null, rarity = old.rarity or json.null}
             end
         end
         table.sort(displaced, function(a, b) return a.slot < b.slot end)
         local replaced = state.items[target]
         rows[#rows + 1] = {slot = control.slotName, replaced = replaced and replaced.name or json.null,
+            -- V10 (#23): parts of the name, so the backend can show the base in the client language
+            replaced_title = replaced and replaced.title or json.null,
+            replaced_base = replaced and replaced.baseName or json.null,
+            replaced_rarity = replaced and replaced.rarity or json.null,
             displaced = setmetatable(displaced, {__jsontype = 'array'}),
             metrics = after, delta = delta}
     end

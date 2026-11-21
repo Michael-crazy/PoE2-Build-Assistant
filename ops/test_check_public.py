@@ -49,7 +49,7 @@ class Patterns(unittest.TestCase):
     def test_email(self):
         self.assertEqual(kinds("mail " + "someone" + "@" + "gmail.com"), ["email"])
         for text in ("Co-Authored-By: Claude <noreply@anthropic.com>", "a@example.com",
-                     "1+x@users.noreply.github.com"):
+                     "1+x@users.noreply.github.com", "git@github.com:owner/repo.git"):
             self.assertEqual(kinds(text), [], text)
 
     def test_private_terms_case_insensitive(self):

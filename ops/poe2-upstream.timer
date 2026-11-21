@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily check of upstream PoB/EE2 releases and PoE2 season data (U05/R03)
+
+[Timer]
+OnCalendar=*-*-* 05:30:00
+RandomizedDelaySec=30min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

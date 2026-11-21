@@ -42,7 +42,7 @@ PATTERNS = [
     ("email", re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")),
 ]
 ALLOWED_EMAIL = re.compile(
-    r"(?i)^(?:noreply@anthropic\.com|[\w.+-]*noreply@[\w.-]+|[\w.+-]+@(?:example\.(?:com|org|net)|[\w.-]*\.?(?:invalid|test|example)|users\.noreply\.github\.com))$")
+    r"(?i)^(?:noreply@anthropic\.com|git@github\.com|[\w.+-]*noreply@[\w.-]+|[\w.+-]+@(?:example\.(?:com|org|net)|[\w.-]*\.?(?:invalid|test|example)|users\.noreply\.github\.com))$")
 
 
 def load_terms(path):

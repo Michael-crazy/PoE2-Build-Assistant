@@ -172,6 +172,17 @@ class OverlayFieldTests(unittest.TestCase):
         self.assertEqual(result["item"]["name"], "精魂 护指")
         self.assertIsNone(result["item"]["unique_name"])
 
+    def test_replaced_item_name_in_client_language(self):
+        # V10 (#23): rare random name kept, base from PoE2DB; uniques by their PoE2DB name.
+        base = metrics(dps=100.0)
+        weapon = slot("Weapon 1", "Hate Chant, Chiming Staff", base, metrics(dps=110.0))
+        weapon.update(replaced_title="Hate Chant", replaced_base="Chiming Staff", replaced_rarity="RARE")
+        weapon["displaced"] = [{"slot": "Weapon 2", "name": "Shavronne's Satchel, Fine Belt",
+                                "title": "Shavronne's Satchel", "base": "Fine Belt", "rarity": "UNIQUE"}]
+        result = self.evaluate(base, [weapon])
+        self.assertEqual(result["slots"][0]["replaced"], "Hate Chant 鸣谐长杖")
+        self.assertEqual(result["slots"][0]["displaced"][0]["name"], "薛朗的背包")
+
     def test_zero_baseline_dps_has_no_percent(self):
         base = metrics(dps=0.0)
         after = metrics(dps=35.5, ehp=90.0)

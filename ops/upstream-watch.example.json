@@ -1,0 +1,7 @@
+{
+  "_note": "Copy to ~/.config/poe2-assistant/upstream-watch.json. Every key is optional (defaults in ops/upstream_watch.py). notify: dry-run | send | off; hold: true stops before publishing until `upstream_watch.py release`.",
+  "hold": false,
+  "notify": "dry-run",
+  "fetch": true,
+  "trade_fetch": true
+}

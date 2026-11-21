@@ -5,6 +5,14 @@
   python3 -B scripts/poe2db_fetch.py gems              # every gem page linked from the gem index pages
   python3 -B scripts/poe2db_fetch.py adopt-gempages    # register the D02 gempages/{us,cn} files
   python3 -B scripts/poe2db_fetch.py status
+  python3 -B scripts/poe2db_fetch.py --refresh-before 2026-12-12T05:30+08:00 refresh   # R03 new season
+  python3 -B scripts/poe2db_fetch.py gems --index-max-age 1    # refetch the gem indexes only: new gems
+  python3 -B scripts/poe2db_fetch.py --max-age 1 pages Rings   # refetch Rings if older than a day
+
+R03 refresh: with `--max-age DAYS` / `--refresh-before ISO` (Fetcher(stale_before=...)), a cached page or
+recorded 404 whose manifest time is before the limit is fetched again (same lock and 4 s spacing). A
+fixed --refresh-before makes an interrupted refresh resumable: pages already fetched again are newer.
+A page that now answers 404 is dropped from the cache; a 404 that answers again leaves missing[].
 
 Every module that needs a PoE2DB page asks `Fetcher(cache).get(url)` (or `.page(lang, name)`):
 
@@ -138,8 +146,10 @@ def _open(url):
 
 class Fetcher:
     def __init__(self, cache=DEFAULT_CACHE, delay=DELAY, offline=None, opener=_open, sleep=time.sleep,
-                 clock=time.time, log=None):
+                 clock=time.time, log=None, stale_before=None):
         self.cache = Path(cache).expanduser()
+        # R03 refresh: cached pages and 404 records older than this (aware datetime) are fetched again.
+        self.stale_before = stale_before
         self.delay = max(float(delay), DELAY)
         self.offline = os.environ.get("POE2DB_OFFLINE") == "1" if offline is None else offline
         self.opener, self.sleep, self.clock = opener, sleep, clock
@@ -171,9 +181,11 @@ class Fetcher:
         self._index = (pages, missing)
         return self._index
 
-    def _update_manifest(self, page=None, missing=None):
+    def _update_manifest(self, page=None, missing=None, found=None):
         """Re-read, merge one record, write atomically (call with the fetch lock held)."""
         manifest = self.manifest()
+        if found:  # a recorded 404 that exists again
+            manifest["missing"] = [m for m in manifest["missing"] if not _same(m.get("url"), found)]
         if page:
             manifest["pages"] = [p for p in manifest["pages"] if _same(p.get("url"), page["url"]) is False] + [page]
         if missing:
@@ -206,8 +218,24 @@ class Fetcher:
     def page(self, lang, page, refresh=False):
         return self.get(page_url(lang, page), refresh)
 
+    def is_stale(self, url):
+        """True when stale_before is set and the cached copy (or 404 record) of url is older than it.
+
+        A file found only by its layout path (no manifest record) has no known age and counts as stale."""
+        if self.stale_before is None:
+            return False
+        url = normalize(url)
+        pages, missing = self._index or self._load_index()
+        entry = pages.get(url)
+        if entry and (self.cache / entry["file"]).exists():
+            return _older(entry.get("fetched"), self.stale_before)
+        if url in missing and missing[url].get("status") in GONE:
+            return _older(missing[url].get("checked"), self.stale_before)
+        return (self.cache / cache_path(url)).exists()
+
     def get_bytes(self, url, refresh=False):
         url = normalize(url)
+        refresh = refresh or (not self.offline and self.is_stale(url))
         path = None if refresh else self.cached_file(url)
         if path:
             return path.read_bytes()
@@ -222,19 +250,35 @@ class Fetcher:
         with _locked(self.cache / ".fetch.lock"):
             if not refresh:
                 self._index = None             # another process may have fetched it while we waited
-                path = self.cached_file(url)
-                if path:
-                    return path.read_bytes()
-                if self.is_missing(url):
-                    return None
+                if not self.is_stale(url):
+                    path = self.cached_file(url)
+                    if path:
+                        return path.read_bytes()
+                    if self.is_missing(url):
+                        return None
             status, body = self._request(url)
             if status in GONE:
+                old = self._drop_page(url)     # a page that went away: forget the stale copy
                 self._update_manifest(missing={"url": url, "status": status, "checked": _stamp()})
+                if old:
+                    old.unlink(missing_ok=True)
                 return None
             rel = cache_path(url)
             _atomic_write(self.cache / rel, body)
-            self._update_manifest(page={"url": url, "file": rel, "fetched": _stamp()})
+            self._update_manifest(page={"url": url, "file": rel, "fetched": _stamp()}, found=url)
             return body
+
+    def _drop_page(self, url):
+        """Remove url's page record (lock held); returns the file it pointed to, if any."""
+        manifest = self.manifest()
+        old = [p for p in manifest["pages"] if _same(p.get("url"), url)]
+        path = self.cache / old[0]["file"] if old else self.cache / cache_path(url)
+        if old:
+            manifest["pages"] = [p for p in manifest["pages"] if not _same(p.get("url"), url)]
+            _atomic_write(self.cache / "manifest.json",
+                          json.dumps(manifest, ensure_ascii=False, indent=1).encode("utf-8"))
+            self._index = None
+        return path if path.exists() else None
 
     def _request(self, url):
         last = self.cache / ".last_fetch"
@@ -293,7 +337,29 @@ def _same(left, right):
 
 
 def _stamp():
-    return datetime.now(CST).isoformat(timespec="minutes")
+    return datetime.now(CST).isoformat(timespec="seconds")
+
+
+def _older(stamp, limit):
+    """True when the ISO time `stamp` is before `limit`; a missing or unreadable stamp is old."""
+    try:
+        when = datetime.fromisoformat(stamp)
+    except (TypeError, ValueError):
+        return True
+    if when.tzinfo is None:
+        when = when.replace(tzinfo=CST)
+    return when < limit
+
+
+def parse_limit(max_age=None, refresh_before=None, now=None):
+    """stale_before from --max-age DAYS and/or --refresh-before ISO (the later one wins), or None."""
+    limits = []
+    if max_age is not None:
+        limits.append((now or datetime.now(CST)) - timedelta(days=float(max_age)))
+    if refresh_before:
+        when = datetime.fromisoformat(refresh_before)
+        limits.append(when if when.tzinfo else when.replace(tzinfo=CST))
+    return max(limits) if limits else None
 
 
 def gem_pages(fetcher):
@@ -322,6 +388,38 @@ def fetch_pages(fetcher, pages, langs=LANGS):
     return result
 
 
+def stale_urls(fetcher):
+    """Manifest URLs (pages, then 404s) older than fetcher.stale_before, in manifest order."""
+    manifest = fetcher.manifest()
+    urls = []
+    for entry in manifest["pages"] + manifest["missing"]:
+        try:
+            url = normalize(entry["url"])
+        except (KeyError, ValueError):
+            continue
+        if url not in urls and fetcher.is_stale(url):
+            urls.append(url)
+    return urls
+
+
+def refresh_all(fetcher):
+    """R03 new-season refresh: refetch every stale page; returns {'refreshed','gone','failed','left'}."""
+    result = {"refreshed": 0, "gone": [], "failed": []}
+    urls = stale_urls(fetcher)
+    for url in urls:
+        try:
+            found = fetcher.get(url)
+        except FetchError as error:
+            result["failed"].append(str(error))
+            continue
+        if found is None:
+            result["gone"].append(url)
+        else:
+            result["refreshed"] += 1
+    result["left"] = len(stale_urls(fetcher)) if not fetcher.offline else len(urls)
+    return result
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--cache", type=Path, default=DEFAULT_CACHE)
@@ -333,14 +431,34 @@ def main(argv=None):
     pages.add_argument("--langs", default=",".join(LANGS))
     gems = sub.add_parser("gems", help="fetch every gem page (us, cn)")
     gems.add_argument("--langs", default="us,cn")
+    gems.add_argument("--index-max-age", type=float, metavar="DAYS",
+                      help="refetch only the gem index pages older than DAYS (finds new gems)")
+    sub.add_parser("refresh", help="refetch every page and 404 in the manifest older than the limit "
+                                   "(needs --max-age or --refresh-before)")
     sub.add_parser("adopt-gempages", help="register gempages/<lang>/*.html in the manifest")
     sub.add_parser("status")
+    parser.add_argument("--max-age", type=float, metavar="DAYS",
+                        help="refetch cached pages (and 404s) fetched more than DAYS ago")
+    parser.add_argument("--refresh-before", metavar="ISO",
+                        help="refetch cached pages fetched before this time (fixed limit: an interrupted "
+                             "refresh run again with the same limit fetches only what is left)")
     args = parser.parse_args(argv)
-    fetcher = Fetcher(args.cache, args.delay, args.offline or None, log=lambda m: print(m, flush=True))
+    limit = parse_limit(args.max_age, args.refresh_before)
+    log = lambda m: print(m, flush=True)  # noqa: E731
+    fetcher = Fetcher(args.cache, args.delay, args.offline or None, log=log, stale_before=limit)
     if args.command == "pages":
         result = fetch_pages(fetcher, args.names, args.langs.split(","))
     elif args.command == "gems":
-        result = fetch_pages(fetcher, gem_pages(fetcher), args.langs.split(","))
+        index = fetcher
+        if args.index_max_age is not None:
+            index = Fetcher(args.cache, args.delay, args.offline or None, log=log,
+                            stale_before=parse_limit(args.index_max_age))
+            index.fetched = fetcher.fetched
+        result = fetch_pages(fetcher, gem_pages(index), args.langs.split(","))
+    elif args.command == "refresh":
+        if limit is None:
+            parser.error("refresh needs --max-age or --refresh-before")
+        result = refresh_all(fetcher)
     elif args.command == "adopt-gempages":
         files = sorted(str(p.relative_to(fetcher.cache)).replace(os.sep, "/")
                        for p in (fetcher.cache / "gempages").glob("*/*.html"))
@@ -350,6 +468,8 @@ def main(argv=None):
         manifest = fetcher.manifest()
         result = {"pages": len(manifest["pages"]), "missing": len(manifest["missing"]),
                   "on_disk": sum(1 for p in manifest["pages"] if (fetcher.cache / p["file"]).exists())}
+        if limit is not None:
+            result["stale"] = len(stale_urls(fetcher))
     result["network_requests"] = len(fetcher.fetched)
     print(json.dumps(result, ensure_ascii=False))
     return 1 if result.get("failed") else 0
