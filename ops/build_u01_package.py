@@ -22,7 +22,7 @@ can replace any file; all paths relative to the package root):
         版本.json         version and pinned commits
         Builds/, Settings.xml ...   the player's data, created by PoB; never in the manifest
 
-Outputs in --out: the folder, `PoE2助手-v<version>.zip`, `release-branch/` (what the release branch
+Outputs in --out: the folder, `PoE2-Assistant-v<version>.zip`, `release-branch/` (what the release branch
 holds: every manifest file but the assistant's, plus manifest.xml), `assistant-<EE2 commit>.zip`
 (the assistant part, only when built from --assistant) and SHA256SUMS.txt.
 
@@ -52,6 +52,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from hook_pob_assistant import install as install_hook  # noqa: E402
 
 NAME = "PoE2助手"
+# GitHub release asset names are ASCII only (it turned "PoE2助手-v0.1.0.zip" into "PoE2.-v0.1.0.zip").
+ZIP_NAME = "PoE2-Assistant"
 PYTHON_VERSION = "3.12.10"  # last 3.12 release with an embeddable package
 PYTHON_URL = f"https://www.python.org/ftp/python/{PYTHON_VERSION}/python-{PYTHON_VERSION}-embed-amd64.zip"
 PYTHON_SHA256 = "4acbed6dd1c744b0376e3b1cf57ce906f9dc9e95e68824584c8099a63025a3c3"
@@ -435,7 +437,7 @@ def build(pob, assistant, ee2_commit, out, cache, pobg, pob_commit=None, make_zi
         write_zip(new_zip, [(manifest_name(name), root / name) for name, (part, _) in sorted(files.items())
                             if part == "assistant"])
         outputs.append(new_zip)
-    archive = out / f"{NAME}-{tag}.zip"
+    archive = out / f"{ZIP_NAME}-{tag}.zip"
     archive.unlink(missing_ok=True)
     if make_zip:
         write_zip(archive, [(path.relative_to(out).as_posix(), path)

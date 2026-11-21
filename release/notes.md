@@ -15,7 +15,7 @@ PoE2 助手 v{version}（{date}）：简体中文 Path of Building（PoE2）+ �
 
 ## 安装
 
-1. 下载下面的 `PoE2助手-v{version}.zip`，解压到一个普通文件夹（如 `D:\Games\`）。不要放在 `C:\Program Files` 这类需要管理员权限的位置，否则无法自动更新；路径也不要太深。
+1. 下载下面的 `PoE2-Assistant-v{version}.zip`，解压到一个普通文件夹（如 `D:\Games\`）。不要放在 `C:\Program Files` 这类需要管理员权限的位置，否则无法自动更新；路径也不要太深。
 2. 双击 `PoE2助手\启动中文PoB.cmd`。PoB 以中文打开，游戏内助手在后台启动（托盘图标）。
 3. 在 PoB 里导入或打开你的 BD，进游戏指向装备按 `Ctrl+Shift+D`。
 4. 想在 AI 客户端里用，双击 `显示MCP配置.cmd`，照着加一次配置。

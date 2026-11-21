@@ -30,7 +30,7 @@
 
 ## 下载安装
 
-1. 到 [Releases](https://github.com/Michael-crazy/PoE2-Build-Assistant/releases)（发布后开放）下载最新的 Windows ZIP。
+1. 到 [Releases](https://github.com/Michael-crazy/PoE2-Build-Assistant/releases)下载最新的 Windows ZIP。
 2. 解压到一个普通文件夹（不要放在 `C:\Program Files` 这类需要管理员权限才能写入的位置）。
 3. 双击 `启动中文PoB.cmd`。PoB 以简体中文打开，游戏内助手在后台启动，托盘里出现图标；关掉 PoB，助手随之退出。
 4. 在 PoB 里打开或导入 BD，进游戏按 `Ctrl+Shift+D`。助手的快捷键、服务器和语言、浮层选项都在 PoB“选项”的“助手”分组里。

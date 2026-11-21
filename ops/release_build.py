@@ -222,7 +222,7 @@ def main():
                   release_base=release_base)
     repo = release_branch(out, work, args.branch_remote, args.branch, tag)
     notes_file = notes(out, version, date, reused=bool(found))
-    assets = [out / f"{package.NAME}-{tag}.zip", out / "SHA256SUMS.txt"]
+    assets = [out / f"{package.ZIP_NAME}-{tag}.zip", out / "SHA256SUMS.txt"]
     if not found:
         assets.append(out / zip_name)
     log("产物：" + ", ".join(str(a) for a in assets))
