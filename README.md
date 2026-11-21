@@ -24,6 +24,10 @@
 |---|---|
 | ![国际服装备评估浮层](docs/screenshots/eval-intl-crossbow.png) | ![国服装备评估浮层](docs/screenshots/eval-tencent-staff.png) |
 
+助手自带的市集窗口（国服）：每条挂单右侧显示这件装备对当前 BD 的提升和每 1 神圣石的性价比。
+
+![助手自带市集窗口](docs/screenshots/trade-window-tencent.png)
+
 ## 下载安装
 
 1. 到 [Releases](https://github.com/Michael-crazy/PoE2-Build-Assistant/releases)（发布后开放）下载最新的 Windows ZIP。
