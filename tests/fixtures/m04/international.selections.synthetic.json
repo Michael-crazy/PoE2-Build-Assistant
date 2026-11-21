@@ -1,0 +1,34 @@
+{
+  "_provenance": "自编离线槽位选择；非 BD 导出、词缀匹配或市场证据。",
+  "context": {
+    "realm": "international",
+    "league": "Offline Test League"
+  },
+  "response_file": "../m01/listings.json",
+  "selections": [
+    {
+      "slot": "Ring 1",
+      "matched_affixes": [
+        "+25 to maximum Life"
+      ],
+      "listing_id": "authored-unique-001"
+    },
+    {
+      "slot": "Belt",
+      "matched_affixes": [
+        "+80 to maximum Life"
+      ],
+      "listing_id": "authored-rare-002"
+    },
+    {
+      "slot": "Ring 2",
+      "matched_affixes": [],
+      "listing_id": null
+    },
+    {
+      "slot": "Gloves",
+      "matched_affixes": [],
+      "listing_id": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Item Class: Rings
+Rarity: Unique
+Blackheart
+Iron Ring
+--------
+Requires: Level 8
+--------
+Item Level: 60
+--------
+Adds 1 to 4 Physical Damage to Attacks (implicit)
+--------
+4.5 Life Regeneration per second
+Adds 5 to 9 Chaos Damage to Attacks
++15% of Armour also applies to Chaos Damage
+25% chance to Intimidate Enemies for 4 seconds on Hit

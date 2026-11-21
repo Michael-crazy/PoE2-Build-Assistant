@@ -1,0 +1,18 @@
+Item Class: Quarterstaves
+Rarity: Rare
+Storm Branch
+Wrapped Quarterstaff
+--------
+Physical Damage: 22-46
+Critical Hit Chance: 10.00%
+Attacks per Second: 1.40
+--------
+Requires: Level 5, 10 Dex, 10 Int
+--------
+Sockets: -
+--------
+Item Level: 40
+--------
+38% increased Physical Damage
+Adds 4 to 9 Lightning Damage
++18 to Dexterity

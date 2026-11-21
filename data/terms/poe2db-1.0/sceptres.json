@@ -1,0 +1,10137 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Sceptres",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Sceptres",
+    "file": "us/Sceptres.html",
+    "fetched": "2026-11-17T22:09+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Sceptres",
+    "file": "cn/Sceptres.html",
+    "fetched": "2026-11-17T22:09+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Sceptres",
+    "file": "tw/Sceptres.html",
+    "fetched": "2026-11-17T22:09+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "item_class_code": "Sceptre",
+  "mods_source": "ModsView",
+  "placeholders": "'#' replaces each rolled value; ranges lists [min, max] per '#' in English order",
+  "generation_types": {
+   "1": "Prefix",
+   "2": "Suffix",
+   "3": "Unique",
+   "5": "Corrupted"
+  },
+  "summary": {
+   "mismatches": 0,
+   "mods": 190,
+   "socketables": 76,
+   "base_types": 16,
+   "uniques": 8,
+   "page_entries": 321,
+   "pob_joined": 189,
+   "pob_text_differs": 0,
+   "missing_in_pob": 1,
+   "pob_only": 24,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 29,
+     "differ": 8,
+     "absent": 5
+    },
+    "names": {
+     "agree": 7,
+     "differ": 13,
+     "absent": 1
+    }
+   }
+  }
+ },
+ "mods": {
+  "Strength1": {
+   "id": "Strength1",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Brute",
+    "zh_hans": "野蛮之",
+    "zh_hant": "野蠻之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength2": {
+   "id": "Strength2",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     9.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Wrestler",
+    "zh_hans": "摔角手之",
+    "zh_hant": "摔角手之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength3": {
+   "id": "Strength3",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     13.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Bear",
+    "zh_hans": "熊之",
+    "zh_hant": "熊之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength4": {
+   "id": "Strength4",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     17.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Lion",
+    "zh_hans": "狮子之",
+    "zh_hant": "獅子之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength5": {
+   "id": "Strength5",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     21.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Gorilla",
+    "zh_hans": "大猩猩之",
+    "zh_hant": "大猩猩之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength6": {
+   "id": "Strength6",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     25.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Goliath",
+    "zh_hans": "巨人之",
+    "zh_hant": "巨人之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength7": {
+   "id": "Strength7",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 66,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     28.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Leviathan",
+    "zh_hans": "海兽之",
+    "zh_hant": "海獸之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength8": {
+   "id": "Strength8",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 74,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     31.0,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "affix": {
+    "en": "of the Titan",
+    "zh_hans": "泰坦之",
+    "zh_hant": "泰坦之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence1": {
+   "id": "Intelligence1",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Pupil",
+    "zh_hans": "瞳孔之",
+    "zh_hant": "瞳孔之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence2": {
+   "id": "Intelligence2",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     9.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Student",
+    "zh_hans": "学徒之",
+    "zh_hant": "學徒之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence3": {
+   "id": "Intelligence3",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     13.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Prodigy",
+    "zh_hans": "奇才之",
+    "zh_hant": "奇才之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence4": {
+   "id": "Intelligence4",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     17.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Augur",
+    "zh_hans": "预言之",
+    "zh_hant": "預言之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence5": {
+   "id": "Intelligence5",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     21.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Philosopher",
+    "zh_hans": "哲学家之",
+    "zh_hant": "哲學家之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence6": {
+   "id": "Intelligence6",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     25.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Sage",
+    "zh_hans": "圣人之",
+    "zh_hant": "聖人之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence7": {
+   "id": "Intelligence7",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 66,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     28.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Savant",
+    "zh_hans": "大学者之",
+    "zh_hant": "大學者之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence8": {
+   "id": "Intelligence8",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 74,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     31.0,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "affix": {
+    "en": "of the Virtuoso",
+    "zh_hans": "神技之",
+    "zh_hant": "神技之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllResistances1": {
+   "id": "NearbyAlliesAllResistances1",
+   "family": [
+    "AllResistances"
+   ],
+   "generation_type": "2",
+   "level": 12,
+   "en": [
+    "Allies in your Presence have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     3.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的所有元素抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%處於你存在範圍中的友方全元素抗性"
+   ],
+   "affix": {
+    "en": "of Adjustment",
+    "zh_hans": "适应",
+    "zh_hant": "調整之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllResistances2": {
+   "id": "NearbyAlliesAllResistances2",
+   "family": [
+    "AllResistances"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "Allies in your Presence have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     6.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的所有元素抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%處於你存在範圍中的友方全元素抗性"
+   ],
+   "affix": {
+    "en": "of Acclimatisation",
+    "zh_hans": "驯化之",
+    "zh_hant": "馴化之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllResistances3": {
+   "id": "NearbyAlliesAllResistances3",
+   "family": [
+    "AllResistances"
+   ],
+   "generation_type": "2",
+   "level": 40,
+   "en": [
+    "Allies in your Presence have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     9.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的所有元素抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%處於你存在範圍中的友方全元素抗性"
+   ],
+   "affix": {
+    "en": "of Adaptation",
+    "zh_hans": "调试之",
+    "zh_hant": "適性之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllResistances4": {
+   "id": "NearbyAlliesAllResistances4",
+   "family": [
+    "AllResistances"
+   ],
+   "generation_type": "2",
+   "level": 54,
+   "en": [
+    "Allies in your Presence have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     12.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的所有元素抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%處於你存在範圍中的友方全元素抗性"
+   ],
+   "affix": {
+    "en": "of Evolution",
+    "zh_hans": "演化之",
+    "zh_hant": "進化之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllResistances5": {
+   "id": "NearbyAlliesAllResistances5",
+   "family": [
+    "AllResistances"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "Allies in your Presence have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     15.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的所有元素抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%處於你存在範圍中的友方全元素抗性"
+   ],
+   "affix": {
+    "en": "of Progression",
+    "zh_hans": "渐进之",
+    "zh_hant": "進展之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllResistances6": {
+   "id": "NearbyAlliesAllResistances6",
+   "family": [
+    "AllResistances"
+   ],
+   "generation_type": "2",
+   "level": 80,
+   "en": [
+    "Allies in your Presence have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     17.0,
+     18.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的所有元素抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%處於你存在範圍中的友方全元素抗性"
+   ],
+   "affix": {
+    "en": "of Metamorphosis",
+    "zh_hans": "蜕变之",
+    "zh_hant": "鍊魔之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana1": {
+   "id": "IncreasedMana1",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Beryl",
+    "zh_hans": "绿宝石的",
+    "zh_hant": "綠寶石的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana2": {
+   "id": "IncreasedMana2",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 6,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     15.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Cobalt",
+    "zh_hans": "钴蓝的",
+    "zh_hant": "鈷藍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana3": {
+   "id": "IncreasedMana3",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     25.0,
+     34.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Azure",
+    "zh_hans": "湛蓝的",
+    "zh_hant": "湛藍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana4": {
+   "id": "IncreasedMana4",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 25,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     35.0,
+     54.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Teal",
+    "zh_hans": "青蓝的",
+    "zh_hant": "清綠"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana5": {
+   "id": "IncreasedMana5",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     55.0,
+     64.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Cerulean",
+    "zh_hans": "天蓝的",
+    "zh_hant": "天藍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana6": {
+   "id": "IncreasedMana6",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 38,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     65.0,
+     79.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Aqua",
+    "zh_hans": "水星的",
+    "zh_hant": "水星的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana7": {
+   "id": "IncreasedMana7",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     80.0,
+     89.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Opalescent",
+    "zh_hans": "乳白色的",
+    "zh_hant": "乳白色的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana8": {
+   "id": "IncreasedMana8",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     90.0,
+     104.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Gentian",
+    "zh_hans": "龙胆的",
+    "zh_hant": "龍膽的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana9": {
+   "id": "IncreasedMana9",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     105.0,
+     124.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Chalybeous",
+    "zh_hans": "靛蓝的",
+    "zh_hant": "靛藍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana10": {
+   "id": "IncreasedMana10",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     125.0,
+     149.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Mazarine",
+    "zh_hans": "深蓝的",
+    "zh_hant": "深藍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedMana11": {
+   "id": "IncreasedMana11",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "1",
+   "level": 70,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     150.0,
+     164.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Blue",
+    "zh_hans": "纯蓝的",
+    "zh_hant": "純藍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements1": {
+   "id": "ReducedLocalAttributeRequirements1",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 24,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Worthy",
+    "zh_hans": "价值之",
+    "zh_hant": "值得之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements2": {
+   "id": "ReducedLocalAttributeRequirements2",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 32,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     20.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Apt",
+    "zh_hans": "容易之",
+    "zh_hant": "容易之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements3": {
+   "id": "ReducedLocalAttributeRequirements3",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 40,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     25.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Talented",
+    "zh_hans": "才华之",
+    "zh_hant": "長才之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements4": {
+   "id": "ReducedLocalAttributeRequirements4",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 52,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     30.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Skilled",
+    "zh_hans": "娴熟之",
+    "zh_hant": "高超之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements5": {
+   "id": "ReducedLocalAttributeRequirements5",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 60,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     35.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Proficient",
+    "zh_hans": "精通之",
+    "zh_hant": "熟習之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage1": {
+   "id": "NearbyAlliesAddedPhysicalDamage1",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     3.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Glinting",
+    "zh_hans": "闪烁的",
+    "zh_hant": "反光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage2": {
+   "id": "NearbyAlliesAddedPhysicalDamage2",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     2.0,
+     3.0
+    ],
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Burnished",
+    "zh_hans": "磨光的",
+    "zh_hant": "磨光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage3": {
+   "id": "NearbyAlliesAddedPhysicalDamage3",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ],
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Polished",
+    "zh_hans": "抛光的",
+    "zh_hant": "拋光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage4": {
+   "id": "NearbyAlliesAddedPhysicalDamage4",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ],
+    [
+     8.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Honed",
+    "zh_hans": "砥砺的",
+    "zh_hant": "砥礪的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage5": {
+   "id": "NearbyAlliesAddedPhysicalDamage5",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     7.0
+    ],
+    [
+     9.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Gleaming",
+    "zh_hans": "熠熠的",
+    "zh_hant": "熠熠的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage6": {
+   "id": "NearbyAlliesAddedPhysicalDamage6",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     6.0,
+     10.0
+    ],
+    [
+     12.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Annealed",
+    "zh_hans": "韧炼的",
+    "zh_hant": "韌煉的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage7": {
+   "id": "NearbyAlliesAddedPhysicalDamage7",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     7.0,
+     11.0
+    ],
+    [
+     14.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Razor-sharp",
+    "zh_hans": "锋利的",
+    "zh_hant": "鋒利的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage8": {
+   "id": "NearbyAlliesAddedPhysicalDamage8",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ],
+    [
+     18.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Tempered",
+    "zh_hans": "锻炼的",
+    "zh_hant": "鍛煉的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedPhysicalDamage9": {
+   "id": "NearbyAlliesAddedPhysicalDamage9",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Physical Damage"
+   ],
+   "ranges": [
+    [
+     12.0,
+     19.0
+    ],
+    [
+     22.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击物理伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+   ],
+   "affix": {
+    "en": "Flaring",
+    "zh_hans": "迸出的",
+    "zh_hant": "迸出的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage1": {
+   "id": "NearbyAlliesAddedFireDamage1",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     3.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Heated",
+    "zh_hans": "加热的",
+    "zh_hant": "加熱的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage2": {
+   "id": "NearbyAlliesAddedFireDamage2",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     3.0,
+     5.0
+    ],
+    [
+     6.0,
+     9.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Smouldering",
+    "zh_hans": "闷烧的",
+    "zh_hant": "悶燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage3": {
+   "id": "NearbyAlliesAddedFireDamage3",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     6.0,
+     8.0
+    ],
+    [
+     10.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Smoking",
+    "zh_hans": "冒烟的",
+    "zh_hant": "冒煙的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage4": {
+   "id": "NearbyAlliesAddedFireDamage4",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     9.0,
+     11.0
+    ],
+    [
+     14.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Burning",
+    "zh_hans": "燃烧的",
+    "zh_hant": "燃燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage5": {
+   "id": "NearbyAlliesAddedFireDamage5",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     12.0,
+     13.0
+    ],
+    [
+     18.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Flaming",
+    "zh_hans": "烈火的",
+    "zh_hant": "火焰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage6": {
+   "id": "NearbyAlliesAddedFireDamage6",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ],
+    [
+     21.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Scorching",
+    "zh_hans": "酷热的",
+    "zh_hant": "酷熱的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage7": {
+   "id": "NearbyAlliesAddedFireDamage7",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     17.0,
+     19.0
+    ],
+    [
+     27.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Incinerating",
+    "zh_hans": "焚烧的",
+    "zh_hant": "焚燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage8": {
+   "id": "NearbyAlliesAddedFireDamage8",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ],
+    [
+     31.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Blasting",
+    "zh_hans": "爆破的",
+    "zh_hant": "爆破的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedFireDamage9": {
+   "id": "NearbyAlliesAddedFireDamage9",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Fire Damage"
+   ],
+   "ranges": [
+    [
+     25.0,
+     29.0
+    ],
+    [
+     39.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击火焰伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+   ],
+   "affix": {
+    "en": "Cremating",
+    "zh_hans": "火化的",
+    "zh_hant": "火化的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage1": {
+   "id": "NearbyAlliesAddedColdDamage1",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     3.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Frosted",
+    "zh_hans": "结霜的",
+    "zh_hant": "結霜的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage2": {
+   "id": "NearbyAlliesAddedColdDamage2",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     3.0,
+     4.0
+    ],
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Chilled",
+    "zh_hans": "冰缓的",
+    "zh_hant": "冷凍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage3": {
+   "id": "NearbyAlliesAddedColdDamage3",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     6.0
+    ],
+    [
+     9.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Icy",
+    "zh_hans": "结冰的",
+    "zh_hant": "結冰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage4": {
+   "id": "NearbyAlliesAddedColdDamage4",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     7.0,
+     8.0
+    ],
+    [
+     12.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Frigid",
+    "zh_hans": "寒风的",
+    "zh_hant": "寒風的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage5": {
+   "id": "NearbyAlliesAddedColdDamage5",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     9.0,
+     10.0
+    ],
+    [
+     15.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Freezing",
+    "zh_hans": "冰冻的",
+    "zh_hant": "急凍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage6": {
+   "id": "NearbyAlliesAddedColdDamage6",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     11.0,
+     13.0
+    ],
+    [
+     18.0,
+     21.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Frozen",
+    "zh_hans": "冻结的",
+    "zh_hant": "冰凍"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage7": {
+   "id": "NearbyAlliesAddedColdDamage7",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     14.0,
+     15.0
+    ],
+    [
+     22.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Glaciated",
+    "zh_hans": "冰河的",
+    "zh_hant": "冰河的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage8": {
+   "id": "NearbyAlliesAddedColdDamage8",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     16.0,
+     20.0
+    ],
+    [
+     25.0,
+     31.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Polar",
+    "zh_hans": "极地的",
+    "zh_hant": "極地的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedColdDamage9": {
+   "id": "NearbyAlliesAddedColdDamage9",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Cold Damage"
+   ],
+   "ranges": [
+    [
+     21.0,
+     24.0
+    ],
+    [
+     32.0,
+     37.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击冰霜伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+   ],
+   "affix": {
+    "en": "Entombing",
+    "zh_hans": "埋葬的",
+    "zh_hant": "埋葬的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage1": {
+   "id": "NearbyAlliesAddedLightningDamage1",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     5.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Humming",
+    "zh_hans": "低鸣的",
+    "zh_hant": "低鳴的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage2": {
+   "id": "NearbyAlliesAddedLightningDamage2",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Buzzing",
+    "zh_hans": "嗡嗡的",
+    "zh_hant": "嗡嗡的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage3": {
+   "id": "NearbyAlliesAddedLightningDamage3",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     16.0,
+     22.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Snapping",
+    "zh_hans": "捕捉的",
+    "zh_hant": "捕捉的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage4": {
+   "id": "NearbyAlliesAddedLightningDamage4",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     23.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Crackling",
+    "zh_hans": "劈哩啪啦的",
+    "zh_hant": "劈哩啪啦的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage5": {
+   "id": "NearbyAlliesAddedLightningDamage5",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     28.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Sparking",
+    "zh_hans": "火花的",
+    "zh_hant": "火花的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage6": {
+   "id": "NearbyAlliesAddedLightningDamage6",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     33.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Arcing",
+    "zh_hans": "电弧的",
+    "zh_hant": "電弧的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage7": {
+   "id": "NearbyAlliesAddedLightningDamage7",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     41.0,
+     47.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Shocking",
+    "zh_hans": "感电的",
+    "zh_hant": "電震的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage8": {
+   "id": "NearbyAlliesAddedLightningDamage8",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     3.0
+    ],
+    [
+     48.0,
+     59.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Discharging",
+    "zh_hans": "放电的",
+    "zh_hant": "放電的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAddedLightningDamage9": {
+   "id": "NearbyAlliesAddedLightningDamage9",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Allies in your Presence deal # to # added Attack Lightning Damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     4.0
+    ],
+    [
+     60.0,
+     71.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军附加 # - # 攻击闪电伤害"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+   ],
+   "affix": {
+    "en": "Electrocuting",
+    "zh_hans": "电殛的",
+    "zh_hant": "電極的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage1": {
+   "id": "NearbyAlliesAllDamage1",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     25.0,
+     34.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Coercive",
+    "zh_hans": "强制的",
+    "zh_hant": "脅迫"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage2": {
+   "id": "NearbyAlliesAllDamage2",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     35.0,
+     44.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Agitative",
+    "zh_hans": "煽动的",
+    "zh_hant": "躁動"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Command",
+     "zh_hans": "次级命令精华",
+     "zh_hant": "低階命令精髓",
+     "line": {
+      "en": [
+       "Allies in your Presence deal #% increased Damage"
+      ],
+      "zh_hans": [
+       "在场的友军造成的伤害提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%處於你存在範圍中的友方所造成的傷害"
+      ],
+      "ranges": [
+       [
+        35.0,
+        44.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage3": {
+   "id": "NearbyAlliesAllDamage3",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     45.0,
+     54.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Instigative",
+    "zh_hans": "鼓噪的",
+    "zh_hant": "煽動"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage4": {
+   "id": "NearbyAlliesAllDamage4",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     55.0,
+     64.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Provocative",
+    "zh_hans": "挑动的",
+    "zh_hant": "挑釁"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Command",
+     "zh_hans": "命令精华",
+     "zh_hant": "命令精髓",
+     "line": {
+      "en": [
+       "Allies in your Presence deal #% increased Damage"
+      ],
+      "zh_hans": [
+       "在场的友军造成的伤害提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%處於你存在範圍中的友方所造成的傷害"
+      ],
+      "ranges": [
+       [
+        55.0,
+        64.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage5": {
+   "id": "NearbyAlliesAllDamage5",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     65.0,
+     74.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Persuasive",
+    "zh_hans": "信服的",
+    "zh_hant": "說服"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage6": {
+   "id": "NearbyAlliesAllDamage6",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     75.0,
+     89.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Motivating",
+    "zh_hans": "激发的",
+    "zh_hant": "激勵人的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Command",
+     "zh_hans": "强效命令精华",
+     "zh_hant": "高階命令精髓",
+     "line": {
+      "en": [
+       "Allies in your Presence deal #% increased Damage"
+      ],
+      "zh_hans": [
+       "在场的友军造成的伤害提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%處於你存在範圍中的友方所造成的傷害"
+      ],
+      "ranges": [
+       [
+        75.0,
+        89.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage7": {
+   "id": "NearbyAlliesAllDamage7",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 70,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     90.0,
+     104.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Inspirational",
+    "zh_hans": "鼓舞的",
+    "zh_hant": "啟發"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesAllDamage8": {
+   "id": "NearbyAlliesAllDamage8",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 82,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     105.0,
+     119.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "affix": {
+    "en": "Empowering",
+    "zh_hans": "赋能的",
+    "zh_hant": "賦予的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "GlobalMinionSpellSkillGemLevelWeapon1": {
+   "id": "GlobalMinionSpellSkillGemLevelWeapon1",
+   "family": [
+    "IncreaseSocketedGemLevel"
+   ],
+   "generation_type": "2",
+   "level": 2,
+   "en": [
+    "+# to Level of all Minion Skills"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "所有召唤生物技能等级 +#"
+   ],
+   "zh_hant": [
+    "全部召喚物技能等級+#"
+   ],
+   "affix": {
+    "en": "of the Taskmaster",
+    "zh_hans": "监工之",
+    "zh_hant": "監督者之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "GlobalMinionSpellSkillGemLevelWeapon2": {
+   "id": "GlobalMinionSpellSkillGemLevelWeapon2",
+   "family": [
+    "IncreaseSocketedGemLevel"
+   ],
+   "generation_type": "2",
+   "level": 25,
+   "en": [
+    "+# to Level of all Minion Skills"
+   ],
+   "ranges": [
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "所有召唤生物技能等级 +#"
+   ],
+   "zh_hant": [
+    "全部召喚物技能等級+#"
+   ],
+   "affix": {
+    "en": "of the Despot",
+    "zh_hans": "统御之",
+    "zh_hant": "暴君之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "GlobalMinionSpellSkillGemLevelWeapon3": {
+   "id": "GlobalMinionSpellSkillGemLevelWeapon3",
+   "family": [
+    "IncreaseSocketedGemLevel"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "+# to Level of all Minion Skills"
+   ],
+   "ranges": [
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "所有召唤生物技能等级 +#"
+   ],
+   "zh_hant": [
+    "全部召喚物技能等級+#"
+   ],
+   "affix": {
+    "en": "of the Overseer",
+    "zh_hans": "监督之",
+    "zh_hant": "堅管者之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "GlobalMinionSpellSkillGemLevelWeapon4": {
+   "id": "GlobalMinionSpellSkillGemLevelWeapon4",
+   "family": [
+    "IncreaseSocketedGemLevel"
+   ],
+   "generation_type": "2",
+   "level": 78,
+   "en": [
+    "+# to Level of all Minion Skills"
+   ],
+   "ranges": [
+    [
+     4.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "所有召唤生物技能等级 +#"
+   ],
+   "zh_hant": [
+    "全部召喚物技能等級+#"
+   ],
+   "affix": {
+    "en": "of the Slavedriver",
+    "zh_hans": "奴监之",
+    "zh_hant": "奴隸監工之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration1": {
+   "id": "NearbyAlliesLifeRegeneration1",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of the Newt",
+    "zh_hans": "蝾螈之",
+    "zh_hant": "蠑螈之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration2": {
+   "id": "NearbyAlliesLifeRegeneration2",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 5,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     2.1,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of the Lizard",
+    "zh_hans": "蜥蜴之",
+    "zh_hant": "蜥蜴之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration3": {
+   "id": "NearbyAlliesLifeRegeneration3",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     3.1,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of the Flatworm",
+    "zh_hans": "海星之",
+    "zh_hant": "阿扁蟲之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration4": {
+   "id": "NearbyAlliesLifeRegeneration4",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 17,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     4.1,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of the Starfish",
+    "zh_hans": "九头蛇之",
+    "zh_hant": "海星之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration5": {
+   "id": "NearbyAlliesLifeRegeneration5",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     6.1,
+     9.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of the Hydra",
+    "zh_hans": "食人妖之",
+    "zh_hant": "九頭蛇之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration6": {
+   "id": "NearbyAlliesLifeRegeneration6",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 35,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     9.1,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of the Troll",
+    "zh_hans": "食人之",
+    "zh_hant": "食人之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration7": {
+   "id": "NearbyAlliesLifeRegeneration7",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 47,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     13.1,
+     18.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of Convalescence",
+    "zh_hans": "康复之",
+    "zh_hant": "康復之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration8": {
+   "id": "NearbyAlliesLifeRegeneration8",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 58,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     18.1,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of Recuperation",
+    "zh_hans": "复原之",
+    "zh_hant": "療養之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration9": {
+   "id": "NearbyAlliesLifeRegeneration9",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     23.1,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of Resurgence",
+    "zh_hans": "回潮之",
+    "zh_hant": "復興之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesLifeRegeneration10": {
+   "id": "NearbyAlliesLifeRegeneration10",
+   "family": [
+    "LifeRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 75,
+   "en": [
+    "Allies in your Presence Regenerate # Life per second"
+   ],
+   "ranges": [
+    [
+     29.1,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军每秒再生 # 点生命"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方每秒回復#生命"
+   ],
+   "affix": {
+    "en": "of Immortality",
+    "zh_hans": "不死之",
+    "zh_hant": "不朽之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaRegeneration1": {
+   "id": "ManaRegeneration1",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     10.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Excitement",
+    "zh_hans": "兴奋之",
+    "zh_hant": "興奮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaRegeneration2": {
+   "id": "ManaRegeneration2",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 18,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     20.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Joy",
+    "zh_hans": "喜悦之",
+    "zh_hant": "喜悅之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaRegeneration3": {
+   "id": "ManaRegeneration3",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 29,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     30.0,
+     39.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Elation",
+    "zh_hans": "兴高采烈之",
+    "zh_hant": "興高采烈之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaRegeneration4": {
+   "id": "ManaRegeneration4",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 42,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     40.0,
+     49.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Bliss",
+    "zh_hans": "极乐之",
+    "zh_hant": "極樂之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaRegeneration5": {
+   "id": "ManaRegeneration5",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     50.0,
+     59.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Euphoria",
+    "zh_hans": "幸福之",
+    "zh_hant": "幸福之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaRegeneration6": {
+   "id": "ManaRegeneration6",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 79,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     60.0,
+     69.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Nirvana",
+    "zh_hans": "涅盘之",
+    "zh_hant": "涅槃之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedAttackSpeed1": {
+   "id": "NearbyAlliesIncreasedAttackSpeed1",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 5,
+   "en": [
+    "Allies in your Presence have #% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     5.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Skill",
+    "zh_hans": "技巧之",
+    "zh_hant": "技巧之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedAttackSpeed2": {
+   "id": "NearbyAlliesIncreasedAttackSpeed2",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 20,
+   "en": [
+    "Allies in your Presence have #% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     8.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Ease",
+    "zh_hans": "轻松之",
+    "zh_hant": "輕鬆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedAttackSpeed3": {
+   "id": "NearbyAlliesIncreasedAttackSpeed3",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 35,
+   "en": [
+    "Allies in your Presence have #% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     11.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Mastery",
+    "zh_hans": "成熟之",
+    "zh_hant": "成熟之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedAttackSpeed4": {
+   "id": "NearbyAlliesIncreasedAttackSpeed4",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "Allies in your Presence have #% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Renown",
+    "zh_hans": "声望之",
+    "zh_hant": "聲望之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedCastSpeed1": {
+   "id": "NearbyAlliesIncreasedCastSpeed1",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 6,
+   "en": [
+    "Allies in your Presence have #% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%施法速度"
+   ],
+   "affix": {
+    "en": "of Talent",
+    "zh_hans": "人才之",
+    "zh_hant": "人才之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedCastSpeed2": {
+   "id": "NearbyAlliesIncreasedCastSpeed2",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 21,
+   "en": [
+    "Allies in your Presence have #% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     9.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%施法速度"
+   ],
+   "affix": {
+    "en": "of Nimbleness",
+    "zh_hans": "灵活应变之",
+    "zh_hant": "靈活應變之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedCastSpeed3": {
+   "id": "NearbyAlliesIncreasedCastSpeed3",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 36,
+   "en": [
+    "Allies in your Presence have #% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     13.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%施法速度"
+   ],
+   "affix": {
+    "en": "of Expertise",
+    "zh_hans": "有经验之",
+    "zh_hant": "有經驗之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesIncreasedCastSpeed4": {
+   "id": "NearbyAlliesIncreasedCastSpeed4",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 56,
+   "en": [
+    "Allies in your Presence have #% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     17.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%施法速度"
+   ],
+   "affix": {
+    "en": "of Sortilege",
+    "zh_hans": "魔法之",
+    "zh_hant": "籤卜之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalStrikeChance1": {
+   "id": "NearbyAlliesCriticalStrikeChance1",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "Allies in your Presence have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Menace",
+    "zh_hans": "威胁之",
+    "zh_hant": "威脅之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalStrikeChance2": {
+   "id": "NearbyAlliesCriticalStrikeChance2",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 21,
+   "en": [
+    "Allies in your Presence have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Havoc",
+    "zh_hans": "浩劫之",
+    "zh_hant": "浩劫之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalStrikeChance3": {
+   "id": "NearbyAlliesCriticalStrikeChance3",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 28,
+   "en": [
+    "Allies in your Presence have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Disaster",
+    "zh_hans": "灾害之",
+    "zh_hant": "災害之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalStrikeChance4": {
+   "id": "NearbyAlliesCriticalStrikeChance4",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 41,
+   "en": [
+    "Allies in your Presence have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     25.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Calamity",
+    "zh_hans": "灾难之",
+    "zh_hant": "血禍之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalStrikeChance5": {
+   "id": "NearbyAlliesCriticalStrikeChance5",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 59,
+   "en": [
+    "Allies in your Presence have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     30.0,
+     34.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Ruin",
+    "zh_hans": "灭绝之",
+    "zh_hant": "滅絕之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalStrikeChance6": {
+   "id": "NearbyAlliesCriticalStrikeChance6",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 76,
+   "en": [
+    "Allies in your Presence have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     35.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Unmaking",
+    "zh_hans": "解构之",
+    "zh_hant": "奪位之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalMultiplier1": {
+   "id": "NearbyAlliesCriticalMultiplier1",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Ire",
+    "zh_hans": "怒火之",
+    "zh_hant": "怒火之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalMultiplier2": {
+   "id": "NearbyAlliesCriticalMultiplier2",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 21,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     15.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Anger",
+    "zh_hans": "愤怒之",
+    "zh_hant": "憤怒之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalMultiplier3": {
+   "id": "NearbyAlliesCriticalMultiplier3",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 30,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Rage",
+    "zh_hans": "震怒之",
+    "zh_hant": "狂怒之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalMultiplier4": {
+   "id": "NearbyAlliesCriticalMultiplier4",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     25.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Fury",
+    "zh_hans": "狂暴之",
+    "zh_hant": "憤恨之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalMultiplier5": {
+   "id": "NearbyAlliesCriticalMultiplier5",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 59,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     30.0,
+     34.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Ferocity",
+    "zh_hans": "凶暴之",
+    "zh_hant": "狂暴之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "NearbyAlliesCriticalMultiplier6": {
+   "id": "NearbyAlliesCriticalMultiplier6",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 73,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     35.0,
+     39.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "毁灭之",
+    "zh_hant": "毀滅之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightRadiusAndManaRegeneration1": {
+   "id": "LightRadiusAndManaRegeneration1",
+   "family": [
+    "LightRadiusAndManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "#% increased Mana Regeneration Rate",
+    "#% increased Light Radius"
+   ],
+   "ranges": [
+    [
+     8.0,
+     12.0
+    ],
+    [
+     5.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%",
+    "照亮范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率",
+    "增加#%照亮範圍"
+   ],
+   "affix": {
+    "en": "of Warmth",
+    "zh_hans": "温暖之",
+    "zh_hant": "溫暖之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightRadiusAndManaRegeneration2": {
+   "id": "LightRadiusAndManaRegeneration2",
+   "family": [
+    "LightRadiusAndManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 15,
+   "en": [
+    "#% increased Mana Regeneration Rate",
+    "#% increased Light Radius"
+   ],
+   "ranges": [
+    [
+     13.0,
+     17.0
+    ],
+    [
+     10.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%",
+    "照亮范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率",
+    "增加#%照亮範圍"
+   ],
+   "affix": {
+    "en": "of Kindling",
+    "zh_hans": "点火之",
+    "zh_hant": "點燃之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightRadiusAndManaRegeneration3": {
+   "id": "LightRadiusAndManaRegeneration3",
+   "family": [
+    "LightRadiusAndManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 30,
+   "en": [
+    "#% increased Mana Regeneration Rate",
+    "#% increased Light Radius"
+   ],
+   "ranges": [
+    [
+     18.0,
+     22.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%",
+    "照亮范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率",
+    "增加#%照亮範圍"
+   ],
+   "affix": {
+    "en": "of the Hearth",
+    "zh_hans": "炉火之",
+    "zh_hant": "真誠之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent1": {
+   "id": "LocalIncreasedSpiritPercent1",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     20.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Lord's",
+    "zh_hans": "领主的",
+    "zh_hant": "領主的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent2": {
+   "id": "LocalIncreasedSpiritPercent2",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     27.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Baron's",
+    "zh_hans": "男爵的",
+    "zh_hant": "男爵的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent3": {
+   "id": "LocalIncreasedSpiritPercent3",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     33.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Viscount's",
+    "zh_hans": "子爵的",
+    "zh_hant": "子爵的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent4": {
+   "id": "LocalIncreasedSpiritPercent4",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     39.0,
+     44.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Marquess'",
+    "zh_hans": "侯爵的",
+    "zh_hant": "侯爵的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent5": {
+   "id": "LocalIncreasedSpiritPercent5",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     45.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Count's",
+    "zh_hans": "伯爵的",
+    "zh_hant": "伯爵的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent6": {
+   "id": "LocalIncreasedSpiritPercent6",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     51.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Duke's",
+    "zh_hans": "公爵的",
+    "zh_hant": "公爵的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent7": {
+   "id": "LocalIncreasedSpiritPercent7",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     56.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "Prince's",
+    "zh_hans": "亲王的",
+    "zh_hant": "王子的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritPercent8": {
+   "id": "LocalIncreasedSpiritPercent8",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "1",
+   "level": 82,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     61.0,
+     65.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "affix": {
+    "en": "King's",
+    "zh_hans": "国王的",
+    "zh_hant": "皇上的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana1": {
+   "id": "LocalIncreasedSpiritAndMana1",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 2,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ],
+    [
+     17.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Advisor's",
+    "zh_hans": "顾问的",
+    "zh_hant": "顧問的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana2": {
+   "id": "LocalIncreasedSpiritAndMana2",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 11,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     15.0,
+     18.0
+    ],
+    [
+     21.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Counselor's",
+    "zh_hans": "参事的",
+    "zh_hant": "參事的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana3": {
+   "id": "LocalIncreasedSpiritAndMana3",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 26,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     19.0,
+     22.0
+    ],
+    [
+     25.0,
+     28.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Emissary's",
+    "zh_hans": "使节的",
+    "zh_hant": "特使的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana4": {
+   "id": "LocalIncreasedSpiritAndMana4",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 36,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     23.0,
+     26.0
+    ],
+    [
+     29.0,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Minister's",
+    "zh_hans": "大臣的",
+    "zh_hant": "大臣的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana5": {
+   "id": "LocalIncreasedSpiritAndMana5",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 48,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     27.0,
+     30.0
+    ],
+    [
+     34.0,
+     37.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Envoy's",
+    "zh_hans": "特使的",
+    "zh_hant": "使節的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana6": {
+   "id": "LocalIncreasedSpiritAndMana6",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 58,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     31.0,
+     34.0
+    ],
+    [
+     38.0,
+     41.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Diplomat's",
+    "zh_hans": "外交官的",
+    "zh_hant": "外交官的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedSpiritAndMana7": {
+   "id": "LocalIncreasedSpiritAndMana7",
+   "family": [
+    "LocalIncreasedSpiritAndMana"
+   ],
+   "generation_type": "1",
+   "level": 70,
+   "en": [
+    "#% increased Spirit",
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     35.0,
+     38.0
+    ],
+    [
+     42.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%",
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "增加#%精魂",
+    "+#最大魔力"
+   ],
+   "affix": {
+    "en": "Chancellor's",
+    "zh_hans": "总务的",
+    "zh_hant": "總理的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "PresenceRadius1": {
+   "id": "PresenceRadius1",
+   "family": [
+    "PresenceRadius"
+   ],
+   "generation_type": "2",
+   "level": 23,
+   "en": [
+    "#% increased Presence Area of Effect"
+   ],
+   "ranges": [
+    [
+     36.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "在场范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%存在範圍的範圍效果"
+   ],
+   "affix": {
+    "en": "of Direction",
+    "zh_hans": "导向之",
+    "zh_hant": "方向之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "PresenceRadius2": {
+   "id": "PresenceRadius2",
+   "family": [
+    "PresenceRadius"
+   ],
+   "generation_type": "2",
+   "level": 40,
+   "en": [
+    "#% increased Presence Area of Effect"
+   ],
+   "ranges": [
+    [
+     46.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "在场范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%存在範圍的範圍效果"
+   ],
+   "affix": {
+    "en": "of Outreach",
+    "zh_hans": "外延之",
+    "zh_hant": "外擴之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "PresenceRadius3": {
+   "id": "PresenceRadius3",
+   "family": [
+    "PresenceRadius"
+   ],
+   "generation_type": "2",
+   "level": 56,
+   "en": [
+    "#% increased Presence Area of Effect"
+   ],
+   "ranges": [
+    [
+     56.0,
+     65.0
+    ]
+   ],
+   "zh_hans": [
+    "在场范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%存在範圍的範圍效果"
+   ],
+   "affix": {
+    "en": "of Guidance",
+    "zh_hans": "指导之",
+    "zh_hant": "指導之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "PresenceRadius4": {
+   "id": "PresenceRadius4",
+   "family": [
+    "PresenceRadius"
+   ],
+   "generation_type": "2",
+   "level": 72,
+   "en": [
+    "#% increased Presence Area of Effect"
+   ],
+   "ranges": [
+    [
+     66.0,
+     80.0
+    ]
+   ],
+   "zh_hans": [
+    "在场范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%存在範圍的範圍效果"
+   ],
+   "affix": {
+    "en": "of Influence",
+    "zh_hans": "影响之",
+    "zh_hant": "－影響"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MinionLife1": {
+   "id": "MinionLife1",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "2",
+   "level": 2,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "of the Mentor",
+    "zh_hans": "讲师之",
+    "zh_hant": "導師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MinionLife2": {
+   "id": "MinionLife2",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "2",
+   "level": 16,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "of the Tutor",
+    "zh_hans": "导师之",
+    "zh_hant": "導師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MinionLife3": {
+   "id": "MinionLife3",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "2",
+   "level": 32,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "of the Director",
+    "zh_hans": "指导之",
+    "zh_hant": "經理之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MinionLife4": {
+   "id": "MinionLife4",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "2",
+   "level": 48,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     36.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "of the Headmaster",
+    "zh_hans": "校长之",
+    "zh_hant": "校長之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MinionLife5": {
+   "id": "MinionLife5",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "2",
+   "level": 64,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     41.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "of the Administrator",
+    "zh_hans": "理事之",
+    "zh_hant": "管理者之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MinionLife6": {
+   "id": "MinionLife6",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "2",
+   "level": 80,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     46.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "of the Rector",
+    "zh_hans": "执事之",
+    "zh_hant": "教區牧師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "CorruptionReducedLocalAttributeRequirements1": {
+   "id": "CorruptionReducedLocalAttributeRequirements1",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionLocalIncreasedSpiritPercent1": {
+   "id": "CorruptionLocalIncreasedSpiritPercent1",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionAlliesInPresenceAllDamage1": {
+   "id": "CorruptionAlliesInPresenceAllDamage1",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionAlliesInPresenceIncreasedAttackSpeed1": {
+   "id": "CorruptionAlliesInPresenceIncreasedAttackSpeed1",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Allies in your Presence have #% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%攻擊速度"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionAlliesInPresenceIncreasedCastSpeed1": {
+   "id": "CorruptionAlliesInPresenceIncreasedCastSpeed1",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Allies in your Presence have #% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%施法速度"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionAlliesInPresenceCriticalStrikeMultiplier1": {
+   "id": "CorruptionAlliesInPresenceCriticalStrikeMultiplier1",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionUpgradeAlliesInPresenceAllDamage1": {
+   "id": "CorruptionUpgradeAlliesInPresenceAllDamage1",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Allies in your Presence deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     50.0,
+     75.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%處於你存在範圍中的友方所造成的傷害"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeAlliesInPresenceCriticalStrikeMultiplier1": {
+   "id": "CorruptionUpgradeAlliesInPresenceCriticalStrikeMultiplier1",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Allies in your Presence have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     30.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%暴擊傷害加成"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeAlliesInPresenceIncreasedAttackSpeed1": {
+   "id": "CorruptionUpgradeAlliesInPresenceIncreasedAttackSpeed1",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Allies in your Presence have #% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%攻擊速度"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeAlliesInPresenceIncreasedCastSpeed1": {
+   "id": "CorruptionUpgradeAlliesInPresenceIncreasedCastSpeed1",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Allies in your Presence have #% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "在场的友军的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "處於你存在範圍中的友方增加#%施法速度"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelChaosResist1": {
+   "id": "CorruptionUpgradeJewelChaosResist1",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelColdResist1": {
+   "id": "CorruptionUpgradeJewelColdResist1",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelDexterity1": {
+   "id": "CorruptionUpgradeJewelDexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelFireResist1": {
+   "id": "CorruptionUpgradeJewelFireResist1",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelIntelligence1": {
+   "id": "CorruptionUpgradeJewelIntelligence1",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelLightningResist1": {
+   "id": "CorruptionUpgradeJewelLightningResist1",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelStrength1": {
+   "id": "CorruptionUpgradeJewelStrength1",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeLocalIncreasedSpiritPercent1": {
+   "id": "CorruptionUpgradeLocalIncreasedSpiritPercent1",
+   "family": [
+    "LocalIncreasedSpiritPercent"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Spirit"
+   ],
+   "ranges": [
+    [
+     35.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备精魂提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%精魂"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeReducedLocalAttributeRequirements1": {
+   "id": "CorruptionUpgradeReducedLocalAttributeRequirements1",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     30.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "Dexterity2": {
+   "id": "Dexterity2",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity4": {
+   "id": "Dexterity4",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity6": {
+   "id": "Dexterity6",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAbyssPrefix": {
+   "id": "EssenceAbyssPrefix",
+   "family": [
+    "EssenceAbyss"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Abyss",
+     "zh_hans": "深渊精华",
+     "zh_hant": "深淵精髓",
+     "line": {
+      "en": [
+       "Mark of the Abyssal Lord"
+      ],
+      "zh_hans": [
+       "深渊领主的印记"
+      ],
+      "zh_hant": [
+       "深淵領主印記"
+      ],
+      "ranges": []
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAbyssSuffix": {
+   "id": "EssenceAbyssSuffix",
+   "family": [
+    "EssenceAbyss"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Abyss",
+     "zh_hans": "深渊精华",
+     "zh_hant": "深淵精髓",
+     "line": {
+      "en": [
+       "Mark of the Abyssal Lord"
+      ],
+      "zh_hans": [
+       "深渊领主的印记"
+      ],
+      "zh_hant": [
+       "深淵領主印記"
+      ],
+      "ranges": []
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAuraEffect1": {
+   "id": "EssenceAuraEffect1",
+   "family": [
+    "AuraEffect"
+   ],
+   "generation_type": "2",
+   "level": 72,
+   "en": [
+    "Aura Skills have #% increased Magnitudes"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "光环技能的强度提高 #%"
+   ],
+   "zh_hant": [
+    "光環技能增加#%幅度"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Perfect Essence of Command",
+     "zh_hans": "完美命令精华",
+     "zh_hant": "完美命令精髓"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyPuppetMasterChance1": {
+   "id": "AlloyPuppetMasterChance1",
+   "family": [
+    "MinionGainPuppetMasterOnCommand"
+   ],
+   "generation_type": "1",
+   "level": 25,
+   "en": [
+    "#% Surpassing Chance to gain a Puppet Master stack whenever you use a Command Skill"
+   ],
+   "ranges": [
+    [
+     30.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "使用号令技能时，有 #% 的溢出几率获得一层奇术大师"
+   ],
+   "zh_hant": [
+    "每當你使用號令技能時，有#%滿溢機率獲得一層傀儡大師"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Adaptive Alloy",
+     "zh_hans": "适性合金",
+     "zh_hant": "適應合金"
+    }
+   ]
+  },
+  "AlloyMaximumRunicWardWeapon1": {
+   "id": "AlloyMaximumRunicWardWeapon1",
+   "family": [
+    "BaseRunicWard"
+   ],
+   "generation_type": "2",
+   "level": 25,
+   "en": [
+    "+# to maximum Runic Ward"
+   ],
+   "ranges": [
+    [
+     51.0,
+     74.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 符文结界上限"
+   ],
+   "zh_hant": [
+    "+#最大符文保護"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Protective Alloy",
+     "zh_hans": "防护合金",
+     "zh_hant": "防護合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyMinionDamagingAilmentMagnitude1": {
+   "id": "AlloyMinionDamagingAilmentMagnitude1",
+   "family": [
+    "MinionDamagingAilments"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "Minions have #% increased Magnitude of Damaging Ailments"
+   ],
+   "ranges": [
+    [
+     40.0,
+     49.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的伤害性异常状态强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%召喚物所施加之傷害型異常狀態的幅度"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Prismatic Alloy",
+     "zh_hans": "棱镜合金",
+     "zh_hant": "煥彩合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyMaximumElementalInfusions1": {
+   "id": "AlloyMaximumElementalInfusions1",
+   "family": [
+    "ElementalInfusion"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "+# to maximum number of Elemental Infusions"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "元素灌注数量上限 +#"
+   ],
+   "zh_hant": [
+    "+#最大元素灌注數量"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Mystic Alloy",
+     "zh_hans": "神秘合金",
+     "zh_hant": "秘能合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyEffectOfSocketedAugments1": {
+   "id": "AlloyEffectOfSocketedAugments1",
+   "family": [
+    "SoulCore"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased effect of Socketed Augment Items"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "镶嵌的增幅器物品效果提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%鑲嵌的物品效果"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Sovereign Alloy",
+     "zh_hans": "君王合金",
+     "zh_hant": "君主合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyPuppeteerStacks1": {
+   "id": "AlloyPuppeteerStacks1",
+   "family": [
+    "MaximumPuppeteerStacks"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+# maximum stacks of Puppet Master"
+   ],
+   "ranges": [
+    [
+     4.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 奇术大师层数上限"
+   ],
+   "zh_hant": [
+    "+#最大魁儡大師層數"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "The Runebinder's Alloy",
+     "zh_hans": "符文缚者的合金",
+     "zh_hant": "符文縛者的合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluencePhysicalModifierEffect": {
+   "id": "DestructionInfluencePhysicalModifierEffect",
+   "family": [
+    "PhysicalModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Physical Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "外延物理词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動物理詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceFireModifierEffect": {
+   "id": "DestructionInfluenceFireModifierEffect",
+   "family": [
+    "ElementalModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Fire Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "外延火焰词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動火焰詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceLightningModifierEffect": {
+   "id": "DestructionInfluenceLightningModifierEffect",
+   "family": [
+    "ElementalModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Lightning Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "外延闪电词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動閃電詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceColdModifierEffect": {
+   "id": "DestructionInfluenceColdModifierEffect",
+   "family": [
+    "ElementalModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Cold Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "外延冰霜词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動冰冷詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceElementalModifierEffect": {
+   "id": "DestructionInfluenceElementalModifierEffect",
+   "family": [
+    "ElementalModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Elemental Damage Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "外延元素伤害词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動元素傷害詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceChaosModifierEffect": {
+   "id": "DestructionInfluenceChaosModifierEffect",
+   "family": [
+    "ChaosModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Chaos Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "外延混沌词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動混沌詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceManaModifierEffect": {
+   "id": "DestructionInfluenceManaModifierEffect",
+   "family": [
+    "ManaModifierEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Mana Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     25.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "外延魔力词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動魔力詞綴的大小"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "of Destruction",
+    "zh_hant": "of Destruction"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceSpeedModifierEffect": {
+   "id": "DestructionInfluenceSpeedModifierEffect",
+   "family": [
+    "SpeedModifierEffect"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Speed Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     25.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "外延速度词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動速度詞綴的大小"
+   ],
+   "affix": {
+    "en": "Thrud's",
+    "zh_hans": "Thrud's",
+    "zh_hant": "Thrud's"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DestructionInfluenceCriticalModifierEffect": {
+   "id": "DestructionInfluenceCriticalModifierEffect",
+   "family": [
+    "CriticalModifierEffect"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "#% increased Explicit Critical Modifier magnitudes"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "外延暴击词缀增幅提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%變動暴擊詞綴的大小"
+   ],
+   "affix": {
+    "en": "Thrud's",
+    "zh_hans": "Thrud's",
+    "zh_hant": "Thrud's"
+   },
+   "sections": [
+    "destruction"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  }
+ },
+ "socketables": {
+  "Metadata/Items/SoulCores/RuneStrengthLesser": {
+   "name": {
+    "en": "Lesser Robust Rune",
+    "zh_hans": "次级健壮符文",
+    "zh_hant": "低階堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrength": {
+   "name": {
+    "en": "Robust Rune",
+    "zh_hans": "健壮符文",
+    "zh_hant": "堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrengthGreater": {
+   "name": {
+    "en": "Greater Robust Rune",
+    "zh_hans": "高级健壮符文",
+    "zh_hant": "高階堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrengthPerfect": {
+   "name": {
+    "en": "Perfect Robust Rune",
+    "zh_hans": "完美健壮符文",
+    "zh_hant": "完美堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterityLesser": {
+   "name": {
+    "en": "Lesser Adept Rune",
+    "zh_hans": "次级行家符文",
+    "zh_hant": "低階嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterity": {
+   "name": {
+    "en": "Adept Rune",
+    "zh_hans": "行家符文",
+    "zh_hant": "嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterityGreater": {
+   "name": {
+    "en": "Greater Adept Rune",
+    "zh_hans": "高级行家符文",
+    "zh_hant": "高階嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterityPerfect": {
+   "name": {
+    "en": "Perfect Adept Rune",
+    "zh_hans": "完美行家符文",
+    "zh_hant": "完美嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligenceLesser": {
+   "name": {
+    "en": "Lesser Resolve Rune",
+    "zh_hans": "次级坚毅符文",
+    "zh_hant": "低階決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligence": {
+   "name": {
+    "en": "Resolve Rune",
+    "zh_hans": "坚毅符文",
+    "zh_hant": "決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligenceGreater": {
+   "name": {
+    "en": "Greater Resolve Rune",
+    "zh_hans": "高级坚毅符文",
+    "zh_hant": "高階決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligencePerfect": {
+   "name": {
+    "en": "Perfect Resolve Rune",
+    "zh_hans": "完美坚毅符文",
+    "zh_hant": "完美決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSnake": {
+   "name": {
+    "en": "Snake Idol",
+    "zh_hans": "毒蛇雕像",
+    "zh_hant": "蝮蛇魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence have #% increased Attack Speed"
+     ],
+     "zh_hans": [
+      "在场的友军的攻击速度提高 #%"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方增加#%攻擊速度"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Skill Speed while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，技能速度提高 #%"
+     ],
+     "zh_hant": [
+      "你變形期間，增加#%技能速度"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanMonkey": {
+   "name": {
+    "en": "Primate Idol",
+    "zh_hans": "狂猿雕像",
+    "zh_hant": "靈長魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence deal #% increased Damage"
+     ],
+     "zh_hans": [
+      "在场的友军造成的伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%處於你存在範圍中的友方所造成的傷害"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Damage while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时伤害提高 #%"
+     ],
+     "zh_hant": [
+      "變形期間增加#%傷害"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanOwl": {
+   "name": {
+    "en": "Owl Idol",
+    "zh_hans": "猫头鹰雕像",
+    "zh_hant": "夜梟魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence have #% increased Cast Speed"
+     ],
+     "zh_hans": [
+      "在场的友军的施法速度提高 #%"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方增加#%施法速度"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Skill Speed while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，技能速度提高 #%"
+     ],
+     "zh_hant": [
+      "你變形期間，增加#%技能速度"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanCat": {
+   "name": {
+    "en": "Cat Idol",
+    "zh_hans": "灵猫雕像",
+    "zh_hant": "靈貓魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence have #% increased Critical Hit Chance"
+     ],
+     "zh_hans": [
+      "在场的友军的暴击几率提高 #%"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方增加#%暴擊率"
+     ],
+     "ranges": [
+      [
+       14.0,
+       14.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Critical Hit Chance while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，暴击几率提高 #%"
+     ],
+     "zh_hant": [
+      "變形期間增加#%暴擊機率"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanWolf": {
+   "name": {
+    "en": "Wolf Idol",
+    "zh_hans": "恶狼雕像",
+    "zh_hant": "野狼魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence have #% increased Critical Damage Bonus"
+     ],
+     "zh_hans": [
+      "在场的友军的暴击伤害加成提高 #%"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方增加#%暴擊傷害加成"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Critical Hit Chance while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，暴击几率提高 #%"
+     ],
+     "zh_hant": [
+      "變形期間增加#%暴擊機率"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanStag": {
+   "name": {
+    "en": "Stag Idol",
+    "zh_hans": "雄鹿雕像",
+    "zh_hant": "雄鹿魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence deal # to # added Attack Lightning Damage"
+     ],
+     "zh_hans": [
+      "在场的友军附加 # - # 攻击闪电伤害"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ],
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Attack Damage while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时攻击伤害提高 #%"
+     ],
+     "zh_hant": [
+      "變形期間增加#%攻擊傷害"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanBoar": {
+   "name": {
+    "en": "Boar Idol",
+    "zh_hans": "野猪雕像",
+    "zh_hant": "野豬魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence Regenerate #% of your Maximum Life per second"
+     ],
+     "zh_hans": [
+      "在场的友军每秒回复相当于你生命上限 #% 的生命"
+     ],
+     "zh_hant": [
+      "處於你的存在範圍中的友方每秒回復#%最大生命"
+     ],
+     "ranges": [
+      [
+       0.5,
+       0.5
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Life Regeneration rate while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，生命再生速度提高 #%"
+     ],
+     "zh_hant": [
+      "你變形期間，增加#%施加生命回復率"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanBear": {
+   "name": {
+    "en": "Bear Idol",
+    "zh_hans": "巨熊雕像",
+    "zh_hant": "巨熊魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence deal # to # added Attack Physical Damage"
+     ],
+     "zh_hans": [
+      "在场的友军附加 # - # 攻击物理伤害"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方造成#至#額外攻擊物理傷害"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ],
+      [
+       18.0,
+       18.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Attack Damage while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时攻击伤害提高 #%"
+     ],
+     "zh_hant": [
+      "變形期間增加#%攻擊傷害"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanOx": {
+   "name": {
+    "en": "Ox Idol",
+    "zh_hans": "公牛雕像",
+    "zh_hant": "公牛魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence have +#% to all Elemental Resistances"
+     ],
+     "zh_hans": [
+      "在场的友军的所有元素抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%處於你存在範圍中的友方全元素抗性"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+#% of Armour also applies to Elemental Damage while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，+#% 的护甲同样作用于元素伤害"
+     ],
+     "zh_hant": [
+      "當你變形時，+#%的護甲同時套用至元素傷害"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanRabbit": {
+   "name": {
+    "en": "Rabbit Idol",
+    "zh_hans": "狡兔雕像",
+    "zh_hant": "狡兔魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Spirit"
+     ],
+     "zh_hans": [
+      "该装备精魂提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%精魂"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Minions have #% increased Cooldown Recovery Rate for Command Skills"
+     ],
+     "zh_hans": [
+      "召唤生物的命令技能的冷却回复速度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%召喚物的號令技能冷卻時間恢復率"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanFox": {
+   "name": {
+    "en": "Fox Idol",
+    "zh_hans": "狐狸雕像",
+    "zh_hant": "狐狸魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Presence Area of Effect"
+     ],
+     "zh_hans": [
+      "在场范围提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%存在範圍的範圍效果"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Minions have #% increased Area of Effect"
+     ],
+     "zh_hans": [
+      "召唤生物的效果区域提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%召喚物的範圍效果"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial1": {
+   "name": {
+    "en": "Idol of Sirrius",
+    "zh_hans": "西里乌斯之雕像",
+    "zh_hant": "席里斯魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence have #% increased Movement Speed"
+     ],
+     "zh_hans": [
+      "在场范围内的友军的移动速度提高 #%"
+     ],
+     "zh_hant": [
+      "你存在範圍內的友方增加#%移動速度"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Movement Speed"
+     ],
+     "zh_hans": [
+      "移动速度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%移動速度"
+     ],
+     "ranges": [
+      [
+       4.0,
+       4.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial2": {
+   "name": {
+    "en": "Idol of Thruldana",
+    "zh_hans": "舒尔达纳之雕像",
+    "zh_hant": "特盧達納魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence deal # to # added Attack Chaos Damage"
+     ],
+     "zh_hans": [
+      "在场的友军附加 # - # 攻击混沌伤害"
+     ],
+     "zh_hant": [
+      "處於你存在範圍中的友方造成#至#附加攻擊混沌傷害"
+     ],
+     "ranges": [
+      [
+       13.0,
+       13.0
+      ],
+      [
+       27.0,
+       27.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Withered Magnitude"
+     ],
+     "zh_hans": [
+      "死亡凋零强度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%凋零幅度"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial3": {
+   "name": {
+    "en": "Idol of Grold",
+    "zh_hans": "格罗尔德之雕像",
+    "zh_hant": "格羅德魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Damage per each different Companion in your Presence"
+     ],
+     "zh_hans": [
+      "在场每有一种不同的伙伴，伤害提高 #%"
+     ],
+     "zh_hant": [
+      "你存在範圍中每有一種盟友即增加#%傷害"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Reservation Efficiency of Companion Skills"
+     ],
+     "zh_hans": [
+      "伙伴技能的保留效能提高 #%"
+     ],
+     "zh_hant": [
+      "盟友技能增加#%保留效用"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial4": {
+   "name": {
+    "en": "Idol of Eeshta",
+    "zh_hans": "埃什塔之雕像",
+    "zh_hant": "義許塔魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Mana Recovery rate while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "伙伴在场时，魔力回复速度提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友位於你的存在範圍內時，增加#%魔力回復速率"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Life Recovery Rate while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "当你的伙伴在场时，生命回复率提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友在你的存在範圍內時，增加#%生命回復率"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial5": {
+   "name": {
+    "en": "Idol of Egrin",
+    "zh_hans": "艾格林之雕像",
+    "zh_hant": "埃格林魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Curse Duration"
+     ],
+     "zh_hans": [
+      "诅咒持续时间提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%詛咒持續時間"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Curse zones erupt after #% reduced delay"
+     ],
+     "zh_hans": [
+      "诅咒区域爆发延迟降低 #%"
+     ],
+     "zh_hant": [
+      "減少#%詛咒區域爆發前延遲"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial6": {
+   "name": {
+    "en": "Idol of Maxarius",
+    "zh_hans": "玛萨留斯之雕像",
+    "zh_hant": "瑪薩里歐斯魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Flasks gain # charges per Second"
+     ],
+     "zh_hans": [
+      "药剂每秒获得 # 次充能"
+     ],
+     "zh_hant": [
+      "藥劑每秒獲得#充能"
+     ],
+     "ranges": [
+      [
+       0.2,
+       0.2
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Life and Mana Recovery from Flasks"
+     ],
+     "zh_hans": [
+      "药剂的生命和魔力回复提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%藥劑的生命和魔力恢復"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanSpecial7": {
+   "name": {
+    "en": "Idol of Ralakesh",
+    "zh_hans": "拉克斯之雕像",
+    "zh_hant": "芮勒蓋許魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Armour, Evasion and Energy Shield while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "当你的伙伴在你在场范围内时，护甲，闪避与能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友在你的存在範圍內時，增加#%護甲、閃避與能量護盾"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Companions have #% increased maximum Life"
+     ],
+     "zh_hans": [
+      "伙伴的生命上限提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%盟友的最大生命"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial1": {
+   "name": {
+    "en": "Idol of Greust",
+    "zh_hans": "古斯特之雕像",
+    "zh_hant": "古斯特魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Companions deal #% more Damage for each different type of dead Companion you have"
+     ],
+     "zh_hans": [
+      "每有一种不同类型的死亡伙伴，伙伴造成的伤害总增 #%"
+     ],
+     "zh_hant": [
+      "你每有一種已死亡的盟友，盟友即造成#%更多傷害"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Recover #% of maximum Life when one of your Minions is Revived"
+     ],
+     "zh_hans": [
+      "当你的一个召唤生物复活时，回复生命上限的 #%"
+     ],
+     "zh_hant": [
+      "你的其中一個召喚物復甦時，恢復#%最大生命"
+     ],
+     "ranges": [
+      [
+       3.0,
+       3.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial2": {
+   "name": {
+    "en": "Idol of Yeena",
+    "zh_hans": "伊娜之雕像",
+    "zh_hant": "伊娜魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Plants have a #% chance to immediately Overgrow when they enter your Presence for the first time"
+     ],
+     "zh_hans": [
+      "植物首次进入在场范围时，有 #% 的几率立即过度生长"
+     ],
+     "zh_hant": [
+      "植物在首次進入你的存在範圍時有#%機率立即過度生長"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Skill Effect Duration with Plant Skills"
+     ],
+     "zh_hans": [
+      "植物技能的效果持续时间提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%植物技能的持續時間"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial3": {
+   "name": {
+    "en": "Idol of Eramir",
+    "zh_hans": "艾米尔之雕像",
+    "zh_hant": "艾米爾魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Allies in your Presence share Charges with you"
+     ],
+     "zh_hans": [
+      "在场的友军与你共享能量球"
+     ],
+     "zh_hant": [
+      "你存在範圍中的友方會和你共享能量球"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Endurance, Frenzy and Power Charge Duration"
+     ],
+     "zh_hans": [
+      "耐力球，狂怒球，以及暴击球的持续时间提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%耐力球、狂怒球、以及暴擊球的持續時間"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial4": {
+   "name": {
+    "en": "Idol of Oak",
+    "zh_hans": "欧克之雕像",
+    "zh_hant": "歐克魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "If you would gain an Endurance Charge, Allies in your Presence gain that Charge instead"
+     ],
+     "zh_hans": [
+      "若你可以获得耐力球，则在场的友军直接获得相应的能量球"
+     ],
+     "zh_hant": [
+      "如果你會獲得一顆耐力球，改為由你存在中的友方獲得該能量球"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Armour if you've consumed an Endurance Charge Recently"
+     ],
+     "zh_hans": [
+      "若你近期消耗过耐力球，护甲提高 #%"
+     ],
+     "zh_hant": [
+      "若你近期有消耗一顆耐力球，增加#%護甲值"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial5": {
+   "name": {
+    "en": "Idol of Alira",
+    "zh_hans": "阿莉亚之雕像",
+    "zh_hant": "阿莉亞魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "If you would gain a Power Charge, Allies in your Presence gain that Charge instead"
+     ],
+     "zh_hans": [
+      "若你可以获得暴击球，则在场的友军直接获得相应的能量球"
+     ],
+     "zh_hant": [
+      "如果你會獲得一顆暴擊球，改為由你存在中的友方獲得該能量球"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased maximum Energy Shield if you've consumed a Power Charge Recently"
+     ],
+     "zh_hans": [
+      "若你近期消耗过暴击球，则能量护盾上限提高 #%"
+     ],
+     "zh_hant": [
+      "如果你近期消耗了一顆暴擊球，增加#%最大能量護盾"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial6": {
+   "name": {
+    "en": "Idol of Kraityn",
+    "zh_hans": "克雷顿之雕像",
+    "zh_hant": "克雷頓魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "If you would gain a Frenzy Charge, Allies in your Presence gain that Charge instead"
+     ],
+     "zh_hans": [
+      "若你可以获得狂怒球，则在场的友军直接获得相应的能量球"
+     ],
+     "zh_hant": [
+      "如果你會獲得一顆狂怒球，改為由你存在中的友方獲得該能量球"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Evasion Rating if you've consumed a Frenzy Charge Recently"
+     ],
+     "zh_hans": [
+      "若你近期消耗过狂怒球，闪避值提高 #%"
+     ],
+     "zh_hant": [
+      "若你近期有消耗一顆狂怒球，增加#%閃避值"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial7": {
+   "name": {
+    "en": "Idol of Silk",
+    "zh_hans": "流丝之雕像",
+    "zh_hant": "斯克魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Companions in your Presence gain # Rage on hit"
+     ],
+     "zh_hans": [
+      "在场伙伴击中时获得 # 点怒火"
+     ],
+     "zh_hant": [
+      "你存在範圍中盟友擊中時獲得#盛怒"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Companions have #% increased Area of Effect"
+     ],
+     "zh_hans": [
+      "伙伴的效果范围提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%盟友的範圍效果"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolCorrupted1": {
+   "name": {
+    "en": "Idol of the Sycophant",
+    "zh_hans": "谄媚者之雕像",
+    "zh_hant": "奉承魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Companions in your Presence have #% to all Elemental Resistances",
+      "Companions in your Presence Gain #% of Damage as Extra Damage of a random Element"
+     ],
+     "zh_hans": [
+      "当你在场时，伙伴有 #% 的几率拥有所有元素抗性",
+      "当你在场时，伙伴获得 #% 的伤害作为额外随机元素伤害"
+     ],
+     "zh_hant": [
+      "你存在範圍中盟友#%全元素抗性",
+      "你存在範圍中盟友獲得等同於#%傷害的額外隨機一種元素傷害"
+     ],
+     "ranges": [
+      [
+       -20.0,
+       -20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Allies in your Presence Gain #% of Damage as Extra Chaos Damage",
+      "Companions in your Presence have #% to Chaos Resistance"
+     ],
+     "zh_hans": [
+      "在场的友军获得相当于伤害 #% 的额外混沌伤害",
+      "当你在场时，伙伴有 #% 的几率拥有混沌抗性"
+     ],
+     "zh_hant": [
+      "在你存在範圍內的友方獲得等同於#%傷害的額外混沌傷害",
+      "你存在範圍中盟友#%混沌抗性"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       -20.0,
+       -20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolCorrupted2": {
+   "name": {
+    "en": "Idol of the Martyr",
+    "zh_hans": "殉道者之雕像",
+    "zh_hant": "烈士魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% reduced Presence Area of Effect",
+      "Aura Skills have #% increased Magnitudes"
+     ],
+     "zh_hans": [
+      "在场范围降低 #%",
+      "光环技能的强度提高 #%"
+     ],
+     "zh_hant": [
+      "減少#%存在範圍的範圍效果",
+      "光環技能增加#%幅度"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ],
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Allies in your Presence Regenerate #% of your Maximum Life per second",
+      "#% reduced Life Regeneration rate"
+     ],
+     "zh_hans": [
+      "在场的友军每秒回复相当于你生命上限 #% 的生命",
+      "生命再生率降低 #%"
+     ],
+     "zh_hant": [
+      "處於你的存在範圍中的友方每秒回復#%最大生命",
+      "減少#%生命回復率"
+     ],
+     "ranges": [
+      [
+       3.0,
+       3.0
+      ],
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolCorrupted3": {
+   "name": {
+    "en": "Idol of the Pharisee",
+    "zh_hans": "法利赛之雕像",
+    "zh_hant": "偽善魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% reduced Mana Cost Efficiency of Command Skills",
+      "Minions deal #% increased Damage with Command Skills"
+     ],
+     "zh_hans": [
+      "命令技能的魔力消耗效能降低 #%",
+      "召唤生物使用命令技能造成的伤害提高 #%"
+     ],
+     "zh_hant": [
+      "減少#%號令技能的魔力消耗效用",
+      "增加#%召喚物的號令技能造成的傷害"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ],
+      [
+       60.0,
+       60.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% reduced Reservation Efficiency of Minion Skills",
+      "Temporary Minion Skills have +# to Limit of Minions summoned"
+     ],
+     "zh_hans": [
+      "召唤生物技能的保留效能降低 #%",
+      "临时召唤生物技能的召唤生物上限 +#"
+     ],
+     "zh_hant": [
+      "召喚物技能減少#%保留效用",
+      "暫時召喚物技能具有 +# 召出召喚物上限"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ],
+      [
+       2.0,
+       2.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolPanther": {
+   "name": {
+    "en": "Panther Idol",
+    "zh_hans": "黑豹雕像",
+    "zh_hant": "花豹魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Minions have +#% to Chaos Resistance"
+     ],
+     "zh_hans": [
+      "召唤生物有 +#% 混沌抗性"
+     ],
+     "zh_hant": [
+      "召喚物+#%混沌抗性"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Minions have #% additional Physical Damage Reduction"
+     ],
+     "zh_hans": [
+      "召唤生物有 #% 额外物理伤害减免"
+     ],
+     "zh_hant": [
+      "召喚物有#%額外物理傷害減免"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolHawk": {
+   "name": {
+    "en": "Hawk Idol",
+    "zh_hans": "鹰隼雕像",
+    "zh_hant": "翔鷹魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Companions have #% increased Attack Speed"
+     ],
+     "zh_hans": [
+      "伙伴的攻击速度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%盟友的攻擊速度"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Attack Speed while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "当你的伙伴在你在场范围内时，攻击速度提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友位於你的存在範圍內時，增加#%攻擊速度"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolStoat": {
+   "name": {
+    "en": "Stoat Idol",
+    "zh_hans": "白鼬雕像",
+    "zh_hant": "白鼬魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Companions have #% increased maximum Life"
+     ],
+     "zh_hans": [
+      "伙伴的生命上限提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%盟友的最大生命"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Damage while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "当你的伙伴在场时，伤害提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友位於你的存在範圍內時，增加#%傷害"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial15": {
+   "name": {
+    "en": "Xipocado's Soul Core of Dominion",
+    "zh_hans": "夏波卡多的统御灵核",
+    "zh_hant": "賽匹卡托的支配靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "Minions deal #% increased Damage with Command Skills"
+     ],
+     "zh_hans": [
+      "召唤生物使用命令技能造成的伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%召喚物的號令技能造成的傷害"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial16": {
+   "name": {
+    "en": "Jiquani's Soul Core of Automation",
+    "zh_hans": "佳华尼的自动灵核",
+    "zh_hant": "吉卡尼的自動化靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Totem Skill Gems"
+     ],
+     "zh_hans": [
+      "所有图腾主动技能石等级 +#"
+     ],
+     "zh_hant": [
+      "+#全部圖騰技能寶石的等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial17": {
+   "name": {
+    "en": "Jiquani's Soul Core of Malediction",
+    "zh_hans": "佳华尼的诅咒灵核",
+    "zh_hant": "吉卡尼的惡語靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Curse Skills"
+     ],
+     "zh_hans": [
+      "所有诅咒技能等级 +#"
+     ],
+     "zh_hant": [
+      "全部詛咒技能等級+#"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial18": {
+   "name": {
+    "en": "Jiquani's Soul Core of Targeting",
+    "zh_hans": "佳华尼的瞄准灵核",
+    "zh_hant": "吉卡尼的索敵靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Mark Skills"
+     ],
+     "zh_hans": [
+      "+# 所有印记技能等级"
+     ],
+     "zh_hant": [
+      "+#所有印記技能等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial19": {
+   "name": {
+    "en": "Jiquani's Soul Core of Rallying",
+    "zh_hans": "佳华尼的集结灵核",
+    "zh_hant": "吉卡尼的號召靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Warcry Skill Gems"
+     ],
+     "zh_hans": [
+      "所有战吼技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部戰吼技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial20": {
+   "name": {
+    "en": "Jiquani's Soul Core of Radiance",
+    "zh_hans": "佳华尼的辐照灵核",
+    "zh_hant": "吉卡尼的輝耀靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Herald Skill Gems"
+     ],
+     "zh_hans": [
+      "所有捷技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部捷光環技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial21": {
+   "name": {
+    "en": "Jiquani's Soul Core of Severing",
+    "zh_hans": "佳华尼的切断灵核",
+    "zh_hant": "吉卡尼的斷切靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Strike Skill Gems"
+     ],
+     "zh_hans": [
+      "所有打击技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部風暴技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial22": {
+   "name": {
+    "en": "Jiquani's Soul Core of Rippling",
+    "zh_hans": "佳华尼的涟漪灵核",
+    "zh_hant": "吉卡尼的漣漪靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Nova Skill Gems"
+     ],
+     "zh_hans": [
+      "所有新星技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部新星技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial23": {
+   "name": {
+    "en": "Jiquani's Soul Core of Quaking",
+    "zh_hans": "佳华尼的震颤灵核",
+    "zh_hant": "吉卡尼的震顫靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Slam Skill Gems"
+     ],
+     "zh_hans": [
+      "所有猛击技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部重擊技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial24": {
+   "name": {
+    "en": "Jiquani's Soul Core of Munitions",
+    "zh_hans": "佳华尼的弹药灵核",
+    "zh_hant": "吉卡尼的彈藥靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Grenade Skill Gems"
+     ],
+     "zh_hans": [
+      "所有榴弹技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部擲彈技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial25": {
+   "name": {
+    "en": "Jiquani's Soul Core of Snares",
+    "zh_hans": "佳华尼的陷阱灵核",
+    "zh_hant": "吉卡尼的陷阱靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Hazard Skill Gems"
+     ],
+     "zh_hans": [
+      "所有危害技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部危險技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial26": {
+   "name": {
+    "en": "Jiquani's Soul Core of Abundance",
+    "zh_hans": "佳华尼的丰饶灵核",
+    "zh_hant": "吉卡尼的豐饒靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Plant Skill Gems"
+     ],
+     "zh_hans": [
+      "所有植物技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部植物技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial27": {
+   "name": {
+    "en": "Jiquani's Soul Core of Squalls",
+    "zh_hans": "佳华尼的暴风灵核",
+    "zh_hant": "吉卡尼的狂風靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Wind Skill Gems"
+     ],
+     "zh_hans": [
+      "所有风系技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部疾風技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreSpecial28": {
+   "name": {
+    "en": "Jiquani's Soul Core of Thundering",
+    "zh_hans": "佳华尼的雷鸣灵核",
+    "zh_hant": "吉卡尼的雷鳴靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Level of all Storm Skill Gems"
+     ],
+     "zh_hans": [
+      "所有风暴技能宝石等级提高 +#"
+     ],
+     "zh_hant": [
+      "+#全部風暴技能寶石等級"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneUpgrade": {
+   "name": {
+    "en": "Masterwork Rune",
+    "zh_hans": "大师符文",
+    "zh_hant": "匠鍛符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Upgrades a socketed Rune"
+     ],
+     "zh_hans": [
+      "晋升一个镶嵌的符文"
+     ],
+     "zh_hant": [
+      "升級插槽中的符文"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial20": {
+   "name": {
+    "en": "Warding Rune of Equinox",
+    "zh_hans": "分点之结界符文",
+    "zh_hant": "均衡保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% less Mana Regeneration Rate",
+      "Mana Recovery from Regeneration is also applied to Runic Ward"
+     ],
+     "zh_hans": [
+      "魔力回复速度总降 #%",
+      "魔力回复同样作用于符文结界"
+     ],
+     "zh_hant": [
+      "#%更少魔力回復率",
+      "來自回復的魔力恢復也會套用於符文保護"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Runic Ward Regeneration Rate if you've dealt a Critical Hit Recently"
+     ],
+     "zh_hans": [
+      "若你近期内造成过暴击，则符文结界回复速度提高 #%"
+     ],
+     "zh_hant": [
+      "若你近期有造成暴擊，增加#%符文保護回復率"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial21": {
+   "name": {
+    "en": "Warding Rune of Salvaging",
+    "zh_hans": "回收之结界符文",
+    "zh_hant": "救援保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Recover #% of maximum Runic Ward when one of your Reviving Minions is Killed"
+     ],
+     "zh_hans": [
+      "当你的复活召唤生物被击败时，回复 #% 的符文结界上限"
+     ],
+     "zh_hant": [
+      "當你的復甦召喚物被擊殺時，恢復#%最大符文保護"
+     ],
+     "ranges": [
+      [
+       3.0,
+       3.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Recover #% of maximum Life when one of your Minions is Revived"
+     ],
+     "zh_hans": [
+      "当你的一个召唤生物复活时，回复生命上限的 #%"
+     ],
+     "zh_hant": [
+      "你的其中一個召喚物復甦時，恢復#%最大生命"
+     ],
+     "ranges": [
+      [
+       3.0,
+       3.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial23": {
+   "name": {
+    "en": "Warding Rune of Bodyguards",
+    "zh_hans": "护卫之结界符文",
+    "zh_hant": "護衛保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Minions in your Presence have Onslaught while you are on Low Runic Ward"
+     ],
+     "zh_hans": [
+      "你处于低符文结界时，在场的召唤生物拥有猛攻"
+     ],
+     "zh_hant": [
+      "你處於貧符文保護狀態時，存在範圍內的召喚物獲得猛攻"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Damage of Enemies Hitting you is Unlucky if",
+      "your Runic Ward has been damaged Recently"
+     ],
+     "zh_hans": [
+      "若你的符文结界近期受到伤害，",
+      "则击中你的敌人造成的伤害为不幸"
+     ],
+     "zh_hant": [
+      "若你的符文保護近期被傷害",
+      "敵人擊中你的傷害很不幸"
+     ],
+     "ranges": [],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial24": {
+   "name": {
+    "en": "Warding Rune of Hollowing",
+    "zh_hans": "虚化之结界符文",
+    "zh_hant": "空蝕保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Gain #% of maximum Life as Extra maximum Runic Ward",
+      "#% less maximum Life"
+     ],
+     "zh_hans": [
+      "获得相当于生命上限 #% 的额外符文结界上限",
+      "生命上限总降 #%"
+     ],
+     "zh_hant": [
+      "獲得等同於#%最大生命的額外最大符文保護",
+      "#%更少最大生命"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ],
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+#% to all Maximum Elemental Resistances while on full Runic Ward"
+     ],
+     "zh_hans": [
+      "符文结界全满时，所有元素抗性上限 +#%"
+     ],
+     "zh_hant": [
+      "符文保護全滿時，+#%最大全元素抗性"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneConvertFire": {
+   "name": {
+    "en": "Passion of Aldur",
+    "zh_hans": "奥杜尔之热情",
+    "zh_hant": "阿德爾的熱情"
+   },
+   "lines": [
+    {
+     "en": [
+      "Transforms all Cold and Lightning modifiers on the item into equivalent Fire modifiers"
+     ],
+     "zh_hans": [
+      "将物品上的所有冰霜与闪电词缀转化为等值的火焰词缀"
+     ],
+     "zh_hant": [
+      "鑲嵌時，轉化所有冰冷和閃電詞綴為同階級的火焰詞綴"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Fire Damage"
+     ],
+     "zh_hans": [
+      "火焰伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%火焰傷害"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneConvertCold": {
+   "name": {
+    "en": "Breath of Aldur",
+    "zh_hans": "奥杜尔之呼吸",
+    "zh_hant": "阿德爾的吐息"
+   },
+   "lines": [
+    {
+     "en": [
+      "When socketed, transforms all Fire and Lightning modifiers to equivalent Cold modifiers"
+     ],
+     "zh_hans": [
+      "镶嵌时，将所有火焰与闪电词缀转化为等值的冰霜词缀"
+     ],
+     "zh_hant": [
+      "鑲嵌時，轉化所有火焰和閃電詞綴為同階級的冰冷詞綴"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Cold Damage"
+     ],
+     "zh_hans": [
+      "冰霜伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%冰冷傷害"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneConvertLightning": {
+   "name": {
+    "en": "Ire of Aldur",
+    "zh_hans": "奥杜尔之忿怒",
+    "zh_hant": "阿德爾的聖怒"
+   },
+   "lines": [
+    {
+     "en": [
+      "Transforms all Fire and Cold modifiers on the item into equivalent Lightning modifiers"
+     ],
+     "zh_hans": [
+      "将物品上的所有火焰与冰霜词缀转化为等值的闪电词缀"
+     ],
+     "zh_hant": [
+      "鑲嵌時，轉化所有火焰和冰冷詞綴為同階級的閃電詞綴"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Lightning Damage"
+     ],
+     "zh_hans": [
+      "闪电伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%閃電傷害"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneConvertChaos": {
+   "name": {
+    "en": "Betrayal of Aldur",
+    "zh_hans": "奥杜尔之背叛",
+    "zh_hant": "阿德爾的背叛"
+   },
+   "lines": [
+    {
+     "en": [
+      "Transforms all Fire, Cold and Lightning modifiers on the item into equivalent Chaos modifiers"
+     ],
+     "zh_hans": [
+      "将物品上的所有火焰、冰霜与闪电词缀转化为等值的混沌词缀"
+     ],
+     "zh_hant": [
+      "鑲嵌時，轉化所有火焰、冰冷、和閃電詞綴為同階級的混沌詞綴"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Chaos Damage"
+     ],
+     "zh_hans": [
+      "混沌伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%混沌傷害"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients10": {
+   "name": {
+    "en": "Ancient Rune of the Horde",
+    "zh_hans": "部落之远古符文",
+    "zh_hant": "遠古部族符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Minions have #% increased Attack and Cast Speed"
+     ],
+     "zh_hans": [
+      "召唤生物的攻击和施法速度提高 #%"
+     ],
+     "zh_hant": [
+      "召喚物增加#%攻擊和施法速度"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Minions have #% increased Movement Speed"
+     ],
+     "zh_hans": [
+      "召唤生物的移动速度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%召喚物移動速度"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients14": {
+   "name": {
+    "en": "Rune of Vitality",
+    "zh_hans": "活力符文",
+    "zh_hant": "崇敬活力符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Life"
+     ],
+     "zh_hans": [
+      "+# 生命上限"
+     ],
+     "zh_hant": [
+      "+#最大生命"
+     ],
+     "ranges": [
+      [
+       80.0,
+       80.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased amount of Life Leeched"
+     ],
+     "zh_hans": [
+      "生命偷取量提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%生命偷取量"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients15": {
+   "name": {
+    "en": "Rune of the Hunt",
+    "zh_hans": "狩猎符文",
+    "zh_hant": "崇敬狩獵符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Companions deal #% increased Damage"
+     ],
+     "zh_hans": [
+      "伙伴的伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%盟友造成的傷害"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Mana Recovery rate while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "伙伴在场时，魔力回复速度提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友位於你的存在範圍內時，增加#%魔力回復速率"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients16": {
+   "name": {
+    "en": "Rune of Acrobatics",
+    "zh_hans": "杂技符文",
+    "zh_hant": "崇敬巧技符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Flasks gain # charges per Second"
+     ],
+     "zh_hans": [
+      "药剂每秒获得 # 次充能"
+     ],
+     "zh_hant": [
+      "藥劑每秒獲得#充能"
+     ],
+     "ranges": [
+      [
+       0.2,
+       0.2
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Charms gain # charges per Second"
+     ],
+     "zh_hans": [
+      "咒符每秒获得 # 次充能"
+     ],
+     "zh_hant": [
+      "護符每秒獲得#充能"
+     ],
+     "ranges": [
+      [
+       0.25,
+       0.25
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients18": {
+   "name": {
+    "en": "Rune of Renown",
+    "zh_hans": "声望符文",
+    "zh_hant": "崇敬聲望符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Archon recovery period expires #% faster"
+     ],
+     "zh_hans": [
+      "执政官间隔期的消减速度加快 #%"
+     ],
+     "zh_hant": [
+      "統治者增益效果恢復期加快#%"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Archon Buff duration"
+     ],
+     "zh_hans": [
+      "执政官增益状态持续时间提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%統治者持續時間"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients23": {
+   "name": {
+    "en": "Rune of Consistency",
+    "zh_hans": "连贯符文",
+    "zh_hant": "崇敬連貫符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Spell Damage while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "你的伙伴在场时，法术伤害提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友在你的存在範圍內時，增加#%法術傷害"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Mana Recovery rate while your Companion is in your Presence"
+     ],
+     "zh_hans": [
+      "伙伴在场时，魔力回复速度提高 #%"
+     ],
+     "zh_hant": [
+      "當你的盟友位於你的存在範圍內時，增加#%魔力回復速率"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingAdditionalSuffix": {
+   "name": {
+    "en": "Serle's Triumph",
+    "zh_hans": "瑟尔的凯旋",
+    "zh_hant": "瑟雷的凱旋"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# Suffix Modifier allowed",
+      "local maximum mods allowed + [1]"
+     ],
+     "zh_hans": [
+      "允许的后缀 +#",
+      "local maximum mods allowed + [1]"
+     ],
+     "zh_hant": [
+      "允許後綴+#",
+      "local maximum mods allowed + [1]"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingAdditionalCraftedMod": {
+   "name": {
+    "en": "Astrid's Creativity",
+    "zh_hans": "阿斯特丽德的创造",
+    "zh_hant": "阿斯垂德的創造"
+   },
+   "lines": [
+    {
+     "en": [
+      "Can have # additional Crafted Modifiers"
+     ],
+     "zh_hans": [
+      "可以有# 个额外工艺词缀"
+     ],
+     "zh_hant": [
+      "可以有#個額外工藝詞綴"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingDestructionInfluence": {
+   "name": {
+    "en": "Thrud's Might",
+    "zh_hans": "斯鲁德的神力",
+    "zh_hant": "索魯德的強權"
+   },
+   "lines": [
+    {
+     "en": [
+      "Can roll Destruction modifiers"
+     ],
+     "zh_hans": [
+      "可以选取毁灭词缀"
+     ],
+     "zh_hant": [
+      "可骰出毀滅詞綴"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+#% to all Elemental Resistances"
+     ],
+     "zh_hans": [
+      "所有元素抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%全元素抗性"
+     ],
+     "ranges": [
+      [
+       5.0,
+       5.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingOlrothsLegacy": {
+   "name": {
+    "en": "Aldur's Legacy",
+    "zh_hans": "奥杜尔的遗产",
+    "zh_hant": "阿德爾的傳承"
+   },
+   "lines": [
+    {
+     "en": [
+      "When socketed into a Unique Kalguuran or Ezomyte item, destroys the item to create a Rune imbued with that item's power"
+     ],
+     "zh_hans": [
+      "当镶嵌在稀有的卡古兰或艾兹麦物品上时，摧毁该物品以创造一个灌注其力量的符文"
+     ],
+     "zh_hant": [
+      "當鑲嵌至一件傳奇卡爾葛或艾茲麥物品時，摧毀該物品並創造一枚灌注該物品能力的符文"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    }
+   ]
+  }
+ },
+ "base_types": {
+  "Aromatic_Sceptre": {
+   "en": "Aromatic Sceptre",
+   "zh_hans": "芳香权杖",
+   "zh_hant": "芳香權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Clasped_Sceptre": {
+   "en": "Clasped Sceptre",
+   "zh_hans": "握扣权杖",
+   "zh_hant": "握扣權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Heart of Ice",
+     "zh_hans": "获得技能: 冰雪之心",
+     "zh_hant": "賦予技能: 冰雪之心"
+    }
+   ]
+  },
+  "Devotional_Sceptre": {
+   "en": "Devotional Sceptre",
+   "zh_hans": "虔诚权杖",
+   "zh_hant": "虔誠權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Devouring_Sceptre": {
+   "en": "Devouring Sceptre",
+   "zh_hans": "吞噬权杖",
+   "zh_hant": "吞噬權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Hallowed_Sceptre": {
+   "en": "Hallowed Sceptre",
+   "zh_hans": "崇圣权杖",
+   "zh_hant": "聖潔權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Lupine_Sceptre": {
+   "en": "Lupine Sceptre",
+   "zh_hans": "幽狼权杖",
+   "zh_hant": "兇殘權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Ochre_Sceptre": {
+   "en": "Ochre Sceptre",
+   "zh_hans": "赤色权杖",
+   "zh_hant": "赤色權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Omen_Sceptre": {
+   "en": "Omen Sceptre",
+   "zh_hans": "预兆权杖",
+   "zh_hant": "徵兆權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Malice",
+     "zh_hans": "获得技能: 怨毒",
+     "zh_hant": "賦予技能: 絕滅恨惡"
+    }
+   ]
+  },
+  "Pious_Sceptre": {
+   "en": "Pious Sceptre",
+   "zh_hans": "虔信权杖",
+   "zh_hant": "敬神權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Rattling_Sceptre": {
+   "en": "Rattling Sceptre",
+   "zh_hans": "罪孽权杖",
+   "zh_hant": "雜響權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ]
+  },
+  "Shrine_Sceptre": {
+   "en": "Shrine Sceptre",
+   "zh_hans": "圣地权杖",
+   "zh_hant": "神殿權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Fire",
+     "zh_hans": "获得技能: 火焰净化",
+     "zh_hant": "賦予技能: 火焰淨化"
+    }
+   ]
+  },
+  "Shrine_Sceptre#2": {
+   "en": "Shrine Sceptre",
+   "zh_hans": "圣地权杖",
+   "zh_hant": "神殿權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Ice",
+     "zh_hans": "获得技能: 冰霜净化",
+     "zh_hant": "賦予技能: 冰霜淨化"
+    }
+   ]
+  },
+  "Shrine_Sceptre#3": {
+   "en": "Shrine Sceptre",
+   "zh_hans": "圣地权杖",
+   "zh_hant": "神殿權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Lightning",
+     "zh_hans": "获得技能: 闪电净化",
+     "zh_hant": "賦予技能: 閃電淨化"
+    }
+   ]
+  },
+  "Shrine_Sceptre#4": {
+   "en": "Shrine Sceptre",
+   "zh_hans": "圣地权杖",
+   "zh_hant": "神殿權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Impurity",
+     "zh_hans": "获得技能: 不净",
+     "zh_hant": "賦予技能: 不淨"
+    }
+   ]
+  },
+  "Stoic_Sceptre": {
+   "en": "Stoic Sceptre",
+   "zh_hans": "克己权杖",
+   "zh_hant": "魔道權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Discipline",
+     "zh_hans": "获得技能: 纪律",
+     "zh_hant": "賦予技能: 紀律"
+    }
+   ]
+  },
+  "Wrath_Sceptre": {
+   "en": "Wrath Sceptre",
+   "zh_hans": "愤怒权杖",
+   "zh_hant": "暴怒權杖",
+   "implicits": [
+    {
+     "en": "Grants Skill: Fulmination",
+     "zh_hans": "获得技能: 轰鸣烈焰",
+     "zh_hant": "賦予技能: 劇烈爆發"
+    }
+   ]
+  }
+ },
+ "uniques": {
+  "Font_of_Power": {
+   "en": "Font of Power",
+   "zh_hans": "力量的源泉",
+   "zh_hant": "力量水晶塔",
+   "base": {
+    "en": "Omen Sceptre",
+    "zh_hans": "预兆权杖",
+    "zh_hant": "徵兆權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Malice",
+     "zh_hans": "获得技能: 怨毒",
+     "zh_hant": "賦予技能: 絕滅恨惡"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Spirit",
+     "zh_hans": "该装备精魂提高 #%",
+     "zh_hant": "增加#%精魂"
+    },
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "#% increased Mana Regeneration Rate",
+     "zh_hans": "魔力再生率提高 #%",
+     "zh_hant": "增加#%魔力回復率"
+    },
+    {
+     "en": "When a Party Member in your Presence Casts a Spell, you",
+     "zh_hans": "在场的队伍成员施放法术时，",
+     "zh_hant": "你存在範圍內的隊員施放法術時，"
+    },
+    {
+     "en": "Sacrifice #% of Mana and they Leech that Mana",
+     "zh_hans": "你献祭 #% 的魔力并使其偷取等量的魔力",
+     "zh_hant": "你獻祭#%的魔力，而隊伍成員會偷取該魔力"
+    }
+   ]
+  },
+  "Guiding_Palm_of_the_Eye": {
+   "en": "Guiding Palm of the Eye",
+   "zh_hans": "眼目之指引之掌",
+   "zh_hant": "引導之掌：眼",
+   "base": {
+    "en": "Shrine Sceptre",
+    "zh_hans": "圣地权杖",
+    "zh_hant": "神殿權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Ice",
+     "zh_hans": "获得技能: 冰霜净化",
+     "zh_hant": "賦予技能: 冰霜淨化"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Gain #% of Damage as Extra Cold Damage",
+     "zh_hans": "获得相当于伤害 #% 的额外冰霜伤害",
+     "zh_hant": "獲得等同於傷害#%的額外冰冷傷害"
+    },
+    {
+     "en": "Allies in your Presence deal # to # added Attack Cold Damage",
+     "zh_hans": "在场的友军附加 # - # 攻击冰霜伤害",
+     "zh_hant": "處於你存在範圍中的友方造成#至#額外攻擊冰冷傷害"
+    },
+    {
+     "en": "#% of your Base Life Regeneration is granted to Allies in your Presence",
+     "zh_hans": "基础生命再生的 #% 对在场的友军生效",
+     "zh_hant": "賦予存在範圍內的友方你自身#%的基礎生命回復"
+    },
+    {
+     "en": "+# to Intelligence",
+     "zh_hans": "+# 智慧",
+     "zh_hant": "+#點智慧"
+    },
+    {
+     "en": "#% increased Light Radius",
+     "zh_hans": "照亮范围提高 #%",
+     "zh_hant": "增加#%照亮範圍"
+    },
+    {
+     "en": "Grants effect of Guided Freezing Shrine",
+     "zh_hans": "获得导引霜寒神龛的效果",
+     "zh_hant": "賦予引導霜寒神殿的效果"
+    }
+   ]
+  },
+  "Guiding_Palm_of_the_Heart": {
+   "en": "Guiding Palm of the Heart",
+   "zh_hans": "心脏之指引之掌",
+   "zh_hant": "引導之掌：心",
+   "base": {
+    "en": "Shrine Sceptre",
+    "zh_hans": "圣地权杖",
+    "zh_hant": "神殿權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Fire",
+     "zh_hans": "获得技能: 火焰净化",
+     "zh_hant": "賦予技能: 火焰淨化"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Gain #% of Damage as Extra Fire Damage",
+     "zh_hans": "获得相当于伤害 #% 的额外火焰伤害",
+     "zh_hant": "獲得等同於傷害#%的額外火焰傷害"
+    },
+    {
+     "en": "Allies in your Presence deal # to # added Attack Fire Damage",
+     "zh_hans": "在场的友军附加 # - # 攻击火焰伤害",
+     "zh_hant": "處於你存在範圍中的友方造成#至#額外攻擊火焰傷害"
+    },
+    {
+     "en": "#% of your Base Life Regeneration is granted to Allies in your Presence",
+     "zh_hans": "基础生命再生的 #% 对在场的友军生效",
+     "zh_hant": "賦予存在範圍內的友方你自身#%的基礎生命回復"
+    },
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    },
+    {
+     "en": "#% increased Light Radius",
+     "zh_hans": "照亮范围提高 #%",
+     "zh_hant": "增加#%照亮範圍"
+    },
+    {
+     "en": "Grants effect of Guided Meteoric Shrine",
+     "zh_hans": "获得导引陨星神龛的效果",
+     "zh_hant": "賦予引導隕石神殿的效果"
+    }
+   ]
+  },
+  "Guiding_Palm_of_the_Mind": {
+   "en": "Guiding Palm of the Mind",
+   "zh_hans": "意念之指引之掌",
+   "zh_hant": "引導之掌：靈",
+   "base": {
+    "en": "Shrine Sceptre",
+    "zh_hans": "圣地权杖",
+    "zh_hant": "神殿權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Lightning",
+     "zh_hans": "获得技能: 闪电净化",
+     "zh_hant": "賦予技能: 閃電淨化"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Gain #% of Damage as Extra Lightning Damage",
+     "zh_hans": "获得相当于伤害 #% 的额外闪电伤害",
+     "zh_hant": "獲得等同於傷害#%的額外閃電傷害"
+    },
+    {
+     "en": "Allies in your Presence deal # to # added Attack Lightning Damage",
+     "zh_hans": "在场的友军附加 # - # 攻击闪电伤害",
+     "zh_hant": "處於你存在範圍中的友方造成#至#額外攻擊閃電傷害"
+    },
+    {
+     "en": "#% of your Base Life Regeneration is granted to Allies in your Presence",
+     "zh_hans": "基础生命再生的 #% 对在场的友军生效",
+     "zh_hant": "賦予存在範圍內的友方你自身#%的基礎生命回復"
+    },
+    {
+     "en": "+# to Dexterity",
+     "zh_hans": "+# 敏捷",
+     "zh_hant": "+#點敏捷"
+    },
+    {
+     "en": "#% increased Light Radius",
+     "zh_hans": "照亮范围提高 #%",
+     "zh_hant": "增加#%照亮範圍"
+    },
+    {
+     "en": "Grants effect of Guided Tempest Shrine",
+     "zh_hans": "获得导引风暴神龛的效果",
+     "zh_hant": "賦予引導暴風神殿的效果"
+    }
+   ]
+  },
+  "Palm_of_the_Dreamer": {
+   "en": "Palm of the Dreamer",
+   "zh_hans": "幻梦者之掌",
+   "zh_hant": "幻夢者之掌",
+   "base": {
+    "en": "Shrine Sceptre",
+    "zh_hans": "圣地权杖",
+    "zh_hant": "神殿權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Impurity",
+     "zh_hans": "获得技能: 不净",
+     "zh_hant": "賦予技能: 不淨"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Allies in your Presence deal # to # added Attack Chaos Damage",
+     "zh_hans": "在场的友军附加 # - # 攻击混沌伤害",
+     "zh_hant": "處於你存在範圍中的友方造成#至#附加攻擊混沌傷害"
+    },
+    {
+     "en": "+# to all Attributes",
+     "zh_hans": "+# 全属性",
+     "zh_hant": "+#點全部能力值"
+    },
+    {
+     "en": "#% reduced Light Radius",
+     "zh_hans": "照亮范围降低 #%",
+     "zh_hant": "減少#%照亮範圍"
+    },
+    {
+     "en": "#% reduced Skill Effect Duration",
+     "zh_hans": "技能效果持续时间降低 #%",
+     "zh_hant": "減少#%技能效果持續時間"
+    },
+    {
+     "en": "Gain #% of Damage as Extra Chaos Damage",
+     "zh_hans": "获得相当于伤害 #% 的额外混沌伤害",
+     "zh_hant": "獲得等同於傷害#%的額外混沌傷害"
+    },
+    {
+     "en": "Grants effect of Dreaming Gloom Shrine",
+     "zh_hans": "获得梦想隐忍神龛的效果",
+     "zh_hant": "賦予夢境漆黑神殿的效果"
+    }
+   ]
+  },
+  "Sacred_Flame": {
+   "en": "Sacred Flame",
+   "zh_hans": "神圣之火",
+   "zh_hant": "神聖烈焰",
+   "base": {
+    "en": "Shrine Sceptre",
+    "zh_hans": "圣地权杖",
+    "zh_hant": "神殿權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Purity of Fire",
+     "zh_hans": "获得技能: 火焰净化",
+     "zh_hant": "賦予技能: 火焰淨化"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Gain #% of Damage as Extra Fire Damage",
+     "zh_hans": "获得相当于伤害 #% 的额外火焰伤害",
+     "zh_hant": "獲得等同於傷害#%的額外火焰傷害"
+    },
+    {
+     "en": "Allies in your Presence Regenerate #% of their Maximum Life per second",
+     "zh_hans": "在场的友军每秒再生生命上限 #% 的生命",
+     "zh_hant": "處於你的存在範圍中的友方每秒回復#%最大生命"
+    },
+    {
+     "en": "Allies in your Presence Gain #% of Damage as Extra Fire Damage",
+     "zh_hans": "在场的友军获得相当于伤害 #% 的额外火焰伤害",
+     "zh_hant": "在你存在範圍內的友方獲得等同於#%傷害的額外火焰傷害"
+    },
+    {
+     "en": "Enemies in your Presence Resist Elemental Damage based on their Lowest Resistance",
+     "zh_hans": "在场的敌人根据最低的抗性抵抗元素伤害",
+     "zh_hant": "敵人身處你的存在範圍時，其元素傷害抵抗以最低抗性為依據"
+    }
+   ]
+  },
+  "Sylvans_Effigy": {
+   "en": "Sylvan's Effigy",
+   "zh_hans": "森林灵像",
+   "zh_hant": "林木塑像",
+   "base": {
+    "en": "Stoic Sceptre",
+    "zh_hans": "克己权杖",
+    "zh_hant": "魔道權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Discipline",
+     "zh_hans": "获得技能: 纪律",
+     "zh_hant": "賦予技能: 紀律"
+    },
+    {
+     "en": "Grants Skill: Level 14 Azmerian Wolf",
+     "zh_hans": "获得技能: 等级 14 阿兹莫里巨狼",
+     "zh_hant": "賦予技能: 等級 14 阿茲莫里巨狼"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Spirit",
+     "zh_hans": "该装备精魂提高 #%",
+     "zh_hant": "增加#%精魂"
+    },
+    {
+     "en": "Allies in your Presence Regenerate # Life per second",
+     "zh_hans": "在场的友军每秒再生 # 点生命",
+     "zh_hant": "處於你存在範圍中的友方每秒回復#生命"
+    },
+    {
+     "en": "+# to all Attributes",
+     "zh_hans": "+# 全属性",
+     "zh_hant": "+#點全部能力值"
+    },
+    {
+     "en": "Companions deal #% increased damage to your Marked targets",
+     "zh_hans": "伙伴对你的印记目标造成的伤害提高 #%",
+     "zh_hant": "盟友對你標記的目標增加#%傷害"
+    },
+    {
+     "en": "You can have any number of Companions of different types",
+     "zh_hans": "你可以拥有任意数量的不同类型的伙伴",
+     "zh_hant": "你可以擁有任意數量的不同類型盟友"
+    },
+    {
+     "en": "discipline art variation [1]",
+     "zh_hans": "discipline art variation [1]",
+     "zh_hant": "discipline art variation [1]"
+    }
+   ]
+  },
+  "The_Dark_Defiler": {
+   "en": "The Dark Defiler",
+   "zh_hans": "黑暗渎神",
+   "zh_hant": "黑暗玷汙者",
+   "base": {
+    "en": "Rattling Sceptre",
+    "zh_hans": "罪孽权杖",
+    "zh_hant": "雜響權杖"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Skeletal Warrior",
+     "zh_hans": "获得技能: 魔侍武士",
+     "zh_hant": "賦予技能: 骷髏戰士"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "+# to Intelligence",
+     "zh_hans": "+# 智慧",
+     "zh_hant": "+#點智慧"
+    },
+    {
+     "en": "#% increased Mana Regeneration Rate",
+     "zh_hans": "魔力再生率提高 #%",
+     "zh_hant": "增加#%魔力回復率"
+    },
+    {
+     "en": "Gain #% of Damage as Chaos Damage per Undead Minion",
+     "zh_hans": "每个亡灵召唤生物使你获得相当于 #% 伤害的混沌伤害",
+     "zh_hant": "每擁有一個不死召喚物，獲得等同於傷害#%的混沌傷害"
+    }
+   ]
+  }
+ }
+}

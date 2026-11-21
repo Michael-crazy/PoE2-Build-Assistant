@@ -1,0 +1,61 @@
+{
+  "engine_commit": "601768bd105869618c3d6581b883e5d7aeec91b2",
+  "inputs_sha256": {
+    "build.xml": "27f90be77dd94e8658d6aad1f2ec893d424f3c98b4cf51ea2f7a3b13a497753e",
+    "wand.txt": "aa91739d12ee2216de6c770cdaac2557b6d7caa5aed368db35bced51b24b4df7",
+    "bow.txt": "e9a2a511e1ed2ebef70dd5fcc611edb6f3544117da58d37d93c166cad6ccaa33"
+  },
+  "baseline": {
+    "Armour": 0,
+    "CombinedDPS": 124.92202899364,
+    "EnergyShield": 157,
+    "Evasion": 7,
+    "Life": 65
+  },
+  "cases": {
+    "wand": {
+      "item": "wand.txt",
+      "slot": "Weapon 1",
+      "replacement": {
+        "Armour": 0,
+        "CombinedDPS": 124.92202899364,
+        "EnergyShield": 257,
+        "Evasion": 7,
+        "Life": 65
+      },
+      "delta": {
+        "CombinedDPS": 0.0,
+        "Life": 0,
+        "EnergyShield": 100,
+        "Armour": 0,
+        "Evasion": 0
+      },
+      "request_sha256": "39b17e3bd1d61680e892b0378ae7d74e3ff39850dfe05260b144d55291bece8e"
+    },
+    "bow": {
+      "item": "bow.txt",
+      "slot": "Weapon 1",
+      "replacement": {
+        "Armour": 0,
+        "CombinedDPS": 124.92202899364,
+        "EnergyShield": 0,
+        "Evasion": 7,
+        "Life": 65
+      },
+      "delta": {
+        "CombinedDPS": 0.0,
+        "Life": 0,
+        "EnergyShield": -157,
+        "Armour": 0,
+        "Evasion": 0
+      },
+      "request_sha256": "1544ec6f1a2fc3ead45d42d5f1422e81022b49d1ba2a72dd5a9c3a0ce0cb38c4"
+    },
+    "inactive": {
+      "item": "bow.txt",
+      "slot": "Weapon 1 Swap",
+      "rejected": true,
+      "reason": "slot outside calculated weapon set"
+    }
+  }
+}

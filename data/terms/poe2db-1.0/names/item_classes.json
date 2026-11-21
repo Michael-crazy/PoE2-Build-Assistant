@@ -1,0 +1,487 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "source": "poe2db-cache page titles (us/cn/tw)",
+  "script": "ops/poe2db_item_classes.py"
+ },
+ "pages": {
+  "Amulets": {
+   "en": "Amulets",
+   "zh_hans": "项链",
+   "zh_hant": "項鍊",
+   "source": "cn"
+  },
+  "Belts": {
+   "en": "Belts",
+   "zh_hans": "腰带",
+   "zh_hant": "腰帶",
+   "source": "cn"
+  },
+  "Body_Armours": {
+   "en": "Body_Armours",
+   "zh_hans": "胸甲",
+   "zh_hant": "胸甲",
+   "source": "tw"
+  },
+  "Boots": {
+   "en": "Boots",
+   "zh_hans": "鞋子",
+   "zh_hant": "長靴",
+   "source": "cn"
+  },
+  "Bows": {
+   "en": "Bows",
+   "zh_hans": "弓类",
+   "zh_hant": "弓",
+   "source": "cn"
+  },
+  "Bucklers": {
+   "en": "Bucklers",
+   "zh_hans": "轻盾",
+   "zh_hant": "輕盾",
+   "source": "cn"
+  },
+  "Charms": {
+   "en": "Charms",
+   "zh_hans": "咒符",
+   "zh_hant": "護符",
+   "source": "cn"
+  },
+  "Claws": {
+   "en": "Claws",
+   "zh_hans": "爪类",
+   "zh_hant": "爪",
+   "source": "cn"
+  },
+  "Crossbows": {
+   "en": "Crossbows",
+   "zh_hans": "战弩",
+   "zh_hant": "十字弓",
+   "source": "cn"
+  },
+  "Daggers": {
+   "en": "Daggers",
+   "zh_hans": "匕首",
+   "zh_hant": "匕首",
+   "source": "cn"
+  },
+  "Flails": {
+   "en": "Flails",
+   "zh_hans": "连枷",
+   "zh_hant": "鏈錘",
+   "source": "cn"
+  },
+  "Foci": {
+   "en": "Foci",
+   "zh_hans": "法器",
+   "zh_hant": "法器",
+   "source": "cn"
+  },
+  "Gloves": {
+   "en": "Gloves",
+   "zh_hans": "手套",
+   "zh_hant": "手部外觀",
+   "source": "cn"
+  },
+  "Helmets": {
+   "en": "Helmets",
+   "zh_hans": "头盔",
+   "zh_hant": "頭部",
+   "source": "cn"
+  },
+  "Jewels": {
+   "en": "Jewels",
+   "zh_hans": "珠宝",
+   "zh_hant": "珠寶",
+   "source": "cn"
+  },
+  "Life_Flasks": {
+   "en": "Life_Flasks",
+   "zh_hans": "生命药剂",
+   "zh_hant": "生命藥劑",
+   "source": "cn"
+  },
+  "Mana_Flasks": {
+   "en": "Mana_Flasks",
+   "zh_hans": "魔力药剂",
+   "zh_hant": "魔力藥劑",
+   "source": "cn"
+  },
+  "One_Hand_Axes": {
+   "en": "One_Hand_Axes",
+   "zh_hans": "单手斧",
+   "zh_hant": "單手斧",
+   "source": "cn"
+  },
+  "One_Hand_Maces": {
+   "en": "One_Hand_Maces",
+   "zh_hans": "单手锤",
+   "zh_hant": "單手錘",
+   "source": "cn"
+  },
+  "One_Hand_Swords": {
+   "en": "One_Hand_Swords",
+   "zh_hans": "单手剑",
+   "zh_hant": "單手劍",
+   "source": "cn"
+  },
+  "Quarterstaves": {
+   "en": "Quarterstaves",
+   "zh_hans": "节杖",
+   "zh_hant": "細杖",
+   "source": "cn"
+  },
+  "Quivers": {
+   "en": "Quivers",
+   "zh_hans": "箭袋",
+   "zh_hant": "箭袋",
+   "source": "cn"
+  },
+  "Rings": {
+   "en": "Rings",
+   "zh_hans": "戒指",
+   "zh_hant": "戒指",
+   "source": "cn"
+  },
+  "Sceptres": {
+   "en": "Sceptres",
+   "zh_hans": "权杖",
+   "zh_hant": "權杖",
+   "source": "cn"
+  },
+  "Shields": {
+   "en": "Shields",
+   "zh_hans": "盾牌",
+   "zh_hant": "盾",
+   "source": "cn"
+  },
+  "Spears": {
+   "en": "Spears",
+   "zh_hans": "战矛",
+   "zh_hant": "長矛",
+   "source": "cn"
+  },
+  "Staves": {
+   "en": "Staves",
+   "zh_hans": "长杖",
+   "zh_hant": "長杖",
+   "source": "cn"
+  },
+  "Talismans": {
+   "en": "Talismans",
+   "zh_hans": "魔符",
+   "zh_hant": "魔符",
+   "source": "cn"
+  },
+  "Timeless_Jewel": {
+   "en": "Timeless_Jewel",
+   "zh_hans": "永恒珠宝",
+   "zh_hant": "永恆珠寶",
+   "source": "cn"
+  },
+  "Traps": {
+   "en": "Traps",
+   "zh_hans": "陷阱",
+   "zh_hant": "陷阱",
+   "source": "cn"
+  },
+  "Two_Hand_Axes": {
+   "en": "Two_Hand_Axes",
+   "zh_hans": "双手斧",
+   "zh_hant": "雙手斧",
+   "source": "cn"
+  },
+  "Two_Hand_Maces": {
+   "en": "Two_Hand_Maces",
+   "zh_hans": "双手锤",
+   "zh_hant": "雙手錘",
+   "source": "cn"
+  },
+  "Two_Hand_Swords": {
+   "en": "Two_Hand_Swords",
+   "zh_hans": "双手剑",
+   "zh_hant": "雙手劍",
+   "source": "cn"
+  },
+  "Wands": {
+   "en": "Wands",
+   "zh_hans": "法杖",
+   "zh_hant": "法杖",
+   "source": "cn"
+  }
+ },
+ "pob": {
+  "Amulet": {
+   "en": "Amulets",
+   "zh_hans": "项链",
+   "zh_hant": "項鍊",
+   "source": "cn",
+   "page": "Amulets"
+  },
+  "Belt": {
+   "en": "Belts",
+   "zh_hans": "腰带",
+   "zh_hant": "腰帶",
+   "source": "cn",
+   "page": "Belts"
+  },
+  "Body Armour": {
+   "en": "Body_Armours",
+   "zh_hans": "胸甲",
+   "zh_hant": "胸甲",
+   "source": "tw",
+   "page": "Body_Armours"
+  },
+  "Boots": {
+   "en": "Boots",
+   "zh_hans": "鞋子",
+   "zh_hant": "長靴",
+   "source": "cn",
+   "page": "Boots"
+  },
+  "Bow": {
+   "en": "Bows",
+   "zh_hans": "弓类",
+   "zh_hant": "弓",
+   "source": "cn",
+   "page": "Bows"
+  },
+  "Buckler": {
+   "en": "Bucklers",
+   "zh_hans": "轻盾",
+   "zh_hant": "輕盾",
+   "source": "cn",
+   "page": "Bucklers"
+  },
+  "Charm": {
+   "en": "Charms",
+   "zh_hans": "咒符",
+   "zh_hant": "護符",
+   "source": "cn",
+   "page": "Charms"
+  },
+  "Claw": {
+   "en": "Claws",
+   "zh_hans": "爪类",
+   "zh_hant": "爪",
+   "source": "cn",
+   "page": "Claws"
+  },
+  "Crossbow": {
+   "en": "Crossbows",
+   "zh_hans": "战弩",
+   "zh_hant": "十字弓",
+   "source": "cn",
+   "page": "Crossbows"
+  },
+  "Dagger": {
+   "en": "Daggers",
+   "zh_hans": "匕首",
+   "zh_hant": "匕首",
+   "source": "cn",
+   "page": "Daggers"
+  },
+  "Flail": {
+   "en": "Flails",
+   "zh_hans": "连枷",
+   "zh_hant": "鏈錘",
+   "source": "cn",
+   "page": "Flails"
+  },
+  "Flask: Life": {
+   "en": "Life_Flasks",
+   "zh_hans": "生命药剂",
+   "zh_hant": "生命藥劑",
+   "source": "cn",
+   "page": "Life_Flasks"
+  },
+  "Flask: Mana": {
+   "en": "Mana_Flasks",
+   "zh_hans": "魔力药剂",
+   "zh_hant": "魔力藥劑",
+   "source": "cn",
+   "page": "Mana_Flasks"
+  },
+  "Focus": {
+   "en": "Foci",
+   "zh_hans": "法器",
+   "zh_hant": "法器",
+   "source": "cn",
+   "page": "Foci"
+  },
+  "Gloves": {
+   "en": "Gloves",
+   "zh_hans": "手套",
+   "zh_hant": "手部外觀",
+   "source": "cn",
+   "page": "Gloves"
+  },
+  "Helmet": {
+   "en": "Helmets",
+   "zh_hans": "头盔",
+   "zh_hant": "頭部",
+   "source": "cn",
+   "page": "Helmets"
+  },
+  "Jewel": {
+   "en": "Jewels",
+   "zh_hans": "珠宝",
+   "zh_hant": "珠寶",
+   "source": "cn",
+   "page": "Jewels"
+  },
+  "Jewel: Timeless": {
+   "en": "Timeless_Jewel",
+   "zh_hans": "永恒珠宝",
+   "zh_hant": "永恆珠寶",
+   "source": "cn",
+   "page": "Timeless_Jewel"
+  },
+  "One Hand Axe": {
+   "en": "One_Hand_Axes",
+   "zh_hans": "单手斧",
+   "zh_hant": "單手斧",
+   "source": "cn",
+   "page": "One_Hand_Axes"
+  },
+  "One Hand Mace": {
+   "en": "One_Hand_Maces",
+   "zh_hans": "单手锤",
+   "zh_hant": "單手錘",
+   "source": "cn",
+   "page": "One_Hand_Maces"
+  },
+  "One Hand Sword": {
+   "en": "One_Hand_Swords",
+   "zh_hans": "单手剑",
+   "zh_hant": "單手劍",
+   "source": "cn",
+   "page": "One_Hand_Swords"
+  },
+  "Quarterstaff": {
+   "en": "Quarterstaves",
+   "zh_hans": "节杖",
+   "zh_hant": "細杖",
+   "source": "cn",
+   "page": "Quarterstaves"
+  },
+  "Quiver": {
+   "en": "Quivers",
+   "zh_hans": "箭袋",
+   "zh_hant": "箭袋",
+   "source": "cn",
+   "page": "Quivers"
+  },
+  "Ring": {
+   "en": "Rings",
+   "zh_hans": "戒指",
+   "zh_hant": "戒指",
+   "source": "cn",
+   "page": "Rings"
+  },
+  "Sceptre": {
+   "en": "Sceptres",
+   "zh_hans": "权杖",
+   "zh_hant": "權杖",
+   "source": "cn",
+   "page": "Sceptres"
+  },
+  "Shield": {
+   "en": "Shields",
+   "zh_hans": "盾牌",
+   "zh_hant": "盾",
+   "source": "cn",
+   "page": "Shields"
+  },
+  "Spear": {
+   "en": "Spears",
+   "zh_hans": "战矛",
+   "zh_hant": "長矛",
+   "source": "cn",
+   "page": "Spears"
+  },
+  "Staff": {
+   "en": "Staves",
+   "zh_hans": "长杖",
+   "zh_hant": "長杖",
+   "source": "cn",
+   "page": "Staves"
+  },
+  "Staff: Warstaff": {
+   "en": "Quarterstaves",
+   "zh_hans": "节杖",
+   "zh_hant": "細杖",
+   "source": "cn",
+   "page": "Quarterstaves"
+  },
+  "Talisman": {
+   "en": "Talismans",
+   "zh_hans": "魔符",
+   "zh_hant": "魔符",
+   "source": "cn",
+   "page": "Talismans"
+  },
+  "TrapTool": {
+   "en": "Traps",
+   "zh_hans": "陷阱",
+   "zh_hant": "陷阱",
+   "source": "cn",
+   "page": "Traps"
+  },
+  "Two Hand Axe": {
+   "en": "Two_Hand_Axes",
+   "zh_hans": "双手斧",
+   "zh_hant": "雙手斧",
+   "source": "cn",
+   "page": "Two_Hand_Axes"
+  },
+  "Two Hand Mace": {
+   "en": "Two_Hand_Maces",
+   "zh_hans": "双手锤",
+   "zh_hant": "雙手錘",
+   "source": "cn",
+   "page": "Two_Hand_Maces"
+  },
+  "Two Hand Sword": {
+   "en": "Two_Hand_Swords",
+   "zh_hans": "双手剑",
+   "zh_hant": "雙手劍",
+   "source": "cn",
+   "page": "Two_Hand_Swords"
+  },
+  "Wand": {
+   "en": "Wands",
+   "zh_hans": "法杖",
+   "zh_hant": "法杖",
+   "source": "cn",
+   "page": "Wands"
+  }
+ },
+ "missing": [
+  {
+   "pob": "Fishing Rod",
+   "page": null,
+   "why": "no class page"
+  },
+  {
+   "pob": "Jewel: Radius",
+   "page": null,
+   "why": "no class page"
+  },
+  {
+   "pob": "Transcendent Limb",
+   "page": null,
+   "why": "no class page"
+  },
+  {
+   "pob": "Transcendent Limb: Transcendent Arm",
+   "page": null,
+   "why": "no class page"
+  },
+  {
+   "pob": "Transcendent Limb: Transcendent Leg",
+   "page": null,
+   "why": "no class page"
+  }
+ ]
+}

@@ -1,0 +1,8000 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Jewels",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Jewels",
+    "file": "us/Jewels.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Jewels",
+    "file": "cn/Jewels.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Jewels",
+    "file": "tw/Jewels.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/us/Ruby",
+    "file": "us/Ruby.html",
+    "fetched": "2026-11-18T21:00+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Ruby",
+    "file": "cn/Ruby.html",
+    "fetched": "2026-11-18T21:00+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Ruby",
+    "file": "tw/Ruby.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/us/Emerald",
+    "file": "us/Emerald.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Emerald",
+    "file": "cn/Emerald.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Emerald",
+    "file": "tw/Emerald.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/us/Sapphire",
+    "file": "us/Sapphire.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Sapphire",
+    "file": "cn/Sapphire.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Sapphire",
+    "file": "tw/Sapphire.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/us/Diamond",
+    "file": "us/Diamond.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Diamond",
+    "file": "cn/Diamond.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Diamond",
+    "file": "tw/Diamond.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/us/Timeless_Jewel",
+    "file": "us/Timeless_Jewel.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Timeless_Jewel",
+    "file": "cn/Timeless_Jewel.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Timeless_Jewel",
+    "file": "tw/Timeless_Jewel.html",
+    "fetched": "2026-11-18T21:01+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/us/Basic_Jewel",
+    "file": "us/Basic_Jewel.html",
+    "fetched": "2026-11-18T21:02+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Basic_Jewel",
+    "file": "cn/Basic_Jewel.html",
+    "fetched": "2026-11-18T21:02+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Basic_Jewel",
+    "file": "tw/Basic_Jewel.html",
+    "fetched": "2026-11-18T21:02+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "item_class_code": "Jewel",
+  "mods_source": "ModsView",
+  "placeholders": "'#' replaces each rolled value; ranges lists [min, max] per '#' in English order",
+  "generation_types": {
+   "1": "Prefix",
+   "2": "Suffix",
+   "3": "Unique",
+   "5": "Corrupted"
+  },
+  "summary": {
+   "mismatches": 3,
+   "mods": 218,
+   "socketables": 0,
+   "base_types": 10,
+   "uniques": 20,
+   "page_entries": 592,
+   "pob_joined": 218,
+   "pob_text_differs": 2,
+   "missing_in_pob": 0,
+   "pob_only": 305,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 134,
+     "differ": 47,
+     "absent": 8
+    },
+    "names": {
+     "agree": 18,
+     "differ": 2,
+     "absent": 2
+    }
+   }
+  }
+ },
+ "mods": {
+  "JewelAreaofEffect": {
+   "id": "JewelAreaofEffect",
+   "family": [
+    "AreaOfEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Area of Effect"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "效果区域提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%範圍效果"
+   ],
+   "affix": {
+    "en": "Blasting",
+    "zh_hans": "爆破的",
+    "zh_hant": "爆破的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelArmour": {
+   "id": "JewelArmour",
+   "family": [
+    "IncreasedPhysicalDamageReductionRatingPercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Armour"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "护甲提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲值"
+   ],
+   "affix": {
+    "en": "Armoured",
+    "zh_hans": "装甲的",
+    "zh_hant": "裝甲的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelArmourBreak": {
+   "id": "JewelArmourBreak",
+   "family": [
+    "ArmourBreak"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Break #% increased Armour"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "粉碎的护甲提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲值破壞"
+   ],
+   "affix": {
+    "en": "Shattering",
+    "zh_hans": "碎离的",
+    "zh_hant": "粉碎的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelArmourBreakDuration": {
+   "id": "JewelArmourBreakDuration",
+   "family": [
+    "ArmourBreakDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Armour Break Duration"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "护甲破损持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲破壞持續時間"
+   ],
+   "affix": {
+    "en": "Resonating",
+    "zh_hans": "共鸣的",
+    "zh_hant": "共鳴的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAttackDamage": {
+   "id": "JewelAttackDamage",
+   "family": [
+    "AttackDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Attack Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害"
+   ],
+   "affix": {
+    "en": "Combat",
+    "zh_hans": "战意的",
+    "zh_hant": "戰鬥的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBleedingChance": {
+   "id": "JewelBleedingChance",
+   "family": [
+    "BleedChanceIncrease"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% chance to inflict Bleeding on Hit"
+   ],
+   "ranges": [
+    [
+     3.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "击中时有 #% 的几率造成流血"
+   ],
+   "zh_hant": [
+    "擊中時有#%機率造成流血"
+   ],
+   "affix": {
+    "en": "Bleeding",
+    "zh_hans": "流血的",
+    "zh_hant": "流血的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBleedingDuration": {
+   "id": "JewelBleedingDuration",
+   "family": [
+    "BleedDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Bleeding Duration"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "流血持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%流血持續時間"
+   ],
+   "affix": {
+    "en": "of Haemophilia",
+    "zh_hans": "出血之",
+    "zh_hant": "血病之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBlock": {
+   "id": "JewelBlock",
+   "family": [
+    "IncreasedBlockChance"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Block chance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%格擋機率"
+   ],
+   "affix": {
+    "en": "Protecting",
+    "zh_hans": "庇护的",
+    "zh_hant": "保護的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelDamagevsArmourBrokenEnemies": {
+   "id": "JewelDamagevsArmourBrokenEnemies",
+   "family": [
+    "DamagevsArmourBrokenEnemies"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage against Enemies with Fully Broken Armour"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "对护甲完全破损的敌人造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%對完全破甲敵人造成的傷害"
+   ],
+   "affix": {
+    "en": "Exploiting",
+    "zh_hans": "寻机的",
+    "zh_hant": "剝削的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelElementalDamage": {
+   "id": "JewelElementalDamage",
+   "family": [
+    "ElementalDamagePercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Elemental Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "元素伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%元素傷害"
+   ],
+   "affix": {
+    "en": "Prismatic",
+    "zh_hans": "虹光的",
+    "zh_hant": "三相"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelEmpoweredAttackDamage": {
+   "id": "JewelEmpoweredAttackDamage",
+   "family": [
+    "ExertedAttackDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Empowered Attacks deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "强化攻击造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%強化攻擊造成的傷害"
+   ],
+   "affix": {
+    "en": "Empowering",
+    "zh_hans": "赋能的",
+    "zh_hant": "賦予的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFireDamage": {
+   "id": "JewelFireDamage",
+   "family": [
+    "FireDamagePercentage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Fire Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%火焰傷害"
+   ],
+   "affix": {
+    "en": "Flaming",
+    "zh_hans": "烈火的",
+    "zh_hant": "烈火之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFirePenetration": {
+   "id": "JewelFirePenetration",
+   "family": [
+    "FireResistancePenetration"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Damage Penetrates #% Fire Resistance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "伤害穿透 #% 火焰抗性"
+   ],
+   "zh_hant": [
+    "傷害穿透#%火焰抗性"
+   ],
+   "affix": {
+    "en": "Searing",
+    "zh_hans": "焚灭的",
+    "zh_hant": "灼燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelIgniteChance": {
+   "id": "JewelIgniteChance",
+   "family": [
+    "IgniteChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Flammability Magnitude"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "易燃强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%易燃幅度"
+   ],
+   "affix": {
+    "en": "of Ignition",
+    "zh_hans": "点燃之",
+    "zh_hant": "引火之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelIgniteEffect": {
+   "id": "JewelIgniteEffect",
+   "family": [
+    "IgniteEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Ignite Magnitude"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "点燃强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%點燃幅度"
+   ],
+   "affix": {
+    "en": "Burning",
+    "zh_hans": "燃烧的",
+    "zh_hant": "爆燃"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelIncreasedDuration": {
+   "id": "JewelIncreasedDuration",
+   "family": [
+    "SkillEffectDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Skill Effect Duration"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "技能效果持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%技能效果持續時間"
+   ],
+   "affix": {
+    "en": "of Lengthening",
+    "zh_hans": "冗长之",
+    "zh_hant": "加長之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelKnockback": {
+   "id": "JewelKnockback",
+   "family": [
+    "Knockback"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Knockback Distance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "击退距离提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%擊退距離"
+   ],
+   "affix": {
+    "en": "of Fending",
+    "zh_hans": "抵御之",
+    "zh_hant": "自衛之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeCost": {
+   "id": "JewelLifeCost",
+   "family": [
+    "LifeCost"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% of Skill Mana Costs Converted to Life Costs"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "技能的魔力消耗的 #% 转化为生命消耗"
+   ],
+   "zh_hant": [
+    "#%技能魔力消耗轉換為生命消耗"
+   ],
+   "affix": {
+    "en": "of Sacrifice",
+    "zh_hans": "牺牲之",
+    "zh_hant": "犧牲之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeLeech": {
+   "id": "JewelLifeLeech",
+   "family": [
+    "LifeLeech"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased amount of Life Leeched"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "生命偷取量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命偷取量"
+   ],
+   "affix": {
+    "en": "of Frenzy",
+    "zh_hans": "狂怒之",
+    "zh_hant": "狂暴之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeRegeneration": {
+   "id": "JewelLifeRegeneration",
+   "family": [
+    "LifeRegenerationRate"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Life Regeneration rate"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "生命再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命回復率"
+   ],
+   "affix": {
+    "en": "of Regeneration",
+    "zh_hans": "回复之",
+    "zh_hant": "回復之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMaceDamage": {
+   "id": "JewelMaceDamage",
+   "family": [
+    "SpecificWeaponDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Maces"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "锤类的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%錘傷害"
+   ],
+   "affix": {
+    "en": "Beating",
+    "zh_hans": "搏动的",
+    "zh_hant": "搏動的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMaceStun": {
+   "id": "JewelMaceStun",
+   "family": [
+    "MaceStun"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Stun Buildup with Maces"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "锤类的晕眩积蓄提高 #%"
+   ],
+   "zh_hant": [
+    "使用錘時，增加#%暈眩累積"
+   ],
+   "affix": {
+    "en": "of Thumping",
+    "zh_hans": "捶击之",
+    "zh_hant": "極大之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMaximumFireResistance": {
+   "id": "JewelMaximumFireResistance",
+   "family": [
+    "MaximumFireResist"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Maximum Fire Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 火焰抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Phoenix",
+    "zh_hans": "凤凰之",
+    "zh_hant": "鳳凰之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMaximumRage": {
+   "id": "JewelMaximumRage",
+   "family": [
+    "MaximumRage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "+# to Maximum Rage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 怒火上限"
+   ],
+   "zh_hant": [
+    "+#層最大盛怒"
+   ],
+   "affix": {
+    "en": "Angry",
+    "zh_hans": "愤怒的",
+    "zh_hant": "生氣的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMeleeDamage": {
+   "id": "JewelMeleeDamage",
+   "family": [
+    "MeleeDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Melee Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "近战伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%近戰傷害"
+   ],
+   "affix": {
+    "en": "Clashing",
+    "zh_hans": "冲突的",
+    "zh_hant": "衝突的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionArea": {
+   "id": "JewelMinionArea",
+   "family": [
+    "MinionAreaOfEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Minions have #% increased Area of Effect"
+   ],
+   "ranges": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的效果区域提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%召喚物的範圍效果"
+   ],
+   "affix": {
+    "en": "Companion",
+    "zh_hans": "同伴的",
+    "zh_hant": "盟友的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionLife": {
+   "id": "JewelMinionLife",
+   "family": [
+    "MinionLife"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Minions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命"
+   ],
+   "affix": {
+    "en": "Fortuitous",
+    "zh_hans": "运势的",
+    "zh_hant": "恰巧的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionPhysicalDamageReduction": {
+   "id": "JewelMinionPhysicalDamageReduction",
+   "family": [
+    "MinionPhysicalDamageReduction"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Minions have #% additional Physical Damage Reduction"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物有 #% 额外物理伤害减免"
+   ],
+   "zh_hant": [
+    "召喚物有#%額外物理傷害減免"
+   ],
+   "affix": {
+    "en": "of Confidence",
+    "zh_hans": "信心之",
+    "zh_hant": "信心之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPhysicalDamage": {
+   "id": "JewelPhysicalDamage",
+   "family": [
+    "PhysicalDamagePercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Global Physical Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "全局物理伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%全域物理傷害"
+   ],
+   "affix": {
+    "en": "Sharpened",
+    "zh_hans": "锐利的",
+    "zh_hant": "銳利的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelRageonHit": {
+   "id": "JewelRageonHit",
+   "family": [
+    "RageOnHit"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain # Rage on Melee Hit"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "近战击中时获得 # 怒火"
+   ],
+   "zh_hant": [
+    "近戰擊中時，獲得#層盛怒"
+   ],
+   "affix": {
+    "en": "of Raging",
+    "zh_hans": "激怒之",
+    "zh_hant": "憤怒之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelRagewhenHit": {
+   "id": "JewelRagewhenHit",
+   "family": [
+    "GainRage"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain # Rage when Hit by an Enemy"
+   ],
+   "ranges": [
+    [
+     1.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "被敌人击中时获得 # 点怒火"
+   ],
+   "zh_hant": [
+    "遭敵人擊中時，獲得#層盛怒"
+   ],
+   "affix": {
+    "en": "of Retribution",
+    "zh_hans": "惩戒之",
+    "zh_hant": "報應之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelShieldDefences": {
+   "id": "JewelShieldDefences",
+   "family": [
+    "ShieldArmourIncrease"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Armour, Evasion and Energy Shield from Equipped Shield"
+   ],
+   "ranges": [
+    [
+     18.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "已装备盾牌获得的护甲，闪避与能量护盾提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%來自裝備盾牌的護甲、閃避與能量護盾"
+   ],
+   "affix": {
+    "en": "Shielding",
+    "zh_hans": "防护的",
+    "zh_hant": "護盾的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelStunBuildup": {
+   "id": "JewelStunBuildup",
+   "family": [
+    "StunDamageIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Stun Buildup"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "晕眩积蓄值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%暈眩累積"
+   ],
+   "affix": {
+    "en": "of Stunning",
+    "zh_hans": "击晕之",
+    "zh_hant": "暈眩之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelStunThreshold": {
+   "id": "JewelStunThreshold",
+   "family": [
+    "IncreasedStunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Stun Threshold"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "晕眩阈值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%暈眩門檻"
+   ],
+   "affix": {
+    "en": "of Withstanding",
+    "zh_hans": "坚守之",
+    "zh_hant": "承受之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBleedingEffect": {
+   "id": "JewelBleedingEffect",
+   "family": [
+    "BleedingDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Bleeding you inflict"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "你造成的流血强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你所施加之流血的幅度"
+   ],
+   "affix": {
+    "en": "Haemorrhaging",
+    "zh_hans": "血涌的",
+    "zh_hant": "出血的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelThorns": {
+   "id": "JewelThorns",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Thorns damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "荆棘伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%荊棘傷害"
+   ],
+   "affix": {
+    "en": "Retaliating",
+    "zh_hans": "报复的",
+    "zh_hant": "反擊的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelTotemDamage": {
+   "id": "JewelTotemDamage",
+   "family": [
+    "TotemDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Totem Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     18.0
+    ]
+   ],
+   "zh_hans": [
+    "图腾伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%圖騰傷害"
+   ],
+   "affix": {
+    "en": "Shaman's",
+    "zh_hans": "萨满的",
+    "zh_hant": "巫者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelTotemLife": {
+   "id": "JewelTotemLife",
+   "family": [
+    "IncreasedTotemLife"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Totem Life"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "图腾的生命提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%圖騰生命"
+   ],
+   "affix": {
+    "en": "Carved",
+    "zh_hans": "雕刻的",
+    "zh_hant": "遺產的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelTotemPlacementSpeed": {
+   "id": "JewelTotemPlacementSpeed",
+   "family": [
+    "SummonTotemCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Totem Placement speed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "你的图腾放置速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%圖騰設置速度"
+   ],
+   "affix": {
+    "en": "of Ancestry",
+    "zh_hans": "先祖之",
+    "zh_hant": "先祖之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelWarcryCooldown": {
+   "id": "JewelWarcryCooldown",
+   "family": [
+    "WarcryCooldownSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Warcry Cooldown Recovery Rate"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "战吼冷却回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%戰吼冷卻時間恢復率"
+   ],
+   "affix": {
+    "en": "of Rallying",
+    "zh_hans": "重整之",
+    "zh_hant": "重整之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelWarcryDamage": {
+   "id": "JewelWarcryDamage",
+   "family": [
+    "WarcryDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Warcries"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "战吼的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%戰吼傷害"
+   ],
+   "affix": {
+    "en": "Yelling",
+    "zh_hans": "嚎叫的",
+    "zh_hant": "大吼的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelWarcrySpeed": {
+   "id": "JewelWarcrySpeed",
+   "family": [
+    "WarcrySpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Warcry Speed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "战吼速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%戰吼速度"
+   ],
+   "affix": {
+    "en": "of Lungs",
+    "zh_hans": "铁肺之",
+    "zh_hant": "肺臟之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelIncisionChance": {
+   "id": "JewelIncisionChance",
+   "family": [
+    "IncisionChance"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% chance for Attack Hits to apply Incision"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击击中有 #% 的几率施加创口"
+   ],
+   "zh_hant": [
+    "攻擊擊中時，有#%機率施加切割"
+   ],
+   "affix": {
+    "en": "Incise",
+    "zh_hans": "创口的",
+    "zh_hant": "雕刻的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBannerValourGained": {
+   "id": "JewelBannerValourGained",
+   "family": [
+    "BannerValourGained"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Glory generation for Banner Skills"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "旗帜技能的荣耀产生速度提高 #%"
+   ],
+   "zh_hant": [
+    "鬥旗技能增加#%生成的榮耀"
+   ],
+   "affix": {
+    "en": "of Valour",
+    "zh_hans": "勇气之",
+    "zh_hant": "勇氣之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBannerArea": {
+   "id": "JewelBannerArea",
+   "family": [
+    "BannerArea"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Banner Skills have #% increased Area of Effect"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "旗帜技能的效果范围提高 #%"
+   ],
+   "zh_hant": [
+    "鬥旗技能增加#%範圍效果"
+   ],
+   "affix": {
+    "en": "Rallying",
+    "zh_hans": "守卫者的",
+    "zh_hant": "守衛者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBannerDuration": {
+   "id": "JewelBannerDuration",
+   "family": [
+    "BannerDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Banner Skills have #% increased Duration"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "旗帜技能的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "鬥旗技能增加#%持續時間"
+   ],
+   "affix": {
+    "en": "of Inspiring",
+    "zh_hans": "鼓舞之",
+    "zh_hant": "啟發之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPresenceRadius": {
+   "id": "JewelPresenceRadius",
+   "family": [
+    "PresenceRadius"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Presence Area of Effect"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "在场范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%存在範圍的範圍效果"
+   ],
+   "affix": {
+    "en": "Iconic",
+    "zh_hans": "象征的",
+    "zh_hant": "經典的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelShapeshiftSpeed": {
+   "id": "JewelShapeshiftSpeed",
+   "family": [
+    "SpecificWeaponSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Skill Speed while Shapeshifted"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "变形时，技能速度提高 #%"
+   ],
+   "zh_hant": [
+    "你變形期間，增加#%技能速度"
+   ],
+   "affix": {
+    "en": "of the Wild",
+    "zh_hans": "荒野之",
+    "zh_hant": "荒野之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelShapeshiftDamage": {
+   "id": "JewelShapeshiftDamage",
+   "family": [
+    "DamageForm"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage while Shapeshifted"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "变形时伤害提高 #%"
+   ],
+   "zh_hant": [
+    "變形期間增加#%傷害"
+   ],
+   "affix": {
+    "en": "Bestial",
+    "zh_hans": "兽性",
+    "zh_hant": "獸性的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPlantDamage": {
+   "id": "JewelPlantDamage",
+   "family": [
+    "DamageForm"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Plant Skills"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "植物技能的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "植物技能增加#%傷害"
+   ],
+   "affix": {
+    "en": "Overgrown",
+    "zh_hans": "蔓生",
+    "zh_hant": "茂盛的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CorruptionJewelStrength1": {
+   "id": "CorruptionJewelStrength1",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelDexterity1": {
+   "id": "CorruptionJewelDexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelIntelligence1": {
+   "id": "CorruptionJewelIntelligence1",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelFireResist1": {
+   "id": "CorruptionJewelFireResist1",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelColdResist1": {
+   "id": "CorruptionJewelColdResist1",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelLightningResist1": {
+   "id": "CorruptionJewelLightningResist1",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelChaosResist1": {
+   "id": "CorruptionJewelChaosResist1",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelMaimImmunity1": {
+   "id": "CorruptionJewelMaimImmunity1",
+   "family": [
+    "ImmuneToMaim"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Immune to Maim"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "免疫瘫痪"
+   ],
+   "zh_hant": [
+    "免疫癱瘓"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelHinderImmunity1": {
+   "id": "CorruptionJewelHinderImmunity1",
+   "family": [
+    "YouCannotBeHindered"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "You cannot be Hindered"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "你无法被缓速"
+   ],
+   "zh_hant": [
+    "你不能被阻礙"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelCorruptedBloodImmunity1": {
+   "id": "CorruptionJewelCorruptedBloodImmunity1",
+   "family": [
+    "CorruptedBlood"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Corrupted Blood cannot be inflicted on you"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "腐化之血无法施加于你"
+   ],
+   "zh_hant": [
+    "無法對你造成腐化之血"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionJewelBlindImmunity1": {
+   "id": "CorruptionJewelBlindImmunity1",
+   "family": [
+    "ImmunityToBlind"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Cannot be Blinded"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "免疫致盲"
+   ],
+   "zh_hant": [
+    "不會被致盲"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "AbyssModJewelPrefixPoisonChanceAndMagnitude": {
+   "id": "AbyssModJewelPrefixPoisonChanceAndMagnitude",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased chance to Poison",
+    "#% increased Magnitude of Poison you inflict"
+   ],
+   "ranges": [
+    [
+     15.0,
+     15.0
+    ],
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "中毒几率提高 #%",
+    "你造成的中毒强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%中毒機率",
+    "增加#%你所施加之中毒的幅度"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixThornsDamageArmour": {
+   "id": "AbyssModJewelPrefixThornsDamageArmour",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Armour",
+    "#% increased Thorns damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "护甲提高 #%",
+    "荆棘伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲值",
+    "增加#%荊棘傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixThornsDamageEvasion": {
+   "id": "AbyssModJewelPrefixThornsDamageEvasion",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating",
+    "#% increased Thorns damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备的闪避值提高 #%",
+    "荆棘伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "增加#%荊棘傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixThornsDamageEnergyShield": {
+   "id": "AbyssModJewelPrefixThornsDamageEnergyShield",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased maximum Energy Shield",
+    "#% increased Thorns damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "能量护盾上限提高 #%",
+    "荆棘伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%最大能量護盾",
+    "增加#%荊棘傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixTotemDamageArmour": {
+   "id": "AbyssModJewelPrefixTotemDamageArmour",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Armour",
+    "#% increased Totem Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "护甲提高 #%",
+    "图腾伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲值",
+    "增加#%圖騰傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixTotemDamageEvasion": {
+   "id": "AbyssModJewelPrefixTotemDamageEvasion",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating",
+    "#% increased Totem Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备的闪避值提高 #%",
+    "图腾伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "增加#%圖騰傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixTotemDamageEnergyShield": {
+   "id": "AbyssModJewelPrefixTotemDamageEnergyShield",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased maximum Energy Shield",
+    "#% increased Totem Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "能量护盾上限提高 #%",
+    "图腾伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%最大能量護盾",
+    "增加#%圖騰傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixFireDamageAndPen": {
+   "id": "AbyssModJewelPrefixFireDamageAndPen",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Fire Damage",
+    "Damage Penetrates #% Fire Resistance"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     4.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰伤害提高 #%",
+    "伤害穿透 #% 火焰抗性"
+   ],
+   "zh_hant": [
+    "增加#%火焰傷害",
+    "傷害穿透#%火焰抗性"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixLightningDamageAndPen": {
+   "id": "AbyssModJewelPrefixLightningDamageAndPen",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Lightning Damage",
+    "Damage Penetrates #% Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     4.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电伤害提高 #%",
+    "伤害穿透 #% 的闪电抗性"
+   ],
+   "zh_hant": [
+    "增加#%閃電傷害",
+    "傷害穿透#%閃電抗性"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixColdDamageAndPen": {
+   "id": "AbyssModJewelPrefixColdDamageAndPen",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Cold Damage",
+    "Damage Penetrates #% Cold Resistance"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     4.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜伤害提高 #%",
+    "伤害穿透 #% 冰霜抗性"
+   ],
+   "zh_hant": [
+    "增加#%冰冷傷害",
+    "傷害穿透#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixBleedChanceAndMagnitude": {
+   "id": "AbyssModJewelPrefixBleedChanceAndMagnitude",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Bleeding you inflict",
+    "#% increased chance to inflict Bleeding"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "你造成的流血强度提高 #%",
+    "造成流血的几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你所施加之流血的幅度",
+    "增加#%造成流血的機率"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixWarcryBuffEffectAndDamage": {
+   "id": "AbyssModJewelPrefixWarcryBuffEffectAndDamage",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Warcry Buff Effect",
+    "#% increased Damage with Warcries"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "战吼的增益效果提高 #%",
+    "战吼的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%戰吼增益效果",
+    "增加#%戰吼傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixCompanionLifeAndDamage": {
+   "id": "AbyssModJewelPrefixCompanionLifeAndDamage",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Companions deal #% increased Damage",
+    "Companions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "伙伴的伤害提高 #%",
+    "伙伴的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%盟友造成的傷害",
+    "增加#%盟友的最大生命"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixGlobalPhysicalDamageArmourBreak": {
+   "id": "AbyssModJewelPrefixGlobalPhysicalDamageArmourBreak",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Global Physical Damage",
+    "Break #% increased Armour"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "全局物理伤害提高 #%",
+    "粉碎的护甲提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%全域物理傷害",
+    "增加#%護甲值破壞"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixElementalDamageAilmentMagnitude": {
+   "id": "AbyssModJewelPrefixElementalDamageAilmentMagnitude",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Elemental Damage",
+    "#% increased Magnitude of Ailments you inflict"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "元素伤害提高 #%",
+    "你造成的异常状态强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%元素傷害",
+    "增加#%你所施加之異常狀態的幅度"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixChaosDamageWitherEffect": {
+   "id": "AbyssModJewelPrefixChaosDamageWitherEffect",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Chaos Damage",
+    "#% increased Withered Magnitude"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     3.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌伤害提高 #%",
+    "死亡凋零强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%混沌傷害",
+    "增加#%凋零幅度"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixMinionAreaAndLife": {
+   "id": "AbyssModJewelPrefixMinionAreaAndLife",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Minions have #% increased maximum Life",
+    "minion area of effect +% [3,6]"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的生命上限提高 #%",
+    "minion area of effect +% [3,6]"
+   ],
+   "zh_hant": [
+    "召喚物增加#%最大生命",
+    "minion area of effect +% [3,6]"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixAuraSkillEffectPresenceAreaOfEffect": {
+   "id": "AbyssModJewelPrefixAuraSkillEffectPresenceAreaOfEffect",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Presence Area of Effect",
+    "Aura Skills have #% increased Magnitudes"
+   ],
+   "ranges": [
+    [
+     8.0,
+     15.0
+    ],
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "在场范围提高 #%",
+    "光环技能的强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%存在範圍的範圍效果",
+    "光環技能增加#%幅度"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixElementalExposureEffect": {
+   "id": "AbyssModJewelPrefixElementalExposureEffect",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Exposure Effect"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "曝露效果提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%曝曬效果"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixAbyssalWastingEffect": {
+   "id": "AbyssModJewelPrefixAbyssalWastingEffect",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Abyssal Wasting you inflict"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "你施加的深渊损耗强度提高 #%"
+   ],
+   "zh_hant": [
+    "你造成深淵耗損時，增加#%其幅度"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixMinionDamageEvasion": {
+   "id": "AbyssModJewelPrefixMinionDamageEvasion",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating",
+    "Minions deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备的闪避值提高 #%",
+    "召唤生物的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "增加#%召喚物造成的傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixSpellDamageArmour": {
+   "id": "AbyssModJewelPrefixSpellDamageArmour",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Spell Damage",
+    "#% increased Armour"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "法术伤害提高 #%",
+    "护甲提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%法術傷害",
+    "增加#%護甲值"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixSpellDamageEvasion": {
+   "id": "AbyssModJewelPrefixSpellDamageEvasion",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Spell Damage",
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "法术伤害提高 #%",
+    "该装备的闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%法術傷害",
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixSpellDamageEnergyShield": {
+   "id": "AbyssModJewelPrefixSpellDamageEnergyShield",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Spell Damage",
+    "#% increased maximum Energy Shield"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ],
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "法术伤害提高 #%",
+    "能量护盾上限提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%法術傷害",
+    "增加#%最大能量護盾"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixAttackDamageArmour": {
+   "id": "AbyssModJewelPrefixAttackDamageArmour",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Armour",
+    "#% increased Attack Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "护甲提高 #%",
+    "攻击伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲值",
+    "增加#%攻擊傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixAttackDamageEvasion": {
+   "id": "AbyssModJewelPrefixAttackDamageEvasion",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating",
+    "#% increased Attack Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备的闪避值提高 #%",
+    "攻击伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "增加#%攻擊傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixAttackDamageEnergyShield": {
+   "id": "AbyssModJewelPrefixAttackDamageEnergyShield",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased maximum Energy Shield",
+    "#% increased Attack Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "能量护盾上限提高 #%",
+    "攻击伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%最大能量護盾",
+    "增加#%攻擊傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixMinionDamageArmour": {
+   "id": "AbyssModJewelPrefixMinionDamageArmour",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Armour",
+    "Minions deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "护甲提高 #%",
+    "召唤生物的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護甲值",
+    "增加#%召喚物造成的傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelPrefixMinionDamageEnergyShield": {
+   "id": "AbyssModJewelPrefixMinionDamageEnergyShield",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased maximum Energy Shield",
+    "Minions deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ],
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "能量护盾上限提高 #%",
+    "召唤生物的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%最大能量護盾",
+    "增加#%召喚物造成的傷害"
+   ],
+   "affix": {
+    "en": "Lightless",
+    "zh_hans": "暗光",
+    "zh_hant": "黯光的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelSuffixIncreasedStrength": {
+   "id": "AbyssModJewelSuffixIncreasedStrength",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Strength"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "力量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%力量"
+   ],
+   "affix": {
+    "en": "of the Abyss",
+    "zh_hans": "深渊之",
+    "zh_hant": "深淵之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelSuffixIncreasedDexterity": {
+   "id": "AbyssModJewelSuffixIncreasedDexterity",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Dexterity"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "敏捷提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%敏捷"
+   ],
+   "affix": {
+    "en": "of the Abyss",
+    "zh_hans": "深渊之",
+    "zh_hant": "深淵之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModJewelSuffixIncreasedIntelligence": {
+   "id": "AbyssModJewelSuffixIncreasedIntelligence",
+   "family": [
+    "AbyssJewelMod"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Intelligence"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "智慧提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%智慧"
+   ],
+   "affix": {
+    "en": "of the Abyss",
+    "zh_hans": "深渊之",
+    "zh_hant": "深淵之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "CorruptionUpgradeJewelChaosResist1": {
+   "id": "CorruptionUpgradeJewelChaosResist1",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelColdResist1": {
+   "id": "CorruptionUpgradeJewelColdResist1",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelDexterity1": {
+   "id": "CorruptionUpgradeJewelDexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelFireResist1": {
+   "id": "CorruptionUpgradeJewelFireResist1",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelIntelligence1": {
+   "id": "CorruptionUpgradeJewelIntelligence1",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelLightningResist1": {
+   "id": "CorruptionUpgradeJewelLightningResist1",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelStrength1": {
+   "id": "CorruptionUpgradeJewelStrength1",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CraftedJewelDebilitateOnHitWhileEmeraldSapphireSocketed": {
+   "id": "CraftedJewelDebilitateOnHitWhileEmeraldSapphireSocketed",
+   "family": [
+    "JewelStatusOnHitWhileSocketed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Debilitate Enemies on Hit while you have an Emerald and a Sapphire socketed in your tree"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "当你镶嵌有一颗翡翠和一颗蓝玉时，击中会使敌人疲惫"
+   ],
+   "zh_hant": [
+    "若你的天賦樹中鑲嵌了一顆綠寶石和藍寶石，擊中時虛弱敵人"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/6da5be0936ee476d5d2a8be75822657abc6d1f8088710762065f7e983d69599e\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />Potent Liquid Melancholy</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/26391c359a066918b3ff6b6e2248cd45a03aac0a1493462495e2cb124564113d\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />强效的液化悲哀</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/0cf5bf320aa4fa1316a4fd8236d7a1bcdccae9522979f589aa6cccbee1284944\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />增幅液態憂鬱</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelSuffixEffect": {
+   "id": "CraftedJewelSuffixEffect",
+   "family": [
+    "LocalPrefixSuffixEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Effect of Suffixes"
+   ],
+   "ranges": [
+    [
+     40.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "后缀效果提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%後綴效果"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/9a4f3a4cbf2c74197ed40f5c726c89d041ad75f7c5f7c77dd5fbfccef34e2744\" href=\"Potent_Liquid_Ferocity\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueConstructsEmotion.webp\" alt=\"UniqueConstructsEmotion\" height=\"16\" />Potent Liquid Ferocity</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/04a84497c58a10bddd6ea325a6408319d1a1ae0c4802e4b4a87133c7b105cbc0\" href=\"Potent_Liquid_Ferocity\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueConstructsEmotion.webp\" alt=\"UniqueConstructsEmotion\" height=\"16\" />强效的液化凶残</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/a8954cbe88f46f344593ff3b9d6580c5be46544b651a249209b195e7afebb6d8\" href=\"Potent_Liquid_Ferocity\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueConstructsEmotion.webp\" alt=\"UniqueConstructsEmotion\" height=\"16\" />增幅液態蔑視</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelPrefixEffect": {
+   "id": "CraftedJewelPrefixEffect",
+   "family": [
+    "LocalPrefixSuffixEffect"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Effect of Prefixes"
+   ],
+   "ranges": [
+    [
+     40.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "前缀效果提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%前綴效果"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/9a4f3a4cbf2c74197ed40f5c726c89d041ad75f7c5f7c77dd5fbfccef34e2744\" href=\"Potent_Liquid_Ferocity\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueConstructsEmotion.webp\" alt=\"UniqueConstructsEmotion\" height=\"16\" />Potent Liquid Ferocity</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/04a84497c58a10bddd6ea325a6408319d1a1ae0c4802e4b4a87133c7b105cbc0\" href=\"Potent_Liquid_Ferocity\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueConstructsEmotion.webp\" alt=\"UniqueConstructsEmotion\" height=\"16\" />强效的液化凶残</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/a8954cbe88f46f344593ff3b9d6580c5be46544b651a249209b195e7afebb6d8\" href=\"Potent_Liquid_Ferocity\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueConstructsEmotion.webp\" alt=\"UniqueConstructsEmotion\" height=\"16\" />增幅液態蔑視</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelAdditionalSuffixAllowed": {
+   "id": "CraftedJewelAdditionalSuffixAllowed",
+   "family": [
+    "MaxPrefixMaxSuffix"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "+# Suffix Modifier allowed"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "允许的后缀 +#"
+   ],
+   "zh_hant": [
+    "允許後綴+#"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/89b5964a24eceab3783bf248d419a5ef54f7742b3f1558196c0d471f06fdb4f8\" href=\"Potent_Liquid_Contempt\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueBeastEmotion.webp\" alt=\"UniqueBeastEmotion\" height=\"16\" />Potent Liquid Contempt</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/aa497bd8c3883962d0d4180a342ee9cd1c84e1e3d8858d33db921c45ac9bf88e\" href=\"Potent_Liquid_Contempt\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueBeastEmotion.webp\" alt=\"UniqueBeastEmotion\" height=\"16\" />强效的液化轻蔑</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/4b7b23efabdd294b7bf36895dbc6b24ed002e53314ed13f77abe736d7f6f3e2b\" href=\"Potent_Liquid_Contempt\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueBeastEmotion.webp\" alt=\"UniqueBeastEmotion\" height=\"16\" />增幅液態怨恨</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelAdditionalPrefixAllowed": {
+   "id": "CraftedJewelAdditionalPrefixAllowed",
+   "family": [
+    "MaxPrefixMaxSuffix"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+# Prefix Modifier allowed"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "允许的前缀 +#"
+   ],
+   "zh_hant": [
+    "允許前綴+#"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/89b5964a24eceab3783bf248d419a5ef54f7742b3f1558196c0d471f06fdb4f8\" href=\"Potent_Liquid_Contempt\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueBeastEmotion.webp\" alt=\"UniqueBeastEmotion\" height=\"16\" />Potent Liquid Contempt</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/aa497bd8c3883962d0d4180a342ee9cd1c84e1e3d8858d33db921c45ac9bf88e\" href=\"Potent_Liquid_Contempt\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueBeastEmotion.webp\" alt=\"UniqueBeastEmotion\" height=\"16\" />强效的液化轻蔑</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/4b7b23efabdd294b7bf36895dbc6b24ed002e53314ed13f77abe736d7f6f3e2b\" href=\"Potent_Liquid_Contempt\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueBeastEmotion.webp\" alt=\"UniqueBeastEmotion\" height=\"16\" />增幅液態怨恨</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAccuracy": {
+   "id": "JewelAccuracy",
+   "family": [
+    "IncreasedAccuracyPercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "命中值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%命中值"
+   ],
+   "affix": {
+    "en": "Accurate",
+    "zh_hans": "精准的",
+    "zh_hant": "命中"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAilmentChance": {
+   "id": "JewelAilmentChance",
+   "family": [
+    "AilmentChance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased chance to inflict Ailments"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "造成异常状态的几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%造成異常狀態的機率"
+   ],
+   "affix": {
+    "en": "of Ailing",
+    "zh_hans": "病弱之",
+    "zh_hant": "染病之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAilmentEffect": {
+   "id": "JewelAilmentEffect",
+   "family": [
+    "AilmentEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Ailments you inflict"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "你造成的异常状态强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你所施加之異常狀態的幅度"
+   ],
+   "affix": {
+    "en": "Acrimonious",
+    "zh_hans": "尖刻的",
+    "zh_hant": "激烈的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAilmentThreshold": {
+   "id": "JewelAilmentThreshold",
+   "family": [
+    "AilmentThreshold"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Elemental Ailment Threshold"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "元素异常状态阈值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%元素異常狀態門檻"
+   ],
+   "affix": {
+    "en": "of Enduring",
+    "zh_hans": "持久之",
+    "zh_hant": "耐久之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAttackCriticalChance": {
+   "id": "JewelAttackCriticalChance",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Deadliness",
+    "zh_hans": "高危之",
+    "zh_hant": "死亡之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAttackCriticalDamage": {
+   "id": "JewelAttackCriticalDamage",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Demolishing",
+    "zh_hans": "破坏之",
+    "zh_hant": "破壞之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAttackSpeed": {
+   "id": "JewelAttackSpeed",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Alacrity",
+    "zh_hans": "迅捷之",
+    "zh_hant": "敏捷之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBlindEffect": {
+   "id": "JewelBlindEffect",
+   "family": [
+    "BlindEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Blind Effect"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "致盲效果提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%致盲效果"
+   ],
+   "affix": {
+    "en": "Stifling",
+    "zh_hans": "沉闷的",
+    "zh_hant": "窒息的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBlindonHit": {
+   "id": "JewelBlindonHit",
+   "family": [
+    "BlindOnHit"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% chance to Blind Enemies on Hit with Attacks"
+   ],
+   "ranges": [
+    [
+     3.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击击中有 #% 的几率致盲敌人"
+   ],
+   "zh_hant": [
+    "攻擊擊中有#%機率致盲敵人"
+   ],
+   "affix": {
+    "en": "of Blinding",
+    "zh_hans": "盲目之",
+    "zh_hant": "盲目之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelDamageVsRareOrUnique": {
+   "id": "JewelDamageVsRareOrUnique",
+   "family": [
+    "DamageVsRareOrUnique"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Hits against Rare and Unique Enemies"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "击中稀有和传奇敌人的伤害提高#%"
+   ],
+   "zh_hant": [
+    "擊中對稀有和傳奇增加#%傷害"
+   ],
+   "affix": {
+    "en": "Slaying",
+    "zh_hans": "灭除的",
+    "zh_hant": "屠殺的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBowAccuracyRating": {
+   "id": "JewelBowAccuracyRating",
+   "family": [
+    "SpecificWeaponAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Accuracy Rating with Bows"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类攻击的命中值提高 #%"
+   ],
+   "zh_hant": [
+    "使用弓類武器時增加#%命中值"
+   ],
+   "affix": {
+    "en": "Precise",
+    "zh_hans": "精确的",
+    "zh_hant": "精確的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBowDamage": {
+   "id": "JewelBowDamage",
+   "family": [
+    "SpecificWeaponDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Bows"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类伤害提高 #%"
+   ],
+   "zh_hant": [
+    "持弓類武器時增加#%傷害"
+   ],
+   "affix": {
+    "en": "Perforating",
+    "zh_hans": "凿击的",
+    "zh_hant": "穿孔的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelBowSpeed": {
+   "id": "JewelBowSpeed",
+   "family": [
+    "SpecificWeaponSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Attack Speed with Bows"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类攻击的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "弓增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Nocking",
+    "zh_hans": "影弦之",
+    "zh_hant": "搭箭之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelChainFromTerrain": {
+   "id": "JewelChainFromTerrain",
+   "family": [
+    "ChainFromTerrain"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Projectiles have #% chance to Chain an additional time from terrain"
+   ],
+   "ranges": [
+    [
+     3.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物击中地形时有 #% 的几率额外连锁一次"
+   ],
+   "zh_hant": [
+    "投射物有#%機率從地形額外連鎖一次"
+   ],
+   "affix": {
+    "en": "of Chaining",
+    "zh_hans": "连锁之",
+    "zh_hant": "連鎖之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCharmDuration": {
+   "id": "JewelCharmDuration",
+   "family": [
+    "CharmDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Charm Effect Duration"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "咒符效果的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護符效果持續時間"
+   ],
+   "affix": {
+    "en": "of the Woodland",
+    "zh_hans": "林场之",
+    "zh_hant": "木林之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCharmChargesGained": {
+   "id": "JewelCharmChargesGained",
+   "family": [
+    "CharmChargesGained"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Charm Charges gained"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的咒符充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%護符充能獲取"
+   ],
+   "affix": {
+    "en": "of the Thicker",
+    "zh_hans": "茂密之",
+    "zh_hant": "密集之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCharmDamageWhileUsing": {
+   "id": "JewelCharmDamageWhileUsing",
+   "family": [
+    "CharmDamageWhileUsing"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage while you have an active Charm"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "激活咒符时，伤害提高 #%"
+   ],
+   "zh_hant": [
+    "當你有一個作用中的護符，增加#%傷害"
+   ],
+   "affix": {
+    "en": "Verdant",
+    "zh_hans": "翠绿的",
+    "zh_hant": "翠綠的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCooldownSpeed": {
+   "id": "JewelCooldownSpeed",
+   "family": [
+    "CooldownRecovery"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Cooldown Recovery Rate"
+   ],
+   "ranges": [
+    [
+     3.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "冷却回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%冷卻時間恢復率"
+   ],
+   "affix": {
+    "en": "of Chronomancy",
+    "zh_hans": "时术之",
+    "zh_hant": "時占之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCriticalAilmentEffect": {
+   "id": "JewelCriticalAilmentEffect",
+   "family": [
+    "CriticalAilmentEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Damaging Ailments you inflict with Critical Hits"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "你的暴击造成的伤害性异常状态强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你以暴擊施加之傷害型異常狀態的幅度"
+   ],
+   "affix": {
+    "en": "Rancorous",
+    "zh_hans": "冤仇的",
+    "zh_hant": "怨恨的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCrossbowDamage": {
+   "id": "JewelCrossbowDamage",
+   "family": [
+    "CrossbowDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Crossbows"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "战弩的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%十字弓傷害"
+   ],
+   "affix": {
+    "en": "Bolting",
+    "zh_hans": "离弦的",
+    "zh_hant": "電光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCrossbowReloadSpeed": {
+   "id": "JewelCrossbowReloadSpeed",
+   "family": [
+    "CrossbowReloadSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Crossbow Reload Speed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "战弩装填速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%十字弓裝填速度"
+   ],
+   "affix": {
+    "en": "of Reloading",
+    "zh_hans": "装填之",
+    "zh_hant": "重填之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCrossbowSpeed": {
+   "id": "JewelCrossbowSpeed",
+   "family": [
+    "CrossbowSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Attack Speed with Crossbows"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "战弩的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%十字弓攻擊速度"
+   ],
+   "affix": {
+    "en": "of Rapidity",
+    "zh_hans": "迅速之",
+    "zh_hant": "快速之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelDamagingAilmentDuration": {
+   "id": "JewelDamagingAilmentDuration",
+   "family": [
+    "DamagingAilmentDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Duration of Damaging Ailments on Enemies"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "敌人受到伤害性异常状态的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%敵人身上的傷害型異常狀態持續時間"
+   ],
+   "affix": {
+    "en": "of Suffusion",
+    "zh_hans": "弥散之",
+    "zh_hant": "遍布之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelDazeBuildup": {
+   "id": "JewelDazeBuildup",
+   "family": [
+    "DazeBuildup"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% chance to Daze on Hit"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "击中时有 #% 的几率使目标恍惚"
+   ],
+   "zh_hant": [
+    "擊中時有#%機率造成目眩"
+   ],
+   "affix": {
+    "en": "of Dazing",
+    "zh_hans": "恍神之",
+    "zh_hant": "暈眩之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelDebuffExpiry": {
+   "id": "JewelDebuffExpiry",
+   "family": [
+    "DebuffTime"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Debuffs on you expire #% faster"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "你身上的减益消失速度加快 #%"
+   ],
+   "zh_hant": [
+    "你身上的減益效果加快#%失效"
+   ],
+   "affix": {
+    "en": "of Diminishing",
+    "zh_hans": "消减之",
+    "zh_hant": "遞減之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelElementalAilmentDuration": {
+   "id": "JewelElementalAilmentDuration",
+   "family": [
+    "ElementalAilmentDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Duration of Ignite, Shock and Chill on Enemies"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "敌人受到的点燃、感电和冰缓持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%敵人身上的點燃、感電和冰緩持續時間"
+   ],
+   "affix": {
+    "en": "of Suffering",
+    "zh_hans": "受难之",
+    "zh_hant": "受苦難之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelEvasion": {
+   "id": "JewelEvasion",
+   "family": [
+    "EvasionRatingPercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "该装备的闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Evasive",
+    "zh_hans": "闪避的",
+    "zh_hant": "閃避的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFasterAilments": {
+   "id": "JewelFasterAilments",
+   "family": [
+    "FasterAilmentDamage"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Damaging Ailments deal damage #% faster"
+   ],
+   "ranges": [
+    [
+     3.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "伤害型异常状态生效速度加快 #%"
+   ],
+   "zh_hant": [
+    "傷害型異常狀態造成傷害加速#%"
+   ],
+   "affix": {
+    "en": "of Decrepifying",
+    "zh_hans": "朽迈之",
+    "zh_hant": "衰老之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFlaskChargesGained": {
+   "id": "JewelFlaskChargesGained",
+   "family": [
+    "BeltFlaskChargesGained"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Flask Charges gained"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的药剂充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%藥劑充能獲取"
+   ],
+   "affix": {
+    "en": "of Gathering",
+    "zh_hans": "采集之",
+    "zh_hant": "採集的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFlaskDuration": {
+   "id": "JewelFlaskDuration",
+   "family": [
+    "FlaskDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Flask Effect Duration"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "药剂效果的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%藥劑效果持續時間"
+   ],
+   "affix": {
+    "en": "of Prolonging",
+    "zh_hans": "延长之",
+    "zh_hant": "延長之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelForkingProjectiles": {
+   "id": "JewelForkingProjectiles",
+   "family": [
+    "ForkingProjectiles"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Projectiles have #% chance for an additional Projectile when Forking"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物分叉时，有 #% 的几率发射一个额外投射物"
+   ],
+   "zh_hant": [
+    "投射物分裂時有#%機率發射1個額外投射物"
+   ],
+   "affix": {
+    "en": "of Forking",
+    "zh_hans": "分叉之",
+    "zh_hant": "分岔之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelHeraldDamage": {
+   "id": "JewelHeraldDamage",
+   "family": [
+    "HeraldDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Herald Skills deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "捷技能造成的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%捷光環技能造成的傷害"
+   ],
+   "affix": {
+    "en": "Heralding",
+    "zh_hans": "使徒的",
+    "zh_hant": "先鋒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeFlaskRecovery": {
+   "id": "JewelLifeFlaskRecovery",
+   "family": [
+    "FlaskLifeRecovery"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Life Recovery from Flasks"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "药剂的生命回复提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%藥劑的生命恢復"
+   ],
+   "affix": {
+    "en": "of Recovery",
+    "zh_hans": "恢复之",
+    "zh_hant": "恢復之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeFlaskChargeGen": {
+   "id": "JewelLifeFlaskChargeGen",
+   "family": [
+    "FlaskChargeGenerationPercent"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Life Flask Charges gained"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的生命药剂充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命藥劑充能獲取"
+   ],
+   "affix": {
+    "en": "of Pathfinding",
+    "zh_hans": "开辟之",
+    "zh_hant": "尋路之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLightningDamage": {
+   "id": "JewelLightningDamage",
+   "family": [
+    "LightningDamagePercentage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Lightning Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃電傷害"
+   ],
+   "affix": {
+    "en": "Humming",
+    "zh_hans": "低鸣的",
+    "zh_hant": "－雷"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLightningPenetration": {
+   "id": "JewelLightningPenetration",
+   "family": [
+    "LightningResistancePenetration"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Damage Penetrates #% Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "伤害穿透 #% 的闪电抗性"
+   ],
+   "zh_hant": [
+    "傷害穿透#%閃電抗性"
+   ],
+   "affix": {
+    "en": "Surging",
+    "zh_hans": "暴风的",
+    "zh_hant": "暴風的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelManaFlaskRecovery": {
+   "id": "JewelManaFlaskRecovery",
+   "family": [
+    "FlaskManaRecovery"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Mana Recovery from Flasks"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "药剂的魔力回复提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%藥劑的魔力恢復"
+   ],
+   "affix": {
+    "en": "of Quenching",
+    "zh_hans": "淬息之",
+    "zh_hant": "淬火之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelManaFlaskChargeGen": {
+   "id": "JewelManaFlaskChargeGen",
+   "family": [
+    "FlaskChargeGenerationPercent"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Mana Flask Charges gained"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的魔力药剂充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力藥劑充能獲取"
+   ],
+   "affix": {
+    "en": "of Fountains",
+    "zh_hans": "涌泉之",
+    "zh_hant": "噴泉之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelManaLeech": {
+   "id": "JewelManaLeech",
+   "family": [
+    "ManaLeechAmount"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased amount of Mana Leeched"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力偷取量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力偷取量"
+   ],
+   "affix": {
+    "en": "of Thirsting",
+    "zh_hans": "渴望之",
+    "zh_hant": "渴望之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMarkCastSpeed": {
+   "id": "JewelMarkCastSpeed",
+   "family": [
+    "CurseCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Mark Skills have #% increased Use Speed"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "印记技能的施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%印記技能的施法速度"
+   ],
+   "affix": {
+    "en": "of Targeting",
+    "zh_hans": "瞄准之",
+    "zh_hant": "目標之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMarkDuration": {
+   "id": "JewelMarkDuration",
+   "family": [
+    "MarkDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Mark Skills have #% increased Skill Effect Duration"
+   ],
+   "ranges": [
+    [
+     18.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "印记技能的技能效果持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "印記技能增加#%技能效果持續時間"
+   ],
+   "affix": {
+    "en": "of Tracking",
+    "zh_hans": "追踪之",
+    "zh_hant": "追蹤之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMarkEffect": {
+   "id": "JewelMarkEffect",
+   "family": [
+    "CurseEffectiveness"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Effect of your Mark Skills"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "你的印记技能效果提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你的印記技能效果"
+   ],
+   "affix": {
+    "en": "Marking",
+    "zh_hans": "印记的",
+    "zh_hant": "標記的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMaximumLightningResistance": {
+   "id": "JewelMaximumLightningResistance",
+   "family": [
+    "MaximumLightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Maximum Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#%闪电抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Leviathan",
+    "zh_hans": "海兽之",
+    "zh_hant": "海獸之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMovementSpeed": {
+   "id": "JewelMovementSpeed",
+   "family": [
+    "MovementVelocity"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Movement Speed"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "移动速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%移動速度"
+   ],
+   "affix": {
+    "en": "of Speed",
+    "zh_hans": "速度之",
+    "zh_hant": "速度之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPiercingProjectiles": {
+   "id": "JewelPiercingProjectiles",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "affix": {
+    "en": "of Piercing",
+    "zh_hans": "刺穿之",
+    "zh_hant": "刺痛之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPinBuildup": {
+   "id": "JewelPinBuildup",
+   "family": [
+    "PinBuildup"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Pin Buildup"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "定身积蓄值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%釘身累積"
+   ],
+   "affix": {
+    "en": "of Pinning",
+    "zh_hans": "定身之",
+    "zh_hant": "釘身之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPoisonChance": {
+   "id": "JewelPoisonChance",
+   "family": [
+    "PoisonChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% chance to Poison on Hit"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "击中时有 #% 的几率使目标中毒"
+   ],
+   "zh_hant": [
+    "擊中時有#%機率造成中毒"
+   ],
+   "affix": {
+    "en": "of Poisoning",
+    "zh_hans": "中毒之",
+    "zh_hant": "－毒"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPoisonDamage": {
+   "id": "JewelPoisonDamage",
+   "family": [
+    "PoisonEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Poison you inflict"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "你造成的中毒强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你所施加之中毒的幅度"
+   ],
+   "affix": {
+    "en": "Venomous",
+    "zh_hans": "剧毒的",
+    "zh_hant": "劇毒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelPoisonDuration": {
+   "id": "JewelPoisonDuration",
+   "family": [
+    "PoisonDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Poison Duration"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "中毒持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%中毒持續時間"
+   ],
+   "affix": {
+    "en": "of Infection",
+    "zh_hans": "感染之",
+    "zh_hant": "感染之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelProjectileDamage": {
+   "id": "JewelProjectileDamage",
+   "family": [
+    "ProjectileDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Projectile Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物傷害"
+   ],
+   "affix": {
+    "en": "Archer's",
+    "zh_hans": "弓箭手的",
+    "zh_hant": "弓箭手之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelProjectileSpeed": {
+   "id": "JewelProjectileSpeed",
+   "family": [
+    "ProjectileSpeed"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Projectile Speed"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物速度"
+   ],
+   "affix": {
+    "en": "Soaring",
+    "zh_hans": "翱翔的",
+    "zh_hant": "高聳的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelQuarterstaffDamage": {
+   "id": "JewelQuarterstaffDamage",
+   "family": [
+    "SpecificWeaponDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Quarterstaves"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "节杖的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%細杖傷害"
+   ],
+   "affix": {
+    "en": "Monk's",
+    "zh_hans": "行者的",
+    "zh_hant": "僧侶之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelQuarterstaffFreezeBuildup": {
+   "id": "JewelQuarterstaffFreezeBuildup",
+   "family": [
+    "QuarterstaffFreezeBuildup"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Freeze Buildup with Quarterstaves"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "节杖的冻结积蓄值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%細杖的冰凍累積"
+   ],
+   "affix": {
+    "en": "of Glaciers",
+    "zh_hans": "冰川之",
+    "zh_hant": "冰川之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelQuarterstaffSpeed": {
+   "id": "JewelQuarterstaffSpeed",
+   "family": [
+    "SpecificWeaponSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Attack Speed with Quarterstaves"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "节杖的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%細杖攻擊速度"
+   ],
+   "affix": {
+    "en": "of Sequencing",
+    "zh_hans": "进迫之",
+    "zh_hant": "排序之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelQuiverEffect": {
+   "id": "JewelQuiverEffect",
+   "family": [
+    "EquipmentModifierEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased bonuses gained from Equipped Quiver"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "装备箭袋获得的加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%從已裝備箭袋獲得的加成"
+   ],
+   "affix": {
+    "en": "Fletching",
+    "zh_hans": "制箭的",
+    "zh_hant": "箭羽的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelShockChance": {
+   "id": "JewelShockChance",
+   "family": [
+    "ShockChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased chance to Shock"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "感电几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%感電機率"
+   ],
+   "affix": {
+    "en": "of Shocking",
+    "zh_hans": "导电之",
+    "zh_hant": "感電之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelShockDuration": {
+   "id": "JewelShockDuration",
+   "family": [
+    "ShockDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Shock Duration"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "感电持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%感電持續時間"
+   ],
+   "affix": {
+    "en": "of Paralyzing",
+    "zh_hans": "痹体之",
+    "zh_hant": "癱瘓之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelShockEffect": {
+   "id": "JewelShockEffect",
+   "family": [
+    "ShockEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Magnitude of Shock you inflict"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "你造成的感电强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%你所施加之感電的幅度"
+   ],
+   "affix": {
+    "en": "Jolting",
+    "zh_hans": "震颤的",
+    "zh_hant": "顛簸的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSlowEffectOnSelf": {
+   "id": "JewelSlowEffectOnSelf",
+   "family": [
+    "SlowPotency"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% reduced Slowing Potency of Debuffs on You"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "你受到的异常状态的减速强度降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%你身上的減益效果緩速程度"
+   ],
+   "affix": {
+    "en": "of Hastening",
+    "zh_hans": "急速之",
+    "zh_hant": "加速之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSpearAttackSpeed": {
+   "id": "JewelSpearAttackSpeed",
+   "family": [
+    "SpearAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Attack Speed with Spears"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "战矛的攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%長矛攻擊速度"
+   ],
+   "affix": {
+    "en": "of Spearing",
+    "zh_hans": "锐矛之",
+    "zh_hant": "串刺之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSpearCriticalDamage": {
+   "id": "JewelSpearCriticalDamage",
+   "family": [
+    "SpearCriticalDamage"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Damage Bonus with Spears"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "战矛的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%使用長矛時暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Hunting",
+    "zh_hans": "追猎之",
+    "zh_hant": "狩獵之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSpearDamage": {
+   "id": "JewelSpearDamage",
+   "family": [
+    "SpearDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Spears"
+   ],
+   "ranges": [
+    [
+     6.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "战矛的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%長矛傷害"
+   ],
+   "affix": {
+    "en": "Spearheaded",
+    "zh_hans": "矛头的",
+    "zh_hant": "先鋒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelStunThresholdIfNotStunnedRecently": {
+   "id": "JewelStunThresholdIfNotStunnedRecently",
+   "family": [
+    "IncreasedStunThresholdIfNoRecentStun"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Stun Threshold if you haven't been Stunned Recently"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "若你近期未被晕眩，晕眩阈值提高 #%"
+   ],
+   "zh_hant": [
+    "若你近期未遭暈眩，增加#%暈眩門檻"
+   ],
+   "affix": {
+    "en": "of Stoutness",
+    "zh_hans": "顽强之",
+    "zh_hant": "結實之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelProjectileDamageIfMeleeHitRecently": {
+   "id": "JewelProjectileDamageIfMeleeHitRecently",
+   "family": [
+    "ProjectileDamageIfMeleeHitRecently"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Projectile Damage if you've dealt a Melee Hit in the past eight seconds"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "若你在过去 8 秒内造成过近战击中，投射物伤害提高 #%"
+   ],
+   "zh_hant": [
+    "如果你在過去8秒內以近戰擊中，增加#%則投射物傷害"
+   ],
+   "affix": {
+    "en": "Retreating",
+    "zh_hans": "避锋的",
+    "zh_hant": "撤退的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMeleeDamageIfProjectileHitRecently": {
+   "id": "JewelMeleeDamageIfProjectileHitRecently",
+   "family": [
+    "MeleeDamageIfProjectileHitRecently"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "若你在过去 8 秒内造成过投射物攻击击中，近战伤害提高 #%"
+   ],
+   "zh_hant": [
+    "如果你在過去8秒內以投射物攻擊擊中，增加#%近戰傷害"
+   ],
+   "affix": {
+    "en": "Engaging",
+    "zh_hans": "交锋的",
+    "zh_hant": "交戰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelParryDamage": {
+   "id": "JewelParryDamage",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Parry Damage"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "招架伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%招架傷害"
+   ],
+   "affix": {
+    "en": "Parrying",
+    "zh_hans": "招架的",
+    "zh_hant": "格擋的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelParriedDebuffDuration": {
+   "id": "JewelParriedDebuffDuration",
+   "family": [
+    "ParriedDebuff"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Parried Debuff Duration"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "被招架减益状态的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%受招架減益效果持續時間"
+   ],
+   "affix": {
+    "en": "of Unsettling",
+    "zh_hans": "失衡之",
+    "zh_hant": "令人不安之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelStunThresholdDuringParry": {
+   "id": "JewelStunThresholdDuringParry",
+   "family": [
+    "StunThresholdDuringParry"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Stun Threshold while Parrying"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "招架时的晕眩阈值提高 #%"
+   ],
+   "zh_hant": [
+    "招架期間增加#%暈眩門檻"
+   ],
+   "affix": {
+    "en": "of Biding",
+    "zh_hans": "忍耐之",
+    "zh_hant": "停留之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCompanionDamage": {
+   "id": "JewelCompanionDamage",
+   "family": [
+    "CompanionDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Companions deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "伙伴的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%盟友造成的傷害"
+   ],
+   "affix": {
+    "en": "Kinship",
+    "zh_hans": "相识的",
+    "zh_hant": "親切的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCompanionLife": {
+   "id": "JewelCompanionLife",
+   "family": [
+    "CompanionLife"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Companions have #% increased maximum Life"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "伙伴的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%盟友的最大生命"
+   ],
+   "affix": {
+    "en": "Kindred",
+    "zh_hans": "相知的",
+    "zh_hant": "同類的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelHazardDamage": {
+   "id": "JewelHazardDamage",
+   "family": [
+    "HazardDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Hazard Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "危害伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%危險的傷害"
+   ],
+   "affix": {
+    "en": "Hazardous",
+    "zh_hans": "凶险的",
+    "zh_hant": "冒險的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeonKill": {
+   "id": "JewelLifeonKill",
+   "family": [
+    "MaximumLifeOnKillPercent"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Recover #% of maximum Life on Kill"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "生命在击败敌人时恢复 #%"
+   ],
+   "zh_hant": [
+    "擊殺時恢復#%生命"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/0e6d09e63357c0f15ef347167b7723282567c04c8206cecfde7fab24334f95e3\" href=\"Liquid_Disgust\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/DistilledDisgust.webp\" alt=\"DistilledDisgust\" height=\"16\" />Liquid Disgust</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/92df969b656750f1633e0d387c9287e0acb2647f2a426e9f24210b6c0aeb36c2\" href=\"Liquid_Disgust\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/DistilledDisgust.webp\" alt=\"DistilledDisgust\" height=\"16\" />液化憎恶</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/ef70e3f6b388350b12001c2be83c229d139facdd6c3933b8d8d8f2d8f090262d\" href=\"Liquid_Disgust\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/DistilledDisgust.webp\" alt=\"DistilledDisgust\" height=\"16\" />液態厭惡</a>"
+   },
+   "sections": [
+    "liquid",
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelBlindOnHitWhileRubySapphireSocketed": {
+   "id": "CraftedJewelBlindOnHitWhileRubySapphireSocketed",
+   "family": [
+    "JewelStatusOnHitWhileSocketed",
+    "BlindOnHit"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Blind Enemies on Hit while you have a Ruby and a Sapphire socketed in your tree"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "当你镶嵌有一颗红玉和一颗蓝玉时，击中会使敌人致盲"
+   ],
+   "zh_hant": [
+    "若插槽中的鑲嵌紅寶石和藍寶石，擊中時致盲敵人"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/6da5be0936ee476d5d2a8be75822657abc6d1f8088710762065f7e983d69599e\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />Potent Liquid Melancholy</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/26391c359a066918b3ff6b6e2248cd45a03aac0a1493462495e2cb124564113d\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />强效的液化悲哀</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/0cf5bf320aa4fa1316a4fd8236d7a1bcdccae9522979f589aa6cccbee1284944\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />增幅液態憂鬱</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCastSpeed": {
+   "id": "JewelCastSpeed",
+   "family": [
+    "IncreasedCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Cast Speed"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%施法速度"
+   ],
+   "affix": {
+    "en": "of Enchanting",
+    "zh_hans": "咒术之",
+    "zh_hant": "咒術之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelChaosDamage": {
+   "id": "JewelChaosDamage",
+   "family": [
+    "IncreasedChaosDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Chaos Damage"
+   ],
+   "ranges": [
+    [
+     7.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%混沌傷害"
+   ],
+   "affix": {
+    "en": "Chaotic",
+    "zh_hans": "混沌的",
+    "zh_hant": "混沌的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelChillDuration": {
+   "id": "JewelChillDuration",
+   "family": [
+    "IncreasedChillDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Chill Duration on Enemies"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "敌人被冰缓的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%敵人身上的冰緩持續時間"
+   ],
+   "affix": {
+    "en": "of Frost",
+    "zh_hans": "冰霜之",
+    "zh_hant": "冰霜之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelColdDamage": {
+   "id": "JewelColdDamage",
+   "family": [
+    "ColdDamagePercentage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Cold Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%冰冷傷害"
+   ],
+   "affix": {
+    "en": "Chilling",
+    "zh_hans": "冰冷的",
+    "zh_hant": "冰緩"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelColdPenetration": {
+   "id": "JewelColdPenetration",
+   "family": [
+    "ColdResistancePenetration"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Damage Penetrates #% Cold Resistance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "伤害穿透 #% 冰霜抗性"
+   ],
+   "zh_hant": [
+    "傷害穿透#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "Numbing",
+    "zh_hans": "麻木的",
+    "zh_hant": "麻木的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCorpses": {
+   "id": "JewelCorpses",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage if you have Consumed a Corpse Recently"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "若你近期内有消耗灵柩，则伤害提高 #%"
+   ],
+   "zh_hant": [
+    "若你近期消耗過屍體，增加#%傷害"
+   ],
+   "affix": {
+    "en": "Necromantic",
+    "zh_hans": "通灵的",
+    "zh_hant": "靈能的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCriticalChance": {
+   "id": "JewelCriticalChance",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Annihilation",
+    "zh_hans": "歼灭之",
+    "zh_hant": "殲滅之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCriticalDamage": {
+   "id": "JewelCriticalDamage",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Potency",
+    "zh_hans": "强力之",
+    "zh_hant": "強力之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSpellCriticalDamage": {
+   "id": "JewelSpellCriticalDamage",
+   "family": [
+    "FormCritMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Spell Damage Bonus"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "法术暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%法術暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Unmaking",
+    "zh_hans": "解构之",
+    "zh_hant": "奪位之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCurseArea": {
+   "id": "JewelCurseArea",
+   "family": [
+    "CurseAreaOfEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Area of Effect of Curses"
+   ],
+   "ranges": [
+    [
+     8.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "诅咒的效果范围提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%詛咒範圍效果"
+   ],
+   "affix": {
+    "en": "Expanding",
+    "zh_hans": "扩展的",
+    "zh_hant": "擴張的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCurseDelay": {
+   "id": "JewelCurseDelay",
+   "family": [
+    "CurseDelay"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% faster Curse Activation"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "诅咒激活速度加快 #%"
+   ],
+   "zh_hant": [
+    "詛咒啟動速度加快#%"
+   ],
+   "affix": {
+    "en": "of Chanting",
+    "zh_hans": "吟咒之",
+    "zh_hant": "詠唱之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCurseDuration": {
+   "id": "JewelCurseDuration",
+   "family": [
+    "BaseCurseDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Curse Duration"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "诅咒持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%詛咒持續時間"
+   ],
+   "affix": {
+    "en": "of Continuation",
+    "zh_hans": "延续之",
+    "zh_hant": "延續之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelCurseEffect": {
+   "id": "JewelCurseEffect",
+   "family": [
+    "CurseEffectiveness"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Curse Magnitudes"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "诅咒强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%詛咒幅度"
+   ],
+   "affix": {
+    "en": "Hexing",
+    "zh_hans": "魔蛊的",
+    "zh_hant": "咒術的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelDamagefromMana": {
+   "id": "JewelDamagefromMana",
+   "family": [
+    "DamageRemovedFromManaBeforeLife"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% of Damage is taken from Mana before Life"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的伤害优先从魔力扣除"
+   ],
+   "zh_hant": [
+    "生命值所受的#%傷害由魔力扣除"
+   ],
+   "affix": {
+    "en": "of Mind",
+    "zh_hans": "心灵之",
+    "zh_hant": "心靈之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelEnergy": {
+   "id": "JewelEnergy",
+   "family": [
+    "Energy"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Meta Skills gain #% increased Energy"
+   ],
+   "ranges": [
+    [
+     4.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "非凡技能获得的能量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%主要技能獲得能量"
+   ],
+   "affix": {
+    "en": "of Generation",
+    "zh_hans": "予能之",
+    "zh_hant": "產生之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelEnergyShield": {
+   "id": "JewelEnergyShield",
+   "family": [
+    "EnergyShieldPercent"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased maximum Energy Shield"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "能量护盾上限提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%最大能量護盾"
+   ],
+   "affix": {
+    "en": "Shimmering",
+    "zh_hans": "闪光的",
+    "zh_hant": "閃閃發光的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelEnergyShieldDelay": {
+   "id": "JewelEnergyShieldDelay",
+   "family": [
+    "EnergyShieldDelay"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% faster start of Energy Shield Recharge"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "能量护盾充能时间提前 #%"
+   ],
+   "zh_hant": [
+    "能量護盾開始充能速度加快#%"
+   ],
+   "affix": {
+    "en": "Serene",
+    "zh_hans": "宁静的",
+    "zh_hant": "寧靜的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFocusEnergyShield": {
+   "id": "JewelFocusEnergyShield",
+   "family": [
+    "FocusEnergyShield"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Energy Shield from Equipped Focus"
+   ],
+   "ranges": [
+    [
+     30.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "装备法器的能量护盾提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%來自已裝備法器的能量護盾"
+   ],
+   "affix": {
+    "en": "Focusing",
+    "zh_hans": "聚焦的",
+    "zh_hant": "專注的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFreezeAmount": {
+   "id": "JewelFreezeAmount",
+   "family": [
+    "FreezeDamageIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Freeze Buildup"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "冻结积蓄值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%冰凍累積"
+   ],
+   "affix": {
+    "en": "of Freezing",
+    "zh_hans": "冰冻之",
+    "zh_hant": "急凍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelFreezeThreshold": {
+   "id": "JewelFreezeThreshold",
+   "family": [
+    "FreezeThreshold"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Freeze Threshold"
+   ],
+   "ranges": [
+    [
+     18.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "冻结阈值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%冰凍門檻"
+   ],
+   "affix": {
+    "en": "of Snowbreathing",
+    "zh_hans": "雪息之",
+    "zh_hant": "雪息之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelLifeRecoup": {
+   "id": "JewelLifeRecoup",
+   "family": [
+    "DamageTakenGainedAsLife"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% of Damage taken Recouped as Life"
+   ],
+   "ranges": [
+    [
+     2.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "将所受伤害的#%吸纳为生命"
+   ],
+   "zh_hant": [
+    "承受的#%傷害補償為生命"
+   ],
+   "affix": {
+    "en": "of Infusion",
+    "zh_hans": "灌输之",
+    "zh_hant": "注入之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelManaonKill": {
+   "id": "JewelManaonKill",
+   "family": [
+    "ManaGainedOnKillPercentage"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Recover #% of maximum Mana on Kill"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力在击败敌人时恢复 #%"
+   ],
+   "zh_hant": [
+    "擊殺時恢復#%魔力"
+   ],
+   "affix": {
+    "en": "of Osmosis",
+    "zh_hans": "逆渗透之",
+    "zh_hant": "逆滲透之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelManaRegeneration": {
+   "id": "JewelManaRegeneration",
+   "family": [
+    "ManaRegeneration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Mana Regeneration Rate"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力再生率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力回復率"
+   ],
+   "affix": {
+    "en": "of Energy",
+    "zh_hans": "能量之",
+    "zh_hant": "能量之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMaximumColdResistance": {
+   "id": "JewelMaximumColdResistance",
+   "family": [
+    "MaximumColdResist"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Maximum Cold Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 冰霜抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Kraken",
+    "zh_hans": "海怪之",
+    "zh_hant": "海怪之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionAttackandCastSpeed": {
+   "id": "JewelMinionAttackandCastSpeed",
+   "family": [
+    "MinionAttackSpeedAndCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Minions have #% increased Attack and Cast Speed"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的攻击和施法速度提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%攻擊和施法速度"
+   ],
+   "affix": {
+    "en": "of Orchestration",
+    "zh_hans": "协调之",
+    "zh_hant": "協調之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionChaosResistance": {
+   "id": "JewelMinionChaosResistance",
+   "family": [
+    "MinionChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Minions have +#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     7.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物有 +#% 混沌抗性"
+   ],
+   "zh_hant": [
+    "召喚物+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of Righteousness",
+    "zh_hans": "正义之",
+    "zh_hant": "正義之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionCriticalChance": {
+   "id": "JewelMinionCriticalChance",
+   "family": [
+    "MinionCriticalStrikeChance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Minions have #% increased Critical Hit Chance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%召喚物的暴擊率"
+   ],
+   "affix": {
+    "en": "of Marshalling",
+    "zh_hans": "编排之",
+    "zh_hant": "編排之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionCriticalMultiplier": {
+   "id": "JewelMinionCriticalMultiplier",
+   "family": [
+    "MinionCriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Minions have #% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "召喚物增加#%暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Gripping",
+    "zh_hans": "抓取之",
+    "zh_hant": "抓握之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionDamage": {
+   "id": "JewelMinionDamage",
+   "family": [
+    "MinionDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Minions deal #% increased Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物的伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%召喚物造成的傷害"
+   ],
+   "affix": {
+    "en": "Authoritative",
+    "zh_hans": "权威的",
+    "zh_hant": "權威的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelMinionResistances": {
+   "id": "JewelMinionResistances",
+   "family": [
+    "MinionElementalResistances"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Minions have +#% to all Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "召唤生物有 +#% 元素抗性"
+   ],
+   "zh_hant": [
+    "召喚物+#%全部元素抗性"
+   ],
+   "affix": {
+    "en": "of Acclimatisation",
+    "zh_hans": "驯化之",
+    "zh_hant": "馴化之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelOfferingDuration": {
+   "id": "JewelOfferingDuration",
+   "family": [
+    "OfferingDuration"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Offering Skills have #% increased Duration"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "奉献技能的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "奉獻技能增加#%持續時間"
+   ],
+   "affix": {
+    "en": "of Offering",
+    "zh_hans": "奉献之",
+    "zh_hant": "奉獻之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelOfferingLife": {
+   "id": "JewelOfferingLife",
+   "family": [
+    "OfferingLife"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Offerings have #% increased Maximum Life"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "奉献的生命上限提高 #%"
+   ],
+   "zh_hant": [
+    "奉獻增加#%最大生命"
+   ],
+   "affix": {
+    "en": "Sacrificial",
+    "zh_hans": "牺牲的",
+    "zh_hant": "犧牲的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSpellCriticalChance": {
+   "id": "JewelSpellCriticalChance",
+   "family": [
+    "SpellCriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Critical Hit Chance for Spells"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "法术暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%法術暴擊率"
+   ],
+   "affix": {
+    "en": "of Annihilating",
+    "zh_hans": "摧残之",
+    "zh_hant": "殲滅之"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelSpellDamage": {
+   "id": "JewelSpellDamage",
+   "family": [
+    "WeaponCasterDamagePrefix"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Spell Damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "法术伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%法術傷害"
+   ],
+   "affix": {
+    "en": "Mystic",
+    "zh_hans": "秘言的",
+    "zh_hant": "神秘的"
+   },
+   "sections": [
+    "normal",
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelStunThresholdfromEnergyShield": {
+   "id": "JewelStunThresholdfromEnergyShield",
+   "family": [
+    "StunThresholdfromEnergyShield"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain additional Stun Threshold equal to #% of maximum Energy Shield"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于能量护盾上限 #% 的晕眩阈值"
+   ],
+   "zh_hant": [
+    "獲得等同於最大能量護盾#%的額外暈眩門檻"
+   ],
+   "affix": {
+    "en": "of Barriers",
+    "zh_hans": "屏障之",
+    "zh_hant": "屏障之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelAilmentThresholdfromEnergyShield": {
+   "id": "JewelAilmentThresholdfromEnergyShield",
+   "family": [
+    "AilmentThresholdfromEnergyShield"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain additional Ailment Threshold equal to #% of maximum Energy Shield"
+   ],
+   "ranges": [
+    [
+     5.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "获得额外异常状态阈值，相当于能量护盾上限的 #%"
+   ],
+   "zh_hant": [
+    "獲得等同於最大能量護盾#%的額外異常狀態門檻"
+   ],
+   "affix": {
+    "en": "of Inuring",
+    "zh_hans": "侵略之",
+    "zh_hant": "習慣之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelTriggeredSpellDamage": {
+   "id": "JewelTriggeredSpellDamage",
+   "family": [
+    "DamageWithTriggeredSpells"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Triggered Spells deal #% increased Spell Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     18.0
+    ]
+   ],
+   "zh_hans": [
+    "被触发法术的法术伤害提高 #%"
+   ],
+   "zh_hant": [
+    "觸發法術增加#%造成的法術傷害"
+   ],
+   "affix": {
+    "en": "Triggered",
+    "zh_hans": "触发的",
+    "zh_hant": "觸發的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "JewelWitheredEffect": {
+   "id": "JewelWitheredEffect",
+   "family": [
+    "WitheredEffect"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Withered Magnitude"
+   ],
+   "ranges": [
+    [
+     5.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "死亡凋零强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%凋零幅度"
+   ],
+   "affix": {
+    "en": "Withering",
+    "zh_hans": "萧瑟的",
+    "zh_hant": "凋零的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelExposureOnHitWhileRubyEmeraldSocketed": {
+   "id": "CraftedJewelExposureOnHitWhileRubyEmeraldSocketed",
+   "family": [
+    "JewelStatusOnHitWhileSocketed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Inflict Elemental Exposure on Hit while you have a Ruby and an Emerald socketed in your tree"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "当你镶嵌有一颗红玉和一颗翡翠时，击中会施加元素曝露"
+   ],
+   "zh_hant": [
+    "若插槽中的鑲嵌紅寶石和綠寶石，擊中時施加元素曝曬"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/6da5be0936ee476d5d2a8be75822657abc6d1f8088710762065f7e983d69599e\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />Potent Liquid Melancholy</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/26391c359a066918b3ff6b6e2248cd45a03aac0a1493462495e2cb124564113d\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />强效的液化悲哀</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/0cf5bf320aa4fa1316a4fd8236d7a1bcdccae9522979f589aa6cccbee1284944\" href=\"Potent_Liquid_Melancholy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/UniqueHumansEmotion.webp\" alt=\"UniqueHumansEmotion\" height=\"16\" />增幅液態憂鬱</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  },
+  "CraftedJewelMaximumChaosResistance": {
+   "id": "CraftedJewelMaximumChaosResistance",
+   "family": [
+    "MaximumChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Maximum Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 混沌抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大混沌抗性"
+   ],
+   "affix": {
+    "en": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/us/Poe_Data_BaseItemTypes_hover/c2d533d0e6d30c3617b48105d1c10253ac04bb60bfa2224e375cafea6392b625\" href=\"Concentrated_Liquid_Isolation\"><img loading=\"lazy\" decoding=\"async\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/ConcentratedDistilledIsolation.webp\" alt=\"ConcentratedDistilledIsolation\" height=\"16\" />Concentrated Liquid Isolation</a>",
+    "zh_hans": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/cn/Poe_Data_BaseItemTypes_hover/88ed09446fa78eaa8982ce193dc0feb53e7176dc4149b30f2136e1b143e0cc2c\" href=\"Concentrated_Liquid_Isolation\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/ConcentratedDistilledIsolation.webp\" alt=\"ConcentratedDistilledIsolation\" height=\"16\" />浓缩的液化孤独</a>",
+    "zh_hant": "<a class=\"item_currency StackableCurrency\" data-hover=\"https://cdn.poe2db.tw/cache2/tw/Poe_Data_BaseItemTypes_hover/9479bc58d46b276b4de9919b30bf93d3457297da791bae5833f5b4730cfdfb5a\" href=\"Concentrated_Liquid_Isolation\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/DistilledEmotions/ConcentratedDistilledIsolation.webp\" alt=\"ConcentratedDistilledIsolation\" height=\"16\" />濃縮液態孤立</a>"
+   },
+   "sections": [
+    "liquid"
+   ],
+   "essences": [],
+   "pob_file": "ModJewel.lua"
+  }
+ },
+ "socketables": {},
+ "base_types": {
+  "Cadigans_Epiphany": {
+   "en": "Cadigan's Epiphany",
+   "zh_hans": "卡迪甘的顿悟",
+   "zh_hant": "卡迪根的頓悟",
+   "implicits": [
+    {
+     "en": "Gloves: Destroys all Augment Sockets on the item to create a Jewel Socket",
+     "zh_hans": "手套: 摧毁该物品上的所有增幅器插槽，以生成一个珠宝插槽",
+     "zh_hant": "手套: 摧毀一件物品上所有的增幅插槽以創造一個珠寶插槽"
+    }
+   ]
+  },
+  "Diamond": {
+   "en": "Diamond",
+   "zh_hans": "宝钻",
+   "zh_hant": "鑽石",
+   "implicits": []
+  },
+  "Emerald": {
+   "en": "Emerald",
+   "zh_hans": "翡翠",
+   "zh_hant": "綠寶石",
+   "implicits": []
+  },
+  "Ruby": {
+   "en": "Ruby",
+   "zh_hans": "红玉",
+   "zh_hant": "紅寶石",
+   "implicits": []
+  },
+  "Sapphire": {
+   "en": "Sapphire",
+   "zh_hans": "蓝玉",
+   "zh_hant": "藍寶石",
+   "implicits": []
+  },
+  "Time-Lost_Diamond": {
+   "en": "Time-Lost Diamond",
+   "zh_hans": "失落的宝钻",
+   "zh_hant": "時迭鑽石",
+   "implicits": [
+    {
+     "en": "local jewel effect base radius [1000]",
+     "zh_hans": "local jewel effect base radius [1000]",
+     "zh_hant": "local jewel effect base radius [1000]"
+    }
+   ]
+  },
+  "Time-Lost_Emerald": {
+   "en": "Time-Lost Emerald",
+   "zh_hans": "失落的翡翠",
+   "zh_hant": "時迭綠寶石",
+   "implicits": [
+    {
+     "en": "local jewel effect base radius [1000]",
+     "zh_hans": "local jewel effect base radius [1000]",
+     "zh_hant": "local jewel effect base radius [1000]"
+    }
+   ]
+  },
+  "Time-Lost_Ruby": {
+   "en": "Time-Lost Ruby",
+   "zh_hans": "失落的红玉",
+   "zh_hant": "時迭紅寶石",
+   "implicits": [
+    {
+     "en": "local jewel effect base radius [1000]",
+     "zh_hans": "local jewel effect base radius [1000]",
+     "zh_hant": "local jewel effect base radius [1000]"
+    }
+   ]
+  },
+  "Time-Lost_Sapphire": {
+   "en": "Time-Lost Sapphire",
+   "zh_hans": "失落的蓝玉",
+   "zh_hant": "時迭藍寶石",
+   "implicits": [
+    {
+     "en": "local jewel effect base radius [1000]",
+     "zh_hans": "local jewel effect base radius [1000]",
+     "zh_hant": "local jewel effect base radius [1000]"
+    }
+   ]
+  },
+  "Timeless_Jewel": {
+   "en": "Timeless Jewel",
+   "zh_hans": "永恒珠宝",
+   "zh_hant": "永恆珠寶",
+   "implicits": []
+  }
+ },
+ "uniques": {
+  "Against_the_Darkness": {
+   "en": "Against the Darkness",
+   "zh_hans": "抗衡黑暗",
+   "zh_hant": "力抗黑暗",
+   "base": {
+    "en": "Time-Lost Diamond",
+    "zh_hans": "失落的宝钻",
+    "zh_hant": "時迭鑽石"
+   },
+   "implicits": [
+    {
+     "en": "local jewel effect base radius [1000]",
+     "zh_hans": "local jewel effect base radius [1000]",
+     "zh_hant": "local jewel effect base radius [1000]"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "[2 Random Jewel Modifiers]",
+     "zh_hans": "[2 Random Jewel Modifiers]",
+     "zh_hant": "[2 Random Jewel Modifiers]"
+    }
+   ]
+  },
+  "Controlled_Metamorphosis": {
+   "en": "Controlled Metamorphosis",
+   "zh_hans": "可控变形",
+   "zh_hant": "受控的蛻變",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Only affects Passives in Medium-Large Ring",
+     "zh_hans": "只影响中大环形范围内的天赋",
+     "zh_hant": "只會影響中至大範圍內的天賦"
+    },
+    {
+     "en": "Passives in Radius can be Allocated without being connected to your tree",
+     "zh_hans": "未连结至天赋树的技能，仍然可以在范围内配置",
+     "zh_hant": "天賦樹中在範圍內未連結的技能仍然可以配置"
+    },
+    {
+     "en": "#% to all Elemental Resistances",
+     "zh_hans": "所有元素抗性 #%",
+     "zh_hant": "#%全元素抗性"
+    }
+   ]
+  },
+  "Flesh_Crucible": {
+   "en": "Flesh Crucible",
+   "zh_hans": "血肉玄炉",
+   "zh_hant": "血肉坩堝",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Random # Keystone Passive Skill [1,33]",
+     "zh_hans": "Random # Keystone Passive Skill [1,33]",
+     "zh_hant": "Random # Keystone Passive Skill [1,33]"
+    },
+    {
+     "en": "(20-10)% less [random stat]",
+     "zh_hans": "(20-10)% less [random stat]",
+     "zh_hant": "(20-10)% less [random stat]"
+    }
+   ]
+  },
+  "From_Nothing": {
+   "en": "From Nothing",
+   "zh_hans": "无根之源",
+   "zh_hant": "從無到有",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Passives in Radius of Passive Skill can be Allocated",
+     "zh_hans": "Passive Skill范围内的天赋可以在"
+    },
+    {
+     "en": "without being connected to your tree",
+     "zh_hans": "未连结至天赋树的情况下配置"
+    }
+   ]
+  },
+  "Grand_Spectrum": {
+   "en": "Grand Spectrum",
+   "zh_hans": "聚光之石",
+   "zh_hant": "巨光譜",
+   "base": {
+    "en": "Ruby",
+    "zh_hans": "红玉",
+    "zh_hant": "紅寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% increased Maximum Life per socketed Grand Spectrum",
+     "zh_hans": "每块聚光之石使生命上限提高 #%",
+     "zh_hant": "每顆巨光譜增加#%最大生命"
+    },
+    {
+     "en": "number of stackable unique jewels [1]",
+     "zh_hans": "number of stackable unique jewels [1]",
+     "zh_hant": "number of stackable unique jewels [1]"
+    }
+   ]
+  },
+  "Grand_Spectrum#2": {
+   "en": "Grand Spectrum",
+   "zh_hans": "聚光之石",
+   "zh_hant": "巨光譜",
+   "base": {
+    "en": "Emerald",
+    "zh_hans": "翡翠",
+    "zh_hant": "綠寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% increased Spirit per socketed Grand Spectrum",
+     "zh_hans": "每个镶嵌的聚光之石使精魂提高 #%",
+     "zh_hant": "每顆巨光譜增加#%精魂"
+    },
+    {
+     "en": "number of stackable unique jewels [1]",
+     "zh_hans": "number of stackable unique jewels [1]",
+     "zh_hant": "number of stackable unique jewels [1]"
+    }
+   ]
+  },
+  "Grand_Spectrum#3": {
+   "en": "Grand Spectrum",
+   "zh_hans": "聚光之石",
+   "zh_hant": "巨光譜",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "+#% to all Elemental Resistances per socketed Grand Spectrum",
+     "zh_hans": "所有元素抗性都按照每个聚光之石 +#%",
+     "zh_hant": "每顆鑲嵌的巨光譜+#%全元素抗性"
+    },
+    {
+     "en": "number of stackable unique jewels [1]",
+     "zh_hans": "number of stackable unique jewels [1]",
+     "zh_hant": "number of stackable unique jewels [1]"
+    }
+   ]
+  },
+  "Heart_of_the_Well": {
+   "en": "Heart of the Well",
+   "zh_hans": "泉井之心",
+   "zh_hant": "水井之心",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "[Custom Desecrated prefix]",
+     "zh_hans": "[Custom Desecrated prefix]",
+     "zh_hant": "[Custom Desecrated prefix]"
+    },
+    {
+     "en": "[Custom Desecrated prefix]",
+     "zh_hans": "[Custom Desecrated prefix]",
+     "zh_hant": "[Custom Desecrated prefix]"
+    },
+    {
+     "en": "[Custom Desecrated suffix]",
+     "zh_hans": "[Custom Desecrated suffix]",
+     "zh_hant": "[Custom Desecrated suffix]"
+    },
+    {
+     "en": "[Custom Desecrated suffix]",
+     "zh_hans": "[Custom Desecrated suffix]",
+     "zh_hant": "[Custom Desecrated suffix]"
+    }
+   ]
+  },
+  "Heroic_Tragedy": {
+   "en": "Heroic Tragedy",
+   "zh_hans": "英雄的悲歌",
+   "zh_hant": "英雄悲劇",
+   "base": {
+    "en": "Timeless Jewel",
+    "zh_hans": "永恒珠宝",
+    "zh_hant": "永恆珠寶"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Remembrancing # songworthy deeds by the line of Vorana",
+     "zh_hans": "纪念 # 件沃拉娜世系值得传唱的事迹",
+     "zh_hant": "緬懷#個沃拉娜血脈值得歌頌的事蹟"
+    },
+    {
+     "en": "Passives in radius are Conquered by the Kalguur",
+     "zh_hans": "范围内的天赋被卡古兰抑制",
+     "zh_hant": "範圍內的天賦受卡爾葛征服"
+    },
+    {
+     "en": "Historic",
+     "zh_hans": "史实",
+     "zh_hant": "威宏史觀"
+    },
+    {
+     "en": "local unique jewel break timeless jewel calculators [0]",
+     "zh_hans": "local unique jewel break timeless jewel calculators [0]",
+     "zh_hant": "local unique jewel break timeless jewel calculators [0]"
+    }
+   ]
+  },
+  "Megalomaniac": {
+   "en": "Megalomaniac",
+   "zh_hans": "妄想症",
+   "zh_hant": "妄想症",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates Passive Skill",
+     "zh_hans": "配置 Passive Skill",
+     "zh_hant": "配置Passive Skill"
+    },
+    {
+     "en": "Allocates Passive Skill",
+     "zh_hans": "配置 Passive Skill",
+     "zh_hant": "配置Passive Skill"
+    },
+    {
+     "en": "Allocates Passive Skill",
+     "zh_hans": "配置 Passive Skill",
+     "zh_hant": "配置Passive Skill"
+    }
+   ]
+  },
+  "Megalomaniac#2": {
+   "en": "Megalomaniac",
+   "zh_hans": "妄想症",
+   "zh_hant": "妄想症",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates Passive Skill",
+     "zh_hans": "配置 Passive Skill",
+     "zh_hant": "配置Passive Skill"
+    },
+    {
+     "en": "Allocates Passive Skill",
+     "zh_hans": "配置 Passive Skill",
+     "zh_hant": "配置Passive Skill"
+    }
+   ]
+  },
+  "Prism_of_Belief": {
+   "en": "Prism of Belief",
+   "zh_hans": "信念的棱镜",
+   "zh_hant": "信仰棱鏡",
+   "base": {
+    "en": "Diamond",
+    "zh_hans": "宝钻",
+    "zh_hant": "鑽石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "+# to Level of all Specific Skill Skills",
+     "zh_hans": "所有Specific Skill技能等级 +#",
+     "zh_hant": "全部Specific Skill技能+#等級"
+    }
+   ]
+  },
+  "Split_Personality": {
+   "en": "Split Personality",
+   "zh_hans": "人格分裂",
+   "zh_hant": "人格分裂",
+   "base": {
+    "en": "Ruby",
+    "zh_hans": "红玉",
+    "zh_hant": "紅寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Can Allocate Passive Skills from the Sorceress's starting point",
+     "zh_hans": "可以从魔巫的起点配置天赋技能",
+     "zh_hant": "可以從女術者的起點配置天賦"
+    }
+   ]
+  },
+  "Undying_Hate": {
+   "en": "Undying Hate",
+   "zh_hans": "不朽之恨",
+   "zh_hant": "不朽恨意",
+   "base": {
+    "en": "Timeless Jewel",
+    "zh_hans": "永恒珠宝",
+    "zh_hant": "永恆珠寶"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Glorifying the defilement of # souls in tribute to Amanamu",
+     "zh_hans": "赞颂以阿曼娜姆之名亵渎的 # 个灵魂",
+     "zh_hant": "以#個玷污的靈魂榮耀阿姆納姆之名"
+    },
+    {
+     "en": "Passives in radius are Conquered by the Abyssals",
+     "zh_hans": "范围内的天赋被深渊抑制",
+     "zh_hant": "半徑範圍內的天賦受深淵族征服"
+    },
+    {
+     "en": "Desecration makes this item unstable",
+     "zh_hans": "渎灵会使物品不稳定。",
+     "zh_hant": "褻瀆此物品會使其變得不穩定"
+    },
+    {
+     "en": "Historic",
+     "zh_hans": "史实",
+     "zh_hant": "威宏史觀"
+    },
+    {
+     "en": "local unique jewel break timeless jewel calculators [0]",
+     "zh_hans": "local unique jewel break timeless jewel calculators [0]",
+     "zh_hant": "local unique jewel break timeless jewel calculators [0]"
+    }
+   ]
+  },
+  "Voices": {
+   "en": "Voices",
+   "zh_hans": "天神之音",
+   "zh_hant": "嗓音",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates # Sinister Jewel sockets",
+     "zh_hans": "配置 # 个恶劣之珠宝插槽",
+     "zh_hant": "配置#個不祥珠寶插槽"
+    }
+   ]
+  },
+  "Voices#2": {
+   "en": "Voices",
+   "zh_hans": "天神之音",
+   "zh_hant": "嗓音",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates # Sinister Jewel sockets",
+     "zh_hans": "配置 # 个恶劣之珠宝插槽",
+     "zh_hant": "配置#個不祥珠寶插槽"
+    }
+   ]
+  },
+  "Voices#3": {
+   "en": "Voices",
+   "zh_hans": "天神之音",
+   "zh_hant": "嗓音",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates # Sinister Jewel sockets",
+     "zh_hans": "配置 # 个恶劣之珠宝插槽",
+     "zh_hant": "配置#個不祥珠寶插槽"
+    }
+   ]
+  },
+  "Voices#4": {
+   "en": "Voices",
+   "zh_hans": "天神之音",
+   "zh_hant": "嗓音",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates # Sinister Jewel sockets",
+     "zh_hans": "配置 # 个恶劣之珠宝插槽",
+     "zh_hant": "配置#個不祥珠寶插槽"
+    }
+   ]
+  },
+  "Voices#5": {
+   "en": "Voices",
+   "zh_hans": "天神之音",
+   "zh_hant": "嗓音",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates # Sinister Jewel sockets",
+     "zh_hans": "配置 # 个恶劣之珠宝插槽",
+     "zh_hant": "配置#個不祥珠寶插槽"
+    }
+   ]
+  },
+  "Voices#6": {
+   "en": "Voices",
+   "zh_hans": "天神之音",
+   "zh_hant": "嗓音",
+   "base": {
+    "en": "Sapphire",
+    "zh_hans": "蓝玉",
+    "zh_hant": "藍寶石"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Allocates # Sinister Jewel sockets",
+     "zh_hans": "配置 # 个恶劣之珠宝插槽",
+     "zh_hant": "配置#個不祥珠寶插槽"
+    }
+   ]
+  }
+ }
+}

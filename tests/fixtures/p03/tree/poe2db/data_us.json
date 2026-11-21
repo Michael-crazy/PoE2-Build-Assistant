@@ -1,0 +1,174 @@
+{
+ "tree": "Default",
+ "classes": [
+  {
+   "name": "Monk",
+   "ascendancies": [
+    {
+     "id": "Monk1",
+     "name": "Martial Artist"
+    },
+    {
+     "id": "Monk2",
+     "name": "Invoker"
+    },
+    {
+     "id": "Monk3",
+     "name": "Acolyte of Chayula"
+    }
+   ]
+  }
+ ],
+ "nodes": {
+  "4": {
+   "skill": 4,
+   "id": "lightning14",
+   "name": "Shock Chance",
+   "stats": [
+    "15% increased chance to [Shock]"
+   ]
+  },
+  "240": {
+   "skill": 240,
+   "id": "mastery_lightning150",
+   "name": "Lightning Mastery",
+   "stats": [],
+   "isMastery": true
+  },
+  "516": {
+   "skill": 516,
+   "id": "projectiles32",
+   "name": "Projectile Damage",
+   "stats": [
+    "[Projectile|Projectiles] deal 15% increased Damage with Hits against Enemies further than 6m"
+   ]
+  },
+  "2491": {
+   "skill": 2491,
+   "id": "jewel_slot1974",
+   "name": "[Jewel] Socket",
+   "stats": [],
+   "isJewelSocket": true
+  },
+  "3281": {
+   "skill": 3281,
+   "id": "oracle_strength_spell4",
+   "name": "Powerful Casting",
+   "stats": [
+    "2% increased Spell Damage per 10 [Strength]",
+    "Requires The Unseen Path"
+   ],
+   "isNotable": true,
+   "unlockConstraint": {
+    "ascendancy": "Druid1"
+   }
+  },
+  "9994": {
+   "skill": 9994,
+   "id": "AscendancyMonk2Start",
+   "name": "Master of the Elements",
+   "stats": [],
+   "isAscendancyStart": true,
+   "ascendancyName": "Monk2"
+  },
+  "11335": {
+   "skill": 11335,
+   "id": "AscendancyDruid1Small1",
+   "name": "Passive Point",
+   "stats": [
+    "Grants 1 Passive Skill Points"
+   ],
+   "ascendancyName": "Druid1"
+  },
+  "14226": {
+   "skill": 14226,
+   "id": "passive_keystone_dance_with_death",
+   "name": "Dance with Death",
+   "stats": [
+    "25% more Skill Speed while Off Hand is empty and you have\na [One-Handed] [MartialWeapon|Martial Weapon] equipped in your Main Hand"
+   ],
+   "isKeystone": true,
+   "flavourText": [
+    "You circle the black scorpion with enmity, daring it time and again."
+   ]
+  },
+  "18684": {
+   "skill": 18684,
+   "id": "passive_keystone_avatar_of_fire",
+   "name": "Avatar of Fire",
+   "stats": [
+    "75% of Damage Converted to Fire Damage\nDeal no Non-Fire Damage"
+   ],
+   "isKeystone": true,
+   "flavourText": [
+    "\"In my dreams I see a great warrior, his skin scorched black, his fists aflame.\""
+   ]
+  },
+  "70000": {
+   "skill": 70000,
+   "name": "New In 1.0",
+   "stats": []
+  },
+  "51690": {
+   "skill": 51690,
+   "group": 77,
+   "orbit": 6,
+   "orbitIndex": 43,
+   "out": [],
+   "connections": [
+    {
+     "id": "12000",
+     "orbit": -5
+    }
+   ],
+   "in": [],
+   "id": "AscendancyWarrior1Small7",
+   "name": "Life Regeneration",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/Titan/TitanNode.webp",
+   "stats": [
+    "Regenerate 0.5% of maximum Life per second"
+   ],
+   "ascendancyName": "Warrior1"
+  },
+  "20303": {
+   "skill": 20303,
+   "group": 402,
+   "orbit": 2,
+   "orbitIndex": 16,
+   "out": [],
+   "connections": [
+    {
+     "id": "9908",
+     "orbit": 0
+    }
+   ],
+   "in": [],
+   "id": "life_regeneration31",
+   "name": "Life Regeneration",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/lifepercentage.webp",
+   "stats": [
+    "10% increased Life Regeneration rate"
+   ]
+  },
+  "38776": {
+   "skill": 38776,
+   "group": 791,
+   "orbit": 7,
+   "orbitIndex": 16,
+   "out": [],
+   "connections": [
+    {
+     "id": "57816",
+     "orbit": 0
+    }
+   ],
+   "in": [],
+   "id": "attributes105",
+   "name": "Dexterity",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/plusdexterity.webp",
+   "stats": [
+    "+8 to [Dexterity]"
+   ]
+  }
+ }
+}

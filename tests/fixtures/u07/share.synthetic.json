@@ -1,0 +1,469 @@
+{
+ "format": "wegame-poe2-share/1",
+ "_provenance": "synthetic: layout from the WeGame share page bundle (2026-11-20), Chinese text from tests/fixtures/p05/real Tencent copies and PoE2DB gem/base tables; tree nodes from the PoE2DB PoB code reference. No real account data.",
+ "role_info": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "nick_name": "<removed>",
+  "share_code": "<removed>",
+  "role": {
+   "openid": "<removed>",
+   "role_id": "1",
+   "area": 0,
+   "name": "<removed>",
+   "level": 91,
+   "class_id": 0,
+   "class_name": "Acolyte of Chayula"
+  }
+ },
+ "equipments": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "equipments": [
+   {
+    "id": "u07-gloves",
+    "inventoryId": "Gloves",
+    "x": 0,
+    "y": 0,
+    "rarity": "Rare",
+    "name": "精魂 护指",
+    "typeLine": "冷酷手套",
+    "ilvl": 81,
+    "corrupted": true,
+    "properties": [
+     {
+      "name": "品质",
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "name": "能量护盾",
+      "values": [
+       [
+        "210",
+        1
+       ]
+      ]
+     }
+    ],
+    "requirements": [
+     {
+      "name": "等级",
+      "values": [
+       [
+        "65",
+        0
+       ]
+      ]
+     },
+     {
+      "name": "智慧",
+      "values": [
+       [
+        "77",
+        1
+       ]
+      ]
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     },
+     {
+      "group": 1,
+      "type": "rune"
+     }
+    ],
+    "socketedItems": [
+     {
+      "typeLine": "钢铁符文",
+      "socket": 0
+     }
+    ],
+    "runeMods": [
+     "你造成的伤害性异常状态强度提高 20%",
+     "药剂的 15% 生命回复效果也作用于符文结界"
+    ],
+    "explicitMods": [
+     "攻击附加 13 - 18 基础冰霜伤害",
+     "能量护盾提高 97%",
+     "火焰抗性 +39%",
+     "每击败一名敌人获得 35 点魔力",
+     "能量护盾充能率提高 16%"
+    ],
+    "desecratedMods": [
+     "+44 能量护盾上限"
+    ]
+   },
+   {
+    "id": "u07-body",
+    "inventoryId": "BodyArmour",
+    "x": 0,
+    "y": 0,
+    "rarity": "Unique",
+    "name": "幻梦曲",
+    "typeLine": "符文师匠萨满斗篷",
+    "ilvl": 84,
+    "corrupted": true,
+    "properties": [
+     {
+      "name": "品质",
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "name": "护甲",
+      "values": [
+       [
+        "389",
+        1
+       ]
+      ]
+     },
+     {
+      "name": "能量护盾",
+      "values": [
+       [
+        "116",
+        1
+       ]
+      ]
+     }
+    ],
+    "requirements": [
+     {
+      "name": "等级",
+      "values": [
+       [
+        "50",
+        0
+       ]
+      ]
+     }
+    ],
+    "implicitMods": [
+     "将所受伤害的16%吸纳为生命"
+    ],
+    "runeMods": [
+     "药剂的生命和魔力回复提高 20%"
+    ],
+    "explicitMods": [
+     "护甲与能量护盾提高 130%",
+     "火焰抗性 -10%",
+     "混沌抗性 +18%",
+     "无法使用生命药剂",
+     "非传奇生命药剂的效果持续生效",
+     "生命药剂的回复效果无法瞬间完成",
+     "你的生命药剂回复效果仅对你自己生效",
+     "生命药剂回复总降 42%"
+    ],
+    "flavourText": [
+     "“不要绝望！将你自己献给森林！"
+    ]
+   },
+   {
+    "id": "u07-flask",
+    "inventoryId": "Flask",
+    "x": 0,
+    "y": 0,
+    "rarity": "Normal",
+    "name": "",
+    "typeLine": "终极生命药剂",
+    "ilvl": 78,
+    "properties": [],
+    "requirements": [
+     {
+      "name": "等级",
+      "values": [
+       [
+        "60",
+        0
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "u07-staff",
+    "inventoryId": "Weapon",
+    "x": 0,
+    "y": 0,
+    "rarity": "Normal",
+    "name": "",
+    "typeLine": "裹布节杖",
+    "ilvl": 70,
+    "properties": [],
+    "requirements": []
+   },
+   {
+    "id": "u07-unknown",
+    "inventoryId": "Helm",
+    "x": 0,
+    "y": 0,
+    "rarity": "Rare",
+    "name": "测试 头盔",
+    "typeLine": "不存在的基底",
+    "ilvl": 70,
+    "explicitMods": [
+     "测试生命增加 5"
+    ]
+   }
+  ]
+ },
+ "talent_tree": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "talent_tree": {
+   "hashes": [
+    664,
+    722,
+    1347,
+    1433,
+    1506,
+    2582,
+    2606,
+    3363,
+    3443,
+    4059,
+    8616,
+    8975,
+    10315,
+    10320,
+    10364,
+    10382,
+    11248,
+    11604,
+    11679,
+    11741,
+    11771,
+    13909,
+    14267,
+    14446,
+    14548,
+    15194,
+    15358,
+    15775,
+    15782,
+    15885,
+    16150,
+    17088,
+    17248,
+    18744,
+    21568,
+    21606,
+    21984,
+    24475,
+    25303,
+    25557,
+    25885,
+    26196,
+    27048,
+    27705,
+    29148,
+    29240,
+    30808,
+    31037,
+    31116,
+    31238,
+    31765,
+    32474,
+    32763,
+    34840,
+    34866,
+    35896,
+    36507,
+    37593,
+    38433,
+    39131,
+    39495,
+    39986,
+    40783,
+    40985,
+    41861,
+    44699,
+    44872,
+    45918,
+    46124,
+    46386,
+    46628,
+    46819,
+    47155,
+    47375,
+    47931,
+    47976,
+    48552,
+    48773,
+    49512,
+    50098,
+    51741,
+    52395,
+    53675,
+    53960,
+    54632,
+    54814,
+    55180,
+    55342,
+    55375,
+    55668,
+    56045,
+    56956,
+    57513,
+    57710,
+    57821,
+    57933,
+    59498,
+    59538,
+    59541,
+    59759,
+    60324,
+    61196,
+    61403,
+    61419,
+    61834,
+    63009,
+    63545,
+    63739
+   ],
+   "specialisations": {
+    "set1": [
+     229,
+     440,
+     1218,
+     6133,
+     14945,
+     17378,
+     18746,
+     19006,
+     39461,
+     40894,
+     46365,
+     46384,
+     54453,
+     55888,
+     61026,
+     61042
+    ],
+    "set2": [
+     3251,
+     10131,
+     11672,
+     12419,
+     13294,
+     18913,
+     20718,
+     30979,
+     32951,
+     39280,
+     39987,
+     39990,
+     44669,
+     44733,
+     47177,
+     56063
+    ]
+   },
+   "skill_overrides": {
+    "722": {
+     "name": "敏捷"
+    },
+    "4059": {
+     "name": "智慧"
+    },
+    "2582": {
+     "name": "力量"
+    }
+   }
+  }
+ },
+ "jewels": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "jewel_data": "[{\"socket_id\": 61834, \"jewel\": {\"id\": \"u07-jewel\", \"name\": \"失落的蓝玉\", \"display_name\": \"测试 之眼\", \"rarity\": 2, \"mod_descriptions\": [{\"values\": [\"曝露效果提高 6%\\n智慧提高 2%\"]}]}}, {\"socket_id\": 61419}]"
+ },
+ "skills": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "skills": [
+   {
+    "typeLine": "投身裂隙",
+    "properties": [
+     {
+      "name": "等级",
+      "values": [
+       [
+        "20",
+        0
+       ]
+      ]
+     }
+    ],
+    "socketedItems": [
+     {
+      "typeLine": "残片效能 III",
+      "support": true,
+      "properties": [
+       {
+        "name": "等级",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "typeLine": "无我残片",
+      "support": true,
+      "properties": []
+     }
+    ]
+   },
+   {
+    "typeLine": "灰烬之捷",
+    "properties": [
+     {
+      "name": "等级",
+      "values": [
+       [
+        "19",
+        0
+       ]
+      ]
+     }
+    ],
+    "socketedItems": [
+     {
+      "typeLine": "点燃 III",
+      "support": true
+     }
+    ]
+   },
+   {
+    "typeLine": "测试不存在的技能",
+    "properties": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,106 @@
+{
+  "provenance": "Authored offline examples, not market observations or verified affix matches.",
+  "context": {
+    "realm": "international",
+    "league": "Synthetic M04 League"
+  },
+  "slots": [
+    {
+      "slot": "Helmet",
+      "matched_affixes": [
+        "+20 to maximum Life"
+      ],
+      "listing": {
+        "id": "authored-helmet",
+        "realm": "international",
+        "league": "Synthetic M04 League",
+        "item": {
+          "league": "Synthetic M04 League",
+          "typeLine": "Authored helmet",
+          "rarity": "Rare",
+          "explicitMods": [
+            "+20 to maximum Life"
+          ]
+        },
+        "price": {
+          "amount": 2,
+          "currency": "divine",
+          "type": "~price"
+        }
+      }
+    },
+    {
+      "slot": "Ring 1",
+      "matched_affixes": [
+        "+20 to maximum Life"
+      ],
+      "listing": {
+        "id": "authored-ring1",
+        "realm": "international",
+        "league": "Synthetic M04 League",
+        "item": {
+          "league": "Synthetic M04 League",
+          "typeLine": "Authored ring1",
+          "rarity": "Rare",
+          "explicitMods": [
+            "+20 to maximum Life"
+          ]
+        },
+        "price": {
+          "amount": 0.1,
+          "currency": "exalted",
+          "type": "~price"
+        }
+      }
+    },
+    {
+      "slot": "Ring 2",
+      "matched_affixes": [
+        "+20 to maximum Life"
+      ],
+      "listing": {
+        "id": "authored-ring2",
+        "realm": "international",
+        "league": "Synthetic M04 League",
+        "item": {
+          "league": "Synthetic M04 League",
+          "typeLine": "Authored ring2",
+          "rarity": "Rare",
+          "explicitMods": [
+            "+20 to maximum Life"
+          ]
+        },
+        "price": {
+          "amount": 0.2,
+          "currency": "exalted",
+          "type": "~price"
+        }
+      }
+    },
+    {
+      "slot": "Boots",
+      "matched_affixes": [
+        "+20 to maximum Life"
+      ],
+      "listing": {
+        "id": "authored-boots",
+        "realm": "international",
+        "league": "Synthetic M04 League",
+        "item": {
+          "league": "Synthetic M04 League",
+          "typeLine": "Authored boots",
+          "rarity": "Rare",
+          "explicitMods": [
+            "+20 to maximum Life"
+          ]
+        },
+        "price": null
+      }
+    },
+    {
+      "slot": "Gloves",
+      "matched_affixes": [],
+      "listing": null
+    }
+  ]
+}

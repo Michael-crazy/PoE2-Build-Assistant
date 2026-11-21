@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "source": {"repository": "authored-local-fixture", "branch": "fixture", "commit": "1111111111111111111111111111111111111111"},
+  "skills": [
+    {"id": "Two", "name_en": "Shared Name", "declarations": [{"source_file": "authored.lua", "source_line": 5}]},
+    {"id": "One", "name_en": "Shared Name", "declarations": [{"source_file": "authored.lua", "source_line": 1}]},
+    {"id": "Hidden", "name_en": "", "declarations": [{"source_file": "authored.lua", "source_line": 9}]},
+    {"id": "Unique", "name_en": "One", "declarations": [{"source_file": "authored.lua", "source_line": 13}]}
+  ]
+}

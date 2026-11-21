@@ -1,0 +1,10 @@
+{
+  "scope": "authored_synthetic",
+  "provenance": "完全自编；测试 ID 和词缀均非生产术语映射；分段位置由样本作者指定。",
+  "mod_sections": [3, 4],
+  "rules": [
+    {"id": "synthetic.life", "template": "测试生命增加 {number}"},
+    {"id": "synthetic.damage", "template": "测试伤害 {number} 至 {number}"},
+    {"id": "synthetic.speed", "template": "测试速度 {number}%"}
+  ]
+}

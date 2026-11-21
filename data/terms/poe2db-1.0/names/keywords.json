@@ -1,0 +1,4108 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "source": "poe2db-cache Keywords and name pages",
+  "script": "ops/poe2db_keywords.py"
+ },
+ "keywords": {
+  "Physical Damage": {
+   "zh_hans": "物理伤害",
+   "zh_hant": "物理傷害",
+   "page": "Physical_Damage"
+  },
+  "Fire Damage": {
+   "zh_hans": "火焰伤害",
+   "zh_hant": "火焰傷害",
+   "page": "Fire_Damage"
+  },
+  "Cold Damage": {
+   "zh_hans": "冰霜伤害",
+   "zh_hant": "冰冷傷害",
+   "page": "Cold_Damage"
+  },
+  "Lightning Damage": {
+   "zh_hans": "闪电伤害",
+   "zh_hant": "閃電傷害",
+   "page": "Lightning_Damage"
+  },
+  "Chaos Damage": {
+   "zh_hans": "混沌伤害",
+   "zh_hant": "混沌傷害",
+   "page": "Chaos_Damage"
+  },
+  "Ailments": {
+   "zh_hans": "异常状态",
+   "zh_hant": "異常狀態",
+   "page": "Ailments"
+  },
+  "Attributes": {
+   "zh_hans": "属性",
+   "zh_hant": "能力",
+   "page": "Attributes"
+  },
+  "Strength": {
+   "zh_hans": "力量",
+   "zh_hant": "力量",
+   "page": "Strength"
+  },
+  "Dexterity": {
+   "zh_hans": "敏捷",
+   "zh_hant": "敏捷",
+   "page": "Dexterity"
+  },
+  "Intelligence": {
+   "zh_hans": "智慧",
+   "zh_hant": "智慧",
+   "page": "Intelligence"
+  },
+  "Bleeding": {
+   "zh_hans": "流血",
+   "zh_hant": "流血",
+   "page": "Bleeding"
+  },
+  "Blind": {
+   "zh_hans": "致盲",
+   "zh_hant": "致盲",
+   "page": "Blind"
+  },
+  "Chill": {
+   "zh_hans": "冰缓",
+   "zh_hant": "冰緩",
+   "page": "Chill"
+  },
+  "Chilled Ground": {
+   "zh_hans": "冰缓地面",
+   "zh_hant": "冰緩地面",
+   "page": "Chilled_Ground"
+  },
+  "Consecrated Ground": {
+   "zh_hans": "奉献地面",
+   "zh_hant": "奉獻地面",
+   "page": "Consecrated_Ground"
+  },
+  "Culling Strike": {
+   "zh_hans": "终结",
+   "zh_hant": "撲殺",
+   "page": "Culling_Strike"
+  },
+  "Decimating Strike": {
+   "zh_hans": "破灭打击",
+   "zh_hant": "屠戮打擊",
+   "page": "Decimating_Strike"
+  },
+  "Damage Types": {
+   "zh_hans": "伤害类型",
+   "zh_hant": "傷害類型",
+   "page": "Damage_Types"
+  },
+  "Damaging Ailments": {
+   "zh_hans": "伤害性异常状态",
+   "zh_hant": "傷害型異常狀態",
+   "page": "Damaging_Ailments"
+  },
+  "Desecrated Ground": {
+   "zh_hans": "腐化地面",
+   "zh_hant": "腐化地面",
+   "page": "Desecrated_Ground"
+  },
+  "Elemental Ailments": {
+   "zh_hans": "元素异常状态",
+   "zh_hant": "元素異常狀態",
+   "page": "Elemental_Ailments"
+  },
+  "Freeze": {
+   "zh_hans": "冻结",
+   "zh_hant": "冰凍",
+   "page": "Freeze"
+  },
+  "Hinder": {
+   "zh_hans": "缓速",
+   "zh_hant": "阻礙",
+   "page": "Hinder"
+  },
+  "Ignite": {
+   "zh_hans": "点燃",
+   "zh_hant": "點燃",
+   "page": "Ignite"
+  },
+  "Flammability": {
+   "zh_hans": "易燃",
+   "zh_hant": "易燃",
+   "page": "Flammability"
+  },
+  "Ignoring Resistances": {
+   "zh_hans": "忽略抗性",
+   "zh_hant": "無視抗性",
+   "page": "Ignoring_Resistances"
+  },
+  "Knockback": {
+   "zh_hans": "击退",
+   "zh_hant": "擊退",
+   "page": "Knockback"
+  },
+  "Life Leech": {
+   "zh_hans": "生命偷取",
+   "zh_hant": "生命偷取",
+   "page": "Life_Leech"
+  },
+  "Low Energy Shield": {
+   "zh_hans": "低能量护盾",
+   "zh_hant": "貧能量護盾狀態",
+   "page": "Low_Energy_Shield"
+  },
+  "Low Life": {
+   "zh_hans": "低血",
+   "zh_hant": "貧血狀態",
+   "page": "Low_Life"
+  },
+  "Low Mana": {
+   "zh_hans": "低魔",
+   "zh_hant": "貧魔狀態",
+   "page": "Low_Mana"
+  },
+  "Lucky": {
+   "zh_hans": "幸运",
+   "zh_hant": "幸運",
+   "page": "Lucky"
+  },
+  "Maim": {
+   "zh_hans": "瘫痪",
+   "zh_hant": "癱瘓",
+   "page": "Maim"
+  },
+  "Mana Leech": {
+   "zh_hans": "魔力偷取",
+   "zh_hant": "魔力偷取",
+   "page": "Mana_Leech"
+  },
+  "Rage Leech": {
+   "zh_hans": "怒火偷取",
+   "zh_hant": "盛怒偷取",
+   "page": "Rage_Leech"
+  },
+  "Map Owner": {
+   "zh_hans": "地图拥有者",
+   "zh_hant": "地圖擁有者",
+   "page": "Map_Owner"
+  },
+  "Non-Damaging Ailments": {
+   "zh_hans": "非伤害性异常状态",
+   "zh_hant": "非傷害型異常狀態",
+   "page": "Non-Damaging_Ailments"
+  },
+  "Overkill": {
+   "zh_hans": "溢出",
+   "zh_hant": "溢出",
+   "page": "Overkill"
+  },
+  "Poison": {
+   "zh_hans": "中毒",
+   "zh_hant": "中毒",
+   "page": "Poison"
+  },
+  "Rage": {
+   "zh_hans": "怒火",
+   "zh_hant": "盛怒",
+   "page": "Rage"
+  },
+  "Recently": {
+   "zh_hans": "近期",
+   "zh_hant": "近期",
+   "page": "Recently"
+  },
+  "Shapeshifting": {
+   "zh_hans": "变形",
+   "zh_hant": "變形",
+   "page": "Shapeshifting"
+  },
+  "Shock": {
+   "zh_hans": "感电",
+   "zh_hant": "感電",
+   "page": "Shock"
+  },
+  "Smoke Clouds": {
+   "zh_hans": "迷雾",
+   "zh_hant": "煙霧",
+   "page": "Smoke_Clouds"
+  },
+  "Player Stun Threshold": {
+   "zh_hans": "玩家晕眩阈值",
+   "zh_hant": "玩家暈眩門檻",
+   "page": "Player_Stun_Threshold"
+  },
+  "Enemy Stun Threshold": {
+   "zh_hans": "敌人晕眩阈值",
+   "zh_hant": "敵人暈眩門檻",
+   "page": "Enemy_Stun_Threshold"
+  },
+  "Freeze Threshold": {
+   "zh_hans": "冻结阈值",
+   "zh_hant": "冰凍門檻",
+   "page": "Freeze_Threshold"
+  },
+  "Electrocute Threshold": {
+   "zh_hans": "触电阈值",
+   "zh_hant": "觸電門檻",
+   "page": "Electrocute_Threshold"
+  },
+  "Unaffected": {
+   "zh_hans": "不受影响",
+   "zh_hant": "不受影響",
+   "page": "Unaffected"
+  },
+  "Uncapped Resistance": {
+   "zh_hans": "绝对抗性",
+   "zh_hant": "未限抗性",
+   "page": "Uncapped_Resistance"
+  },
+  "Overcapped Resistance": {
+   "zh_hans": "超量抗性",
+   "zh_hant": "超限抗性",
+   "page": "Overcapped_Resistance"
+  },
+  "Unlucky": {
+   "zh_hans": "不幸",
+   "zh_hant": "不幸",
+   "page": "Unlucky"
+  },
+  "Immobilised": {
+   "zh_hans": "不可移动",
+   "zh_hant": "禁錮",
+   "page": "Immobilised"
+  },
+  "Stun": {
+   "zh_hans": "晕眩",
+   "zh_hant": "暈眩",
+   "page": "Stun"
+  },
+  "Light Stun": {
+   "zh_hans": "轻度晕眩",
+   "zh_hant": "輕微暈眩",
+   "page": "Light_Stun"
+  },
+  "Heavy Stun": {
+   "zh_hans": "重度晕眩",
+   "zh_hant": "沉重暈眩",
+   "page": "Heavy_Stun"
+  },
+  "Player Heavy Stun": {
+   "zh_hans": "玩家重度晕眩",
+   "zh_hant": "玩家沉重暈眩",
+   "page": "Player_Heavy_Stun"
+  },
+  "Electrocution": {
+   "zh_hans": "触电",
+   "zh_hant": "觸電",
+   "page": "Electrocution"
+  },
+  "Pinned": {
+   "zh_hans": "定身",
+   "zh_hant": "被釘身",
+   "page": "Pinned"
+  },
+  "Overwhelm": {
+   "zh_hans": "镇压",
+   "zh_hant": "鎮壓",
+   "page": "Overwhelm"
+  },
+  "Melee": {
+   "zh_hans": "近战",
+   "zh_hant": "近戰",
+   "page": "Melee"
+  },
+  "Slams": {
+   "zh_hans": "猛击",
+   "zh_hant": "重擊",
+   "page": "Slams"
+  },
+  "Chain": {
+   "zh_hans": "连锁",
+   "zh_hant": "連鎖",
+   "page": "Chain"
+  },
+  "Pierce": {
+   "zh_hans": "穿透",
+   "zh_hant": "穿透",
+   "page": "Pierce"
+  },
+  "Fork": {
+   "zh_hans": "分叉",
+   "zh_hant": "分裂",
+   "page": "Fork"
+  },
+  "Split": {
+   "zh_hans": "分裂",
+   "zh_hant": "裂化",
+   "page": "Split"
+  },
+  "Deflect": {
+   "zh_hans": "偏转",
+   "zh_hant": "偏斜",
+   "page": "Deflect"
+  },
+  "Suppress": {
+   "zh_hans": "压制",
+   "zh_hant": "壓抑",
+   "page": "Suppress"
+  },
+  "Block": {
+   "zh_hans": "格挡",
+   "zh_hant": "格擋",
+   "page": "Block"
+  },
+  "Chance to Block": {
+   "zh_hans": "格挡几率",
+   "zh_hant": "格擋機率",
+   "page": "Chance_to_Block"
+  },
+  "Overcapped Block Chance": {
+   "zh_hans": "超量格挡几率",
+   "zh_hant": "超限格擋率",
+   "page": "Overcapped_Block_Chance"
+  },
+  "Strike": {
+   "zh_hans": "打击",
+   "zh_hant": "打擊",
+   "page": "Strike"
+  },
+  "Projectile": {
+   "zh_hans": "投射物",
+   "zh_hant": "投射物",
+   "page": "Projectile"
+  },
+  "Resistances": {
+   "zh_hans": "抗性",
+   "zh_hant": "抗性",
+   "page": "Resistances"
+  },
+  "Critical Hits": {
+   "zh_hans": "暴击",
+   "zh_hant": "暴擊",
+   "page": "Critical_Hits"
+  },
+  "Critical Damage Bonus": {
+   "zh_hans": "暴击伤害加成",
+   "zh_hant": "暴擊傷害加成",
+   "page": "Critical_Damage_Bonus"
+  },
+  "Jagged Ground": {
+   "zh_hans": "崎岖之地",
+   "zh_hant": "碎裂地面",
+   "page": "Jagged_Ground"
+  },
+  "Totems": {
+   "zh_hans": "图腾",
+   "zh_hant": "圖騰",
+   "page": "Totems"
+  },
+  "Taunt": {
+   "zh_hans": "嘲讽",
+   "zh_hant": "嘲諷",
+   "page": "Taunt"
+  },
+  "Empowered Skills": {
+   "zh_hans": "强化技能",
+   "zh_hant": "強化技能",
+   "page": "Empowered_Skills"
+  },
+  "Monster Power": {
+   "zh_hans": "怪物威力值",
+   "zh_hant": "怪物強度",
+   "page": "Monster_Power"
+  },
+  "Armour": {
+   "zh_hans": "护甲",
+   "zh_hant": "護甲",
+   "page": "Armour"
+  },
+  "Burning": {
+   "zh_hans": "燃烧",
+   "zh_hant": "燃燒",
+   "page": "Burning"
+  },
+  "Frozen": {
+   "zh_hans": "冻结",
+   "zh_hant": "冰凍",
+   "page": "Frozen"
+  },
+  "Evasion": {
+   "zh_hans": "闪避",
+   "zh_hant": "閃避",
+   "page": "Evasion"
+  },
+  "Accuracy": {
+   "zh_hans": "命中",
+   "zh_hant": "命中",
+   "page": "Accuracy"
+  },
+  "Energy Shield": {
+   "zh_hans": "能量护盾",
+   "zh_hant": "能量護盾",
+   "page": "Energy_Shield"
+  },
+  "Primed for Electrocution": {
+   "zh_hans": "可被触电",
+   "zh_hant": "可觸電",
+   "page": "Primed_for_Electrocution"
+  },
+  "Primed for Stun": {
+   "zh_hans": "可被晕眩",
+   "zh_hant": "可暈眩",
+   "page": "Primed_for_Stun"
+  },
+  "Primed for Freeze": {
+   "zh_hans": "可被冻结",
+   "zh_hant": "可冰凍",
+   "page": "Primed_for_Freeze"
+  },
+  "Iron Reflexes": {
+   "zh_hans": "霸体",
+   "zh_hant": "霸體",
+   "page": "Iron_Reflexes"
+  },
+  "Slow": {
+   "zh_hans": "减速",
+   "zh_hant": "緩速",
+   "page": "Slow"
+  },
+  "Rarity": {
+   "zh_hans": "稀有度",
+   "zh_hant": "稀有度",
+   "page": "Rarity"
+  },
+  "Faster Start of Energy Shield Recharge": {
+   "zh_hans": "能量护盾充能启动速度加快",
+   "zh_hant": "能量護盾更快開始充能",
+   "page": "Faster_Start_of_Energy_Shield_Recharge"
+  },
+  "Energy Shield Recharge Rate": {
+   "zh_hans": "能量护盾充能速度",
+   "zh_hant": "能量護盾充能率",
+   "page": "Energy_Shield_Recharge_Rate"
+  },
+  "Hit Damage": {
+   "zh_hans": "击中伤害",
+   "zh_hant": "擊中傷害",
+   "page": "Hit_Damage"
+  },
+  "Spells": {
+   "zh_hans": "法术",
+   "zh_hant": "法術",
+   "page": "Spells"
+  },
+  "Attacks": {
+   "zh_hans": "攻击",
+   "zh_hant": "攻擊",
+   "page": "Attacks"
+  },
+  "Traps": {
+   "zh_hans": "陷阱",
+   "zh_hant": "陷阱",
+   "page": "Traps"
+  },
+  "Withered": {
+   "zh_hans": "死亡凋零",
+   "zh_hant": "凋零",
+   "page": "Withered"
+  },
+  "Crushed": {
+   "zh_hans": "碾压",
+   "zh_hant": "壓碎",
+   "page": "Crushed"
+  },
+  "Crushing Blows": {
+   "zh_hans": "粉碎打击",
+   "zh_hant": "粉碎重擊",
+   "page": "Crushing_Blows"
+  },
+  "Brittle": {
+   "zh_hans": "脆弱",
+   "zh_hant": "易碎",
+   "page": "Brittle"
+  },
+  "Quest Item": {
+   "zh_hans": "任务物品",
+   "zh_hant": "任務道具",
+   "page": "Quest_Item"
+  },
+  "Swords": {
+   "zh_hans": "剑类",
+   "zh_hant": "劍",
+   "page": "Swords"
+  },
+  "Maces": {
+   "zh_hans": "锤类",
+   "zh_hant": "錘",
+   "page": "Maces"
+  },
+  "Sceptres": {
+   "zh_hans": "权杖",
+   "zh_hant": "權杖",
+   "page": "Sceptres"
+  },
+  "Wands": {
+   "zh_hans": "法杖",
+   "zh_hant": "法杖",
+   "page": "Wands"
+  },
+  "Axes": {
+   "zh_hans": "斧类",
+   "zh_hant": "斧",
+   "page": "Axes"
+  },
+  "Bows": {
+   "zh_hans": "弓类",
+   "zh_hant": "弓",
+   "page": "Bows"
+  },
+  "Daggers": {
+   "zh_hans": "匕首",
+   "zh_hant": "匕首",
+   "page": "Daggers"
+  },
+  "Staves": {
+   "zh_hans": "长杖",
+   "zh_hant": "長杖",
+   "page": "Staves"
+  },
+  "Claws": {
+   "zh_hans": "爪类",
+   "zh_hant": "爪",
+   "page": "Claws"
+  },
+  "Talismans": {
+   "zh_hans": "魔符",
+   "zh_hant": "魔符",
+   "page": "Talismans"
+  },
+  "Shields": {
+   "zh_hans": "盾牌",
+   "zh_hant": "盾牌",
+   "page": "Shields"
+  },
+  "Armoured Shields": {
+   "zh_hans": "护甲盾牌",
+   "zh_hant": "裝甲盾牌",
+   "page": "Armoured_Shields"
+  },
+  "Bucklers": {
+   "zh_hans": "轻盾",
+   "zh_hant": "輕盾",
+   "page": "Bucklers"
+  },
+  "Foci": {
+   "zh_hans": "法器",
+   "zh_hant": "法器",
+   "page": "Foci"
+  },
+  "Quarterstaves": {
+   "zh_hans": "节杖",
+   "zh_hant": "細杖",
+   "page": "Quarterstaves"
+  },
+  "Spears": {
+   "zh_hans": "战矛",
+   "zh_hant": "長矛",
+   "page": "Spears"
+  },
+  "Crossbows": {
+   "zh_hans": "战弩",
+   "zh_hant": "十字弓",
+   "page": "Crossbows"
+  },
+  "Flails": {
+   "zh_hans": "连枷",
+   "zh_hant": "鏈錘",
+   "page": "Flails"
+  },
+  "Flasks": {
+   "zh_hans": "药剂",
+   "zh_hant": "藥劑",
+   "page": "Flasks"
+  },
+  "Utility Flasks": {
+   "zh_hans": "功能药剂",
+   "zh_hant": "功能藥劑",
+   "page": "Utility_Flasks"
+  },
+  "Quivers": {
+   "zh_hans": "箭袋",
+   "zh_hant": "箭袋",
+   "page": "Quivers"
+  },
+  "Spirit": {
+   "zh_hans": "精魂",
+   "zh_hant": "精魂",
+   "page": "Spirit"
+  },
+  "One-Handed": {
+   "zh_hans": "单手",
+   "zh_hant": "單手",
+   "page": "One-Handed"
+  },
+  "Two-Handed": {
+   "zh_hans": "双手",
+   "zh_hant": "雙手",
+   "page": "Two-Handed"
+  },
+  "Allies": {
+   "zh_hans": "友军",
+   "zh_hant": "友方",
+   "page": "Allies"
+  },
+  "Dual Wielding": {
+   "zh_hans": "双持",
+   "zh_hant": "雙持",
+   "page": "Dual_Wielding"
+  },
+  "Minions": {
+   "zh_hans": "召唤生物",
+   "zh_hant": "召喚物",
+   "page": "Minions"
+  },
+  "Warcries": {
+   "zh_hans": "战吼",
+   "zh_hant": "戰吼",
+   "page": "Warcries"
+  },
+  "Curses": {
+   "zh_hans": "诅咒",
+   "zh_hant": "詛咒",
+   "page": "Curses"
+  },
+  "Dark Whispers": {
+   "zh_hans": "暗言",
+   "zh_hant": "黑暗低語",
+   "page": "Dark_Whispers"
+  },
+  "Aftershocks": {
+   "zh_hans": "余震",
+   "zh_hant": "餘震",
+   "page": "Aftershocks"
+  },
+  "Elusive": {
+   "zh_hans": "灵巧",
+   "zh_hant": "靈巧",
+   "page": "Elusive"
+  },
+  "Shocked Ground": {
+   "zh_hans": "感电地面",
+   "zh_hant": "感電地面",
+   "page": "Shocked_Ground"
+  },
+  "Energy Shield Leech": {
+   "zh_hans": "能量护盾偷取",
+   "zh_hant": "能量護盾偷取",
+   "page": "Energy_Shield_Leech"
+  },
+  "Unarmed": {
+   "zh_hans": "徒手",
+   "zh_hant": "空手",
+   "page": "Unarmed"
+  },
+  "Unarmed Attacks": {
+   "zh_hans": "徒手攻击",
+   "zh_hant": "空手攻擊",
+   "page": "Unarmed_Attacks"
+  },
+  "Unarmed Damage": {
+   "zh_hans": "徒手伤害",
+   "zh_hant": "空手傷害",
+   "page": "Unarmed_Damage"
+  },
+  "Orb Skills": {
+   "zh_hans": "法球技能",
+   "zh_hant": "寶珠技能",
+   "page": "Orb_Skills"
+  },
+  "Exposure": {
+   "zh_hans": "曝露",
+   "zh_hant": "曝曬",
+   "page": "Exposure"
+  },
+  "Energy": {
+   "zh_hans": "能量",
+   "zh_hant": "能量",
+   "page": "Energy"
+  },
+  "Ice Crystals": {
+   "zh_hans": "冰晶",
+   "zh_hant": "冰晶",
+   "page": "Ice_Crystals"
+  },
+  "Ice Crystal Shattering": {
+   "zh_hans": "冰晶击碎",
+   "zh_hant": "冰晶粉碎",
+   "page": "Ice_Crystal_Shattering"
+  },
+  "Returning": {
+   "zh_hans": "归返",
+   "zh_hant": "迴旋",
+   "page": "Returning"
+  },
+  "Phasing": {
+   "zh_hans": "迷踪",
+   "zh_hant": "迷蹤",
+   "page": "Phasing"
+  },
+  "Corpses": {
+   "zh_hans": "灵柩",
+   "zh_hant": "屍體",
+   "page": "Corpses"
+  },
+  "Charges": {
+   "zh_hans": "能量球",
+   "zh_hant": "能量球",
+   "page": "Charges"
+  },
+  "Elemental Damage Types": {
+   "zh_hans": "元素伤害类型",
+   "zh_hant": "元素傷害類型",
+   "page": "Elemental_Damage_Types"
+  },
+  "Wells": {
+   "zh_hans": "水井",
+   "zh_hant": "水井",
+   "page": "Wells"
+  },
+  "Presence": {
+   "zh_hans": "在场",
+   "zh_hant": "存在範圍",
+   "page": "Presence"
+  },
+  "Light Radius": {
+   "zh_hans": "照亮范围",
+   "zh_hant": "光線範圍",
+   "page": "Light_Radius"
+  },
+  "Item Rarity": {
+   "zh_hans": "物品稀有度",
+   "zh_hant": "物品稀有度",
+   "page": "Item_Rarity"
+  },
+  "Shatter": {
+   "zh_hans": "击碎",
+   "zh_hant": "粉碎",
+   "page": "Shatter"
+  },
+  "Resistance Penetration": {
+   "zh_hans": "抗性穿透",
+   "zh_hant": "抗性穿透",
+   "page": "Resistance_Penetration"
+  },
+  "Armour Break": {
+   "zh_hans": "护甲破损",
+   "zh_hant": "護甲破壞",
+   "page": "Armour_Break"
+  },
+  "Armour Break below 0": {
+   "zh_hans": "低于 0 时的护甲破损",
+   "zh_hant": "破甲低於 0",
+   "page": "Armour_Break_below_0"
+  },
+  "Channelling": {
+   "zh_hans": "持续吟唱",
+   "zh_hant": "引導",
+   "page": "Channelling"
+  },
+  "Remote Skills": {
+   "zh_hans": "远距技能",
+   "zh_hant": "遠端技能",
+   "page": "Remote_Skills"
+  },
+  "Ancestral Boost": {
+   "zh_hans": "先祖加持",
+   "zh_hant": "先祖強化",
+   "page": "Ancestral_Boost"
+  },
+  "Ancestral Boosted Spells": {
+   "zh_hans": "先祖加持法术",
+   "zh_hant": "先祖強化法術",
+   "page": "Ancestral_Boosted_Spells"
+  },
+  "Buffs": {
+   "zh_hans": "增益",
+   "zh_hant": "增益效果",
+   "page": "Buffs"
+  },
+  "Debuffs": {
+   "zh_hans": "减益",
+   "zh_hant": "減益效果",
+   "page": "Debuffs"
+  },
+  "Persistent Skills": {
+   "zh_hans": "永久性技能",
+   "zh_hant": "持續技能",
+   "page": "Persistent_Skills"
+  },
+  "Effect Consumption": {
+   "zh_hans": "效果消耗",
+   "zh_hant": "效果消耗",
+   "page": "Effect_Consumption"
+  },
+  "Orb of Alteration": {
+   "zh_hans": "改造石",
+   "zh_hant": "改造石",
+   "page": "Orb_of_Alteration"
+  },
+  "Artificer's Orb": {
+   "zh_hans": "巧匠石",
+   "zh_hant": "巧匠石",
+   "page": "Artificers_Orb"
+  },
+  "Auras": {
+   "zh_hans": "光环",
+   "zh_hant": "光環",
+   "page": "Auras"
+  },
+  "Stormsurge": {
+   "zh_hans": "风雷涌动",
+   "zh_hant": "風暴湧流",
+   "page": "Stormsurge"
+  },
+  "Reviving Minions": {
+   "zh_hans": "复活怪物仆从",
+   "zh_hant": "復甦召喚物",
+   "page": "Reviving_Minions"
+  },
+  "Quality": {
+   "zh_hans": "品质",
+   "zh_hant": "品質",
+   "page": "Quality"
+  },
+  "Support Gems": {
+   "zh_hans": "辅助宝石",
+   "zh_hant": "輔助寶石",
+   "page": "Support_Gems"
+  },
+  "Area of Effect Skills": {
+   "zh_hans": "效果区域技能",
+   "zh_hant": "範圍效果技能",
+   "page": "Area_of_Effect_Skills"
+  },
+  "Duration Skills": {
+   "zh_hans": "持续时间技能",
+   "zh_hant": "持續時間技能",
+   "page": "Duration_Skills"
+  },
+  "Detonator Skills": {
+   "zh_hans": "引爆技能",
+   "zh_hant": "引爆技能",
+   "page": "Detonator_Skills"
+  },
+  "Nova Skills": {
+   "zh_hans": "新星技能",
+   "zh_hant": "新星技能",
+   "page": "Nova_Skills"
+  },
+  "Triggered Skills": {
+   "zh_hans": "触发技能",
+   "zh_hant": "觸發技能",
+   "page": "Triggered_Skills"
+  },
+  "Herald Skills": {
+   "zh_hans": "捷技能",
+   "zh_hant": "捷光環技能",
+   "page": "Herald_Skills"
+  },
+  "Recoup": {
+   "zh_hans": "吸纳",
+   "zh_hant": "補償效果",
+   "page": "Recoup"
+  },
+  "Thorns": {
+   "zh_hans": "荆棘",
+   "zh_hant": "荊棘",
+   "page": "Thorns"
+  },
+  "Ignited Ground": {
+   "zh_hans": "点燃地面",
+   "zh_hant": "點燃地面",
+   "page": "Ignited_Ground"
+  },
+  "Critical Weakness": {
+   "zh_hans": "暴击弱点",
+   "zh_hant": "暴擊弱點",
+   "page": "Critical_Weakness"
+  },
+  "Elemental Ground Surfaces": {
+   "zh_hans": "元素地面效果",
+   "zh_hant": "元素地面",
+   "page": "Elemental_Ground_Surfaces"
+  },
+  "Crossbow Ammunition Skills": {
+   "zh_hans": "战弩弹药技能",
+   "zh_hant": "十字弓彈藥技能",
+   "page": "Crossbow_Ammunition_Skills"
+  },
+  "Monster Modifiers": {
+   "zh_hans": "怪物词缀",
+   "zh_hant": "怪物詞綴",
+   "page": "Monster_Modifiers"
+  },
+  "Unwavering Stance": {
+   "zh_hans": "烈士意志",
+   "zh_hant": "烈士意志",
+   "page": "Unwavering_Stance"
+  },
+  "Eldritch Battery": {
+   "zh_hans": "异能魔力",
+   "zh_hant": "異能魔力",
+   "page": "Eldritch_Battery"
+  },
+  "Mind over Matter": {
+   "zh_hans": "心灵升华",
+   "zh_hant": "心靈昇華",
+   "page": "Mind_over_Matter"
+  },
+  "Blood Magic": {
+   "zh_hans": "祭血术",
+   "zh_hant": "祭血術",
+   "page": "Blood_Magic"
+  },
+  "Giant's Blood": {
+   "zh_hans": "巨人之血",
+   "zh_hant": "巨人之血",
+   "page": "Giants_Blood"
+  },
+  "Vaal Pact": {
+   "zh_hans": "瓦尔契约",
+   "zh_hant": "瓦爾冥約",
+   "page": "Vaal_Pact"
+  },
+  "Pain Attunement": {
+   "zh_hans": "苦痛灵曲",
+   "zh_hant": "苦痛靈曲",
+   "page": "Pain_Attunement"
+  },
+  "Hex Master": {
+   "zh_hans": "邪法宗师",
+   "zh_hant": "邪法宗師",
+   "page": "Hex_Master"
+  },
+  "Glancing Blows": {
+   "zh_hans": "斗转星移",
+   "zh_hant": "側身之擊",
+   "page": "Glancing_Blows"
+  },
+  "Ancestral Bond": {
+   "zh_hans": "先祖魂约",
+   "zh_hant": "先祖魂約",
+   "page": "Ancestral_Bond"
+  },
+  "Conduit": {
+   "zh_hans": "能量连接",
+   "zh_hant": "能量連結",
+   "page": "Conduit"
+  },
+  "Resolute Technique": {
+   "zh_hans": "坚毅之心",
+   "zh_hant": "堅毅之心",
+   "page": "Resolute_Technique"
+  },
+  "Whispers of Doom": {
+   "zh_hans": "灭世之语",
+   "zh_hant": "滅世之語",
+   "page": "Whispers_of_Doom"
+  },
+  "Avatar of Fire": {
+   "zh_hans": "火之化身",
+   "zh_hant": "火之化身",
+   "page": "Avatar_of_Fire"
+  },
+  "Scarred Faith": {
+   "zh_hans": "创痛信仰",
+   "zh_hant": "傷痕信仰",
+   "page": "Scarred_Faith"
+  },
+  "Lord of the Wilds": {
+   "zh_hans": "荒野之主",
+   "zh_hant": "荒野領主",
+   "page": "Lord_of_the_Wilds"
+  },
+  "Necromantic Talisman": {
+   "zh_hans": "通灵魔符",
+   "zh_hant": "死靈魔符",
+   "page": "Necromantic_Talisman"
+  },
+  "Hollow Palm Technique": {
+   "zh_hans": "空明之掌",
+   "zh_hant": "空掌之術",
+   "page": "Hollow_Palm_Technique"
+  },
+  "Chaos Inoculation": {
+   "zh_hans": "异灵之体",
+   "zh_hant": "異靈之體",
+   "page": "Chaos_Inoculation"
+  },
+  "Martial Weapons": {
+   "zh_hans": "战斗武器",
+   "zh_hant": "軍用武器",
+   "page": "Martial_Weapons"
+  },
+  "Sacrifice": {
+   "zh_hans": "献祭",
+   "zh_hant": "獻祭",
+   "page": "Sacrifice"
+  },
+  "Travel Skills": {
+   "zh_hans": "旅行技能",
+   "zh_hant": "快行技能",
+   "page": "Travel_Skills"
+  },
+  "Eternal Youth": {
+   "zh_hans": "青春永驻",
+   "zh_hant": "青春永駐",
+   "page": "Eternal_Youth"
+  },
+  "Support Gem Requirements": {
+   "zh_hans": "辅助宝石需求",
+   "zh_hant": "輔助寶石需求",
+   "page": "Support_Gem_Requirements"
+  },
+  "Buff/Debuff Magnitude": {
+   "zh_hans": "增益/减益状态强度",
+   "zh_hant": "增益效果／減益效果幅度",
+   "page": "Buff_Debuff_Magnitude"
+  },
+  "Buff/Debuff Effect": {
+   "zh_hans": "增益/减益效果",
+   "zh_hant": "增益/減益效果",
+   "page": "Buff_Debuff_Effect"
+  },
+  "Heartstopper": {
+   "zh_hans": "凝心者",
+   "zh_hant": "心靈永止",
+   "page": "Heartstopper"
+  },
+  "Elemental Equilibrium": {
+   "zh_hans": "元素之相",
+   "zh_hant": "元素之相",
+   "page": "Elemental_Equilibrium"
+  },
+  "Oasis": {
+   "zh_hans": "荒漠绿洲",
+   "zh_hant": "幻景綠洲",
+   "page": "Oasis"
+  },
+  "Arcane Surge": {
+   "zh_hans": "秘术增强",
+   "zh_hant": "秘能波動",
+   "page": "Arcane_Surge"
+  },
+  "Invoke": {
+   "zh_hans": "祈唤",
+   "zh_hant": "祈求",
+   "page": "Invoke"
+  },
+  "Meta Gems": {
+   "zh_hans": "非凡宝石",
+   "zh_hant": "主要寶石",
+   "page": "Meta_Gems"
+  },
+  "Final Strike": {
+   "zh_hans": "绝杀打击",
+   "zh_hant": "最終打擊",
+   "page": "Final_Strike"
+  },
+  "Finality": {
+   "zh_hans": "绝杀",
+   "zh_hant": "終極",
+   "page": "Finality"
+  },
+  "Corrupted Blood": {
+   "zh_hans": "腐化之血",
+   "zh_hant": "腐化之血",
+   "page": "Corrupted_Blood"
+  },
+  "Aggravated Bleeding": {
+   "zh_hans": "恶性流血",
+   "zh_hant": "加劇流血",
+   "page": "Aggravated_Bleeding"
+  },
+  "Aggravated Ignite": {
+   "zh_hans": "恶性点燃",
+   "zh_hant": "加劇點燃",
+   "page": "Aggravated_Ignite"
+  },
+  "Allies Leech the same amount": {
+   "zh_hans": "友军等量偷取",
+   "zh_hant": "友方偷取相同數值",
+   "page": "Allies_Leech_the_same_amount"
+  },
+  "Non-Stacking Effects": {
+   "zh_hans": "不可叠加效果",
+   "zh_hant": "非疊加效果",
+   "page": "Non-Stacking_Effects"
+  },
+  "Mark": {
+   "zh_hans": "印记",
+   "zh_hant": "印記",
+   "page": "Mark"
+  },
+  "Life Recharge": {
+   "zh_hans": "生命充能",
+   "zh_hant": "生命充能",
+   "page": "Life_Recharge"
+  },
+  "Energy Shield Recharge": {
+   "zh_hans": "能量护盾充能",
+   "zh_hant": "能量護盾充能",
+   "page": "Energy_Shield_Recharge"
+  },
+  "Energy Shield Protecting Mana": {
+   "zh_hans": "魔力护盾",
+   "zh_hant": "能量護盾保護魔力",
+   "page": "Energy_Shield_Protecting_Mana"
+  },
+  "Onslaught": {
+   "zh_hans": "猛攻",
+   "zh_hant": "猛攻",
+   "page": "Onslaught"
+  },
+  "Druidic Prowess": {
+   "zh_hans": "德鲁伊之威",
+   "zh_hant": "德魯伊之賦",
+   "page": "Druidic_Prowess"
+  },
+  "Fear Incarnate": {
+   "zh_hans": "恐惧化身",
+   "zh_hant": "恐懼化型",
+   "page": "Fear_Incarnate"
+  },
+  "Fear Overwhelming": {
+   "zh_hans": "恐惧侵袭",
+   "zh_hant": "壓倒性恐懼",
+   "page": "Fear_Overwhelming"
+  },
+  "Checkpoints": {
+   "zh_hans": "记录点",
+   "zh_hant": "記錄點",
+   "page": "Checkpoints"
+  },
+  "Checkpoints in Maps": {
+   "zh_hans": "地图记录点",
+   "zh_hant": "地圖檢查點",
+   "page": "Checkpoints_in_Maps"
+  },
+  "Waypoints": {
+   "zh_hans": "传送点",
+   "zh_hant": "傳送點",
+   "page": "Waypoints"
+  },
+  "Elemental Ailment Threshold": {
+   "zh_hans": "元素异常状态阈值",
+   "zh_hant": "元素異常狀態門檻",
+   "page": "Elemental_Ailment_Threshold"
+  },
+  "Maximum Resistances": {
+   "zh_hans": "抗性上限",
+   "zh_hant": "最大抗性",
+   "page": "Maximum_Resistances"
+  },
+  "Resonance": {
+   "zh_hans": "共鸣",
+   "zh_hant": "共鳴",
+   "page": "Resonance"
+  },
+  "Sustained Skills": {
+   "zh_hans": "持续性技能",
+   "zh_hant": "經久技能",
+   "page": "Sustained_Skills"
+  },
+  "Daze": {
+   "zh_hans": "恍惚",
+   "zh_hant": "目眩",
+   "page": "Daze"
+  },
+  "Combo": {
+   "zh_hans": "连击",
+   "zh_hant": "連擊",
+   "page": "Combo"
+  },
+  "Minion Death and Killing Minions": {
+   "zh_hans": "召唤生物的死亡和击败",
+   "zh_hant": "召喚物死亡及擊殺召喚物",
+   "page": "Minion_Death_and_Killing_Minions"
+  },
+  "Surrounded": {
+   "zh_hans": "被包围",
+   "zh_hant": "被包圍",
+   "page": "Surrounded"
+  },
+  "Reservation": {
+   "zh_hans": "保留",
+   "zh_hant": "保留",
+   "page": "Reservation"
+  },
+  "Low Infernal Flame": {
+   "zh_hans": "低地狱烈焰",
+   "zh_hant": "低赤獄烈炎",
+   "page": "Low_Infernal_Flame"
+  },
+  "Bulwark": {
+   "zh_hans": "壁垒",
+   "zh_hant": "守護",
+   "page": "Bulwark"
+  },
+  "Damage Conversion": {
+   "zh_hans": "伤害转化",
+   "zh_hant": "傷害轉換",
+   "page": "Damage_Conversion"
+  },
+  "Damage Gained as extra X": {
+   "zh_hans": "获得 X 的额外伤害",
+   "zh_hant": "獲得相當於傷害的額外 X 傷害",
+   "page": "Damage_Gained_as_extra_X"
+  },
+  "Tailwind": {
+   "zh_hans": "提速尾流",
+   "zh_hant": "流順之風",
+   "page": "Tailwind"
+  },
+  "Jade": {
+   "zh_hans": "青玉护身",
+   "zh_hant": "翠玉",
+   "page": "Jade"
+  },
+  "Concentration": {
+   "zh_hans": "专注",
+   "zh_hant": "集中",
+   "page": "Concentration"
+  },
+  "Flame of Chayula": {
+   "zh_hans": "夏乌拉之焰",
+   "zh_hant": "夏烏拉之炎",
+   "page": "Flame_of_Chayula"
+  },
+  "Ancient Blooms": {
+   "zh_hans": "远古之花",
+   "zh_hant": "遠古之綻",
+   "page": "Ancient_Blooms"
+  },
+  "Red Flames of Chayula": {
+   "zh_hans": "红色夏乌拉之焰",
+   "zh_hant": "夏烏拉之紅炎",
+   "page": "Red_Flames_of_Chayula"
+  },
+  "Blue Flames of Chayula": {
+   "zh_hans": "蓝色夏乌拉之焰",
+   "zh_hant": "夏烏拉之藍炎",
+   "page": "Blue_Flames_of_Chayula"
+  },
+  "Small Passives": {
+   "zh_hans": "小型天赋",
+   "zh_hant": "小型天賦",
+   "page": "Small_Passives"
+  },
+  "Valour": {
+   "zh_hans": "胆魄",
+   "zh_hant": "勇氣",
+   "page": "Valour"
+  },
+  "Intimidate": {
+   "zh_hans": "威吓",
+   "zh_hant": "威嚇",
+   "page": "Intimidate"
+  },
+  "Ballista Totems": {
+   "zh_hans": "弩炮图腾",
+   "zh_hant": "砲塔圖騰",
+   "page": "Ballista_Totems"
+  },
+  "Soul Core": {
+   "zh_hans": "灵核",
+   "zh_hant": "靈魂核心",
+   "page": "Soul_Core"
+  },
+  "Abyssal Eye": {
+   "zh_hans": "深渊之眼",
+   "zh_hant": "深淵之眼",
+   "page": "Abyssal_Eye"
+  },
+  "Rune": {
+   "zh_hans": "符文",
+   "zh_hant": "符文",
+   "page": "Rune"
+  },
+  "Idol": {
+   "zh_hans": "雕像",
+   "zh_hant": "魔偶",
+   "page": "Idol"
+  },
+  "Honour": {
+   "zh_hans": "荣誉",
+   "zh_hant": "榮譽",
+   "page": "Honour"
+  },
+  "Lightning Ailments": {
+   "zh_hans": "闪电异常状态",
+   "zh_hant": "閃電異常狀態",
+   "page": "Lightning_Ailments"
+  },
+  "Added Skill Use Time": {
+   "zh_hans": "附加技能使用时间",
+   "zh_hant": "增加技能使用時間",
+   "page": "Added_Skill_Use_Time"
+  },
+  "Covered in Oil": {
+   "zh_hans": "黏油缠身",
+   "zh_hant": "被油纏身",
+   "page": "Covered_in_Oil"
+  },
+  "Oil Ground": {
+   "zh_hans": "黏油地面",
+   "zh_hant": "油滑地面",
+   "page": "Oil_Ground"
+  },
+  "Str": {
+   "zh_hans": "力量",
+   "zh_hant": "力量",
+   "page": "Str"
+  },
+  "Dex": {
+   "zh_hans": "敏捷",
+   "zh_hant": "敏捷",
+   "page": "Dex"
+  },
+  "Int": {
+   "zh_hans": "智慧",
+   "zh_hant": "智慧",
+   "page": "Int"
+  },
+  "Str/Dex": {
+   "zh_hans": "力量/敏捷",
+   "zh_hant": "力量/敏捷",
+   "page": "Str_Dex"
+  },
+  "Str/Int": {
+   "zh_hans": "力量/智慧",
+   "zh_hant": "力量/智慧",
+   "page": "Str_Int"
+  },
+  "Dex/Int": {
+   "zh_hans": "敏捷/智慧",
+   "zh_hant": "敏捷/智慧",
+   "page": "Dex_Int"
+  },
+  "Str/Dex/Int": {
+   "zh_hans": "力量/敏捷/智慧",
+   "zh_hant": "力量/敏捷/智慧",
+   "page": "Str_Dex_Int"
+  },
+  "Two-Hander": {
+   "zh_hans": "双手",
+   "zh_hant": "雙手",
+   "page": "Two-Hander"
+  },
+  "Stat Totals": {
+   "zh_hans": "总属性",
+   "zh_hant": "能力總量",
+   "page": "Stat_Totals"
+  },
+  "Adding to Stat Totals": {
+   "zh_hans": "附加至总属性",
+   "zh_hant": "增添能力總量",
+   "page": "Adding_to_Stat_Totals"
+  },
+  "Charms": {
+   "zh_hans": "咒符",
+   "zh_hant": "護符",
+   "page": "Charms"
+  },
+  "Zealot's Oath": {
+   "zh_hans": "狂热者誓言",
+   "zh_hant": "狂熱者的誓言",
+   "page": "Zealots_Oath"
+  },
+  "Unbound Fury": {
+   "zh_hans": "不羁狂怒",
+   "zh_hant": "無縛之怒",
+   "page": "Unbound_Fury"
+  },
+  "Stat Conversion": {
+   "zh_hans": "属性转化",
+   "zh_hant": "能力轉換",
+   "page": "Stat_Conversion"
+  },
+  "Life Loss": {
+   "zh_hans": "生命损失",
+   "zh_hant": "生命損失",
+   "page": "Life_Loss"
+  },
+  "Gaining Stats from other Stats": {
+   "zh_hans": "获得相当于其他属性的属性",
+   "zh_hant": "從其他能力獲得能力",
+   "page": "Gaining_Stats_from_other_Stats"
+  },
+  "Overflow": {
+   "zh_hans": "溢出",
+   "zh_hant": "溢出",
+   "page": "Overflow"
+  },
+  "Minion Commands": {
+   "zh_hans": "召唤生物命令",
+   "zh_hant": "召喚物號令",
+   "page": "Minion_Commands"
+  },
+  "Difficulty": {
+   "zh_hans": "难度",
+   "zh_hant": "難度",
+   "page": "Difficulty"
+  },
+  "Revival Availability": {
+   "zh_hans": "复活限制",
+   "zh_hant": "可用的復活",
+   "page": "Revival_Availability"
+  },
+  "Map Boss": {
+   "zh_hans": "地图首领",
+   "zh_hant": "地圖頭目",
+   "page": "Map_Boss"
+  },
+  "Powerful Map Boss": {
+   "zh_hans": "强力地图首领",
+   "zh_hant": "強大地圖頭目",
+   "page": "Powerful_Map_Boss"
+  },
+  "Empowerment": {
+   "zh_hans": "强化",
+   "zh_hant": "強化",
+   "page": "Empowerment"
+  },
+  "Waking Nightmare": {
+   "zh_hans": "清醒梦魇",
+   "zh_hant": "清醒夢魘",
+   "page": "Waking_Nightmare"
+  },
+  "Toughness": {
+   "zh_hans": "韧性",
+   "zh_hant": "堅韌",
+   "page": "Toughness"
+  },
+  "Spreading Ailments": {
+   "zh_hans": "扩散异常状态",
+   "zh_hant": "散播異常狀態",
+   "page": "Spreading_Ailments"
+  },
+  "Dance with Death": {
+   "zh_hans": "与亡共舞",
+   "zh_hant": "與死共舞",
+   "page": "Dance_with_Death"
+  },
+  "Damage Contributing to Ailments": {
+   "zh_hans": "伤害作用于异常状态",
+   "zh_hant": "有助於異常狀態的傷害",
+   "page": "Damage_Contributing_to_Ailments"
+  },
+  "Weapon Set Passive Skill Points": {
+   "zh_hans": "武器组天赋点",
+   "zh_hant": "武器套裝天賦點",
+   "page": "Weapon_Set_Passive_Skill_Points"
+  },
+  "Runic Inscriptions": {
+   "zh_hans": "符刻铭文",
+   "zh_hant": "魔符銘文",
+   "page": "Runic_Inscriptions"
+  },
+  "Runic Bindings": {
+   "zh_hans": "符文咒缚",
+   "zh_hant": "符文束縛",
+   "page": "Runic_Bindings"
+  },
+  "Unbound Potential": {
+   "zh_hans": "潜能释放",
+   "zh_hant": "無縛潛能",
+   "page": "Unbound_Potential"
+  },
+  "Offering Skills": {
+   "zh_hans": "奉献技能",
+   "zh_hant": "奉獻技能",
+   "page": "Offering_Skills"
+  },
+  "Payoff Skills": {
+   "zh_hans": "清算技能",
+   "zh_hant": "遣散技能",
+   "page": "Payoff_Skills"
+  },
+  "Grenade Skills": {
+   "zh_hans": "榴弹技能",
+   "zh_hant": "擲彈技能",
+   "page": "Grenade_Skills"
+  },
+  "Stun Recovery": {
+   "zh_hans": "晕眩回复",
+   "zh_hant": "暈眩恢復",
+   "page": "Stun_Recovery"
+  },
+  "Grasping Vines": {
+   "zh_hans": "缓速藤蔓",
+   "zh_hant": "緩速藤蔓",
+   "page": "Grasping_Vines"
+  },
+  "Enraged": {
+   "zh_hans": "狂暴",
+   "zh_hant": "狂怒",
+   "page": "Enraged"
+  },
+  "Volatiles": {
+   "zh_hans": "无常",
+   "zh_hant": "易爆物",
+   "page": "Volatiles"
+  },
+  "Petrify": {
+   "zh_hans": "石化",
+   "zh_hant": "石化",
+   "page": "Petrify"
+  },
+  "Explosive Rhythm": {
+   "zh_hans": "爆破韵律",
+   "zh_hant": "炸裂節奏",
+   "page": "Explosive_Rhythm"
+  },
+  "Explosive Fervour": {
+   "zh_hans": "爆破热忱",
+   "zh_hant": "炸裂狂熱",
+   "page": "Explosive_Fervour"
+  },
+  "Augment": {
+   "zh_hans": "增幅器",
+   "zh_hant": "增幅",
+   "page": "Augment"
+  },
+  "Black Scythe Training": {
+   "zh_hans": "黑镰的训练",
+   "zh_hant": "黑暗血鐮訓練",
+   "page": "Black_Scythe_Training"
+  },
+  "Circular Teachings": {
+   "zh_hans": "循证的训诫",
+   "zh_hant": "循環教義",
+   "page": "Circular_Teachings"
+  },
+  "Knightly Tenets": {
+   "zh_hans": "骑士信条",
+   "zh_hant": "騎士信條",
+   "page": "Knightly_Tenets"
+  },
+  "Sacred Water": {
+   "zh_hans": "圣水",
+   "zh_hant": "神聖之水",
+   "page": "Sacred_Water"
+  },
+  "Boons": {
+   "zh_hans": "恩赐",
+   "zh_hant": "恩惠",
+   "page": "Boons"
+  },
+  "Afflictions": {
+   "zh_hans": "痛苦",
+   "zh_hant": "苦痛",
+   "page": "Afflictions"
+  },
+  "Enfeeble": {
+   "zh_hans": "衰弱",
+   "zh_hant": "衰弱",
+   "page": "Enfeeble"
+  },
+  "Binding Chains": {
+   "zh_hans": "束缚之链",
+   "zh_hant": "束縛連鎖",
+   "page": "Binding_Chains"
+  },
+  "Trial of the Sekhema Keys": {
+   "zh_hans": "丝克玛试炼钥匙",
+   "zh_hant": "絲克瑪試煉鑰匙",
+   "page": "Trial_of_the_Sekhema_Keys"
+  },
+  "Relics": {
+   "zh_hans": "遗物",
+   "zh_hant": "聖物",
+   "page": "Relics"
+  },
+  "Slow Magnitude Modifier": {
+   "zh_hans": "减速强度词缀",
+   "zh_hant": "緩速幅度詞綴",
+   "page": "Slow_Magnitude_Modifier"
+  },
+  "High Infernal Flame": {
+   "zh_hans": "高地狱烈焰",
+   "zh_hant": "高煉獄之炎",
+   "page": "High_Infernal_Flame"
+  },
+  "Purple Flame of Chayula": {
+   "zh_hans": "紫色夏乌拉之焰",
+   "zh_hant": "夏烏拉之紫炎",
+   "page": "Purple_Flame_of_Chayula"
+  },
+  "Skill Speed": {
+   "zh_hans": "技能速度",
+   "zh_hant": "技能速度",
+   "page": "Skill_Speed"
+  },
+  "Wildwood Wisp": {
+   "zh_hans": "荒林鬼灵",
+   "zh_hant": "荒林妖精",
+   "page": "Wildwood_Wisp"
+  },
+  "Close Range": {
+   "zh_hans": "近距离",
+   "zh_hant": "近距離",
+   "page": "Close_Range"
+  },
+  "Unleash": {
+   "zh_hans": "释出",
+   "zh_hant": "釋放",
+   "page": "Unleash"
+  },
+  "Link Skills": {
+   "zh_hans": "羁绊技能",
+   "zh_hant": "連結技能",
+   "page": "Link_Skills"
+  },
+  "Guard": {
+   "zh_hans": "防卫",
+   "zh_hant": "守護",
+   "page": "Guard"
+  },
+  "Delirium": {
+   "zh_hans": "惊悸迷雾",
+   "zh_hant": "譫妄",
+   "page": "Delirium"
+  },
+  "Expedition": {
+   "zh_hans": "先祖秘藏",
+   "zh_hant": "死境探險",
+   "page": "Expedition"
+  },
+  "Verisium Remnant": {
+   "zh_hans": "维金残片",
+   "zh_hant": "維里西姆遺物",
+   "page": "Verisium_Remnant"
+  },
+  "Grand Expedition": {
+   "zh_hans": "宏大先祖秘藏",
+   "zh_hant": "大型探險",
+   "page": "Grand_Expedition"
+  },
+  "Breach": {
+   "zh_hans": "裂隙",
+   "zh_hant": "裂痕",
+   "page": "Breach"
+  },
+  "Ritual": {
+   "zh_hans": "驱灵祭坛",
+   "zh_hant": "祭祀",
+   "page": "Ritual"
+  },
+  "Irradiated": {
+   "zh_hans": "能量辐照",
+   "zh_hant": "照耀",
+   "page": "Irradiated"
+  },
+  "Abyss": {
+   "zh_hans": "深渊",
+   "zh_hant": "深淵",
+   "page": "Abyss"
+  },
+  "Tablets": {
+   "zh_hans": "石板",
+   "zh_hant": "碑牌",
+   "page": "Tablets"
+  },
+  "Waystones": {
+   "zh_hans": "引路石",
+   "zh_hant": "換界石",
+   "page": "Waystones"
+  },
+  "Essence": {
+   "zh_hans": "精华",
+   "zh_hant": "精髓",
+   "page": "Essence"
+  },
+  "Shrine": {
+   "zh_hans": "神龛",
+   "zh_hant": "神殿",
+   "page": "Shrine"
+  },
+  "Strongbox": {
+   "zh_hans": "保险箱",
+   "zh_hant": "保險箱",
+   "page": "Strongbox"
+  },
+  "Precursor Towers": {
+   "zh_hans": "先驱高塔",
+   "zh_hant": "先行者高塔",
+   "page": "Precursor_Towers"
+  },
+  "Fracturing Mirrors": {
+   "zh_hans": "破溃之镜",
+   "zh_hant": "破裂之鏡",
+   "page": "Fracturing_Mirrors"
+  },
+  "Fracturing Mirror Shards": {
+   "zh_hans": "破溃之镜碎片",
+   "zh_hant": "裂鏡碎片",
+   "page": "Fracturing_Mirror_Shards"
+  },
+  "Acrobatics": {
+   "zh_hans": "移形换影",
+   "zh_hant": "移形換影",
+   "page": "Acrobatics"
+  },
+  "Basic Jewel": {
+   "zh_hans": "基本珠宝",
+   "zh_hant": "基礎珠寶",
+   "page": "Basic_Jewel"
+  },
+  "The Realmgate": {
+   "zh_hans": "界域之门",
+   "zh_hant": "界域之門",
+   "page": "The_Realmgate"
+  },
+  "The Reliquary Vault": {
+   "zh_hans": "圣物宝库",
+   "zh_hant": "聖物寶庫",
+   "page": "The_Reliquary_Vault"
+  },
+  "Corruption": {
+   "zh_hans": "腐化",
+   "zh_hant": "腐化",
+   "page": "Corruption"
+  },
+  "Unique Map": {
+   "zh_hans": "传奇地图",
+   "zh_hant": "傳奇地圖",
+   "page": "Unique_Map"
+  },
+  "Hideout": {
+   "zh_hans": "藏身处",
+   "zh_hant": "藏身處",
+   "page": "Hideout"
+  },
+  "Wandering Trader": {
+   "zh_hans": "流浪的商人",
+   "zh_hant": "流浪商人",
+   "page": "Wandering_Trader"
+  },
+  "Citadel": {
+   "zh_hans": "城塞",
+   "zh_hant": "城塞",
+   "page": "Citadel"
+  },
+  "Copper Citadel": {
+   "zh_hans": "古铜城塞",
+   "zh_hant": "青銅城塞",
+   "page": "Copper_Citadel"
+  },
+  "Iron Citadel": {
+   "zh_hans": "钢铁城塞",
+   "zh_hant": "鋼鐵城塞",
+   "page": "Iron_Citadel"
+  },
+  "Stone Citadel": {
+   "zh_hans": "磐石城塞",
+   "zh_hant": "岩石城塞",
+   "page": "Stone_Citadel"
+  },
+  "The Burning Monolith": {
+   "zh_hans": "燃石巨塔",
+   "zh_hant": "燃燒豐碑",
+   "page": "The_Burning_Monolith"
+  },
+  "Map Node": {
+   "zh_hans": "地图节点",
+   "zh_hant": "地圖節點",
+   "page": "Map_Node"
+  },
+  "Cooldown Recovery Rate": {
+   "zh_hans": "冷却回复速度",
+   "zh_hant": "冷卻時間恢復率",
+   "page": "Cooldown_Recovery_Rate"
+  },
+  "Jewels": {
+   "zh_hans": "珠宝",
+   "zh_hant": "珠寶",
+   "page": "Jewels"
+  },
+  "Iron Grip": {
+   "zh_hans": "钢铁之握",
+   "zh_hant": "堅鐵之力",
+   "page": "Iron_Grip"
+  },
+  "Iron Will": {
+   "zh_hans": "钢铁意志",
+   "zh_hant": "鋼鐵意志",
+   "page": "Iron_Will"
+  },
+  "Soul Eater": {
+   "zh_hans": "噬魂者",
+   "zh_hant": "噬魂者",
+   "page": "Soul_Eater"
+  },
+  "Eaten Souls": {
+   "zh_hans": "被吞噬的灵魂",
+   "zh_hant": "吞噬之魂",
+   "page": "Eaten_Souls"
+  },
+  "Leech": {
+   "zh_hans": "偷取",
+   "zh_hant": "偷取",
+   "page": "Leech"
+  },
+  "Historic Jewels": {
+   "zh_hans": "久远珠宝",
+   "zh_hant": "歷史珠寶",
+   "page": "Historic_Jewels"
+  },
+  "Catalysts": {
+   "zh_hans": "催化剂",
+   "zh_hant": "催化劑",
+   "page": "Catalysts"
+  },
+  "Omens": {
+   "zh_hans": "预兆",
+   "zh_hant": "預兆",
+   "page": "Omens"
+  },
+  "An Audience With The King": {
+   "zh_hans": "谒王之约",
+   "zh_hant": "覲見國王",
+   "page": "An_Audience_With_The_King"
+  },
+  "Liquid Emotions": {
+   "zh_hans": "液化情感",
+   "zh_hant": "液態情感",
+   "page": "Liquid_Emotions"
+  },
+  "Ancient Liquid Emotions": {
+   "zh_hans": "远古液化情感",
+   "zh_hant": "遠古液態情感",
+   "page": "Ancient_Liquid_Emotions"
+  },
+  "Corrupted Items": {
+   "zh_hans": "腐化物品",
+   "zh_hant": "已汙染物品",
+   "page": "Corrupted_Items"
+  },
+  "Mirrored Items": {
+   "zh_hans": "复制物品",
+   "zh_hant": "複製物品",
+   "page": "Mirrored_Items"
+  },
+  "Hexproof": {
+   "zh_hans": "诅咒免疫",
+   "zh_hant": "無咒的",
+   "page": "Hexproof"
+  },
+  "Runic Monsters": {
+   "zh_hans": "符文怪物",
+   "zh_hant": "符文怪物",
+   "page": "Runic_Monsters"
+  },
+  "Coalesced Corruption": {
+   "zh_hans": "凝聚腐化",
+   "zh_hant": "腐化融合體",
+   "page": "Coalesced_Corruption"
+  },
+  "Perfect Timing": {
+   "zh_hans": "完美时机",
+   "zh_hant": "完美時機",
+   "page": "Perfect_Timing"
+  },
+  "Limit": {
+   "zh_hans": "上限",
+   "zh_hant": "上限",
+   "page": "Limit"
+  },
+  "Monster Soul Eater": {
+   "zh_hans": "怪物噬魂者",
+   "zh_hant": "怪物噬魂者",
+   "page": "Monster_Soul_Eater"
+  },
+  "Remnants": {
+   "zh_hans": "残片",
+   "zh_hant": "痕跡",
+   "page": "Remnants"
+  },
+  "Ascendancy Points": {
+   "zh_hans": "升华点数",
+   "zh_hant": "昇華天賦點數",
+   "page": "Ascendancy_Points"
+  },
+  "Honour Resistance": {
+   "zh_hans": "荣誉抗性",
+   "zh_hant": "榮譽抗性",
+   "page": "Honour_Resistance"
+  },
+  "Stage-Gaining Skills": {
+   "zh_hans": "层数叠加技能",
+   "zh_hant": "獲得疊層的技能",
+   "page": "Stage-Gaining_Skills"
+  },
+  "Primed for Pin": {
+   "zh_hans": "可被定身",
+   "zh_hant": "可釘身",
+   "page": "Primed_for_Pin"
+  },
+  "Elemental Surges": {
+   "zh_hans": "元素涌动",
+   "zh_hant": "元素波動",
+   "page": "Elemental_Surges"
+  },
+  "Chaos Surge": {
+   "zh_hans": "混沌涌动",
+   "zh_hant": "混沌波動",
+   "page": "Chaos_Surge"
+  },
+  "Banner Skills": {
+   "zh_hans": "旗帜技能",
+   "zh_hant": "鬥旗技能",
+   "page": "Banner_Skills"
+  },
+  "Conditional Usage": {
+   "zh_hans": "条件性使用",
+   "zh_hant": "條件使用",
+   "page": "Conditional_Usage"
+  },
+  "Whirlwinds": {
+   "zh_hans": "旋风",
+   "zh_hant": "旋風",
+   "page": "Whirlwinds"
+  },
+  "Volatility": {
+   "zh_hans": "无常",
+   "zh_hant": "易爆",
+   "page": "Volatility"
+  },
+  "Bloodstained": {
+   "zh_hans": "血痕",
+   "zh_hant": "血漬",
+   "page": "Bloodstained"
+  },
+  "Revealing Weaknesses": {
+   "zh_hans": "揭示弱点",
+   "zh_hant": "暴露弱點",
+   "page": "Revealing_Weaknesses"
+  },
+  "Affinity": {
+   "zh_hans": "亲和",
+   "zh_hant": "親和",
+   "page": "Affinity"
+  },
+  "Incision": {
+   "zh_hans": "创口",
+   "zh_hant": "切割",
+   "page": "Incision"
+  },
+  "Retaliate with Thorns": {
+   "zh_hans": "用荆棘进行反击",
+   "zh_hant": "荊棘反擊",
+   "page": "Retaliate_with_Thorns"
+  },
+  "Companions": {
+   "zh_hans": "伙伴",
+   "zh_hant": "盟友",
+   "page": "Companions"
+  },
+  "Monster Category": {
+   "zh_hans": "怪物类型",
+   "zh_hant": "怪物類別",
+   "page": "Monster_Category"
+  },
+  "Hobble": {
+   "zh_hans": "跛行",
+   "zh_hant": "跛行",
+   "page": "Hobble"
+  },
+  "Hazards": {
+   "zh_hans": "危害",
+   "zh_hant": "危險",
+   "page": "Hazards"
+  },
+  "Unholy Might": {
+   "zh_hans": "不洁之力",
+   "zh_hant": "不潔之力",
+   "page": "Unholy_Might"
+  },
+  "Impale": {
+   "zh_hans": "穿刺",
+   "zh_hant": "穿刺",
+   "page": "Impale"
+  },
+  "Blood Loss": {
+   "zh_hans": "失血",
+   "zh_hant": "失血",
+   "page": "Blood_Loss"
+  },
+  "Perfection Buff": {
+   "zh_hans": "完美增益状态",
+   "zh_hant": "完美增益效果",
+   "page": "Perfection_Buff"
+  },
+  "Killing Blow": {
+   "zh_hans": "最后一击",
+   "zh_hant": "最後一擊",
+   "page": "Killing_Blow"
+  },
+  "Bifurcated Critical Hits": {
+   "zh_hans": "分叉暴击",
+   "zh_hant": "分岔暴擊",
+   "page": "Bifurcated_Critical_Hits"
+  },
+  "Pre-mitigation Damage": {
+   "zh_hans": "减免前伤害",
+   "zh_hant": "減免前傷害",
+   "page": "Pre-mitigation_Damage"
+  },
+  "Easy Target": {
+   "zh_hans": "活靶子",
+   "zh_hant": "易攻目標",
+   "page": "Easy_Target"
+  },
+  "Expected Knockback": {
+   "zh_hans": "预期击退",
+   "zh_hant": "預期擊退",
+   "page": "Expected_Knockback"
+  },
+  "Rogue Exile": {
+   "zh_hans": "盗贼流放者",
+   "zh_hant": "盜賊流亡者",
+   "page": "Rogue_Exile"
+  },
+  "Azmeri Spirit": {
+   "zh_hans": "阿兹莫里之灵",
+   "zh_hant": "阿茲莫里魂靈",
+   "page": "Azmeri_Spirit"
+  },
+  "Possessed": {
+   "zh_hans": "附身",
+   "zh_hant": "附身",
+   "page": "Possessed"
+  },
+  "Spirit-Influenced": {
+   "zh_hans": "鬼灵影响",
+   "zh_hant": "魂靈掌控",
+   "page": "Spirit-Influenced"
+  },
+  "Extra Content": {
+   "zh_hans": "额外内容",
+   "zh_hant": "額外內容",
+   "page": "Extra_Content"
+  },
+  "Seeking Shrine": {
+   "zh_hans": "寻觅神龛",
+   "zh_hant": "追尋神殿",
+   "page": "Seeking_Shrine"
+  },
+  "Enlightening Shrine": {
+   "zh_hans": "启迪神龛",
+   "zh_hant": "啟蒙神殿",
+   "page": "Enlightening_Shrine"
+  },
+  "Gloom Shrine": {
+   "zh_hans": "隐忍神龛",
+   "zh_hant": "漆黑神殿",
+   "page": "Gloom_Shrine"
+  },
+  "Greed Shrine": {
+   "zh_hans": "贪婪神龛",
+   "zh_hant": "貪婪神殿",
+   "page": "Greed_Shrine"
+  },
+  "Cartographer's Strongbox": {
+   "zh_hans": "制图师的保险箱",
+   "zh_hant": "製圖師的保險箱",
+   "page": "Cartographers_Strongbox"
+  },
+  "Researcher's Strongbox": {
+   "zh_hans": "研究员的保险箱",
+   "zh_hant": "研究者的保險箱",
+   "page": "Researchers_Strongbox"
+  },
+  "Ornate Strongbox": {
+   "zh_hans": "华丽的保险箱",
+   "zh_hant": "華麗的保險箱",
+   "page": "Ornate_Strongbox"
+  },
+  "Basic Strongbox": {
+   "zh_hans": "基础保险箱",
+   "zh_hant": "基礎保險箱",
+   "page": "Basic_Strongbox"
+  },
+  "Effective Chance": {
+   "zh_hans": "实际几率",
+   "zh_hant": "有效機率",
+   "page": "Effective_Chance"
+  },
+  "Crimson Assault": {
+   "zh_hans": "猩红强袭",
+   "zh_hant": "緋紅突擊",
+   "page": "Crimson_Assault"
+  },
+  "Equipped": {
+   "zh_hans": "已装备",
+   "zh_hant": "已裝備",
+   "page": "Equipped"
+  },
+  "Jewellery": {
+   "zh_hans": "饰品",
+   "zh_hant": "飾品",
+   "page": "Jewellery"
+  },
+  "Equipment": {
+   "zh_hans": "装备",
+   "zh_hant": "裝備",
+   "page": "Equipment"
+  },
+  "Only Minimum or Maximum Damage": {
+   "zh_hans": "仅最小或最大伤害",
+   "zh_hant": "只有最低或最高傷害",
+   "page": "Only_Minimum_or_Maximum_Damage"
+  },
+  "Trusted Kinship": {
+   "zh_hans": "情比金坚",
+   "zh_hant": "可信之情",
+   "page": "Trusted_Kinship"
+  },
+  "Damage Absorption": {
+   "zh_hans": "伤害吸收",
+   "zh_hant": "傷害吸收",
+   "page": "Damage_Absorption"
+  },
+  "Parry": {
+   "zh_hans": "招架",
+   "zh_hant": "招架",
+   "page": "Parry"
+  },
+  "Parried": {
+   "zh_hans": "被招架",
+   "zh_hant": "受招架",
+   "page": "Parried"
+  },
+  "Everlasting Sacrifice": {
+   "zh_hans": "永恒献祭",
+   "zh_hant": "永恆奉獻",
+   "page": "Everlasting_Sacrifice"
+  },
+  "Aggravating any Bleeding": {
+   "zh_hans": "使流血变为恶性",
+   "zh_hant": "加劇任何流血",
+   "page": "Aggravating_any_Bleeding"
+  },
+  "Detonation Time": {
+   "zh_hans": "引爆时间",
+   "zh_hant": "引爆時間",
+   "page": "Detonation_Time"
+  },
+  "Waystone Tier Progression": {
+   "zh_hans": "引路石进阶",
+   "zh_hant": "換界石階級進度",
+   "page": "Waystone_Tier_Progression"
+  },
+  "Map Objective Waystone Drops": {
+   "zh_hans": "地图目标引路石掉落",
+   "zh_hant": "地圖目標所掉落的換界石",
+   "page": "Map_Objective_Waystone_Drops"
+  },
+  "Corrupted Nexus": {
+   "zh_hans": "腐化枢纽",
+   "zh_hant": "腐化聖域",
+   "page": "Corrupted_Nexus"
+  },
+  "Corrupted Boss": {
+   "zh_hans": "腐化首领",
+   "zh_hant": "腐化頭目",
+   "page": "Corrupted_Boss"
+  },
+  "Retaliate against all Hits": {
+   "zh_hans": "反击所有击中",
+   "zh_hant": "對所有擊中給予反擊",
+   "page": "Retaliate_against_all_Hits"
+  },
+  "Take Mana Costs as Damage": {
+   "zh_hans": "受到魔力消耗的伤害",
+   "zh_hant": "承受相當於魔力消耗的傷害",
+   "page": "Take_Mana_Costs_as_Damage"
+  },
+  "Upfront Costs": {
+   "zh_hans": "预支花费",
+   "zh_hant": "前期消耗",
+   "page": "Upfront_Costs"
+  },
+  "Account Bound": {
+   "zh_hans": "账户绑定",
+   "zh_hant": "帳號綁定",
+   "page": "Account_Bound"
+  },
+  "Essence of Delirium": {
+   "zh_hans": "谵妄精华",
+   "zh_hant": "譫妄精髓",
+   "page": "Essence_of_Delirium"
+  },
+  "Cleansed": {
+   "zh_hans": "已净化",
+   "zh_hant": "已淨化",
+   "page": "Cleansed"
+  },
+  "Delirious Players": {
+   "zh_hans": "亢奋玩家",
+   "zh_hant": "譫妄的玩家",
+   "page": "Delirious_Players"
+  },
+  "Chances in excess of 100%": {
+   "zh_hans": "超过 100% 的几率",
+   "zh_hant": "機率高於 100%",
+   "page": "Chances_in_excess_of_100%25"
+  },
+  "Spirit Of The Owl": {
+   "zh_hans": "枭之灵",
+   "zh_hant": "貓頭鷹之魂",
+   "page": "Spirit_Of_The_Owl"
+  },
+  "Spirit Of The Serpent": {
+   "zh_hans": "蛇之灵",
+   "zh_hant": "蝮蛇之魂",
+   "page": "Spirit_Of_The_Serpent"
+  },
+  "Spirit Of The Primate": {
+   "zh_hans": "狂猿之灵",
+   "zh_hant": "猿猴之魂",
+   "page": "Spirit_Of_The_Primate"
+  },
+  "Spirit Of The Bear": {
+   "zh_hans": "巨熊之灵",
+   "zh_hant": "巨熊之魂",
+   "page": "Spirit_Of_The_Bear"
+  },
+  "Spirit Of The Boar": {
+   "zh_hans": "野猪之灵",
+   "zh_hant": "野豬之魂",
+   "page": "Spirit_Of_The_Boar"
+  },
+  "Spirit Of The Ox": {
+   "zh_hans": "蛮牛之灵",
+   "zh_hant": "公牛之魂",
+   "page": "Spirit_Of_The_Ox"
+  },
+  "Spirit Of The Wolf": {
+   "zh_hans": "头狼之灵",
+   "zh_hant": "孤狼之魂",
+   "page": "Spirit_Of_The_Wolf"
+  },
+  "Spirit Of The Stag": {
+   "zh_hans": "雄鹿之灵",
+   "zh_hant": "公鹿之魂",
+   "page": "Spirit_Of_The_Stag"
+  },
+  "Spirit Of The Cat": {
+   "zh_hans": "豹之灵",
+   "zh_hant": "靈貓之魂",
+   "page": "Spirit_Of_The_Cat"
+  },
+  "Vulnerability": {
+   "zh_hans": "脆弱",
+   "zh_hant": "脆弱",
+   "page": "Vulnerability"
+  },
+  "Despair": {
+   "zh_hans": "绝望",
+   "zh_hant": "絕望",
+   "page": "Despair"
+  },
+  "Temporal Chains": {
+   "zh_hans": "时空锁链",
+   "zh_hant": "時空鎖鏈",
+   "page": "Temporal_Chains"
+  },
+  "Resisted by Other Value": {
+   "zh_hans": "被其他数值抵抗",
+   "zh_hant": "受其他數值抵抗",
+   "page": "Resisted_by_Other_Value"
+  },
+  "Glory": {
+   "zh_hans": "荣耀",
+   "zh_hant": "榮耀",
+   "page": "Glory"
+  },
+  "Mounting Greed": {
+   "zh_hans": "贪婪积聚",
+   "zh_hant": "貪婪加劇",
+   "page": "Mounting_Greed"
+  },
+  "Obelisk of Corruption": {
+   "zh_hans": "腐化尖碑",
+   "zh_hant": "腐化石碑",
+   "page": "Obelisk_of_Corruption"
+  },
+  "Obelisk of Cleansing": {
+   "zh_hans": "净化尖碑",
+   "zh_hant": "淨化石碑",
+   "page": "Obelisk_of_Cleansing"
+  },
+  "Immured Fury": {
+   "zh_hans": "禁锢之怒",
+   "zh_hant": "禁錮之怒",
+   "page": "Immured_Fury"
+  },
+  "Fractured Modifiers": {
+   "zh_hans": "分裂词缀",
+   "zh_hant": "破裂詞綴",
+   "page": "Fractured_Modifiers"
+  },
+  "Weapon Sets": {
+   "zh_hans": "武器组",
+   "zh_hant": "武器套裝",
+   "page": "Weapon_Sets"
+  },
+  "Additional Projectiles": {
+   "zh_hans": "额外投射物",
+   "zh_hant": "額外投射物",
+   "page": "Additional_Projectiles"
+  },
+  "Increased Area of Effect": {
+   "zh_hans": "效果区域扩大",
+   "zh_hant": "增加範圍效果",
+   "page": "Increased_Area_of_Effect"
+  },
+  "Breaks Armour": {
+   "zh_hans": "粉碎护甲",
+   "zh_hant": "破壞護甲值",
+   "page": "Breaks_Armour"
+  },
+  "Bombardier": {
+   "zh_hans": "投弹手",
+   "zh_hant": "投彈手",
+   "page": "Bombardier"
+  },
+  "Chaos Resistant": {
+   "zh_hans": "混沌抗性",
+   "zh_hant": "混沌抵抗",
+   "page": "Chaos_Resistant"
+  },
+  "Cold Resistant": {
+   "zh_hans": "冰霜抗性",
+   "zh_hant": "冰冷抵抗",
+   "page": "Cold_Resistant"
+  },
+  "Extra Crits": {
+   "zh_hans": "额外暴击",
+   "zh_hant": "額外暴擊",
+   "page": "Extra_Crits"
+  },
+  "Extra Chaos Damage": {
+   "zh_hans": "额外混沌伤害",
+   "zh_hant": "額外混沌傷害",
+   "page": "Extra_Chaos_Damage"
+  },
+  "Extra Cold Damage": {
+   "zh_hans": "额外冰霜伤害",
+   "zh_hant": "額外冰冷傷害",
+   "page": "Extra_Cold_Damage"
+  },
+  "Extra Fire Damage": {
+   "zh_hans": "额外火焰伤害",
+   "zh_hant": "額外火焰傷害",
+   "page": "Extra_Fire_Damage"
+  },
+  "Extra Lightning Damage": {
+   "zh_hans": "额外闪电伤害",
+   "zh_hant": "額外閃電傷害",
+   "page": "Extra_Lightning_Damage"
+  },
+  "Energy Shield Aura": {
+   "zh_hans": "能量护盾光环",
+   "zh_hant": "能量護盾光環",
+   "page": "Energy_Shield_Aura"
+  },
+  "Armoured": {
+   "zh_hans": "重甲",
+   "zh_hant": "裝甲的",
+   "page": "Armoured"
+  },
+  "Extra Energy Shield": {
+   "zh_hans": "额外能量护盾",
+   "zh_hant": "額外能量護盾",
+   "page": "Extra_Energy_Shield"
+  },
+  "Evasive": {
+   "zh_hans": "闪避",
+   "zh_hant": "閃避的",
+   "page": "Evasive"
+  },
+  "Fire Resistant": {
+   "zh_hans": "火焰抗性",
+   "zh_hant": "火焰抵抗",
+   "page": "Fire_Resistant"
+  },
+  "Conjures Flamewalls": {
+   "zh_hans": "召唤烈焰之墙",
+   "zh_hant": "召喚烈焰之牆",
+   "page": "Conjures_Flamewalls"
+  },
+  "Siphons Flask Charges": {
+   "zh_hans": "抽取药剂充能",
+   "zh_hant": "吸取藥劑充能",
+   "page": "Siphons_Flask_Charges"
+  },
+  "Conjures Ice Prisons": {
+   "zh_hans": "召唤冰牢",
+   "zh_hant": "召喚冰牢",
+   "page": "Conjures_Ice_Prisons"
+  },
+  "Heals Allies and Suppresses Foe Recovery": {
+   "zh_hans": "治疗友军并压制敌方回复",
+   "zh_hant": "治癒友方和壓抑敵人恢復",
+   "page": "Heals_Allies_and_Suppresses_Foe_Recovery"
+  },
+  "Hinder Aura": {
+   "zh_hans": "缓速光环",
+   "zh_hant": "阻礙光環",
+   "page": "Hinder_Aura"
+  },
+  "Periodic Invulnerability Aura": {
+   "zh_hans": "周期性无敌光环",
+   "zh_hant": "定期無敵光環",
+   "page": "Periodic_Invulnerability_Aura"
+  },
+  "Empowered Periodic Invulnerability Aura": {
+   "zh_hans": "强化周期性无敌光环",
+   "zh_hant": "強化定期無敵光環",
+   "page": "Empowered_Periodic_Invulnerability_Aura"
+  },
+  "Increased Life": {
+   "zh_hans": "生命提高",
+   "zh_hant": "增加生命",
+   "page": "Increased_Life"
+  },
+  "Slow Resistant": {
+   "zh_hans": "减速抗性",
+   "zh_hant": "緩速抵抗",
+   "page": "Slow_Resistant"
+  },
+  "Increased Stun Threshold": {
+   "zh_hans": "提高晕眩阈值",
+   "zh_hant": "暈眩門檻增加",
+   "page": "Increased_Stun_Threshold"
+  },
+  "Accurate": {
+   "zh_hans": "精准",
+   "zh_hant": "命中",
+   "page": "Accurate"
+  },
+  "Hasted": {
+   "zh_hans": "迅捷",
+   "zh_hant": "迅捷",
+   "page": "Hasted"
+  },
+  "Haste Aura": {
+   "zh_hans": "迅捷光环",
+   "zh_hant": "迅捷光環",
+   "page": "Haste_Aura"
+  },
+  "Regenerates Life": {
+   "zh_hans": "生命再生",
+   "zh_hant": "回復生命",
+   "page": "Regenerates_Life"
+  },
+  "Lightning Mirage When Hit": {
+   "zh_hans": "被击中时施放闪电幻象",
+   "zh_hant": "被擊中時閃電幻影",
+   "page": "Lightning_Mirage_When_Hit"
+  },
+  "Lightning Mirages When Hit": {
+   "zh_hans": "被击中时施放多个闪电幻象",
+   "zh_hant": "被擊中時閃電幻影",
+   "page": "Lightning_Mirages_When_Hit"
+  },
+  "Lightning Resistant": {
+   "zh_hans": "闪电抗性",
+   "zh_hant": "閃電抵抗",
+   "page": "Lightning_Resistant"
+  },
+  "Volatile Crystals": {
+   "zh_hans": "无常水晶",
+   "zh_hant": "易爆水晶",
+   "page": "Volatile_Crystals"
+  },
+  "Magma Barrier": {
+   "zh_hans": "岩浆屏障",
+   "zh_hant": "熔岩屏障",
+   "page": "Magma_Barrier"
+  },
+  "Siphons Mana and Deals Lightning Damage": {
+   "zh_hans": "抽取魔力并造成闪电伤害",
+   "zh_hant": "吸取魔力和造成閃電傷害",
+   "page": "Siphons_Mana_and_Deals_Lightning_Damage"
+  },
+  "Damage Taken From Minions First": {
+   "zh_hans": "怪物仆从优先承受伤害",
+   "zh_hant": "召喚物優先承受傷害",
+   "page": "Damage_Taken_From_Minions_First"
+  },
+  "Empowered": {
+   "zh_hans": "强化",
+   "zh_hant": "強化的",
+   "page": "Empowered"
+  },
+  "Crit Resistant": {
+   "zh_hans": "暴击抗性",
+   "zh_hant": "暴擊抵抗",
+   "page": "Crit_Resistant"
+  },
+  "Periodically Enrages": {
+   "zh_hans": "周期性狂暴",
+   "zh_hant": "持續激怒",
+   "page": "Periodically_Enrages"
+  },
+  "Extra Physical Damage Aura": {
+   "zh_hans": "额外物理伤害光环",
+   "zh_hant": "額外物理傷害光環",
+   "page": "Extra_Physical_Damage_Aura"
+  },
+  "Prevents Recovery Above 50%": {
+   "zh_hans": "不能恢复超过 50%",
+   "zh_hant": "防止恢復超過 50%",
+   "page": "Prevents_Recovery_Above_50%25"
+  },
+  "Proximal Tangibility": {
+   "zh_hans": "近距实体",
+   "zh_hant": "近接感觸",
+   "page": "Proximal_Tangibility"
+  },
+  "Elemental Resistance Aura": {
+   "zh_hans": "元素抗性光环",
+   "zh_hant": "元素抗性光環",
+   "page": "Elemental_Resistance_Aura"
+  },
+  "Empowered Reviving Minions": {
+   "zh_hans": "强化复活怪物仆从",
+   "zh_hant": "強化復甦召喚物",
+   "page": "Empowered_Reviving_Minions"
+  },
+  "Trail of Lightning": {
+   "zh_hans": "闪电之路",
+   "zh_hant": "電痕",
+   "page": "Trail_of_Lightning"
+  },
+  "Shroud Walker": {
+   "zh_hans": "迷雾之体",
+   "zh_hant": "迷霧之體",
+   "page": "Shroud_Walker"
+  },
+  "Powerful Minions": {
+   "zh_hans": "强力怪物仆从",
+   "zh_hant": "強大召喚物",
+   "page": "Powerful_Minions"
+  },
+  "Stuns": {
+   "zh_hans": "晕眩",
+   "zh_hant": "暈眩",
+   "page": "Stuns"
+  },
+  "Stun Resistant": {
+   "zh_hans": "晕眩抗性",
+   "zh_hant": "暈眩抵抗",
+   "page": "Stun_Resistant"
+  },
+  "Temporal Bubble": {
+   "zh_hans": "时空泡泡",
+   "zh_hant": "緩行之域",
+   "page": "Temporal_Bubble"
+  },
+  "Volatile Plants": {
+   "zh_hans": "无常植物",
+   "zh_hant": "易爆植物",
+   "page": "Volatile_Plants"
+  },
+  "Empowering Volatile Plants": {
+   "zh_hans": "强化无常植物",
+   "zh_hant": "強化易爆植物",
+   "page": "Empowering_Volatile_Plants"
+  },
+  "Volatile Crag": {
+   "zh_hans": "无常碎岩",
+   "zh_hant": "易爆燃彈",
+   "page": "Volatile_Crag"
+  },
+  "Empowering Volatile Crag": {
+   "zh_hans": "强化无常碎岩",
+   "zh_hant": "強化易爆燃彈",
+   "page": "Empowering_Volatile_Crag"
+  },
+  "Pack": {
+   "zh_hans": "群落",
+   "zh_hant": "怪物群",
+   "page": "Pack"
+  },
+  "Crescendo Arrows": {
+   "zh_hans": "渐强箭",
+   "zh_hant": "強鳴箭",
+   "page": "Crescendo_Arrows"
+  },
+  "Splinter Arrows": {
+   "zh_hans": "裂片箭",
+   "zh_hant": "斷片箭",
+   "page": "Splinter_Arrows"
+  },
+  "Reversing Arrows": {
+   "zh_hans": "回转箭",
+   "zh_hant": "迴轉箭",
+   "page": "Reversing_Arrows"
+  },
+  "Diamond Arrows": {
+   "zh_hans": "金刚箭",
+   "zh_hant": "鑽石箭",
+   "page": "Diamond_Arrows"
+  },
+  "Covetous Arrows": {
+   "zh_hans": "贪婪箭",
+   "zh_hant": "貪婪箭",
+   "page": "Covetous_Arrows"
+  },
+  "Blunt Arrows": {
+   "zh_hans": "钝击箭",
+   "zh_hant": "重擊箭",
+   "page": "Blunt_Arrows"
+  },
+  "Repeating Skills": {
+   "zh_hans": "重复技能",
+   "zh_hant": "重複技能",
+   "page": "Repeating_Skills"
+  },
+  "Guided Meteoric Shrine": {
+   "zh_hans": "导引陨星神龛",
+   "zh_hant": "引導隕石神殿",
+   "page": "Guided_Meteoric_Shrine"
+  },
+  "Guided Tempest Shrine": {
+   "zh_hans": "导引风暴神龛",
+   "zh_hant": "引導暴風神殿",
+   "page": "Guided_Tempest_Shrine"
+  },
+  "Guided Freezing Shrine": {
+   "zh_hans": "导引霜寒神龛",
+   "zh_hant": "引導霜寒神殿",
+   "page": "Guided_Freezing_Shrine"
+  },
+  "Dreaming Gloom Shrine": {
+   "zh_hans": "梦想隐忍神龛",
+   "zh_hant": "夢境漆黑神殿",
+   "page": "Dreaming_Gloom_Shrine"
+  },
+  "Abyssal Wasting": {
+   "zh_hans": "深渊耗散",
+   "zh_hant": "深淵耗損",
+   "page": "Abyssal_Wasting"
+  },
+  "Ancient Augment": {
+   "zh_hans": "远古增幅器",
+   "zh_hant": "遠古增幅",
+   "page": "Ancient_Augment"
+  },
+  "Equippable Armours": {
+   "zh_hans": "可装备护甲",
+   "zh_hant": "可裝備護甲",
+   "page": "Equippable_Armours"
+  },
+  "Caster Weapons": {
+   "zh_hans": "施法武器",
+   "zh_hant": "法術武器",
+   "page": "Caster_Weapons"
+  },
+  "Spectral Fire": {
+   "zh_hans": "灵体火焰",
+   "zh_hant": "靈體火焰",
+   "page": "Spectral_Fire"
+  },
+  "Sanctified Items": {
+   "zh_hans": "圣化物品",
+   "zh_hant": "聖化物品",
+   "page": "Sanctified_Items"
+  },
+  "Efficiency": {
+   "zh_hans": "效能",
+   "zh_hant": "效用",
+   "page": "Efficiency"
+  },
+  "Blackflame Covenant": {
+   "zh_hans": "黑焰血誓",
+   "zh_hant": "黯炎盟約",
+   "page": "Blackflame_Covenant"
+  },
+  "Ritual Cadence": {
+   "zh_hans": "仪式节律",
+   "zh_hant": "祭祀終章",
+   "page": "Ritual_Cadence"
+  },
+  "Elemental Weakness": {
+   "zh_hans": "元素要害",
+   "zh_hant": "元素要害",
+   "page": "Elemental_Weakness"
+  },
+  "Debilitate": {
+   "zh_hans": "疲惫",
+   "zh_hant": "虛弱",
+   "page": "Debilitate"
+  },
+  "Support Gem Categories": {
+   "zh_hans": "辅助宝石类别",
+   "zh_hant": "輔助寶石類別",
+   "page": "Support_Gem_Categories"
+  },
+  "Minimum Modifier Level": {
+   "zh_hans": "最低词缀等级",
+   "zh_hant": "最小詞綴等級",
+   "page": "Minimum_Modifier_Level"
+  },
+  "Maximum Item Level": {
+   "zh_hans": "最大物品等级",
+   "zh_hant": "最大物品等級",
+   "page": "Maximum_Item_Level"
+  },
+  "Heat": {
+   "zh_hans": "过热",
+   "zh_hant": "熱能",
+   "page": "Heat"
+  },
+  "Elemental Infusions": {
+   "zh_hans": "元素灌注",
+   "zh_hant": "元素灌注",
+   "page": "Elemental_Infusions"
+  },
+  "Desecrated Modifiers": {
+   "zh_hans": "渎灵词缀",
+   "zh_hant": "褻瀆詞綴",
+   "page": "Desecrated_Modifiers"
+  },
+  "Unstable Desecration": {
+   "zh_hans": "不稳定的渎灵",
+   "zh_hant": "不穩定的褻瀆",
+   "page": "Unstable_Desecration"
+  },
+  "Abyssal Modifiers": {
+   "zh_hans": "深渊词缀",
+   "zh_hant": "深淵詞綴",
+   "page": "Abyssal_Modifiers"
+  },
+  "Abyssal Depths": {
+   "zh_hans": "绝望深渊",
+   "zh_hant": "無盡深淵",
+   "page": "Abyssal_Depths"
+  },
+  "Marked for Death": {
+   "zh_hans": "死亡印记",
+   "zh_hant": "死亡印記",
+   "page": "Marked_for_Death"
+  },
+  "Lineage Supports": {
+   "zh_hans": "血脉辅助",
+   "zh_hant": "族裔輔助",
+   "page": "Lineage_Supports"
+  },
+  "Naturally Spawning Monsters": {
+   "zh_hans": "源生怪物",
+   "zh_hant": "自然生成的怪物",
+   "page": "Naturally_Spawning_Monsters"
+  },
+  "[DNT-UNUSED] Edict Declaration": {
+   "zh_hans": "敕令宣告",
+   "zh_hant": "戒律聲明",
+   "page": "DNT-UNUSED_Edict_Declaration"
+  },
+  "Gruelling Madness": {
+   "zh_hans": "苦痛狂乱",
+   "zh_hant": "殘忍瘋狂",
+   "page": "Gruelling_Madness"
+  },
+  "Faerie Fire": {
+   "zh_hans": "仙灵之火",
+   "zh_hant": "仙靈之火",
+   "page": "Faerie_Fire"
+  },
+  "Runefather's Challenge": {
+   "zh_hans": "符文之父的挑战",
+   "zh_hant": "符文之父的挑戰",
+   "page": "Runefathers_Challenge"
+  },
+  "Runefather's Boast": {
+   "zh_hans": "符文之父加持",
+   "zh_hant": "符文之父的自誇",
+   "page": "Runefathers_Boast"
+  },
+  "Union of Souls": {
+   "zh_hans": "聚魂",
+   "zh_hant": "聚魂",
+   "page": "Union_of_Souls"
+  },
+  "Thaumaturgical Dynamism": {
+   "zh_hans": "奇术活力",
+   "zh_hant": "奇術活力",
+   "page": "Thaumaturgical_Dynamism"
+  },
+  "Armour Movement Penalties": {
+   "zh_hans": "护甲移动惩罚",
+   "zh_hant": "護甲移動懲罰",
+   "page": "Armour_Movement_Penalties"
+  },
+  "Merging": {
+   "zh_hans": "融合",
+   "zh_hant": "融合",
+   "page": "Merging"
+  },
+  "Pacification": {
+   "zh_hans": "宁心",
+   "zh_hant": "平靜",
+   "page": "Pacification"
+  },
+  "Archon Buff": {
+   "zh_hans": "执政官增益状态",
+   "zh_hant": "統治者增益效果",
+   "page": "Archon_Buff"
+  },
+  "Ice Archon": {
+   "zh_hans": "冰霜执政官",
+   "zh_hant": "寒冰統治者",
+   "page": "Ice_Archon"
+  },
+  "Flame Archon": {
+   "zh_hans": "火焰执政官",
+   "zh_hant": "火焰統治者",
+   "page": "Flame_Archon"
+  },
+  "Lightning Archon": {
+   "zh_hans": "闪电执政官",
+   "zh_hant": "閃電統治者",
+   "page": "Lightning_Archon"
+  },
+  "Elemental Archon": {
+   "zh_hans": "元素执政官",
+   "zh_hant": "元素統治者",
+   "page": "Elemental_Archon"
+  },
+  "Nature's Archon": {
+   "zh_hans": "自然执政官",
+   "zh_hant": "自然統治者",
+   "page": "Natures_Archon"
+  },
+  "Archon of Undeath": {
+   "zh_hans": "亡灵执政官",
+   "zh_hant": "亡靈統治者",
+   "page": "Archon_of_Undeath"
+  },
+  "Temporary Minion": {
+   "zh_hans": "临时召唤生物",
+   "zh_hant": "暫時召喚物",
+   "page": "Temporary_Minion"
+  },
+  "Minion Reforming": {
+   "zh_hans": "召唤生物重组",
+   "zh_hant": "召喚物重塑",
+   "page": "Minion_Reforming"
+  },
+  "Gigantic": {
+   "zh_hans": "庞然大物",
+   "zh_hant": "極大",
+   "page": "Gigantic"
+  },
+  "Mark of the Abyssal Lord": {
+   "zh_hans": "深渊领主的印记",
+   "zh_hant": "深淵領主印記",
+   "page": "Mark_of_the_Abyssal_Lord"
+  },
+  "Riven Armour": {
+   "zh_hans": "撕裂护甲",
+   "zh_hant": "碎甲",
+   "page": "Riven_Armour"
+  },
+  "Molten Fissures": {
+   "zh_hans": "熔岩裂缝",
+   "zh_hant": "熔岩裂縫",
+   "page": "Molten_Fissures"
+  },
+  "Sands of Time": {
+   "zh_hans": "时光沙尘",
+   "zh_hant": "時間之沙",
+   "page": "Sands_of_Time"
+  },
+  "Unravelling": {
+   "zh_hans": "解析",
+   "zh_hant": "紛亂",
+   "page": "Unravelling"
+  },
+  "Embankment Auras": {
+   "zh_hans": "堤防光环",
+   "zh_hant": "陣地光環",
+   "page": "Embankment_Auras"
+  },
+  "Ice Fragments": {
+   "zh_hans": "冰霜碎片",
+   "zh_hant": "寒冰碎片",
+   "page": "Ice_Fragments"
+  },
+  "Fragment of Divinity": {
+   "zh_hans": "神性碎片",
+   "zh_hant": "神性碎片",
+   "page": "Fragment_of_Divinity"
+  },
+  "Divinity": {
+   "zh_hans": "神性",
+   "zh_hant": "神性",
+   "page": "Divinity"
+  },
+  "Broken Stance": {
+   "zh_hans": "破碎姿态",
+   "zh_hant": "卸防姿態",
+   "page": "Broken_Stance"
+  },
+  "Umbral Souls": {
+   "zh_hans": "幽影灵魂",
+   "zh_hant": "幽暗之魂",
+   "page": "Umbral_Souls"
+  },
+  "Deadly Map Boss": {
+   "zh_hans": "危险的地图首领",
+   "zh_hant": "致命地圖頭目",
+   "page": "Deadly_Map_Boss"
+  },
+  "Pinnacle Boss": {
+   "zh_hans": "巅峰首领",
+   "zh_hant": "巔峰頭目",
+   "page": "Pinnacle_Boss"
+  },
+  "Invocation": {
+   "zh_hans": "咒祈",
+   "zh_hant": "祈願",
+   "page": "Invocation"
+  },
+  "Sundered Armour": {
+   "zh_hans": "护甲撕裂",
+   "zh_hant": "破碎護甲",
+   "page": "Sundered_Armour"
+  },
+  "Isolated": {
+   "zh_hans": "孤立",
+   "zh_hant": "孤立",
+   "page": "Isolated"
+  },
+  "Overflowing Chalice": {
+   "zh_hans": "满溢圣杯",
+   "zh_hant": "滿溢聖杯",
+   "page": "Overflowing_Chalice"
+  },
+  "Withering Ground": {
+   "zh_hans": "凋零地面",
+   "zh_hant": "凋零地面",
+   "page": "Withering_Ground"
+  },
+  "Default Attack": {
+   "zh_hans": "普通攻击",
+   "zh_hant": "普通攻擊",
+   "page": "Default_Attack"
+  },
+  "Default Attack Damage": {
+   "zh_hans": "默认攻击伤害",
+   "zh_hant": "普通攻擊傷害",
+   "page": "Default_Attack_Damage"
+  },
+  "Khatal's Rejuvenation": {
+   "zh_hans": "卡哈塔的复苏",
+   "zh_hant": "卡塔爾的回春",
+   "page": "Khatals_Rejuvenation"
+  },
+  "Helbrym's Composure": {
+   "zh_hans": "赫尔布林的沉着",
+   "zh_hant": "海爾賓姆的沉著",
+   "page": "Helbryms_Composure"
+  },
+  "Connected Support Gems": {
+   "zh_hans": "相连的辅助宝石",
+   "zh_hant": "連結的輔助技能",
+   "page": "Connected_Support_Gems"
+  },
+  "Summoning Circle": {
+   "zh_hans": "召唤法阵",
+   "zh_hant": "召喚法陣",
+   "page": "Summoning_Circle"
+  },
+  "Adaptation": {
+   "zh_hans": "适者生存",
+   "zh_hant": "適應",
+   "page": "Adaptation"
+  },
+  "Bear Form": {
+   "zh_hans": "巨熊形态",
+   "zh_hant": "巨熊型態",
+   "page": "Bear_Form"
+  },
+  "Werewolf Form": {
+   "zh_hans": "狼人形态",
+   "zh_hant": "狼人型態",
+   "page": "Werewolf_Form"
+  },
+  "Wyvern Form": {
+   "zh_hans": "双足飞龙形态",
+   "zh_hant": "飛龍型態",
+   "page": "Wyvern_Form"
+  },
+  "Plant Skills and Overgrowth": {
+   "zh_hans": "植物技能与蔓生",
+   "zh_hant": "植物技能與過度生長",
+   "page": "Plant_Skills_and_Overgrowth"
+  },
+  "Inevitable Critical Hits": {
+   "zh_hans": "命定暴击",
+   "zh_hant": "絕對暴擊",
+   "page": "Inevitable_Critical_Hits"
+  },
+  "Monster Effectiveness": {
+   "zh_hans": "怪物效能",
+   "zh_hant": "怪物效用",
+   "page": "Monster_Effectiveness"
+  },
+  "Primal Hunger": {
+   "zh_hans": "原始饥渴",
+   "zh_hant": "原始飢餓",
+   "page": "Primal_Hunger"
+  },
+  "Unique Culture": {
+   "zh_hans": "传奇文化",
+   "zh_hant": "傳奇文化",
+   "page": "Unique_Culture"
+  },
+  "Wind Skills": {
+   "zh_hans": "风系技能",
+   "zh_hant": "疾風技能",
+   "page": "Wind_Skills"
+  },
+  "Paths Not Taken": {
+   "zh_hans": "未择之路",
+   "zh_hant": "未履之道",
+   "page": "Paths_Not_Taken"
+  },
+  "Bonded Modifiers": {
+   "zh_hans": "绑定词缀",
+   "zh_hant": "命定詞綴",
+   "page": "Bonded_Modifiers"
+  },
+  "Vaal Siphoner": {
+   "zh_hans": "瓦尔虹吸者",
+   "zh_hant": "瓦爾汲取者",
+   "page": "Vaal_Siphoner"
+  },
+  "Chance can Surpass 100%": {
+   "zh_hans": "溢出几率",
+   "zh_hant": "滿溢機率",
+   "page": "Chance_can_Surpass_100%25"
+  },
+  "Maximum Quality": {
+   "zh_hans": "最大品质",
+   "zh_hant": "最高品質",
+   "page": "Maximum_Quality"
+  },
+  "Thorny Ground": {
+   "zh_hans": "荆棘地面",
+   "zh_hant": "荊棘地面",
+   "page": "Thorny_Ground"
+  },
+  "Splash Damage": {
+   "zh_hans": "溅射伤害",
+   "zh_hant": "擴散傷害",
+   "page": "Splash_Damage"
+  },
+  "Activating Marks": {
+   "zh_hans": "激活印记",
+   "zh_hant": "啟動印記",
+   "page": "Activating_Marks"
+  },
+  "Rerolling Critical Hit Chance": {
+   "zh_hans": "重置暴击率",
+   "zh_hant": "重骰暴擊率",
+   "page": "Rerolling_Critical_Hit_Chance"
+  },
+  "Compounding Ignite": {
+   "zh_hans": "复合点燃",
+   "zh_hant": "惡化點燃",
+   "page": "Compounding_Ignite"
+  },
+  "Drenched": {
+   "zh_hans": "浸湿",
+   "zh_hant": "濕透的",
+   "page": "Drenched"
+  },
+  "Storm Skills": {
+   "zh_hans": "风暴技能",
+   "zh_hant": "風暴技能",
+   "page": "Storm_Skills"
+  },
+  "Maximum": {
+   "zh_hans": "最大值",
+   "zh_hant": "最大值",
+   "page": "Maximum"
+  },
+  "Wildsurge Incantation": {
+   "zh_hans": "野性涌动咒言",
+   "zh_hant": "野性湧動之咒",
+   "page": "Wildsurge_Incantation"
+  },
+  "Energised Crystal": {
+   "zh_hans": "充能水晶",
+   "zh_hant": "充能水晶",
+   "page": "Energised_Crystal"
+  },
+  "Base Skill Attack Time": {
+   "zh_hans": "基础技能攻击时间",
+   "zh_hant": "技能基礎攻擊時間",
+   "page": "Base_Skill_Attack_Time"
+  },
+  "Temple Destabilisation": {
+   "zh_hans": "神庙瓦解",
+   "zh_hant": "神廟不穩定",
+   "page": "Temple_Destabilisation"
+  },
+  "Restricted Room": {
+   "zh_hans": "秘藏房间",
+   "zh_hant": "限制房間",
+   "page": "Restricted_Room"
+  },
+  "Juatalotli's Medallion": {
+   "zh_hans": "华塔洛蒂的纹章",
+   "zh_hant": "瓦爾羅特聖徽",
+   "page": "Juatalotlis_Medallion"
+  },
+  "Hayoxi's Medallion": {
+   "zh_hans": "海幽夏的纹章",
+   "zh_hant": "荷霖蔡聖徽",
+   "page": "Hayoxis_Medallion"
+  },
+  "Quipolatl's Medallion": {
+   "zh_hans": "奎波拉特尔的纹章",
+   "zh_hant": "克特帕托聖徽",
+   "page": "Quipolatls_Medallion"
+  },
+  "Uromoti's Medallion": {
+   "zh_hans": "武罗摩提的纹章",
+   "zh_hant": "烏爾摩堤聖徽",
+   "page": "Uromotis_Medallion"
+  },
+  "Xopec's Medallion": {
+   "zh_hans": "肖佩克的纹章",
+   "zh_hant": "柔派克聖徽",
+   "page": "Xopecs_Medallion"
+  },
+  "Azcapa's Medallion": {
+   "zh_hans": "阿兹卡帕的纹章",
+   "zh_hant": "阿茲卡帕聖徽",
+   "page": "Azcapas_Medallion"
+  },
+  "Estazunti's Medallion": {
+   "zh_hans": "埃斯塔祖提的纹章",
+   "zh_hant": "艾斯祖太聖徽",
+   "page": "Estazuntis_Medallion"
+  },
+  "Puhuarte's Medallion": {
+   "zh_hans": "普华特的纹章",
+   "zh_hant": "普希瓦爾聖徽",
+   "page": "Puhuartes_Medallion"
+  },
+  "Zantipi's Medallion": {
+   "zh_hans": "赞提佩的纹章",
+   "zh_hant": "善堤比聖徽",
+   "page": "Zantipis_Medallion"
+  },
+  "Power": {
+   "zh_hans": "能量",
+   "zh_hant": "電力",
+   "page": "Power"
+  },
+  "Limb Modification": {
+   "zh_hans": "肢体改造",
+   "zh_hant": "肢體改造",
+   "page": "Limb_Modification"
+  },
+  "Medallions": {
+   "zh_hans": "纹章",
+   "zh_hant": "聖徽",
+   "page": "Medallions"
+  },
+  "Ailment Application": {
+   "zh_hans": "异常状态应用",
+   "zh_hant": "施加異常狀態",
+   "page": "Ailment_Application"
+  },
+  "Vaal Beacon": {
+   "zh_hans": "瓦尔灯塔",
+   "zh_hant": "瓦爾烽塔",
+   "page": "Vaal_Beacon"
+  },
+  "Fragmented Mirror": {
+   "zh_hans": "碎裂的魔镜",
+   "zh_hant": "破碎幻鏡",
+   "page": "Fragmented_Mirror"
+  },
+  "Soaring Ground": {
+   "zh_hans": "腾飞之地",
+   "zh_hant": "怒號地面",
+   "page": "Soaring_Ground"
+  },
+  "Shrine Worship": {
+   "zh_hans": "敬拜神龛",
+   "zh_hant": "膜拜神殿",
+   "page": "Shrine_Worship"
+  },
+  "Runic Ward": {
+   "zh_hans": "符文结界",
+   "zh_hant": "符文保護",
+   "page": "Runic_Ward"
+  },
+  "Monster Rarity": {
+   "zh_hans": "怪物稀有度",
+   "zh_hant": "怪物稀有度",
+   "page": "Monster_Rarity"
+  },
+  "Item Armour": {
+   "zh_hans": "物品护甲",
+   "zh_hant": "物品護甲值",
+   "page": "Item_Armour"
+  },
+  "Item Evasion": {
+   "zh_hans": "物品闪避",
+   "zh_hant": "物品閃避值",
+   "page": "Item_Evasion"
+  },
+  "Item Energy Shield": {
+   "zh_hans": "物品能量护盾",
+   "zh_hant": "物品能量護盾",
+   "page": "Item_Energy_Shield"
+  },
+  "Free Rerolls": {
+   "zh_hans": "免费重置",
+   "zh_hant": "免費重骰",
+   "page": "Free_Rerolls"
+  },
+  "Monster Minions": {
+   "zh_hans": "怪物仆从",
+   "zh_hant": "怪物召喚物",
+   "page": "Monster_Minions"
+  },
+  "Rogue Exile Hunting Ground": {
+   "zh_hans": "盗贼流放者猎场",
+   "zh_hant": "盜賊流亡者獵場",
+   "page": "Rogue_Exile_Hunting_Ground"
+  },
+  "Room Upgrades": {
+   "zh_hans": "房间升级",
+   "zh_hant": "房間升級",
+   "page": "Room_Upgrades"
+  },
+  "Additional Rare Monsters": {
+   "zh_hans": "额外稀有怪物",
+   "zh_hant": "額外稀有怪物",
+   "page": "Additional_Rare_Monsters"
+  },
+  "Empowered Monster Minions": {
+   "zh_hans": "强化怪物仆从",
+   "zh_hant": "強化怪物召喚物",
+   "page": "Empowered_Monster_Minions"
+  },
+  "Abandoned City": {
+   "zh_hans": "废弃之城",
+   "zh_hant": "遺棄城市",
+   "page": "Abandoned_City"
+  },
+  "Exceptional Item": {
+   "zh_hans": "卓越物品",
+   "zh_hant": "卓越物品",
+   "page": "Exceptional_Item"
+  },
+  "Embrace of the Wild": {
+   "zh_hans": "野性之拥",
+   "zh_hant": "荒野之擁",
+   "page": "Embrace_of_the_Wild"
+  },
+  "Biome": {
+   "zh_hans": "地貌",
+   "zh_hant": "生物群系",
+   "page": "Biome"
+  },
+  "Invaded City": {
+   "zh_hans": "沦陷之城",
+   "zh_hant": "城市入侵",
+   "page": "Invaded_City"
+  },
+  "Crafted Modifiers": {
+   "zh_hans": "工艺词缀",
+   "zh_hant": "工藝詞綴",
+   "page": "Crafted_Modifiers"
+  },
+  "Grand Mirror": {
+   "zh_hans": "恢宏之镜",
+   "zh_hant": "宏偉之鏡",
+   "page": "Grand_Mirror"
+  },
+  "Mountain's Teachings": {
+   "zh_hans": "山之教诲",
+   "zh_hant": "山嶺教誨",
+   "page": "Mountains_Teachings"
+  },
+  "Wombgifts": {
+   "zh_hans": "孕育赠礼",
+   "zh_hant": "胎贈",
+   "page": "Wombgifts"
+  },
+  "Rite of the Nameless": {
+   "zh_hans": "无名仪式",
+   "zh_hant": "無名之儀",
+   "page": "Rite_of_the_Nameless"
+  },
+  "Effigy": {
+   "zh_hans": "雕像",
+   "zh_hant": "假人",
+   "page": "Effigy"
+  },
+  "Low Runic Ward": {
+   "zh_hans": "低符文结界",
+   "zh_hant": "低符文保護",
+   "page": "Low_Runic_Ward"
+  },
+  "Savage Hit": {
+   "zh_hans": "残暴打击",
+   "zh_hant": "殘暴打擊",
+   "page": "Savage_Hit"
+  },
+  "Foretold Proliferation": {
+   "zh_hans": "预兆蔓延",
+   "zh_hant": "洞見擴散",
+   "page": "Foretold_Proliferation"
+  },
+  "Foretold Bounty": {
+   "zh_hans": "预兆之赏",
+   "zh_hant": "洞見獎賞",
+   "page": "Foretold_Bounty"
+  },
+  "Basic Maps": {
+   "zh_hans": "基础地图",
+   "zh_hant": "基礎地圖",
+   "page": "Basic_Maps"
+  },
+  "Base Type": {
+   "zh_hans": "基底类型",
+   "zh_hant": "基底",
+   "page": "Base_Type"
+  },
+  "Mage's Legacy": {
+   "zh_hans": "法师的遗产",
+   "zh_hant": "魔遺",
+   "page": "Mages_Legacy"
+  },
+  "Legacy of Amethyst": {
+   "zh_hans": "紫晶遗产",
+   "zh_hant": "紫晶之遺",
+   "page": "Legacy_of_Amethyst"
+  },
+  "Legacy of Basalt": {
+   "zh_hans": "玄武岩遗产",
+   "zh_hant": "堅岩之遺",
+   "page": "Legacy_of_Basalt"
+  },
+  "Legacy of Bismuth": {
+   "zh_hans": "灰岩遗产",
+   "zh_hant": "灰岩之遺",
+   "page": "Legacy_of_Bismuth"
+  },
+  "Legacy of Diamond": {
+   "zh_hans": "钻石遗产",
+   "zh_hant": "寶鑽之遺",
+   "page": "Legacy_of_Diamond"
+  },
+  "Legacy of Gold": {
+   "zh_hans": "黄金遗产",
+   "zh_hant": "黃金之遺",
+   "page": "Legacy_of_Gold"
+  },
+  "Legacy of Granite": {
+   "zh_hans": "坚岩遗产",
+   "zh_hant": "石化之遺",
+   "page": "Legacy_of_Granite"
+  },
+  "Legacy of Jade": {
+   "zh_hans": "青玉遗产",
+   "zh_hant": "翠玉之遺",
+   "page": "Legacy_of_Jade"
+  },
+  "Legacy of Quicksilver": {
+   "zh_hans": "水银遗产",
+   "zh_hant": "水銀之遺",
+   "page": "Legacy_of_Quicksilver"
+  },
+  "Legacy of Ruby": {
+   "zh_hans": "红玉遗产",
+   "zh_hant": "紅玉之遺",
+   "page": "Legacy_of_Ruby"
+  },
+  "Legacy of Sapphire": {
+   "zh_hans": "蓝玉遗产",
+   "zh_hant": "藍玉之遺",
+   "page": "Legacy_of_Sapphire"
+  },
+  "Legacy of Silver": {
+   "zh_hans": "白银遗产",
+   "zh_hant": "真銀之遺",
+   "page": "Legacy_of_Silver"
+  },
+  "Legacy of Stibnite": {
+   "zh_hans": "黑锑遗产",
+   "zh_hant": "迷霧之遺",
+   "page": "Legacy_of_Stibnite"
+  },
+  "Legacy of Sulphur": {
+   "zh_hans": "硫磺遗产",
+   "zh_hant": "硫磺之遺",
+   "page": "Legacy_of_Sulphur"
+  },
+  "Legacy of Topaz": {
+   "zh_hans": "黄玉遗产",
+   "zh_hant": "黃玉之遺",
+   "page": "Legacy_of_Topaz"
+  },
+  "Bonus Reward": {
+   "zh_hans": "额外奖励",
+   "zh_hant": "額外獎勵",
+   "page": "Bonus_Reward"
+  },
+  "Verisium Infusion": {
+   "zh_hans": "维金灌注",
+   "zh_hant": "維里西姆灌注",
+   "page": "Verisium_Infusion"
+  },
+  "Secured Strongbox": {
+   "zh_hans": "受保护的保险箱",
+   "zh_hant": "嚴密保險箱",
+   "page": "Secured_Strongbox"
+  },
+  "Overencumbered": {
+   "zh_hans": "超重",
+   "zh_hant": "超重",
+   "page": "Overencumbered"
+  },
+  "Broken Boss Faces": {
+   "zh_hans": "破碎首领之面",
+   "zh_hant": "打爛頭目的臉",
+   "page": "Broken_Boss_Faces"
+  },
+  "Sinister Jewel Sockets": {
+   "zh_hans": "凶邪珠宝插槽",
+   "zh_hant": "不祥珠寶插槽",
+   "page": "Sinister_Jewel_Sockets"
+  },
+  "Socket-bound Augments": {
+   "zh_hans": "插槽绑定的增幅器",
+   "zh_hant": "插槽綁定增幅",
+   "page": "Socket-bound_Augments"
+  },
+  "Cascadable Skills": {
+   "zh_hans": "可扩散技能",
+   "zh_hant": "可爆發技能",
+   "page": "Cascadable_Skills"
+  },
+  "Anaemia": {
+   "zh_hans": "贫血",
+   "zh_hant": "缺血",
+   "page": "Anaemia"
+  },
+  "Phased Form": {
+   "zh_hans": "迷踪形态",
+   "zh_hant": "迷蹤型態",
+   "page": "Phased_Form"
+  },
+  "Kalguuran Support Gem Limit": {
+   "zh_hans": "卡古兰辅助宝石限制",
+   "zh_hant": "卡爾葛輔助寶石上限",
+   "page": "Kalguuran_Support_Gem_Limit"
+  },
+  "Precursor Terraformer": {
+   "zh_hans": "先驱地貌改造器",
+   "zh_hant": "先行者改造器",
+   "page": "Precursor_Terraformer"
+  },
+  "Ancient Modifiers": {
+   "zh_hans": "远古词缀",
+   "zh_hant": "遠古詞綴",
+   "page": "Ancient_Modifiers"
+  },
+  "Congealed Mist": {
+   "zh_hans": "凝结之雾",
+   "zh_hant": "凝固迷霧",
+   "page": "Congealed_Mist"
+  },
+  "Seals and Sealed Skills": {
+   "zh_hans": "封印和封印技能",
+   "zh_hant": "封印與封印技能",
+   "page": "Seals_and_Sealed_Skills"
+  },
+  "Raven-Touched": {
+   "zh_hans": "渡鸦之触",
+   "zh_hant": "渡鴉所觸",
+   "page": "Raven-Touched"
+  },
+  "Great Beast": {
+   "zh_hans": "巨兽",
+   "zh_hant": "猛獸",
+   "page": "Great_Beast"
+  },
+  "Hilda's Favour": {
+   "zh_hans": "希尔达的青睐",
+   "zh_hant": "希爾妲的好感",
+   "page": "Hildas_Favour"
+  },
+  "Temple Currency": {
+   "zh_hans": "神庙通货",
+   "zh_hant": "神廟通貨",
+   "page": "Temple_Currency"
+  },
+  "Anomaly Map": {
+   "zh_hans": "异常地图",
+   "zh_hant": "異常地圖",
+   "page": "Anomaly_Map"
+  },
+  "Landmark Area": {
+   "zh_hans": "地标区域",
+   "zh_hant": "地標區域",
+   "page": "Landmark_Area"
+  },
+  "Hiveblood": {
+   "zh_hans": "虫巢之血",
+   "zh_hant": "巢血",
+   "page": "Hiveblood"
+  },
+  "Vivid Spirit": {
+   "zh_hans": "活性鬼灵",
+   "zh_hant": "靈現魂靈",
+   "page": "Vivid_Spirit"
+  },
+  "Wild Spirit": {
+   "zh_hans": "狂野鬼灵",
+   "zh_hant": "野性魂靈",
+   "page": "Wild_Spirit"
+  },
+  "Primal Spirit": {
+   "zh_hans": "原始鬼灵",
+   "zh_hant": "原始魂靈",
+   "page": "Primal_Spirit"
+  },
+  "Puppet Master": {
+   "zh_hans": "傀儡大师",
+   "zh_hant": "魁儡大師",
+   "page": "Puppet_Master"
+  },
+  "Aldur's Legacies": {
+   "zh_hans": "奥杜尔的遗产",
+   "zh_hant": "阿德爾的傳承",
+   "page": "Aldurs_Legacies"
+  },
+  "Corrupted Monsters": {
+   "zh_hans": "腐化怪物",
+   "zh_hant": "已汙染的怪物",
+   "page": "Corrupted_Monsters"
+  },
+  "Xesht's Fervour": {
+   "zh_hans": "薛斯的狂热",
+   "zh_hant": "烈許的熱忱",
+   "page": "Xeshts_Fervour"
+  },
+  "Dreamer's Sight": {
+   "zh_hans": "幻梦者之视",
+   "zh_hant": "幻夢者視界",
+   "page": "Dreamers_Sight"
+  },
+  "Escalating Threats": {
+   "zh_hans": "危如累卵",
+   "zh_hant": "升級威脅",
+   "page": "Escalating_Threats"
+  },
+  "Apex Predators": {
+   "zh_hans": "巅峰掠食者",
+   "zh_hant": "頂尖掠食者",
+   "page": "Apex_Predators"
+  },
+  "Pure Emotions": {
+   "zh_hans": "纯粹情感",
+   "zh_hant": "純粹情感",
+   "page": "Pure_Emotions"
+  },
+  "Otherworldly Nemesis": {
+   "zh_hans": "异界宿敌",
+   "zh_hant": "異界死敵",
+   "page": "Otherworldly_Nemesis"
+  },
+  "Dreamer's Inspiration": {
+   "zh_hans": "幻梦者之启示",
+   "zh_hant": "幻夢者啟發",
+   "page": "Dreamers_Inspiration"
+  },
+  "Dreamer's Gift": {
+   "zh_hans": "幻梦者之赐",
+   "zh_hant": "幻夢者之贈",
+   "page": "Dreamers_Gift"
+  },
+  "Dreamer's Might": {
+   "zh_hans": "幻梦者之威",
+   "zh_hant": "幻夢者之力",
+   "page": "Dreamers_Might"
+  },
+  "Verisium Sentry": {
+   "zh_hans": "维金哨卫",
+   "zh_hant": "維里西姆守望",
+   "page": "Verisium_Sentry"
+  },
+  "Power Rune": {
+   "zh_hans": "力量符文",
+   "zh_hant": "力量符文",
+   "page": "Power_Rune"
+  },
+  "Fire Rune": {
+   "zh_hans": "烈焰符文",
+   "zh_hant": "火焰符文",
+   "page": "Fire_Rune"
+  },
+  "Cold Rune": {
+   "zh_hans": "冰霜符文",
+   "zh_hant": "冰冷符文",
+   "page": "Cold_Rune"
+  },
+  "Lightning Rune": {
+   "zh_hans": "雷霆符文",
+   "zh_hant": "閃電符文",
+   "page": "Lightning_Rune"
+  },
+  "Tempest Rune": {
+   "zh_hans": "风暴符文",
+   "zh_hant": "風暴符文",
+   "page": "Tempest_Rune"
+  },
+  "Momentum Rune": {
+   "zh_hans": "动能符文",
+   "zh_hant": "氣勢符文",
+   "page": "Momentum_Rune"
+  },
+  "Bloodletting Rune": {
+   "zh_hans": "放血符文",
+   "zh_hant": "出血符文",
+   "page": "Bloodletting_Rune"
+  },
+  "Stone Rune": {
+   "zh_hans": "岩石符文",
+   "zh_hant": "岩石符文",
+   "page": "Stone_Rune"
+  },
+  "Adaptive Rune": {
+   "zh_hans": "适性符文",
+   "zh_hant": "適應符文",
+   "page": "Adaptive_Rune"
+  },
+  "Arcane Rune": {
+   "zh_hans": "奥术符文",
+   "zh_hant": "奧術符文",
+   "page": "Arcane_Rune"
+  },
+  "Toxic Rune": {
+   "zh_hans": "剧毒符文",
+   "zh_hant": "毒素符文",
+   "page": "Toxic_Rune"
+  },
+  "Electrocuting Rune": {
+   "zh_hans": "电殛符文",
+   "zh_hant": "觸電符文",
+   "page": "Electrocuting_Rune"
+  },
+  "Protective Rune": {
+   "zh_hans": "防护符文",
+   "zh_hant": "防護符文",
+   "page": "Protective_Rune"
+  },
+  "Cyclonic Rune": {
+   "zh_hans": "旋风符文",
+   "zh_hant": "氣旋符文",
+   "page": "Cyclonic_Rune"
+  },
+  "Vision Rune": {
+   "zh_hans": "幻想符文",
+   "zh_hant": "遠見符文",
+   "page": "Vision_Rune"
+  },
+  "Tidal Rune": {
+   "zh_hans": "潮汐符文",
+   "zh_hant": "潮汐符文",
+   "page": "Tidal_Rune"
+  },
+  "Rebirth Rune": {
+   "zh_hans": "重生符文",
+   "zh_hant": "重生符文",
+   "page": "Rebirth_Rune"
+  },
+  "Prismatic Rune": {
+   "zh_hans": "棱镜符文",
+   "zh_hant": "三相符文",
+   "page": "Prismatic_Rune"
+  },
+  "Gasp Rune": {
+   "zh_hans": "气息符文",
+   "zh_hant": "恐息符文",
+   "page": "Gasp_Rune"
+  },
+  "Moon Rune": {
+   "zh_hans": "暗月符文",
+   "zh_hant": "月亮符文",
+   "page": "Moon_Rune"
+  },
+  "Celestial Rune": {
+   "zh_hans": "天界符文",
+   "zh_hant": "眾星符文",
+   "page": "Celestial_Rune"
+  },
+  "Opulent Rune": {
+   "zh_hans": "丰收符文",
+   "zh_hant": "奢靡符文",
+   "page": "Opulent_Rune"
+  },
+  "Rage Rune": {
+   "zh_hans": "怒火符文",
+   "zh_hant": "盛怒符文",
+   "page": "Rage_Rune"
+  },
+  "Wisdom Rune": {
+   "zh_hans": "智慧符文",
+   "zh_hant": "智慧符文",
+   "page": "Wisdom_Rune"
+  },
+  "Sky Rune": {
+   "zh_hans": "天空符文",
+   "zh_hant": "天空符文",
+   "page": "Sky_Rune"
+  },
+  "Earth Rune": {
+   "zh_hans": "大地符文",
+   "zh_hant": "大地符文",
+   "page": "Earth_Rune"
+  },
+  "Life Rune": {
+   "zh_hans": "生命符文",
+   "zh_hant": "生命符文",
+   "page": "Life_Rune"
+  },
+  "Bond Rune": {
+   "zh_hans": "团结符文",
+   "zh_hant": "羈絆符文",
+   "page": "Bond_Rune"
+  },
+  "Ward Rune": {
+   "zh_hans": "结界符文",
+   "zh_hant": "保護符文",
+   "page": "Ward_Rune"
+  },
+  "Soul Rune": {
+   "zh_hans": "灵魂符文",
+   "zh_hant": "靈魂符文",
+   "page": "Soul_Rune"
+  },
+  "Death Rune": {
+   "zh_hans": "死亡符文",
+   "zh_hant": "死亡符文",
+   "page": "Death_Rune"
+  },
+  "Oath Rune": {
+   "zh_hans": "誓约符文",
+   "zh_hant": "誓言符文",
+   "page": "Oath_Rune"
+  },
+  "Time Rune": {
+   "zh_hans": "时间符文",
+   "zh_hant": "時間符文",
+   "page": "Time_Rune"
+  },
+  "Ruin": {
+   "zh_hans": "摧灭",
+   "zh_hant": "毀滅",
+   "page": "Ruin"
+  },
+  "Abyssal Fissure": {
+   "zh_hans": "深渊裂缝",
+   "zh_hant": "深淵裂谷",
+   "page": "Abyssal_Fissure"
+  },
+  "Released Azmeri Spirits": {
+   "zh_hans": "被释放的阿兹莫里之灵",
+   "zh_hant": "被釋放的阿茲莫里魂靈",
+   "page": "Released_Azmeri_Spirits"
+  },
+  "Vaal Relics": {
+   "zh_hans": "瓦尔遗物",
+   "zh_hant": "瓦爾遺物",
+   "page": "Vaal_Relics"
+  }
+ },
+ "names": {
+  "Arcane Surge": {
+   "zh_hans": "秘术增强",
+   "source": "Keywords"
+  },
+  "Divinity": {
+   "zh_hans": "神性",
+   "source": "Keywords"
+  },
+  "Elusive": {
+   "zh_hans": "灵巧",
+   "source": "Keywords"
+  },
+  "Everlasting Sacrifice": {
+   "zh_hans": "永恒献祭",
+   "source": "Keywords"
+  },
+  "Onslaught": {
+   "zh_hans": "猛攻",
+   "source": "Keywords"
+  },
+  "Parry": {
+   "zh_hans": "招架",
+   "source": "Keywords"
+  },
+  "Quicksand Hourglass": {
+   "zh_hans": "迅时沙漏",
+   "source": "poe2db tables"
+  },
+  "Unholy Might": {
+   "zh_hans": "不洁之力",
+   "source": "Keywords"
+  },
+  "Brittle": {
+   "zh_hans": "脆弱",
+   "source": "Keywords"
+  },
+  "Intimidate": {
+   "zh_hans": "威吓",
+   "source": "Keywords"
+  },
+  "Critical Weakness": {
+   "zh_hans": "暴击弱点",
+   "source": "Keywords"
+  },
+  "Maim": {
+   "zh_hans": "瘫痪",
+   "source": "Keywords"
+  },
+  "Withered": {
+   "zh_hans": "死亡凋零",
+   "source": "Keywords"
+  },
+  "Corrosion": {
+   "zh_hans": "腐蚀",
+   "source": "poe2db tables"
+  },
+  "Crushed": {
+   "zh_hans": "碾压",
+   "source": "Keywords"
+  },
+  "Consecrated Ground": {
+   "zh_hans": "奉献地面",
+   "source": "Keywords"
+  },
+  "Rampage": {
+   "zh_hans": "横冲直撞",
+   "source": "poe2db tables"
+  },
+  "Soul Eater": {
+   "zh_hans": "噬魂者",
+   "source": "Keywords"
+  },
+  "Tailwind": {
+   "zh_hans": "提速尾流",
+   "source": "Keywords"
+  },
+  "Rage": {
+   "zh_hans": "怒火",
+   "source": "Keywords"
+  },
+  "Combo": {
+   "zh_hans": "连击",
+   "source": "Keywords"
+  },
+  "Faerie Fire": {
+   "zh_hans": "仙灵之火",
+   "source": "Keywords"
+  },
+  "Rupture": {
+   "zh_hans": "残破",
+   "source": "poe2db tables"
+  },
+  "Unravelling": {
+   "zh_hans": "解析",
+   "source": "Keywords"
+  },
+  "Blind": {
+   "zh_hans": "致盲",
+   "source": "Keywords"
+  },
+  "Immobilised": {
+   "zh_hans": "不可移动",
+   "source": "Keywords"
+  },
+  "Pinned": {
+   "zh_hans": "定身",
+   "source": "Keywords"
+  },
+  "Heavy Stun": {
+   "zh_hans": "重度晕眩",
+   "source": "Keywords"
+  },
+  "Heavy Stunned": {
+   "zh_hans": "重度晕眩",
+   "source": "Keywords (Heavy Stun)"
+  },
+  "Electrocute": {
+   "zh_hans": "触电",
+   "source": "poe2db tables"
+  },
+  "Electrocuted": {
+   "zh_hans": "触电",
+   "source": "poe2db tables (Electrocute)"
+  },
+  "Freeze": {
+   "zh_hans": "冻结",
+   "source": "Keywords"
+  },
+  "Frozen": {
+   "zh_hans": "冻结",
+   "source": "Keywords"
+  },
+  "Maimed": {
+   "zh_hans": "瘫痪",
+   "source": "Keywords (Maim)"
+  },
+  "Valour": {
+   "zh_hans": "胆魄",
+   "source": "Keywords"
+  },
+  "Runic Ward": {
+   "zh_hans": "符文结界",
+   "source": "Keywords"
+  },
+  "Daze": {
+   "zh_hans": "恍惚",
+   "source": "Keywords"
+  },
+  "Hinder": {
+   "zh_hans": "缓速",
+   "source": "Keywords"
+  },
+  "Exposure": {
+   "zh_hans": "曝露",
+   "source": "Keywords"
+  }
+ },
+ "missing": [
+  {
+   "name": "Adrenaline",
+   "page": "Adrenaline",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": "肾上腺素"
+  },
+  {
+   "name": "Alchemist's Genius",
+   "page": "Alchemist%27s_Genius",
+   "why": "404",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Chaotic Might",
+   "page": "Chaotic_Might",
+   "why": "404",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Fanaticism",
+   "page": "Fanaticism",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Sap",
+   "page": "Sap",
+   "why": "404",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Covered in Ash",
+   "page": "Covered_in_Ash",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Covered in Frost",
+   "page": "Covered_in_Frost",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Profane Ground",
+   "page": "Profane_Ground",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Fungal Ground",
+   "page": "Fungal_Ground",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Glorious Madness",
+   "page": "Glorious_Madness",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Steel Ward",
+   "page": "Steel_Ward",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Slipstream",
+   "page": "Slipstream",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  },
+  {
+   "name": "Fortification",
+   "page": "Fortification",
+   "why": "no Chinese title",
+   "zh_CN": null,
+   "zh_TW": null,
+   "poecharm": null
+  }
+ ]
+}

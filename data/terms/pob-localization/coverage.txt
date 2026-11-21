@@ -1,0 +1,60 @@
+PoB 601768b vs poe2db-1.0
+category  pob_total  matched  missing  ambiguous  poe2db_only
+gems            966      946       20          0           67
+mods           9059     2455     6589         15            9
+bases          1769     1750       19          0          322
+uniques         433      404       28          1            9
+passives       4914     4863       51          0          238
+  ModItem             2550     1713      830          7
+  ModJewel             377      168      209          0
+  ModCorrupted         127      113       13          1
+  ModFlask              78       67       11          0
+  ModCharm              51       51        0          0
+  ModIncursionLimb      12        0       12          0
+  ModVeiled            388      257      124          7
+  ModItemExclusive    5500      110     5390          0
+passives: PoB tree 0_5 vs https://poe2db.tw/data/passive-skill-tree/4.5/data_{us,cn,tw}.json (matched = name and every stat line)
+  kind          pob_total  matched  name_matched  lines_total  lines_matched
+  ascendancy          431      415           427          559            545
+  keystone             33       29            33           82             80
+  notable             984      958           984         1807           1786
+  jewel_socket         18       18            18            1              1
+  small              3074     3069          3074         3609           3599
+  mastery             368      368           368            0              0
+  class_start           6        6             6            0              0
+  reasons: name_differs 4, stat_lines_differ 4, zh_line_count_differs 16, zh_numbers_differ 27
+  ascendancy names: 23/23
+  class names: 8/8
+  node options: 371 host nodes, 951 slots (6 overlay-only); distinct options 43/75, names 43, lines 107/113
+    unjoined 390 Rupture the Flesh [name_not_in_poe2db, lines_unjoined]: Cursed Enemies Killed by you, or by Allies in your Presence, have a 33% chance to Explode, dealing a quarter of their maximum Life as Physical Damage
+    unjoined 5788 Raw Destruction [name_not_in_poe2db]
+    unjoined 7130 Bastion of the Forest [name_not_in_poe2db]
+    unjoined 7197 Guardian of the Wilds [name_not_in_poe2db]
+    unjoined 10941 Entropy [name_not_in_poe2db]
+    unjoined 11705 Steward of Kulemak [name_not_in_poe2db, lines_unjoined]: Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition
+    unjoined 14623 Attack Damage [name_ambiguous]
+    unjoined 15373 Minion Reservation Efficiency [name_not_in_poe2db]
+    unjoined 16160 Skill Speed while Shapeshifted [name_not_in_poe2db]
+    unjoined 17324 Power of the Dead [name_not_in_poe2db]
+    unjoined 22193 Attack Damage [name_ambiguous]
+    unjoined 22652 Skill Speed while Shapeshifted [name_not_in_poe2db]
+    unjoined 24854 Melee and Projectile Damage [name_not_in_poe2db]
+    unjoined 28255 Melee and Projectile Damage [name_not_in_poe2db]
+    unjoined 29915 Melee and Projectile Damage [name_not_in_poe2db]
+    unjoined 31204 Mana Regeneration [name_ambiguous]
+    unjoined 32062 Primal Instinct [name_not_in_poe2db]
+    unjoined 36863 Unwilling Offering [name_not_in_poe2db, lines_unjoined]: Your Offerings can target Enemies in Culling range / Your Offerings affect you instead of your Minions / Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy
+    unjoined 38659 Mana Regeneration [name_ambiguous]
+    unjoined 39263 Attack Damage [name_ambiguous]
+    unjoined 39628 Reflex Action [name_not_in_poe2db]
+    unjoined 41162 Umbral Well [name_not_in_poe2db, lines_unjoined]: Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created
+    unjoined 41568 Life Regeneration [name_ambiguous]
+    unjoined 42895 Stalk and Leap [name_not_in_poe2db]
+    unjoined 50065 Life Regeneration [name_ambiguous]
+    unjoined 50882 Primal Spirit [name_not_in_poe2db]
+    unjoined 54594 Natural Essence [name_not_in_poe2db]
+    unjoined 55535 Attuned with Nature [name_not_in_poe2db]
+    unjoined 55896 Attack Damage [name_ambiguous]
+    unjoined 56845 Harbinger of Disaster [name_not_in_poe2db]
+    unjoined 57726 Life Regeneration [name_ambiguous]
+    unjoined 64801 Jagged Shards [name_not_in_poe2db]

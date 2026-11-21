@@ -1,0 +1,4 @@
+Rarity: Rare
+Contract Fixture
+Dueling Wand
++100 to maximum Energy Shield

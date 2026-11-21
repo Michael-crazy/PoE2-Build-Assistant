@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Local reports from ops/poe2db_update.py and other generators
+/reports/

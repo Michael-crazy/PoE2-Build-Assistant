@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "authored:a01:english-ambiguous",
+    "kind": "authored_structured",
+    "title": "Authored offline skill query: english-ambiguous",
+    "text": "自编结构化样本（不是游戏导出或实测攻略）：\n服区=international\n赛季=AUTHORED-TEST\n阶段=终局\n职业=Warrior\n等级=80\n主技能=Earthquake\n技能等级=10\n品质=0\n装备目标=头盔至少60生命；具体基底和其他词缀未给出\n\nAuthored English skill fields: 'Fireball' / None\n"
+  },
+  "fields": {
+    "realm": {
+      "value": "international",
+      "origin": "stated",
+      "evidence": "服区=international",
+      "reason": null
+    },
+    "league": {
+      "value": "AUTHORED-TEST",
+      "origin": "stated",
+      "evidence": "赛季=AUTHORED-TEST",
+      "reason": null
+    },
+    "game_version": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "stage": {
+      "value": "终局",
+      "origin": "stated",
+      "evidence": "阶段=终局",
+      "reason": null
+    },
+    "class_name": {
+      "value": "Warrior",
+      "origin": "stated",
+      "evidence": "职业=Warrior",
+      "reason": null
+    },
+    "ascendancy_name": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "main_skill_name": {
+      "value": "Fireball",
+      "origin": "stated",
+      "evidence": "'Fireball'",
+      "reason": null
+    },
+    "main_skill_id": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not supplied in authored fixture."
+    },
+    "tree_version": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "equipment_text": {
+      "value": "头盔至少60生命；具体基底和其他词缀未给出",
+      "origin": "stated",
+      "evidence": "装备目标=头盔至少60生命；具体基底和其他词缀未给出",
+      "reason": null
+    },
+    "config_text": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "level": {
+      "value": 80,
+      "origin": "stated",
+      "evidence": "等级=80",
+      "reason": null
+    },
+    "main_skill_level": {
+      "value": 10,
+      "origin": "stated",
+      "evidence": "技能等级=10",
+      "reason": null
+    },
+    "main_skill_quality": {
+      "value": 0,
+      "origin": "stated",
+      "evidence": "品质=0",
+      "reason": null
+    },
+    "passive_nodes": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    }
+  }
+}

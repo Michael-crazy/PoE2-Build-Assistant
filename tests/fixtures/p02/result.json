@@ -1,0 +1,4 @@
+{
+  "baseline": {"CombinedDPS": 100, "Life": 1000, "EnergyShield": 0, "Armour": 200, "Evasion": 0},
+  "replacement": {"CombinedDPS": 120, "Life": 1000, "EnergyShield": 100, "Armour": 200, "Evasion": 0}
+}

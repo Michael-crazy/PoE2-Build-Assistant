@@ -1,0 +1,7642 @@
+{
+ "format": "wegame-poe2-share/1",
+ "role_info": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "nick_name": "<removed>",
+  "role": {
+   "openid": "<removed>",
+   "role_id": "1",
+   "area": 0,
+   "name": "<removed>",
+   "icon": "<removed>",
+   "level": 94,
+   "phrase": "异界T16",
+   "class_id": 0,
+   "class_name": "Gemling Legionnaire",
+   "created_time": "1781955143",
+   "total_game_duration": "183318",
+   "season_game_duration": "183318",
+   "last_login_time": "1795011830",
+   "account_name": "<removed>"
+  },
+  "share_code": "<removed>"
+ },
+ "equipments": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "equipments": [
+   {
+    "baseType": "鸣谐长杖",
+    "corrupted": true,
+    "desecrated": true,
+    "explicitMods": [
+     {
+      "description": "[Gain|获得]相当于伤害 47% 的额外[Fire|火焰]伤害"
+     },
+     {
+      "description": "[Fire|火焰]伤害提高 141%"
+     },
+     {
+      "description": "所有[Fire|火焰][Spell|法术]技能等级 +7"
+     },
+     {
+      "description": "施法速度提高 36%"
+     },
+     {
+      "description": "魔力再生率提高 78%"
+     },
+     {
+      "description": "[Gain|获得]相当于伤害 52% 的额外[Fire|火焰]伤害",
+      "flags": {
+       "desecrated": true
+      }
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "grantedSkills": [
+     {
+      "displayMode": 0,
+      "name": "获得技能",
+      "values": [
+       [
+        "等级 18 威能法印",
+        25
+       ]
+      ]
+     }
+    ],
+    "h": 4,
+    "id": "item-1",
+    "identified": true,
+    "ilvl": 82,
+    "inventoryId": "Weapon",
+    "league": "奥杜尔秘符",
+    "name": "仇恨 圣曲",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Staff|长杖]",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+7%",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "64",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "46",
+        0
+       ]
+      ]
+     }
+    ],
+    "runeMods": [
+     "由奥杜尔之热情铸造",
+     "[Gain|获得]相当于伤害 12% 的额外[Fire|火焰]伤害",
+     "所有[Spell|法术]技能等级 +1",
+     "[ShamanOnlyMods|羁绊]： [Fire|火焰]伤害提高 25%",
+     "[ShamanOnlyMods|羁绊]： [Ignite|点燃][BuffMagnitude|强度]提高 30%",
+     "[ShamanOnlyMods|羁绊]： [Archon|执政官]间隔期的消减速度加快 30%"
+    ],
+    "socketedItems": [
+     {
+      "baseType": "奥杜尔之热情",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "武器: [Fire|火焰]伤害提高 25%"
+      ],
+      "descrText": "放入[Rarity|稀有]武器的空置[Augment|增幅器]插槽中，对物品产生该效果。镶嵌时转化词缀，后续添加的词缀不会被转化。一旦放入插槽，无法再被移除或替换。",
+      "explicitMods": [
+       {
+        "description": "武器: 将物品上的所有[Cold|冰霜]与[Lightning|闪电]词缀转化为等值的[Fire|火焰]词缀"
+       }
+      ],
+      "flavourText": [
+       "祭司们长久以来描绘星辰的舞动，\r",
+       "但正是奥杜尔将那意义带入了他的熔炉。\r",
+       "日日夜夜，他迫使火焰屈服。"
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-2",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       }
+      ],
+      "realm": "poe2",
+      "runeMods": [
+       "[SocketBound|插槽绑定]"
+      ],
+      "socket": 0,
+      "stackSize": 1,
+      "typeLine": "奥杜尔之热情",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "女巫阿桑德拉的智慧符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "法杖或长杖: [Archon|执政官]间隔期的消减速度加快 30%"
+      ],
+      "descrText": "放入法杖或长杖的空置[Augment|增幅器]插槽中，对物品产生该效果。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "法杖或长杖: 所有[Spell|法术]技能等级 +1"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-3",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "仅限",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "50",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 1,
+      "stackSize": 1,
+      "typeLine": "女巫阿桑德拉的智慧符文",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "完美沙漠符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "[MartialWeapon|战斗武器]: [Ignite|点燃][BuffMagnitude|强度]提高 30%",
+       "法杖或长杖: [Ignite|点燃][BuffMagnitude|强度]提高 30%",
+       "护甲:",
+       "+20 生命上限",
+       "+20 魔力上限"
+      ],
+      "descrText": "放入武器或护甲的一个空的[Augment|增幅器]插槽中，即可将其效果应用于此物品。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "[MartialWeapon|战斗武器]: 附加 17 - 20 [Fire|火焰]伤害"
+       },
+       {
+        "description": "法杖或长杖: [Gain|获得]相当于伤害 12% 的额外[Fire|火焰]伤害"
+       },
+       {
+        "description": "护甲: [Resistances|火焰抗性] +22%"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-4",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "50",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 2,
+      "stackSize": 1,
+      "typeLine": "完美沙漠符文",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "威能法印",
+      "descrText": "可在技能面板中管理技能。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemSockets": [
+       "W",
+       "W",
+       "W",
+       "W"
+      ],
+      "gemTabs": [
+       {
+        "name": "威能法印",
+        "pages": [
+         {
+          "skillName": "威能法印",
+          "stats": [
+           "层数之间至少间隔 1 秒",
+           "法印范围为 3 米",
+           "在区域内总共消耗魔力上限的 50% 后，获得一层",
+           "法印持续时间为 11.7 秒",
+           "上限为 4 层",
+           "每层[Buff|增益]使[Spell|法术]伤害总增 14%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[Spell|法术], [AoESkill|效果区域], [DurationSkill|持续时间], [GainsStages|层数]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 5,
+        "values": [
+         [
+          "18",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗",
+        "values": [
+         [
+          "0 点魔力",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "冷却时间",
+        "values": [
+         [
+          "10.00 秒",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "施放时间",
+        "values": [
+         [
+          "0.60 秒",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "78",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 1,
+        "name": "[Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "137",
+          0
+         ]
+        ]
+       }
+      ],
+      "secDescrText": "在地面放置一个法印，当你和你的[Allies|友军]处于法印内时获得高额[Spell|法术]伤害[Buff|增益状态]。你在法印内消耗的魔力越多，[Buff|增益状态]会变得越强大。",
+      "socketedItems": [],
+      "sockets": [
+       {
+        "group": 0,
+        "type": "gem"
+       },
+       {
+        "group": 1,
+        "type": "gem"
+       },
+       {
+        "group": 2,
+        "type": "gem"
+       },
+       {
+        "group": 3,
+        "type": "gem"
+       }
+      ],
+      "support": false,
+      "typeLine": "威能法印",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     },
+     {
+      "group": 1,
+      "type": "rune"
+     },
+     {
+      "group": 2,
+      "type": "rune"
+     }
+    ],
+    "typeLine": "鸣谐长杖",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "三相戒指",
+    "explicitMods": [
+     {
+      "description": "[Fire|火焰]伤害提高 27%"
+     },
+     {
+      "description": "[Cold|冰霜]伤害提高 14%"
+     },
+     {
+      "description": "[ItemRarity|物品稀有度]提高 19%"
+     },
+     {
+      "description": "+28 [Strength|力量]"
+     },
+     {
+      "description": "所有[ElementalDamage|元素][Resistances|抗性] +15%"
+     },
+     {
+      "description": "[Resistances|混沌抗性] +14%"
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 1,
+    "id": "item-5",
+    "identified": true,
+    "ilvl": 80,
+    "implicitMods": [
+     {
+      "description": "所有[ElementalDamage|元素][Resistances|抗性] +9%"
+     }
+    ],
+    "inventoryId": "Ring2",
+    "league": "奥杜尔秘符",
+    "name": "巨兽 之眼",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "戒指",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "品质（火焰词缀）",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "52",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "三相戒指",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "特拉珊火炮",
+    "explicitMods": [
+     {
+      "description": "[Physical|物理]伤害提高 73%"
+     },
+     {
+      "description": "附加 29 - 34 [Physical|物理]伤害"
+     },
+     {
+      "description": "+167 [Accuracy|命中]值"
+     },
+     {
+      "description": "+19% [CriticalDamageBonus|暴击伤害加成]"
+     },
+     {
+      "description": "+32 [Dexterity|敏捷]"
+     },
+     {
+      "description": "[Grenade|榴弹]技能的冷却回复速度提高 33%"
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 4,
+    "id": "item-6",
+    "identified": true,
+    "ilvl": 81,
+    "implicitMods": [
+     {
+      "description": "无法装填或发射[Ammunition|弹药]"
+     }
+    ],
+    "inventoryId": "Weapon2",
+    "league": "奥杜尔秘符",
+    "name": "灾祸 星核",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Crossbow|战弩]",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Physical|物理]伤害",
+      "type": 9,
+      "values": [
+       [
+        "181-349",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Critical|暴击]率",
+      "type": 12,
+      "values": [
+       [
+        "5.00%",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "每秒攻击次数",
+      "type": 13,
+      "values": [
+       [
+        "1.40",
+        0
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "65",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Strength|力量]",
+      "type": 63,
+      "values": [
+       [
+        "114",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Dexterity|敏捷]",
+      "type": 64,
+      "values": [
+       [
+        "63",
+        0
+       ]
+      ]
+     }
+    ],
+    "runeMods": [
+     "获得等同于该武器伤害上限 15% 的[Ward|符文结界]上限",
+     "[ShamanOnlyMods|羁绊]： 损失[Ward|符文结界]时[Attack|攻击]速度提高 5%"
+    ],
+    "socketedItems": [
+     {
+      "baseType": "电枢之结界符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "[MartialWeapon|战斗武器]: 损失[Ward|符文结界]时[Attack|攻击]速度提高 5%"
+      ],
+      "descrText": "放入武器或护甲的一个空的[Augment|增幅器]插槽中，即可将其效果应用于此物品。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "[MartialWeapon|战斗武器]: 获得等同于该武器伤害上限 15% 的[Ward|符文结界]上限"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-7",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "仅限",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "45",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 0,
+      "stackSize": 1,
+      "typeLine": "电枢之结界符文",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     },
+     {
+      "group": 1,
+      "type": "rune"
+     }
+    ],
+    "typeLine": "特拉珊火炮",
+    "verified": false,
+    "w": 2,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "融冰咒符",
+    "descrText": "满足条件时自动使用。只有装备于腰带上时才会充能。可通过[Wells|水井]或击败怪物补充。",
+    "explicitMods": [
+     {
+      "description": "击败敌人时有 23% 的几率获得一个[Charges|能量球]"
+     },
+     {
+      "description": "使用时开始[ESRecharge|能量护盾充能]"
+     }
+    ],
+    "flavourText": [
+     "“即使面对世界之冬，生命也能找到出路。\r",
+     "万灵始终都在庇佑我们。”"
+    ],
+    "frameType": 3,
+    "frameTypeId": "Unique",
+    "h": 1,
+    "id": "item-8",
+    "identified": true,
+    "ilvl": 82,
+    "implicitMods": [
+     {
+      "description": "陷入[Frozen|冻结]时自动使用"
+     }
+    ],
+    "inventoryId": "Flask",
+    "league": "奥杜尔秘符",
+    "name": "新生希望",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "咒符",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 3,
+      "name": "持续 {0} 秒",
+      "values": [
+       [
+        "3",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "每次使用会从 {1} 充能次数中消耗 {0} 次",
+      "values": [
+       [
+        "40",
+        0
+       ],
+       [
+        "40",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "目前有 {0} 充能次数",
+      "values": [
+       [
+        "40",
+        0
+       ]
+      ]
+     }
+    ],
+    "rarity": "Unique",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "12",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "融冰咒符",
+    "utilityMods": [
+     "可以免疫[Freeze|冻结]"
+    ],
+    "verified": false,
+    "w": 1,
+    "x": 2,
+    "y": 0
+   },
+   {
+    "baseType": "非凡魔力药剂",
+    "descrText": "点击右键以喝下药剂。只有装备于腰带上时才会充能。可通过[Wells|水井]或击败怪物补充。",
+    "explicitMods": [
+     {
+      "description": "回复量提高 59%"
+     },
+     {
+      "description": "获得的充能提高 44%"
+     }
+    ],
+    "frameType": 1,
+    "frameTypeId": "Magic",
+    "h": 2,
+    "id": "item-9",
+    "identified": true,
+    "ilvl": 59,
+    "inventoryId": "Flask",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Flask|药剂]",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+8%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "{1} 秒内回复 {0} 魔力",
+      "values": [
+       [
+        "489",
+        1
+       ],
+       [
+        "3.50",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "每次使用会从 {1} 充能次数中消耗 {0} 次",
+      "values": [
+       [
+        "10",
+        0
+       ],
+       [
+        "75",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "目前有 {0} 充能次数",
+      "values": [
+       [
+        "75",
+        0
+       ]
+      ]
+     }
+    ],
+    "rarity": "Magic",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "50",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "充裕的 无穷之 非凡魔力药剂",
+    "verified": false,
+    "w": 1,
+    "x": 1,
+    "y": 0
+   },
+   {
+    "baseType": "止血咒符",
+    "descrText": "满足条件时自动使用。只有装备于腰带上时才会充能。可通过[Wells|水井]或击败怪物补充。",
+    "explicitMods": [
+     {
+      "description": "每秒获得 0.20 次充能"
+     },
+     {
+      "description": "使用时产生[ConsecratedGround|奉献地面]"
+     }
+    ],
+    "flavourText": [
+     "瓦尔克拉斯从未出过如此多的英雄豪杰。\r",
+     "这里会铭记那些敢于奋起反抗的勇者。"
+    ],
+    "frameType": 3,
+    "frameTypeId": "Unique",
+    "h": 1,
+    "id": "item-10",
+    "identified": true,
+    "ilvl": 79,
+    "implicitMods": [
+     {
+      "description": "你开始[Bleeding|流血]时自动使用"
+     }
+    ],
+    "inventoryId": "Flask",
+    "league": "奥杜尔秘符",
+    "name": "英雄血液",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "咒符",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 3,
+      "name": "持续 {0} 秒",
+      "values": [
+       [
+        "3",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "每次使用会从 {1} 充能次数中消耗 {0} 次",
+      "values": [
+       [
+        "30",
+        0
+       ],
+       [
+        "40",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "目前有 {0} 充能次数",
+      "values": [
+       [
+        "40",
+        0
+       ]
+      ]
+     }
+    ],
+    "rarity": "Unique",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "18",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "止血咒符",
+    "utilityMods": [
+     "可以免疫[Bleeding|流血]"
+    ],
+    "verified": false,
+    "w": 1,
+    "x": 3,
+    "y": 0
+   },
+   {
+    "baseType": "磐石咒符",
+    "descrText": "满足条件时自动使用。只有装备于腰带上时才会充能。可通过[Wells|水井]或击败怪物补充。",
+    "explicitMods": [
+     {
+      "description": "持续时间提高 18%"
+     },
+     {
+      "description": "充能次数提高 56%"
+     }
+    ],
+    "frameType": 1,
+    "frameTypeId": "Magic",
+    "h": 1,
+    "id": "item-11",
+    "identified": true,
+    "ilvl": 80,
+    "implicitMods": [
+     {
+      "description": "当你被[Stun|晕眩]时使用"
+     }
+    ],
+    "inventoryId": "Flask",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "咒符",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 3,
+      "name": "持续 {0} 秒",
+      "values": [
+       [
+        "3.50",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "每次使用会从 {1} 充能次数中消耗 {0} 次",
+      "values": [
+       [
+        "20",
+        0
+       ],
+       [
+        "62",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "目前有 {0} 充能次数",
+      "values": [
+       [
+        "62",
+        0
+       ]
+      ]
+     }
+    ],
+    "rarity": "Magic",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "49",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "调查者的 充足之 磐石咒符",
+    "utilityMods": [
+     "免疫[Stun|晕眩]"
+    ],
+    "verified": false,
+    "w": 1,
+    "x": 4,
+    "y": 0
+   },
+   {
+    "baseType": "先祖冠冕",
+    "desecrated": true,
+    "explicitMods": [
+     {
+      "description": "[EnergyShield|能量护盾]提高 129%"
+     },
+     {
+      "description": "+41 生命上限"
+     },
+     {
+      "description": "[Resistances|火焰抗性] +43%"
+     },
+     {
+      "description": "[Resistances|冰霜抗性] +43%"
+     },
+     {
+      "description": "[Resistances|闪电抗性] +33%",
+      "flags": {
+       "crafted": true
+      }
+     },
+     {
+      "description": "+43 [EnergyShield|能量护盾]上限",
+      "flags": {
+       "desecrated": true
+      }
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 2,
+    "id": "item-12",
+    "identified": true,
+    "ilvl": 82,
+    "inventoryId": "Helm",
+    "league": "奥杜尔秘符",
+    "name": "荣耀 圆顶盔",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "头盔",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[EnergyShield|能量护盾]",
+      "type": 18,
+      "values": [
+       [
+        "454",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "80",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "115",
+        0
+       ]
+      ]
+     }
+    ],
+    "runeMods": [
+     "[Armour|护甲]、[Evasion|闪避]和[EnergyShield|能量护盾]提高 20%",
+     "[ShamanOnlyMods|羁绊]： +20 生命上限",
+     "[ShamanOnlyMods|羁绊]： +20 魔力上限"
+    ],
+    "socketedItems": [
+     {
+      "baseType": "完美钢铁符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "[MartialWeapon|战斗武器]: [ArmourBreak|护甲完全破损]效果提高 20%",
+       "法杖或长杖: [Spell|法术][Critical|暴击]会[ArmourBreak|粉碎][Armour|护甲]，相当于造成[Physical|物理]伤害的 12%",
+       "护甲:",
+       "+20 生命上限",
+       "+20 魔力上限"
+      ],
+      "descrText": "放入武器或护甲的一个空的[Augment|增幅器]插槽中，即可将其效果应用于此物品。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "[MartialWeapon|战斗武器]: [Physical|物理]伤害提高 20%"
+       },
+       {
+        "description": "法杖或长杖: [Spell|法术]伤害提高 35%"
+       },
+       {
+        "description": "护甲: [Armour|护甲]、[Evasion|闪避]和[EnergyShield|能量护盾]提高 20%"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-13",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "50",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 0,
+      "stackSize": 1,
+      "typeLine": "完美钢铁符文",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     }
+    ],
+    "typeLine": "先祖冠冕",
+    "verified": false,
+    "w": 2,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "终极生命药剂",
+    "corrupted": true,
+    "descrText": "点击右键以喝下药剂。只有装备于腰带上时才会充能。可通过[Wells|水井]或击败怪物补充。",
+    "explicitMods": [
+     {
+      "description": "生命回复提高 98%"
+     },
+     {
+      "description": "使用时会移除魔力，等同于生命回复值的 15%"
+     },
+     {
+      "description": "充能次数提高 47%"
+     }
+    ],
+    "frameType": 1,
+    "frameTypeId": "Magic",
+    "h": 2,
+    "id": "item-14",
+    "identified": true,
+    "ilvl": 81,
+    "inventoryId": "Flask",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Flask|药剂]",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+21%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "{1} 秒内回复 {0} 生命",
+      "values": [
+       [
+        "2204",
+        1
+       ],
+       [
+        "3",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "每次使用会从 {1} 充能次数中消耗 {0} 次",
+      "values": [
+       [
+        "10",
+        0
+       ],
+       [
+        "110",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 3,
+      "name": "目前有 {0} 充能次数",
+      "values": [
+       [
+        "110",
+        0
+       ]
+      ]
+     }
+    ],
+    "rarity": "Magic",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "64",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "削弱的 充裕之 终极生命药剂",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "星辉项链",
+    "desecrated": true,
+    "enchantMods": [
+     "配置 [DeliriumAnoint_Paragon|典范]"
+    ],
+    "explicitMods": [
+     {
+      "description": "+70 [EnergyShield|能量护盾]上限"
+     },
+     {
+      "description": "[EnergyShield|能量护盾]上限提高 43%"
+     },
+     {
+      "description": "+40 [Spirit|精魂]"
+     },
+     {
+      "description": "所有[Spell|法术]技能等级 +2"
+     },
+     {
+      "description": "将所受伤害的27%[Recoup|吸纳]为生命"
+     },
+     {
+      "description": "+17% 火焰与混沌抗性",
+      "flags": {
+       "desecrated": true
+      }
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 1,
+    "id": "item-15",
+    "identified": true,
+    "ilvl": 82,
+    "implicitMods": [
+     {
+      "description": "+7 全[Attributes|属性]"
+     }
+    ],
+    "inventoryId": "Amulet",
+    "league": "奥杜尔秘符",
+    "name": "宿敌 花符",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "项链",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "品质（生命词缀）",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "63",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "星辉项链",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "黄玉戒指",
+    "explicitMods": [
+     {
+      "description": "[Attack|攻击]附加 14 - 22 基础[Cold|冰霜]伤害"
+     },
+     {
+      "description": "[Fire|火焰]伤害提高 27%"
+     },
+     {
+      "description": "+110 生命上限"
+     },
+     {
+      "description": "所有[ElementalDamage|元素][Resistances|抗性] +19%"
+     },
+     {
+      "description": "[Resistances|闪电抗性] +24%"
+     },
+     {
+      "description": "[Resistances|混沌抗性] +23%"
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 1,
+    "id": "item-16",
+    "identified": true,
+    "ilvl": 81,
+    "implicitMods": [
+     {
+      "description": "[Resistances|闪电抗性] +32%"
+     }
+    ],
+    "inventoryId": "Ring",
+    "league": "奥杜尔秘符",
+    "name": "符纹 灵具",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "戒指",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "品质（闪电词缀）",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "60",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "黄玉戒指",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "精致腰带",
+    "corrupted": true,
+    "enchantMods": [
+     "+37 生命上限"
+    ],
+    "explicitMods": [
+     {
+      "description": "[Flask|药剂]生命回复速度降低 20%"
+     },
+     {
+      "description": "+21 [Intelligence|智慧]"
+     },
+     {
+      "description": "获得的[Flask|药剂]充能提高 25%"
+     },
+     {
+      "description": "[Flask|药剂]的生命回复效果也作用于[EnergyShield|能量护盾]"
+     }
+    ],
+    "flavourText": [
+     "一次又一次，令生命萌生谜团。"
+    ],
+    "frameType": 3,
+    "frameTypeId": "Unique",
+    "h": 1,
+    "id": "item-17",
+    "identified": true,
+    "ilvl": 79,
+    "implicitMods": [
+     {
+      "description": "具有 2 个[Charm|咒符]位"
+     },
+     {
+      "description": "[Flask|药剂]每秒获得 0.17 次充能"
+     }
+    ],
+    "inventoryId": "Belt",
+    "league": "奥杜尔秘符",
+    "name": "薛朗的背包",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "腰带",
+      "type": 109,
+      "values": []
+     }
+    ],
+    "rarity": "Unique",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "62",
+        0
+       ]
+      ]
+     }
+    ],
+    "typeLine": "精致腰带",
+    "verified": false,
+    "w": 2,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "符文师匠萨满斗篷",
+    "corrupted": true,
+    "enchantMods": [
+     "将所受伤害的16%[Recoup|吸纳]为生命"
+    ],
+    "explicitMods": [
+     {
+      "description": "[Armour|护甲]与[EnergyShield|能量护盾]提高 130%"
+     },
+     {
+      "description": "[Resistances|火焰抗性] -10%"
+     },
+     {
+      "description": "[Resistances|混沌抗性] +18%"
+     },
+     {
+      "description": "无法使用生命[Flask|药剂]\n非传奇生命[Flask|药剂]的效果持续生效\n生命[Flask|药剂]的回复效果无法瞬间完成\n你的生命[Flask|药剂]回复效果仅对你自己生效"
+     },
+     {
+      "description": "生命[Flask|药剂]回复总降 42%"
+     }
+    ],
+    "flavourText": [
+     "“不要绝望！将你自己献给森林！\r",
+     "变得空无，女神便会找到你。\r",
+     "在她的根须之中……你将被恢复。”\r",
+     "——赛尔塔斯的西雷尔"
+    ],
+    "frameType": 14,
+    "frameTypeId": "RunicUnique",
+    "grantedSkills": [
+     {
+      "displayMode": 0,
+      "name": "获得技能",
+      "values": [
+       [
+        "等级 19 恢复圣仪",
+        25
+       ]
+      ]
+     }
+    ],
+    "h": 3,
+    "id": "item-18",
+    "identified": true,
+    "ilvl": 84,
+    "inventoryId": "BodyArmour",
+    "league": "奥杜尔秘符",
+    "name": "幻梦曲",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "护甲",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Armour|护甲]",
+      "type": 16,
+      "values": [
+       [
+        "389",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[EnergyShield|能量护盾]",
+      "type": 18,
+      "values": [
+       [
+        "116",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Ward|符文结界]",
+      "type": 54,
+      "values": [
+       [
+        "53",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Unique",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "50",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Strength|力量]",
+      "type": 63,
+      "values": [
+       [
+        "35",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "35",
+        0
+       ]
+      ]
+     }
+    ],
+    "runeMods": [
+     "[Flask|药剂]的生命和魔力回复提高 20%",
+     "镶嵌在该物品上的[Idol|雕像]获得其自身的[ShamanOnlyMods|绑定]词缀的强化效果",
+     "[ShamanOnlyMods|羁绊]： +20 生命上限",
+     "[ShamanOnlyMods|羁绊]： +20 魔力上限",
+     "[ShamanOnlyMods|羁绊]： 所有技能[Quality|品质] +5%"
+    ],
+    "socketedItems": [
+     {
+      "baseType": "狐狸雕像",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "护甲: 所有技能[Quality|品质] +5%",
+       "权杖: [Minion|召唤生物]的效果区域提高 30%"
+      ],
+      "descrText": "放入胸甲或权杖的空置[Augment|增幅器]插槽中，对物品产生该效果。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "护甲: 镶嵌在该物品上的[Idol|雕像]获得其自身的[ShamanOnlyMods|绑定]词缀的强化效果"
+       },
+       {
+        "description": "权杖: [Presence|在场]范围提高 50%"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-19",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Idol|雕像]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "仅限",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "socket": 0,
+      "stackSize": 1,
+      "typeLine": "狐狸雕像",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "完美幻象符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "[MartialWeapon|战斗武器]: [Attack|攻击]的[Critical|暴击率] +1%",
+       "法杖或长杖: [CriticalDamageBonus|暴击伤害加成]提高 25%",
+       "护甲:",
+       "+20 生命上限",
+       "+20 魔力上限"
+      ],
+      "descrText": "放入武器或护甲的一个空的[Augment|增幅器]插槽中，即可将其效果应用于此物品。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "[MartialWeapon|战斗武器]: +150 [Accuracy|命中]值"
+       },
+       {
+        "description": "法杖或长杖: [Spell|法术][Critical|暴击率]提高 28%"
+       },
+       {
+        "description": "护甲: [Flask|药剂]的生命和魔力回复提高 20%"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-20",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "50",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 1,
+      "stackSize": 1,
+      "typeLine": "完美幻象符文",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "恢复圣仪",
+      "descrText": "可在技能面板中管理技能。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemSockets": [
+       "W",
+       "W",
+       "W",
+       "W"
+      ],
+      "gemTabs": [
+       {
+        "name": "恢复圣仪",
+        "pages": [
+         {
+          "skillName": "恢复圣仪",
+          "stats": [
+           "层数之间至少间隔 1 秒",
+           "法印范围为 4.5 米",
+           "在区域内总共消耗魔力上限的 35% 后，获得一层",
+           "法印持续时间为 11.8 秒",
+           "上限为 4 层",
+           "每层[Buff|增益]使[Armour|护甲]，[Evasion|闪避]与[EnergyShield|能量护盾]总增 14%",
+           "每层[Buff|增益]使每秒再生 20.6 点生命"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[Spell|法术], [AoESkill|效果区域], [DurationSkill|持续时间], [GainsStages|层数]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 5,
+        "values": [
+         [
+          "19",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗",
+        "values": [
+         [
+          "0 点魔力",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "冷却时间",
+        "values": [
+         [
+          "10.00 秒",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "施放时间",
+        "values": [
+         [
+          "0.60 秒",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "84",
+          0
+         ]
+        ]
+       }
+      ],
+      "secDescrText": "在地面上放置一个法印，为立于其中的你与[Allies|友军]提供强大的[Buff|增益状态]，赋予生命回复并增强[Armour|护甲]、[Evasion|闪避]与[EnergyShield|能量护盾]。在印记中消耗的魔力越多，此[Buff|增益状态]效果越强。",
+      "socketedItems": [
+       {
+        "baseType": "持续时间延长 II",
+        "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+        "frameType": 4,
+        "frameTypeId": "Gem",
+        "gemTabs": [
+         {
+          "name": "辅助",
+          "pages": [
+           {
+            "skillName": "",
+            "stats": [
+             "被辅助技能的技能效果持续时间总增 35%"
+            ]
+           }
+          ]
+         }
+        ],
+        "h": 1,
+        "iconTierText": "II",
+        "identified": true,
+        "ilvl": 0,
+        "league": "奥杜尔秘符",
+        "name": "",
+        "properties": [
+         {
+          "displayMode": 0,
+          "name": "[SupportGem|辅助], [DurationSkill|持续时间]",
+          "values": []
+         },
+         {
+          "displayMode": 0,
+          "name": "[SupportGemCategory|类别]",
+          "values": [
+           [
+            "持续时间延长",
+            0
+           ]
+          ]
+         },
+         {
+          "displayMode": 0,
+          "name": "消耗加成",
+          "values": [
+           [
+            "120%",
+            0
+           ]
+          ]
+         }
+        ],
+        "realm": "poe2",
+        "secDescrText": "辅助任意有持续时间的技能，延长持续时间。",
+        "socket": 0,
+        "support": true,
+        "supportGemRequirements": [
+         {
+          "displayMode": 0,
+          "name": "+5 [Strength|力量]",
+          "type": 63,
+          "values": [
+           [
+            "(5)",
+            0
+           ]
+          ]
+         }
+        ],
+        "typeLine": "持续时间延长 II",
+        "verified": false,
+        "w": 1
+       },
+       {
+        "baseType": "冷却回复 II",
+        "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+        "frameType": 4,
+        "frameTypeId": "Gem",
+        "gemTabs": [
+         {
+          "name": "辅助",
+          "pages": [
+           {
+            "skillName": "",
+            "stats": [
+             "被辅助技能的冷却回复速度提高 30%"
+            ]
+           }
+          ]
+         }
+        ],
+        "h": 1,
+        "identified": true,
+        "ilvl": 0,
+        "league": "奥杜尔秘符",
+        "name": "",
+        "properties": [
+         {
+          "displayMode": 0,
+          "name": "[SupportGem|辅助]",
+          "values": []
+         },
+         {
+          "displayMode": 0,
+          "name": "[SupportGemCategory|类别]",
+          "values": [
+           [
+            "冷却回复",
+            0
+           ]
+          ]
+         },
+         {
+          "displayMode": 0,
+          "name": "消耗加成",
+          "values": [
+           [
+            "130%",
+            0
+           ]
+          ]
+         }
+        ],
+        "realm": "poe2",
+        "secDescrText": "辅助有冷却时间的技能，加快[CooldownRecovery|冷却回复]速度。不能调整召唤生物技能。",
+        "socket": 1,
+        "support": true,
+        "supportGemRequirements": [
+         {
+          "displayMode": 0,
+          "name": "+5 [Dexterity|敏捷]",
+          "type": 64,
+          "values": [
+           [
+            "(5)",
+            0
+           ]
+          ]
+         }
+        ],
+        "typeLine": "冷却回复 II",
+        "verified": false,
+        "w": 1
+       },
+       {
+        "baseType": "机动",
+        "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+        "frameType": 4,
+        "frameTypeId": "Gem",
+        "gemTabs": [
+         {
+          "name": "辅助",
+          "pages": [
+           {
+            "skillName": "",
+            "stats": [
+             "使用被辅助技能时\n移动速度惩罚总降 25%"
+            ]
+           }
+          ]
+         }
+        ],
+        "h": 1,
+        "identified": true,
+        "ilvl": 0,
+        "league": "奥杜尔秘符",
+        "name": "",
+        "properties": [
+         {
+          "displayMode": 0,
+          "name": "[SupportGem|辅助]",
+          "values": []
+         },
+         {
+          "displayMode": 0,
+          "name": "[SupportGemCategory|类别]",
+          "values": [
+           [
+            "机动",
+            0
+           ]
+          ]
+         }
+        ],
+        "realm": "poe2",
+        "secDescrText": "辅助可在移动时使用的技能，使你在使用时可以更快地移动。",
+        "socket": 2,
+        "support": true,
+        "supportGemRequirements": [
+         {
+          "displayMode": 0,
+          "name": "+5 [Dexterity|敏捷]",
+          "type": 64,
+          "values": [
+           [
+            "(5)",
+            0
+           ]
+          ]
+         }
+        ],
+        "typeLine": "机动",
+        "verified": false,
+        "w": 1
+       }
+      ],
+      "sockets": [
+       {
+        "group": 0,
+        "type": "gem"
+       },
+       {
+        "group": 1,
+        "type": "gem"
+       },
+       {
+        "group": 2,
+        "type": "gem"
+       },
+       {
+        "group": 3,
+        "type": "gem"
+       }
+      ],
+      "support": false,
+      "typeLine": "恢复圣仪",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     },
+     {
+      "group": 1,
+      "type": "rune"
+     }
+    ],
+    "typeLine": "符文师匠萨满斗篷",
+    "verified": false,
+    "w": 2,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "冷酷手套",
+    "corrupted": true,
+    "desecrated": true,
+    "explicitMods": [
+     {
+      "description": "[EnergyShield|能量护盾]提高 97%"
+     },
+     {
+      "description": "[Attack|攻击]附加 13 - 18 基础[Cold|冰霜]伤害"
+     },
+     {
+      "description": "[Resistances|火焰抗性] +39%"
+     },
+     {
+      "description": "[ESRechargeRate|能量护盾充能率]提高 16%"
+     },
+     {
+      "description": "每击败一名敌人获得 35 点魔力"
+     },
+     {
+      "description": "+44 [EnergyShield|能量护盾]上限",
+      "flags": {
+       "desecrated": true
+      }
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 2,
+    "id": "item-21",
+    "identified": true,
+    "ilvl": 81,
+    "inventoryId": "Gloves",
+    "league": "奥杜尔秘符",
+    "name": "精魂 护指",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "手套",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[EnergyShield|能量护盾]",
+      "type": 18,
+      "values": [
+       [
+        "210",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "65",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "80",
+        0
+       ]
+      ]
+     }
+    ],
+    "runeMods": [
+     "你造成的[DamagingAilments|伤害性异常状态][BuffMagnitude|强度]提高 20%",
+     "[Flask|药剂]的 15% 生命回复效果也作用于[Ward|符文结界]",
+     "[ShamanOnlyMods|羁绊]： [Flask|药剂]的生命回复提高 15%",
+     "[ShamanOnlyMods|羁绊]： 敌人受到[DamagingAilments|伤害性异常状态]的持续时间提高 15%"
+    ],
+    "socketedItems": [
+     {
+      "baseType": "交际花曼南的残酷符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "手套: 敌人受到[DamagingAilments|伤害性异常状态]的持续时间提高 15%"
+      ],
+      "descrText": "放入手套的空置[Augment|增幅器]插槽中，对物品产生该效果。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "手套: 你造成的[DamagingAilments|伤害性异常状态][BuffMagnitude|强度]提高 20%"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-22",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "仅限",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "50",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 0,
+      "stackSize": 1,
+      "typeLine": "交际花曼南的残酷符文",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "滋养之结界符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "护甲: [Flask|药剂]的生命回复提高 15%"
+      ],
+      "descrText": "放入武器或护甲的一个空的[Augment|增幅器]插槽中，即可将其效果应用于此物品。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "护甲: [Flask|药剂]的 15% 生命回复效果也作用于[Ward|符文结界]"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-23",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "仅限",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "15",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 1,
+      "stackSize": 1,
+      "typeLine": "滋养之结界符文",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     },
+     {
+      "group": 1,
+      "type": "rune"
+     }
+    ],
+    "typeLine": "冷酷手套",
+    "verified": false,
+    "w": 2,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "丝克玛便鞋",
+    "corrupted": true,
+    "desecrated": true,
+    "explicitMods": [
+     {
+      "description": "+43 [EnergyShield|能量护盾]上限"
+     },
+     {
+      "description": "[EnergyShield|能量护盾]提高 95%"
+     },
+     {
+      "description": "[Resistances|冰霜抗性] +40%"
+     },
+     {
+      "description": "生命每秒再生 20.9"
+     },
+     {
+      "description": "移动速度提高 30%",
+      "flags": {
+       "desecrated": true
+      }
+     },
+     {
+      "description": "镶嵌的[Augment|增幅器]物品效果提高 60%",
+      "flags": {
+       "crafted": true
+      }
+     }
+    ],
+    "frameType": 2,
+    "frameTypeId": "Rare",
+    "h": 2,
+    "id": "item-24",
+    "identified": true,
+    "ilvl": 82,
+    "inventoryId": "Boots",
+    "league": "奥杜尔秘符",
+    "name": "祸害 步伐",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "鞋子",
+      "type": 109,
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[EnergyShield|能量护盾]",
+      "type": 18,
+      "values": [
+       [
+        "295",
+        1
+       ]
+      ]
+     }
+    ],
+    "rarity": "Rare",
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "80",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "108",
+        0
+       ]
+      ]
+     }
+    ],
+    "runeMods": [
+     "移动速度提高 8%",
+     "[ShamanOnlyMods|羁绊]： [CooldownRecovery|冷却回复速度]提高 16%"
+    ],
+    "socketedItems": [
+     {
+      "baseType": "法瑞尔的追逐符文",
+      "bondedMods": [
+       "[ShamanOnlyMods|羁绊]：",
+       "鞋子: [CooldownRecovery|冷却回复速度]提高 10%"
+      ],
+      "descrText": "放入鞋子的空置[Augment|增幅器]插槽中，对物品产生该效果。一旦放入插槽，无法再被移除，但可以被其他[Augment|增幅器]物品替换。",
+      "explicitMods": [
+       {
+        "description": "鞋子: 移动速度提高 5%"
+       }
+      ],
+      "frameType": 5,
+      "frameTypeId": "Currency",
+      "h": 1,
+      "id": "item-25",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "maxStackSize": 10,
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "堆叠数量",
+        "type": 32,
+        "values": [
+         [
+          "1/10",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "[Rune|符文]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "仅限",
+        "values": [
+         [
+          "1",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "50",
+          0
+         ]
+        ]
+       }
+      ],
+      "socket": 0,
+      "stackSize": 1,
+      "typeLine": "法瑞尔的追逐符文",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "rune"
+     }
+    ],
+    "typeLine": "丝克玛便鞋",
+    "verified": false,
+    "w": 2,
+    "x": 0,
+    "y": 0
+   }
+  ]
+ },
+ "talent_tree": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "talent_tree": {
+   "hashes": [
+    364,
+    517,
+    2254,
+    2491,
+    2847,
+    3084,
+    3215,
+    3251,
+    5314,
+    6006,
+    6287,
+    7628,
+    7960,
+    8493,
+    8616,
+    9642,
+    10131,
+    10247,
+    11525,
+    11641,
+    11672,
+    13157,
+    13537,
+    14205,
+    14428,
+    14429,
+    14666,
+    15408,
+    16347,
+    17702,
+    18923,
+    19355,
+    21755,
+    21984,
+    23343,
+    24922,
+    25753,
+    25990,
+    26952,
+    28175,
+    28304,
+    28370,
+    28510,
+    29009,
+    30346,
+    30996,
+    32932,
+    32976,
+    34006,
+    34201,
+    34882,
+    37276,
+    37397,
+    37974,
+    38105,
+    39037,
+    39567,
+    41372,
+    41646,
+    42350,
+    43461,
+    44299,
+    44871,
+    45248,
+    45885,
+    46554,
+    46819,
+    46882,
+    47168,
+    48030,
+    48635,
+    48670,
+    49455,
+    50104,
+    50816,
+    51048,
+    51299,
+    52125,
+    52373,
+    52556,
+    52764,
+    53030,
+    53329,
+    54099,
+    54127,
+    54282,
+    54521,
+    55582,
+    55802,
+    57710,
+    58388,
+    58814,
+    59362,
+    59779,
+    60287,
+    61403,
+    61419,
+    61438,
+    61976,
+    62230,
+    62436,
+    62677,
+    63526,
+    64471
+   ],
+   "jewel_data": {
+    "11": {
+     "type": "JewelDiamond"
+    },
+    "12": {
+     "radius": 1200,
+     "type": "JewelDiamond"
+    },
+    "14": {
+     "type": "JewelInt"
+    },
+    "15": {
+     "type": "JewelInt"
+    },
+    "16": {
+     "type": "JewelInt"
+    },
+    "20": {
+     "type": "JewelStr"
+    }
+   },
+   "quest_stats": [
+    "+20 生命上限",
+    "生命上限提高 5%",
+    "魔力上限提高 5%",
+    "+100 [Spirit|精魂]",
+    "[Charm|咒符]效果的持续时间提高 30%",
+    "+5 [Strength|力量]",
+    "+5 [Dexterity|敏捷]",
+    "+5 [Intelligence|智慧]",
+    "[Resistances|火焰抗性] +10%",
+    "[Resistances|冰霜抗性] +10%",
+    "[Resistances|闪电抗性] +10%",
+    "+15% 的[Armour|护甲]同样作用于[ElementalDamage|元素伤害]",
+    "获得相当于[Evasion|闪避值] 12% 的[Deflect|偏转值]",
+    "[FasterESRechargeStart|能量护盾充能时间提前] 12%",
+    "魔力再生率提高 25%",
+    "[Flask|药剂]的生命回复提高 30%",
+    "全局[Armour|护甲]，[Evasion|闪避]与[EnergyShield|能量护盾]提高 15%",
+    "[Charm|咒符]栏 +1",
+    "55 个[BrokenFace|毁面首领]"
+   ],
+   "skill_overrides": {
+    "10131": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "10247": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "11672": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "16484": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "17702": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "18923": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "21755": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "24922": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "28175": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "28304": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "28370": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "2847": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "28510": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "29009": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "3251": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "34201": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "39037": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "41646": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "42250": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "42350": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "45885": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "46554": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "46819": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "47168": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "48635": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "48670": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "49657": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "50104": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "51048": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "51299": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "52125": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "5314": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "54099": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "54282": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "54521": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "55802": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "57710": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "58814": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "59362": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "61403": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "61438": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "61976": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    },
+    "62677": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "63526": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "64471": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "7628": {
+     "grantedDexterity": 5,
+     "id": "generic_attribute_dexterity",
+     "name": "敏捷",
+     "stats": [
+      "+5 [Dexterity|敏捷]"
+     ]
+    },
+    "8493": {
+     "grantedIntelligence": 5,
+     "id": "generic_attribute_intelligence_",
+     "name": "智慧",
+     "stats": [
+      "+5 [Intelligence|智慧]"
+     ]
+    },
+    "8616": {
+     "grantedStrength": 5,
+     "id": "generic_attribute_strength",
+     "name": "力量",
+     "stats": [
+      "+5 [Strength|力量]"
+     ]
+    }
+   },
+   "specialisations": {
+    "set1": [
+     55,
+     8510,
+     13030,
+     14343,
+     16484,
+     19125,
+     23091,
+     27262,
+     33254,
+     34290,
+     35324,
+     36298,
+     39884,
+     42250,
+     44487,
+     45137,
+     46300,
+     49110,
+     53975,
+     54746,
+     55104,
+     57832,
+     63021
+    ],
+    "set2": [
+     354,
+     3109,
+     8810,
+     9737,
+     11037,
+     11066,
+     12451,
+     14572,
+     17026,
+     17303,
+     17867,
+     21077,
+     23373,
+     26663,
+     29514,
+     33751,
+     36522,
+     37092,
+     44765,
+     48429,
+     49657,
+     52274,
+     55817
+    ]
+   }
+  }
+ },
+ "jewels": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "jewel_data": "[{\"socket_id\": \"PassiveJewel_11\", \"socket_name\": \"珠宝插槽11\", \"jewel\": {\"id\": \"item-70\", \"display_name\": \"信念的棱镜\", \"name\": \"宝钻\", \"rarity\": 3, \"level\": 76, \"mod_descriptions\": [{\"type\": 0, \"values\": [\"所有烈焰爆破技能等级 +2\"]}]}}, {\"socket_id\": \"PassiveJewel_12\", \"socket_name\": \"珠宝插槽12\", \"jewel\": {\"id\": \"item-71\", \"display_name\": \"无根之源\", \"name\": \"宝钻\", \"rarity\": 3, \"level\": 81, \"mod_descriptions\": [{\"type\": 0, \"values\": [\"[passive_keystone_pain_attunement|苦痛灵曲]范围内的天赋可以在\\n未连结至天赋树的情况下配置\"]}]}}, {\"socket_id\": \"PassiveJewel_14\", \"socket_name\": \"珠宝插槽14\", \"jewel\": {\"id\": \"item-72\", \"display_name\": \"鹰翼明亮\", \"name\": \"蓝玉\", \"rarity\": 2, \"level\": 74, \"mod_descriptions\": [{\"type\": 0, \"values\": [\"[EnergyShield|能量护盾]上限提高 17%\"]}, {\"type\": 0, \"values\": [\"[Critical|暴击]率提高 6%\"]}, {\"type\": 0, \"values\": [\"[Ignite|点燃][BuffMagnitude|强度]提高 11%\"]}, {\"type\": 0, \"values\": [\"[ElementalDamage|元素伤害]提高 8%\"]}, {\"type\": 0, \"values\": [\"获得额外[AilmentThreshold|异常状态阈值]，相当于[EnergyShield|能量护盾]上限的 15%\"]}]}}, {\"socket_id\": \"PassiveJewel_15\", \"socket_name\": \"珠宝插槽15\", \"jewel\": {\"id\": \"item-73\", \"display_name\": \"鲜明露水\", \"name\": \"蓝玉\", \"rarity\": 2, \"level\": 80, \"mod_descriptions\": [{\"type\": 0, \"values\": [\"[Spell|法术][Critical|暴击率]提高 7%\"]}, {\"type\": 0, \"values\": [\"[Ignite|点燃][BuffMagnitude|强度]提高 13%\"]}, {\"type\": 0, \"values\": [\"[ElementalDamage|元素伤害]提高 13%\"]}, {\"type\": 0, \"values\": [\"获得相当于[EnergyShield|能量护盾]上限 11% 的[StunThreshold|晕眩阈值]\"]}]}}, {\"socket_id\": \"PassiveJewel_16\", \"socket_name\": \"珠宝插槽16\", \"jewel\": {\"id\": \"item-74\", \"display_name\": \"咒缚 护心符\", \"name\": \"蓝玉\", \"rarity\": 2, \"level\": 80, \"mod_descriptions\": [{\"type\": 0, \"values\": [\"[EnergyShield|能量护盾]上限提高 17%\"]}, {\"type\": 0, \"values\": [\"[Spell|法术][Critical|暴击率]提高 11%\"]}, {\"type\": 0, \"values\": [\"[Freeze|冻结]积蓄值提高 16%\"]}, {\"type\": 0, \"values\": [\"[Ignite|点燃][BuffMagnitude|强度]提高 13%\"]}]}}, {\"socket_id\": \"PassiveJewel_20\", \"socket_name\": \"珠宝插槽20\", \"jewel\": {\"id\": \"item-75\", \"display_name\": \"人格分裂\", \"name\": \"红玉\", \"rarity\": 3, \"level\": 84, \"mod_descriptions\": [{\"type\": 0, \"values\": [\"可以从魔巫的起点配置天赋技能\"]}]}}]"
+ },
+ "skills": {
+  "result": {
+   "error_code": 0,
+   "error_message": "success"
+  },
+  "skills": [
+   {
+    "baseType": "美德壁垒",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "美德壁垒",
+      "pages": [
+       {
+        "skillName": "美德壁垒",
+        "stats": [
+         "每 1.52 秒获得一个随机微粒",
+         "每种[Attributes|属性]的微粒上限为 3，并额外增加等同于你拥有的且为该[Attributes|属性]需求的技能数量\n单[Attributes|属性]技能赋予双倍微粒上限",
+         "每有一点[Strength|力量]微粒，生命上限提高 2%",
+         "每有一点[Dexterity|敏捷]微粒，[Armour|护甲]，[Evasion|闪避]与\n[EnergyShield|能量护盾]提高 5%",
+         "每点[Intelligence|智慧]微粒使生命回复速度提高 5%",
+         "每点[Intelligence|智慧]微粒使魔力回复速度提高 5%"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-26",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "AscendancySkills",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Buff|增益], [Persistent|永久性]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "20(最高等级)",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "90",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "激活时，召唤一面闪烁的屏障，随时间积累每种[Attributes|属性]类型的保护性宝石尘埃，但当你被[Hit|击中]时会失去一个随机尘埃。",
+    "socketedItems": [
+     {
+      "baseType": "护甲破坏者 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能[ArmourBreak|粉碎]的[Armour|护甲]总增 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-27",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "护甲破坏者",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意技能，使其造成的[ArmourBreak|护甲破损]效果更强。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "护甲破坏者 I",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     },
+     {
+      "group": 4,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "美德壁垒",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "威能法印",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "威能法印",
+      "pages": [
+       {
+        "skillName": "威能法印",
+        "stats": [
+         "层数之间至少间隔 1 秒",
+         "法印范围为 3 米",
+         "在区域内总共消耗魔力上限的 50% 后，获得一层",
+         "法印持续时间为 11.7 秒",
+         "上限为 4 层",
+         "每层[Buff|增益]使[Spell|法术]伤害总增 14%"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": null,
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Spell|法术], [AoESkill|效果区域], [DurationSkill|持续时间], [GainsStages|层数]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "18",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "消耗",
+      "values": [
+       [
+        "0 点魔力",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "冷却时间",
+      "values": [
+       [
+        "10.00 秒",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "施放时间",
+      "values": [
+       [
+        "0.60 秒",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "78",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "137",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "在地面放置一个法印，当你和你的[Allies|友军]处于法印内时获得高额[Spell|法术]伤害[Buff|增益状态]。你在法印内消耗的魔力越多，[Buff|增益状态]会变得越强大。",
+    "socketedItems": [],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "威能法印",
+    "verified": false,
+    "w": 1,
+    "x": null,
+    "y": null
+   },
+   {
+    "baseType": "恢复圣仪",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "恢复圣仪",
+      "pages": [
+       {
+        "skillName": "恢复圣仪",
+        "stats": [
+         "层数之间至少间隔 1 秒",
+         "法印范围为 4.5 米",
+         "在区域内总共消耗魔力上限的 35% 后，获得一层",
+         "法印持续时间为 11.8 秒",
+         "上限为 4 层",
+         "每层[Buff|增益]使[Armour|护甲]，[Evasion|闪避]与[EnergyShield|能量护盾]总增 14%",
+         "每层[Buff|增益]使每秒再生 20.6 点生命"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": null,
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Spell|法术], [AoESkill|效果区域], [DurationSkill|持续时间], [GainsStages|层数]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "19",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "消耗",
+      "values": [
+       [
+        "0 点魔力",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "冷却时间",
+      "values": [
+       [
+        "10.00 秒",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "施放时间",
+      "values": [
+       [
+        "0.60 秒",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "84",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "在地面上放置一个法印，为立于其中的你与[Allies|友军]提供强大的[Buff|增益状态]，赋予生命回复并增强[Armour|护甲]、[Evasion|闪避]与[EnergyShield|能量护盾]。在印记中消耗的魔力越多，此[Buff|增益状态]效果越强。",
+    "socketedItems": [
+     {
+      "baseType": "持续时间延长 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的技能效果持续时间总增 35%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [DurationSkill|持续时间]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "持续时间延长",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意有持续时间的技能，延长持续时间。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "持续时间延长 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "冷却回复 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的冷却回复速度提高 30%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "冷却回复",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "130%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助有冷却时间的技能，加快[CooldownRecovery|冷却回复]速度。不能调整召唤生物技能。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "冷却回复 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "机动",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "使用被辅助技能时\n移动速度惩罚总降 25%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "机动",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助可在移动时使用的技能，使你在使用时可以更快地移动。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "机动",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "恢复圣仪",
+    "verified": false,
+    "w": 1,
+    "x": null,
+    "y": null
+   },
+   {
+    "baseType": "永恒狂怒",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "永恒狂怒",
+      "pages": [
+       {
+        "skillName": "永恒狂怒",
+        "stats": [
+         "必须在两个[WeaponSets|武器组]中都激活",
+         "每秒再生 5.25 点[Rage|怒火]"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-28",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Buff|增益], [Persistent|永久性]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "19",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "保留",
+      "type": 104,
+      "values": [
+       [
+        "100 [Spirit|精魂]",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "84",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Strength|力量]",
+      "type": 63,
+      "values": [
+       [
+        "147",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "激活时，你持续生成[Rage|怒火]。",
+    "socketedItems": [
+     {
+      "baseType": "药草学 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能激活时，生命[Flask|药剂]的回复提高 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-29",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Buff|增益], [Persistent|永久性]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "药草学",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "额外保留",
+        "type": 104,
+        "values": [
+         [
+          "30 [Spirit|精魂]",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Persistent|永久性][Buff|增益]技能，激活该技能时提高你从[Flask|药剂]获得的生命回复。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "药草学 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "护甲破坏者 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能[ArmourBreak|粉碎]的[Armour|护甲]总增 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-30",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "护甲破坏者",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意技能，使其造成的[ArmourBreak|护甲破损]效果更强。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "护甲破坏者 I",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "永恒狂怒",
+    "verified": false,
+    "w": 1,
+    "x": 3,
+    "y": 0
+   },
+   {
+    "baseType": "瘟疫使者",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": null,
+      "pages": [
+       {
+        "skillName": "瘟疫使者",
+        "stats": [
+         "储存预期[Poison|中毒]伤害的 4%，最多 552\n造成相当于储存[Poison|中毒]的[Physical|物理]伤害"
+        ]
+       }
+      ]
+     },
+     {
+      "name": null,
+      "pages": [
+       {
+        "skillName": "瘟疫使者",
+        "stats": [
+         "[Hit|击中]时必定使目标[Poison|中毒]",
+         "[Stun|晕眩]积蓄总降 80%",
+         "新星范围为 1.8 米",
+         "存储[Poison|中毒]伤害使效果范围最多总增 600%"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-31",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Buff|增益], [Persistent|永久性], [AoESkill|效果区域], [Physical|物理], [Chaos|混沌], [Nova|新星]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "7",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "保留",
+      "type": 104,
+      "values": [
+       [
+        "30 [Spirit|精魂]",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "22",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Dexterity|敏捷]",
+      "type": 64,
+      "values": [
+       [
+        "41",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "激活时，储存你造成的所有[Poison|中毒]伤害的一部分。使用此技能释放储存的[Poison|毒素]，伤害并使你周围的敌人[Poison|中毒]。",
+    "socketedItems": [
+     {
+      "baseType": "迸发之疫",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "辅助",
+          "stats": [
+           "被辅助技能的[Poison|中毒]还会每秒对敌人附加相当于伤害的 100% 的瘟疫值，最多为敌人生命上限的 20%"
+          ]
+         }
+        ]
+       },
+       {
+        "name": "灾难爆发",
+        "pages": [
+         {
+          "description": "当被辅助技能施加[Poison|中毒]的敌人被击败时[Trigger|触发]，根据积蓄的灾难值，在周围造成[Physical|物理]伤害。",
+          "properties": [
+           {
+            "displayMode": 0,
+            "name": "消耗",
+            "values": [
+             [
+              "0 点魔力",
+              0
+             ]
+            ]
+           },
+           {
+            "displayMode": 0,
+            "name": "冷却时间",
+            "values": [
+             [
+              "0.10 秒",
+              0
+             ]
+            ]
+           }
+          ],
+          "skillName": "灾难爆发",
+          "stats": [
+           "[Critical|暴击]几率 +5%",
+           "造成相当于触发的敌人具有瘟疫值的 100% 的[Physical|物理]伤害",
+           "瘟疫值达到上限时效果范围总增最多 100%",
+           "具有瘟疫值的敌人被击败时触发该技能",
+           "爆发范围为 1.8 米"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-32",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [AoESkill|效果区域], [Trigger|触发], [Physical|物理], [Chaos|混沌]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "迸发之疫",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助使敌人[Poison|中毒]的技能，使[Poison|中毒]的敌人持续受到顽疾影响，并且在被击败时造成毒爆发。无法辅助[Minion|召唤生物]的技能。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "迸发之疫",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "极速腐化 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的非[Ailments|异常状态]的持续伤害总增 30%",
+           "被辅助技能与其施加的技能和伤害型[Ailments|异常状态]的持续时间总降 20%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-33",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [DurationSkill|持续时间]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "极速腐化",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意造成伤害的技能，使其造成更高的非[DamagingAilments|异常状态]持续伤害，但缩短持续时间。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "极速腐化 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "火焰曝露",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能[Ignite|点燃]目标时施加[Exposure|曝露]，持续 8 秒"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-34",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Fire|火焰], [DurationSkill|持续时间]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "火焰曝露",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意[Hit|击中]敌人的技能，使其在[Ignite|点燃]时施加[Exposure|曝露]。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "火焰曝露",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "焚躯烈焰 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的[Hit|击中]伤害总降 30%",
+           "被辅助技能造成的[Ignite|点燃][BuffMagnitude|强度]总增 100%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-35",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Fire|火焰]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "焚躯烈焰",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意[Hit|击中]敌人的技能，使其造成的[Ignite|点燃]伤害提高，但[Hit|击中]的伤害降低。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "焚躯烈焰 II",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "瘟疫使者",
+    "verified": false,
+    "w": 1,
+    "x": 8,
+    "y": 0
+   },
+   {
+    "baseType": "闪电之捷",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "增益",
+      "pages": [
+       {
+        "skillName": "闪电",
+        "stats": [
+         "无法被[Evasion|闪避]",
+         "闪电冲击范围为 1 米",
+         "闪电的[Physical|物理]伤害的 100%\n[Conversion|转化]为[Lightning|闪电]伤害"
+        ]
+       },
+       {
+        "properties": [
+         {
+          "displayMode": 0,
+          "name": "保留",
+          "type": 104,
+          "values": [
+           [
+            "30 [Spirit|精魂]",
+            0
+           ]
+          ]
+         }
+        ],
+        "skillName": "增益",
+        "stats": [
+         "用[Attack|攻击]伤害击败[Shock|感电]的敌人后\n你的下 2 次[Attack|攻击][Hit|击中]会以闪电打击目标"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-36",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Buff|增益], [Attack|攻击], [Persistent|永久性], [AoESkill|效果区域], [Lightning|闪电], [Herald|捷], [Payoff|清算]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "4",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "保留",
+      "type": 104,
+      "values": [
+       [
+        "30 [Spirit|精魂]",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "攻击伤害",
+      "values": [
+       [
+        "40%",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "10",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Dexterity|敏捷]",
+      "type": 64,
+      "values": [
+       [
+        "21",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "激活时，非[Herald|捷技能][Attack|攻击][Hit|击中]并击败[Shock|感电]敌人会使后续的[Attack|攻击][Hit|击中]释放出闪电，对周围所有的敌人造成[Attack|攻击]伤害。",
+    "socketedItems": [
+     {
+      "baseType": "元素军械 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的[ElementalDamage|元素][Attack|攻击]伤害总增 25%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-37",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Attack|攻击]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "元素军械",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Attack|攻击]，使攻击造成更高[ElementalDamage|元素]伤害。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "元素军械 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "定身 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的[HeavyStun|晕眩积蓄]修正改为作用于[Pinned|定身积蓄]\n被辅助技能无法造成[HeavyStun|晕眩积蓄]",
+           "被辅助技能的物理伤害造成[Pinned|定身]"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-38",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Physical|物理]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "定身",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意[Hit|击中]敌人的技能，使其[Physical|物理]伤害可以对敌人造成[Pinned|定身]，但无法造成[Stun|晕眩]。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "定身 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "致盲 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能[Hit|击中]时[Blind|致盲]敌人"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-39",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "致盲",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "110%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意[Hit|击中]敌人的技能，使[Hit|击中]能造成[Blind|致盲]。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "致盲 I",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "闪电之捷",
+    "verified": false,
+    "w": 1,
+    "weaponRequirements": [
+     {
+      "displayMode": 0,
+      "name": "",
+      "type": 96,
+      "values": [
+       [
+        "任何[MartialWeapon|战斗武器]",
+        0
+       ]
+      ]
+     }
+    ],
+    "x": 7,
+    "y": 0
+   },
+   {
+    "baseType": "风舞者",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "增益",
+      "pages": [
+       {
+        "skillName": "增益",
+        "stats": [
+         "上限为 3 层",
+         "每 1.44 秒获得一层",
+         "每层使[Evasion|闪避]值总增 10%\n被敌人[Hit|击中]时消耗所有层数，触发飓风之力"
+        ]
+       }
+      ]
+     },
+     {
+      "name": "飓风之力",
+      "pages": [
+       {
+        "properties": [
+         {
+          "displayMode": 0,
+          "name": "消耗",
+          "values": [
+           [
+            "0 点魔力",
+            0
+           ]
+          ]
+         },
+         {
+          "displayMode": 0,
+          "name": "冷却时间",
+          "values": [
+           [
+            "0.25 秒",
+            0
+           ]
+          ]
+         },
+         {
+          "displayMode": 0,
+          "name": "攻击伤害",
+          "values": [
+           [
+            "27%",
+            0
+           ]
+          ]
+         }
+        ],
+        "skillName": "飓风之力",
+        "stats": [
+         "[Knockback|击退]敌人",
+         "爆炸范围为 1.6 米",
+         "每层使效果区域总增 100%",
+         "每层使伤害总增 50%",
+         "每层使[Knockback|击退]距离总增 25%"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-40",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Buff|增益], [Attack|攻击], [Persistent|永久性], [AoESkill|效果区域], [Melee|近战], [Trigger|触发], [GainsStages|层数]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "4",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "保留",
+      "type": 104,
+      "values": [
+       [
+        "30 [Spirit|精魂]",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "10",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Dexterity|敏捷]",
+      "type": 64,
+      "values": [
+       [
+        "21",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "激活时，每隔一段获得增益状态层数，每层使你的[Evasion|闪避]提高。拥有该增益状态时被敌人[Hit|击中]会消耗全部层数，对周围的敌人造成伤害和[Knockback|击退]。",
+    "socketedItems": [
+     {
+      "baseType": "减速效能",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的[Debuff|减益状态]的[SlowMagnitudeModifier|减速强度]提高 15%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-41",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Spell|法术]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "累赘",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意技能，使其造成的[Slow|减速]效果更为强劲。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "减速效能",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "元素军械 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的[ElementalDamage|元素][Attack|攻击]伤害总增 20%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-42",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Attack|攻击]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "元素军械",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Attack|攻击]，使攻击造成更高[ElementalDamage|元素]伤害。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "元素军械 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "中毒 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能在[Hit|击中]时有 40% 的几率使敌人[Poison|中毒]"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-43",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Chaos|混沌]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "烈毒",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意[Hit|击中]敌人的技能，使其有几率令敌人[Poison|中毒]。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "中毒 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "流血 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能有 50% 的几率造成[Bleeding|流血]"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-44",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Physical|物理]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "流血",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意[Hit|击中]敌人的技能，使其有几率造成[Bleeding|流血]。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "流血 I",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "风舞者",
+    "verified": false,
+    "w": 1,
+    "weaponRequirements": [
+     {
+      "displayMode": 0,
+      "name": "",
+      "type": 96,
+      "values": [
+       [
+        "任何[MartialWeapon|战斗武器]",
+        0
+       ]
+      ]
+     }
+    ],
+    "x": 6,
+    "y": 0
+   },
+   {
+    "baseType": "元素要害",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "元素要害",
+      "pages": [
+       {
+        "skillName": "元素要害",
+        "stats": [
+         "[Curse|诅咒]在 1.5 秒延迟后生效",
+         "[Curse|诅咒]范围为 2.9 米",
+         "[Curse|诅咒]使[ElementalDamage|元素][Resistances|抗性]降低 -57%",
+         "[Curse|诅咒]持续时间为 7.2 秒"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-45",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Spell|法术], [AoESkill|效果区域], [Lightning|闪电], [Cold|冰霜], [Fire|火焰], [DurationSkill|持续时间], [Curse|诅咒], [Repeat|可重复]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "18",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "消耗",
+      "values": [
+       [
+        "160 点魔力",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "施放时间",
+      "values": [
+       [
+        "0.70 秒",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "78",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "137",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "在短暂的延迟后对一片区域内的所有目标降下[Curse|诅咒]，降低其[ElementalDamage|元素][Resistances|抗性]。",
+    "socketedItems": [
+     {
+      "baseType": "强效诅咒",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助的[Curse|诅咒][BuffMagnitude|强度]提高 25%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-46",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Curse|诅咒]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "强效诅咒",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗及保留加成",
+        "values": [
+         [
+          "140%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Curse|诅咒]技能，强化其力量。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "强效诅咒",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "聚焦诅咒",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的[Curse|诅咒]区域\n爆发延迟总降 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-47",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Curse|诅咒]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "聚焦诅咒",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Curse|诅咒]技能，使其在施放后更快地[Curse|诅咒]敌人。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "聚焦诅咒",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "范围扩大 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的效果范围提高 35%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-48",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [AoESkill|效果区域]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "效果区域扩大",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "130%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意有范围效果的技能，使范围扩大。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "范围扩大 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "诅咒之地",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能产生[Curse|诅咒]之地\n被辅助技能的[Curse|诅咒]之地上的敌人受到[Curse|诅咒]",
+           "[Curse|诅咒]地面数量[Limit|上限]为 2 块"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-49",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Curse|诅咒]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "诅咒之地",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Curse|诅咒]技能，被辅助的[Curse|诅咒]技能产生一片区域，持续对其中的敌人施加[Curse|诅咒]。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "诅咒之地",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "元素要害",
+    "verified": false,
+    "w": 1,
+    "x": 5,
+    "y": 0
+   },
+   {
+    "baseType": "烈焰爆破",
+    "corrupted": true,
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "烈焰爆破",
+      "pages": [
+       {
+        "skillName": "烈焰爆破",
+        "stats": [
+         "造成 281 - 421 [Fire|火焰]伤害",
+         "施法速度总增 20%",
+         "每层使伤害总增 75%",
+         "施法速度词缀也会影响该技能的消耗",
+         "上限为 10 层",
+         "引爆范围为每层 0.6 米"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-50",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Spell|法术], [AoESkill|效果区域], [Fire|火焰], [Channelling|吟唱], [Nova|新星], [GainsStages|层数]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "21",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "",
+      "values": [
+       [
+        "技能石等级（最大） 20",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "",
+      "values": [
+       [
+        "由辅助宝石增加 1 等级",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "消耗",
+      "values": [
+       [
+        "魔力每秒 63.4 点",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "冷却时间",
+      "values": [
+       [
+        "10.00 秒",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "施放时间",
+      "values": [
+       [
+        "0.25 秒",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Critical|暴击]率",
+      "values": [
+       [
+        "8.00%",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "90",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "157",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "[Channelling|持续吟唱]，在你周围积蓄毁灭能量。释放能量会引发一次毁灭性爆炸，[Channelling|吟唱]时间越久范围越大、强度越高。",
+    "socketedItems": [
+     {
+      "baseType": "范围集中",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的范围伤害总增 30%",
+           "被辅助技能的效果范围总降 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-51",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [AoESkill|效果区域]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "范围集中",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意有范围效果的技能，使技能的效果范围变小，但造成更高的范围伤害。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "范围集中",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "审慎施法",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助法术技能的施法速度总降 15%",
+           "被辅助[Spell|法术]造成的伤害总增 35%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-52",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Spell|法术]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "审慎施法",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "115%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助你自己施放的[Hit|击中]敌人的[Spell|法术]技能，增强伤害但牺牲施法速度。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "审慎施法",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "涤罪之火",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能[StatGain|获得]等同于生命和魔力消耗 25% 的[StatGain|额外][Ward|符文结界]消耗",
+           "被辅助技能造成的[Ignite|点燃][BuffMagnitude|强度]总增 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-53",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Fire|火焰]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "焚躯烈焰",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任何[Hit|击中]敌人的技能，使施加的[Ignite|点燃]造成更多伤害，但该技能会获得[Ward|符文结界]消耗。",
+      "socket": 2,
+      "support": true,
+      "typeLine": "涤罪之火",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "迅猛增幅 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "每[Channelling|吟唱]一秒，被辅助技能造成的伤害总增 20%，最多 40%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-54",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Channelling|吟唱]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "迅猛增幅",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "120%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助你自己使用的[Channelling|持续吟唱]技能，使其[Channelling|吟唱]的时间越久，造成的伤害越高。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "迅猛增幅 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "火焰专精",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助的[Fire|火焰]技能等级 +1"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-55",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Fire|火焰]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "专精",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Fire|火焰]技能，使其等级提升一级。不能辅助没有等级的技能。",
+      "socket": 4,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "火焰专精",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     },
+     {
+      "group": 4,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "烈焰爆破",
+    "verified": false,
+    "w": 1,
+    "x": 0,
+    "y": 0
+   },
+   {
+    "baseType": "黏油榴弹",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "主要榴弹",
+      "pages": [
+       {
+        "skillName": "主要榴弹",
+        "stats": [
+         "[DetonationTime|引爆时间]为 1.6 秒",
+         "[CooldownRecovery|冷却回复速度]提高 20%",
+         "[Projectile|投射物]不能[Fork|分叉]",
+         "[Oil|黏油]使敌人的移动速度[Slow|减速] 40%",
+         "[Oil|黏油]造成[Exposure|曝露]，使全部\n[ElementalDamage|元素][Resistances|抗性]总降 20%",
+         "[Hit|击中]和[Oil|黏油]溅射范围为 2.5 米",
+         "[Oil|黏油]持续时间为 6 秒"
+        ]
+       },
+       {
+        "properties": [],
+        "skillName": "黏油地面",
+        "stats": [
+         "[DetonationTime|引爆时间]为 1.6 秒",
+         "将[Physical|物理]伤害的 100% [Conversion|转化]为[Fire|火焰]伤害",
+         "一旦[Ignite|点燃]，[OilGround|黏油地面]会为[Ignite|点燃]附加该攻击 150% 的[Fire|火焰][Hit|伤害]，该[Hit|伤害]无法透过其他效果加成",
+         "[CooldownRecovery|冷却回复速度]提高 20%",
+         "[Projectile|投射物]不能[Fork|分叉]",
+         "[Oil|黏油]使敌人的移动速度[Slow|减速] 40%",
+         "[Oil|黏油]造成[Exposure|曝露]，使全部\n[ElementalDamage|元素][Resistances|抗性]总降 20%",
+         "[OilGround|黏油地面]为 2.5 米",
+         "[OilGround|黏油地面]持续时间为 6 秒"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-56",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Attack|攻击], [AoESkill|效果区域], [Projectile|投射物], [Grenade|榴弹], [Fire|火焰], [DurationSkill|持续时间]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "18",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "消耗",
+      "values": [
+       [
+        "51 点魔力",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "冷却时间",
+      "values": [
+       [
+        "4.00 秒（3 次）",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "攻击速度",
+      "values": [
+       [
+        "75% 基础",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "攻击伤害",
+      "values": [
+       [
+        "352%",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "78",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Strength|力量]",
+      "type": 63,
+      "values": [
+       [
+        "75",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Dexterity|敏捷]",
+      "type": 64,
+      "values": [
+       [
+        "75",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "发射一枚弹跳的[Grenade|榴弹]，引线燃尽或击中敌人时喷射出一滩[Oil|黏油]，造成少量伤害，并使[OilGround|地面]和附近的敌人沾满[Oil|黏油]。以这种方式产生的黏油可以被[Detonator|引爆]技能或[IgnitedGround|点燃地面][Ignite|点燃]。",
+    "socketedItems": [
+     {
+      "baseType": "新星投射物 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能环形发射[Projectile|投射物]"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-57",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Projectile|投射物]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "新星投射物",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Projectile|投射物]技能，使其环形发射火焰[Projectile|投射物]，但伤害降低并附加冷却时间。无法辅助自上方落下[Projectile|投射物]的技能。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "新星投射物 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "短暂引信 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的[DetonationTime|引爆时间]总降 80%",
+           "被辅助技能造成的伤害总降 30%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-58",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "短暂引信",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "115%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助经过一定时间后[DetonationTime|引爆]的技能，大幅缩短[DetonationTime|引爆]前的时间，但会牺牲伤害。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "短暂引信 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "侵蚀地面",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能产生的地面效果范围每秒提高 20%，最多 100%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-59",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [AoESkill|效果区域]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "侵蚀地面",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "110%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助产生地面效果的技能，使地面效果持续扩张至特定上限。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "侵蚀地面",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "穿透 III",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的[Projectile|投射物][Pierce|穿透]所有目标",
+           "被辅助技能的[Projectile|投射物]每[Pierce|穿透]一个敌人，伤害总降 20%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "III",
+      "id": "item-60",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Projectile|投射物]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "穿透",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Projectile|投射物]技能，使其[Projectile|投射物]可以[Pierce|穿透]无限数量的敌人，但穿透时会损失伤害。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "穿透 III",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "多重射击 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的伤害总降 -25%",
+           "被辅助技能可以发射 2 个额外[Projectile|投射物]",
+           "辅助技能的[SkillSpeed|技能速度]总降 20%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-61",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Projectile|投射物]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "额外投射物连锁",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Projectile|投射物]技能，可以发射额外的[Projectile|投射物]。同时降低被辅助技能的[Attack|攻击]和施法速度，并降低它们的伤害。",
+      "socket": 4,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "多重射击 II",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     },
+     {
+      "group": 4,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "黏油榴弹",
+    "verified": false,
+    "w": 1,
+    "weaponRequirements": [
+     {
+      "displayMode": 0,
+      "name": "",
+      "type": 96,
+      "values": [
+       [
+        "[Crossbow|战弩]",
+        0
+       ]
+      ]
+     }
+    ],
+    "x": 1,
+    "y": 0
+   },
+   {
+    "baseType": "龙卷旋风",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "龙卷旋风",
+      "pages": [
+       {
+        "skillName": "龙卷旋风",
+        "stats": [
+         "每秒造成 108.6 [Physical|物理]伤害",
+         "[Spell|法术]伤害词缀会作用于[Debuff|减益]的持续伤害",
+         "龙卷旋风范围为3 米",
+         "每秒造成吸收的每种\n[ElementalDamage|元素伤害]类型的 217.2 点伤害",
+         "龙卷旋风持续时间为 8 秒",
+         "龙卷旋风[Limit|上限] 1 个"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-62",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Spell|法术], [AoESkill|效果区域], [Physical|物理], [DurationSkill|持续时间], [Wind|风系], [Storm|风暴]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "18",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "消耗",
+      "values": [
+       [
+        "90 点魔力",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "施放时间",
+      "values": [
+       [
+        "0.75 秒",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "78",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Strength|力量]",
+      "type": 63,
+      "values": [
+       [
+        "75",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Intelligence|智慧]",
+      "type": 65,
+      "values": [
+       [
+        "75",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "生成一道龙卷风，持续卷入敌人并对其造成[Physical|物理]伤害。当龙卷风叠加[ElementalGround|元素地面效果]时，将继承其[Debuff|减益状态]，并对范围内的敌人施加该状态，并使龙卷风额外造成该元素的伤害。",
+    "socketedItems": [
+     {
+      "baseType": "范围扩大 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能的效果范围提高 45%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-63",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [AoESkill|效果区域]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "效果区域扩大",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "130%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意有范围效果的技能，使范围扩大。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "范围扩大 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "审慎施法",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助法术技能的施法速度总降 15%",
+           "被辅助[Spell|法术]造成的伤害总增 35%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-64",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Spell|法术]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "审慎施法",
+          0
+         ]
+        ]
+       },
+       {
+        "displayMode": 0,
+        "name": "消耗加成",
+        "values": [
+         [
+          "115%",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助你自己施放的[Hit|击中]敌人的[Spell|法术]技能，增强伤害但牺牲施法速度。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "审慎施法",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "极速腐化 II",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能造成的非[Ailments|异常状态]的持续伤害总增 30%",
+           "被辅助技能与其施加的技能和伤害型[Ailments|异常状态]的持续时间总降 10%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "II",
+      "id": "item-65",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [DurationSkill|持续时间]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "极速腐化",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意造成伤害的技能，使其造成更高的非[DamagingAilments|异常状态]持续伤害，但缩短持续时间。",
+      "socket": 2,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Dexterity|敏捷]",
+        "type": 64,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "极速腐化 II",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "风暴行军",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助的技能从玩家处释放，并朝目标位置移动"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-66",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [Storm|风暴]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "风暴行军",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助[Storm|风暴]技能，使其从玩家处产生，并向目标位置移动。",
+      "socket": 3,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Intelligence|智慧]",
+        "type": 65,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "风暴行军",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "龙卷旋风",
+    "verified": false,
+    "w": 1,
+    "x": 2,
+    "y": 0
+   },
+   {
+    "baseType": "盛怒",
+    "descrText": "可在技能面板中管理技能。",
+    "frameType": 4,
+    "frameTypeId": "Gem",
+    "gemSockets": [
+     "W",
+     "W",
+     "W",
+     "W"
+    ],
+    "gemTabs": [
+     {
+      "name": "盛怒",
+      "pages": [
+       {
+        "skillName": "盛怒",
+        "stats": [
+         "未失去[Rage|怒火]时，每点[Rage|怒火]每秒[LifeLoss|失去] 0.1% 生命",
+         "使[Rage|怒火]效果提高 70%"
+        ]
+       }
+      ]
+     }
+    ],
+    "h": 1,
+    "id": "item-67",
+    "identified": true,
+    "ilvl": 0,
+    "inventoryId": "SkillSlots",
+    "league": "奥杜尔秘符",
+    "name": "",
+    "properties": [
+     {
+      "displayMode": 0,
+      "name": "[Buff|增益], [Persistent|永久性]",
+      "values": []
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 5,
+      "values": [
+       [
+        "21",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "",
+      "values": [
+       [
+        "技能石等级 19",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "",
+      "values": [
+       [
+        "由辅助宝石增加 2 等级",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "[Quality|品质]",
+      "type": 6,
+      "values": [
+       [
+        "+20%",
+        1
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "保留",
+      "type": 104,
+      "values": [
+       [
+        "30 [Spirit|精魂]",
+        0
+       ]
+      ]
+     }
+    ],
+    "realm": "poe2",
+    "requirements": [
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "type": 62,
+      "values": [
+       [
+        "84",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 1,
+      "name": "[Strength|力量]",
+      "type": 63,
+      "values": [
+       [
+        "147",
+        0
+       ]
+      ]
+     },
+     {
+      "displayMode": 0,
+      "name": "等级",
+      "suffix": "(宝石)",
+      "type": 62,
+      "values": [
+       [
+        "65",
+        0
+       ]
+      ]
+     }
+    ],
+    "secDescrText": "激活时，强化你的[Rage|怒火]，但在未失去[Rage|怒火]时使你损失生命。",
+    "socketedItems": [
+     {
+      "baseType": "护甲破坏者 I",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "被辅助技能[ArmourBreak|粉碎]的[Armour|护甲]总增 50%"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "iconTierText": "I",
+      "id": "item-68",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "护甲破坏者",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "secDescrText": "辅助任意技能，使其造成的[ArmourBreak|护甲破损]效果更强。",
+      "socket": 0,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "护甲破坏者 I",
+      "verified": false,
+      "w": 1
+     },
+     {
+      "baseType": "乌崔德的预兆",
+      "descrText": "在技能面板中放入一个技能的辅助宝石插槽，使技能获得该效果。无法在一个技能中镶嵌多个相同类别的辅助宝石。",
+      "flavourText": [
+       "日日夜夜，他的祭司跟踪每一位卡古兰英雄。\r",
+       "梅德维德失踪后，乌崔德愈发偏执多疑。\r",
+       "如今，仅存两人……欧罗什与沃拉娜。"
+      ],
+      "frameType": 4,
+      "frameTypeId": "Gem",
+      "gemTabs": [
+       {
+        "name": "辅助",
+        "pages": [
+         {
+          "skillName": "",
+          "stats": [
+           "若仅有一个其他辅助宝石影响被辅助技能，被辅助技能宝石等级 +2"
+          ]
+         }
+        ]
+       }
+      ],
+      "h": 1,
+      "id": "item-69",
+      "identified": true,
+      "ilvl": 0,
+      "league": "奥杜尔秘符",
+      "name": "",
+      "properties": [
+       {
+        "displayMode": 0,
+        "name": "[SupportGem|辅助], [LineageSupports|血统]",
+        "values": []
+       },
+       {
+        "displayMode": 0,
+        "name": "[SupportGemCategory|类别]",
+        "values": [
+         [
+          "君锋城的乌崔德",
+          0
+         ]
+        ]
+       }
+      ],
+      "realm": "poe2",
+      "requirements": [
+       {
+        "displayMode": 0,
+        "name": "等级",
+        "type": 62,
+        "values": [
+         [
+          "65",
+          0
+         ]
+        ]
+       }
+      ],
+      "secDescrText": "辅助可升级的技能，在恰好有一个其他辅助宝石修改被辅助技能的情况下，提供额外等级。无法辅助没有等级的技能。",
+      "socket": 1,
+      "support": true,
+      "supportGemRequirements": [
+       {
+        "displayMode": 0,
+        "name": "+5 [Strength|力量]",
+        "type": 63,
+        "values": [
+         [
+          "(5)",
+          0
+         ]
+        ]
+       }
+      ],
+      "typeLine": "乌崔德的预兆",
+      "verified": false,
+      "w": 1
+     }
+    ],
+    "sockets": [
+     {
+      "group": 0,
+      "type": "gem"
+     },
+     {
+      "group": 1,
+      "type": "gem"
+     },
+     {
+      "group": 2,
+      "type": "gem"
+     },
+     {
+      "group": 3,
+      "type": "gem"
+     }
+    ],
+    "support": false,
+    "typeLine": "盛怒",
+    "verified": false,
+    "w": 1,
+    "x": 4,
+    "y": 0
+   }
+  ]
+ }
+}

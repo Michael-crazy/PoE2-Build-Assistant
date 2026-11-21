@@ -1,0 +1,751 @@
+{
+ "bases": {
+  "ambiguous": 0,
+  "ambiguous_names": {},
+  "matched": 1750,
+  "missing": 19,
+  "missing_names": [
+   "Calm Leg",
+   "Caster Arm",
+   "Combat Arm",
+   "Commanding Arm",
+   "Decrepifying Arm",
+   "Deflective Arm",
+   "Energy Blade One Handed",
+   "Energy Blade Two Handed",
+   "Evasive Leg",
+   "Fishing Rod",
+   "Guarding Arm",
+   "Keyblade",
+   "Restorative Leg",
+   "Shrine Sceptre (Purity of Cold)",
+   "Shrine Sceptre (Purity of Fire)",
+   "Shrine Sceptre (Purity of Lighting)",
+   "Sprinters Leg",
+   "Sturdy Leg",
+   "Surefooted Leg"
+  ],
+  "pob_total": 1769,
+  "poe2db_only": 322
+ },
+ "format": "poe2-pob-localization/1",
+ "gems": {
+  "ambiguous": 0,
+  "ambiguous_ids": {},
+  "matched": 946,
+  "missing": 20,
+  "missing_ascendancy_or_default": 4,
+  "missing_ids": [
+   "Metadata/Items/Gems/SkillGemCastCurseOnBlock",
+   "Metadata/Items/Gems/SkillGemCastOnMeleeKill",
+   "Metadata/Items/Gems/SkillGemCastOnMeleeStun",
+   "Metadata/Items/Gems/SkillGemDetonateMinion",
+   "Metadata/Items/Gems/SkillGemGelidPalm",
+   "Metadata/Items/Gems/SkillGemHisFoulEmergence",
+   "Metadata/Items/Gems/SkillGemHisWinnowingFlame",
+   "Metadata/Items/Gems/SkillGemIceFragments",
+   "Metadata/Items/Gems/SkillGemPlayerDefault2HMace",
+   "Metadata/Items/Gems/SkillGemPlayerDefaultGrenadeLauncher",
+   "Metadata/Items/Gems/SkillGemPlayerDefaultMaceMace",
+   "Metadata/Items/Gems/SkillGemPlayerDefaultSpearOffHand",
+   "Metadata/Items/Gems/SkillGemScatteringCalamity",
+   "Metadata/Items/Gems/SkillGemSmashToSmithereens",
+   "Metadata/Items/Gems/SkillGemSummonBeast",
+   "Metadata/Items/Gems/SkillGemSummonSpectre",
+   "Metadata/Items/Gems/SkillGemTriggeredAbyssalApparition",
+   "Metadata/Items/Gems/SkillGemUniqueBreachLightningBolt",
+   "Metadata/Items/Gems/SkillGemUnleash",
+   "Metadata/Items/Gems/SkillGemVileDisruption"
+  ],
+  "pob_total": 966,
+  "poe2db_only": 67,
+  "poe2db_only_names": [
+   "Abyssal Pact",
+   "Adhesive Grenades III",
+   "Aftershock III",
+   "Ancestral Call III",
+   "Atziri's Call",
+   "Axe Slash",
+   "Bind Spectre",
+   "Break Endurance",
+   "Break Posture",
+   "Chance to Freeze",
+   "Claw Stab",
+   "Dagger Stab",
+   "Dark Pact",
+   "Dazing Cry",
+   "Dazzle",
+   "Desperation",
+   "Devastate",
+   "Dreamer's Knell",
+   "Empowered Sparks II",
+   "Energy Barrier",
+   "Enervation",
+   "Excoriate",
+   "First Blood",
+   "Flail Strike",
+   "Flow",
+   "Font of Rage",
+   "Frozen Vortex",
+   "Greatwood II",
+   "Hinder",
+   "Hoarfrost",
+   "Hobble",
+   "Infusion",
+   "Invocation",
+   "Kelari's Deception",
+   "Kelari's Judgment",
+   "Leverage",
+   "Nadir",
+   "Navira's Fracturing",
+   "Navira's Oasis",
+   "Navira's Well",
+   "Outmaneuver",
+   "Overabundance III",
+   "Potential",
+   "Premeditation",
+   "Prolonged Duration III",
+   "Punch",
+   "Queen's Procession",
+   "Rally",
+   "Ricochet III",
+   "Rime",
+   "Ruzhan's Fury",
+   "Ruzhan's Reckoning",
+   "Ruzhan's Trap",
+   "See Red",
+   "Soulbreaker",
+   "Spreading Frost",
+   "Sword Slash",
+   "Tremors",
+   "Tumult",
+   "Unabating",
+   "Unbending",
+   "Unbreakable",
+   "Unsteady Tempo",
+   "Untether",
+   "Unyielding",
+   "Volatile Power",
+   "[DNT] Crushing Earth"
+  ],
+  "skills_ambiguous": 0,
+  "skills_by_granted_effect": 946
+ },
+ "languages": [
+  "zh_hans",
+  "zh_hant"
+ ],
+ "mods": {
+  "ambiguous": 15,
+  "ambiguous_ids": {
+   "AbyssModBodyArmourAmanamuSuffixSpiritReservationEfficiency": {
+    "pob": [
+     "(6-12)% increased Spirit Reservation Efficiency"
+    ],
+    "poe2db": [
+     "#% increased Spirit Reservation Efficiency of Skills"
+    ]
+   },
+   "AbyssModCrossbowAmanamuPrefixGrenadeAdditionalCooldown": {
+    "pob": [
+     "Grenade Skills have +1 Cooldown Use"
+    ],
+    "poe2db": [
+     "Grenade Skills have +# Cooldown Uses"
+    ]
+   },
+   "AbyssModCrossbowUlamanSuffixAttacksChainAdditionalTime": {
+    "pob": [
+     "Attacks Chain an additional time"
+    ],
+    "poe2db": [
+     "Attacks Chain # additional times"
+    ]
+   },
+   "AbyssModGenWeaponAmanamuSuffixSpiritReservationEfficiency": {
+    "pob": [
+     "(5-10)% increased Spirit Reservation Efficiency"
+    ],
+    "poe2db": [
+     "#% increased Spirit Reservation Efficiency of Skills"
+    ]
+   },
+   "AbyssModHelmAmanamuSuffixSpiritReservationEfficiency": {
+    "pob": [
+     "(4-8)% increased Spirit Reservation Efficiency"
+    ],
+    "poe2db": [
+     "#% increased Spirit Reservation Efficiency of Skills"
+    ]
+   },
+   "AbyssModJewelPrefixBleedChanceAndMagnitude": {
+    "pob": [
+     "15% increased chance to inflict Bleeding",
+     "(5-10)% increased Magnitude of Bleeding you inflict"
+    ],
+    "poe2db": [
+     "#% increased Magnitude of Bleeding you inflict",
+     "#% increased chance to inflict Bleeding"
+    ]
+   },
+   "AbyssModTalismanKurgalPrefixWarcriesEmpowerXAdditionalAttacks": {
+    "pob": [
+     "Warcries Empower an additional Attack"
+    ],
+    "poe2db": [
+     "Warcries Empower # additional Attacks"
+    ]
+   },
+   "CorruptionAdditionalArrows1": {
+    "pob": [
+     "Bow Attacks fire an additional Arrow"
+    ],
+    "poe2db": [
+     "Bow Attacks fire # additional Arrows"
+    ]
+   },
+   "EssenceAbyssPrefix": {
+    "pob": [
+     "Bears the Mark of the Abyssal Lord"
+    ],
+    "poe2db": null
+   },
+   "EssenceAbyssSuffix": {
+    "pob": [
+     "Bears the Mark of the Abyssal Lord"
+    ],
+    "poe2db": null
+   },
+   "EssencePercentDexterity1": {
+    "pob": [
+     "(7-10)% increased Dexterity"
+    ],
+    "poe2db": null
+   },
+   "EssencePercentIntelligence1": {
+    "pob": [
+     "(7-10)% increased Intelligence"
+    ],
+    "poe2db": null
+   },
+   "EssencePercentStrength1": {
+    "pob": [
+     "(7-10)% increased Strength"
+    ],
+    "poe2db": null
+   },
+   "GrenadeSkillAdditionalCooldownUse1": {
+    "pob": [
+     "Grenade Skills have +1 Cooldown Use"
+    ],
+    "poe2db": [
+     "Grenade Skills have +# Cooldown Uses"
+    ]
+   },
+   "GrenadeSkillAdditionalProjectile1": {
+    "pob": [
+     "Grenade Skills Fire an additional Projectile"
+    ],
+    "poe2db": [
+     "Grenade Skills Fire # additional Projectiles"
+    ]
+   }
+  },
+  "by_file": {
+   "ModCharm": {
+    "ambiguous": 0,
+    "matched": 51,
+    "missing": 0,
+    "pob_total": 51
+   },
+   "ModCorrupted": {
+    "ambiguous": 1,
+    "matched": 113,
+    "missing": 13,
+    "pob_total": 127
+   },
+   "ModFlask": {
+    "ambiguous": 0,
+    "matched": 67,
+    "missing": 11,
+    "pob_total": 78
+   },
+   "ModIncursionLimb": {
+    "ambiguous": 0,
+    "matched": 0,
+    "missing": 12,
+    "pob_total": 12
+   },
+   "ModItem": {
+    "ambiguous": 7,
+    "matched": 1713,
+    "missing": 830,
+    "pob_total": 2550
+   },
+   "ModItemExclusive": {
+    "ambiguous": 0,
+    "matched": 110,
+    "missing": 5390,
+    "pob_total": 5500
+   },
+   "ModJewel": {
+    "ambiguous": 0,
+    "matched": 168,
+    "missing": 209,
+    "pob_total": 377
+   },
+   "ModVeiled": {
+    "ambiguous": 7,
+    "matched": 257,
+    "missing": 124,
+    "pob_total": 388
+   }
+  },
+  "line_index": {
+   "ambiguous": 4,
+   "keys": 527
+  },
+  "matched": 2455,
+  "missing": 6589,
+  "pob_total": 9059,
+  "poe2db_only": 9
+ },
+ "passives": {
+  "ambiguous": 0,
+  "ascendancies": {
+   "matched": 23,
+   "pob_total": 23
+  },
+  "by_kind": {
+   "ascendancy": {
+    "lines_matched": 545,
+    "lines_total": 559,
+    "matched": 415,
+    "name_matched": 427,
+    "pob_total": 431
+   },
+   "class_start": {
+    "lines_matched": 0,
+    "lines_total": 0,
+    "matched": 6,
+    "name_matched": 6,
+    "pob_total": 6
+   },
+   "jewel_socket": {
+    "lines_matched": 1,
+    "lines_total": 1,
+    "matched": 18,
+    "name_matched": 18,
+    "pob_total": 18
+   },
+   "keystone": {
+    "lines_matched": 80,
+    "lines_total": 82,
+    "matched": 29,
+    "name_matched": 33,
+    "pob_total": 33
+   },
+   "mastery": {
+    "lines_matched": 0,
+    "lines_total": 0,
+    "matched": 368,
+    "name_matched": 368,
+    "pob_total": 368
+   },
+   "notable": {
+    "lines_matched": 1786,
+    "lines_total": 1807,
+    "matched": 958,
+    "name_matched": 984,
+    "pob_total": 984
+   },
+   "small": {
+    "lines_matched": 3599,
+    "lines_total": 3609,
+    "matched": 3069,
+    "name_matched": 3074,
+    "pob_total": 3074
+   }
+  },
+  "classes": {
+   "matched": 8,
+   "pob_total": 8,
+   "unjoined": []
+  },
+  "matched": 4863,
+  "missing": 51,
+  "options": {
+   "hosts": 371,
+   "lines_matched": 107,
+   "lines_total": 113,
+   "matched": 43,
+   "missing": 32,
+   "name_matched": 43,
+   "option_slots": 951,
+   "overlay_only": 6,
+   "pob_total": 75,
+   "unjoined": {
+    "10941": {
+     "en": "Entropy",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "11705": {
+     "en": "Steward of Kulemak",
+     "lines": [
+      "Damaging Spells consume a Power Charge if able to trigger Abyssal Apparition"
+     ],
+     "problems": [
+      "name_not_in_poe2db",
+      "lines_unjoined"
+     ]
+    },
+    "14623": {
+     "en": "Attack Damage",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "15373": {
+     "en": "Minion Reservation Efficiency",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "16160": {
+     "en": "Skill Speed while Shapeshifted",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "17324": {
+     "en": "Power of the Dead",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "22193": {
+     "en": "Attack Damage",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "22652": {
+     "en": "Skill Speed while Shapeshifted",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "24854": {
+     "en": "Melee and Projectile Damage",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "28255": {
+     "en": "Melee and Projectile Damage",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "29915": {
+     "en": "Melee and Projectile Damage",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "31204": {
+     "en": "Mana Regeneration",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "32062": {
+     "en": "Primal Instinct",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "36863": {
+     "en": "Unwilling Offering",
+     "lines": [
+      "Your Offerings can target Enemies in Culling range",
+      "Your Offerings affect you instead of your Minions",
+      "Offerings created by Culling Enemies have 1% increased Effect per Power of Culled Enemy"
+     ],
+     "problems": [
+      "name_not_in_poe2db",
+      "lines_unjoined"
+     ]
+    },
+    "38659": {
+     "en": "Mana Regeneration",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "390": {
+     "en": "Rupture the Flesh",
+     "lines": [
+      "Cursed Enemies Killed by you, or by Allies in your Presence, have a 33% chance to Explode, dealing a quarter of their maximum Life as Physical Damage"
+     ],
+     "problems": [
+      "name_not_in_poe2db",
+      "lines_unjoined"
+     ]
+    },
+    "39263": {
+     "en": "Attack Damage",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "39628": {
+     "en": "Reflex Action",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "41162": {
+     "en": "Umbral Well",
+     "lines": [
+      "Skeletal Minions you would create instead grant you Umbral Souls for each Minion you would have created"
+     ],
+     "problems": [
+      "name_not_in_poe2db",
+      "lines_unjoined"
+     ]
+    },
+    "41568": {
+     "en": "Life Regeneration",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "42895": {
+     "en": "Stalk and Leap",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "50065": {
+     "en": "Life Regeneration",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "50882": {
+     "en": "Primal Spirit",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "54594": {
+     "en": "Natural Essence",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "55535": {
+     "en": "Attuned with Nature",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "55896": {
+     "en": "Attack Damage",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "56845": {
+     "en": "Harbinger of Disaster",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "57726": {
+     "en": "Life Regeneration",
+     "lines": [],
+     "problems": [
+      "name_ambiguous"
+     ]
+    },
+    "5788": {
+     "en": "Raw Destruction",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "64801": {
+     "en": "Jagged Shards",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "7130": {
+     "en": "Bastion of the Forest",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    },
+    "7197": {
+     "en": "Guardian of the Wilds",
+     "lines": [],
+     "problems": [
+      "name_not_in_poe2db"
+     ]
+    }
+   }
+  },
+  "pob_total": 4914,
+  "pob_tree_version": "0_5",
+  "poe2db_only": 238,
+  "poe2db_tree": "https://poe2db.tw/data/passive-skill-tree/4.5/data_{us,cn,tw}.json",
+  "reason_ids": {
+   "name_differs": [
+    "9994",
+    "23710",
+    "33812",
+    "55536"
+   ],
+   "stat_lines_differ": [
+    "1502",
+    "37778",
+    "46070",
+    "58646"
+   ],
+   "zh_line_count_differs": [
+    "7062",
+    "12324",
+    "13228",
+    "21206",
+    "24483",
+    "24764",
+    "29881",
+    "30985",
+    "32151",
+    "38570",
+    "39102",
+    "41619",
+    "43486",
+    "51546",
+    "54289",
+    "58932"
+   ],
+   "zh_numbers_differ": [
+    "4367",
+    "11526",
+    "14226",
+    "15606",
+    "15617",
+    "17303",
+    "25362",
+    "28408",
+    "29762",
+    "34425",
+    "34497",
+    "37078",
+    "41401",
+    "42760",
+    "47418",
+    "48418",
+    "49547",
+    "49984",
+    "50023",
+    "51749",
+    "52764",
+    "54031",
+    "55375",
+    "56489",
+    "56857",
+    "57819",
+    "65518"
+   ]
+  },
+  "reasons": {
+   "name_differs": 4,
+   "stat_lines_differ": 4,
+   "zh_line_count_differs": 16,
+   "zh_numbers_differ": 27
+  }
+ },
+ "pob_commit": "601768bd105869618c3d6581b883e5d7aeec91b2",
+ "terms_version": "poe2db-1.0",
+ "uniques": {
+  "ambiguous": 1,
+  "ambiguous_names": {
+   "Thunderfist": [
+    {
+     "zh_hans": "轰天雷",
+     "zh_hant": "雷拳"
+    },
+    {
+     "zh_hans": "轰天雷",
+     "zh_hant": "轟天雷"
+    }
+   ]
+  },
+  "matched": 404,
+  "missing": 28,
+  "missing_names": [
+   "Alpha's Howl",
+   "Apron of Emiran",
+   "Beetlebite",
+   "Blessed Bonds",
+   "Bloodbarrier",
+   "Blueflame Bracers",
+   "Collapsing Horizon",
+   "Deathblow",
+   "Edyrn's Tusks",
+   "Eyes of the Runefather",
+   "Forbidden Gaze",
+   "Guiding Palm",
+   "Keelhaul",
+   "Mageblood",
+   "Merit of Service",
+   "Radiant Grief",
+   "Rampart Raptor",
+   "Redblade Banner",
+   "The Adorned",
+   "The Deepest Tower",
+   "The Everlasting Gaze",
+   "The Fallen Formation",
+   "The Road Warrior",
+   "Thunderstep",
+   "Uhtred's Chalice",
+   "Wylund's Stake",
+   "Xoph's Blood",
+   "Yoke of Suffering"
+  ],
+  "pob_total": 433,
+  "poe2db_only": 9
+ }
+}

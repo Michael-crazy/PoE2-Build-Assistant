@@ -1,0 +1,33 @@
+{
+  "author":"P06 验证",
+  "description":"完整引擎离线导出；双服客户端待验证",
+  "inventory_slots":[{
+      "additional_text":"<rgb(255, 255, 119)>{<b>{Endgame Ring\nGold Ring}}\n\n<rgb(136, 136, 255)>{+20 to maximum Life}",
+      "inventory_id":"Ring1",
+      "slot_x":0
+    },{
+      "additional_text":"终局戒指备注优先",
+      "inventory_id":"Ring2",
+      "slot_x":0
+    }],
+  "name":"P06 终局",
+  "passives":[{
+      "id":"projectiles15",
+      "weapon_set":1
+    },{
+      "id":"ranger596",
+      "weapon_set":0
+    },{
+      "additional_text":"终局武器组二备注",
+      "id":"evasion11",
+      "weapon_set":2
+    }],
+  "skills":[{
+      "additional_text":"Level 20, 20% Quality",
+      "id":"Metadata/Items/Gems/SkillGemSpark",
+      "support_skills":[{
+          "additional_text":"终局支援备注",
+          "id":"Metadata/Items/Gems/SupportGemArcaneTempo"
+        }]
+    }]
+}

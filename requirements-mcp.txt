@@ -1,0 +1,2 @@
+# Official MCP Python SDK; includes FastMCP server and stdio client.
+mcp==1.30.0

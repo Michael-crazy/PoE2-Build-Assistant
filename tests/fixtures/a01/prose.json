@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "authored:a01:prose",
+    "kind": "authored_prose",
+    "title": "自编普通攻略：战士开荒",
+    "text": "这是自编测试攻略，不是实测配装。战士开荒到30级，以震地为主技能。优先寻找带生命的头盔。"
+  },
+  "fields": {
+    "realm": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "league": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "game_version": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "stage": {
+      "value": "开荒",
+      "origin": "stated",
+      "evidence": "开荒",
+      "reason": null
+    },
+    "class_name": {
+      "value": "战士",
+      "origin": "stated",
+      "evidence": "战士",
+      "reason": null
+    },
+    "ascendancy_name": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "main_skill_name": {
+      "value": "震地",
+      "origin": "stated",
+      "evidence": "震地",
+      "reason": null
+    },
+    "main_skill_id": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "tree_version": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "equipment_text": {
+      "value": "头盔：优先生命词缀，具体物品待定",
+      "origin": "inferred",
+      "evidence": "优先寻找带生命的头盔",
+      "reason": "把词缀目标整理为装备备注，未推断具体装备或数值。"
+    },
+    "config_text": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "level": {
+      "value": 30,
+      "origin": "stated",
+      "evidence": "30级",
+      "reason": null
+    },
+    "main_skill_level": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "main_skill_quality": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    },
+    "passive_nodes": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "自编攻略未提供；不采用引擎默认值。"
+    }
+  }
+}

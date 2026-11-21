@@ -1,0 +1,12 @@
+Item Class: Rings
+Rarity: Magic
+Heated Ruby Ring of the Seal
+--------
+Requires: Level 8
+--------
+Item Level: 20
+--------
++25% to Fire Resistance (implicit)
+--------
+Adds 2 to 3 Fire Damage to Attacks
++8% to Cold Resistance

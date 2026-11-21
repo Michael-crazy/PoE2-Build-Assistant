@@ -1,0 +1,4 @@
+Rarity: Rare
+P02 Trial
+Dueling Wand
++100 to maximum Energy Shield

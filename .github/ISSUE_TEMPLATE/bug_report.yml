@@ -1,0 +1,63 @@
+name: 问题反馈
+description: 助手、浮层、中文 PoB 或查价出错、显示不对
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！提交前请删掉日志和截图里的账号名、角色名、分享链接和 Cookie。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      description: 安装包里 `版本.json` 的版本号或下载的 Release 名
+    validations:
+      required: true
+  - type: dropdown
+    id: realm
+    attributes:
+      label: 服务器
+      options:
+        - 国际服
+        - 国服（腾讯）
+        - 两个都有
+        - 与服务器无关
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 出问题的部分
+      options:
+        - 游戏内评估浮层
+        - 中文 PoB（界面、汉化、输入）
+        - 查价 / 市集交易 / 市集窗口
+        - 国服角色导入
+        - MCP / POBG
+        - 安装与启动
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 操作步骤、看到的结果、期望的结果
+      placeholder: |
+        1. 打开 BD …
+        2. 指向装备按 Ctrl+Shift+D …
+        3. 看到 … ，应该是 …
+    validations:
+      required: true
+  - type: textarea
+    id: item
+    attributes:
+      label: 装备文本 / BD（可选）
+      description: 游戏里 Ctrl+C 复制的装备文本，或 PoB 导出码。不要贴分享链接。
+      render: text
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志（可选）
+      description: 助手日志在 `%APPDATA%\exiled-exchange-2`，请先去掉个人信息
+      render: text

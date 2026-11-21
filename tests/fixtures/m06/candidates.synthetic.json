@@ -1,0 +1,114 @@
+{
+  "_notice": "Entirely authored offline prices, rates, and trial metrics; not market or engine evidence.",
+  "context": {
+    "realm": "international",
+    "league": "Synthetic M06 League",
+    "currency": "exalted",
+    "metric": "CombinedDPS"
+  },
+  "rates": {
+    "realm": "international",
+    "league": "Synthetic M06 League",
+    "currency": "exalted",
+    "units": {
+      "divine": 100
+    }
+  },
+  "candidates": [
+    {
+      "listing": {
+        "id": "synthetic-divine",
+        "realm": "international",
+        "league": "Synthetic M06 League",
+        "item": {
+          "typeLine": "Synthetic candidate",
+          "league": "Synthetic M06 League",
+          "rarity": "Rare"
+        },
+        "price": {
+          "amount": 2,
+          "currency": "divine",
+          "type": "~price"
+        }
+      },
+      "trial": {
+        "baseline": {
+          "CombinedDPS": 1000,
+          "Life": 100,
+          "EnergyShield": 50,
+          "Armour": 0,
+          "Evasion": 20
+        },
+        "replacement": {
+          "CombinedDPS": 1200,
+          "Life": 120,
+          "EnergyShield": 50,
+          "Armour": 0,
+          "Evasion": 20
+        }
+      }
+    },
+    {
+      "listing": {
+        "id": "synthetic-exalted",
+        "realm": "international",
+        "league": "Synthetic M06 League",
+        "item": {
+          "typeLine": "Synthetic candidate",
+          "league": "Synthetic M06 League",
+          "rarity": "Rare"
+        },
+        "price": {
+          "amount": 50,
+          "currency": "exalted",
+          "type": "~price"
+        }
+      },
+      "trial": {
+        "baseline": {
+          "CombinedDPS": 1000,
+          "Life": 100,
+          "EnergyShield": 50,
+          "Armour": 0,
+          "Evasion": 20
+        },
+        "replacement": {
+          "CombinedDPS": 1100,
+          "Life": 90,
+          "EnergyShield": 50,
+          "Armour": 0,
+          "Evasion": 20
+        }
+      }
+    },
+    {
+      "listing": {
+        "id": "synthetic-unpriced",
+        "realm": "international",
+        "league": "Synthetic M06 League",
+        "item": {
+          "typeLine": "Synthetic candidate",
+          "league": "Synthetic M06 League",
+          "rarity": "Rare"
+        },
+        "price": null
+      },
+      "trial": {
+        "baseline": {
+          "CombinedDPS": 1000,
+          "Life": 100,
+          "EnergyShield": 50,
+          "Armour": 0,
+          "Evasion": 20
+        },
+        "replacement": {
+          "CombinedDPS": 1300,
+          "Life": 100,
+          "EnergyShield": 50,
+          "Armour": 0,
+          "Evasion": 20
+        }
+      }
+    }
+  ]
+}

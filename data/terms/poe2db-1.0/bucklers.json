@@ -1,0 +1,11556 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Bucklers",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Bucklers",
+    "file": "us/Bucklers.html",
+    "fetched": "2026-11-17T22:07+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Bucklers",
+    "file": "cn/Bucklers.html",
+    "fetched": "2026-11-17T22:07+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Bucklers",
+    "file": "tw/Bucklers.html",
+    "fetched": "2026-11-17T22:07+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "item_class_code": "Buckler",
+  "mods_source": "ModsView",
+  "placeholders": "'#' replaces each rolled value; ranges lists [min, max] per '#' in English order",
+  "generation_types": {
+   "1": "Prefix",
+   "2": "Suffix",
+   "3": "Unique",
+   "5": "Corrupted"
+  },
+  "summary": {
+   "mismatches": 1,
+   "mods": 179,
+   "socketables": 88,
+   "base_types": 52,
+   "uniques": 7,
+   "page_entries": 364,
+   "pob_joined": 179,
+   "pob_text_differs": 0,
+   "missing_in_pob": 0,
+   "pob_only": 65,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 31,
+     "differ": 6,
+     "absent": 2
+    },
+    "names": {
+     "agree": 8,
+     "differ": 0,
+     "absent": 49
+    }
+   }
+  }
+ },
+ "mods": {
+  "Dexterity1": {
+   "id": "Dexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Mongoose",
+    "zh_hans": "猫鼬之",
+    "zh_hant": "貓鼬之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity2": {
+   "id": "Dexterity2",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     9.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Lynx",
+    "zh_hans": "山猫之",
+    "zh_hant": "山貓之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity3": {
+   "id": "Dexterity3",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     13.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Fox",
+    "zh_hans": "狐狸之",
+    "zh_hant": "狐狸之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity4": {
+   "id": "Dexterity4",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     17.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Falcon",
+    "zh_hans": "猎鹰之",
+    "zh_hant": "獵鷹之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity5": {
+   "id": "Dexterity5",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     21.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Panther",
+    "zh_hans": "豹之",
+    "zh_hant": "豹之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity6": {
+   "id": "Dexterity6",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     25.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Leopard",
+    "zh_hans": "花豹之",
+    "zh_hant": "花豹之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity7": {
+   "id": "Dexterity7",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 66,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     28.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Jaguar",
+    "zh_hans": "美洲豹之",
+    "zh_hant": "美洲豹之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity8": {
+   "id": "Dexterity8",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 74,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     31.0,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Phantom",
+    "zh_hans": "幻影之",
+    "zh_hant": "幻影之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist1": {
+   "id": "FireResist1",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     6.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Whelpling",
+    "zh_hans": "幼龙之",
+    "zh_hant": "幼龍之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist2": {
+   "id": "FireResist2",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 12,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     11.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Salamander",
+    "zh_hans": "火蜥蜴之",
+    "zh_hant": "火蜥蜴之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Insulation",
+     "zh_hans": "次级绝缘精华",
+     "zh_hant": "低階隔絕精髓",
+     "line": {
+      "en": [
+       "+#% to Fire Resistance"
+      ],
+      "zh_hans": [
+       "火焰抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%火焰抗性"
+      ],
+      "ranges": [
+       [
+        11.0,
+        15.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist3": {
+   "id": "FireResist3",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 24,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     16.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Drake",
+    "zh_hans": "火龙之",
+    "zh_hant": "火龍之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist4": {
+   "id": "FireResist4",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 36,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Kiln",
+    "zh_hans": "窑炉之",
+    "zh_hant": "窯爐之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Insulation",
+     "zh_hans": "绝缘精华",
+     "zh_hant": "隔絕精髓",
+     "line": {
+      "en": [
+       "+#% to Fire Resistance"
+      ],
+      "zh_hans": [
+       "火焰抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%火焰抗性"
+      ],
+      "ranges": [
+       [
+        21.0,
+        25.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist5": {
+   "id": "FireResist5",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 48,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Furnace",
+    "zh_hans": "炉火之",
+    "zh_hant": "爐火之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist6": {
+   "id": "FireResist6",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 60,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Volcano",
+    "zh_hans": "火山之",
+    "zh_hant": "火山之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Insulation",
+     "zh_hans": "强效绝缘精华",
+     "zh_hant": "高階隔絕精髓",
+     "line": {
+      "en": [
+       "+#% to Fire Resistance"
+      ],
+      "zh_hans": [
+       "火焰抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%火焰抗性"
+      ],
+      "ranges": [
+       [
+        31.0,
+        35.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist7": {
+   "id": "FireResist7",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 71,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     36.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of Magma",
+    "zh_hans": "岩浆之",
+    "zh_hant": "熔岩屏障之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "FireResist8": {
+   "id": "FireResist8",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "2",
+   "level": 82,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     41.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "affix": {
+    "en": "of Tzteosh",
+    "zh_hans": "提耶须之",
+    "zh_hant": "提耶須之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist1": {
+   "id": "ColdResist1",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     6.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Seal",
+    "zh_hans": "海豹之",
+    "zh_hant": "海豹之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist2": {
+   "id": "ColdResist2",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 14,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     11.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Penguin",
+    "zh_hans": "企鹅之",
+    "zh_hant": "企鵝之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Thawing",
+     "zh_hans": "次级熔解精华",
+     "zh_hant": "低階解凍精髓",
+     "line": {
+      "en": [
+       "+#% to Cold Resistance"
+      ],
+      "zh_hans": [
+       "冰霜抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%冰冷抗性"
+      ],
+      "ranges": [
+       [
+        11.0,
+        15.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist3": {
+   "id": "ColdResist3",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     16.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Narwhal",
+    "zh_hans": "独角鲸之",
+    "zh_hant": "獨角鯨之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist4": {
+   "id": "ColdResist4",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 38,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Yeti",
+    "zh_hans": "雪人之",
+    "zh_hant": "雪人之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Thawing",
+     "zh_hans": "熔解精华",
+     "zh_hant": "解凍精髓",
+     "line": {
+      "en": [
+       "+#% to Cold Resistance"
+      ],
+      "zh_hans": [
+       "冰霜抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%冰冷抗性"
+      ],
+      "ranges": [
+       [
+        21.0,
+        25.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist5": {
+   "id": "ColdResist5",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 50,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Walrus",
+    "zh_hans": "海象之",
+    "zh_hant": "海象之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist6": {
+   "id": "ColdResist6",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 60,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Polar Bear",
+    "zh_hans": "北极熊之",
+    "zh_hant": "北極熊之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Thawing",
+     "zh_hans": "强效熔解精华",
+     "zh_hant": "高階解凍精髓",
+     "line": {
+      "en": [
+       "+#% to Cold Resistance"
+      ],
+      "zh_hans": [
+       "冰霜抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%冰冷抗性"
+      ],
+      "ranges": [
+       [
+        31.0,
+        35.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist7": {
+   "id": "ColdResist7",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 71,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     36.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Ice",
+    "zh_hans": "寒冰之",
+    "zh_hant": "冰之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ColdResist8": {
+   "id": "ColdResist8",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "2",
+   "level": 82,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     41.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "affix": {
+    "en": "of Haast",
+    "zh_hans": "哈斯特之",
+    "zh_hant": "哈斯特之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist1": {
+   "id": "LightningResist1",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     6.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Cloud",
+    "zh_hans": "云朵之",
+    "zh_hant": "雲朵之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist2": {
+   "id": "LightningResist2",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 13,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     11.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Squall",
+    "zh_hans": "冰雹之",
+    "zh_hant": "冰雹之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Grounding",
+     "zh_hans": "次级接地精华",
+     "zh_hant": "低階接地精髓",
+     "line": {
+      "en": [
+       "+#% to Lightning Resistance"
+      ],
+      "zh_hans": [
+       "闪电抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%閃電抗性"
+      ],
+      "ranges": [
+       [
+        11.0,
+        15.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist3": {
+   "id": "LightningResist3",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 25,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     16.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Storm",
+    "zh_hans": "暴风之",
+    "zh_hant": "暴風之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist4": {
+   "id": "LightningResist4",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 37,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Thunderhead",
+    "zh_hans": "积雨云之",
+    "zh_hant": "積雨雲之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Grounding",
+     "zh_hans": "接地精华",
+     "zh_hant": "接地精髓",
+     "line": {
+      "en": [
+       "+#% to Lightning Resistance"
+      ],
+      "zh_hans": [
+       "闪电抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%閃電抗性"
+      ],
+      "ranges": [
+       [
+        21.0,
+        25.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist5": {
+   "id": "LightningResist5",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 49,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Tempest",
+    "zh_hans": "暴风雨之",
+    "zh_hant": "暴風雨之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist6": {
+   "id": "LightningResist6",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 60,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Maelstrom",
+    "zh_hans": "台风之",
+    "zh_hant": "颱風之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Grounding",
+     "zh_hans": "强效接地精华",
+     "zh_hant": "高階接地精髓",
+     "line": {
+      "en": [
+       "+#% to Lightning Resistance"
+      ],
+      "zh_hans": [
+       "闪电抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%閃電抗性"
+      ],
+      "ranges": [
+       [
+        31.0,
+        35.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist7": {
+   "id": "LightningResist7",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 71,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     36.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Lightning",
+    "zh_hans": "电之",
+    "zh_hant": "電之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LightningResist8": {
+   "id": "LightningResist8",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 82,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     41.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "affix": {
+    "en": "of Ephij",
+    "zh_hans": "艾菲吉之",
+    "zh_hant": "艾菲吉之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ChaosResist1": {
+   "id": "ChaosResist1",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 16,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     4.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of the Lost",
+    "zh_hans": "失落之",
+    "zh_hant": "失落之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Ruin",
+     "zh_hans": "次级摧灭精华",
+     "zh_hant": "低階毀滅精髓",
+     "line": {
+      "en": [
+       "+#% to Chaos Resistance"
+      ],
+      "zh_hans": [
+       "混沌抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%混沌抗性"
+      ],
+      "ranges": [
+       [
+        4.0,
+        7.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "ChaosResist2": {
+   "id": "ChaosResist2",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 30,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     8.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of Banishment",
+    "zh_hans": "放逐之",
+    "zh_hant": "放逐之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Ruin",
+     "zh_hans": "摧灭精华",
+     "zh_hant": "毀滅精髓",
+     "line": {
+      "en": [
+       "+#% to Chaos Resistance"
+      ],
+      "zh_hans": [
+       "混沌抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%混沌抗性"
+      ],
+      "ranges": [
+       [
+        8.0,
+        11.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "ChaosResist3": {
+   "id": "ChaosResist3",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     12.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of Eviction",
+    "zh_hans": "驱逐之",
+    "zh_hant": "驅逐之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ChaosResist4": {
+   "id": "ChaosResist4",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 56,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     16.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of Expulsion",
+    "zh_hans": "出境之",
+    "zh_hant": "出境之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Ruin",
+     "zh_hans": "强效摧灭精华",
+     "zh_hant": "高階毀滅精髓",
+     "line": {
+      "en": [
+       "+#% to Chaos Resistance"
+      ],
+      "zh_hans": [
+       "混沌抗性 +#%"
+      ],
+      "zh_hant": [
+       "+#%混沌抗性"
+      ],
+      "ranges": [
+       [
+        16.0,
+        19.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "ChaosResist5": {
+   "id": "ChaosResist5",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     20.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of Exile",
+    "zh_hans": "流亡之",
+    "zh_hant": "流亡之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ChaosResist6": {
+   "id": "ChaosResist6",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     24.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "affix": {
+    "en": "of Bameth",
+    "zh_hans": "巴曼斯之",
+    "zh_hant": "巴曼斯之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife1": {
+   "id": "IncreasedLife1",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     10.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Hale",
+    "zh_hans": "健壮的",
+    "zh_hant": "健壯之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife2": {
+   "id": "IncreasedLife2",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 6,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     20.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Healthy",
+    "zh_hans": "健康的",
+    "zh_hant": "健康的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife3": {
+   "id": "IncreasedLife3",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     30.0,
+     39.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Sanguine",
+    "zh_hans": "红润的",
+    "zh_hant": "樂觀的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Body",
+     "zh_hans": "次级身躯精华",
+     "zh_hant": "低階肉體精髓",
+     "line": {
+      "en": [
+       "+# to maximum Life"
+      ],
+      "zh_hans": [
+       "+# 生命上限"
+      ],
+      "zh_hant": [
+       "+#最大生命"
+      ],
+      "ranges": [
+       [
+        30.0,
+        39.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife4": {
+   "id": "IncreasedLife4",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 24,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     40.0,
+     59.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Stalwart",
+    "zh_hans": "强健的",
+    "zh_hant": "堅信的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife5": {
+   "id": "IncreasedLife5",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     60.0,
+     69.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Stout",
+    "zh_hans": "粗壮的",
+    "zh_hant": "堅毅者"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife6": {
+   "id": "IncreasedLife6",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 38,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     70.0,
+     84.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Robust",
+    "zh_hans": "健硕的",
+    "zh_hant": "健壯的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife7": {
+   "id": "IncreasedLife7",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     85.0,
+     99.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Rotund",
+    "zh_hans": "丰腴的",
+    "zh_hant": "豐腴的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Body",
+     "zh_hans": "身躯精华",
+     "zh_hant": "肉體精髓",
+     "line": {
+      "en": [
+       "+# to maximum Life"
+      ],
+      "zh_hans": [
+       "+# 生命上限"
+      ],
+      "zh_hant": [
+       "+#最大生命"
+      ],
+      "ranges": [
+       [
+        85.0,
+        99.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife8": {
+   "id": "IncreasedLife8",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     100.0,
+     119.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Virile",
+    "zh_hans": "阳刚的",
+    "zh_hant": "陽剛的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Body",
+     "zh_hans": "强效身躯精华",
+     "zh_hant": "高階肉體精髓",
+     "line": {
+      "en": [
+       "+# to maximum Life"
+      ],
+      "zh_hans": [
+       "+# 生命上限"
+      ],
+      "zh_hant": [
+       "+#最大生命"
+      ],
+      "ranges": [
+       [
+        100.0,
+        119.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife9": {
+   "id": "IncreasedLife9",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     120.0,
+     149.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Athlete's",
+    "zh_hans": "健将的",
+    "zh_hant": "運動員的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife10": {
+   "id": "IncreasedLife10",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     150.0,
+     174.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Fecund",
+    "zh_hans": "丰饶的",
+    "zh_hant": "豐饒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedLife11": {
+   "id": "IncreasedLife11",
+   "family": [
+    "IncreasedLife"
+   ],
+   "generation_type": "1",
+   "level": 70,
+   "en": [
+    "+# to maximum Life"
+   ],
+   "ranges": [
+    [
+     175.0,
+     189.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 生命上限"
+   ],
+   "zh_hant": [
+    "+#最大生命"
+   ],
+   "affix": {
+    "en": "Vigorous",
+    "zh_hans": "蓬勃的",
+    "zh_hant": "蓬勃的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating1": {
+   "id": "LocalIncreasedEvasionRating1",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     11.0,
+     18.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Agile",
+    "zh_hans": "敏捷的",
+    "zh_hant": "敏捷的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating2": {
+   "id": "LocalIncreasedEvasionRating2",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     19.0,
+     46.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Dancer's",
+    "zh_hans": "舞者的",
+    "zh_hant": "舞者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating3": {
+   "id": "LocalIncreasedEvasionRating3",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     47.0,
+     66.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Acrobat's",
+    "zh_hans": "杂技的",
+    "zh_hant": "雜技的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating4": {
+   "id": "LocalIncreasedEvasionRating4",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 25,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     67.0,
+     87.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Fleet",
+    "zh_hans": "飘忽的",
+    "zh_hant": "飄忽的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating5": {
+   "id": "LocalIncreasedEvasionRating5",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     88.0,
+     116.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Blurred",
+    "zh_hans": "模糊的",
+    "zh_hant": "模糊的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating6": {
+   "id": "LocalIncreasedEvasionRating6",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     117.0,
+     146.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Phased",
+    "zh_hans": "相位的",
+    "zh_hant": "相位的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating7_": {
+   "id": "LocalIncreasedEvasionRating7_",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     147.0,
+     176.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Vaporous",
+    "zh_hans": "气态的",
+    "zh_hant": "氣態的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating8": {
+   "id": "LocalIncreasedEvasionRating8",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     177.0,
+     207.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Elusory",
+    "zh_hans": "灵动的",
+    "zh_hant": "難以捉摸的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating9___": {
+   "id": "LocalIncreasedEvasionRating9___",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     208.0,
+     234.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Adroit",
+    "zh_hans": "灵敏的",
+    "zh_hant": "熟練的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRating10": {
+   "id": "LocalIncreasedEvasionRating10",
+   "family": [
+    "BaseLocalDefences"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "+# to Evasion Rating"
+   ],
+   "ranges": [
+    [
+     235.0,
+     261.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 点闪避值"
+   ],
+   "zh_hant": [
+    "+#閃避值"
+   ],
+   "affix": {
+    "en": "Lissome",
+    "zh_hans": "柔软的",
+    "zh_hant": "柔軟的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent1": {
+   "id": "LocalIncreasedEvasionRatingPercent1",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 2,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     15.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Shade's",
+    "zh_hans": "阴暗的",
+    "zh_hant": "陰暗的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent2": {
+   "id": "LocalIncreasedEvasionRatingPercent2",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     27.0,
+     42.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Ghost's",
+    "zh_hans": "鬼魂的",
+    "zh_hant": "鬼魂的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Enhancement",
+     "zh_hans": "次级强化精华",
+     "zh_hant": "低階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        27.0,
+        42.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent3": {
+   "id": "LocalIncreasedEvasionRatingPercent3",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     43.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Spectre's",
+    "zh_hans": "幽魂的",
+    "zh_hant": "幽魂的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent4": {
+   "id": "LocalIncreasedEvasionRatingPercent4",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     56.0,
+     67.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Wraith's",
+    "zh_hans": "幽灵的",
+    "zh_hant": "幽靈的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Enhancement",
+     "zh_hans": "强化精华",
+     "zh_hant": "強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        56.0,
+        67.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent5": {
+   "id": "LocalIncreasedEvasionRatingPercent5",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     68.0,
+     79.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Phantasm's",
+    "zh_hans": "幻象的",
+    "zh_hant": "幻象的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Enhancement",
+     "zh_hans": "强效增强精华",
+     "zh_hant": "高階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        68.0,
+        79.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent6": {
+   "id": "LocalIncreasedEvasionRatingPercent6",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     80.0,
+     91.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Nightmare's",
+    "zh_hans": "梦魇的",
+    "zh_hant": "夢魘的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent7": {
+   "id": "LocalIncreasedEvasionRatingPercent7",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     92.0,
+     100.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Mirage's",
+    "zh_hans": "魅影的",
+    "zh_hant": "幻象的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionRatingPercent8": {
+   "id": "LocalIncreasedEvasionRatingPercent8",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     101.0,
+     110.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "affix": {
+    "en": "Illusion's",
+    "zh_hans": "幻迷的",
+    "zh_hant": "幻影的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalEvasionAndStunThreshold1": {
+   "id": "LocalEvasionAndStunThreshold1",
+   "family": [
+    "DefencesPercentAndStunThreshold"
+   ],
+   "generation_type": "1",
+   "level": 10,
+   "en": [
+    "#% increased Evasion Rating",
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     6.0,
+     13.0
+    ],
+    [
+     8.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%",
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "Mosquito's",
+    "zh_hans": "蚊子的",
+    "zh_hant": "蚊子的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalEvasionAndStunThreshold2": {
+   "id": "LocalEvasionAndStunThreshold2",
+   "family": [
+    "DefencesPercentAndStunThreshold"
+   ],
+   "generation_type": "1",
+   "level": 19,
+   "en": [
+    "#% increased Evasion Rating",
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     14.0,
+     20.0
+    ],
+    [
+     14.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%",
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "Moth's",
+    "zh_hans": "飞蛾的",
+    "zh_hant": "飛蛾的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalEvasionAndStunThreshold3": {
+   "id": "LocalEvasionAndStunThreshold3",
+   "family": [
+    "DefencesPercentAndStunThreshold"
+   ],
+   "generation_type": "1",
+   "level": 38,
+   "en": [
+    "#% increased Evasion Rating",
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     21.0,
+     26.0
+    ],
+    [
+     25.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%",
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "Butterfly's",
+    "zh_hans": "蝴蝶的",
+    "zh_hant": "蝴蝶的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalEvasionAndStunThreshold4": {
+   "id": "LocalEvasionAndStunThreshold4",
+   "family": [
+    "DefencesPercentAndStunThreshold"
+   ],
+   "generation_type": "1",
+   "level": 48,
+   "en": [
+    "#% increased Evasion Rating",
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     27.0,
+     32.0
+    ],
+    [
+     41.0,
+     63.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%",
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "Wasp's",
+    "zh_hans": "黄蜂的",
+    "zh_hant": "黃蜂的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalEvasionAndStunThreshold5": {
+   "id": "LocalEvasionAndStunThreshold5",
+   "family": [
+    "DefencesPercentAndStunThreshold"
+   ],
+   "generation_type": "1",
+   "level": 63,
+   "en": [
+    "#% increased Evasion Rating",
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     33.0,
+     38.0
+    ],
+    [
+     64.0,
+     94.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%",
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "Dragonfly's",
+    "zh_hans": "蜻蜓的",
+    "zh_hant": "蜻蜓的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalEvasionAndStunThreshold6": {
+   "id": "LocalEvasionAndStunThreshold6",
+   "family": [
+    "DefencesPercentAndStunThreshold"
+   ],
+   "generation_type": "1",
+   "level": 74,
+   "en": [
+    "#% increased Evasion Rating",
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     39.0,
+     42.0
+    ],
+    [
+     95.0,
+     136.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%",
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "增加#%閃避值",
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "Hummingbird's",
+    "zh_hans": "蜂鸟的",
+    "zh_hant": "蜂鳥的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements1": {
+   "id": "ReducedLocalAttributeRequirements1",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 24,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Worthy",
+    "zh_hans": "价值之",
+    "zh_hant": "值得之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements2": {
+   "id": "ReducedLocalAttributeRequirements2",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 32,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     20.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Apt",
+    "zh_hans": "容易之",
+    "zh_hant": "容易之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements3": {
+   "id": "ReducedLocalAttributeRequirements3",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 40,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     25.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Talented",
+    "zh_hans": "才华之",
+    "zh_hant": "長才之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements4": {
+   "id": "ReducedLocalAttributeRequirements4",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 52,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     30.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Skilled",
+    "zh_hans": "娴熟之",
+    "zh_hant": "高超之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ReducedLocalAttributeRequirements5": {
+   "id": "ReducedLocalAttributeRequirements5",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "2",
+   "level": 60,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     35.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "affix": {
+    "en": "of the Proficient",
+    "zh_hans": "精通之",
+    "zh_hant": "熟習之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold1": {
+   "id": "StunThreshold1",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     6.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Thick Skin",
+    "zh_hans": "厚皮之",
+    "zh_hant": "厚皮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold2": {
+   "id": "StunThreshold2",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     12.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Reinforced Skin",
+    "zh_hans": "韧皮之",
+    "zh_hant": "韌膚之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold3": {
+   "id": "StunThreshold3",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 15,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     30.0,
+     49.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Stone Skin",
+    "zh_hans": "石皮之",
+    "zh_hant": "石皮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold4": {
+   "id": "StunThreshold4",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     50.0,
+     72.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Iron Skin",
+    "zh_hans": "铁皮之",
+    "zh_hant": "金屬皮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold5": {
+   "id": "StunThreshold5",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 29,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     73.0,
+     97.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Steel Skin",
+    "zh_hans": "钢皮之",
+    "zh_hant": "鋼皮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold6": {
+   "id": "StunThreshold6",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 36,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     98.0,
+     124.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Granite Skin",
+    "zh_hans": "岩皮之",
+    "zh_hant": "石膚之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold7": {
+   "id": "StunThreshold7",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     125.0,
+     163.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Platinum Skin",
+    "zh_hans": "铂金皮之",
+    "zh_hant": "鉑膚之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold8": {
+   "id": "StunThreshold8",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 54,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     164.0,
+     206.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Adamantite Skin",
+    "zh_hans": "钢皮之",
+    "zh_hant": "金剛皮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold9": {
+   "id": "StunThreshold9",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 63,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     207.0,
+     253.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Corundum Skin",
+    "zh_hans": "玉皮之",
+    "zh_hant": "玉皮之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "StunThreshold10": {
+   "id": "StunThreshold10",
+   "family": [
+    "StunThreshold"
+   ],
+   "generation_type": "2",
+   "level": 72,
+   "en": [
+    "+# to Stun Threshold"
+   ],
+   "ranges": [
+    [
+     254.0,
+     304.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 晕眩阈值"
+   ],
+   "zh_hant": [
+    "暈眩門檻+#"
+   ],
+   "affix": {
+    "en": "of Obsidian Skin",
+    "zh_hans": "黑曜皮之",
+    "zh_hant": "曜膚之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage1": {
+   "id": "AttackerTakesDamage1",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     3.0,
+     4.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Thorny",
+    "zh_hans": "多刺的",
+    "zh_hant": "多刺的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage2": {
+   "id": "AttackerTakesDamage2",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 10,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     5.0,
+     7.0
+    ],
+    [
+     7.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Spiny",
+    "zh_hans": "带刺的",
+    "zh_hant": "帶刺的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage3": {
+   "id": "AttackerTakesDamage3",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 19,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     11.0,
+     16.0
+    ],
+    [
+     17.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Barbed",
+    "zh_hans": "尖刺的",
+    "zh_hant": "尖刺的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage4": {
+   "id": "AttackerTakesDamage4",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 38,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     24.0,
+     35.0
+    ],
+    [
+     36.0,
+     53.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Pointed",
+    "zh_hans": "凸缘的",
+    "zh_hant": "尖銳的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage5": {
+   "id": "AttackerTakesDamage5",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 48,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     40.0,
+     60.0
+    ],
+    [
+     61.0,
+     92.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Spiked",
+    "zh_hans": "尖刺的",
+    "zh_hant": "尖刺"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage6": {
+   "id": "AttackerTakesDamage6",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 63,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     64.0,
+     97.0
+    ],
+    [
+     98.0,
+     145.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Edged",
+    "zh_hans": "刀锋的",
+    "zh_hant": "尖刃"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackerTakesDamage7": {
+   "id": "AttackerTakesDamage7",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "1",
+   "level": 74,
+   "en": [
+    "# to # Physical Thorns damage"
+   ],
+   "ranges": [
+    [
+     101.0,
+     151.0
+    ],
+    [
+     152.0,
+     220.0
+    ]
+   ],
+   "zh_hans": [
+    "# - # 物理荆棘伤害"
+   ],
+   "zh_hant": [
+    "#至#點物理荊棘傷害"
+   ],
+   "affix": {
+    "en": "Jagged",
+    "zh_hans": "锯齿的",
+    "zh_hant": "鋸齒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalBlockChance1": {
+   "id": "LocalBlockChance1",
+   "family": [
+    "IncreasedShieldBlockPercentage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Block chance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%格擋率"
+   ],
+   "affix": {
+    "en": "Steadfast",
+    "zh_hans": "坚韧的",
+    "zh_hant": "堅韌的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalBlockChance2": {
+   "id": "LocalBlockChance2",
+   "family": [
+    "IncreasedShieldBlockPercentage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "#% increased Block chance"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%格擋率"
+   ],
+   "affix": {
+    "en": "Unrelenting",
+    "zh_hans": "不屈的",
+    "zh_hant": "不屈不撓的"
+   },
+   "sections": [
+    "normal",
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Hysteria",
+     "zh_hans": "浮夸精华",
+     "zh_hant": "浮誇精髓"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalBlockChance3": {
+   "id": "LocalBlockChance3",
+   "family": [
+    "IncreasedShieldBlockPercentage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "#% increased Block chance"
+   ],
+   "ranges": [
+    [
+     25.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%格擋率"
+   ],
+   "affix": {
+    "en": "Adamant",
+    "zh_hans": "金刚的",
+    "zh_hant": "堅決的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumFireResist1": {
+   "id": "MaximumFireResist1",
+   "family": [
+    "MaximumFireResist"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "+#% to Maximum Fire Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 火焰抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Bushfire",
+    "zh_hans": "树火之",
+    "zh_hant": "叢林大火之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumFireResist2_": {
+   "id": "MaximumFireResist2_",
+   "family": [
+    "MaximumFireResist"
+   ],
+   "generation_type": "2",
+   "level": 75,
+   "en": [
+    "+#% to Maximum Fire Resistance"
+   ],
+   "ranges": [
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 火焰抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Molten Core",
+    "zh_hans": "熔火核心之",
+    "zh_hant": "熔火之心之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumFireResist3": {
+   "id": "MaximumFireResist3",
+   "family": [
+    "MaximumFireResist"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "+#% to Maximum Fire Resistance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 火焰抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大火焰抗性"
+   ],
+   "affix": {
+    "en": "of the Solar Storm",
+    "zh_hans": "太阳风暴之",
+    "zh_hant": "太陽風暴之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumColdResist1": {
+   "id": "MaximumColdResist1",
+   "family": [
+    "MaximumColdResist"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "+#% to Maximum Cold Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 冰霜抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大冰冷抗性"
+   ],
+   "affix": {
+    "en": "of Furs",
+    "zh_hans": "皮草之",
+    "zh_hant": "皮草之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumColdResist2": {
+   "id": "MaximumColdResist2",
+   "family": [
+    "MaximumColdResist"
+   ],
+   "generation_type": "2",
+   "level": 75,
+   "en": [
+    "+#% to Maximum Cold Resistance"
+   ],
+   "ranges": [
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 冰霜抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Tundra",
+    "zh_hans": "苔原之",
+    "zh_hant": "苔原之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumColdResist3": {
+   "id": "MaximumColdResist3",
+   "family": [
+    "MaximumColdResist"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "+#% to Maximum Cold Resistance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 冰霜抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大冰冷抗性"
+   ],
+   "affix": {
+    "en": "of the Mammoth",
+    "zh_hans": "猛犸之",
+    "zh_hant": "猛獁象之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumLightningResist1": {
+   "id": "MaximumLightningResist1",
+   "family": [
+    "MaximumLightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "+#% to Maximum Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#%闪电抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大閃電抗性"
+   ],
+   "affix": {
+    "en": "of Impedance",
+    "zh_hans": "抗阻之",
+    "zh_hant": "阻抗之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumLightningResist2___": {
+   "id": "MaximumLightningResist2___",
+   "family": [
+    "MaximumLightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 75,
+   "en": [
+    "+#% to Maximum Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+#%闪电抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大閃電抗性"
+   ],
+   "affix": {
+    "en": "of Shockproofing",
+    "zh_hans": "电证之",
+    "zh_hant": "防震之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumLightningResist3": {
+   "id": "MaximumLightningResist3",
+   "family": [
+    "MaximumLightningResistance"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "+#% to Maximum Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "+#%闪电抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大閃電抗性"
+   ],
+   "affix": {
+    "en": "of the Lightning Rod",
+    "zh_hans": "电棒之",
+    "zh_hant": "避雷針之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumChaosResist1": {
+   "id": "MaximumChaosResist1",
+   "family": [
+    "MaximumChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 68,
+   "en": [
+    "+#% to Maximum Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 混沌抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大混沌抗性"
+   ],
+   "affix": {
+    "en": "of Regularity",
+    "zh_hans": "极宝之",
+    "zh_hant": "規律性之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumChaosResist2_": {
+   "id": "MaximumChaosResist2_",
+   "family": [
+    "MaximumChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 75,
+   "en": [
+    "+#% to Maximum Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 混沌抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大混沌抗性"
+   ],
+   "affix": {
+    "en": "of Concord",
+    "zh_hans": "规整之",
+    "zh_hant": "康科德之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumChaosResist3": {
+   "id": "MaximumChaosResist3",
+   "family": [
+    "MaximumChaosResistance"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "+#% to Maximum Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 混沌抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大混沌抗性"
+   ],
+   "affix": {
+    "en": "of Harmony",
+    "zh_hans": "和谐之",
+    "zh_hant": "和諧之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumElementalResistance1": {
+   "id": "MaximumElementalResistance1",
+   "family": [
+    "MaximumResistances"
+   ],
+   "generation_type": "2",
+   "level": 75,
+   "en": [
+    "+#% to all Maximum Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 元素抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大全元素抗性"
+   ],
+   "affix": {
+    "en": "of the Deathless",
+    "zh_hans": "不死之",
+    "zh_hant": "永恆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "MaximumElementalResistance2": {
+   "id": "MaximumElementalResistance2",
+   "family": [
+    "MaximumResistances"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "+#% to all Maximum Elemental Resistances"
+   ],
+   "ranges": [
+    [
+     2.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 元素抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大全元素抗性"
+   ],
+   "affix": {
+    "en": "of the Everlasting",
+    "zh_hans": "恒久之",
+    "zh_hant": "永恆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "EvasionGrantsDeflection1": {
+   "id": "EvasionGrantsDeflection1",
+   "family": [
+    "EvasionAppliesToDeflection"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain Deflection Rating equal to #% of Evasion Rating"
+   ],
+   "ranges": [
+    [
+     8.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于闪避值 #% 的偏转值"
+   ],
+   "zh_hant": [
+    "獲得等同#%閃避值的偏斜值"
+   ],
+   "affix": {
+    "en": "of Deflecting",
+    "zh_hans": "偏移之",
+    "zh_hant": "偏斜之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "EvasionGrantsDeflection2": {
+   "id": "EvasionGrantsDeflection2",
+   "family": [
+    "EvasionAppliesToDeflection"
+   ],
+   "generation_type": "2",
+   "level": 16,
+   "en": [
+    "Gain Deflection Rating equal to #% of Evasion Rating"
+   ],
+   "ranges": [
+    [
+     12.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于闪避值 #% 的偏转值"
+   ],
+   "zh_hant": [
+    "獲得等同#%閃避值的偏斜值"
+   ],
+   "affix": {
+    "en": "of Bending",
+    "zh_hans": "扭曲之",
+    "zh_hant": "彎折之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "EvasionGrantsDeflection3": {
+   "id": "EvasionGrantsDeflection3",
+   "family": [
+    "EvasionAppliesToDeflection"
+   ],
+   "generation_type": "2",
+   "level": 36,
+   "en": [
+    "Gain Deflection Rating equal to #% of Evasion Rating"
+   ],
+   "ranges": [
+    [
+     15.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于闪避值 #% 的偏转值"
+   ],
+   "zh_hant": [
+    "獲得等同#%閃避值的偏斜值"
+   ],
+   "affix": {
+    "en": "of Curvation",
+    "zh_hans": "曲变之",
+    "zh_hant": "彎曲之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "EvasionGrantsDeflection4": {
+   "id": "EvasionGrantsDeflection4",
+   "family": [
+    "EvasionAppliesToDeflection"
+   ],
+   "generation_type": "2",
+   "level": 48,
+   "en": [
+    "Gain Deflection Rating equal to #% of Evasion Rating"
+   ],
+   "ranges": [
+    [
+     18.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于闪避值 #% 的偏转值"
+   ],
+   "zh_hant": [
+    "獲得等同#%閃避值的偏斜值"
+   ],
+   "affix": {
+    "en": "of Diversion",
+    "zh_hans": "转移之",
+    "zh_hant": "繞行之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "EvasionGrantsDeflection5": {
+   "id": "EvasionGrantsDeflection5",
+   "family": [
+    "EvasionAppliesToDeflection"
+   ],
+   "generation_type": "2",
+   "level": 66,
+   "en": [
+    "Gain Deflection Rating equal to #% of Evasion Rating"
+   ],
+   "ranges": [
+    [
+     21.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于闪避值 #% 的偏转值"
+   ],
+   "zh_hant": [
+    "獲得等同#%閃避值的偏斜值"
+   ],
+   "affix": {
+    "en": "of Flexure",
+    "zh_hans": "挠曲之",
+    "zh_hant": "屈曲之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "EvasionGrantsDeflection6": {
+   "id": "EvasionGrantsDeflection6",
+   "family": [
+    "EvasionAppliesToDeflection"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "Gain Deflection Rating equal to #% of Evasion Rating"
+   ],
+   "ranges": [
+    [
+     24.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "获得相当于闪避值 #% 的偏转值"
+   ],
+   "zh_hant": [
+    "獲得等同#%閃避值的偏斜值"
+   ],
+   "affix": {
+    "en": "of Warping",
+    "zh_hans": "弯曲之",
+    "zh_hant": "扭曲之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "CorruptionLocalIncreasedEvasionRatingPercent1": {
+   "id": "CorruptionLocalIncreasedEvasionRatingPercent1",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     15.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionReducedLocalAttributeRequirements1": {
+   "id": "CorruptionReducedLocalAttributeRequirements1",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionThornsDamageIncrease1": {
+   "id": "CorruptionThornsDamageIncrease1",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Thorns damage"
+   ],
+   "ranges": [
+    [
+     40.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "荆棘伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%荊棘傷害"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionLocalBlockChance1": {
+   "id": "CorruptionLocalBlockChance1",
+   "family": [
+    "IncreasedShieldBlockPercentage"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Block chance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%格擋率"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionMaximumBlockChance1": {
+   "id": "CorruptionMaximumBlockChance1",
+   "family": [
+    "MaximumBlockChance"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+#% to maximum Block chance"
+   ],
+   "ranges": [
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 格挡几率上限"
+   ],
+   "zh_hant": [
+    "+#%至最大格擋機率"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionGainLifeOnBlock1": {
+   "id": "CorruptionGainLifeOnBlock1",
+   "family": [
+    "GainLifeOnBlock"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "# Life gained when you Block"
+   ],
+   "ranges": [
+    [
+     20.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "在你格挡时获得 # 生命"
+   ],
+   "zh_hant": [
+    "你格擋時獲得#生命"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionGainManaOnBlock1": {
+   "id": "CorruptionGainManaOnBlock1",
+   "family": [
+    "GainManaOnBlock"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "# Mana gained when you Block"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "在你格挡时获得 # 魔力"
+   ],
+   "zh_hant": [
+    "你格擋時獲得#魔力"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "AbyssModBodyShieldAmanamuSuffixReducedCursedEffectSelf": {
+   "id": "AbyssModBodyShieldAmanamuSuffixReducedCursedEffectSelf",
+   "family": [
+    "ReducedCurseEffect"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% reduced effect of Curses on you"
+   ],
+   "ranges": [
+    [
+     25.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "你受到的诅咒效果降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%你身上的詛咒效果"
+   ],
+   "affix": {
+    "en": "of Amanamu",
+    "zh_hans": "阿曼娜姆之",
+    "zh_hant": "阿姆那姆之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModArmourJewelleryAmanamuSuffixStrengthAndIntelligence": {
+   "id": "AbyssModArmourJewelleryAmanamuSuffixStrengthAndIntelligence",
+   "family": [
+    "Strength",
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+# to Strength and Intelligence"
+   ],
+   "ranges": [
+    [
+     9.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量和智慧"
+   ],
+   "zh_hant": [
+    "+#點力量與智慧"
+   ],
+   "affix": {
+    "en": "of Amanamu",
+    "zh_hans": "阿曼娜姆之",
+    "zh_hant": "阿姆那姆之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModShieldAmanamuSuffixAllMaximumResistances": {
+   "id": "AbyssModShieldAmanamuSuffixAllMaximumResistances",
+   "family": [
+    "MaximumResistances"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+#% to all maximum Resistances"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 全部抗性上限"
+   ],
+   "zh_hant": [
+    "+#%最大全部抗性"
+   ],
+   "affix": {
+    "en": "of Amanamu",
+    "zh_hans": "阿曼娜姆之",
+    "zh_hant": "阿姆那姆之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModArmourJewelleryAmanamuSuffixFireChaosResistance": {
+   "id": "AbyssModArmourJewelleryAmanamuSuffixFireChaosResistance",
+   "family": [
+    "FireAndChaosDamageResistance"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+#% to Fire and Chaos Resistances"
+   ],
+   "ranges": [
+    [
+     13.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 火焰与混沌抗性"
+   ],
+   "zh_hant": [
+    "+#%火焰和混沌抗性"
+   ],
+   "affix": {
+    "en": "of Amanamu",
+    "zh_hans": "阿曼娜姆之",
+    "zh_hant": "阿姆那姆之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModShieldKurgalSuffixFlatManaGainedOnBlock": {
+   "id": "AbyssModShieldKurgalSuffixFlatManaGainedOnBlock",
+   "family": [
+    "GainManaOnBlock"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "# Mana gained when you Block"
+   ],
+   "ranges": [
+    [
+     6.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "在你格挡时获得 # 魔力"
+   ],
+   "zh_hant": [
+    "你格擋時獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Kurgal",
+    "zh_hans": "古加尔之",
+    "zh_hant": "柯戈之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModBodyShieldKurgalSuffixManaRecoup": {
+   "id": "AbyssModBodyShieldKurgalSuffixManaRecoup",
+   "family": [
+    "PercentDamageGoesToMana"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% of Damage taken Recouped as Mana"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "将所受伤害的#%吸纳为魔力"
+   ],
+   "zh_hant": [
+    "承受的#%傷害補償為魔力"
+   ],
+   "affix": {
+    "en": "of Kurgal",
+    "zh_hans": "古加尔之",
+    "zh_hant": "柯戈之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModArmourJewelleryKurgalSuffixColdChaosResistance": {
+   "id": "AbyssModArmourJewelleryKurgalSuffixColdChaosResistance",
+   "family": [
+    "ColdAndChaosDamageResistance"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+#% to Cold and Chaos Resistances"
+   ],
+   "ranges": [
+    [
+     13.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 冰霜与混沌抗性"
+   ],
+   "zh_hant": [
+    "+#%冰冷和混沌抗性"
+   ],
+   "affix": {
+    "en": "of Kurgal",
+    "zh_hans": "古加尔之",
+    "zh_hant": "柯戈之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModArmourJewelleryKurgalSuffixDexterityAndIntelligence": {
+   "id": "AbyssModArmourJewelleryKurgalSuffixDexterityAndIntelligence",
+   "family": [
+    "Dexterity",
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+# to Dexterity and Intelligence"
+   ],
+   "ranges": [
+    [
+     9.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷和智慧"
+   ],
+   "zh_hant": [
+    "+#點敏捷與智慧"
+   ],
+   "affix": {
+    "en": "of Kurgal",
+    "zh_hans": "古加尔之",
+    "zh_hant": "柯戈之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModArmourJewelleryUlamanSuffixStrengthAndDexterity": {
+   "id": "AbyssModArmourJewelleryUlamanSuffixStrengthAndDexterity",
+   "family": [
+    "Strength",
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+# to Strength and Dexterity"
+   ],
+   "ranges": [
+    [
+     9.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量和敏捷"
+   ],
+   "zh_hant": [
+    "+#點力量與敏捷"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModShieldUlamanSuffixParryDebuffDuration": {
+   "id": "AbyssModShieldUlamanSuffixParryDebuffDuration",
+   "family": [
+    "ParriedDebuff"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Parried Debuff Duration"
+   ],
+   "ranges": [
+    [
+     25.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "被招架减益状态的持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%受招架減益效果持續時間"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModShieldUlamanSuffixParryDebuffMagnitude": {
+   "id": "AbyssModShieldUlamanSuffixParryDebuffMagnitude",
+   "family": [
+    "ParriedDebuff"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Parried Debuff Magnitude"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "被招架减益状态强度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%受招架減益效果的幅度"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModShieldUlamanSuffixMaximumBlockChance": {
+   "id": "AbyssModShieldUlamanSuffixMaximumBlockChance",
+   "family": [
+    "MaximumBlockChance"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+#% to maximum Block chance"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 格挡几率上限"
+   ],
+   "zh_hant": [
+    "+#%至最大格擋機率"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModBodyShieldUlamanSuffixHitsAgainstYouReducedCriticalDamage": {
+   "id": "AbyssModBodyShieldUlamanSuffixHitsAgainstYouReducedCriticalDamage",
+   "family": [
+    "ChanceToTakeCriticalStrike"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "Hits have #% reduced Critical Hit Chance against you"
+   ],
+   "ranges": [
+    [
+     17.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "击中对你的暴击几率降低 #%"
+   ],
+   "zh_hant": [
+    "對你的擊中減少#%暴擊率"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance": {
+   "id": "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance",
+   "family": [
+    "LightningAndChaosDamageResistance"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "+#% to Lightning and Chaos Resistances"
+   ],
+   "ranges": [
+    [
+     13.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 闪电与混沌抗性"
+   ],
+   "zh_hant": [
+    "+#%閃電和混沌抗性"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "CorruptionUpgradeGainLifeOnBlock1": {
+   "id": "CorruptionUpgradeGainLifeOnBlock1",
+   "family": [
+    "GainLifeOnBlock"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "# Life gained when you Block"
+   ],
+   "ranges": [
+    [
+     40.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "在你格挡时获得 # 生命"
+   ],
+   "zh_hant": [
+    "你格擋時獲得#生命"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeGainManaOnBlock1": {
+   "id": "CorruptionUpgradeGainManaOnBlock1",
+   "family": [
+    "GainManaOnBlock"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "# Mana gained when you Block"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "在你格挡时获得 # 魔力"
+   ],
+   "zh_hant": [
+    "你格擋時獲得#魔力"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelChaosResist1": {
+   "id": "CorruptionUpgradeJewelChaosResist1",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelColdResist1": {
+   "id": "CorruptionUpgradeJewelColdResist1",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelDexterity1": {
+   "id": "CorruptionUpgradeJewelDexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelFireResist1": {
+   "id": "CorruptionUpgradeJewelFireResist1",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelIntelligence1": {
+   "id": "CorruptionUpgradeJewelIntelligence1",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelLightningResist1": {
+   "id": "CorruptionUpgradeJewelLightningResist1",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelStrength1": {
+   "id": "CorruptionUpgradeJewelStrength1",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeLocalBlockChance1": {
+   "id": "CorruptionUpgradeLocalBlockChance1",
+   "family": [
+    "IncreasedShieldBlockPercentage"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Block chance"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%格擋率"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeLocalIncreasedEvasionRatingPercent1": {
+   "id": "CorruptionUpgradeLocalIncreasedEvasionRatingPercent1",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Evasion Rating"
+   ],
+   "ranges": [
+    [
+     40.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "闪避值提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%閃避值"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeMaximumBlockChance1": {
+   "id": "CorruptionUpgradeMaximumBlockChance1",
+   "family": [
+    "MaximumBlockChance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to maximum Block chance"
+   ],
+   "ranges": [
+    [
+     4.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 格挡几率上限"
+   ],
+   "zh_hant": [
+    "+#%至最大格擋機率"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeReducedLocalAttributeRequirements1": {
+   "id": "CorruptionUpgradeReducedLocalAttributeRequirements1",
+   "family": [
+    "LocalAttributeRequirements"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% reduced Attribute Requirements"
+   ],
+   "ranges": [
+    [
+     30.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "属性需求降低 #%"
+   ],
+   "zh_hant": [
+    "減少#%能力值需求"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeThornsDamageIncrease1": {
+   "id": "CorruptionUpgradeThornsDamageIncrease1",
+   "family": [
+    "Thorns"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Thorns damage"
+   ],
+   "ranges": [
+    [
+     100.0,
+     150.0
+    ]
+   ],
+   "zh_hans": [
+    "荆棘伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%荊棘傷害"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "LocalIncreasedPhysicalDamageReductionRatingPercent2": {
+   "id": "LocalIncreasedPhysicalDamageReductionRatingPercent2",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Enhancement",
+     "zh_hans": "次级强化精华",
+     "zh_hant": "低階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        27.0,
+        42.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEnergyShieldPercent2": {
+   "id": "LocalIncreasedEnergyShieldPercent2",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Enhancement",
+     "zh_hans": "次级强化精华",
+     "zh_hant": "低階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        27.0,
+        42.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedArmourAndEvasion2": {
+   "id": "LocalIncreasedArmourAndEvasion2",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Enhancement",
+     "zh_hans": "次级强化精华",
+     "zh_hant": "低階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        27.0,
+        42.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedArmourAndEnergyShield2": {
+   "id": "LocalIncreasedArmourAndEnergyShield2",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Enhancement",
+     "zh_hans": "次级强化精华",
+     "zh_hant": "低階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        27.0,
+        42.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionAndEnergyShield2": {
+   "id": "LocalIncreasedEvasionAndEnergyShield2",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of Enhancement",
+     "zh_hans": "次级强化精华",
+     "zh_hant": "低階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        27.0,
+        42.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength2": {
+   "id": "Strength2",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence2": {
+   "id": "Intelligence2",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedPhysicalDamageReductionRatingPercent4": {
+   "id": "LocalIncreasedPhysicalDamageReductionRatingPercent4",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Enhancement",
+     "zh_hans": "强化精华",
+     "zh_hant": "強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        56.0,
+        67.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEnergyShieldPercent4": {
+   "id": "LocalIncreasedEnergyShieldPercent4",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Enhancement",
+     "zh_hans": "强化精华",
+     "zh_hant": "強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        56.0,
+        67.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedArmourAndEvasion4": {
+   "id": "LocalIncreasedArmourAndEvasion4",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Enhancement",
+     "zh_hans": "强化精华",
+     "zh_hant": "強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        56.0,
+        67.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedArmourAndEnergyShield4": {
+   "id": "LocalIncreasedArmourAndEnergyShield4",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Enhancement",
+     "zh_hans": "强化精华",
+     "zh_hant": "強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        56.0,
+        67.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionAndEnergyShield4": {
+   "id": "LocalIncreasedEvasionAndEnergyShield4",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Enhancement",
+     "zh_hans": "强化精华",
+     "zh_hant": "強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        56.0,
+        67.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength4": {
+   "id": "Strength4",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence4": {
+   "id": "Intelligence4",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedPhysicalDamageReductionRatingPercent5": {
+   "id": "LocalIncreasedPhysicalDamageReductionRatingPercent5",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Enhancement",
+     "zh_hans": "强效增强精华",
+     "zh_hant": "高階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        68.0,
+        79.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEnergyShieldPercent5": {
+   "id": "LocalIncreasedEnergyShieldPercent5",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Enhancement",
+     "zh_hans": "强效增强精华",
+     "zh_hant": "高階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        68.0,
+        79.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedArmourAndEvasion5": {
+   "id": "LocalIncreasedArmourAndEvasion5",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Enhancement",
+     "zh_hans": "强效增强精华",
+     "zh_hant": "高階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        68.0,
+        79.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedArmourAndEnergyShield5": {
+   "id": "LocalIncreasedArmourAndEnergyShield5",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Enhancement",
+     "zh_hans": "强效增强精华",
+     "zh_hant": "高階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        68.0,
+        79.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedEvasionAndEnergyShield5_": {
+   "id": "LocalIncreasedEvasionAndEnergyShield5_",
+   "family": [
+    "DefencesPercent"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Enhancement",
+     "zh_hans": "强效增强精华",
+     "zh_hant": "高階強化精髓",
+     "line": {
+      "en": [
+       "#% increased Armour, Evasion and Energy Shield"
+      ],
+      "zh_hans": [
+       "护甲，闪避与能量护盾提高 #%"
+      ],
+      "zh_hant": [
+       "增加#%護甲、閃避與能量護盾"
+      ],
+      "ranges": [
+       [
+        68.0,
+        79.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength6": {
+   "id": "Strength6",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence6": {
+   "id": "Intelligence6",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAbyssPrefix": {
+   "id": "EssenceAbyssPrefix",
+   "family": [
+    "EssenceAbyss"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Abyss",
+     "zh_hans": "深渊精华",
+     "zh_hant": "深淵精髓",
+     "line": {
+      "en": [
+       "Mark of the Abyssal Lord"
+      ],
+      "zh_hans": [
+       "深渊领主的印记"
+      ],
+      "zh_hant": [
+       "深淵領主印記"
+      ],
+      "ranges": []
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAbyssSuffix": {
+   "id": "EssenceAbyssSuffix",
+   "family": [
+    "EssenceAbyss"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Abyss",
+     "zh_hans": "深渊精华",
+     "zh_hant": "深淵精髓",
+     "line": {
+      "en": [
+       "Mark of the Abyssal Lord"
+      ],
+      "zh_hans": [
+       "深渊领主的印记"
+      ],
+      "zh_hant": [
+       "深淵領主印記"
+      ],
+      "ranges": []
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyRunicWardOnBlock1": {
+   "id": "AlloyRunicWardOnBlock1",
+   "family": [
+    "GainFlatLifeOnBlock"
+   ],
+   "generation_type": "2",
+   "level": 13,
+   "en": [
+    "Recover # Runic Ward when you Block"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "格挡时回复 # 层符文结界"
+   ],
+   "zh_hant": [
+    "你格擋時恢復#點符文保護"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Protective Alloy",
+     "zh_hans": "防护合金",
+     "zh_hant": "防護合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyTotemPlacementSpeed1": {
+   "id": "AlloyTotemPlacementSpeed1",
+   "family": [
+    "SummonTotemCastSpeed"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "#% increased Totem Placement speed"
+   ],
+   "ranges": [
+    [
+     30.0,
+     49.0
+    ]
+   ],
+   "zh_hans": [
+    "你的图腾放置速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%圖騰設置速度"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Swift Alloy",
+     "zh_hans": "迅捷合金",
+     "zh_hant": "迅捷合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyLocalWardIncreasePercent1": {
+   "id": "AlloyLocalWardIncreasePercent1",
+   "family": [
+    "LocalRunicWardPercent"
+   ],
+   "generation_type": "1",
+   "level": 25,
+   "en": [
+    "#% increased Runic Ward"
+   ],
+   "ranges": [
+    [
+     24.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "符文结界提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%符文保護"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Sovereign Alloy",
+     "zh_hans": "君王合金",
+     "zh_hant": "君主合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  }
+ },
+ "socketables": {
+  "Metadata/Items/SoulCores/RuneFireLesser": {
+   "name": {
+    "en": "Lesser Desert Rune",
+    "zh_hans": "次级沙漠符文",
+    "zh_hant": "低階沙漠符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Fire Resistance"
+     ],
+     "zh_hans": [
+      "火焰抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%火焰抗性"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneFire": {
+   "name": {
+    "en": "Desert Rune",
+    "zh_hans": "沙漠符文",
+    "zh_hant": "沙漠符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Fire Resistance"
+     ],
+     "zh_hans": [
+      "火焰抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%火焰抗性"
+     ],
+     "ranges": [
+      [
+       14.0,
+       14.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneFireGreater": {
+   "name": {
+    "en": "Greater Desert Rune",
+    "zh_hans": "高级沙漠符文",
+    "zh_hant": "高階沙漠符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Fire Resistance"
+     ],
+     "zh_hans": [
+      "火焰抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%火焰抗性"
+     ],
+     "ranges": [
+      [
+       18.0,
+       18.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneFirePerfect": {
+   "name": {
+    "en": "Perfect Desert Rune",
+    "zh_hans": "完美沙漠符文",
+    "zh_hant": "完美沙漠符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Fire Resistance"
+     ],
+     "zh_hans": [
+      "火焰抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%火焰抗性"
+     ],
+     "ranges": [
+      [
+       22.0,
+       22.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneColdLesser": {
+   "name": {
+    "en": "Lesser Glacial Rune",
+    "zh_hans": "次级冰川符文",
+    "zh_hant": "低階冰川符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Cold Resistance"
+     ],
+     "zh_hans": [
+      "冰霜抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%冰冷抗性"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneCold": {
+   "name": {
+    "en": "Glacial Rune",
+    "zh_hans": "冰川符文",
+    "zh_hant": "冰川符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Cold Resistance"
+     ],
+     "zh_hans": [
+      "冰霜抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%冰冷抗性"
+     ],
+     "ranges": [
+      [
+       14.0,
+       14.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneColdGreater": {
+   "name": {
+    "en": "Greater Glacial Rune",
+    "zh_hans": "高级冰川符文",
+    "zh_hant": "高階冰川符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Cold Resistance"
+     ],
+     "zh_hans": [
+      "冰霜抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%冰冷抗性"
+     ],
+     "ranges": [
+      [
+       18.0,
+       18.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneColdPerfect": {
+   "name": {
+    "en": "Perfect Glacial Rune",
+    "zh_hans": "完美冰川符文",
+    "zh_hant": "完美冰川符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Cold Resistance"
+     ],
+     "zh_hans": [
+      "冰霜抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%冰冷抗性"
+     ],
+     "ranges": [
+      [
+       22.0,
+       22.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLightningLesser": {
+   "name": {
+    "en": "Lesser Storm Rune",
+    "zh_hans": "次级风暴符文",
+    "zh_hant": "低階暴風符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Lightning Resistance"
+     ],
+     "zh_hans": [
+      "闪电抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%閃電抗性"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLightning": {
+   "name": {
+    "en": "Storm Rune",
+    "zh_hans": "风暴符文",
+    "zh_hant": "暴風符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Lightning Resistance"
+     ],
+     "zh_hans": [
+      "闪电抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%閃電抗性"
+     ],
+     "ranges": [
+      [
+       14.0,
+       14.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLightningGreater": {
+   "name": {
+    "en": "Greater Storm Rune",
+    "zh_hans": "高级风暴符文",
+    "zh_hant": "高階暴風符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Lightning Resistance"
+     ],
+     "zh_hans": [
+      "闪电抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%閃電抗性"
+     ],
+     "ranges": [
+      [
+       18.0,
+       18.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLightningPerfect": {
+   "name": {
+    "en": "Perfect Storm Rune",
+    "zh_hans": "完美风暴符文",
+    "zh_hant": "完美暴風符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Lightning Resistance"
+     ],
+     "zh_hans": [
+      "闪电抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%閃電抗性"
+     ],
+     "ranges": [
+      [
+       22.0,
+       22.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneEnhanceLesser": {
+   "name": {
+    "en": "Lesser Iron Rune",
+    "zh_hans": "次级钢铁符文",
+    "zh_hant": "低階鍛鐵符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "护甲、闪避和能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%護甲值、閃避和能量護盾"
+     ],
+     "ranges": [
+      [
+       14.0,
+       14.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneEnhance": {
+   "name": {
+    "en": "Iron Rune",
+    "zh_hans": "钢铁符文",
+    "zh_hant": "鍛鐵符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "护甲、闪避和能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%護甲值、閃避和能量護盾"
+     ],
+     "ranges": [
+      [
+       16.0,
+       16.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneEnhanceGreater": {
+   "name": {
+    "en": "Greater Iron Rune",
+    "zh_hans": "高级钢铁符文",
+    "zh_hant": "高階鍛鐵符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "护甲、闪避和能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%護甲值、閃避和能量護盾"
+     ],
+     "ranges": [
+      [
+       18.0,
+       18.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneEnhancePerfect": {
+   "name": {
+    "en": "Perfect Iron Rune",
+    "zh_hans": "完美钢铁符文",
+    "zh_hant": "完美鍛鐵符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "护甲、闪避和能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%護甲值、閃避和能量護盾"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifeLesser": {
+   "name": {
+    "en": "Lesser Body Rune",
+    "zh_hans": "次级身躯符文",
+    "zh_hant": "低階肉體符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Life"
+     ],
+     "zh_hans": [
+      "+# 生命上限"
+     ],
+     "zh_hant": [
+      "+#最大生命"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLife": {
+   "name": {
+    "en": "Body Rune",
+    "zh_hans": "身躯符文",
+    "zh_hant": "肉體符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Life"
+     ],
+     "zh_hans": [
+      "+# 生命上限"
+     ],
+     "zh_hant": [
+      "+#最大生命"
+     ],
+     "ranges": [
+      [
+       45.0,
+       45.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifeGreater": {
+   "name": {
+    "en": "Greater Body Rune",
+    "zh_hans": "高级身躯符文",
+    "zh_hant": "高階肉體符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Life"
+     ],
+     "zh_hans": [
+      "+# 生命上限"
+     ],
+     "zh_hant": [
+      "+#最大生命"
+     ],
+     "ranges": [
+      [
+       60.0,
+       60.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifePerfect": {
+   "name": {
+    "en": "Perfect Body Rune",
+    "zh_hans": "完美身躯符文",
+    "zh_hant": "完美肉體符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Life"
+     ],
+     "zh_hans": [
+      "+# 生命上限"
+     ],
+     "zh_hant": [
+      "+#最大生命"
+     ],
+     "ranges": [
+      [
+       75.0,
+       75.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaLesser": {
+   "name": {
+    "en": "Lesser Mind Rune",
+    "zh_hans": "次级心灵符文",
+    "zh_hant": "低階心靈符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneMana": {
+   "name": {
+    "en": "Mind Rune",
+    "zh_hans": "心灵符文",
+    "zh_hant": "心靈符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaGreater": {
+   "name": {
+    "en": "Greater Mind Rune",
+    "zh_hans": "高级心灵符文",
+    "zh_hant": "高階心靈符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaPerfect": {
+   "name": {
+    "en": "Perfect Mind Rune",
+    "zh_hans": "完美心灵符文",
+    "zh_hant": "完美心靈符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifeRecoveryLesser": {
+   "name": {
+    "en": "Lesser Rebirth Rune",
+    "zh_hans": "次级重生符文",
+    "zh_hant": "低階重生符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Regenerate #% of maximum Life per second"
+     ],
+     "zh_hans": [
+      "生命每秒再生 #%"
+     ],
+     "zh_hant": [
+      "每秒回復#%生命"
+     ],
+     "ranges": [
+      [
+       0.35,
+       0.35
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifeRecovery": {
+   "name": {
+    "en": "Rebirth Rune",
+    "zh_hans": "重生符文",
+    "zh_hant": "重生符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Regenerate #% of maximum Life per second"
+     ],
+     "zh_hans": [
+      "生命每秒再生 #%"
+     ],
+     "zh_hant": [
+      "每秒回復#%生命"
+     ],
+     "ranges": [
+      [
+       0.4,
+       0.4
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifeRecoveryGreater": {
+   "name": {
+    "en": "Greater Rebirth Rune",
+    "zh_hans": "高级重生符文",
+    "zh_hant": "高階重生符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Regenerate #% of maximum Life per second"
+     ],
+     "zh_hans": [
+      "生命每秒再生 #%"
+     ],
+     "zh_hant": [
+      "每秒回復#%生命"
+     ],
+     "ranges": [
+      [
+       0.45,
+       0.45
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneLifeRecoveryPerfect": {
+   "name": {
+    "en": "Perfect Rebirth Rune",
+    "zh_hans": "完美重生符文",
+    "zh_hant": "完美重生符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Regenerate #% of maximum Life per second"
+     ],
+     "zh_hans": [
+      "生命每秒再生 #%"
+     ],
+     "zh_hant": [
+      "每秒回復#%生命"
+     ],
+     "ranges": [
+      [
+       0.5,
+       0.5
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaRecoveryLesser": {
+   "name": {
+    "en": "Lesser Inspiration Rune",
+    "zh_hans": "次级启迪符文",
+    "zh_hant": "低階啟發符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Mana Regeneration Rate"
+     ],
+     "zh_hans": [
+      "魔力再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%魔力回復率"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaRecovery": {
+   "name": {
+    "en": "Inspiration Rune",
+    "zh_hans": "启迪符文",
+    "zh_hant": "啟發符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Mana Regeneration Rate"
+     ],
+     "zh_hans": [
+      "魔力再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%魔力回復率"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaRecoveryGreater": {
+   "name": {
+    "en": "Greater Inspiration Rune",
+    "zh_hans": "高级启迪符文",
+    "zh_hant": "高階啟發符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Mana Regeneration Rate"
+     ],
+     "zh_hans": [
+      "魔力再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%魔力回復率"
+     ],
+     "ranges": [
+      [
+       18.0,
+       18.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneManaRecoveryPerfect": {
+   "name": {
+    "en": "Perfect Inspiration Rune",
+    "zh_hans": "完美启迪符文",
+    "zh_hant": "完美啟發符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Mana Regeneration Rate"
+     ],
+     "zh_hans": [
+      "魔力再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%魔力回復率"
+     ],
+     "ranges": [
+      [
+       21.0,
+       21.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStunLesser": {
+   "name": {
+    "en": "Lesser Stone Rune",
+    "zh_hans": "次级磐石符文",
+    "zh_hant": "低階岩石符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Stun Threshold"
+     ],
+     "zh_hans": [
+      "+# 晕眩阈值"
+     ],
+     "zh_hant": [
+      "暈眩門檻+#"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStun": {
+   "name": {
+    "en": "Stone Rune",
+    "zh_hans": "磐石符文",
+    "zh_hant": "岩石符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Stun Threshold"
+     ],
+     "zh_hans": [
+      "+# 晕眩阈值"
+     ],
+     "zh_hant": [
+      "暈眩門檻+#"
+     ],
+     "ranges": [
+      [
+       75.0,
+       75.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStunGreater": {
+   "name": {
+    "en": "Greater Stone Rune",
+    "zh_hans": "高级磐石符文",
+    "zh_hant": "高階岩石符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Stun Threshold"
+     ],
+     "zh_hans": [
+      "+# 晕眩阈值"
+     ],
+     "zh_hant": [
+      "暈眩門檻+#"
+     ],
+     "ranges": [
+      [
+       100.0,
+       100.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStunPerfect": {
+   "name": {
+    "en": "Perfect Stone Rune",
+    "zh_hans": "完美磐石符文",
+    "zh_hant": "完美岩石符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Stun Threshold"
+     ],
+     "zh_hans": [
+      "+# 晕眩阈值"
+     ],
+     "zh_hant": [
+      "暈眩門檻+#"
+     ],
+     "ranges": [
+      [
+       125.0,
+       125.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneAccuracyLesser": {
+   "name": {
+    "en": "Lesser Vision Rune",
+    "zh_hans": "次级幻象符文",
+    "zh_hant": "低階遠見符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Life and Mana Recovery from Flasks"
+     ],
+     "zh_hans": [
+      "药剂的生命和魔力回复提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%藥劑的生命和魔力恢復"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneAccuracy": {
+   "name": {
+    "en": "Vision Rune",
+    "zh_hans": "幻象符文",
+    "zh_hant": "遠見符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Life and Mana Recovery from Flasks"
+     ],
+     "zh_hans": [
+      "药剂的生命和魔力回复提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%藥劑的生命和魔力恢復"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneAccuracyGreater": {
+   "name": {
+    "en": "Greater Vision Rune",
+    "zh_hans": "高级幻象符文",
+    "zh_hant": "高階遠見符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Life and Mana Recovery from Flasks"
+     ],
+     "zh_hans": [
+      "药剂的生命和魔力回复提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%藥劑的生命和魔力恢復"
+     ],
+     "ranges": [
+      [
+       16.0,
+       16.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneAccuracyPerfect": {
+   "name": {
+    "en": "Perfect Vision Rune",
+    "zh_hans": "完美幻象符文",
+    "zh_hant": "完美遠見符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Life and Mana Recovery from Flasks"
+     ],
+     "zh_hans": [
+      "药剂的生命和魔力回复提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%藥劑的生命和魔力恢復"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreChaos": {
+   "name": {
+    "en": "Soul Core of Tacati",
+    "zh_hans": "塔卡提的灵核",
+    "zh_hant": "特卡蒂靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to Chaos Resistance"
+     ],
+     "zh_hans": [
+      "混沌抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%混沌抗性"
+     ],
+     "ranges": [
+      [
+       13.0,
+       13.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreEnlighten": {
+   "name": {
+    "en": "Soul Core of Citaqualotl",
+    "zh_hans": "奇塔夸雷特的灵核",
+    "zh_hant": "希特克拉多靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "+#% to all Elemental Resistances"
+     ],
+     "zh_hans": [
+      "所有元素抗性 +#%"
+     ],
+     "zh_hant": [
+      "+#%全元素抗性"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreCrit": {
+   "name": {
+    "en": "Soul Core of Ticaba",
+    "zh_hans": "提卡巴的灵核",
+    "zh_hant": "堤卡巴靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "Hits against you have #% reduced Critical Damage Bonus"
+     ],
+     "zh_hans": [
+      "对你的击中的暴击伤害加成降低 #%"
+     ],
+     "zh_hant": [
+      "對你的擊中減少#%暴擊傷害加成"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreStrength": {
+   "name": {
+    "en": "Soul Core of Atmohua",
+    "zh_hans": "阿特莫瓦的灵核",
+    "zh_hant": "艾特瑪哈靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "Convert #% of Requirements to Strength"
+     ],
+     "zh_hans": [
+      "需求的 #% 转化为力量"
+     ],
+     "zh_hant": [
+      "#%需求轉換為力量"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreDexterity": {
+   "name": {
+    "en": "Soul Core of Cholotl",
+    "zh_hans": "查罗特的灵核",
+    "zh_hant": "斯拉托靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "Convert #% of Requirements to Dexterity"
+     ],
+     "zh_hans": [
+      "需求的 #% 转化为敏捷"
+     ],
+     "zh_hant": [
+      "#%需求轉換為敏捷"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/SoulCoreIntelligence": {
+   "name": {
+    "en": "Soul Core of Zantipi",
+    "zh_hans": "赞提佩的灵核",
+    "zh_hant": "善堤比靈魂核心"
+   },
+   "lines": [
+    {
+     "en": [
+      "Convert #% of Requirements to Intelligence"
+     ],
+     "zh_hans": [
+      "需求的 #% 转化为智慧"
+     ],
+     "zh_hant": [
+      "#%需求轉換為智慧"
+     ],
+     "ranges": [
+      [
+       40.0,
+       40.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneSpecial1": {
+   "name": {
+    "en": "Greater Rune of Leadership",
+    "zh_hans": "高级领袖符文",
+    "zh_hant": "高階領導符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Minions take #% of Physical Damage as Lightning Damage"
+     ],
+     "zh_hans": [
+      "召唤生物受到物理伤害的 #% 转化为闪电伤害"
+     ],
+     "zh_hant": [
+      "召喚物受到的#%物理傷害會承受為閃電傷害"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Minions have +#% to all Elemental Resistances"
+     ],
+     "zh_hans": [
+      "召唤生物有 +#% 元素抗性"
+     ],
+     "zh_hant": [
+      "召喚物+#%全部元素抗性"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneSpecial2": {
+   "name": {
+    "en": "Greater Rune of Tithing",
+    "zh_hans": "高级奉纳符文",
+    "zh_hant": "高階奉獻符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "# to # Lightning Thorns damage"
+     ],
+     "zh_hans": [
+      "# - # 闪电荆棘伤害"
+     ],
+     "zh_hant": [
+      "#至#點閃電荊棘傷害"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ],
+      [
+       100.0,
+       100.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Thorns damage"
+     ],
+     "zh_hans": [
+      "荆棘伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%荊棘傷害"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneSpecial3": {
+   "name": {
+    "en": "Greater Rune of Alacrity",
+    "zh_hans": "高级迅捷符文",
+    "zh_hant": "高階迅捷符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Debuffs on you expire #% faster"
+     ],
+     "zh_hans": [
+      "你身上的减益消失速度加快 #%"
+     ],
+     "zh_hant": [
+      "你身上的減益效果加快#%失效"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Elemental Ailment Threshold"
+     ],
+     "zh_hans": [
+      "元素异常状态阈值提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%元素異常狀態門檻"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneSpecial4": {
+   "name": {
+    "en": "Greater Rune of Nobility",
+    "zh_hans": "高级尊贵符文",
+    "zh_hant": "高階崇高符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% reduced effect of Shock on you"
+     ],
+     "zh_hans": [
+      "你受到的感电效果降低 #%"
+     ],
+     "zh_hant": [
+      "減少#%你身上的感電效果"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% reduced Shock duration on you"
+     ],
+     "zh_hans": [
+      "你被感电的持续时间降低 #%"
+     ],
+     "zh_hant": [
+      "減少#%你身上的感電持續時間"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrengthLesser": {
+   "name": {
+    "en": "Lesser Robust Rune",
+    "zh_hans": "次级健壮符文",
+    "zh_hant": "低階堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrength": {
+   "name": {
+    "en": "Robust Rune",
+    "zh_hans": "健壮符文",
+    "zh_hant": "堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrengthGreater": {
+   "name": {
+    "en": "Greater Robust Rune",
+    "zh_hans": "高级健壮符文",
+    "zh_hant": "高階堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneStrengthPerfect": {
+   "name": {
+    "en": "Perfect Robust Rune",
+    "zh_hans": "完美健壮符文",
+    "zh_hant": "完美堅實符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Strength"
+     ],
+     "zh_hans": [
+      "+# 力量"
+     ],
+     "zh_hant": [
+      "+#點力量"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterityLesser": {
+   "name": {
+    "en": "Lesser Adept Rune",
+    "zh_hans": "次级行家符文",
+    "zh_hant": "低階嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterity": {
+   "name": {
+    "en": "Adept Rune",
+    "zh_hans": "行家符文",
+    "zh_hant": "嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterityGreater": {
+   "name": {
+    "en": "Greater Adept Rune",
+    "zh_hans": "高级行家符文",
+    "zh_hant": "高階嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneDexterityPerfect": {
+   "name": {
+    "en": "Perfect Adept Rune",
+    "zh_hans": "完美行家符文",
+    "zh_hant": "完美嫻熟符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Dexterity"
+     ],
+     "zh_hans": [
+      "+# 敏捷"
+     ],
+     "zh_hant": [
+      "+#點敏捷"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligenceLesser": {
+   "name": {
+    "en": "Lesser Resolve Rune",
+    "zh_hans": "次级坚毅符文",
+    "zh_hant": "低階決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligence": {
+   "name": {
+    "en": "Resolve Rune",
+    "zh_hans": "坚毅符文",
+    "zh_hant": "決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligenceGreater": {
+   "name": {
+    "en": "Greater Resolve Rune",
+    "zh_hans": "高级坚毅符文",
+    "zh_hant": "高階決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneIntelligencePerfect": {
+   "name": {
+    "en": "Perfect Resolve Rune",
+    "zh_hans": "完美坚毅符文",
+    "zh_hant": "完美決心符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Intelligence"
+     ],
+     "zh_hans": [
+      "+# 智慧"
+     ],
+     "zh_hant": [
+      "+#點智慧"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "+# to maximum Life",
+      "+# to maximum Mana"
+     ],
+     "zh_hans": [
+      "+# 生命上限",
+      "+# 魔力上限"
+     ],
+     "zh_hant": [
+      "+#最大生命",
+      "+#最大魔力"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ],
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RunePhysicalLesser": {
+   "name": {
+    "en": "Lesser Tempered Rune",
+    "zh_hans": "次级淬炼符文",
+    "zh_hant": "低階鍛煉符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "# to # Physical Thorns damage"
+     ],
+     "zh_hans": [
+      "# - # 物理荆棘伤害"
+     ],
+     "zh_hant": [
+      "#至#點物理荊棘傷害"
+     ],
+     "ranges": [
+      [
+       6.0,
+       6.0
+      ],
+      [
+       9.0,
+       9.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RunePhysical": {
+   "name": {
+    "en": "Tempered Rune",
+    "zh_hans": "淬炼符文",
+    "zh_hant": "鍛煉符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "# to # Physical Thorns damage"
+     ],
+     "zh_hans": [
+      "# - # 物理荆棘伤害"
+     ],
+     "zh_hant": [
+      "#至#點物理荊棘傷害"
+     ],
+     "ranges": [
+      [
+       14.0,
+       14.0
+      ],
+      [
+       21.0,
+       21.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RunePhysicalGreater": {
+   "name": {
+    "en": "Greater Tempered Rune",
+    "zh_hans": "高级淬炼符文",
+    "zh_hant": "高階鍛煉符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "# to # Physical Thorns damage"
+     ],
+     "zh_hans": [
+      "# - # 物理荆棘伤害"
+     ],
+     "zh_hant": [
+      "#至#點物理荊棘傷害"
+     ],
+     "ranges": [
+      [
+       31.0,
+       31.0
+      ],
+      [
+       52.0,
+       52.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/TalismanOx": {
+   "name": {
+    "en": "Ox Idol",
+    "zh_hans": "公牛雕像",
+    "zh_hant": "公牛魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Block chance"
+     ],
+     "zh_hans": [
+      "格挡几率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%格擋率"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% chance for Damage of Enemies Hitting you to be Unlucky"
+     ],
+     "zh_hans": [
+      "敌人击中你的伤害有 #% 的几率不幸"
+     ],
+     "zh_hant": [
+      "敵人擊中你的傷害有#%機率視為[UnLucky|帶來厄運]"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial1": {
+   "name": {
+    "en": "Idol of Greust",
+    "zh_hans": "古斯特之雕像",
+    "zh_hant": "古斯特魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "Gain Deflection Rating equal to #% of Evasion Rating"
+     ],
+     "zh_hans": [
+      "获得相当于闪避值 #% 的偏转值"
+     ],
+     "zh_hant": [
+      "獲得等同#%閃避值的偏斜值"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Damage for each type of Elemental Ailment on Enemy"
+     ],
+     "zh_hans": [
+      "敌人每受到一种元素异常状态影响，伤害提高 #%"
+     ],
+     "zh_hant": [
+      "每對敵人施加一種元素異常狀態，增加#%傷害"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/IdolSpecial7": {
+   "name": {
+    "en": "Idol of Silk",
+    "zh_hans": "流丝之雕像",
+    "zh_hant": "斯克魔偶"
+   },
+   "lines": [
+    {
+     "en": [
+      "companions gain onslaught when you parry [1]"
+     ],
+     "zh_hans": [
+      "companions gain onslaught when you parry [1]"
+     ],
+     "zh_hant": [
+      "companions gain onslaught when you parry [1]"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Parry Range"
+     ],
+     "zh_hans": [
+      "招架范围提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%招架距離"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneUpgrade": {
+   "name": {
+    "en": "Masterwork Rune",
+    "zh_hans": "大师符文",
+    "zh_hant": "匠鍛符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Upgrades a socketed Rune"
+     ],
+     "zh_hans": [
+      "晋升一个镶嵌的符文"
+     ],
+     "zh_hant": [
+      "升級插槽中的符文"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard1Lesser": {
+   "name": {
+    "en": "Lesser Ward Rune",
+    "zh_hans": "次级结界符文",
+    "zh_hant": "低階保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Runic Ward"
+     ],
+     "zh_hans": [
+      "+# 符文结界上限"
+     ],
+     "zh_hant": [
+      "+#最大符文保護"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Global Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "全局护甲，闪避与能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%全域護甲、閃避、和能量護盾"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard1Normal": {
+   "name": {
+    "en": "Ward Rune",
+    "zh_hans": "结界符文",
+    "zh_hant": "保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Runic Ward"
+     ],
+     "zh_hans": [
+      "+# 符文结界上限"
+     ],
+     "zh_hant": [
+      "+#最大符文保護"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Global Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "全局护甲，闪避与能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%全域護甲、閃避、和能量護盾"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard1Greater": {
+   "name": {
+    "en": "Greater Ward Rune",
+    "zh_hans": "高级结界符文",
+    "zh_hant": "高階保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Runic Ward"
+     ],
+     "zh_hans": [
+      "+# 符文结界上限"
+     ],
+     "zh_hant": [
+      "+#最大符文保護"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Global Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "全局护甲，闪避与能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%全域護甲、閃避、和能量護盾"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard1Perfect": {
+   "name": {
+    "en": "Perfect Ward Rune",
+    "zh_hans": "完美结界符文",
+    "zh_hant": "完美保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to maximum Runic Ward"
+     ],
+     "zh_hans": [
+      "+# 符文结界上限"
+     ],
+     "zh_hant": [
+      "+#最大符文保護"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Global Armour, Evasion and Energy Shield"
+     ],
+     "zh_hans": [
+      "全局护甲，闪避与能量护盾提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%全域護甲、閃避、和能量護盾"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard2Lesser": {
+   "name": {
+    "en": "Lesser Charging Rune",
+    "zh_hans": "次级充能符文",
+    "zh_hant": "低階充能符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Runic Ward Regeneration Rate"
+     ],
+     "zh_hans": [
+      "符文结界再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%符文保護回復率"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Regenerate # Runic Ward per second"
+     ],
+     "zh_hans": [
+      "每秒回复 # 符文结界"
+     ],
+     "zh_hant": [
+      "每秒回復#點符文保護"
+     ],
+     "ranges": [
+      [
+       10.0,
+       10.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard2Normal": {
+   "name": {
+    "en": "Charging Rune",
+    "zh_hans": "充能符文",
+    "zh_hant": "充能符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Runic Ward Regeneration Rate"
+     ],
+     "zh_hans": [
+      "符文结界再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%符文保護回復率"
+     ],
+     "ranges": [
+      [
+       12.0,
+       12.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Regenerate # Runic Ward per second"
+     ],
+     "zh_hans": [
+      "每秒回复 # 符文结界"
+     ],
+     "zh_hant": [
+      "每秒回復#點符文保護"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard2Greater": {
+   "name": {
+    "en": "Greater Charging Rune",
+    "zh_hans": "高级充能符文",
+    "zh_hant": "高階充能符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Runic Ward Regeneration Rate"
+     ],
+     "zh_hans": [
+      "符文结界再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%符文保護回復率"
+     ],
+     "ranges": [
+      [
+       16.0,
+       16.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Regenerate # Runic Ward per second"
+     ],
+     "zh_hans": [
+      "每秒回复 # 符文结界"
+     ],
+     "zh_hant": [
+      "每秒回復#點符文保護"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWard2Perfect": {
+   "name": {
+    "en": "Perfect Charging Rune",
+    "zh_hans": "完美充能符文",
+    "zh_hant": "完美充能符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Runic Ward Regeneration Rate"
+     ],
+     "zh_hans": [
+      "符文结界再生率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%符文保護回復率"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Regenerate # Runic Ward per second"
+     ],
+     "zh_hans": [
+      "每秒回复 # 符文结界"
+     ],
+     "zh_hant": [
+      "每秒回復#點符文保護"
+     ],
+     "ranges": [
+      [
+       25.0,
+       25.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial1": {
+   "name": {
+    "en": "Warding Rune of Reinforcement",
+    "zh_hans": "巩固之结界符文",
+    "zh_hant": "增援保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Runic Ward"
+     ],
+     "zh_hans": [
+      "符文结界提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%符文保護"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "Gain #% of maximum Life as Extra maximum Runic Ward"
+     ],
+     "zh_hans": [
+      "获得相当于生命上限 #% 的额外符文结界上限"
+     ],
+     "zh_hant": [
+      "獲得等同於#%最大生命的額外最大符文保護"
+     ],
+     "ranges": [
+      [
+       2.0,
+       2.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial2": {
+   "name": {
+    "en": "Warding Rune of Protection",
+    "zh_hans": "保护之结界符文",
+    "zh_hant": "護佑保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Every 4 seconds, gain Guard equal to #% of maximum Runic Ward for 2 seconds"
+     ],
+     "zh_hans": [
+      "每 4 秒，获得相当于符文结界上限 #% 的 防卫，持续 2 秒"
+     ],
+     "zh_hant": [
+      "每4秒獲得等同於#%最大符文保護的守護，持續2秒"
+     ],
+     "ranges": [
+      [
+       20.0,
+       20.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Guard gained"
+     ],
+     "zh_hans": [
+      "获得的防卫提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%獲得的守護"
+     ],
+     "ranges": [
+      [
+       8.0,
+       8.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial10": {
+   "name": {
+    "en": "Warding Rune of Stability",
+    "zh_hans": "稳定之结界符文",
+    "zh_hant": "穩定保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# to Stun Threshold per 10 maximum Runic Ward"
+     ],
+     "zh_hans": [
+      "每 10 点符文结界上限，+# 晕眩阈值"
+     ],
+     "zh_hant": [
+      "每10最大符文保護+#暈眩門檻"
+     ],
+     "ranges": [
+      [
+       4.0,
+       4.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Stun buildup while Shapeshifted"
+     ],
+     "zh_hans": [
+      "变形时，晕眩积蓄值提高 #%"
+     ],
+     "zh_hant": [
+      "你變形期間，增加#%施加暈眩累積"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWardSpecial15": {
+   "name": {
+    "en": "Warding Rune of Nourishment",
+    "zh_hans": "滋养之结界符文",
+    "zh_hant": "滋養保護符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% Life Recovery from Flasks also applies to Runic Ward"
+     ],
+     "zh_hans": [
+      "药剂的 #% 生命回复效果也作用于符文结界"
+     ],
+     "zh_hant": [
+      "來自藥劑的#%生命回復會套用至符文保護"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Life Recovery from Flasks"
+     ],
+     "zh_hans": [
+      "药剂的生命回复提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%藥劑的生命恢復"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients2": {
+   "name": {
+    "en": "Ancient Rune of Dueling",
+    "zh_hans": "决斗之远古符文",
+    "zh_hant": "遠古決鬥符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Parried Debuff Magnitude"
+     ],
+     "zh_hans": [
+      "被招架减益状态强度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%受招架減益效果的幅度"
+     ],
+     "ranges": [
+      [
+       30.0,
+       30.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Block chance"
+     ],
+     "zh_hans": [
+      "格挡几率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%格擋機率"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOfTheAncients14": {
+   "name": {
+    "en": "Rune of Vitality",
+    "zh_hans": "活力符文",
+    "zh_hant": "崇敬活力符文"
+   },
+   "lines": [
+    {
+     "en": [
+      "Recover # Life when you Block"
+     ],
+     "zh_hans": [
+      "生命在你格挡时恢复 # 点"
+     ],
+     "zh_hant": [
+      "你格擋時恢復#生命"
+     ],
+     "ranges": [
+      [
+       15.0,
+       15.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased maximum Life"
+     ],
+     "zh_hans": [
+      "生命上限提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%最大生命"
+     ],
+     "ranges": [
+      [
+       5.0,
+       5.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingAdditionalSuffix": {
+   "name": {
+    "en": "Serle's Triumph",
+    "zh_hans": "瑟尔的凯旋",
+    "zh_hant": "瑟雷的凱旋"
+   },
+   "lines": [
+    {
+     "en": [
+      "+# Suffix Modifier allowed",
+      "local maximum mods allowed + [1]"
+     ],
+     "zh_hans": [
+      "允许的后缀 +#",
+      "local maximum mods allowed + [1]"
+     ],
+     "zh_hant": [
+      "允許後綴+#",
+      "local maximum mods allowed + [1]"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingAdditionalCraftedMod": {
+   "name": {
+    "en": "Astrid's Creativity",
+    "zh_hans": "阿斯特丽德的创造",
+    "zh_hant": "阿斯垂德的創造"
+   },
+   "lines": [
+    {
+     "en": [
+      "Can have # additional Crafted Modifiers"
+     ],
+     "zh_hans": [
+      "可以有# 个额外工艺词缀"
+     ],
+     "zh_hant": [
+      "可以有#個額外工藝詞綴"
+     ],
+     "ranges": [
+      [
+       1.0,
+       1.0
+      ]
+     ],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneWarpingOlrothsLegacy": {
+   "name": {
+    "en": "Aldur's Legacy",
+    "zh_hans": "奥杜尔的遗产",
+    "zh_hant": "阿德爾的傳承"
+   },
+   "lines": [
+    {
+     "en": [
+      "When socketed into a Unique Kalguuran or Ezomyte item, destroys the item to create a Rune imbued with that item's power"
+     ],
+     "zh_hans": [
+      "当镶嵌在稀有的卡古兰或艾兹麦物品上时，摧毁该物品以创造一个灌注其力量的符文"
+     ],
+     "zh_hant": [
+      "當鑲嵌至一件傳奇卡爾葛或艾茲麥物品時，摧毀該物品並創造一枚灌注該物品能力的符文"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOlrothsLegacyDunkelhalt": {
+   "name": {
+    "en": "Legacy of Dunkelhalt",
+    "zh_hans": "黑暗止步之遗产",
+    "zh_hant": "傳承．唐克哈特"
+   },
+   "lines": [
+    {
+     "en": [
+      "#% increased Parried Debuff Magnitude"
+     ],
+     "zh_hans": [
+      "被招架减益状态强度提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%受招架減益效果的幅度"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Parry Damage"
+     ],
+     "zh_hans": [
+      "招架伤害提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%招架傷害"
+     ],
+     "ranges": [
+      [
+       50.0,
+       50.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  },
+  "Metadata/Items/SoulCores/RuneOlrothsLegacyRondeldeEzo": {
+   "name": {
+    "en": "Legacy of Rondel de Ezo",
+    "zh_hans": "艾佐的诗篇之遗产",
+    "zh_hant": "傳承．隆德爾．德．艾佐"
+   },
+   "lines": [
+    {
+     "en": [
+      "Curse Enemies with Enfeeble on Block"
+     ],
+     "zh_hans": [
+      "格挡时对敌人附加衰弱诅咒"
+     ],
+     "zh_hant": [
+      "格擋時，會對敵人施加衰弱衰弱詛咒"
+     ],
+     "ranges": [],
+     "section": "socketable"
+    },
+    {
+     "en": [
+      "#% increased Block chance against Projectiles"
+     ],
+     "zh_hans": [
+      "对投射物的格挡几率提高 #%"
+     ],
+     "zh_hant": [
+      "增加#%投射物的格擋率"
+     ],
+     "ranges": [
+      [
+       100.0,
+       100.0
+      ]
+     ],
+     "section": "bonded"
+    }
+   ]
+  }
+ },
+ "base_types": {
+  "Aegis_Buckler": {
+   "en": "Aegis Buckler",
+   "zh_hans": "神佑轻盾",
+   "zh_hant": "神禦輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Ancient_Buckler": {
+   "en": "Ancient Buckler",
+   "zh_hans": "远古轻盾",
+   "zh_hant": "遠古輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Array_Buckler": {
+   "en": "Array Buckler",
+   "zh_hans": "阵列轻盾",
+   "zh_hant": "排列輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Bladeguard_Buckler": {
+   "en": "Bladeguard Buckler",
+   "zh_hans": "刀刃守护轻盾",
+   "zh_hant": "刃衛輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Coiled_Buckler": {
+   "en": "Coiled Buckler",
+   "zh_hans": "盘曲轻盾",
+   "zh_hant": "盤繞輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Desert_Buckler": {
+   "en": "Desert Buckler",
+   "zh_hans": "沙漠轻盾",
+   "zh_hant": "沙漠輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Edged_Buckler": {
+   "en": "Edged Buckler",
+   "zh_hans": "锋缘轻盾",
+   "zh_hant": "刃緣輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Gutspike_Buckler": {
+   "en": "Gutspike Buckler",
+   "zh_hans": "肠刺轻盾",
+   "zh_hant": "挑腸輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Iron_Buckler": {
+   "en": "Iron Buckler",
+   "zh_hans": "锻铁轻盾",
+   "zh_hant": "鍛鐵輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Jingling_Buckler": {
+   "en": "Jingling Buckler",
+   "zh_hans": "铃鸣轻盾",
+   "zh_hant": "響聲輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Laminate_Buckler": {
+   "en": "Laminate Buckler",
+   "zh_hans": "合板轻盾",
+   "zh_hant": "層壓輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Leather_Buckler": {
+   "en": "Leather Buckler",
+   "zh_hans": "皮制轻盾",
+   "zh_hant": "皮革輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Oak_Buckler": {
+   "en": "Oak Buckler",
+   "zh_hans": "橡木轻盾",
+   "zh_hant": "橡木輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Ornate_Buckler": {
+   "en": "Ornate Buckler",
+   "zh_hans": "华丽轻盾",
+   "zh_hant": "華麗輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Ornate_Buckler#2": {
+   "en": "Ornate Buckler",
+   "zh_hans": "华丽轻盾",
+   "zh_hant": "華麗輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Painted_Buckler": {
+   "en": "Painted Buckler",
+   "zh_hans": "彩绘轻盾",
+   "zh_hant": "彩繪輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Pearl_Buckler": {
+   "en": "Pearl Buckler",
+   "zh_hans": "珠光轻盾",
+   "zh_hant": "珍珠輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Plated_Buckler": {
+   "en": "Plated Buckler",
+   "zh_hans": "嵌板轻盾",
+   "zh_hant": "鋼板輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Ridged_Buckler": {
+   "en": "Ridged Buckler",
+   "zh_hans": "凸脊轻盾",
+   "zh_hant": "脊狀輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Ringed_Buckler": {
+   "en": "Ringed Buckler",
+   "zh_hans": "环锁轻盾",
+   "zh_hant": "環紋輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Aegis_Buckler": {
+   "en": "Runeforged Aegis Buckler",
+   "zh_hans": "符文神佑轻盾",
+   "zh_hant": "符鍛神禦輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Ancient_Buckler": {
+   "en": "Runeforged Ancient Buckler",
+   "zh_hans": "符文远古轻盾",
+   "zh_hant": "符鍛遠古輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Array_Buckler": {
+   "en": "Runeforged Array Buckler",
+   "zh_hans": "符文阵列轻盾",
+   "zh_hant": "符鍛排列輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Bladeguard_Buckler": {
+   "en": "Runeforged Bladeguard Buckler",
+   "zh_hans": "符文刀刃守护轻盾",
+   "zh_hant": "符鍛刃衛輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Desert_Buckler": {
+   "en": "Runeforged Desert Buckler",
+   "zh_hans": "符文沙漠轻盾",
+   "zh_hant": "符鍛沙漠輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Edged_Buckler": {
+   "en": "Runeforged Edged Buckler",
+   "zh_hans": "符文锋缘轻盾",
+   "zh_hant": "符鍛刃緣輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Gutspike_Buckler": {
+   "en": "Runeforged Gutspike Buckler",
+   "zh_hans": "符文肠刺轻盾",
+   "zh_hant": "符鍛挑腸輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Iron_Buckler": {
+   "en": "Runeforged Iron Buckler",
+   "zh_hans": "符文锻铁轻盾",
+   "zh_hant": "符鍛鍛鐵輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Jingling_Buckler": {
+   "en": "Runeforged Jingling Buckler",
+   "zh_hans": "符文铃鸣轻盾",
+   "zh_hant": "符鍛響聲輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Laminate_Buckler": {
+   "en": "Runeforged Laminate Buckler",
+   "zh_hans": "符文合板轻盾",
+   "zh_hant": "符鍛層壓輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Leather_Buckler": {
+   "en": "Runeforged Leather Buckler",
+   "zh_hans": "符文皮制轻盾",
+   "zh_hant": "符鍛皮革輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Ornate_Buckler": {
+   "en": "Runeforged Ornate Buckler",
+   "zh_hans": "符文华丽轻盾",
+   "zh_hant": "符鍛華麗輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Ornate_Buckler#2": {
+   "en": "Runeforged Ornate Buckler",
+   "zh_hans": "符文华丽轻盾",
+   "zh_hant": "符鍛華麗輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Pearl_Buckler": {
+   "en": "Runeforged Pearl Buckler",
+   "zh_hans": "符文珠光轻盾",
+   "zh_hant": "符鍛珍珠輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Plated_Buckler": {
+   "en": "Runeforged Plated Buckler",
+   "zh_hans": "符文嵌板轻盾",
+   "zh_hant": "符鍛鋼板輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Ridged_Buckler": {
+   "en": "Runeforged Ridged Buckler",
+   "zh_hans": "符文凸脊轻盾",
+   "zh_hant": "符鍛脊狀輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Ringed_Buckler": {
+   "en": "Runeforged Ringed Buckler",
+   "zh_hans": "符文环锁轻盾",
+   "zh_hant": "符鍛環紋輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Spiked_Buckler": {
+   "en": "Runeforged Spiked Buckler",
+   "zh_hans": "符文尖刺轻盾",
+   "zh_hant": "符鍛尖刺輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Spikeward_Buckler": {
+   "en": "Runeforged Spikeward Buckler",
+   "zh_hans": "符文尖刺守护轻盾",
+   "zh_hant": "符鍛尖衛輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runeforged_Wooden_Buckler": {
+   "en": "Runeforged Wooden Buckler",
+   "zh_hans": "符文木制轻盾",
+   "zh_hant": "符鍛木頭輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Array_Buckler": {
+   "en": "Runemastered Array Buckler",
+   "zh_hans": "符文师匠阵列轻盾",
+   "zh_hant": "符煉排列輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Iron_Buckler": {
+   "en": "Runemastered Iron Buckler",
+   "zh_hans": "符文师匠锻铁轻盾",
+   "zh_hant": "符煉鍛鐵輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Leather_Buckler": {
+   "en": "Runemastered Leather Buckler",
+   "zh_hans": "符文师匠皮制轻盾",
+   "zh_hant": "符煉皮革輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Ornate_Buckler": {
+   "en": "Runemastered Ornate Buckler",
+   "zh_hans": "符文师匠华丽轻盾",
+   "zh_hant": "符煉華麗輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Plated_Buckler": {
+   "en": "Runemastered Plated Buckler",
+   "zh_hans": "符文师匠嵌板轻盾",
+   "zh_hant": "符煉鋼板輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Ridged_Buckler": {
+   "en": "Runemastered Ridged Buckler",
+   "zh_hans": "符文师匠凸脊轻盾",
+   "zh_hant": "符煉脊狀輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Spiked_Buckler": {
+   "en": "Runemastered Spiked Buckler",
+   "zh_hans": "符文师匠尖刺轻盾",
+   "zh_hant": "符煉尖刺輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Runemastered_Venerable_Defender": {
+   "en": "Runemastered Venerable Defender",
+   "zh_hans": "符文师匠庄严护卫",
+   "zh_hant": "符煉古老護衛盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Raise Shield",
+     "zh_hans": "获得技能: 架盾",
+     "zh_hant": "賦予技能: 展開護盾"
+    }
+   ]
+  },
+  "Runemastered_Wooden_Buckler": {
+   "en": "Runemastered Wooden Buckler",
+   "zh_hans": "符文师匠木制轻盾",
+   "zh_hant": "符煉木頭輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Spiked_Buckler": {
+   "en": "Spiked Buckler",
+   "zh_hans": "尖刺轻盾",
+   "zh_hant": "尖刺輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Spikeward_Buckler": {
+   "en": "Spikeward Buckler",
+   "zh_hans": "尖刺守护轻盾",
+   "zh_hant": "尖衛輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  },
+  "Wooden_Buckler": {
+   "en": "Wooden Buckler",
+   "zh_hans": "木制轻盾",
+   "zh_hant": "木頭輕盾",
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ]
+  }
+ },
+ "uniques": {
+  "Calgyras_Arc": {
+   "en": "Calgyra's Arc",
+   "zh_hans": "凯尔格拉的弧光",
+   "zh_hant": "凱爾捷拉之弧",
+   "base": {
+    "en": "Ornate Buckler",
+    "zh_hans": "华丽轻盾",
+    "zh_hant": "華麗輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Evasion Rating",
+     "zh_hans": "闪避值提高 #%",
+     "zh_hant": "增加#%閃避值"
+    },
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "+# to Intelligence",
+     "zh_hans": "+# 智慧",
+     "zh_hant": "+#點智慧"
+    },
+    {
+     "en": "Infinite Parry Range",
+     "zh_hans": "无限招架范围",
+     "zh_hant": "招架沒有範圍限制"
+    },
+    {
+     "en": "#% increased Parried Debuff Duration",
+     "zh_hans": "被招架减益状态的持续时间提高 #%",
+     "zh_hant": "增加#%受招架減益效果持續時間"
+    },
+    {
+     "en": "parry skill art variation from item [1]",
+     "zh_hans": "parry skill art variation from item [1]",
+     "zh_hant": "parry skill art variation from item [1]"
+    }
+   ]
+  },
+  "Dunkelhalt": {
+   "en": "Dunkelhalt",
+   "zh_hans": "黑暗止步",
+   "zh_hant": "唐克哈特",
+   "base": {
+    "en": "Leather Buckler",
+    "zh_hans": "皮制轻盾",
+    "zh_hant": "皮革輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Block chance",
+     "zh_hans": "格挡几率提高 #%",
+     "zh_hant": "增加#%格擋率"
+    },
+    {
+     "en": "+# to Evasion Rating",
+     "zh_hans": "+# 点闪避值",
+     "zh_hant": "+#閃避值"
+    },
+    {
+     "en": "You take #% of damage from Blocked Hits",
+     "zh_hans": "击中被格挡时，你承受伤害的 #%",
+     "zh_hant": "你受到來自格擋擊中的#%傷害"
+    },
+    {
+     "en": "#% increased Parried Debuff Magnitude",
+     "zh_hans": "被招架减益状态强度提高 #%",
+     "zh_hant": "增加#%受招架減益效果的幅度"
+    }
+   ]
+  },
+  "Kaltenhalt": {
+   "en": "Kaltenhalt",
+   "zh_hans": "冰霜之镜",
+   "zh_hant": "冰霜之鏡",
+   "base": {
+    "en": "Ridged Buckler",
+    "zh_hans": "凸脊轻盾",
+    "zh_hant": "脊狀輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Evasion Rating",
+     "zh_hans": "闪避值提高 #%",
+     "zh_hant": "增加#%閃避值"
+    },
+    {
+     "en": "+#% to Maximum Cold Resistance",
+     "zh_hans": "+#% 冰霜抗性上限",
+     "zh_hant": "+#%最大冰冷抗性"
+    },
+    {
+     "en": "+#% to Cold Resistance",
+     "zh_hans": "冰霜抗性 +#%",
+     "zh_hant": "+#%冰冷抗性"
+    },
+    {
+     "en": "Modifiers to Stun Buildup apply to Freeze Buildup instead for Parry",
+     "zh_hans": "招架时，晕眩积蓄的修正改为作用于冻结积蓄",
+     "zh_hant": "招架的暈眩累積加成改為套用至冰凍累積"
+    },
+    {
+     "en": "#% of Parry Physical Damage Converted to Cold Damage",
+     "zh_hans": "招架物理伤害的 #% 转化为冰霜伤害",
+     "zh_hant": "#%的招架物理傷害轉換為冰冷傷害"
+    },
+    {
+     "en": "# to # Cold Thorns damage",
+     "zh_hans": "# - # 冰霜荆棘伤害",
+     "zh_hant": "#至#點冰冷荊棘傷害"
+    }
+   ]
+  },
+  "Nocturne": {
+   "en": "Nocturne",
+   "zh_hans": "夜曲",
+   "zh_hant": "夜曲",
+   "base": {
+    "en": "Wooden Buckler",
+    "zh_hans": "木制轻盾",
+    "zh_hant": "木頭輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "+#% to all Elemental Resistances",
+     "zh_hans": "所有元素抗性 +#%",
+     "zh_hant": "+#%全元素抗性"
+    },
+    {
+     "en": "#% increased Accuracy Rating",
+     "zh_hans": "命中值提高 #%",
+     "zh_hant": "增加#%命中值"
+    },
+    {
+     "en": "Parried enemies take more Spell Damage instead of more Attack Damage",
+     "zh_hans": "被招架的敌人受到的法术伤害总增，而非攻击伤害",
+     "zh_hant": "受招架敵人承受更多法術傷害，而非更多攻擊傷害"
+    },
+    {
+     "en": "#% increased Parried Debuff Duration",
+     "zh_hans": "被招架减益状态的持续时间提高 #%",
+     "zh_hant": "增加#%受招架減益效果持續時間"
+    },
+    {
+     "en": "parry skill art variation from item [2]",
+     "zh_hans": "parry skill art variation from item [2]",
+     "zh_hant": "parry skill art variation from item [2]"
+    }
+   ]
+  },
+  "Rondel_de_Ezo": {
+   "en": "Rondel de Ezo",
+   "zh_hans": "艾佐的诗篇",
+   "zh_hant": "隆德爾．德．艾佐",
+   "base": {
+    "en": "Plated Buckler",
+    "zh_hans": "嵌板轻盾",
+    "zh_hant": "鋼板輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Evasion Rating",
+     "zh_hans": "闪避值提高 #%",
+     "zh_hant": "增加#%閃避值"
+    },
+    {
+     "en": "+# to Dexterity",
+     "zh_hans": "+# 敏捷",
+     "zh_hant": "+#點敏捷"
+    },
+    {
+     "en": "# Life Regeneration per second",
+     "zh_hans": "生命每秒再生 #",
+     "zh_hant": "#每秒生命回復"
+    },
+    {
+     "en": "#% increased Block chance against Projectiles",
+     "zh_hans": "对投射物的格挡几率提高 #%",
+     "zh_hant": "增加#%投射物的格擋率"
+    },
+    {
+     "en": "Curse Enemies with Enfeeble on Block",
+     "zh_hans": "格挡时对敌人附加衰弱诅咒",
+     "zh_hant": "格擋時，會對敵人施加衰弱衰弱詛咒"
+    }
+   ]
+  },
+  "Silverthorne": {
+   "en": "Silverthorne",
+   "zh_hans": "银芒荆棘",
+   "zh_hant": "銀白索恩",
+   "base": {
+    "en": "Spiked Buckler",
+    "zh_hans": "尖刺轻盾",
+    "zh_hant": "尖刺輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Evasion Rating",
+     "zh_hans": "闪避值提高 #%",
+     "zh_hant": "增加#%閃避值"
+    },
+    {
+     "en": "+#% to all Elemental Resistances",
+     "zh_hans": "所有元素抗性 +#%",
+     "zh_hant": "+#%全元素抗性"
+    },
+    {
+     "en": "Parrying applies # Stacks of Critical Weakness",
+     "zh_hans": "招架施加 # 层暴击弱点",
+     "zh_hant": "招架時施加#層暴擊弱點"
+    },
+    {
+     "en": "#% increased Parry Damage",
+     "zh_hans": "招架伤害提高 #%",
+     "zh_hant": "增加#%招架傷害"
+    }
+   ]
+  },
+  "Sunsplinter": {
+   "en": "Sunsplinter",
+   "zh_hans": "烈阳残片",
+   "zh_hant": "烈日碎片",
+   "base": {
+    "en": "Array Buckler",
+    "zh_hans": "阵列轻盾",
+    "zh_hant": "排列輕盾"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Parry",
+     "zh_hans": "获得技能: 招架",
+     "zh_hant": "賦予技能: 招架"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Evasion Rating",
+     "zh_hans": "闪避值提高 #%",
+     "zh_hant": "增加#%閃避值"
+    },
+    {
+     "en": "+# to Level of all Fire Skills",
+     "zh_hans": "所有火焰技能等级 +#",
+     "zh_hant": "所有火焰技能的等級+#"
+    },
+    {
+     "en": "+# to Level of all Cold Skills",
+     "zh_hans": "所有冰霜技能等级 +#",
+     "zh_hant": "全部冰冷技能等級+#"
+    },
+    {
+     "en": "+# to Level of all Lightning Skills",
+     "zh_hans": "所有闪电技能等级 +#",
+     "zh_hant": "全部閃電技能等級+#"
+    },
+    {
+     "en": "+#% to Maximum Fire Resistance",
+     "zh_hans": "+#% 火焰抗性上限",
+     "zh_hant": "+#%最大火焰抗性"
+    },
+    {
+     "en": "+#% to Maximum Cold Resistance",
+     "zh_hans": "+#% 冰霜抗性上限",
+     "zh_hant": "+#%最大冰冷抗性"
+    },
+    {
+     "en": "+#% to Maximum Lightning Resistance",
+     "zh_hans": "+#%闪电抗性上限",
+     "zh_hant": "+#%最大閃電抗性"
+    }
+   ]
+  }
+ }
+}

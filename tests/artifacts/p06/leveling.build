@@ -1,0 +1,27 @@
+{
+  "author":"P06 验证",
+  "description":"完整引擎离线导出；双服客户端待验证",
+  "inventory_slots":[{
+      "additional_text":"<rgb(255, 255, 119)>{<b>{Export Ring\nGold Ring}}\n\n<rgb(136, 136, 255)>{+10 to maximum Life}",
+      "inventory_id":"Ring1",
+      "slot_x":0
+    },{
+      "additional_text":"开荒空槽备注",
+      "inventory_id":"Ring2",
+      "slot_x":0
+    }],
+  "name":"P06 开荒",
+  "passives":[{
+      "id":"ranger596",
+      "weapon_set":0
+    },{
+      "additional_text":"开荒天赋备注",
+      "id":"projectiles15",
+      "weapon_set":0
+    }],
+  "skills":[{
+      "additional_text":"开荒火球备注",
+      "id":"Metadata/Items/Gem/SkillGemFireball",
+      "support_skills":["Metadata/Items/Gems/SupportGemArcaneTempo"]
+    }]
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "authored:a01:class-conflict",
+    "kind": "authored_structured",
+    "title": "Authored class guide",
+    "text": "Authored offline guide; not a client or live guide sample.\ntree_version=0_5\nclass_name=Warrior\nascendancy_name=Deadeye"
+  },
+  "fields": {
+    "realm": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "league": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "game_version": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "stage": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "class_name": {
+      "value": "Warrior",
+      "origin": "stated",
+      "evidence": "class_name=Warrior",
+      "reason": null
+    },
+    "ascendancy_name": {
+      "value": "Deadeye",
+      "origin": "stated",
+      "evidence": "ascendancy_name=Deadeye",
+      "reason": null
+    },
+    "main_skill_name": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "main_skill_id": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "tree_version": {
+      "value": "0_5",
+      "origin": "stated",
+      "evidence": "tree_version=0_5",
+      "reason": null
+    },
+    "equipment_text": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "config_text": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "level": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "main_skill_level": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "main_skill_quality": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "passive_nodes": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    }
+  }
+}

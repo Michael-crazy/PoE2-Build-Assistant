@@ -1,0 +1,7011 @@
+{
+ "bases": {
+  "Aberrant Sledge": {
+   "zh_hans": "畸变巨锤",
+   "zh_hant": "怪異攻城錘"
+  },
+  "Absent Amulet": {
+   "zh_hans": "失神项链",
+   "zh_hant": "虛無護身符"
+  },
+  "Abyssal Cuirass": {
+   "zh_hans": "深渊胸甲",
+   "zh_hant": "深淵胸甲"
+  },
+  "Abyssal Flail": {
+   "zh_hans": "深渊连枷",
+   "zh_hant": "深淵鏈錘"
+  },
+  "Abyssal Signet": {
+   "zh_hans": "深渊印戒",
+   "zh_hant": "深淵之記"
+  },
+  "Acrid Wand": {
+   "zh_hans": "刻薄法杖",
+   "zh_hant": "刺鼻法杖"
+  },
+  "Adherent Bow": {
+   "zh_hans": "联排之弓",
+   "zh_hant": "信徒之弓"
+  },
+  "Adherent Cuffs": {
+   "zh_hans": "信徒袖带",
+   "zh_hant": "追隨者腕帶"
+  },
+  "Adherent Leggings": {
+   "zh_hans": "联排绑腿",
+   "zh_hant": "信徒護腿"
+  },
+  "Adherent's Raiment": {
+   "zh_hans": "信徒之衣",
+   "zh_hant": "信徒之衣"
+  },
+  "Adorned Gloves": {
+   "zh_hans": "华饰手套",
+   "zh_hant": "奢華手套"
+  },
+  "Adorned Wraps": {
+   "zh_hans": "华饰裹手",
+   "zh_hant": "裝飾裹手"
+  },
+  "Aegis Buckler": {
+   "zh_hans": "神佑轻盾",
+   "zh_hant": "神禦輕盾"
+  },
+  "Aegis Quarterstaff": {
+   "zh_hans": "神盾节杖",
+   "zh_hant": "神禦細杖"
+  },
+  "Aged Cuffs": {
+   "zh_hans": "风霜袖带",
+   "zh_hant": "陳舊腕帶"
+  },
+  "Aged Tower Shield": {
+   "zh_hans": "陈旧塔盾",
+   "zh_hant": "陳舊塔盾"
+  },
+  "Akoyan Club": {
+   "zh_hans": "阿科扬战棒",
+   "zh_hant": "艾古亞棍棒"
+  },
+  "Akoyan Spear": {
+   "zh_hans": "阿科扬战矛",
+   "zh_hant": "艾古亞長矛"
+  },
+  "Alloy Crossbow": {
+   "zh_hans": "合金战弩",
+   "zh_hant": "合金十字弓"
+  },
+  "Alpha Talisman": {
+   "zh_hans": "首领魔符",
+   "zh_hant": "統領魔符"
+  },
+  "Altar Robe": {
+   "zh_hans": "祭坛长袍",
+   "zh_hant": "祭壇長袍"
+  },
+  "Amber Amulet": {
+   "zh_hans": "琥珀项链",
+   "zh_hant": "琥珀護身符"
+  },
+  "Amethyst Charm": {
+   "zh_hans": "紫晶咒符",
+   "zh_hant": "紫晶護符"
+  },
+  "Amethyst Ring": {
+   "zh_hans": "紫晶戒指",
+   "zh_hant": "紫晶戒指"
+  },
+  "Ancestor Tower Shield": {
+   "zh_hans": "先祖塔盾",
+   "zh_hant": "先祖塔盾"
+  },
+  "Ancestral Mail": {
+   "zh_hans": "先祖锁甲",
+   "zh_hant": "先祖鎖甲"
+  },
+  "Ancestral Tiara": {
+   "zh_hans": "先祖冠冕",
+   "zh_hant": "先祖頭冠"
+  },
+  "Anchorite Garb": {
+   "zh_hans": "隐士束衣",
+   "zh_hant": "隱者裝束"
+  },
+  "Ancient Buckler": {
+   "zh_hans": "远古轻盾",
+   "zh_hant": "遠古輕盾"
+  },
+  "Ancient Cuffs": {
+   "zh_hans": "远古袖带",
+   "zh_hant": "遠古腕帶"
+  },
+  "Ancient Gauntlets": {
+   "zh_hans": "远古护手",
+   "zh_hant": "遠古護手"
+  },
+  "Ancient Greatblade": {
+   "zh_hans": "上古巨剑",
+   "zh_hant": "遠古巨刃"
+  },
+  "Ancient Leggings": {
+   "zh_hans": "远古护腿",
+   "zh_hant": "遠古護腿"
+  },
+  "Ancient Mail": {
+   "zh_hans": "远古链甲",
+   "zh_hant": "遠古鎖甲"
+  },
+  "Ancient Mitts": {
+   "zh_hans": "远古护手",
+   "zh_hant": "遠古長手套"
+  },
+  "Ancient Visor": {
+   "zh_hans": "远古面甲",
+   "zh_hant": "遠古護面盔"
+  },
+  "Anima Quarterstaff": {
+   "zh_hans": "心能节杖",
+   "zh_hant": "靈魂細杖"
+  },
+  "Antidote Charm": {
+   "zh_hans": "抗毒咒符",
+   "zh_hant": "解毒護符"
+  },
+  "Antler Focus": {
+   "zh_hans": "鹿角法器",
+   "zh_hant": "靈鹿法器"
+  },
+  "Anvil Maul": {
+   "zh_hans": "铁砧巨锤",
+   "zh_hant": "鐵砧重錘"
+  },
+  "Apostle Leggings": {
+   "zh_hans": "使徒护腿",
+   "zh_hant": "使徒護腿"
+  },
+  "Arcane Dirk": {
+   "zh_hans": "秘术短匕",
+   "zh_hant": "奧術短刀"
+  },
+  "Arcane Raiment": {
+   "zh_hans": "秘法之衣",
+   "zh_hant": "奧術之衣"
+  },
+  "Arced Claw": {
+   "zh_hans": "弧形利爪",
+   "zh_hant": "弧形爪"
+  },
+  "Arced Longsword": {
+   "zh_hans": "弧刃长剑",
+   "zh_hant": "弧形長劍"
+  },
+  "Arched Greataxe": {
+   "zh_hans": "弧刃大斧",
+   "zh_hant": "拱形巨斧"
+  },
+  "Archon Crown": {
+   "zh_hans": "执政官王冠",
+   "zh_hant": "統治者之冠"
+  },
+  "Arcing Quarterstaff": {
+   "zh_hans": "弧影节杖",
+   "zh_hant": "電弧細杖"
+  },
+  "Armoured Cap": {
+   "zh_hans": "覆甲帽",
+   "zh_hant": "裝甲便帽"
+  },
+  "Armoured Claw": {
+   "zh_hans": "重装利爪",
+   "zh_hant": "裝甲爪"
+  },
+  "Armoured Vest": {
+   "zh_hans": "铠装背心",
+   "zh_hant": "裝甲背心"
+  },
+  "Aromatic Sceptre": {
+   "zh_hans": "芳香权杖",
+   "zh_hant": "芳香權杖"
+  },
+  "Array Buckler": {
+   "zh_hans": "阵列轻盾",
+   "zh_hant": "排列輕盾"
+  },
+  "Arrayed Focus": {
+   "zh_hans": "排列法器",
+   "zh_hant": "陣列法器"
+  },
+  "Artillery Bow": {
+   "zh_hans": "轰击弓",
+   "zh_hant": "砲火弓"
+  },
+  "Ascetic Garb": {
+   "zh_hans": "苦修束衣",
+   "zh_hant": "苦行者裝束"
+  },
+  "Ashbark Talisman": {
+   "zh_hans": "灰烬树皮魔符",
+   "zh_hant": "燼木魔符"
+  },
+  "Ashen Staff": {
+   "zh_hans": "枯灰长杖",
+   "zh_hant": "灰燼長杖"
+  },
+  "Assassin Garb": {
+   "zh_hans": "刺客束衣",
+   "zh_hant": "刺客裝束"
+  },
+  "Attuned Focus": {
+   "zh_hans": "协调法器",
+   "zh_hant": "調和法器"
+  },
+  "Attuned Wand": {
+   "zh_hans": "调谐法杖",
+   "zh_hant": "調和法杖"
+  },
+  "Aureate Targe": {
+   "zh_hans": "金辉圆盾",
+   "zh_hant": "鍍金圓盾"
+  },
+  "Austere Garb": {
+   "zh_hans": "简朴束衣",
+   "zh_hant": "樸素裝束"
+  },
+  "Avian Mask": {
+   "zh_hans": "飞羽面具",
+   "zh_hant": "飛羽之面"
+  },
+  "Avian Robe": {
+   "zh_hans": "飞羽长袍",
+   "zh_hant": "飛羽長袍"
+  },
+  "Avian Targe": {
+   "zh_hans": "飞羽圆盾",
+   "zh_hant": "飛羽圓盾"
+  },
+  "Avian Tiara": {
+   "zh_hans": "飞羽冠冕",
+   "zh_hant": "飛羽頭冠"
+  },
+  "Azure Amulet": {
+   "zh_hans": "碧蓝项链",
+   "zh_hant": "蒼藍項鍊"
+  },
+  "Bandage Wraps": {
+   "zh_hans": "绷带裹手",
+   "zh_hant": "繃帶裹手"
+  },
+  "Bandit Hatchet": {
+   "zh_hans": "盗匪手斧",
+   "zh_hant": "強盜斧"
+  },
+  "Bandit Mace": {
+   "zh_hans": "强盗之锤",
+   "zh_hant": "盜賊之錘"
+  },
+  "Bandit Mask": {
+   "zh_hans": "盗贼面具",
+   "zh_hant": "盜賊之面"
+  },
+  "Bangled Sandals": {
+   "zh_hans": "手镯鞋履",
+   "zh_hant": "鐲子便鞋"
+  },
+  "Barbarian Plate": {
+   "zh_hans": "野蛮人战铠",
+   "zh_hant": "野蠻人鎧甲"
+  },
+  "Barbarous Quarterstaff": {
+   "zh_hans": "蛮族节杖",
+   "zh_hant": "野蠻細杖"
+  },
+  "Barbed Bracers": {
+   "zh_hans": "倒刺护腕",
+   "zh_hant": "鉤刺護腕"
+  },
+  "Barbed Spear": {
+   "zh_hans": "倒刺长矛",
+   "zh_hant": "鉤刺長矛"
+  },
+  "Baroque Gloves": {
+   "zh_hans": "巴洛克手套",
+   "zh_hant": "巴洛克手套"
+  },
+  "Baroque Targe": {
+   "zh_hans": "巴洛克圆盾",
+   "zh_hant": "巴洛克圓盾"
+  },
+  "Barricade Tower Shield": {
+   "zh_hans": "障壁塔盾",
+   "zh_hant": "障壁塔盾"
+  },
+  "Barrier Quarterstaff": {
+   "zh_hans": "护身节杖",
+   "zh_hant": "屏障細杖"
+  },
+  "Bastion Sabatons": {
+   "zh_hans": "坚城壁垒战靴",
+   "zh_hant": "堅堡鎧靴"
+  },
+  "Battle Axe": {
+   "zh_hans": "鏖战之斧",
+   "zh_hant": "戰斧"
+  },
+  "Battle Pick": {
+   "zh_hans": "战镐",
+   "zh_hant": "戰鬥鎬"
+  },
+  "Beaded Circlet": {
+   "zh_hans": "珠饰头冠",
+   "zh_hant": "串珠頭環"
+  },
+  "Bearded Axe": {
+   "zh_hans": "钩刃斧",
+   "zh_hant": "鉤刺斧"
+  },
+  "Bearskin Mantle": {
+   "zh_hans": "熊皮斗篷",
+   "zh_hant": "熊皮披肩"
+  },
+  "Biostatic Ring": {
+   "zh_hans": "生息戒指",
+   "zh_hant": "恆生之戒"
+  },
+  "Blackfire Crossbow": {
+   "zh_hans": "黯焰战弩",
+   "zh_hant": "黑火十字弓"
+  },
+  "Blacksmith Maul": {
+   "zh_hans": "锻造巨锤",
+   "zh_hant": "鐵匠重錘"
+  },
+  "Blacksteel Crest Shield": {
+   "zh_hans": "黑钢纹章盾",
+   "zh_hant": "烏鋼紋章盾"
+  },
+  "Blacksteel Gauntlets": {
+   "zh_hans": "黑钢手甲",
+   "zh_hant": "烏鐵護手"
+  },
+  "Blacksteel Sabatons": {
+   "zh_hans": "黑钢战靴",
+   "zh_hant": "烏鋼鎧靴"
+  },
+  "Blacksteel Tower Shield": {
+   "zh_hans": "黑钢塔盾",
+   "zh_hant": "黑鋼塔盾"
+  },
+  "Bladed Quarterstaff": {
+   "zh_hans": "锋刃节杖",
+   "zh_hant": "帶刃細杖"
+  },
+  "Bladed Shoes": {
+   "zh_hans": "嵌刃便鞋",
+   "zh_hant": "片狀輕鞋"
+  },
+  "Bladed Trap": {
+   "zh_hans": "利刃陷阱",
+   "zh_hant": "刀刃陷阱"
+  },
+  "Bladeguard Buckler": {
+   "zh_hans": "刀刃守护轻盾",
+   "zh_hant": "刃衛輕盾"
+  },
+  "Blazon Crest Shield": {
+   "zh_hans": "饰印纹章盾",
+   "zh_hant": "家徽紋章盾"
+  },
+  "Bleak Crossbow": {
+   "zh_hans": "刺骨战弩",
+   "zh_hant": "無情十字弓"
+  },
+  "Blessed Claymore": {
+   "zh_hans": "蒙福大剑",
+   "zh_hant": "祝福大劍"
+  },
+  "Bloodletting Dagger": {
+   "zh_hans": "放血匕首",
+   "zh_hant": "出血匕首"
+  },
+  "Bloodstone Amulet": {
+   "zh_hans": "血岩项链",
+   "zh_hant": "血石項鍊"
+  },
+  "Blunt Quiver": {
+   "zh_hans": "钝矢箭袋",
+   "zh_hant": "鈍箭袋"
+  },
+  "Boarding Hatchet": {
+   "zh_hans": "跳帮手斧",
+   "zh_hant": "登船斧"
+  },
+  "Bold Sabatons": {
+   "zh_hans": "光鲜战靴",
+   "zh_hant": "醒目鎧靴"
+  },
+  "Bolstered Mitts": {
+   "zh_hans": "增固护手",
+   "zh_hant": "加固長手套"
+  },
+  "Bolting Quarterstaff": {
+   "zh_hans": "霹雳节杖",
+   "zh_hant": "雷霆細杖"
+  },
+  "Bombard Crossbow": {
+   "zh_hans": "轰炸战弩",
+   "zh_hant": "轟擊十字弓"
+  },
+  "Bone Raiment": {
+   "zh_hans": "坠饰之衣",
+   "zh_hant": "骸骨之衣"
+  },
+  "Bone Wand": {
+   "zh_hans": "钙石法杖",
+   "zh_hant": "骸骨法杖"
+  },
+  "Bound Boots": {
+   "zh_hans": "缚革长靴",
+   "zh_hant": "綑綁長靴"
+  },
+  "Bound Bracers": {
+   "zh_hans": "缚革护腕",
+   "zh_hant": "緊縛護腕"
+  },
+  "Bound Cuffs": {
+   "zh_hans": "缚革袖带",
+   "zh_hant": "綑綁腕帶"
+  },
+  "Bound Leggings": {
+   "zh_hans": "缚革绑腿",
+   "zh_hant": "綑綁護腿"
+  },
+  "Bound Sandals": {
+   "zh_hans": "缚革鞋履",
+   "zh_hant": "綑綁便鞋"
+  },
+  "Braced Sabatons": {
+   "zh_hans": "加固战靴",
+   "zh_hant": "加固鎧靴"
+  },
+  "Braced Tower Shield": {
+   "zh_hans": "加固塔盾",
+   "zh_hant": "加固塔盾"
+  },
+  "Braided Cuffs": {
+   "zh_hans": "编织袖带",
+   "zh_hant": "編織腕帶"
+  },
+  "Branched Spear": {
+   "zh_hans": "分叉战矛",
+   "zh_hant": "分支長矛"
+  },
+  "Breach Ring": {
+   "zh_hans": "裂隙戒指",
+   "zh_hant": "裂痕戒指"
+  },
+  "Brigand Mace": {
+   "zh_hans": "强盗之锤",
+   "zh_hant": "強盜之錘"
+  },
+  "Brigand Mask": {
+   "zh_hans": "强盗面具",
+   "zh_hant": "強盜之面"
+  },
+  "Brimmed Helm": {
+   "zh_hans": "宽沿之盔",
+   "zh_hant": "邊緣之盔"
+  },
+  "Broad Greatsword": {
+   "zh_hans": "阔刃巨剑",
+   "zh_hant": "闊刃巨劍"
+  },
+  "Broad Spear": {
+   "zh_hans": "宽首长矛",
+   "zh_hant": "闊刃長矛"
+  },
+  "Broadhead Quiver": {
+   "zh_hans": "宽矢箭袋",
+   "zh_hant": "寬頭箭袋"
+  },
+  "Broadsword": {
+   "zh_hans": "阔剑",
+   "zh_hant": "闊劍"
+  },
+  "Bronze Greaves": {
+   "zh_hans": "青铜胫甲",
+   "zh_hant": "青銅脛甲"
+  },
+  "Buckled Wraps": {
+   "zh_hans": "扣带裹手",
+   "zh_hant": "帶扣裹手"
+  },
+  "Bulwark Greaves": {
+   "zh_hans": "堡垒胫甲",
+   "zh_hant": "壁壘脛甲"
+  },
+  "Bulwark Tower Shield": {
+   "zh_hans": "堡垒塔盾",
+   "zh_hant": "守護塔盾"
+  },
+  "Burnished Gauntlets": {
+   "zh_hans": "冷芒手甲",
+   "zh_hant": "拋光護手"
+  },
+  "Cabalist Helm": {
+   "zh_hans": "秘法家头盔",
+   "zh_hant": "秘術師之盔"
+  },
+  "Calescent Hammer": {
+   "zh_hans": "升温之锤",
+   "zh_hant": "升溫之錘"
+  },
+  "Cambric Wraps": {
+   "zh_hans": "细麻布裹手",
+   "zh_hant": "棉布裹手"
+  },
+  "Cannonade Crossbow": {
+   "zh_hans": "轰鸣战弩",
+   "zh_hant": "砲擊十字弓"
+  },
+  "Captain Gauntlets": {
+   "zh_hans": "队长手套",
+   "zh_hant": "隊長護手"
+  },
+  "Carved Greaves": {
+   "zh_hans": "雕饰胫甲",
+   "zh_hant": "雕刻脛甲"
+  },
+  "Carved Targe": {
+   "zh_hans": "雕纹圆盾",
+   "zh_hant": "雕刻圓盾"
+  },
+  "Carving Hatchet": {
+   "zh_hans": "刨肉手斧",
+   "zh_hant": "雕刻斧"
+  },
+  "Cassis Helm": {
+   "zh_hans": "海螺头盔",
+   "zh_hant": "卡賽斯之盔"
+  },
+  "Cavalry Boots": {
+   "zh_hans": "骑兵长靴",
+   "zh_hant": "騎兵長靴"
+  },
+  "Cavalry Bow": {
+   "zh_hans": "骑兵之弓",
+   "zh_hant": "騎兵之弓"
+  },
+  "Ceremonial Halberd": {
+   "zh_hans": "祭仪长戟",
+   "zh_hant": "儀式斧槍"
+  },
+  "Ceremonial Robe": {
+   "zh_hans": "仪式长袍",
+   "zh_hant": "儀式長袍"
+  },
+  "Chain Flail": {
+   "zh_hans": "精索连枷",
+   "zh_hant": "鎖鏈鏈錘"
+  },
+  "Chain Mail": {
+   "zh_hans": "环锁甲",
+   "zh_hant": "鎖鍊鎖甲"
+  },
+  "Chain Tiara": {
+   "zh_hans": "锁链冠冕",
+   "zh_hant": "鎖鍊頭冠"
+  },
+  "Chain Vestments": {
+   "zh_hans": "链甲长衣",
+   "zh_hant": "鎖鏈法衣"
+  },
+  "Champion Cuirass": {
+   "zh_hans": "冠军胸甲",
+   "zh_hant": "冠軍胸甲"
+  },
+  "Champion Helm": {
+   "zh_hans": "勇士头盔",
+   "zh_hant": "勇士之盔"
+  },
+  "Changeling Talisman": {
+   "zh_hans": "易形魔符",
+   "zh_hant": "變形魔符"
+  },
+  "Charmed Shoes": {
+   "zh_hans": "魅力便鞋",
+   "zh_hant": "護符輕鞋"
+  },
+  "Charred Shortsword": {
+   "zh_hans": "焦痕短剑",
+   "zh_hant": "焦黑短劍"
+  },
+  "Chieftain Cuirass": {
+   "zh_hans": "酋长胸甲",
+   "zh_hant": "酋長胸甲"
+  },
+  "Chiming Staff": {
+   "zh_hans": "鸣谐长杖",
+   "zh_hant": "鳴響長杖"
+  },
+  "Chiseled Targe": {
+   "zh_hans": "镌凿圆盾",
+   "zh_hant": "鑿刻圓盾"
+  },
+  "Cinched Boots": {
+   "zh_hans": "束带长靴",
+   "zh_hant": "繫帶長靴"
+  },
+  "Cinderbark Talisman": {
+   "zh_hans": "烬皮魔符",
+   "zh_hant": "灰樹皮魔符"
+  },
+  "Cinquedea": {
+   "zh_hans": "五指剑",
+   "zh_hant": "五指短劍"
+  },
+  "Clamping Trap": {
+   "zh_hans": "铁颚陷阱",
+   "zh_hant": "猛夾陷阱"
+  },
+  "Clandestine Jacket": {
+   "zh_hans": "无影外衣",
+   "zh_hant": "隱蔽外衣"
+  },
+  "Clasped Sceptre": {
+   "zh_hans": "握扣权杖",
+   "zh_hant": "握扣權杖"
+  },
+  "Clay Trap": {
+   "zh_hans": "黏土陷阱",
+   "zh_hant": "黏土陷阱"
+  },
+  "Cleansing Charm": {
+   "zh_hans": "净化咒符",
+   "zh_hant": "淨化護符"
+  },
+  "Cleric Vestments": {
+   "zh_hans": "圣徒长衣",
+   "zh_hant": "教士法衣"
+  },
+  "Cloaked Mail": {
+   "zh_hans": "披风锁甲",
+   "zh_hant": "斗篷鎖甲"
+  },
+  "Closed Helm": {
+   "zh_hans": "封闭之盔",
+   "zh_hant": "緊閉之盔"
+  },
+  "Coiled Buckler": {
+   "zh_hans": "盘曲轻盾",
+   "zh_hant": "盤繞輕盾"
+  },
+  "Coiled Trap": {
+   "zh_hans": "盘曲陷阱",
+   "zh_hant": "纏繞陷阱"
+  },
+  "Colossal Life Flask": {
+   "zh_hans": "高阶生命药剂",
+   "zh_hant": "高階生命藥劑"
+  },
+  "Colossal Mana Flask": {
+   "zh_hans": "高阶魔力药剂",
+   "zh_hant": "高階魔力藥劑"
+  },
+  "Colosseum Plate": {
+   "zh_hans": "决斗之铠",
+   "zh_hant": "決鬥之鎧"
+  },
+  "Commander Gauntlets": {
+   "zh_hans": "军官手甲",
+   "zh_hant": "指揮官護手"
+  },
+  "Commander Greathelm": {
+   "zh_hans": "军官巨盔",
+   "zh_hant": "指揮官巨盔"
+  },
+  "Commander Sword": {
+   "zh_hans": "统帅利剑",
+   "zh_hant": "指揮官劍"
+  },
+  "Composite Bow": {
+   "zh_hans": "复合弓",
+   "zh_hant": "合成弓"
+  },
+  "Condemned Talisman": {
+   "zh_hans": "罪孽魔符",
+   "zh_hant": "譴責魔符"
+  },
+  "Conjurer Mantle": {
+   "zh_hans": "咒者斗篷",
+   "zh_hant": "巫術師披肩"
+  },
+  "Conqueror Plate": {
+   "zh_hans": "霸王战铠",
+   "zh_hant": "征服者鎧甲"
+  },
+  "Construct Crossbow": {
+   "zh_hans": "构造战弩",
+   "zh_hant": "絕命十字弓"
+  },
+  "Construct Hammer": {
+   "zh_hans": "施工锤",
+   "zh_hant": "建造錘"
+  },
+  "Corona Amulet": {
+   "zh_hans": "日冕项链",
+   "zh_hant": "日冕護身符"
+  },
+  "Corroded Greathelm": {
+   "zh_hans": "腐蚀巨盔",
+   "zh_hant": "腐蝕巨盔"
+  },
+  "Corroded Longsword": {
+   "zh_hans": "锈斑长剑",
+   "zh_hant": "腐蝕長劍"
+  },
+  "Corsair Cap": {
+   "zh_hans": "海贼帽",
+   "zh_hant": "海盜便帽"
+  },
+  "Corsair Coat": {
+   "zh_hans": "海盗外套",
+   "zh_hant": "海盜外套"
+  },
+  "Corsair Vest": {
+   "zh_hans": "海贼背心",
+   "zh_hant": "海盜背心"
+  },
+  "Corvus Mantle": {
+   "zh_hans": "灵鸦斗篷",
+   "zh_hant": "烏鴉披肩"
+  },
+  "Coursing Spear": {
+   "zh_hans": "追击战矛",
+   "zh_hant": "追獵長矛"
+  },
+  "Covered Sabatons": {
+   "zh_hans": "掩护战靴",
+   "zh_hant": "遮蓋鎧靴"
+  },
+  "Covert Hood": {
+   "zh_hans": "匿踪兜帽",
+   "zh_hant": "隱蔽兜帽"
+  },
+  "Cowled Helm": {
+   "zh_hans": "掩面之盔",
+   "zh_hant": "斗篷之盔"
+  },
+  "Crackling Quarterstaff": {
+   "zh_hans": "霹雳节杖",
+   "zh_hant": "裂紋細杖"
+  },
+  "Crescent Axe": {
+   "zh_hans": "月牙斧",
+   "zh_hant": "新月斧"
+  },
+  "Crescent Quarterstaff": {
+   "zh_hans": "月牙节杖",
+   "zh_hant": "新月細杖"
+  },
+  "Crescent Targe": {
+   "zh_hans": "新月圆盾",
+   "zh_hant": "新月圓盾"
+  },
+  "Crimson Amulet": {
+   "zh_hans": "赤红项链",
+   "zh_hant": "赤紅項鍊"
+  },
+  "Critical Wand": {
+   "zh_hans": "批判法杖",
+   "zh_hant": "致命法杖"
+  },
+  "Crone Knife": {
+   "zh_hans": "巫妪小刀",
+   "zh_hant": "巫婆小刀"
+  },
+  "Crossblade Spear": {
+   "zh_hans": "十字长矛",
+   "zh_hant": "十字刃長矛"
+  },
+  "Crown Mace": {
+   "zh_hans": "冠首之锤",
+   "zh_hant": "皇冠之錘"
+  },
+  "Crucible Tower Shield": {
+   "zh_hans": "熔铸塔盾",
+   "zh_hant": "磨煉塔盾"
+  },
+  "Crude Bow": {
+   "zh_hans": "粗制弓",
+   "zh_hant": "粗製弓"
+  },
+  "Crude Claw": {
+   "zh_hans": "粗制利爪",
+   "zh_hant": "簡陋爪"
+  },
+  "Cruel Talisman": {
+   "zh_hans": "残酷魔符",
+   "zh_hant": "殘酷魔符"
+  },
+  "Crumbling Maul": {
+   "zh_hans": "摧枯巨锤",
+   "zh_hant": "崩毀重錘"
+  },
+  "Cryptic Crown": {
+   "zh_hans": "隐秘之冠",
+   "zh_hant": "隱祕之冠"
+  },
+  "Cryptic Helm": {
+   "zh_hans": "神秘头盔",
+   "zh_hant": "隱秘之盔"
+  },
+  "Cryptic Leggings": {
+   "zh_hans": "隐秘绑腿",
+   "zh_hant": "隱祕護腿"
+  },
+  "Crystal Focus": {
+   "zh_hans": "水晶法器",
+   "zh_hant": "水晶法器"
+  },
+  "Cultist Bow": {
+   "zh_hans": "教徒弓",
+   "zh_hant": "教徒之弓"
+  },
+  "Cultist Crown": {
+   "zh_hans": "密教头冠",
+   "zh_hant": "教徒之冠"
+  },
+  "Cultist Focus": {
+   "zh_hans": "密会法器",
+   "zh_hant": "教徒法器"
+  },
+  "Cultist Gauntlets": {
+   "zh_hans": "密会手甲",
+   "zh_hant": "教徒護手"
+  },
+  "Cultist Greathammer": {
+   "zh_hans": "教徒大锤",
+   "zh_hant": "教徒巨錘"
+  },
+  "Cultist Tower Shield": {
+   "zh_hans": "密会塔盾",
+   "zh_hant": "教徒塔盾"
+  },
+  "Cumbrous Crossbow": {
+   "zh_hans": "重装战弩",
+   "zh_hant": "笨重十字弓"
+  },
+  "Cursespeaker's Robe": {
+   "zh_hans": "诅咒术士长袍",
+   "zh_hant": "詛咒語者長袍"
+  },
+  "Cutlass": {
+   "zh_hans": "军用长刀",
+   "zh_hant": "軍用長刃"
+  },
+  "Daggerfoot Shoes": {
+   "zh_hans": "捷足便鞋",
+   "zh_hant": "捷足輕鞋"
+  },
+  "Dark Blade": {
+   "zh_hans": "黑暗之锋",
+   "zh_hant": "黑暗之刃"
+  },
+  "Dark Staff": {
+   "zh_hans": "暗黑长杖",
+   "zh_hant": "黑暗長杖"
+  },
+  "Dart Trap": {
+   "zh_hans": "飞镖陷阱",
+   "zh_hant": "飛鏢陷阱"
+  },
+  "Dastard Armour": {
+   "zh_hans": "懦夫护甲",
+   "zh_hant": "惡徒護甲"
+  },
+  "Death Mail": {
+   "zh_hans": "死亡锁甲",
+   "zh_hant": "死亡鎖甲"
+  },
+  "Death Mantle": {
+   "zh_hans": "死亡斗篷",
+   "zh_hant": "死亡披肩"
+  },
+  "Death Mask": {
+   "zh_hans": "死神之面",
+   "zh_hant": "死亡之面"
+  },
+  "Decorated Helm": {
+   "zh_hans": "华饰之盔",
+   "zh_hant": "裝飾之盔"
+  },
+  "Dedalian Crossbow": {
+   "zh_hans": "机巧战弩",
+   "zh_hant": "精巧十字弓"
+  },
+  "Deerstalker Hood": {
+   "zh_hans": "猎踪兜帽",
+   "zh_hant": "獵鹿者之兜"
+  },
+  "Defiant Tower Shield": {
+   "zh_hans": "无畏塔盾",
+   "zh_hant": "忤逆塔盾"
+  },
+  "Deified Crest Shield": {
+   "zh_hans": "神尊纹章盾",
+   "zh_hant": "神化紋章盾"
+  },
+  "Dekharan Crest Shield": {
+   "zh_hans": "德卡拉纹章盾",
+   "zh_hant": "部下紋章盾"
+  },
+  "Descry Crest Shield": {
+   "zh_hans": "圣印纹章盾",
+   "zh_hant": "遠見紋章盾"
+  },
+  "Desert Buckler": {
+   "zh_hans": "沙漠轻盾",
+   "zh_hant": "沙漠輕盾"
+  },
+  "Desert Cap": {
+   "zh_hans": "沙漠帽",
+   "zh_hant": "沙漠便帽"
+  },
+  "Desert Circlet": {
+   "zh_hans": "沙漠头冠",
+   "zh_hant": "沙漠頭環"
+  },
+  "Desolate Crossbow": {
+   "zh_hans": "苍凉战弩",
+   "zh_hant": "蒼涼十字弓"
+  },
+  "Detailed Mitts": {
+   "zh_hans": "精工护手",
+   "zh_hant": "精細長手套"
+  },
+  "Devotional Sceptre": {
+   "zh_hans": "虔诚权杖",
+   "zh_hant": "虔誠權杖"
+  },
+  "Devouring Sceptre": {
+   "zh_hans": "吞噬权杖",
+   "zh_hant": "吞噬權杖"
+  },
+  "Devout Garb": {
+   "zh_hans": "虔心束衣",
+   "zh_hant": "虔誠裝束"
+  },
+  "Diamond": {
+   "zh_hans": "宝钻",
+   "zh_hant": "鑽石"
+  },
+  "Disintegrating Maul": {
+   "zh_hans": "破军巨锤",
+   "zh_hant": "崩解重錘"
+  },
+  "Distorted Amulet": {
+   "zh_hans": "扭曲项链",
+   "zh_hant": "歪曲護身符"
+  },
+  "Divine Crown": {
+   "zh_hans": "神礼王冠",
+   "zh_hant": "神聖之冠"
+  },
+  "Domed Helm": {
+   "zh_hans": "圆顶头盔",
+   "zh_hant": "圓頂之盔"
+  },
+  "Double Belt": {
+   "zh_hans": "双重腰带",
+   "zh_hant": "雙層腰帶"
+  },
+  "Double Limb Bow": {
+   "zh_hans": "双臂弓",
+   "zh_hant": "雙肢弓"
+  },
+  "Doubled Gauntlets": {
+   "zh_hans": "合钢手甲",
+   "zh_hant": "雙層護手"
+  },
+  "Dousing Charm": {
+   "zh_hans": "浸润咒符",
+   "zh_hant": "滅火護符"
+  },
+  "Dragonscale Boots": {
+   "zh_hans": "龙鳞长靴",
+   "zh_hant": "龍鱗長靴"
+  },
+  "Drakeskin Boots": {
+   "zh_hans": "龙皮长靴",
+   "zh_hant": "龍膚長靴"
+  },
+  "Dread Hatchet": {
+   "zh_hans": "恐惧手斧",
+   "zh_hant": "驚懼符文"
+  },
+  "Dreaming Quarterstaff": {
+   "zh_hans": "梦境节杖",
+   "zh_hant": "夢境細杖"
+  },
+  "Druidic Circlet": {
+   "zh_hans": "德鲁伊头冠",
+   "zh_hant": "德魯伊頭環"
+  },
+  "Druidic Crown": {
+   "zh_hans": "德鲁伊王冠",
+   "zh_hant": "德魯伊之冠"
+  },
+  "Druidic Focus": {
+   "zh_hans": "德鲁伊法器",
+   "zh_hant": "德魯伊法器"
+  },
+  "Dualstring Bow": {
+   "zh_hans": "双弦弓",
+   "zh_hant": "雙弦弓"
+  },
+  "Dueling Wand": {
+   "zh_hans": "决斗法杖",
+   "zh_hant": "單挑法杖"
+  },
+  "Dull Hatchet": {
+   "zh_hans": "钝锋手斧",
+   "zh_hant": "鈍斧"
+  },
+  "Dunerunner Sandals": {
+   "zh_hans": "沙丘行者鞋履",
+   "zh_hant": "沙丘行者便鞋"
+  },
+  "Dusk Amulet": {
+   "zh_hans": "暮色项链",
+   "zh_hant": "幽暗項鍊"
+  },
+  "Dusk Ring": {
+   "zh_hans": "暮色戒指",
+   "zh_hant": "幽暗戒指"
+  },
+  "Dyad Crossbow": {
+   "zh_hans": "双联战弩",
+   "zh_hant": "雙生十字弓"
+  },
+  "Edged Buckler": {
+   "zh_hans": "锋缘轻盾",
+   "zh_hant": "刃緣輕盾"
+  },
+  "Edged Claw": {
+   "zh_hans": "锋刃利爪",
+   "zh_hant": "鋒利爪"
+  },
+  "Effigial Tower Shield": {
+   "zh_hans": "塑像塔盾",
+   "zh_hant": "靈像塔盾"
+  },
+  "Elaborate Sandals": {
+   "zh_hans": "精美鞋履",
+   "zh_hant": "精美便鞋"
+  },
+  "Elegant Crossbow": {
+   "zh_hans": "典雅战弩",
+   "zh_hant": "優雅十字弓"
+  },
+  "Elegant Focus": {
+   "zh_hans": "优雅法器",
+   "zh_hant": "高雅法器"
+  },
+  "Elegant Glaive": {
+   "zh_hans": "典雅战刃",
+   "zh_hant": "優雅長柄刀"
+  },
+  "Elegant Greathelm": {
+   "zh_hans": "雅致巨盔",
+   "zh_hant": "優雅巨盔"
+  },
+  "Elegant Greaves": {
+   "zh_hans": "雅致胫甲",
+   "zh_hant": "優雅脛甲"
+  },
+  "Elegant Mitts": {
+   "zh_hans": "优雅护手",
+   "zh_hant": "優雅長手套"
+  },
+  "Elegant Plate": {
+   "zh_hans": "优雅战铠",
+   "zh_hant": "優雅鎧甲"
+  },
+  "Elegant Slippers": {
+   "zh_hans": "雅致便鞋",
+   "zh_hant": "優雅便鞋"
+  },
+  "Elegant Wraps": {
+   "zh_hans": "雅致裹手",
+   "zh_hant": "優雅裹手"
+  },
+  "Elementalist Robe": {
+   "zh_hans": "元素使长袍",
+   "zh_hant": "元素使長袍"
+  },
+  "Elite Greathelm": {
+   "zh_hans": "精锐巨盔",
+   "zh_hant": "菁英巨盔"
+  },
+  "Embellished Gloves": {
+   "zh_hans": "华饰手套",
+   "zh_hant": "點綴手套"
+  },
+  "Ember Greataxe": {
+   "zh_hans": "飞烬大斧",
+   "zh_hant": "餘燼巨斧"
+  },
+  "Emblem Crest Shield": {
+   "zh_hans": "圣徽纹章盾",
+   "zh_hant": "徽印紋章盾"
+  },
+  "Embossed Boots": {
+   "zh_hans": "浮雕靴",
+   "zh_hant": "浮雕長靴"
+  },
+  "Embroidered Boots": {
+   "zh_hans": "刺绣靴",
+   "zh_hant": "刺繡長靴"
+  },
+  "Embroidered Gloves": {
+   "zh_hans": "刺绣手套",
+   "zh_hant": "刺繡手套"
+  },
+  "Emerald": {
+   "zh_hans": "翡翠",
+   "zh_hant": "綠寶石"
+  },
+  "Emerald Ring": {
+   "zh_hans": "翡翠戒指",
+   "zh_hant": "綠寶石戒指"
+  },
+  "Empyreal Crest Shield": {
+   "zh_hans": "苍穹纹章盾",
+   "zh_hant": "蒼天紋章盾"
+  },
+  "Engraved Bracers": {
+   "zh_hans": "雕饰护腕",
+   "zh_hant": "紋刻護腕"
+  },
+  "Engraved Crest Shield": {
+   "zh_hans": "雕饰纹章盾",
+   "zh_hant": "紋刻紋章盾"
+  },
+  "Engraved Crossbow": {
+   "zh_hans": "雕饰战弩",
+   "zh_hant": "紋刻十字弓"
+  },
+  "Engraved Focus": {
+   "zh_hans": "铭刻法器",
+   "zh_hant": "紋刻法器"
+  },
+  "Engraved Helm": {
+   "zh_hans": "雕饰头盔",
+   "zh_hant": "紋刻之盔"
+  },
+  "Engraved Knife": {
+   "zh_hans": "雕纹小刀",
+   "zh_hant": "紋刻小刀"
+  },
+  "Enlightened Robe": {
+   "zh_hans": "启迪长袍",
+   "zh_hant": "啟蒙長袍"
+  },
+  "Esoteric Crossbow": {
+   "zh_hans": "玄奥战弩",
+   "zh_hant": "秘傳十字弓"
+  },
+  "Ethereal Blade": {
+   "zh_hans": "虚空飞刃",
+   "zh_hant": "虛空刀刃"
+  },
+  "Evangelist Garb": {
+   "zh_hans": "传道士束衣",
+   "zh_hant": "傳道者裝束"
+  },
+  "Execratus Hammer": {
+   "zh_hans": "秽咒之锤",
+   "zh_hant": "詛咒之錘"
+  },
+  "Executioner Greataxe": {
+   "zh_hans": "惩罚者大斧",
+   "zh_hant": "處刑者巨斧"
+  },
+  "Explorer Armour": {
+   "zh_hans": "探索者护甲",
+   "zh_hant": "探索者護甲"
+  },
+  "Exquisite Vest": {
+   "zh_hans": "浮华背心",
+   "zh_hant": "精美背心"
+  },
+  "Extended Cleaver": {
+   "zh_hans": "长柄战斧",
+   "zh_hant": "加長砍斧"
+  },
+  "Face Mask": {
+   "zh_hans": "覆颜面具",
+   "zh_hant": "護臉之面"
+  },
+  "Faithful Leggings": {
+   "zh_hans": "信仰护腿",
+   "zh_hant": "信仰護腿"
+  },
+  "Falchion": {
+   "zh_hans": "弯刃大刀",
+   "zh_hant": "彎刃劍"
+  },
+  "Falconer's Jacket": {
+   "zh_hans": "猎鹰师外衣",
+   "zh_hant": "訓鷹者外衣"
+  },
+  "Familial Talisman": {
+   "zh_hans": "血亲魔符",
+   "zh_hant": "家族魔符"
+  },
+  "Fanatic Bow": {
+   "zh_hans": "狂热之弓",
+   "zh_hant": "盲信之弓"
+  },
+  "Fanatic Greathammer": {
+   "zh_hans": "狂乱大锤",
+   "zh_hant": "盲信巨錘"
+  },
+  "Fang Talisman": {
+   "zh_hans": "利齿魔符",
+   "zh_hant": "銳爪魔符"
+  },
+  "Faridun Mask": {
+   "zh_hans": "法里顿面具",
+   "zh_hant": "法里登之面"
+  },
+  "Feathered Mitts": {
+   "zh_hans": "羽饰护手",
+   "zh_hant": "羽毛長手套"
+  },
+  "Feathered Raiment": {
+   "zh_hans": "羽饰之衣",
+   "zh_hant": "羽絨之衣"
+  },
+  "Feathered Robe": {
+   "zh_hans": "羽饰长袍",
+   "zh_hant": "羽毛長袍"
+  },
+  "Feathered Sandals": {
+   "zh_hans": "羽饰鞋履",
+   "zh_hant": "羽毛便鞋"
+  },
+  "Feathered Targe": {
+   "zh_hans": "羽饰圆盾",
+   "zh_hant": "羽毛圓盾"
+  },
+  "Feathered Tiara": {
+   "zh_hans": "羽饰冠冕",
+   "zh_hant": "羽毛頭冠"
+  },
+  "Felled Greatclub": {
+   "zh_hans": "伐采巨棍",
+   "zh_hant": "墮落巨棍棒"
+  },
+  "Felt Cap": {
+   "zh_hans": "毛毡帽",
+   "zh_hant": "毛氈便帽"
+  },
+  "Fierce Greathelm": {
+   "zh_hans": "刚烈巨盔",
+   "zh_hant": "兇猛巨盔"
+  },
+  "Fine Belt": {
+   "zh_hans": "精致腰带",
+   "zh_hant": "精良腰帶"
+  },
+  "Fine Bracers": {
+   "zh_hans": "精工护腕",
+   "zh_hant": "精良護腕"
+  },
+  "Fire Quiver": {
+   "zh_hans": "火灵箭袋",
+   "zh_hant": "火焰箭袋"
+  },
+  "Firm Bracers": {
+   "zh_hans": "牢固护腕",
+   "zh_hant": "穩固護腕"
+  },
+  "Fists of Stone": {
+   "zh_hans": "石拳",
+   "zh_hant": "磐石之拳"
+  },
+  "Flanged Greatblade": {
+   "zh_hans": "焰刃巨剑",
+   "zh_hant": "凸緣巨刃"
+  },
+  "Flanged Mace": {
+   "zh_hans": "钉头锤",
+   "zh_hant": "輪緣之錘"
+  },
+  "Flared Boots": {
+   "zh_hans": "宽口靴",
+   "zh_hant": "閃耀長靴"
+  },
+  "Flared Mace": {
+   "zh_hans": "耀焰之锤",
+   "zh_hant": "閃光之錘"
+  },
+  "Flax Sandals": {
+   "zh_hans": "麻布鞋履",
+   "zh_hant": "亞麻便鞋"
+  },
+  "Flexed Crossbow": {
+   "zh_hans": "弯曲战弩",
+   "zh_hant": "屈曲十字弓"
+  },
+  "Flexile Sabatons": {
+   "zh_hans": "灵便战靴",
+   "zh_hant": "易曲鎧靴"
+  },
+  "Flowing Raiment": {
+   "zh_hans": "飘逸之衣",
+   "zh_hant": "奔流之衣"
+  },
+  "Flying Spear": {
+   "zh_hans": "飞行战矛",
+   "zh_hant": "翱翔長矛"
+  },
+  "Forest Crown": {
+   "zh_hans": "森林王冠",
+   "zh_hant": "森林之冠"
+  },
+  "Forge Maul": {
+   "zh_hans": "锻炉巨锤",
+   "zh_hant": "鍛造重錘"
+  },
+  "Forked Claw": {
+   "zh_hans": "分叉利爪",
+   "zh_hant": "叉狀爪"
+  },
+  "Forked Spear": {
+   "zh_hans": "分叉长矛",
+   "zh_hant": "叉狀長矛"
+  },
+  "Forking Belt": {
+   "zh_hans": "分叉腰带",
+   "zh_hant": "歧路腰帶"
+  },
+  "Fortified Hammer": {
+   "zh_hans": "强固之锤",
+   "zh_hant": "強化之錘"
+  },
+  "Fortress Sabatons": {
+   "zh_hans": "要塞战靴",
+   "zh_hant": "要塞鎧靴"
+  },
+  "Fortress Tower Shield": {
+   "zh_hans": "要塞塔盾",
+   "zh_hant": "要塞塔盾"
+  },
+  "Frayed Shoes": {
+   "zh_hans": "磨损便鞋",
+   "zh_hant": "磨損輕鞋"
+  },
+  "Freebooter Cap": {
+   "zh_hans": "劫掠者之帽",
+   "zh_hant": "劫掠者便帽"
+  },
+  "Frenzied Talisman": {
+   "zh_hans": "狂怒魔符",
+   "zh_hant": "狂亂魔符"
+  },
+  "Frigid Wand": {
+   "zh_hans": "严寒法杖",
+   "zh_hant": "冰冷法杖"
+  },
+  "Full Plate": {
+   "zh_hans": "连身铠甲",
+   "zh_hant": "連身鎧甲"
+  },
+  "Fungal Talisman": {
+   "zh_hans": "真菌魔符",
+   "zh_hant": "真菌魔符"
+  },
+  "Fur Plate": {
+   "zh_hans": "覆皮之铠",
+   "zh_hant": "毛皮鎧甲"
+  },
+  "Fur-lined Targe": {
+   "zh_hans": "毛皮衬里圆盾",
+   "zh_hant": "皮襯圓盾"
+  },
+  "Furtive Wraps": {
+   "zh_hans": "鬼祟裹手",
+   "zh_hant": "隱秘裹手"
+  },
+  "Fury Cleaver": {
+   "zh_hans": "暴怒战斧",
+   "zh_hant": "狂怒砍斧"
+  },
+  "Fury Talisman": {
+   "zh_hans": "狂怒魔符",
+   "zh_hant": "怒火魔符"
+  },
+  "Gallant Helm": {
+   "zh_hans": "英武之盔",
+   "zh_hant": "無畏之盔"
+  },
+  "Galvanic Wand": {
+   "zh_hans": "电流法杖",
+   "zh_hant": "電能法杖"
+  },
+  "Gargantuan Life Flask": {
+   "zh_hans": "恢弘生命药剂",
+   "zh_hant": "巨大生命藥劑"
+  },
+  "Gargantuan Mana Flask": {
+   "zh_hans": "恢弘魔力药剂",
+   "zh_hant": "巨大魔力藥劑"
+  },
+  "Garment": {
+   "zh_hans": "华服装束",
+   "zh_hant": "服裝"
+  },
+  "Gauze Wraps": {
+   "zh_hans": "薄纱裹手",
+   "zh_hant": "紗布裹手"
+  },
+  "Gelid Staff": {
+   "zh_hans": "冰寒长杖",
+   "zh_hant": "極寒長杖"
+  },
+  "Gemini Bow": {
+   "zh_hans": "双子之弓",
+   "zh_hant": "雙子之弓"
+  },
+  "Gemini Crossbow": {
+   "zh_hans": "双灵战弩",
+   "zh_hant": "雙子十字弓"
+  },
+  "Giant Life Flask": {
+   "zh_hans": "巨型生命药剂",
+   "zh_hant": "巨型生命藥劑"
+  },
+  "Giant Mana Flask": {
+   "zh_hans": "巨型魔力药剂",
+   "zh_hant": "巨型魔力藥劑"
+  },
+  "Giant Maul": {
+   "zh_hans": "伟岸巨锤",
+   "zh_hant": "巨型重錘"
+  },
+  "Gilded Vestments": {
+   "zh_hans": "鎏金长衣",
+   "zh_hant": "鍍金法衣"
+  },
+  "Gilt Leggings": {
+   "zh_hans": "镀金护腿",
+   "zh_hant": "鍍金護腿"
+  },
+  "Glacial Fortress": {
+   "zh_hans": "冰川要塞",
+   "zh_hant": "冰川堡壘"
+  },
+  "Gladiator Armour": {
+   "zh_hans": "角斗士护甲",
+   "zh_hant": "衛士護甲"
+  },
+  "Gladiatorial Helm": {
+   "zh_hans": "角斗士头盔",
+   "zh_hant": "衛士之盔"
+  },
+  "Glass Shank": {
+   "zh_hans": "玻璃利片",
+   "zh_hant": "玻璃利片"
+  },
+  "Gleaming Cuffs": {
+   "zh_hans": "闪亮袖带",
+   "zh_hant": "輝光腕帶"
+  },
+  "Gloam Amulet": {
+   "zh_hans": "薄暮项链",
+   "zh_hant": "黃昏項鍊"
+  },
+  "Gloam Ring": {
+   "zh_hans": "薄暮戒指",
+   "zh_hant": "黃昏戒指"
+  },
+  "Glorious Plate": {
+   "zh_hans": "荣耀战铠",
+   "zh_hant": "榮耀戰鎧"
+  },
+  "Glowering Crest Shield": {
+   "zh_hans": "怒视纹章盾",
+   "zh_hant": "怒視紋章盾"
+  },
+  "Gold Amulet": {
+   "zh_hans": "帝金项链",
+   "zh_hant": "帝金護身符"
+  },
+  "Gold Circlet": {
+   "zh_hans": "烁金头冠",
+   "zh_hant": "黃金頭環"
+  },
+  "Gold Gloves": {
+   "zh_hans": "黄金手套",
+   "zh_hant": "黃金手套"
+  },
+  "Gold Ring": {
+   "zh_hans": "金光戒指",
+   "zh_hant": "金光戒指"
+  },
+  "Goldcast Cuffs": {
+   "zh_hans": "金索袖带",
+   "zh_hant": "金鑄腕帶"
+  },
+  "Golden Blade": {
+   "zh_hans": "金色之刃",
+   "zh_hant": "黃金之刃"
+  },
+  "Golden Caligae": {
+   "zh_hans": "黄金缠鞋",
+   "zh_hant": "黃金纏鞋"
+  },
+  "Golden Charm": {
+   "zh_hans": "黄金咒符",
+   "zh_hant": "黃金護符"
+  },
+  "Golden Flame": {
+   "zh_hans": "黄金圣炎",
+   "zh_hant": "黃金聖炎"
+  },
+  "Golden Hoop": {
+   "zh_hans": "金环",
+   "zh_hant": "金環"
+  },
+  "Golden Mail": {
+   "zh_hans": "黄金锁甲",
+   "zh_hant": "耀金鎖甲"
+  },
+  "Golden Mantle": {
+   "zh_hans": "黄金战甲",
+   "zh_hant": "黃金戰甲"
+  },
+  "Golden Obi": {
+   "zh_hans": "金羽腰带",
+   "zh_hant": "金羽腰帶"
+  },
+  "Golden Targe": {
+   "zh_hans": "耀金圆盾",
+   "zh_hant": "耀金圓盾"
+  },
+  "Golden Visage": {
+   "zh_hans": "金色面具",
+   "zh_hant": "黃金面紗"
+  },
+  "Golden Wreath": {
+   "zh_hans": "金黄花环",
+   "zh_hant": "金黃花環"
+  },
+  "Goldwork Sabatons": {
+   "zh_hans": "金工战靴",
+   "zh_hant": "金刺繡鎧靴"
+  },
+  "Goldworked Tower Shield": {
+   "zh_hans": "金工塔盾",
+   "zh_hant": "黃金塔盾"
+  },
+  "Goliath Greathelm": {
+   "zh_hans": "歌利亚巨盔",
+   "zh_hant": "巨靈巨盔"
+  },
+  "Gothic Quarterstaff": {
+   "zh_hans": "哥特节杖",
+   "zh_hant": "歌德細杖"
+  },
+  "Graceful Quarterstaff": {
+   "zh_hans": "风雅节杖",
+   "zh_hant": "優雅細杖"
+  },
+  "Grand Bracers": {
+   "zh_hans": "宏伟护腕",
+   "zh_hant": "宏偉護腕"
+  },
+  "Grand Cuisses": {
+   "zh_hans": "恢弘腿甲",
+   "zh_hant": "宏偉腿甲"
+  },
+  "Grand Life Flask": {
+   "zh_hans": "优质生命药剂",
+   "zh_hant": "優質生命藥劑"
+  },
+  "Grand Mana Flask": {
+   "zh_hans": "优质魔力药剂",
+   "zh_hant": "優質魔力藥劑"
+  },
+  "Grand Manchettes": {
+   "zh_hans": "恢弘袖口",
+   "zh_hant": "宏偉手鐲"
+  },
+  "Grand Mitts": {
+   "zh_hans": "堂皇护手",
+   "zh_hant": "宏偉長手套"
+  },
+  "Grand Regalia": {
+   "zh_hans": "恢弘盛装",
+   "zh_hant": "宏偉華服"
+  },
+  "Grand Spear": {
+   "zh_hans": "宏伟战矛",
+   "zh_hant": "宏偉長矛"
+  },
+  "Grand Targe": {
+   "zh_hans": "华丽圆盾",
+   "zh_hant": "宏偉圓盾"
+  },
+  "Grand Visage": {
+   "zh_hans": "恢弘面罩",
+   "zh_hant": "宏偉面紗"
+  },
+  "Grasping Mail": {
+   "zh_hans": "贪婪锁甲",
+   "zh_hant": "貪婪鎧甲"
+  },
+  "Grasping Ring": {
+   "zh_hans": "贪婪戒指",
+   "zh_hant": "抓取之戒"
+  },
+  "Great Flail": {
+   "zh_hans": "巨型连枷",
+   "zh_hant": "大型鏈錘"
+  },
+  "Greatbow": {
+   "zh_hans": "巨弓",
+   "zh_hant": "巨弓"
+  },
+  "Greater Life Flask": {
+   "zh_hans": "良质生命药剂",
+   "zh_hant": "良質生命藥劑"
+  },
+  "Greater Mana Flask": {
+   "zh_hans": "良质魔力药剂",
+   "zh_hant": "良質魔力藥劑"
+  },
+  "Greatmace": {
+   "zh_hans": "狼牙巨锤",
+   "zh_hant": "巨釘錘"
+  },
+  "Grim Gloves": {
+   "zh_hans": "冷酷手套",
+   "zh_hant": "冷酷手套"
+  },
+  "Grinning Mask": {
+   "zh_hans": "狞笑面罩",
+   "zh_hant": "獰笑之面"
+  },
+  "Grounding Charm": {
+   "zh_hans": "根基咒符",
+   "zh_hant": "接地護符"
+  },
+  "Guarded Flail": {
+   "zh_hans": "卫甲连枷",
+   "zh_hant": "警惕鏈錘"
+  },
+  "Guarded Helm": {
+   "zh_hans": "守护之盔",
+   "zh_hant": "警惕之盔"
+  },
+  "Guardian Bow": {
+   "zh_hans": "守护者之弓",
+   "zh_hant": "防衛者之弓"
+  },
+  "Guardian Greathelm": {
+   "zh_hans": "守护者巨盔",
+   "zh_hant": "守護者巨盔"
+  },
+  "Guardian Quarterstaff": {
+   "zh_hans": "守护者节杖",
+   "zh_hant": "守護細杖"
+  },
+  "Guardian Spear": {
+   "zh_hans": "守护者战矛",
+   "zh_hant": "衛者長矛"
+  },
+  "Gutspike Buckler": {
+   "zh_hans": "肠刺轻盾",
+   "zh_hant": "挑腸輕盾"
+  },
+  "Hallowed Crown": {
+   "zh_hans": "神圣王冠",
+   "zh_hant": "聖潔之冠"
+  },
+  "Hallowed Focus": {
+   "zh_hans": "神圣法器",
+   "zh_hant": "聖潔法器"
+  },
+  "Hallowed Sceptre": {
+   "zh_hans": "崇圣权杖",
+   "zh_hant": "聖潔權杖"
+  },
+  "Hardened Bracers": {
+   "zh_hans": "硬化护腕",
+   "zh_hant": "硬化護腕"
+  },
+  "Hardleather Coat": {
+   "zh_hans": "硬皮外套",
+   "zh_hant": "硬皮外套"
+  },
+  "Hardwood Spear": {
+   "zh_hans": "硬木长矛",
+   "zh_hant": "硬木長矛"
+  },
+  "Hardwood Targe": {
+   "zh_hans": "硬木圆盾",
+   "zh_hant": "硬木圓盾"
+  },
+  "Hatungo Garb": {
+   "zh_hans": "哈图纳格斯束衣",
+   "zh_hant": "靈語者裝束"
+  },
+  "Havoc Raiment": {
+   "zh_hans": "劫难之衣",
+   "zh_hant": "禍害之衣"
+  },
+  "Hawker's Jacket": {
+   "zh_hans": "小贩外衣",
+   "zh_hant": "飼鷹者外衣"
+  },
+  "Heartcarver Mantle": {
+   "zh_hans": "刻心斗篷",
+   "zh_hant": "雕心者披肩"
+  },
+  "Heartwood Shortbow": {
+   "zh_hans": "心木短弓",
+   "zh_hant": "赤木之弓"
+  },
+  "Heavy Belt": {
+   "zh_hans": "重革腰带",
+   "zh_hant": "重革腰帶"
+  },
+  "Heavy Bow": {
+   "zh_hans": "重装强弓",
+   "zh_hant": "重弓"
+  },
+  "Heavy Crown": {
+   "zh_hans": "沉重王冠",
+   "zh_hant": "沉重之冠"
+  },
+  "Heavy Greathammer": {
+   "zh_hans": "沉重大锤",
+   "zh_hant": "重型巨錘"
+  },
+  "Heavy Plate": {
+   "zh_hans": "重型战铠",
+   "zh_hant": "重型鎧甲"
+  },
+  "Hefty Quarterstaff": {
+   "zh_hans": "沉重节杖",
+   "zh_hant": "堅固細杖"
+  },
+  "Heirloom Cuffs": {
+   "zh_hans": "传家袖带",
+   "zh_hant": "家傳腕帶"
+  },
+  "Helix Spear": {
+   "zh_hans": "螺旋长矛",
+   "zh_hant": "螺旋長矛"
+  },
+  "Heraldric Tower Shield": {
+   "zh_hans": "徽纹塔盾",
+   "zh_hant": "紋章塔盾"
+  },
+  "Hermit Garb": {
+   "zh_hans": "隐士束衣",
+   "zh_hant": "隱士裝束"
+  },
+  "Heroic Armour": {
+   "zh_hans": "英武护甲",
+   "zh_hant": "英雄護甲"
+  },
+  "Hewn Mask": {
+   "zh_hans": "凿制之面",
+   "zh_hant": "粗製之面"
+  },
+  "Hexer's Robe": {
+   "zh_hans": "魔蛊长袍",
+   "zh_hant": "咒術師長袍"
+  },
+  "Holy Flail": {
+   "zh_hans": "神祝连枷",
+   "zh_hant": "神聖鏈錘"
+  },
+  "Homeguard Greathelm": {
+   "zh_hans": "族卫巨盔",
+   "zh_hant": "家園守衛巨盔"
+  },
+  "Hooded Mask": {
+   "zh_hans": "兜帽之面",
+   "zh_hant": "風帽之面"
+  },
+  "Hook Axe": {
+   "zh_hans": "钩斧",
+   "zh_hant": "鉤斧"
+  },
+  "Hooked Claw": {
+   "zh_hans": "钩齿利爪",
+   "zh_hant": "鉤爪"
+  },
+  "Horned Crown": {
+   "zh_hans": "犄角王冠",
+   "zh_hant": "犄角之冠"
+  },
+  "Howling Talisman": {
+   "zh_hans": "怒嚎魔符",
+   "zh_hant": "狂嚎魔符"
+  },
+  "Hunter Hood": {
+   "zh_hans": "猎者兜帽",
+   "zh_hant": "獵者之兜"
+  },
+  "Hunting Bracers": {
+   "zh_hans": "狩猎护腕",
+   "zh_hant": "狩獵護腕"
+  },
+  "Hunting Coat": {
+   "zh_hans": "狩猎外套",
+   "zh_hant": "狩獵外套"
+  },
+  "Hunting Shoes": {
+   "zh_hans": "狩猎便鞋",
+   "zh_hant": "狩獵輕鞋"
+  },
+  "Hunting Spear": {
+   "zh_hans": "狩猎长矛",
+   "zh_hant": "狩獵長矛"
+  },
+  "Icicle Flail": {
+   "zh_hans": "冰刺连枷",
+   "zh_hant": "冰錐鏈錘"
+  },
+  "Icicle Staff": {
+   "zh_hans": "冰柱长杖",
+   "zh_hant": "冰錐長杖"
+  },
+  "Imperial Greathelm": {
+   "zh_hans": "帝国巨盔",
+   "zh_hant": "帝國巨盔"
+  },
+  "Imperial Robe": {
+   "zh_hans": "帝国长袍",
+   "zh_hant": "帝國長袍"
+  },
+  "Incense Trap": {
+   "zh_hans": "熏香陷阱",
+   "zh_hant": "香爐陷阱"
+  },
+  "Inquisitor Crown": {
+   "zh_hans": "判官王冠",
+   "zh_hant": "判官之冠"
+  },
+  "Intricate Crest Shield": {
+   "zh_hans": "精巧纹章盾",
+   "zh_hant": "錯綜紋章盾"
+  },
+  "Intricate Gloves": {
+   "zh_hans": "精致手套",
+   "zh_hant": "精妙手套"
+  },
+  "Intricate Trap": {
+   "zh_hans": "巧妙陷阱",
+   "zh_hant": "複雜陷阱"
+  },
+  "Invoking Belt": {
+   "zh_hans": "祈求腰带",
+   "zh_hant": "祈喚腰帶"
+  },
+  "Iron Buckler": {
+   "zh_hans": "锻铁轻盾",
+   "zh_hant": "鍛鐵輕盾"
+  },
+  "Iron Crown": {
+   "zh_hans": "铁锻王冠",
+   "zh_hant": "鍛鐵之冠"
+  },
+  "Iron Cuirass": {
+   "zh_hans": "铁锻胸甲",
+   "zh_hant": "鍛鐵胸甲"
+  },
+  "Iron Flail": {
+   "zh_hans": "钢铁连枷",
+   "zh_hant": "鋼鐵鏈錘"
+  },
+  "Iron Greatsword": {
+   "zh_hans": "钢铁巨剑",
+   "zh_hant": "鍛鐵巨劍"
+  },
+  "Iron Greaves": {
+   "zh_hans": "铁锻胫甲",
+   "zh_hant": "鐵鍛脛甲"
+  },
+  "Iron Ring": {
+   "zh_hans": "锻铁戒指",
+   "zh_hant": "鍛鐵戒指"
+  },
+  "Ironclad Vestments": {
+   "zh_hans": "武装长衣",
+   "zh_hant": "鐵甲法衣"
+  },
+  "Ironhead Spear": {
+   "zh_hans": "铁头长矛",
+   "zh_hant": "鐵木長矛"
+  },
+  "Ironmail Gauntlets": {
+   "zh_hans": "铁甲手套",
+   "zh_hant": "鐵鎖護手"
+  },
+  "Ironwood Greathammer": {
+   "zh_hans": "铁木大锤",
+   "zh_hant": "鐵木巨錘"
+  },
+  "Ironwood Shortbow": {
+   "zh_hans": "铁木短弓",
+   "zh_hant": "鐵木短弓"
+  },
+  "Ironwood Targe": {
+   "zh_hans": "铁木圆盾",
+   "zh_hant": "鐵木圓盾"
+  },
+  "Itinerant Jacket": {
+   "zh_hans": "流浪外衣",
+   "zh_hant": "遊歷者外衣"
+  },
+  "Jade Amulet": {
+   "zh_hans": "翠玉项链",
+   "zh_hant": "翠玉護身符"
+  },
+  "Jade Club": {
+   "zh_hans": "翠玉战棒",
+   "zh_hant": "玉製棍棒"
+  },
+  "Jade Talisman": {
+   "zh_hans": "翡翠魔符",
+   "zh_hant": "翠玉魔符"
+  },
+  "Jade Tiara": {
+   "zh_hans": "翠玉冠冕",
+   "zh_hant": "翠玉頭冠"
+  },
+  "Jagged Greataxe": {
+   "zh_hans": "锯齿大斧",
+   "zh_hant": "鋸齒巨斧"
+  },
+  "Jagged Spear": {
+   "zh_hans": "锯齿战矛",
+   "zh_hant": "鋸齒長矛"
+  },
+  "Jewelled Gloves": {
+   "zh_hans": "宝石手套",
+   "zh_hant": "寶石手套"
+  },
+  "Jingling Buckler": {
+   "zh_hans": "铃鸣轻盾",
+   "zh_hant": "響聲輕盾"
+  },
+  "Jingling Crest Shield": {
+   "zh_hans": "铃鸣纹章盾",
+   "zh_hant": "響聲紋章盾"
+  },
+  "Jingling Focus": {
+   "zh_hans": "铃鸣法器",
+   "zh_hant": "響聲法器"
+  },
+  "Juggernaut Plate": {
+   "zh_hans": "巨灵之铠",
+   "zh_hant": "勇士鎧甲"
+  },
+  "Jungle Tiara": {
+   "zh_hans": "丛林冠冕",
+   "zh_hant": "叢林頭冠"
+  },
+  "Kalguuran Cuffs": {
+   "zh_hans": "卡古兰袖带",
+   "zh_hant": "卡爾葛腕帶"
+  },
+  "Kalguuran Forgehammer": {
+   "zh_hans": "卡古兰锻造锤",
+   "zh_hant": "卡爾葛鍛造錘"
+  },
+  "Kamasan Tiara": {
+   "zh_hans": "卡马萨冠冕",
+   "zh_hant": "卡瑪薩頭冠"
+  },
+  "Keen Greatsword": {
+   "zh_hans": "寒芒巨剑",
+   "zh_hant": "鋒利巨劍"
+  },
+  "Keth Raiment": {
+   "zh_hans": "克斯之衣",
+   "zh_hant": "凱斯之衣"
+  },
+  "Kinetic Ring": {
+   "zh_hans": "动能戒指",
+   "zh_hant": "動力之戒"
+  },
+  "Knight Armour": {
+   "zh_hans": "骑士护甲",
+   "zh_hant": "騎士護甲"
+  },
+  "Knightly Mitts": {
+   "zh_hans": "骑士护手",
+   "zh_hant": "騎士長手套"
+  },
+  "Kris Knife": {
+   "zh_hans": "波刃小刀",
+   "zh_hant": "波刃刀"
+  },
+  "Lace Hood": {
+   "zh_hans": "花边兜帽",
+   "zh_hant": "綁帶兜帽"
+  },
+  "Laced Boots": {
+   "zh_hans": "花边靴",
+   "zh_hant": "飾帶長靴"
+  },
+  "Laced Sandals": {
+   "zh_hans": "花边鞋履",
+   "zh_hant": "飾帶便鞋"
+  },
+  "Lamellar Mail": {
+   "zh_hans": "层叠锁甲",
+   "zh_hant": "分層鎖甲"
+  },
+  "Lament Amulet": {
+   "zh_hans": "哀悼项链",
+   "zh_hant": "悼亡護身符"
+  },
+  "Laminate Buckler": {
+   "zh_hans": "合板轻盾",
+   "zh_hant": "層壓輕盾"
+  },
+  "Lapis Amulet": {
+   "zh_hans": "海玉项链",
+   "zh_hant": "海玉護身符"
+  },
+  "Lattice Sandals": {
+   "zh_hans": "硬框鞋履",
+   "zh_hant": "格子便鞋"
+  },
+  "Lavish Crown": {
+   "zh_hans": "奢华王冠",
+   "zh_hant": "奢華之冠"
+  },
+  "Layered Gauntlets": {
+   "zh_hans": "垫层护手",
+   "zh_hant": "層板護手"
+  },
+  "Layered Vest": {
+   "zh_hans": "分层背心",
+   "zh_hant": "分層背心"
+  },
+  "Lazuli Ring": {
+   "zh_hans": "青金戒指",
+   "zh_hant": "青金石戒指"
+  },
+  "Lead Trap": {
+   "zh_hans": "铅链陷阱",
+   "zh_hant": "誘導陷阱"
+  },
+  "Leaden Greathammer": {
+   "zh_hans": "灌铅大锤",
+   "zh_hant": "麻木巨錘"
+  },
+  "Leather Buckler": {
+   "zh_hans": "皮制轻盾",
+   "zh_hant": "皮革輕盾"
+  },
+  "Leather Vest": {
+   "zh_hans": "皮革背心",
+   "zh_hant": "皮革背心"
+  },
+  "Leatherbound Hood": {
+   "zh_hans": "皮缚兜帽",
+   "zh_hant": "皮革兜帽"
+  },
+  "Leatherplate Boots": {
+   "zh_hans": "覆皮板靴",
+   "zh_hant": "皮甲長靴"
+  },
+  "Lesser Life Flask": {
+   "zh_hans": "次级生命药剂",
+   "zh_hant": "低階生命藥劑"
+  },
+  "Lesser Mana Flask": {
+   "zh_hans": "次级魔力药剂",
+   "zh_hant": "低階魔力藥劑"
+  },
+  "Leyline Focus": {
+   "zh_hans": "荒凉原野法器",
+   "zh_hant": "地脈法器"
+  },
+  "Light Halberd": {
+   "zh_hans": "轻装戟斧",
+   "zh_hant": "輕巧斧槍"
+  },
+  "Linen Belt": {
+   "zh_hans": "亚麻腰带",
+   "zh_hant": "麻布腰帶"
+  },
+  "Linen Wraps": {
+   "zh_hans": "亚麻裹手",
+   "zh_hant": "麻布裹手"
+  },
+  "Lionheart Greaves": {
+   "zh_hans": "狮心胫甲",
+   "zh_hant": "獅心脛甲"
+  },
+  "Lizardscale Boots": {
+   "zh_hans": "蜥鳞靴",
+   "zh_hant": "蜥蜴鱗長靴"
+  },
+  "Lizardscale Coat": {
+   "zh_hans": "蜥鳞外套",
+   "zh_hant": "蜥蜴鱗外套"
+  },
+  "Long Belt": {
+   "zh_hans": "加长腰带",
+   "zh_hant": "長腰帶"
+  },
+  "Long Quarterstaff": {
+   "zh_hans": "长柄节杖",
+   "zh_hant": "加長細杖"
+  },
+  "Lumbering Talisman": {
+   "zh_hans": "蹒跚魔符",
+   "zh_hant": "笨重魔符"
+  },
+  "Lumen Mace": {
+   "zh_hans": "流明之锤",
+   "zh_hant": "流明之錘"
+  },
+  "Lunar Amulet": {
+   "zh_hans": "月影项链",
+   "zh_hant": "月神項鍊"
+  },
+  "Lunar Quarterstaff": {
+   "zh_hans": "月光节杖",
+   "zh_hant": "月神細杖"
+  },
+  "Lupine Sceptre": {
+   "zh_hans": "幽狼权杖",
+   "zh_hant": "兇殘權杖"
+  },
+  "Luxurious Robe": {
+   "zh_hans": "奢华长袍",
+   "zh_hant": "奢華長袍"
+  },
+  "Luxurious Slippers": {
+   "zh_hans": "奢华便鞋",
+   "zh_hant": "奢華便鞋"
+  },
+  "Magus Focus": {
+   "zh_hans": "术士法器",
+   "zh_hant": "瑪格思法器"
+  },
+  "Magus Tiara": {
+   "zh_hans": "术士冠冕",
+   "zh_hant": "瑪格思頭冠"
+  },
+  "Mail Belt": {
+   "zh_hans": "环锁腰带",
+   "zh_hant": "鎖甲腰帶"
+  },
+  "Mail Breaker": {
+   "zh_hans": "拆信刀",
+   "zh_hant": "鎖甲破壞者"
+  },
+  "Mail Coat": {
+   "zh_hans": "锁环外套",
+   "zh_hant": "鎖甲外套"
+  },
+  "Mail Sabatons": {
+   "zh_hans": "锁链战靴",
+   "zh_hant": "鎖甲鎧靴"
+  },
+  "Mail Vestments": {
+   "zh_hans": "锁子长衣",
+   "zh_hant": "鎖甲法衣"
+  },
+  "Mailed Crown": {
+   "zh_hans": "锁甲王冠",
+   "zh_hant": "鎖甲之冠"
+  },
+  "Maji Talisman": {
+   "zh_hans": "众神魔符",
+   "zh_hant": "聖賢魔符"
+  },
+  "Makeshift Crossbow": {
+   "zh_hans": "拼凑战弩",
+   "zh_hant": "臨時十字弓"
+  },
+  "Mammoth Targe": {
+   "zh_hans": "猛犸圆盾",
+   "zh_hant": "猛獁圓盾"
+  },
+  "Mantled Mail": {
+   "zh_hans": "斗篷锁甲",
+   "zh_hant": "披風鎖甲"
+  },
+  "Marabout Garb": {
+   "zh_hans": "遁世束衣",
+   "zh_hant": "修士裝束"
+  },
+  "Maraketh Cuirass": {
+   "zh_hans": "马拉克斯胸甲",
+   "zh_hant": "馬拉克斯胸甲"
+  },
+  "Marauding Mace": {
+   "zh_hans": "劫掠之锤",
+   "zh_hant": "劫掠之錘"
+  },
+  "Marching Mace": {
+   "zh_hans": "行军之锤",
+   "zh_hant": "行軍之錘"
+  },
+  "Martyr Crown": {
+   "zh_hans": "英烈之冠",
+   "zh_hant": "殉難之冠"
+  },
+  "Masked Greathelm": {
+   "zh_hans": "蒙面巨盔",
+   "zh_hant": "假面巨盔"
+  },
+  "Massive Greathammer": {
+   "zh_hans": "庞然大锤",
+   "zh_hant": "巨型巨錘"
+  },
+  "Massive Mitts": {
+   "zh_hans": "巨型护手",
+   "zh_hant": "巨型長手套"
+  },
+  "Massive Spear": {
+   "zh_hans": "重型战矛",
+   "zh_hant": "巨型長矛"
+  },
+  "Medallion Trap": {
+   "zh_hans": "纹章陷阱",
+   "zh_hant": "獎章陷阱"
+  },
+  "Medium Life Flask": {
+   "zh_hans": "中型生命药剂",
+   "zh_hant": "中型生命藥劑"
+  },
+  "Medium Mana Flask": {
+   "zh_hans": "中型魔力药剂",
+   "zh_hant": "中型魔力藥劑"
+  },
+  "Mercenary Greathelm": {
+   "zh_hans": "佣兵巨盔",
+   "zh_hant": "傭兵巨盔"
+  },
+  "Mercenary Targe": {
+   "zh_hans": "佣兵圆盾",
+   "zh_hant": "傭兵圓盾"
+  },
+  "Messer": {
+   "zh_hans": "大砍刀",
+   "zh_hant": "單手刀"
+  },
+  "Metalworked Tower Shield": {
+   "zh_hans": "匠工塔盾",
+   "zh_hant": "金屬塔盾"
+  },
+  "Militant Bow": {
+   "zh_hans": "军用战弓",
+   "zh_hant": "好戰者之弓"
+  },
+  "Mnemonic Ring": {
+   "zh_hans": "记忆戒指",
+   "zh_hant": "憶念之戒"
+  },
+  "Molten Hammer": {
+   "zh_hans": "熔火之锤",
+   "zh_hant": "熔火之錘"
+  },
+  "Monastic Garb": {
+   "zh_hans": "修行束衣",
+   "zh_hant": "僧侶裝束"
+  },
+  "Monument Greataxe": {
+   "zh_hans": "丰碑大斧",
+   "zh_hant": "豐碑巨斧"
+  },
+  "Monument Greaves": {
+   "zh_hans": "典范胫甲",
+   "zh_hant": "豐碑脛甲"
+  },
+  "Moon Dagger": {
+   "zh_hans": "月刃匕首",
+   "zh_hant": "月之匕首"
+  },
+  "Morning Star": {
+   "zh_hans": "流星锤",
+   "zh_hant": "晨星"
+  },
+  "Mosaic Targe": {
+   "zh_hans": "厚装圆盾",
+   "zh_hant": "鑲嵌圓盾"
+  },
+  "Moulded Mitts": {
+   "zh_hans": "铸锻护手",
+   "zh_hant": "鑄模長手套"
+  },
+  "Mystic Raiment": {
+   "zh_hans": "密士之衣",
+   "zh_hant": "神秘之衣"
+  },
+  "Narrow Hood": {
+   "zh_hans": "窄型兜帽",
+   "zh_hant": "狹窄兜帽"
+  },
+  "Nettle Talisman": {
+   "zh_hans": "荨麻魔符",
+   "zh_hant": "蕁麻魔符"
+  },
+  "Noble Circlet": {
+   "zh_hans": "贵族头冠",
+   "zh_hant": "貴族頭環"
+  },
+  "Noble Greathelm": {
+   "zh_hans": "贵族巨盔",
+   "zh_hant": "高貴巨盔"
+  },
+  "Noble Sabatons": {
+   "zh_hans": "贵族战靴",
+   "zh_hant": "高貴鎧靴"
+  },
+  "Noble Tower Shield": {
+   "zh_hans": "贵族塔盾",
+   "zh_hant": "高貴塔盾"
+  },
+  "Oak Buckler": {
+   "zh_hans": "橡木轻盾",
+   "zh_hant": "橡木輕盾"
+  },
+  "Oak Greathammer": {
+   "zh_hans": "橡木大锤",
+   "zh_hant": "橡木巨錘"
+  },
+  "Oak Mask": {
+   "zh_hans": "欧克面具",
+   "zh_hant": "橡木之面"
+  },
+  "Obliterator Bow": {
+   "zh_hans": "毁灭者之弓",
+   "zh_hant": "毀滅者之弓"
+  },
+  "Obsidian Dagger": {
+   "zh_hans": "黑曜石匕首",
+   "zh_hant": "黑曜石匕首"
+  },
+  "Obsidian Greatsword": {
+   "zh_hans": "黑曜巨剑",
+   "zh_hant": "黑曜石巨劍"
+  },
+  "Occultist Mantle": {
+   "zh_hans": "秘术家斗篷",
+   "zh_hant": "秘術披肩"
+  },
+  "Ochre Sceptre": {
+   "zh_hans": "赤色权杖",
+   "zh_hant": "赤色權杖"
+  },
+  "Offering Wand": {
+   "zh_hans": "供奉法杖",
+   "zh_hant": "奉獻法杖"
+  },
+  "Oiled Jacket": {
+   "zh_hans": "油蜡外衣",
+   "zh_hant": "上油外衣"
+  },
+  "Omen Crest Shield": {
+   "zh_hans": "噩兆纹章盾",
+   "zh_hant": "預兆紋章盾"
+  },
+  "Omen Sceptre": {
+   "zh_hans": "预兆权杖",
+   "zh_hant": "徵兆權杖"
+  },
+  "Ominous Gloves": {
+   "zh_hans": "噩兆手套",
+   "zh_hant": "惡兆手套"
+  },
+  "Oneiric Ring": {
+   "zh_hans": "幻梦戒指",
+   "zh_hant": "夢境之戒"
+  },
+  "Opulent Gloves": {
+   "zh_hans": "丰裕手套",
+   "zh_hant": "奢靡手套"
+  },
+  "Orichalcum Spear": {
+   "zh_hans": "奥利哈刚战矛",
+   "zh_hant": "山銅長矛"
+  },
+  "Ornate Belt": {
+   "zh_hans": "华丽腰带",
+   "zh_hant": "華麗腰帶"
+  },
+  "Ornate Buckler": {
+   "zh_hans": "华丽轻盾",
+   "zh_hant": "華麗輕盾"
+  },
+  "Ornate Cuffs": {
+   "zh_hans": "华丽袖带",
+   "zh_hant": "華麗腕帶"
+  },
+  "Ornate Gauntlets": {
+   "zh_hans": "华贵护手",
+   "zh_hant": "華麗護手"
+  },
+  "Ornate Greaves": {
+   "zh_hans": "华丽胫甲",
+   "zh_hant": "華麗脛甲"
+  },
+  "Ornate Mitts": {
+   "zh_hans": "华丽护手",
+   "zh_hant": "華麗長手套"
+  },
+  "Ornate Plate": {
+   "zh_hans": "华丽战铠",
+   "zh_hant": "華麗鎧甲"
+  },
+  "Ornate Ringmail": {
+   "zh_hans": "华饰环甲",
+   "zh_hant": "華貴環甲"
+  },
+  "Padded Leggings": {
+   "zh_hans": "衬垫绑腿",
+   "zh_hant": "襯墊護腿"
+  },
+  "Painted Buckler": {
+   "zh_hans": "彩绘轻盾",
+   "zh_hant": "彩繪輕盾"
+  },
+  "Painted Crest Shield": {
+   "zh_hans": "彩绘纹章盾",
+   "zh_hant": "彩繪紋章盾"
+  },
+  "Painted Crossbow": {
+   "zh_hans": "彩绘战弩",
+   "zh_hant": "彩繪十字弓"
+  },
+  "Painted Tower Shield": {
+   "zh_hans": "彩绘塔盾",
+   "zh_hant": "彩繪塔盾"
+  },
+  "Paragon Greathelm": {
+   "zh_hans": "典范巨盔",
+   "zh_hant": "楷模巨盔"
+  },
+  "Paralysing Staff": {
+   "zh_hans": "麻痹长杖",
+   "zh_hant": "麻木長杖"
+  },
+  "Pariah Mask": {
+   "zh_hans": "贱民面具",
+   "zh_hant": "輕蔑之面"
+  },
+  "Parrying Dagger": {
+   "zh_hans": "格挡匕首",
+   "zh_hant": "格擋匕首"
+  },
+  "Patchwork Vest": {
+   "zh_hans": "拼接背心",
+   "zh_hant": "拼湊背心"
+  },
+  "Pathfinder Coat": {
+   "zh_hans": "寻路者外套",
+   "zh_hant": "追獵者外套"
+  },
+  "Pauascale Gloves": {
+   "zh_hans": "海灵鳞缀手套",
+   "zh_hant": "海靈鱗手套"
+  },
+  "Pearl Buckler": {
+   "zh_hans": "珠光轻盾",
+   "zh_hant": "珍珠輕盾"
+  },
+  "Pearl Ring": {
+   "zh_hans": "珠玉戒指",
+   "zh_hant": "珍珠戒指"
+  },
+  "Pearlescent Amulet": {
+   "zh_hans": "珠光项链",
+   "zh_hant": "珠光項鍊"
+  },
+  "Pelage Targe": {
+   "zh_hans": "毛皮圆盾",
+   "zh_hant": "毛皮圓盾"
+  },
+  "Pelt Leggings": {
+   "zh_hans": "毛皮绑腿",
+   "zh_hant": "堅皮護腿"
+  },
+  "Pelt Mantle": {
+   "zh_hans": "毛皮斗篷",
+   "zh_hant": "堅皮披肩"
+  },
+  "Penetrating Quiver": {
+   "zh_hans": "穿射箭袋",
+   "zh_hant": "穿透箭袋"
+  },
+  "Penumbra Amulet": {
+   "zh_hans": "半影项链",
+   "zh_hant": "半影項鍊"
+  },
+  "Penumbra Ring": {
+   "zh_hans": "半影戒指",
+   "zh_hant": "半影戒指"
+  },
+  "Perching Staff": {
+   "zh_hans": "栖鸟长杖",
+   "zh_hant": "棲羽長杖"
+  },
+  "Permafrost Staff": {
+   "zh_hans": "永霜法杖",
+   "zh_hant": "永凍長杖"
+  },
+  "Phalanx Tower Shield": {
+   "zh_hans": "方阵塔盾",
+   "zh_hant": "方陣塔盾"
+  },
+  "Pict Claw": {
+   "zh_hans": "绘彩利爪",
+   "zh_hant": "皮克特爪"
+  },
+  "Piercing Claw": {
+   "zh_hans": "洞穿利爪",
+   "zh_hant": "穿刺爪"
+  },
+  "Piercing Crossbow": {
+   "zh_hans": "穿刺战弩",
+   "zh_hant": "穿刺十字弓"
+  },
+  "Pilgrim Vestments": {
+   "zh_hans": "朝圣者长衣",
+   "zh_hant": "朝聖者法衣"
+  },
+  "Pious Leggings": {
+   "zh_hans": "虔信护腿",
+   "zh_hant": "虔誠護腿"
+  },
+  "Pious Sceptre": {
+   "zh_hans": "虔信权杖",
+   "zh_hant": "敬神權杖"
+  },
+  "Plate Belt": {
+   "zh_hans": "嵌板腰带",
+   "zh_hant": "板甲腰帶"
+  },
+  "Plate Gauntlets": {
+   "zh_hans": "铁板护手",
+   "zh_hant": "鎧甲護手"
+  },
+  "Plated Buckler": {
+   "zh_hans": "嵌板轻盾",
+   "zh_hant": "鋼板輕盾"
+  },
+  "Plated Claw": {
+   "zh_hans": "护板利爪",
+   "zh_hant": "華麗爪"
+  },
+  "Plated Greaves": {
+   "zh_hans": "坚铁胫甲",
+   "zh_hant": "鎧甲脛甲"
+  },
+  "Plated Mace": {
+   "zh_hans": "板锤",
+   "zh_hant": "華麗之錘"
+  },
+  "Plated Mitts": {
+   "zh_hans": "坚铁护手",
+   "zh_hant": "鎧甲長手套"
+  },
+  "Plated Raiment": {
+   "zh_hans": "嵌板之衣",
+   "zh_hant": "鎧甲之衣"
+  },
+  "Plated Vestments": {
+   "zh_hans": "嵌板长衣",
+   "zh_hant": "鎧甲法衣"
+  },
+  "Plumed Focus": {
+   "zh_hans": "彩羽法器",
+   "zh_hant": "羽飾法器"
+  },
+  "Pointed Maul": {
+   "zh_hans": "钉头巨锤",
+   "zh_hant": "尖銳重錘"
+  },
+  "Polished Bracers": {
+   "zh_hans": "闪耀护腕",
+   "zh_hant": "亮澤護腕"
+  },
+  "Polished Targe": {
+   "zh_hans": "抛光圆盾",
+   "zh_hant": "拋光圓盾"
+  },
+  "Portent Amulet": {
+   "zh_hans": "预兆项链",
+   "zh_hant": "惡兆護身符"
+  },
+  "Precise Greathammer": {
+   "zh_hans": "精准大锤",
+   "zh_hant": "精準巨錘"
+  },
+  "Primal Markings": {
+   "zh_hans": "原始印记",
+   "zh_hant": "野性標記"
+  },
+  "Primal Talisman": {
+   "zh_hans": "原初魔符",
+   "zh_hant": "原始魔符"
+  },
+  "Primed Quiver": {
+   "zh_hans": "精工箭袋",
+   "zh_hant": "灌注箭袋"
+  },
+  "Primordial Wand": {
+   "zh_hans": "始源法杖",
+   "zh_hant": "原始法杖"
+  },
+  "Prismatic Ring": {
+   "zh_hans": "三相戒指",
+   "zh_hant": "三相戒指"
+  },
+  "Profane Cleaver": {
+   "zh_hans": "亵渎战斧",
+   "zh_hant": "粗劣砍斧"
+  },
+  "Pronged Spear": {
+   "zh_hans": "叉尖战矛",
+   "zh_hant": "尖叉長矛"
+  },
+  "Protector Bow": {
+   "zh_hans": "保护者之弓",
+   "zh_hant": "保衛者之弓"
+  },
+  "Pyrophyte Staff": {
+   "zh_hans": "耐火长杖",
+   "zh_hant": "炎植長杖"
+  },
+  "Quartered Crest Shield": {
+   "zh_hans": "四分纹章盾",
+   "zh_hant": "四分紋章盾"
+  },
+  "Quickslip Shoes": {
+   "zh_hans": "急迅便鞋",
+   "zh_hant": "速行輕鞋"
+  },
+  "Quilted Vest": {
+   "zh_hans": "菱纹背心",
+   "zh_hant": "襯墊背心"
+  },
+  "Rabid Talisman": {
+   "zh_hans": "狂犬魔符",
+   "zh_hant": "狂暴魔符"
+  },
+  "Raider Plate": {
+   "zh_hans": "劫掠之铠",
+   "zh_hant": "俠客鎧甲"
+  },
+  "Rambler Jacket": {
+   "zh_hans": "漫步者外衣",
+   "zh_hant": "漫步者外衣"
+  },
+  "Rampart Tower Shield": {
+   "zh_hans": "壁垒塔盾",
+   "zh_hant": "壁壘塔盾"
+  },
+  "Rattling Sceptre": {
+   "zh_hans": "罪孽权杖",
+   "zh_hant": "雜響權杖"
+  },
+  "Ravenous Staff": {
+   "zh_hans": "饕餮法杖",
+   "zh_hant": "貪婪長杖"
+  },
+  "Rawhide Belt": {
+   "zh_hans": "生皮腰带",
+   "zh_hant": "生皮腰帶"
+  },
+  "Rawhide Boots": {
+   "zh_hans": "生皮短靴",
+   "zh_hant": "生皮長靴"
+  },
+  "Razor Quarterstaff": {
+   "zh_hans": "刀锋节杖",
+   "zh_hant": "剃刃細杖"
+  },
+  "Razorglass Claw": {
+   "zh_hans": "琉锋利爪",
+   "zh_hant": "剃刀玻璃爪"
+  },
+  "Reaching Quarterstaff": {
+   "zh_hans": "延伸节杖",
+   "zh_hant": "延伸細杖"
+  },
+  "Reaping Staff": {
+   "zh_hans": "收割长杖",
+   "zh_hant": "死神長杖"
+  },
+  "Reaver Glaive": {
+   "zh_hans": "掠夺者战刃",
+   "zh_hant": "收割者長柄刀"
+  },
+  "Recurve Bow": {
+   "zh_hans": "反曲弓",
+   "zh_hant": "反曲弓"
+  },
+  "Reefsteel Greaves": {
+   "zh_hans": "卷钢胫甲",
+   "zh_hant": "礁鋼脛甲"
+  },
+  "Refined Bracers": {
+   "zh_hans": "精制护腕",
+   "zh_hant": "精製護腕"
+  },
+  "Refined Breach Ring": {
+   "zh_hans": "精炼裂隙戒指",
+   "zh_hant": "精製裂痕戒指"
+  },
+  "Refined Trap": {
+   "zh_hans": "精工陷阱",
+   "zh_hant": "精製陷阱"
+  },
+  "Reflecting Staff": {
+   "zh_hans": "反射长杖",
+   "zh_hant": "映像長杖"
+  },
+  "Regalia Longsword": {
+   "zh_hans": "君威长剑",
+   "zh_hant": "王權長劍"
+  },
+  "Rending Halberd": {
+   "zh_hans": "裂肉戟斧",
+   "zh_hant": "撕扯斧槍"
+  },
+  "Rending Staff": {
+   "zh_hans": "撕裂长杖",
+   "zh_hant": "撕裂長杖"
+  },
+  "Revered Vestments": {
+   "zh_hans": "崇礼长衣",
+   "zh_hant": "尊敬法衣"
+  },
+  "Rhoahide Coat": {
+   "zh_hans": "恐喙鸟皮外套",
+   "zh_hant": "恐喙鳥皮外套"
+  },
+  "Rider Bow": {
+   "zh_hans": "骑射之弓",
+   "zh_hant": "騎士之弓"
+  },
+  "Ridged Buckler": {
+   "zh_hans": "凸脊轻盾",
+   "zh_hant": "脊狀輕盾"
+  },
+  "Riding Coat": {
+   "zh_hans": "骑行外套",
+   "zh_hant": "騎乘外套"
+  },
+  "Righteous Cuffs": {
+   "zh_hans": "正义袖带",
+   "zh_hant": "正義腕帶"
+  },
+  "Ring": {
+   "zh_hans": "戒指",
+   "zh_hant": "戒指"
+  },
+  "Ring Flail": {
+   "zh_hans": "环锁连枷",
+   "zh_hant": "圓環鏈錘"
+  },
+  "Ring Mail": {
+   "zh_hans": "锁环甲",
+   "zh_hant": "鐵環鎖甲"
+  },
+  "Ringed Buckler": {
+   "zh_hans": "环锁轻盾",
+   "zh_hant": "環紋輕盾"
+  },
+  "Ringmail Gauntlets": {
+   "zh_hans": "环锁手甲",
+   "zh_hant": "環鎖護手"
+  },
+  "Rippled Greatsword": {
+   "zh_hans": "波纹巨剑",
+   "zh_hant": "波紋巨劍"
+  },
+  "River Raiment": {
+   "zh_hans": "河流之衣",
+   "zh_hant": "河流之衣"
+  },
+  "Riveted Mitts": {
+   "zh_hans": "铆接护手",
+   "zh_hant": "鉚接長手套"
+  },
+  "Roaring Staff": {
+   "zh_hans": "咆哮长杖",
+   "zh_hant": "咆哮長杖"
+  },
+  "Roaring Talisman": {
+   "zh_hans": "怒嚎魔符",
+   "zh_hant": "咆哮魔符"
+  },
+  "Robust Crossbow": {
+   "zh_hans": "坚固战弩",
+   "zh_hant": "強健十字弓"
+  },
+  "Rogue Armour": {
+   "zh_hans": "盗贼护甲",
+   "zh_hant": "盜賊護甲"
+  },
+  "Rope Cuffs": {
+   "zh_hans": "绳索袖带",
+   "zh_hant": "繩索腕帶"
+  },
+  "Rotted Hood": {
+   "zh_hans": "腐烂兜帽",
+   "zh_hant": "破爛兜帽"
+  },
+  "Rough Greaves": {
+   "zh_hans": "粗制胫甲",
+   "zh_hant": "粗糙脛甲"
+  },
+  "Royal Tower Shield": {
+   "zh_hans": "皇家塔盾",
+   "zh_hant": "皇族塔盾"
+  },
+  "Ruby": {
+   "zh_hans": "红玉",
+   "zh_hant": "紅寶石"
+  },
+  "Ruby Charm": {
+   "zh_hans": "红玉咒符",
+   "zh_hant": "紅玉護符"
+  },
+  "Ruby Ring": {
+   "zh_hans": "红玉戒指",
+   "zh_hant": "紅玉戒指"
+  },
+  "Rugged Cuirass": {
+   "zh_hans": "粗糙胸甲",
+   "zh_hant": "堅實胸甲"
+  },
+  "Ruination Maul": {
+   "zh_hans": "毁灭巨锤",
+   "zh_hant": "毀滅重錘"
+  },
+  "Runed Focus": {
+   "zh_hans": "符文法器",
+   "zh_hant": "符文法器"
+  },
+  "Runefather's Grasping Mail": {
+   "zh_hans": "符文之父贪婪锁甲",
+   "zh_hant": "符文之父的貪婪鎧甲"
+  },
+  "Runeforged Abyssal Cuirass": {
+   "zh_hans": "符文深渊胸甲",
+   "zh_hant": "符鍛深淵胸甲"
+  },
+  "Runeforged Adherent Cuffs": {
+   "zh_hans": "符文信徒袖带",
+   "zh_hant": "符鍛追隨者腕帶"
+  },
+  "Runeforged Adherent's Raiment": {
+   "zh_hans": "符文信徒之衣",
+   "zh_hant": "符鍛信徒之衣"
+  },
+  "Runeforged Adorned Gloves": {
+   "zh_hans": "符文华饰手套",
+   "zh_hant": "符鍛奢華手套"
+  },
+  "Runeforged Adorned Wraps": {
+   "zh_hans": "符文华饰裹手",
+   "zh_hant": "符鍛裝飾裹手"
+  },
+  "Runeforged Aegis Buckler": {
+   "zh_hans": "符文神佑轻盾",
+   "zh_hant": "符鍛神禦輕盾"
+  },
+  "Runeforged Aged Cuffs": {
+   "zh_hans": "符文风霜袖带",
+   "zh_hant": "符鍛陳舊腕帶"
+  },
+  "Runeforged Altar Robe": {
+   "zh_hans": "符文祭坛长袍",
+   "zh_hant": "符鍛祭壇長袍"
+  },
+  "Runeforged Ancestor Tower Shield": {
+   "zh_hans": "符文先祖塔盾",
+   "zh_hant": "符鍛先祖塔盾"
+  },
+  "Runeforged Ancestral Mail": {
+   "zh_hans": "符文先祖锁甲",
+   "zh_hant": "符鍛先祖鎖甲"
+  },
+  "Runeforged Ancestral Tiara": {
+   "zh_hans": "符文先祖冠冕",
+   "zh_hant": "符鍛先祖頭冠"
+  },
+  "Runeforged Anchorite Garb": {
+   "zh_hans": "符文隐士束衣",
+   "zh_hant": "符鍛隱者裝束"
+  },
+  "Runeforged Ancient Buckler": {
+   "zh_hans": "符文远古轻盾",
+   "zh_hant": "符鍛遠古輕盾"
+  },
+  "Runeforged Ancient Cuffs": {
+   "zh_hans": "符文远古袖带",
+   "zh_hant": "符鍛遠古腕帶"
+  },
+  "Runeforged Ancient Mitts": {
+   "zh_hans": "符文远古护手",
+   "zh_hant": "符鍛遠古長手套"
+  },
+  "Runeforged Antler Focus": {
+   "zh_hans": "符文鹿角法器",
+   "zh_hant": "符鍛靈鹿法器"
+  },
+  "Runeforged Apostle Leggings": {
+   "zh_hans": "符文使徒护腿",
+   "zh_hant": "符鍛使徒護腿"
+  },
+  "Runeforged Arcane Raiment": {
+   "zh_hans": "符文秘法之衣",
+   "zh_hant": "符鍛奧術之衣"
+  },
+  "Runeforged Archon Crown": {
+   "zh_hans": "符文执政官王冠",
+   "zh_hant": "符鍛統治者之冠"
+  },
+  "Runeforged Armoured Cap": {
+   "zh_hans": "符文覆甲帽",
+   "zh_hant": "符鍛裝甲便帽"
+  },
+  "Runeforged Armoured Vest": {
+   "zh_hans": "符文铠装背心",
+   "zh_hant": "符鍛裝甲背心"
+  },
+  "Runeforged Array Buckler": {
+   "zh_hans": "符文阵列轻盾",
+   "zh_hant": "符鍛排列輕盾"
+  },
+  "Runeforged Arrayed Focus": {
+   "zh_hans": "符文排列法器",
+   "zh_hant": "符鍛陣列法器"
+  },
+  "Runeforged Ascetic Garb": {
+   "zh_hans": "符文苦修束衣",
+   "zh_hant": "符鍛苦行者裝束"
+  },
+  "Runeforged Assassin Garb": {
+   "zh_hans": "符文刺客束衣",
+   "zh_hant": "符鍛刺客裝束"
+  },
+  "Runeforged Attuned Focus": {
+   "zh_hans": "符文协调法器",
+   "zh_hant": "符鍛調和法器"
+  },
+  "Runeforged Aureate Targe": {
+   "zh_hans": "符文金辉圆盾",
+   "zh_hant": "符鍛鍍金圓盾"
+  },
+  "Runeforged Austere Garb": {
+   "zh_hans": "符文简朴束衣",
+   "zh_hant": "符鍛樸素裝束"
+  },
+  "Runeforged Avian Mask": {
+   "zh_hans": "符文飞羽面具",
+   "zh_hant": "符鍛飛羽之面"
+  },
+  "Runeforged Avian Targe": {
+   "zh_hans": "符文飞羽圆盾",
+   "zh_hant": "符鍛飛羽圓盾"
+  },
+  "Runeforged Barbed Bracers": {
+   "zh_hans": "符文倒刺护腕",
+   "zh_hant": "符鍛鉤刺護腕"
+  },
+  "Runeforged Barbed Spear": {
+   "zh_hans": "符文倒刺长矛",
+   "zh_hant": "符鍛鉤刺長矛"
+  },
+  "Runeforged Baroque Gloves": {
+   "zh_hans": "符文巴洛克手套",
+   "zh_hant": "符鍛巴洛克手套"
+  },
+  "Runeforged Baroque Targe": {
+   "zh_hans": "符文巴洛克圆盾",
+   "zh_hant": "符鍛巴洛克圓盾"
+  },
+  "Runeforged Barricade Tower Shield": {
+   "zh_hans": "符文障壁塔盾",
+   "zh_hant": "符鍛障壁塔盾"
+  },
+  "Runeforged Bastion Sabatons": {
+   "zh_hans": "符文坚城壁垒战靴",
+   "zh_hant": "符鍛堅堡鎧靴"
+  },
+  "Runeforged Beaded Circlet": {
+   "zh_hans": "符文珠饰头冠",
+   "zh_hant": "符鍛串珠頭環"
+  },
+  "Runeforged Blacksteel Crest Shield": {
+   "zh_hans": "符文黑钢纹章盾",
+   "zh_hant": "符鍛烏鋼紋章盾"
+  },
+  "Runeforged Blacksteel Gauntlets": {
+   "zh_hans": "符文黑钢手甲",
+   "zh_hant": "符鍛烏鐵護手"
+  },
+  "Runeforged Blacksteel Sabatons": {
+   "zh_hans": "符文黑钢战靴",
+   "zh_hant": "符鍛烏鋼鎧靴"
+  },
+  "Runeforged Blacksteel Tower Shield": {
+   "zh_hans": "符文黑钢塔盾",
+   "zh_hant": "符鍛黑鋼塔盾"
+  },
+  "Runeforged Bladed Shoes": {
+   "zh_hans": "符文嵌刃便鞋",
+   "zh_hant": "符鍛片狀輕鞋"
+  },
+  "Runeforged Bladeguard Buckler": {
+   "zh_hans": "符文刀刃守护轻盾",
+   "zh_hant": "符鍛刃衛輕盾"
+  },
+  "Runeforged Blazon Crest Shield": {
+   "zh_hans": "符文饰印纹章盾",
+   "zh_hant": "符鍛家徽紋章盾"
+  },
+  "Runeforged Bold Sabatons": {
+   "zh_hans": "符文光鲜战靴",
+   "zh_hant": "符鍛醒目鎧靴"
+  },
+  "Runeforged Bolstered Mitts": {
+   "zh_hans": "符文增固护手",
+   "zh_hant": "符鍛加固長手套"
+  },
+  "Runeforged Bombard Crossbow": {
+   "zh_hans": "符文轰炸战弩",
+   "zh_hant": "符鍛轟擊十字弓"
+  },
+  "Runeforged Bone Raiment": {
+   "zh_hans": "符文坠饰之衣",
+   "zh_hant": "符鍛骸骨之衣"
+  },
+  "Runeforged Bound Bracers": {
+   "zh_hans": "符文缚革护腕",
+   "zh_hant": "符鍛緊縛護腕"
+  },
+  "Runeforged Bound Cuffs": {
+   "zh_hans": "符文缚革袖带",
+   "zh_hant": "符鍛綑綁腕帶"
+  },
+  "Runeforged Bound Sandals": {
+   "zh_hans": "符文缚革鞋履",
+   "zh_hant": "符鍛綑綁便鞋"
+  },
+  "Runeforged Braced Sabatons": {
+   "zh_hans": "符文加固战靴",
+   "zh_hant": "符鍛加固鎧靴"
+  },
+  "Runeforged Braced Tower Shield": {
+   "zh_hans": "符文加固塔盾",
+   "zh_hant": "符鍛加固塔盾"
+  },
+  "Runeforged Brigand Mask": {
+   "zh_hans": "符文强盗面具",
+   "zh_hant": "符鍛強盜之面"
+  },
+  "Runeforged Brimmed Helm": {
+   "zh_hans": "符文宽沿之盔",
+   "zh_hant": "符鍛邊緣之盔"
+  },
+  "Runeforged Bronze Greaves": {
+   "zh_hans": "符文青铜胫甲",
+   "zh_hant": "符鍛青銅脛甲"
+  },
+  "Runeforged Buckled Wraps": {
+   "zh_hans": "符文扣带裹手",
+   "zh_hant": "符鍛帶扣裹手"
+  },
+  "Runeforged Bulwark Greaves": {
+   "zh_hans": "符文堡垒胫甲",
+   "zh_hant": "符鍛壁壘脛甲"
+  },
+  "Runeforged Bulwark Tower Shield": {
+   "zh_hans": "符文堡垒塔盾",
+   "zh_hant": "符鍛守護塔盾"
+  },
+  "Runeforged Burnished Gauntlets": {
+   "zh_hans": "符文冷芒手甲",
+   "zh_hant": "符鍛拋光護手"
+  },
+  "Runeforged Cabalist Helm": {
+   "zh_hans": "符文秘法家头盔",
+   "zh_hant": "符鍛秘術師之盔"
+  },
+  "Runeforged Carved Greaves": {
+   "zh_hans": "符文雕饰胫甲",
+   "zh_hant": "符鍛雕刻脛甲"
+  },
+  "Runeforged Carved Targe": {
+   "zh_hans": "符文雕纹圆盾",
+   "zh_hant": "符鍛雕刻圓盾"
+  },
+  "Runeforged Cavalry Boots": {
+   "zh_hans": "符文骑兵长靴",
+   "zh_hant": "符鍛騎兵長靴"
+  },
+  "Runeforged Ceremonial Robe": {
+   "zh_hans": "符文仪式长袍",
+   "zh_hant": "符鍛儀式長袍"
+  },
+  "Runeforged Chain Mail": {
+   "zh_hans": "符文环锁甲",
+   "zh_hant": "符鍛鎖鍊鎖甲"
+  },
+  "Runeforged Chain Tiara": {
+   "zh_hans": "符文锁链冠冕",
+   "zh_hant": "符鍛鎖鍊頭冠"
+  },
+  "Runeforged Champion Cuirass": {
+   "zh_hans": "符文冠军胸甲",
+   "zh_hant": "符鍛冠軍胸甲"
+  },
+  "Runeforged Champion Helm": {
+   "zh_hans": "符文勇士头盔",
+   "zh_hant": "符鍛勇士之盔"
+  },
+  "Runeforged Changeling Talisman": {
+   "zh_hans": "符文易形魔符",
+   "zh_hant": "符鍛變形魔符"
+  },
+  "Runeforged Charmed Shoes": {
+   "zh_hans": "符文魅力便鞋",
+   "zh_hant": "符鍛護符輕鞋"
+  },
+  "Runeforged Chieftain Cuirass": {
+   "zh_hans": "符文酋长胸甲",
+   "zh_hant": "符鍛酋長胸甲"
+  },
+  "Runeforged Chiseled Targe": {
+   "zh_hans": "符文镌凿圆盾",
+   "zh_hant": "符鍛鑿刻圓盾"
+  },
+  "Runeforged Cinched Boots": {
+   "zh_hans": "符文束带长靴",
+   "zh_hant": "符鍛繫帶長靴"
+  },
+  "Runeforged Clandestine Jacket": {
+   "zh_hans": "符文无影外衣",
+   "zh_hant": "符鍛隱蔽外衣"
+  },
+  "Runeforged Cleric Vestments": {
+   "zh_hans": "符文圣徒长衣",
+   "zh_hant": "符鍛教士法衣"
+  },
+  "Runeforged Cloaked Mail": {
+   "zh_hans": "符文披风锁甲",
+   "zh_hant": "符鍛斗篷鎖甲"
+  },
+  "Runeforged Closed Helm": {
+   "zh_hans": "符文封闭之盔",
+   "zh_hant": "符鍛緊閉之盔"
+  },
+  "Runeforged Colosseum Plate": {
+   "zh_hans": "符文决斗之铠",
+   "zh_hant": "符鍛決鬥之鎧"
+  },
+  "Runeforged Commander Gauntlets": {
+   "zh_hans": "符文军官手甲",
+   "zh_hant": "符鍛指揮官護手"
+  },
+  "Runeforged Commander Greathelm": {
+   "zh_hans": "符文军官巨盔",
+   "zh_hant": "符鍛指揮官巨盔"
+  },
+  "Runeforged Composite Bow": {
+   "zh_hans": "符文复合弓",
+   "zh_hant": "符鍛合成弓"
+  },
+  "Runeforged Conjurer Mantle": {
+   "zh_hans": "符文咒者斗篷",
+   "zh_hant": "符鍛巫術師披肩"
+  },
+  "Runeforged Conqueror Plate": {
+   "zh_hans": "符文霸王战铠",
+   "zh_hant": "符鍛征服者鎧甲"
+  },
+  "Runeforged Corsair Cap": {
+   "zh_hans": "符文海贼帽",
+   "zh_hant": "符鍛海盜便帽"
+  },
+  "Runeforged Corsair Coat": {
+   "zh_hans": "符文海盗外套",
+   "zh_hant": "符鍛海盜外套"
+  },
+  "Runeforged Corsair Vest": {
+   "zh_hans": "符文海贼背心",
+   "zh_hant": "符鍛海盜背心"
+  },
+  "Runeforged Corvus Mantle": {
+   "zh_hans": "符文灵鸦斗篷",
+   "zh_hant": "符鍛烏鴉披肩"
+  },
+  "Runeforged Covered Sabatons": {
+   "zh_hans": "符文掩护战靴",
+   "zh_hant": "符鍛遮蓋鎧靴"
+  },
+  "Runeforged Covert Hood": {
+   "zh_hans": "符文匿踪兜帽",
+   "zh_hant": "符鍛隱蔽兜帽"
+  },
+  "Runeforged Cowled Helm": {
+   "zh_hans": "符文掩面之盔",
+   "zh_hant": "符鍛斗篷之盔"
+  },
+  "Runeforged Crescent Targe": {
+   "zh_hans": "符文新月圆盾",
+   "zh_hant": "符鍛新月圓盾"
+  },
+  "Runeforged Crucible Tower Shield": {
+   "zh_hans": "符文熔铸塔盾",
+   "zh_hant": "符鍛磨煉塔盾"
+  },
+  "Runeforged Crude Bow": {
+   "zh_hans": "符文粗制弓",
+   "zh_hant": "符鍛粗製弓"
+  },
+  "Runeforged Crumbling Maul": {
+   "zh_hans": "符文摧枯巨锤",
+   "zh_hant": "符鍛崩毀重錘"
+  },
+  "Runeforged Cryptic Crown": {
+   "zh_hans": "符文隐秘之冠",
+   "zh_hant": "符鍛隱祕之冠"
+  },
+  "Runeforged Cryptic Helm": {
+   "zh_hans": "符文神秘头盔",
+   "zh_hant": "符鍛隱秘之盔"
+  },
+  "Runeforged Cryptic Leggings": {
+   "zh_hans": "符文隐秘绑腿",
+   "zh_hant": "符鍛隱祕護腿"
+  },
+  "Runeforged Crystal Focus": {
+   "zh_hans": "符文水晶法器",
+   "zh_hant": "符鍛水晶法器"
+  },
+  "Runeforged Cultist Crown": {
+   "zh_hans": "符文密教头冠",
+   "zh_hant": "符鍛教徒之冠"
+  },
+  "Runeforged Cultist Focus": {
+   "zh_hans": "符文密会法器",
+   "zh_hant": "符鍛教徒法器"
+  },
+  "Runeforged Cultist Gauntlets": {
+   "zh_hans": "符文密会手甲",
+   "zh_hant": "符鍛教徒護手"
+  },
+  "Runeforged Cultist Greathammer": {
+   "zh_hans": "符文教徒大锤",
+   "zh_hant": "符鍛教徒巨錘"
+  },
+  "Runeforged Daggerfoot Shoes": {
+   "zh_hans": "符文捷足便鞋",
+   "zh_hant": "符鍛捷足輕鞋"
+  },
+  "Runeforged Dastard Armour": {
+   "zh_hans": "符文懦夫护甲",
+   "zh_hant": "符鍛惡徒護甲"
+  },
+  "Runeforged Death Mail": {
+   "zh_hans": "符文死亡锁甲",
+   "zh_hant": "符鍛死亡鎖甲"
+  },
+  "Runeforged Death Mantle": {
+   "zh_hans": "符文死亡斗篷",
+   "zh_hant": "符鍛死亡披肩"
+  },
+  "Runeforged Death Mask": {
+   "zh_hans": "符文死神之面",
+   "zh_hant": "符鍛死亡之面"
+  },
+  "Runeforged Decorated Helm": {
+   "zh_hans": "符文华饰之盔",
+   "zh_hant": "符鍛裝飾之盔"
+  },
+  "Runeforged Deerstalker Hood": {
+   "zh_hans": "符文猎踪兜帽",
+   "zh_hant": "符鍛獵鹿者之兜"
+  },
+  "Runeforged Defiant Tower Shield": {
+   "zh_hans": "符文无畏塔盾",
+   "zh_hant": "符鍛忤逆塔盾"
+  },
+  "Runeforged Deified Crest Shield": {
+   "zh_hans": "符文神尊纹章盾",
+   "zh_hant": "符鍛神化紋章盾"
+  },
+  "Runeforged Dekharan Crest Shield": {
+   "zh_hans": "符文德卡拉纹章盾",
+   "zh_hant": "符鍛部下紋章盾"
+  },
+  "Runeforged Desert Buckler": {
+   "zh_hans": "符文沙漠轻盾",
+   "zh_hant": "符鍛沙漠輕盾"
+  },
+  "Runeforged Desert Cap": {
+   "zh_hans": "符文沙漠帽",
+   "zh_hant": "符鍛沙漠便帽"
+  },
+  "Runeforged Detailed Mitts": {
+   "zh_hans": "符文精工护手",
+   "zh_hant": "符鍛精細長手套"
+  },
+  "Runeforged Devout Garb": {
+   "zh_hans": "符文虔心束衣",
+   "zh_hant": "符鍛虔誠裝束"
+  },
+  "Runeforged Divine Crown": {
+   "zh_hans": "符文神礼王冠",
+   "zh_hant": "符鍛神聖之冠"
+  },
+  "Runeforged Doubled Gauntlets": {
+   "zh_hans": "符文合钢手甲",
+   "zh_hant": "符鍛雙層護手"
+  },
+  "Runeforged Dragonscale Boots": {
+   "zh_hans": "符文龙鳞长靴",
+   "zh_hant": "符鍛龍鱗長靴"
+  },
+  "Runeforged Drakeskin Boots": {
+   "zh_hans": "符文龙皮长靴",
+   "zh_hant": "符鍛龍膚長靴"
+  },
+  "Runeforged Druidic Crown": {
+   "zh_hans": "符文德鲁伊王冠",
+   "zh_hant": "符鍛德魯伊之冠"
+  },
+  "Runeforged Druidic Focus": {
+   "zh_hans": "符文德鲁伊法器",
+   "zh_hant": "符鍛德魯伊法器"
+  },
+  "Runeforged Dualstring Bow": {
+   "zh_hans": "符文双弦弓",
+   "zh_hant": "符鍛雙弦弓"
+  },
+  "Runeforged Dunerunner Sandals": {
+   "zh_hans": "符文沙丘行者鞋履",
+   "zh_hant": "符鍛沙丘行者便鞋"
+  },
+  "Runeforged Dyad Crossbow": {
+   "zh_hans": "符文双联战弩",
+   "zh_hant": "符鍛雙生十字弓"
+  },
+  "Runeforged Edged Buckler": {
+   "zh_hans": "符文锋缘轻盾",
+   "zh_hant": "符鍛刃緣輕盾"
+  },
+  "Runeforged Effigial Tower Shield": {
+   "zh_hans": "符文塑像塔盾",
+   "zh_hant": "符鍛靈像塔盾"
+  },
+  "Runeforged Elaborate Sandals": {
+   "zh_hans": "符文精美鞋履",
+   "zh_hant": "符鍛精美便鞋"
+  },
+  "Runeforged Elegant Focus": {
+   "zh_hans": "符文优雅法器",
+   "zh_hant": "符鍛高雅法器"
+  },
+  "Runeforged Elegant Greathelm": {
+   "zh_hans": "符文雅致巨盔",
+   "zh_hant": "符鍛優雅巨盔"
+  },
+  "Runeforged Elegant Greaves": {
+   "zh_hans": "符文雅致胫甲",
+   "zh_hant": "符鍛優雅脛甲"
+  },
+  "Runeforged Elegant Plate": {
+   "zh_hans": "符文优雅战铠",
+   "zh_hant": "符鍛優雅鎧甲"
+  },
+  "Runeforged Elegant Slippers": {
+   "zh_hans": "符文雅致便鞋",
+   "zh_hant": "符鍛優雅便鞋"
+  },
+  "Runeforged Elegant Wraps": {
+   "zh_hans": "符文雅致裹手",
+   "zh_hant": "符鍛優雅裹手"
+  },
+  "Runeforged Elementalist Robe": {
+   "zh_hans": "符文元素使长袍",
+   "zh_hant": "符鍛元素使長袍"
+  },
+  "Runeforged Elite Greathelm": {
+   "zh_hans": "符文精锐巨盔",
+   "zh_hant": "符鍛菁英巨盔"
+  },
+  "Runeforged Emblem Crest Shield": {
+   "zh_hans": "符文圣徽纹章盾",
+   "zh_hant": "符鍛徽印紋章盾"
+  },
+  "Runeforged Embossed Boots": {
+   "zh_hans": "符文浮雕靴",
+   "zh_hant": "符鍛浮雕長靴"
+  },
+  "Runeforged Embroidered Boots": {
+   "zh_hans": "符文刺绣靴",
+   "zh_hant": "符鍛刺繡長靴"
+  },
+  "Runeforged Embroidered Gloves": {
+   "zh_hans": "符文刺绣手套",
+   "zh_hant": "符鍛刺繡手套"
+  },
+  "Runeforged Empyreal Crest Shield": {
+   "zh_hans": "符文苍穹纹章盾",
+   "zh_hant": "符鍛蒼天紋章盾"
+  },
+  "Runeforged Engraved Bracers": {
+   "zh_hans": "符文雕饰护腕",
+   "zh_hant": "符鍛紋刻護腕"
+  },
+  "Runeforged Engraved Focus": {
+   "zh_hans": "符文铭刻法器",
+   "zh_hant": "符鍛紋刻法器"
+  },
+  "Runeforged Enlightened Robe": {
+   "zh_hans": "符文启迪长袍",
+   "zh_hant": "符鍛啟蒙長袍"
+  },
+  "Runeforged Explorer Armour": {
+   "zh_hans": "符文探索者护甲",
+   "zh_hant": "符鍛探索者護甲"
+  },
+  "Runeforged Exquisite Vest": {
+   "zh_hans": "符文浮华背心",
+   "zh_hant": "符鍛精美背心"
+  },
+  "Runeforged Face Mask": {
+   "zh_hans": "符文覆颜面具",
+   "zh_hant": "符鍛護臉之面"
+  },
+  "Runeforged Faithful Leggings": {
+   "zh_hans": "符文信仰护腿",
+   "zh_hant": "符鍛信仰護腿"
+  },
+  "Runeforged Falconer's Jacket": {
+   "zh_hans": "符文猎鹰师外衣",
+   "zh_hant": "符鍛訓鷹者外衣"
+  },
+  "Runeforged Familial Talisman": {
+   "zh_hans": "符文血亲魔符",
+   "zh_hant": "符鍛家族魔符"
+  },
+  "Runeforged Faridun Mask": {
+   "zh_hans": "符文法里顿面具",
+   "zh_hant": "符鍛法里登之面"
+  },
+  "Runeforged Feathered Mitts": {
+   "zh_hans": "符文羽饰护手",
+   "zh_hant": "符鍛羽毛長手套"
+  },
+  "Runeforged Feathered Raiment": {
+   "zh_hans": "符文羽饰之衣",
+   "zh_hant": "符鍛羽絨之衣"
+  },
+  "Runeforged Feathered Robe": {
+   "zh_hans": "符文羽饰长袍",
+   "zh_hant": "符鍛羽毛長袍"
+  },
+  "Runeforged Feathered Sandals": {
+   "zh_hans": "符文羽饰鞋履",
+   "zh_hant": "符鍛羽毛便鞋"
+  },
+  "Runeforged Feathered Targe": {
+   "zh_hans": "符文羽饰圆盾",
+   "zh_hant": "符鍛羽毛圓盾"
+  },
+  "Runeforged Feathered Tiara": {
+   "zh_hans": "符文羽饰冠冕",
+   "zh_hant": "符鍛羽毛頭冠"
+  },
+  "Runeforged Felled Greatclub": {
+   "zh_hans": "符文伐采巨棍",
+   "zh_hant": "符鍛墮落巨棍棒"
+  },
+  "Runeforged Felt Cap": {
+   "zh_hans": "符文毛毡帽",
+   "zh_hant": "符鍛毛氈便帽"
+  },
+  "Runeforged Fierce Greathelm": {
+   "zh_hans": "符文刚烈巨盔",
+   "zh_hant": "符鍛兇猛巨盔"
+  },
+  "Runeforged Fine Bracers": {
+   "zh_hans": "符文精工护腕",
+   "zh_hant": "符鍛精良護腕"
+  },
+  "Runeforged Firm Bracers": {
+   "zh_hans": "符文牢固护腕",
+   "zh_hant": "符鍛穩固護腕"
+  },
+  "Runeforged Fists of Stone": {
+   "zh_hans": "符文石拳",
+   "zh_hant": "符鍛磐石之拳"
+  },
+  "Runeforged Flared Boots": {
+   "zh_hans": "符文宽口靴",
+   "zh_hant": "符鍛閃耀長靴"
+  },
+  "Runeforged Flax Sandals": {
+   "zh_hans": "符文麻布鞋履",
+   "zh_hant": "符鍛亞麻便鞋"
+  },
+  "Runeforged Flexile Sabatons": {
+   "zh_hans": "符文灵便战靴",
+   "zh_hant": "符鍛易曲鎧靴"
+  },
+  "Runeforged Flowing Raiment": {
+   "zh_hans": "符文飘逸之衣",
+   "zh_hant": "符鍛奔流之衣"
+  },
+  "Runeforged Forge Maul": {
+   "zh_hans": "符文锻炉巨锤",
+   "zh_hant": "符鍛鍛造重錘"
+  },
+  "Runeforged Forked Spear": {
+   "zh_hans": "符文分叉长矛",
+   "zh_hant": "符鍛叉狀長矛"
+  },
+  "Runeforged Fortress Sabatons": {
+   "zh_hans": "符文要塞战靴",
+   "zh_hant": "符鍛要塞鎧靴"
+  },
+  "Runeforged Fortress Tower Shield": {
+   "zh_hans": "符文要塞塔盾",
+   "zh_hant": "符鍛要塞塔盾"
+  },
+  "Runeforged Frayed Shoes": {
+   "zh_hans": "符文磨损便鞋",
+   "zh_hant": "符鍛磨損輕鞋"
+  },
+  "Runeforged Freebooter Cap": {
+   "zh_hans": "符文劫掠者之帽",
+   "zh_hant": "符鍛符鍛劫掠者便帽"
+  },
+  "Runeforged Full Plate": {
+   "zh_hans": "符文连身铠甲",
+   "zh_hant": "符鍛連身鎧甲"
+  },
+  "Runeforged Fur Plate": {
+   "zh_hans": "符文覆皮之铠",
+   "zh_hant": "符鍛毛皮鎧甲"
+  },
+  "Runeforged Furtive Wraps": {
+   "zh_hans": "符文鬼祟裹手",
+   "zh_hant": "符鍛隱秘裹手"
+  },
+  "Runeforged Gallant Helm": {
+   "zh_hans": "符文英武之盔",
+   "zh_hant": "符鍛無畏之盔"
+  },
+  "Runeforged Garment": {
+   "zh_hans": "符文华服装束",
+   "zh_hant": "符鍛服裝"
+  },
+  "Runeforged Gauze Wraps": {
+   "zh_hans": "符文薄纱裹手",
+   "zh_hant": "符鍛紗布裹手"
+  },
+  "Runeforged Gilded Vestments": {
+   "zh_hans": "符文鎏金长衣",
+   "zh_hant": "符鍛鍍金法衣"
+  },
+  "Runeforged Gilt Leggings": {
+   "zh_hans": "符文镀金护腿",
+   "zh_hant": "符鍛鍍金護腿"
+  },
+  "Runeforged Gladiator Armour": {
+   "zh_hans": "符文角斗士护甲",
+   "zh_hant": "符鍛衛士護甲"
+  },
+  "Runeforged Gladiatorial Helm": {
+   "zh_hans": "符文角斗士头盔",
+   "zh_hant": "符鍛衛士之盔"
+  },
+  "Runeforged Gleaming Cuffs": {
+   "zh_hans": "符文闪亮袖带",
+   "zh_hant": "符鍛輝光腕帶"
+  },
+  "Runeforged Glorious Plate": {
+   "zh_hans": "符文荣耀战铠",
+   "zh_hant": "符鍛榮耀戰鎧"
+  },
+  "Runeforged Glowering Crest Shield": {
+   "zh_hans": "符文怒视纹章盾",
+   "zh_hant": "符鍛怒視紋章盾"
+  },
+  "Runeforged Gold Circlet": {
+   "zh_hans": "符文烁金头冠",
+   "zh_hant": "符鍛黃金頭環"
+  },
+  "Runeforged Gold Gloves": {
+   "zh_hans": "符文黄金手套",
+   "zh_hant": "符鍛黃金手套"
+  },
+  "Runeforged Goldcast Cuffs": {
+   "zh_hans": "符文金索袖带",
+   "zh_hant": "符鍛金鑄腕帶"
+  },
+  "Runeforged Golden Mail": {
+   "zh_hans": "符文黄金锁甲",
+   "zh_hant": "符鍛耀金鎖甲"
+  },
+  "Runeforged Golden Targe": {
+   "zh_hans": "符文耀金圆盾",
+   "zh_hant": "符鍛耀金圓盾"
+  },
+  "Runeforged Goldworked Tower Shield": {
+   "zh_hans": "符文金工塔盾",
+   "zh_hant": "符鍛黃金塔盾"
+  },
+  "Runeforged Goliath Greathelm": {
+   "zh_hans": "符文歌利亚巨盔",
+   "zh_hant": "符鍛巨靈巨盔"
+  },
+  "Runeforged Grand Bracers": {
+   "zh_hans": "符文宏伟护腕",
+   "zh_hant": "符鍛宏偉護腕"
+  },
+  "Runeforged Grand Cuisses": {
+   "zh_hans": "符文恢弘腿甲",
+   "zh_hant": "符鍛宏偉腿甲"
+  },
+  "Runeforged Grand Manchettes": {
+   "zh_hans": "符文恢弘袖口",
+   "zh_hant": "符鍛宏偉手鐲"
+  },
+  "Runeforged Grand Mitts": {
+   "zh_hans": "符文堂皇护手",
+   "zh_hant": "符鍛宏偉長手套"
+  },
+  "Runeforged Grand Regalia": {
+   "zh_hans": "符文恢弘盛装",
+   "zh_hant": "符鍛宏偉華服"
+  },
+  "Runeforged Grand Targe": {
+   "zh_hans": "符文华丽圆盾",
+   "zh_hant": "符鍛宏偉圓盾"
+  },
+  "Runeforged Grand Visage": {
+   "zh_hans": "符文恢弘面罩",
+   "zh_hant": "符鍛宏偉面紗"
+  },
+  "Runeforged Grasping Mail": {
+   "zh_hans": "符文贪婪锁甲",
+   "zh_hant": "符鍛貪婪鎧甲"
+  },
+  "Runeforged Grim Gloves": {
+   "zh_hans": "符文冷酷手套",
+   "zh_hant": "符鍛冷酷手套"
+  },
+  "Runeforged Grinning Mask": {
+   "zh_hans": "符文狞笑面罩",
+   "zh_hant": "符鍛獰笑之面"
+  },
+  "Runeforged Guarded Helm": {
+   "zh_hans": "符文守护之盔",
+   "zh_hant": "符鍛警惕之盔"
+  },
+  "Runeforged Guardian Greathelm": {
+   "zh_hans": "符文守护者巨盔",
+   "zh_hant": "符鍛守護者巨盔"
+  },
+  "Runeforged Gutspike Buckler": {
+   "zh_hans": "符文肠刺轻盾",
+   "zh_hant": "符鍛挑腸輕盾"
+  },
+  "Runeforged Hallowed Crown": {
+   "zh_hans": "符文神圣王冠",
+   "zh_hant": "符鍛聖潔之冠"
+  },
+  "Runeforged Hallowed Focus": {
+   "zh_hans": "符文神圣法器",
+   "zh_hant": "符鍛聖潔法器"
+  },
+  "Runeforged Hardened Bracers": {
+   "zh_hans": "符文硬化护腕",
+   "zh_hant": "符鍛硬化護腕"
+  },
+  "Runeforged Hardleather Coat": {
+   "zh_hans": "符文硬皮外套",
+   "zh_hant": "符鍛硬皮外套"
+  },
+  "Runeforged Hardwood Spear": {
+   "zh_hans": "符文硬木长矛",
+   "zh_hant": "符鍛硬木長矛"
+  },
+  "Runeforged Hardwood Targe": {
+   "zh_hans": "符文硬木圆盾",
+   "zh_hant": "符鍛硬木圓盾"
+  },
+  "Runeforged Hatungo Garb": {
+   "zh_hans": "符文哈图纳格斯束衣",
+   "zh_hant": "符鍛靈語者裝束"
+  },
+  "Runeforged Havoc Raiment": {
+   "zh_hans": "符文劫难之衣",
+   "zh_hant": "符鍛禍害之衣"
+  },
+  "Runeforged Hawker's Jacket": {
+   "zh_hans": "符文小贩外衣",
+   "zh_hant": "符鍛飼鷹者外衣"
+  },
+  "Runeforged Heartcarver Mantle": {
+   "zh_hans": "符文刻心斗篷",
+   "zh_hant": "符鍛雕心者披肩"
+  },
+  "Runeforged Heavy Crown": {
+   "zh_hans": "符文沉重王冠",
+   "zh_hant": "符鍛沉重之冠"
+  },
+  "Runeforged Heavy Plate": {
+   "zh_hans": "符文重型战铠",
+   "zh_hant": "符鍛重型鎧甲"
+  },
+  "Runeforged Heraldric Tower Shield": {
+   "zh_hans": "符文徽纹塔盾",
+   "zh_hant": "符鍛紋章塔盾"
+  },
+  "Runeforged Hermit Garb": {
+   "zh_hans": "符文隐士束衣",
+   "zh_hant": "符鍛隱士裝束"
+  },
+  "Runeforged Heroic Armour": {
+   "zh_hans": "符文英武护甲",
+   "zh_hant": "符鍛英雄護甲"
+  },
+  "Runeforged Hewn Mask": {
+   "zh_hans": "符文凿制之面",
+   "zh_hant": "符鍛粗製之面"
+  },
+  "Runeforged Hexer's Robe": {
+   "zh_hans": "符文魔蛊长袍",
+   "zh_hant": "符鍛咒術師長袍"
+  },
+  "Runeforged Hooded Mask": {
+   "zh_hans": "符文兜帽之面",
+   "zh_hant": "符鍛風帽之面"
+  },
+  "Runeforged Horned Crown": {
+   "zh_hans": "符文犄角王冠",
+   "zh_hant": "符鍛犄角之冠"
+  },
+  "Runeforged Hunter Hood": {
+   "zh_hans": "符文猎者兜帽",
+   "zh_hant": "符鍛獵者之兜"
+  },
+  "Runeforged Hunting Shoes": {
+   "zh_hans": "符文狩猎便鞋",
+   "zh_hant": "符鍛狩獵輕鞋"
+  },
+  "Runeforged Hunting Spear": {
+   "zh_hans": "符文狩猎长矛",
+   "zh_hant": "符鍛狩獵長矛"
+  },
+  "Runeforged Imperial Greathelm": {
+   "zh_hans": "符文帝国巨盔",
+   "zh_hant": "符鍛帝國巨盔"
+  },
+  "Runeforged Imperial Robe": {
+   "zh_hans": "符文帝国长袍",
+   "zh_hant": "符鍛帝國長袍"
+  },
+  "Runeforged Inquisitor Crown": {
+   "zh_hans": "符文判官王冠",
+   "zh_hant": "符鍛判官之冠"
+  },
+  "Runeforged Intricate Crest Shield": {
+   "zh_hans": "符文精巧纹章盾",
+   "zh_hant": "符鍛錯綜紋章盾"
+  },
+  "Runeforged Intricate Gloves": {
+   "zh_hans": "符文精致手套",
+   "zh_hant": "符鍛精妙手套"
+  },
+  "Runeforged Iron Buckler": {
+   "zh_hans": "符文锻铁轻盾",
+   "zh_hant": "符鍛鍛鐵輕盾"
+  },
+  "Runeforged Iron Crown": {
+   "zh_hans": "符文铁锻王冠",
+   "zh_hant": "符鍛鍛鐵之冠"
+  },
+  "Runeforged Iron Cuirass": {
+   "zh_hans": "符文铁锻胸甲",
+   "zh_hant": "符鍛鍛鐵胸甲"
+  },
+  "Runeforged Iron Greaves": {
+   "zh_hans": "符文铁锻胫甲",
+   "zh_hant": "符鍛鐵鍛脛甲"
+  },
+  "Runeforged Ironclad Vestments": {
+   "zh_hans": "符文武装长衣",
+   "zh_hant": "符鍛鐵甲法衣"
+  },
+  "Runeforged Ironhead Spear": {
+   "zh_hans": "符文铁头长矛",
+   "zh_hant": "符鍛鐵木長矛"
+  },
+  "Runeforged Itinerant Jacket": {
+   "zh_hans": "符文流浪外衣",
+   "zh_hant": "符鍛遊歷者外衣"
+  },
+  "Runeforged Jade Tiara": {
+   "zh_hans": "符文翠玉冠冕",
+   "zh_hant": "符鍛翠玉頭冠"
+  },
+  "Runeforged Jewelled Gloves": {
+   "zh_hans": "符文宝石手套",
+   "zh_hant": "符鍛寶石手套"
+  },
+  "Runeforged Jingling Buckler": {
+   "zh_hans": "符文铃鸣轻盾",
+   "zh_hant": "符鍛響聲輕盾"
+  },
+  "Runeforged Jingling Crest Shield": {
+   "zh_hans": "符文铃鸣纹章盾",
+   "zh_hant": "符鍛響聲紋章盾"
+  },
+  "Runeforged Juggernaut Plate": {
+   "zh_hans": "符文巨灵之铠",
+   "zh_hant": "符鍛勇士鎧甲"
+  },
+  "Runeforged Jungle Tiara": {
+   "zh_hans": "符文丛林冠冕",
+   "zh_hant": "符鍛叢林頭冠"
+  },
+  "Runeforged Kalguuran Cuffs": {
+   "zh_hans": "符文卡古兰袖带",
+   "zh_hant": "符鍛卡爾葛腕帶"
+  },
+  "Runeforged Kalguuran Forgehammer": {
+   "zh_hans": "符文卡古兰锻造锤",
+   "zh_hant": "符鍛卡爾葛鍛造錘"
+  },
+  "Runeforged Kamasan Tiara": {
+   "zh_hans": "符文卡马萨冠冕",
+   "zh_hant": "符鍛卡瑪薩頭冠"
+  },
+  "Runeforged Keth Raiment": {
+   "zh_hans": "符文克斯之衣",
+   "zh_hant": "符鍛凱斯之衣"
+  },
+  "Runeforged Knight Armour": {
+   "zh_hans": "符文骑士护甲",
+   "zh_hant": "符鍛騎士護甲"
+  },
+  "Runeforged Knightly Mitts": {
+   "zh_hans": "符文骑士护手",
+   "zh_hant": "符鍛騎士長手套"
+  },
+  "Runeforged Lace Hood": {
+   "zh_hans": "符文花边兜帽",
+   "zh_hant": "符鍛綁帶兜帽"
+  },
+  "Runeforged Laced Boots": {
+   "zh_hans": "符文花边靴",
+   "zh_hant": "符鍛飾帶長靴"
+  },
+  "Runeforged Lamellar Mail": {
+   "zh_hans": "符文层叠锁甲",
+   "zh_hant": "符鍛分層鎖甲"
+  },
+  "Runeforged Laminate Buckler": {
+   "zh_hans": "符文合板轻盾",
+   "zh_hant": "符鍛層壓輕盾"
+  },
+  "Runeforged Lattice Sandals": {
+   "zh_hans": "符文硬框鞋履",
+   "zh_hant": "符鍛格子便鞋"
+  },
+  "Runeforged Lavish Crown": {
+   "zh_hans": "符文奢华王冠",
+   "zh_hant": "符鍛奢華之冠"
+  },
+  "Runeforged Layered Gauntlets": {
+   "zh_hans": "符文垫层护手",
+   "zh_hant": "符鍛層板護手"
+  },
+  "Runeforged Layered Vest": {
+   "zh_hans": "符文拼接背心",
+   "zh_hant": "符鍛分層背心"
+  },
+  "Runeforged Leaden Greathammer": {
+   "zh_hans": "符文灌铅大锤",
+   "zh_hant": "符鍛麻木巨錘"
+  },
+  "Runeforged Leather Buckler": {
+   "zh_hans": "符文皮制轻盾",
+   "zh_hant": "符鍛皮革輕盾"
+  },
+  "Runeforged Leather Vest": {
+   "zh_hans": "符文皮革背心",
+   "zh_hant": "符鍛皮革背心"
+  },
+  "Runeforged Leatherbound Hood": {
+   "zh_hans": "符文皮缚兜帽",
+   "zh_hant": "符鍛皮革兜帽"
+  },
+  "Runeforged Leatherplate Boots": {
+   "zh_hans": "符文覆皮板靴",
+   "zh_hant": "符鍛皮甲長靴"
+  },
+  "Runeforged Leyline Focus": {
+   "zh_hans": "符文荒凉原野法器",
+   "zh_hant": "符鍛地脈法器"
+  },
+  "Runeforged Linen Wraps": {
+   "zh_hans": "符文亚麻裹手",
+   "zh_hant": "符鍛麻布裹手"
+  },
+  "Runeforged Lizardscale Boots": {
+   "zh_hans": "符文蜥鳞靴",
+   "zh_hant": "符鍛蜥蜴鱗長靴"
+  },
+  "Runeforged Lizardscale Coat": {
+   "zh_hans": "符文蜥鳞外套",
+   "zh_hant": "符鍛蜥蜴鱗外套"
+  },
+  "Runeforged Luxurious Slippers": {
+   "zh_hans": "符文奢华便鞋",
+   "zh_hant": "符鍛奢華便鞋"
+  },
+  "Runeforged Magus Focus": {
+   "zh_hans": "符文术士法器",
+   "zh_hant": "符鍛瑪格思法器"
+  },
+  "Runeforged Magus Tiara": {
+   "zh_hans": "符文术士冠冕",
+   "zh_hant": "符鍛瑪格思頭冠"
+  },
+  "Runeforged Mail Coat": {
+   "zh_hans": "符文锁环外套",
+   "zh_hant": "符鍛鎖甲外套"
+  },
+  "Runeforged Mail Sabatons": {
+   "zh_hans": "符文锁链战靴",
+   "zh_hant": "符鍛鎖甲鎧靴"
+  },
+  "Runeforged Mail Vestments": {
+   "zh_hans": "符文锁子长衣",
+   "zh_hant": "符鍛鎖甲法衣"
+  },
+  "Runeforged Makeshift Crossbow": {
+   "zh_hans": "符文拼凑战弩",
+   "zh_hant": "符鍛臨時十字弓"
+  },
+  "Runeforged Mammoth Targe": {
+   "zh_hans": "符文猛犸圆盾",
+   "zh_hant": "符鍛猛獁圓盾"
+  },
+  "Runeforged Mantled Mail": {
+   "zh_hans": "符文斗篷锁甲",
+   "zh_hant": "符鍛披風鎖甲"
+  },
+  "Runeforged Marabout Garb": {
+   "zh_hans": "符文遁世束衣",
+   "zh_hant": "符鍛修士裝束"
+  },
+  "Runeforged Maraketh Cuirass": {
+   "zh_hans": "符文马拉克斯胸甲",
+   "zh_hant": "符鍛馬拉克斯胸甲"
+  },
+  "Runeforged Marching Mace": {
+   "zh_hans": "符文师匠行军之锤",
+   "zh_hant": "符鍛行軍之錘"
+  },
+  "Runeforged Martyr Crown": {
+   "zh_hans": "符文英烈之冠",
+   "zh_hant": "符鍛殉難之冠"
+  },
+  "Runeforged Masked Greathelm": {
+   "zh_hans": "符文蒙面巨盔",
+   "zh_hant": "符鍛假面巨盔"
+  },
+  "Runeforged Massive Mitts": {
+   "zh_hans": "符文巨型护手",
+   "zh_hant": "符鍛巨型長手套"
+  },
+  "Runeforged Monastic Garb": {
+   "zh_hans": "符文修行束衣",
+   "zh_hant": "符鍛僧侶裝束"
+  },
+  "Runeforged Monument Greaves": {
+   "zh_hans": "符文典范胫甲",
+   "zh_hant": "符鍛豐碑脛甲"
+  },
+  "Runeforged Morning Star": {
+   "zh_hans": "符文流星锤",
+   "zh_hant": "符鍛晨星"
+  },
+  "Runeforged Mosaic Targe": {
+   "zh_hans": "符文厚装圆盾",
+   "zh_hant": "符鍛鑲嵌圓盾"
+  },
+  "Runeforged Moulded Mitts": {
+   "zh_hans": "符文铸锻护手",
+   "zh_hant": "符鍛鑄模長手套"
+  },
+  "Runeforged Mystic Raiment": {
+   "zh_hans": "符文密士之衣",
+   "zh_hant": "符鍛神秘之衣"
+  },
+  "Runeforged Nettle Talisman": {
+   "zh_hans": "符文荨麻魔符",
+   "zh_hant": "符鍛蕁麻魔符"
+  },
+  "Runeforged Noble Circlet": {
+   "zh_hans": "符文贵族头冠",
+   "zh_hant": "符鍛貴族頭環"
+  },
+  "Runeforged Noble Greathelm": {
+   "zh_hans": "符文贵族巨盔",
+   "zh_hant": "符鍛高貴巨盔"
+  },
+  "Runeforged Noble Sabatons": {
+   "zh_hans": "符文贵族战靴",
+   "zh_hant": "符鍛高貴鎧靴"
+  },
+  "Runeforged Noble Tower Shield": {
+   "zh_hans": "符文贵族塔盾",
+   "zh_hant": "符鍛高貴塔盾"
+  },
+  "Runeforged Oak Greathammer": {
+   "zh_hans": "符文橡木大锤",
+   "zh_hant": "符鍛橡木巨錘"
+  },
+  "Runeforged Occultist Mantle": {
+   "zh_hans": "符文秘术家斗篷",
+   "zh_hant": "符鍛秘術披肩"
+  },
+  "Runeforged Omen Crest Shield": {
+   "zh_hans": "符文噩兆纹章盾",
+   "zh_hant": "符鍛預兆紋章盾"
+  },
+  "Runeforged Opulent Gloves": {
+   "zh_hans": "符文丰裕手套",
+   "zh_hant": "符鍛奢靡手套"
+  },
+  "Runeforged Ornate Buckler": {
+   "zh_hans": "符文华丽轻盾",
+   "zh_hant": "符鍛華麗輕盾"
+  },
+  "Runeforged Ornate Cuffs": {
+   "zh_hans": "符文华丽袖带",
+   "zh_hant": "符鍛華麗腕帶"
+  },
+  "Runeforged Ornate Gauntlets": {
+   "zh_hans": "符文华贵护手",
+   "zh_hant": "符鍛華麗護手"
+  },
+  "Runeforged Ornate Greaves": {
+   "zh_hans": "符文华丽胫甲",
+   "zh_hant": "符鍛華麗脛甲"
+  },
+  "Runeforged Ornate Mitts": {
+   "zh_hans": "符文华丽护手",
+   "zh_hant": "符鍛華麗長手套"
+  },
+  "Runeforged Ornate Plate": {
+   "zh_hans": "符文华丽战铠",
+   "zh_hant": "符鍛華麗鎧甲"
+  },
+  "Runeforged Padded Leggings": {
+   "zh_hans": "符文衬垫绑腿",
+   "zh_hant": "符鍛襯墊護腿"
+  },
+  "Runeforged Painted Tower Shield": {
+   "zh_hans": "符文彩绘塔盾",
+   "zh_hant": "符鍛彩繪塔盾"
+  },
+  "Runeforged Paragon Greathelm": {
+   "zh_hans": "符文典范巨盔",
+   "zh_hant": "符鍛楷模巨盔"
+  },
+  "Runeforged Pariah Mask": {
+   "zh_hans": "符文贱民面具",
+   "zh_hant": "符鍛輕蔑之面"
+  },
+  "Runeforged Pathfinder Coat": {
+   "zh_hans": "符文寻路者外套",
+   "zh_hant": "符鍛追獵者外套"
+  },
+  "Runeforged Pauascale Gloves": {
+   "zh_hans": "符文海灵鳞缀手套",
+   "zh_hant": "符鍛海靈鱗手套"
+  },
+  "Runeforged Pearl Buckler": {
+   "zh_hans": "符文珠光轻盾",
+   "zh_hant": "符鍛珍珠輕盾"
+  },
+  "Runeforged Pelage Targe": {
+   "zh_hans": "符文毛皮圆盾",
+   "zh_hant": "符鍛毛皮圓盾"
+  },
+  "Runeforged Pelt Leggings": {
+   "zh_hans": "符文毛皮绑腿",
+   "zh_hant": "符鍛堅皮護腿"
+  },
+  "Runeforged Pelt Mantle": {
+   "zh_hans": "符文毛皮斗篷",
+   "zh_hant": "符鍛堅皮披肩"
+  },
+  "Runeforged Phalanx Tower Shield": {
+   "zh_hans": "符文方阵塔盾",
+   "zh_hant": "符鍛方陣塔盾"
+  },
+  "Runeforged Pilgrim Vestments": {
+   "zh_hans": "符文朝圣者长衣",
+   "zh_hant": "符鍛朝聖者法衣"
+  },
+  "Runeforged Pious Leggings": {
+   "zh_hans": "符文虔信护腿",
+   "zh_hant": "符鍛虔誠護腿"
+  },
+  "Runeforged Plate Gauntlets": {
+   "zh_hans": "符文铁板护手",
+   "zh_hant": "符鍛鎧甲護手"
+  },
+  "Runeforged Plated Buckler": {
+   "zh_hans": "符文嵌板轻盾",
+   "zh_hant": "符鍛鋼板輕盾"
+  },
+  "Runeforged Plated Raiment": {
+   "zh_hans": "符文嵌板之衣",
+   "zh_hant": "符鍛鎧甲之衣"
+  },
+  "Runeforged Plated Vestments": {
+   "zh_hans": "符文嵌板长衣",
+   "zh_hant": "符鍛鎧甲法衣"
+  },
+  "Runeforged Plumed Focus": {
+   "zh_hans": "符文彩羽法器",
+   "zh_hant": "符鍛羽飾法器"
+  },
+  "Runeforged Pointed Maul": {
+   "zh_hans": "符文钉头巨锤",
+   "zh_hant": "符鍛尖銳重錘"
+  },
+  "Runeforged Polished Bracers": {
+   "zh_hans": "符文闪耀护腕",
+   "zh_hant": "符鍛亮澤護腕"
+  },
+  "Runeforged Polished Targe": {
+   "zh_hans": "符文抛光圆盾",
+   "zh_hant": "符鍛拋光圓盾"
+  },
+  "Runeforged Primal Markings": {
+   "zh_hans": "符文原始印记",
+   "zh_hant": "符鍛原始印記"
+  },
+  "Runeforged Quartered Crest Shield": {
+   "zh_hans": "符文四分纹章盾",
+   "zh_hant": "符鍛四分紋章盾"
+  },
+  "Runeforged Quickslip Shoes": {
+   "zh_hans": "符文急迅便鞋",
+   "zh_hant": "符鍛速行輕鞋"
+  },
+  "Runeforged Quilted Vest": {
+   "zh_hans": "符文菱纹背心",
+   "zh_hant": "符鍛襯墊背心"
+  },
+  "Runeforged Raider Plate": {
+   "zh_hans": "符文劫掠之铠",
+   "zh_hant": "符鍛俠客鎧甲"
+  },
+  "Runeforged Rambler Jacket": {
+   "zh_hans": "符文漫步者外衣",
+   "zh_hant": "符鍛漫步者外衣"
+  },
+  "Runeforged Rampart Tower Shield": {
+   "zh_hans": "符文壁垒塔盾",
+   "zh_hant": "符鍛壁壘塔盾"
+  },
+  "Runeforged Rawhide Boots": {
+   "zh_hans": "符文生皮短靴",
+   "zh_hant": "符鍛生皮長靴"
+  },
+  "Runeforged Recurve Bow": {
+   "zh_hans": "符文反曲弓",
+   "zh_hant": "符鍛反曲弓"
+  },
+  "Runeforged Reefsteel Greaves": {
+   "zh_hans": "符文卷钢胫甲",
+   "zh_hant": "符鍛礁鋼脛甲"
+  },
+  "Runeforged Refined Bracers": {
+   "zh_hans": "符文精制护腕",
+   "zh_hant": "符鍛精製護腕"
+  },
+  "Runeforged Revered Vestments": {
+   "zh_hans": "符文崇礼长衣",
+   "zh_hant": "符鍛尊敬法衣"
+  },
+  "Runeforged Rhoahide Coat": {
+   "zh_hans": "符文恐喙鸟皮外套",
+   "zh_hant": "符鍛恐喙鳥皮外套"
+  },
+  "Runeforged Ridged Buckler": {
+   "zh_hans": "符文凸脊轻盾",
+   "zh_hant": "符鍛脊狀輕盾"
+  },
+  "Runeforged Righteous Cuffs": {
+   "zh_hans": "符文正义袖带",
+   "zh_hant": "符鍛正義腕帶"
+  },
+  "Runeforged Ringed Buckler": {
+   "zh_hans": "符文环锁轻盾",
+   "zh_hant": "符鍛環紋輕盾"
+  },
+  "Runeforged Ringmail Gauntlets": {
+   "zh_hans": "符文环锁手甲",
+   "zh_hant": "符鍛環鎖護手"
+  },
+  "Runeforged River Raiment": {
+   "zh_hans": "符文河流之衣",
+   "zh_hant": "符鍛河流之衣"
+  },
+  "Runeforged Riveted Mitts": {
+   "zh_hans": "符文铆接护手",
+   "zh_hant": "符鍛鉚接長手套"
+  },
+  "Runeforged Rogue Armour": {
+   "zh_hans": "符文盗贼护甲",
+   "zh_hant": "符鍛盜賊護甲"
+  },
+  "Runeforged Rope Cuffs": {
+   "zh_hans": "符文绳索袖带",
+   "zh_hant": "符鍛繩索腕帶"
+  },
+  "Runeforged Rough Greaves": {
+   "zh_hans": "符文粗制胫甲",
+   "zh_hant": "符鍛粗糙脛甲"
+  },
+  "Runeforged Royal Tower Shield": {
+   "zh_hans": "符文皇家塔盾",
+   "zh_hant": "符鍛皇族塔盾"
+  },
+  "Runeforged Runed Focus": {
+   "zh_hans": "符文符文法器",
+   "zh_hant": "符鍛符文法器"
+  },
+  "Runeforged Runner Vest": {
+   "zh_hans": "符文跑者背心",
+   "zh_hant": "符鍛奔走者背心"
+  },
+  "Runeforged Rusted Cuirass": {
+   "zh_hans": "符文锈蚀胸甲",
+   "zh_hant": "符鍛生鏽胸甲"
+  },
+  "Runeforged Rusted Greathelm": {
+   "zh_hans": "符文锈蚀巨盔",
+   "zh_hant": "符鍛鏽蝕巨盔"
+  },
+  "Runeforged Sacramental Robe": {
+   "zh_hans": "符文圣礼束衣",
+   "zh_hant": "符鍛聖禮長袍"
+  },
+  "Runeforged Sacred Focus": {
+   "zh_hans": "符文圣洁法器",
+   "zh_hant": "符鍛神聖法器"
+  },
+  "Runeforged Sacrificial Mantle": {
+   "zh_hans": "符文献祭斗篷",
+   "zh_hant": "符鍛獻祭披肩"
+  },
+  "Runeforged Sacrificial Regalia": {
+   "zh_hans": "符文献祭盛装",
+   "zh_hant": "符鍛獻祭法衣"
+  },
+  "Runeforged Saintly Crown": {
+   "zh_hans": "符文圣洁王冠",
+   "zh_hant": "符鍛聖徒之冠"
+  },
+  "Runeforged Sandsworn Sandals": {
+   "zh_hans": "符文沙誓鞋履",
+   "zh_hant": "符鍛沙誓便鞋"
+  },
+  "Runeforged Sandsworn Tiara": {
+   "zh_hans": "符文沙誓冠冕",
+   "zh_hant": "符鍛沙誓頭冠"
+  },
+  "Runeforged Scale Mail": {
+   "zh_hans": "符文嵌鳞锁甲",
+   "zh_hant": "符鍛鱗片鎖甲"
+  },
+  "Runeforged Scalper's Jacket": {
+   "zh_hans": "符文猎头者外衣",
+   "zh_hant": "符鍛投機者外衣"
+  },
+  "Runeforged Scoundrel Jacket": {
+   "zh_hans": "符文流贼外衣",
+   "zh_hant": "符鍛流氓外衣"
+  },
+  "Runeforged Scout's Vest": {
+   "zh_hans": "符文斥候背心",
+   "zh_hant": "符鍛斥侯背心"
+  },
+  "Runeforged Seastorm Mantle": {
+   "zh_hans": "符文海洋风暴斗篷",
+   "zh_hant": "符鍛海洋風暴披肩"
+  },
+  "Runeforged Sectarian Crest Shield": {
+   "zh_hans": "符文宗室纹章盾",
+   "zh_hant": "符鍛宗派紋章盾"
+  },
+  "Runeforged Sectioned Bracers": {
+   "zh_hans": "符文截片护腕",
+   "zh_hant": "符鍛分段護腕"
+  },
+  "Runeforged Secured Leggings": {
+   "zh_hans": "符文牢靠绑腿",
+   "zh_hant": "符鍛牢固護腿"
+  },
+  "Runeforged Secured Wraps": {
+   "zh_hans": "符文坚固裹手",
+   "zh_hant": "符鍛牢固裹手"
+  },
+  "Runeforged Seer Crest Shield": {
+   "zh_hans": "符文先知纹章盾",
+   "zh_hant": "符鍛先知紋章盾"
+  },
+  "Runeforged Sekhema Sandals": {
+   "zh_hans": "符文丝克玛便鞋",
+   "zh_hant": "符鍛絲克瑪便鞋"
+  },
+  "Runeforged Sekheman Crest Shield": {
+   "zh_hans": "符文丝克玛纹章盾",
+   "zh_hant": "符鍛絲克瑪紋章盾"
+  },
+  "Runeforged Sentinel Greathelm": {
+   "zh_hans": "符文哨卫巨盔",
+   "zh_hant": "符鍛守望巨盔"
+  },
+  "Runeforged Serpentscale Boots": {
+   "zh_hans": "符文蛇鳞长靴",
+   "zh_hant": "符鍛蛇鱗長靴"
+  },
+  "Runeforged Serpentscale Coat": {
+   "zh_hans": "符文蛇鳞外套",
+   "zh_hant": "符鍛蛇鱗外套"
+  },
+  "Runeforged Shabby Hood": {
+   "zh_hans": "符文破旧兜帽",
+   "zh_hant": "符鍛破舊兜帽"
+  },
+  "Runeforged Shaded Mask": {
+   "zh_hans": "符文影蔽之面",
+   "zh_hant": "符鍛陰影之面"
+  },
+  "Runeforged Shaman Mantle": {
+   "zh_hans": "符文萨满斗篷",
+   "zh_hant": "符鍛薩滿披肩"
+  },
+  "Runeforged Shamanistic Leggings": {
+   "zh_hans": "符文萨满绑腿",
+   "zh_hant": "符鍛薩滿護腿"
+  },
+  "Runeforged Shielded Helm": {
+   "zh_hans": "符文卫护之盔",
+   "zh_hant": "符鍛庇護之盔"
+  },
+  "Runeforged Shortbow": {
+   "zh_hans": "符文短弓",
+   "zh_hant": "符鍛短弓"
+  },
+  "Runeforged Shrouded Mail": {
+   "zh_hans": "符文蔽影锁甲",
+   "zh_hant": "符鍛遮蔽鎖甲"
+  },
+  "Runeforged Shrouded Vest": {
+   "zh_hans": "符文蔽影背心",
+   "zh_hant": "符鍛籠罩背心"
+  },
+  "Runeforged Sigil Crest Shield": {
+   "zh_hans": "符文魔印纹章盾",
+   "zh_hant": "符鍛符印紋章盾"
+  },
+  "Runeforged Signet Cuffs": {
+   "zh_hans": "符文纹饰袖带",
+   "zh_hant": "符鍛徽印腕帶"
+  },
+  "Runeforged Silk Robe": {
+   "zh_hans": "符文丝质之袍",
+   "zh_hant": "符鍛絲質之袍"
+  },
+  "Runeforged Silk Slippers": {
+   "zh_hans": "符文丝绸便鞋",
+   "zh_hant": "符鍛絲綢便鞋"
+  },
+  "Runeforged Sirenscale Gloves": {
+   "zh_hans": "符文海妖之鳞手套",
+   "zh_hant": "符鍛海妖鱗手套"
+  },
+  "Runeforged Skycrown Tiara": {
+   "zh_hans": "符文天冠冠冕",
+   "zh_hant": "符鍛天冠頭冠"
+  },
+  "Runeforged Slayer Armour": {
+   "zh_hans": "符文惩罚者护甲",
+   "zh_hant": "符鍛處刑者護甲"
+  },
+  "Runeforged Sleek Jacket": {
+   "zh_hans": "符文滑布外衣",
+   "zh_hant": "符鍛光滑外衣"
+  },
+  "Runeforged Slim Mace": {
+   "zh_hans": "符文细柄钉锤",
+   "zh_hant": "符鍛纖細之錘"
+  },
+  "Runeforged Slipstrike Vest": {
+   "zh_hans": "符文滑击背心",
+   "zh_hant": "符鍛快速打擊背心"
+  },
+  "Runeforged Smuggler Coat": {
+   "zh_hans": "符文走私者外套",
+   "zh_hant": "符鍛走私者外套"
+  },
+  "Runeforged Soaring Mask": {
+   "zh_hans": "符文翱翔面具",
+   "zh_hant": "符鍛翱翔之面"
+  },
+  "Runeforged Soaring Targe": {
+   "zh_hans": "符文翱翔圆盾",
+   "zh_hant": "符鍛翱翔圓盾"
+  },
+  "Runeforged Soldier Cuirass": {
+   "zh_hans": "符文士兵胸甲",
+   "zh_hant": "符鍛士兵胸甲"
+  },
+  "Runeforged Soldier Greathelm": {
+   "zh_hans": "符文兵卒巨盔",
+   "zh_hant": "符鍛士兵巨盔"
+  },
+  "Runeforged Solid Mask": {
+   "zh_hans": "符文坚固之面",
+   "zh_hant": "符鍛堅固之面"
+  },
+  "Runeforged Sombre Gloves": {
+   "zh_hans": "符文肃穆手套",
+   "zh_hant": "符鍛暗淡手套"
+  },
+  "Runeforged Sorcerous Tiara": {
+   "zh_hans": "符文法术冠冕",
+   "zh_hant": "符鍛巫術頭冠"
+  },
+  "Runeforged Spiked Bracers": {
+   "zh_hans": "符文尖刺护腕",
+   "zh_hant": "符鍛尖刺護腕"
+  },
+  "Runeforged Spiked Buckler": {
+   "zh_hans": "符文尖刺轻盾",
+   "zh_hant": "符鍛尖刺輕盾"
+  },
+  "Runeforged Spiked Club": {
+   "zh_hans": "符文钝钉木棒",
+   "zh_hant": "符鍛鈍釘木棒"
+  },
+  "Runeforged Spikeward Buckler": {
+   "zh_hans": "符文尖刺守护轻盾",
+   "zh_hant": "符鍛尖衛輕盾"
+  },
+  "Runeforged Spined Bracers": {
+   "zh_hans": "符文精纺护腕",
+   "zh_hant": "符鍛棘刺護腕"
+  },
+  "Runeforged Spiral Wraps": {
+   "zh_hans": "符文螺旋裹手",
+   "zh_hant": "符鍛盤繞裹手"
+  },
+  "Runeforged Spired Greathelm": {
+   "zh_hans": "符文螺旋巨盔",
+   "zh_hant": "符鍛尖頂巨盔"
+  },
+  "Runeforged Spiritbone Crown": {
+   "zh_hans": "符文灵骨王冠",
+   "zh_hant": "符鍛魂骨之冠"
+  },
+  "Runeforged Splintered Tower Shield": {
+   "zh_hans": "符文朽木塔盾",
+   "zh_hant": "符鍛朽木塔盾"
+  },
+  "Runeforged Stacked Sabatons": {
+   "zh_hans": "符文层钢战靴",
+   "zh_hant": "符鍛疊層鎧靴"
+  },
+  "Runeforged Stalking Bracers": {
+   "zh_hans": "符文潜行护腕",
+   "zh_hant": "符鍛潛獵護腕"
+  },
+  "Runeforged Steel Plate": {
+   "zh_hans": "符文冷钢之铠",
+   "zh_hant": "符鍛堅鋼鎧甲"
+  },
+  "Runeforged Steelmail Gauntlets": {
+   "zh_hans": "符文钢甲手甲",
+   "zh_hant": "符鍛鋼鎖護手"
+  },
+  "Runeforged Steelpoint Shoes": {
+   "zh_hans": "符文钢缘便鞋",
+   "zh_hant": "符鍛鋼尖輕鞋"
+  },
+  "Runeforged Steeltoe Boots": {
+   "zh_hans": "符文钢趾靴",
+   "zh_hant": "符鍛鐵趾長靴"
+  },
+  "Runeforged Stitched Gloves": {
+   "zh_hans": "符文缝合手套",
+   "zh_hant": "符鍛縫合手套"
+  },
+  "Runeforged Stocky Mitts": {
+   "zh_hans": "符文敦实护手",
+   "zh_hant": "符鍛結實長手套"
+  },
+  "Runeforged Stoic Crest Shield": {
+   "zh_hans": "符文清修纹章盾",
+   "zh_hant": "符鍛堅忍紋章盾"
+  },
+  "Runeforged Stone Cuirass": {
+   "zh_hans": "符文石制胸甲",
+   "zh_hant": "符鍛岩石胸甲"
+  },
+  "Runeforged Stone Greaves": {
+   "zh_hans": "符文坚石胫甲",
+   "zh_hant": "符鍛岩石脛甲"
+  },
+  "Runeforged Stone Targe": {
+   "zh_hans": "符文石制圆盾",
+   "zh_hant": "符鍛岩石圓盾"
+  },
+  "Runeforged Stone Tower Shield": {
+   "zh_hans": "符文坚石塔盾",
+   "zh_hant": "符鍛岩石塔盾"
+  },
+  "Runeforged Stratified Targe": {
+   "zh_hans": "符文分层圆盾",
+   "zh_hant": "符鍛分層圓盾"
+  },
+  "Runeforged Straw Sandals": {
+   "zh_hans": "符文稻草鞋履",
+   "zh_hant": "符鍛乾草便鞋"
+  },
+  "Runeforged Strider Vest": {
+   "zh_hans": "符文疾行者背心",
+   "zh_hant": "符鍛疾行者背心"
+  },
+  "Runeforged Studded Boots": {
+   "zh_hans": "符文镶钉长靴",
+   "zh_hant": "符鍛鑲釘長靴"
+  },
+  "Runeforged Studded Greatclub": {
+   "zh_hans": "符文镶钉巨棍",
+   "zh_hant": "符鍛鑲釘巨棍棒"
+  },
+  "Runeforged Studded Sandals": {
+   "zh_hans": "符文镶钉鞋履",
+   "zh_hant": "符鍛鑲釘便鞋"
+  },
+  "Runeforged Studded Targe": {
+   "zh_hans": "符文镶钉圆盾",
+   "zh_hant": "符鍛鑲釘圓盾"
+  },
+  "Runeforged Studded Vest": {
+   "zh_hans": "符文嵌饰背心",
+   "zh_hant": "符鍛鑲釘背心"
+  },
+  "Runeforged Sturdy Crossbow": {
+   "zh_hans": "符文坚固战弩",
+   "zh_hant": "符鍛堅固十字弓"
+  },
+  "Runeforged Suede Bracers": {
+   "zh_hans": "符文绒皮护腕",
+   "zh_hant": "符鍛麂皮護腕"
+  },
+  "Runeforged Swathed Cap": {
+   "zh_hans": "符文缠丝帽",
+   "zh_hant": "符鍛裹頭便帽"
+  },
+  "Runeforged Swiftstalker Coat": {
+   "zh_hans": "符文迅捷潜行者外套",
+   "zh_hant": "符鍛迅疾潛獵者外套"
+  },
+  "Runeforged Tasalian Focus": {
+   "zh_hans": "符文塔萨里奥法器",
+   "zh_hant": "符鍛塔薩里奧法器"
+  },
+  "Runeforged Tasalian Greaves": {
+   "zh_hans": "符文塔萨里奥胫甲",
+   "zh_hant": "符鍛塔薩里奧脛甲"
+  },
+  "Runeforged Tattered Robe": {
+   "zh_hans": "符文破烂长袍",
+   "zh_hant": "符鍛殘破長袍"
+  },
+  "Runeforged Tawhoan Tower Shield": {
+   "zh_hans": "符文塔赫亚塔盾",
+   "zh_hant": "符鍛塔赫亞塔盾"
+  },
+  "Runeforged Tempered Mitts": {
+   "zh_hans": "符文淬炼护手",
+   "zh_hant": "符鍛淬鍊長手套"
+  },
+  "Runeforged Temple Maul": {
+   "zh_hans": "符文神殿巨锤",
+   "zh_hant": "符鍛神殿重錘"
+  },
+  "Runeforged Tense Crossbow": {
+   "zh_hans": "符文紧弦战弩",
+   "zh_hant": "符鍛緊繃十字弓"
+  },
+  "Runeforged Thane Mail": {
+   "zh_hans": "符文领主锁甲",
+   "zh_hant": "符鍛領主鎖甲"
+  },
+  "Runeforged Threaded Shoes": {
+   "zh_hans": "符文线缝便鞋",
+   "zh_hant": "符鍛縫紉輕鞋"
+  },
+  "Runeforged Tideseer Mantle": {
+   "zh_hans": "符文潮贤斗篷",
+   "zh_hant": "符鍛潮汐先知披肩"
+  },
+  "Runeforged Titan Mitts": {
+   "zh_hans": "符文泰坦护手",
+   "zh_hant": "符鍛泰坦長手套"
+  },
+  "Runeforged Tonal Focus": {
+   "zh_hans": "符文音调法器",
+   "zh_hant": "符鍛音調法器"
+  },
+  "Runeforged Torment Jacket": {
+   "zh_hans": "符文磨难外衣",
+   "zh_hant": "符鍛苦難外衣"
+  },
+  "Runeforged Torn Gloves": {
+   "zh_hans": "符文破碎手套",
+   "zh_hant": "符鍛撕裂手套"
+  },
+  "Runeforged Totemic Greaves": {
+   "zh_hans": "符文图腾胫甲",
+   "zh_hant": "符鍛圖騰脛甲"
+  },
+  "Runeforged Tournament Mail": {
+   "zh_hans": "符文演武锁甲",
+   "zh_hant": "符鍛競技鎖甲"
+  },
+  "Runeforged Trailblazer Armour": {
+   "zh_hans": "符文开拓者护甲",
+   "zh_hant": "符鍛開拓者護甲"
+  },
+  "Runeforged Trapper Hood": {
+   "zh_hans": "符文猎人兜帽",
+   "zh_hant": "符鍛符鍛捕獵者之兜"
+  },
+  "Runeforged Treerunner Shoes": {
+   "zh_hans": "符文林奔者便鞋",
+   "zh_hant": "符鍛樹行者輕鞋"
+  },
+  "Runeforged Tribal Mask": {
+   "zh_hans": "符文部族之面",
+   "zh_hant": "符鍛部落之面"
+  },
+  "Runeforged Trimmed Greaves": {
+   "zh_hans": "符文镶边胫甲",
+   "zh_hant": "符鍛鑲邊脛甲"
+  },
+  "Runeforged Twig Circlet": {
+   "zh_hans": "符文细枝头冠",
+   "zh_hant": "符鍛嫩枝頭環"
+  },
+  "Runeforged Twig Focus": {
+   "zh_hans": "符文枝条法器",
+   "zh_hant": "符鍛枝條法器"
+  },
+  "Runeforged Twilight Tiara": {
+   "zh_hans": "符文暮光冠冕",
+   "zh_hant": "符鍛暮光頭冠"
+  },
+  "Runeforged Utility Wraps": {
+   "zh_hans": "符文万用裹手",
+   "zh_hant": "符鍛實用裹手"
+  },
+  "Runeforged Utzaal Cuirass": {
+   "zh_hans": "符文乌扎尔胸甲",
+   "zh_hant": "符鍛奧札爾胸甲"
+  },
+  "Runeforged Vaal Crest Shield": {
+   "zh_hans": "符文瓦尔纹章盾",
+   "zh_hant": "符鍛瓦爾紋章盾"
+  },
+  "Runeforged Vaal Cuirass": {
+   "zh_hans": "符文瓦尔胸甲",
+   "zh_hant": "符鍛瓦爾胸甲"
+  },
+  "Runeforged Vaal Gloves": {
+   "zh_hans": "符文瓦尔手套",
+   "zh_hant": "符鍛瓦爾手套"
+  },
+  "Runeforged Vaal Greaves": {
+   "zh_hans": "符文瓦尔胫甲",
+   "zh_hant": "符鍛瓦爾脛甲"
+  },
+  "Runeforged Vaal Mitts": {
+   "zh_hans": "符文瓦尔护手",
+   "zh_hant": "符鍛瓦爾長手套"
+  },
+  "Runeforged Vaal Tower Shield": {
+   "zh_hans": "符文瓦尔塔盾",
+   "zh_hant": "符鍛瓦爾塔盾"
+  },
+  "Runeforged Vaal Wraps": {
+   "zh_hans": "符文瓦尔裹手",
+   "zh_hant": "符鍛瓦爾裹手"
+  },
+  "Runeforged Vagabond Armour": {
+   "zh_hans": "符文漂泊者护甲",
+   "zh_hant": "符鍛流浪者護甲"
+  },
+  "Runeforged Veiled Mask": {
+   "zh_hans": "符文蒙纱之面",
+   "zh_hant": "符鍛隱匿之面"
+  },
+  "Runeforged Velour Shoes": {
+   "zh_hans": "符文鹅绒便鞋",
+   "zh_hant": "符鍛絲絨輕鞋"
+  },
+  "Runeforged Velvet Cap": {
+   "zh_hans": "符文丝绒帽",
+   "zh_hant": "符鍛天鵝絨便帽"
+  },
+  "Runeforged Venerated Mantle": {
+   "zh_hans": "符文崇圣斗篷",
+   "zh_hant": "符鍛崇敬披肩"
+  },
+  "Runeforged Vermeil Circlet": {
+   "zh_hans": "符文朱砂头冠",
+   "zh_hant": "符鍛鍍金頭環"
+  },
+  "Runeforged Veteran Sabatons": {
+   "zh_hans": "符文老兵战靴",
+   "zh_hant": "符鍛老兵鎧靴"
+  },
+  "Runeforged Vicious Talisman": {
+   "zh_hans": "符文凶恶魔符",
+   "zh_hant": "符鍛惡毒魔符"
+  },
+  "Runeforged Vile Robe": {
+   "zh_hans": "符文邪恶束衣",
+   "zh_hant": "符鍛惡毒長袍"
+  },
+  "Runeforged Viper Cap": {
+   "zh_hans": "符文毒蝰帽",
+   "zh_hant": "符鍛毒蛇便帽"
+  },
+  "Runeforged Visored Helm": {
+   "zh_hans": "符文护面之盔",
+   "zh_hant": "符鍛假面之盔"
+  },
+  "Runeforged Voodoo Focus": {
+   "zh_hans": "符文巫毒法器",
+   "zh_hant": "符鍛巫毒法器"
+  },
+  "Runeforged Votive Raiment": {
+   "zh_hans": "符文奉愿之衣",
+   "zh_hant": "符鍛還願之衣"
+  },
+  "Runeforged Wanderer Shoes": {
+   "zh_hans": "符文游荡者便鞋",
+   "zh_hant": "符鍛漫遊者輕鞋"
+  },
+  "Runeforged War Spear": {
+   "zh_hans": "符文历战长矛",
+   "zh_hant": "符鍛戰爭長矛"
+  },
+  "Runeforged War Wraps": {
+   "zh_hans": "符文战争裹手",
+   "zh_hant": "符鍛戰爭裹手"
+  },
+  "Runeforged Warded Helm": {
+   "zh_hans": "符文掩蔽头盔",
+   "zh_hant": "符鍛保衛之盔"
+  },
+  "Runeforged Warden Bow": {
+   "zh_hans": "符文监守弓",
+   "zh_hant": "符鍛守護者之弓"
+  },
+  "Runeforged Warlock Leggings": {
+   "zh_hans": "符文术士护腿",
+   "zh_hant": "符鍛術士護腿"
+  },
+  "Runeforged Warlord Cuirass": {
+   "zh_hans": "符文督军胸甲",
+   "zh_hant": "符鍛總督胸甲"
+  },
+  "Runeforged Warmonger Greathelm": {
+   "zh_hans": "符文好战者巨盔",
+   "zh_hant": "符鍛狂戰者巨盔"
+  },
+  "Runeforged Warpick": {
+   "zh_hans": "符文战镐",
+   "zh_hant": "符鍛戰鎬"
+  },
+  "Runeforged Warrior Greathelm": {
+   "zh_hans": "符文战士巨盔",
+   "zh_hant": "符鍛戰士巨盔"
+  },
+  "Runeforged Waxed Jacket": {
+   "zh_hans": "符文防水外衣",
+   "zh_hant": "符鍛打蠟外衣"
+  },
+  "Runeforged Wayfarer Jacket": {
+   "zh_hans": "符文远行者外衣",
+   "zh_hant": "符鍛旅人外衣"
+  },
+  "Runeforged Wayward Crest Shield": {
+   "zh_hans": "符文无定纹章盾",
+   "zh_hant": "符鍛剛愎紋章盾"
+  },
+  "Runeforged Weaver Leggings": {
+   "zh_hans": "符文织履绑腿",
+   "zh_hant": "符鍛編織者護腿"
+  },
+  "Runeforged Whorl Focus": {
+   "zh_hans": "符文涡旋法器",
+   "zh_hant": "符鍛螺旋法器"
+  },
+  "Runeforged Wicker Tiara": {
+   "zh_hans": "符文柳枝冠冕",
+   "zh_hant": "符鍛枝條頭冠"
+  },
+  "Runeforged Winged Spear": {
+   "zh_hans": "符文飞翼长矛",
+   "zh_hant": "符鍛羽翅長矛"
+  },
+  "Runeforged Wolfskin Mantle": {
+   "zh_hans": "符文狼皮斗篷",
+   "zh_hant": "符鍛狼皮披肩"
+  },
+  "Runeforged Wooden Buckler": {
+   "zh_hans": "符文木制轻盾",
+   "zh_hant": "符鍛木頭輕盾"
+  },
+  "Runeforged Wooden Club": {
+   "zh_hans": "符文木棒",
+   "zh_hant": "符鍛木製棍棒"
+  },
+  "Runeforged Woven Cap": {
+   "zh_hans": "符文编织帽",
+   "zh_hant": "符鍛編織便帽"
+  },
+  "Runeforged Woven Focus": {
+   "zh_hans": "符文织造法器",
+   "zh_hant": "符鍛編織法器"
+  },
+  "Runeforged Wrapped Cap": {
+   "zh_hans": "符文包裹帽",
+   "zh_hant": "符鍛纏繞便帽"
+  },
+  "Runeforged Wrapped Greathelm": {
+   "zh_hans": "符文裹布巨盔",
+   "zh_hant": "符鍛纏繞巨盔"
+  },
+  "Runeforged Wrapped Sandals": {
+   "zh_hans": "符文裹布鞋履",
+   "zh_hant": "符鍛裹腳便鞋"
+  },
+  "Runeforged Wyrmscale Coat": {
+   "zh_hans": "符文巨龙鳞外套",
+   "zh_hant": "符鍛龍鱗外套"
+  },
+  "Runeforged Zealot Bow": {
+   "zh_hans": "符文狂热弓",
+   "zh_hant": "符鍛狂熱者之弓"
+  },
+  "Runeforged Zealot Gauntlets": {
+   "zh_hans": "符文狂热者手套",
+   "zh_hant": "符鍛狂熱護手"
+  },
+  "Runeforged Zenith Vestments": {
+   "zh_hans": "符文天顶长衣",
+   "zh_hant": "符鍛極盛法衣"
+  },
+  "Runemastered Aberrant Sledge": {
+   "zh_hans": "符文师匠畸变巨锤",
+   "zh_hant": "符煉怪異攻城錘"
+  },
+  "Runemastered Aged Cuffs": {
+   "zh_hans": "符文师匠风霜袖带",
+   "zh_hant": "符煉陳舊腕帶"
+  },
+  "Runemastered Altar Robe": {
+   "zh_hans": "符文师匠祭坛长袍",
+   "zh_hant": "符煉祭壇長袍"
+  },
+  "Runemastered Ancestral Mail": {
+   "zh_hans": "符文师匠先祖锁甲",
+   "zh_hant": "符煉先祖鎖甲"
+  },
+  "Runemastered Anchorite Garb": {
+   "zh_hans": "符文师匠隐士束衣",
+   "zh_hant": "符煉隱者裝束"
+  },
+  "Runemastered Ancient Leggings": {
+   "zh_hans": "符文师匠远古护腿",
+   "zh_hant": "符煉遠古護腿"
+  },
+  "Runemastered Ancient Mail": {
+   "zh_hans": "符文师匠远古链甲",
+   "zh_hant": "符煉遠古鎖甲"
+  },
+  "Runemastered Ancient Visor": {
+   "zh_hans": "符文师匠远古面甲",
+   "zh_hant": "符煉遠古護面盔"
+  },
+  "Runemastered Antler Focus": {
+   "zh_hans": "符文师匠鹿角法器",
+   "zh_hant": "符煉靈鹿法器"
+  },
+  "Runemastered Armoured Cap": {
+   "zh_hans": "符文师匠覆甲帽",
+   "zh_hant": "符煉裝甲便帽"
+  },
+  "Runemastered Armoured Vest": {
+   "zh_hans": "符文师匠铠装背心",
+   "zh_hant": "符煉裝甲背心"
+  },
+  "Runemastered Array Buckler": {
+   "zh_hans": "符文师匠阵列轻盾",
+   "zh_hant": "符煉排列輕盾"
+  },
+  "Runemastered Assassin Garb": {
+   "zh_hans": "符文师匠刺客束衣",
+   "zh_hant": "符煉刺客裝束"
+  },
+  "Runemastered Barricade Tower Shield": {
+   "zh_hans": "符文师匠障壁塔盾",
+   "zh_hant": "符煉障壁塔盾"
+  },
+  "Runemastered Beaded Circlet": {
+   "zh_hans": "符文师匠珠饰头冠",
+   "zh_hant": "符煉串珠頭環"
+  },
+  "Runemastered Blacksteel Tower Shield": {
+   "zh_hans": "符文师匠黑钢塔盾",
+   "zh_hant": "符煉黑鋼塔盾"
+  },
+  "Runemastered Blazon Crest Shield": {
+   "zh_hans": "符文师匠饰印纹章盾",
+   "zh_hant": "符煉家徽紋章盾"
+  },
+  "Runemastered Bolstered Mitts": {
+   "zh_hans": "符文师匠增固护手",
+   "zh_hant": "符煉加固長手套"
+  },
+  "Runemastered Bone Raiment": {
+   "zh_hans": "符文师匠坠饰之衣",
+   "zh_hant": "符煉骸骨之衣"
+  },
+  "Runemastered Braced Sabatons": {
+   "zh_hans": "符文师匠加固战靴",
+   "zh_hant": "符煉加固鎧靴"
+  },
+  "Runemastered Braced Tower Shield": {
+   "zh_hans": "符文师匠加固塔盾",
+   "zh_hant": "符煉加固塔盾"
+  },
+  "Runemastered Brimmed Helm": {
+   "zh_hans": "符文师匠宽沿之盔",
+   "zh_hant": "符煉邊緣之盔"
+  },
+  "Runemastered Bronze Greaves": {
+   "zh_hans": "符文师匠青铜胫甲",
+   "zh_hant": "符煉青銅脛甲"
+  },
+  "Runemastered Burnished Gauntlets": {
+   "zh_hans": "符文师匠冷芒手甲",
+   "zh_hant": "符煉拋光護手"
+  },
+  "Runemastered Chain Mail": {
+   "zh_hans": "符文师匠环锁甲",
+   "zh_hant": "符煉鎖鍊鎖甲"
+  },
+  "Runemastered Chain Tiara": {
+   "zh_hans": "符文师匠锁链冠冕",
+   "zh_hant": "符煉鎖鍊頭冠"
+  },
+  "Runemastered Cinched Boots": {
+   "zh_hans": "符文师匠束带长靴",
+   "zh_hant": "符煉繫帶長靴"
+  },
+  "Runemastered Cleric Vestments": {
+   "zh_hans": "符文师匠圣徒长衣",
+   "zh_hant": "符煉教士法衣"
+  },
+  "Runemastered Cloaked Mail": {
+   "zh_hans": "符文师匠披风锁甲",
+   "zh_hant": "符煉斗篷鎖甲"
+  },
+  "Runemastered Corsair Cap": {
+   "zh_hans": "符文师匠海贼帽",
+   "zh_hant": "符煉海盜便帽"
+  },
+  "Runemastered Corvus Mantle": {
+   "zh_hans": "符文师匠灵鸦斗篷",
+   "zh_hant": "符煉烏鴉披肩"
+  },
+  "Runemastered Covered Sabatons": {
+   "zh_hans": "符文师匠掩护战靴",
+   "zh_hant": "符煉遮蓋鎧靴"
+  },
+  "Runemastered Covert Hood": {
+   "zh_hans": "符文师匠匿踪兜帽",
+   "zh_hant": "符煉隱蔽兜帽"
+  },
+  "Runemastered Cowled Helm": {
+   "zh_hans": "符文师匠掩面之盔",
+   "zh_hant": "符煉斗篷之盔"
+  },
+  "Runemastered Crescent Targe": {
+   "zh_hans": "符文师匠新月圆盾",
+   "zh_hant": "符煉新月圓盾"
+  },
+  "Runemastered Crucible Tower Shield": {
+   "zh_hans": "符文师匠熔铸塔盾",
+   "zh_hant": "符煉磨煉塔盾"
+  },
+  "Runemastered Crystal Focus": {
+   "zh_hans": "符文师匠水晶法器",
+   "zh_hant": "符煉水晶法器"
+  },
+  "Runemastered Cultist Crown": {
+   "zh_hans": "符文师匠密教头冠",
+   "zh_hant": "符煉教徒之冠"
+  },
+  "Runemastered Death Mask": {
+   "zh_hans": "符文师匠死神之面",
+   "zh_hant": "符煉死亡之面"
+  },
+  "Runemastered Decorated Helm": {
+   "zh_hans": "符文师匠华饰之盔",
+   "zh_hant": "符煉裝飾之盔"
+  },
+  "Runemastered Doubled Gauntlets": {
+   "zh_hans": "符文师匠合钢手甲",
+   "zh_hant": "符煉雙層護手"
+  },
+  "Runemastered Dyad Crossbow": {
+   "zh_hans": "符文师匠双联战弩",
+   "zh_hant": "符煉雙生十字弓"
+  },
+  "Runemastered Effigial Tower Shield": {
+   "zh_hans": "符文师匠塑像塔盾",
+   "zh_hant": "符煉靈像塔盾"
+  },
+  "Runemastered Elementalist Robe": {
+   "zh_hans": "符文师匠元素使长袍",
+   "zh_hant": "符煉元素使長袍"
+  },
+  "Runemastered Elite Greathelm": {
+   "zh_hans": "符文师匠精锐巨盔",
+   "zh_hant": "符煉菁英巨盔"
+  },
+  "Runemastered Emblem Crest Shield": {
+   "zh_hans": "符文师匠圣徽纹章盾",
+   "zh_hant": "符煉徽印紋章盾"
+  },
+  "Runemastered Embossed Boots": {
+   "zh_hans": "符文师匠浮雕靴",
+   "zh_hant": "符煉浮雕長靴"
+  },
+  "Runemastered Embroidered Gloves": {
+   "zh_hans": "符文师匠刺绣手套",
+   "zh_hant": "符煉刺繡手套"
+  },
+  "Runemastered Engraved Focus": {
+   "zh_hans": "符文师匠铭刻法器",
+   "zh_hant": "符煉紋刻法器"
+  },
+  "Runemastered Enlightened Robe": {
+   "zh_hans": "符文师匠启迪长袍",
+   "zh_hant": "符煉啟蒙長袍"
+  },
+  "Runemastered Explorer Armour": {
+   "zh_hans": "符文师匠探索者护甲",
+   "zh_hant": "符煉探索者護甲"
+  },
+  "Runemastered Exquisite Vest": {
+   "zh_hans": "符文师匠浮华背心",
+   "zh_hant": "符煉精美背心"
+  },
+  "Runemastered Face Mask": {
+   "zh_hans": "符文师匠覆颜面具",
+   "zh_hant": "符煉護臉之面"
+  },
+  "Runemastered Familial Talisman": {
+   "zh_hans": "符文师匠血亲魔符",
+   "zh_hant": "符煉家族魔符"
+  },
+  "Runemastered Feathered Robe": {
+   "zh_hans": "符文师匠羽饰长袍",
+   "zh_hant": "符煉羽毛長袍"
+  },
+  "Runemastered Feathered Sandals": {
+   "zh_hans": "符文师匠羽饰鞋履",
+   "zh_hant": "符煉羽毛便鞋"
+  },
+  "Runemastered Feathered Tiara": {
+   "zh_hans": "符文师匠羽饰冠冕",
+   "zh_hant": "符煉羽毛頭冠"
+  },
+  "Runemastered Felled Greatclub": {
+   "zh_hans": "符文师匠伐采巨棍",
+   "zh_hant": "符煉墮落巨棍棒"
+  },
+  "Runemastered Felt Cap": {
+   "zh_hans": "符文师匠毛毡帽",
+   "zh_hant": "符煉毛氈便帽"
+  },
+  "Runemastered Fierce Greathelm": {
+   "zh_hans": "符文师匠刚烈巨盔",
+   "zh_hant": "符煉兇猛巨盔"
+  },
+  "Runemastered Fine Bracers": {
+   "zh_hans": "符文师匠精工护腕",
+   "zh_hant": "符煉精良護腕"
+  },
+  "Runemastered Firm Bracers": {
+   "zh_hans": "符文师匠牢固护腕",
+   "zh_hant": "符煉穩固護腕"
+  },
+  "Runemastered Full Plate": {
+   "zh_hans": "符文师匠连身铠甲",
+   "zh_hant": "符煉連身鎧甲"
+  },
+  "Runemastered Furtive Wraps": {
+   "zh_hans": "符文师匠鬼祟裹手",
+   "zh_hant": "符煉隱秘裹手"
+  },
+  "Runemastered Garment": {
+   "zh_hans": "符文师匠华服装束",
+   "zh_hant": "符煉服裝"
+  },
+  "Runemastered Gauze Wraps": {
+   "zh_hans": "符文师匠薄纱裹手",
+   "zh_hant": "符煉紗布裹手"
+  },
+  "Runemastered Gilded Vestments": {
+   "zh_hans": "符文师匠鎏金长衣",
+   "zh_hant": "符煉鍍金法衣"
+  },
+  "Runemastered Glacial Fortress": {
+   "zh_hans": "符文师匠冰川要塞",
+   "zh_hant": "符煉冰川堡壘"
+  },
+  "Runemastered Gold Circlet": {
+   "zh_hans": "符文师匠烁金头冠",
+   "zh_hant": "符煉黃金頭環"
+  },
+  "Runemastered Goldcast Cuffs": {
+   "zh_hans": "符文师匠金索袖带",
+   "zh_hant": "符煉金鑄腕帶"
+  },
+  "Runemastered Grand Cuisses": {
+   "zh_hans": "符文师匠恢弘腿甲",
+   "zh_hant": "符煉宏偉腿甲"
+  },
+  "Runemastered Grand Manchettes": {
+   "zh_hans": "符文师匠恢弘袖口",
+   "zh_hant": "符煉宏偉手鐲"
+  },
+  "Runemastered Grand Regalia": {
+   "zh_hans": "符文师匠恢弘盛装",
+   "zh_hant": "符煉宏偉華服"
+  },
+  "Runemastered Grand Visage": {
+   "zh_hans": "符文师匠恢弘面罩",
+   "zh_hant": "符煉宏偉面紗"
+  },
+  "Runemastered Grasping Mail": {
+   "zh_hans": "符文师匠贪婪锁甲",
+   "zh_hant": "符煉貪婪鎧甲"
+  },
+  "Runemastered Guarded Helm": {
+   "zh_hans": "符文师匠守护之盔",
+   "zh_hant": "符煉警惕之盔"
+  },
+  "Runemastered Hardwood Targe": {
+   "zh_hans": "符文师匠硬木圆盾",
+   "zh_hant": "符煉硬木圓盾"
+  },
+  "Runemastered Havoc Raiment": {
+   "zh_hans": "符文师匠劫难之衣",
+   "zh_hant": "符煉禍害之衣"
+  },
+  "Runemastered Heavy Belt": {
+   "zh_hans": "符文师匠重革腰带",
+   "zh_hant": "符煉重革腰帶"
+  },
+  "Runemastered Heavy Crown": {
+   "zh_hans": "符文师匠沉重王冠",
+   "zh_hant": "符煉沉重之冠"
+  },
+  "Runemastered Heraldric Tower Shield": {
+   "zh_hans": "符文师匠徽纹塔盾",
+   "zh_hant": "符煉紋章塔盾"
+  },
+  "Runemastered Hermit Garb": {
+   "zh_hans": "符文师匠隐士束衣",
+   "zh_hant": "符煉隱士裝束"
+  },
+  "Runemastered Heroic Armour": {
+   "zh_hans": "符文师匠英武护甲",
+   "zh_hant": "符煉英雄護甲"
+  },
+  "Runemastered Hewn Mask": {
+   "zh_hans": "符文师匠凿制之面",
+   "zh_hant": "符煉粗製之面"
+  },
+  "Runemastered Hexer's Robe": {
+   "zh_hans": "符文师匠魔蛊长袍",
+   "zh_hant": "符煉咒術師長袍"
+  },
+  "Runemastered Hooded Mask": {
+   "zh_hans": "符文师匠兜帽之面",
+   "zh_hant": "符煉風帽之面"
+  },
+  "Runemastered Horned Crown": {
+   "zh_hans": "符文师匠犄角王冠",
+   "zh_hant": "符煉犄角之冠"
+  },
+  "Runemastered Hunter Hood": {
+   "zh_hans": "符文师匠猎者兜帽",
+   "zh_hant": "符煉獵者之兜"
+  },
+  "Runemastered Hunting Shoes": {
+   "zh_hans": "符文师匠狩猎便鞋",
+   "zh_hant": "符煉狩獵輕鞋"
+  },
+  "Runemastered Intricate Crest Shield": {
+   "zh_hans": "符文师匠精巧纹章盾",
+   "zh_hant": "符煉錯綜紋章盾"
+  },
+  "Runemastered Intricate Gloves": {
+   "zh_hans": "符文师匠精致手套",
+   "zh_hant": "符煉精妙手套"
+  },
+  "Runemastered Iron Buckler": {
+   "zh_hans": "符文师匠锻铁轻盾",
+   "zh_hant": "符煉鍛鐵輕盾"
+  },
+  "Runemastered Iron Crown": {
+   "zh_hans": "符文师匠铁锻王冠",
+   "zh_hant": "符煉鍛鐵之冠"
+  },
+  "Runemastered Iron Cuirass": {
+   "zh_hans": "符文师匠铁锻胸甲",
+   "zh_hant": "符煉鍛鐵胸甲"
+  },
+  "Runemastered Iron Greaves": {
+   "zh_hans": "符文师匠铁锻胫甲",
+   "zh_hant": "符煉鐵鍛脛甲"
+  },
+  "Runemastered Ironclad Vestments": {
+   "zh_hans": "符文师匠武装长衣",
+   "zh_hant": "符煉鐵甲法衣"
+  },
+  "Runemastered Ironhead Spear": {
+   "zh_hans": "符文师匠铁头长矛",
+   "zh_hant": "符煉鐵木長矛"
+  },
+  "Runemastered Jade Tiara": {
+   "zh_hans": "符文师匠翠玉冠冕",
+   "zh_hant": "符煉翠玉頭冠"
+  },
+  "Runemastered Jewelled Gloves": {
+   "zh_hans": "符文师匠宝石手套",
+   "zh_hant": "符煉寶石手套"
+  },
+  "Runemastered Jingling Crest Shield": {
+   "zh_hans": "符文师匠铃鸣纹章盾",
+   "zh_hant": "符煉響聲紋章盾"
+  },
+  "Runemastered Keth Raiment": {
+   "zh_hans": "符文师匠克斯之衣",
+   "zh_hant": "符煉凱斯之衣"
+  },
+  "Runemastered Knight Armour": {
+   "zh_hans": "符文师匠骑士护甲",
+   "zh_hant": "符煉騎士護甲"
+  },
+  "Runemastered Laced Boots": {
+   "zh_hans": "符文师匠花边靴",
+   "zh_hant": "符煉飾帶長靴"
+  },
+  "Runemastered Lattice Sandals": {
+   "zh_hans": "符文师匠硬框鞋履",
+   "zh_hant": "符煉格子便鞋"
+  },
+  "Runemastered Layered Gauntlets": {
+   "zh_hans": "符文师匠垫层护手",
+   "zh_hant": "符煉層板護手"
+  },
+  "Runemastered Leather Buckler": {
+   "zh_hans": "符文师匠皮制轻盾",
+   "zh_hant": "符煉皮革輕盾"
+  },
+  "Runemastered Leather Vest": {
+   "zh_hans": "符文师匠皮革背心",
+   "zh_hant": "符煉皮革背心"
+  },
+  "Runemastered Leatherbound Hood": {
+   "zh_hans": "符文师匠皮缚兜帽",
+   "zh_hant": "符煉皮革兜帽"
+  },
+  "Runemastered Linen Wraps": {
+   "zh_hans": "符文师匠亚麻裹手",
+   "zh_hant": "符煉麻布裹手"
+  },
+  "Runemastered Lizardscale Boots": {
+   "zh_hans": "符文师匠蜥鳞靴",
+   "zh_hant": "符煉蜥蜴鱗長靴"
+  },
+  "Runemastered Magus Tiara": {
+   "zh_hans": "符文师匠术士冠冕",
+   "zh_hant": "符煉瑪格思頭冠"
+  },
+  "Runemastered Mail Sabatons": {
+   "zh_hans": "符文师匠锁链战靴",
+   "zh_hant": "符煉鎖甲鎧靴"
+  },
+  "Runemastered Mail Vestments": {
+   "zh_hans": "符文师匠锁子长衣",
+   "zh_hant": "符煉鎖甲法衣"
+  },
+  "Runemastered Marabout Garb": {
+   "zh_hans": "符文师匠遁世束衣",
+   "zh_hant": "符煉修士裝束"
+  },
+  "Runemastered Maraketh Cuirass": {
+   "zh_hans": "符文师匠马拉克斯胸甲",
+   "zh_hant": "符煉馬拉克斯胸甲"
+  },
+  "Runemastered Martyr Crown": {
+   "zh_hans": "符文师匠英烈之冠",
+   "zh_hant": "符煉殉難之冠"
+  },
+  "Runemastered Moulded Mitts": {
+   "zh_hans": "符文师匠铸锻护手",
+   "zh_hant": "符煉鑄模長手套"
+  },
+  "Runemastered Nettle Talisman": {
+   "zh_hans": "符文师匠荨麻魔符",
+   "zh_hant": "符煉蕁麻魔符"
+  },
+  "Runemastered Oak Greathammer": {
+   "zh_hans": "符文师匠橡木大锤",
+   "zh_hant": "符煉橡木巨錘"
+  },
+  "Runemastered Omen Crest Shield": {
+   "zh_hans": "符文师匠噩兆纹章盾",
+   "zh_hant": "符煉預兆紋章盾"
+  },
+  "Runemastered Ornate Buckler": {
+   "zh_hans": "符文师匠华丽轻盾",
+   "zh_hant": "符煉華麗輕盾"
+  },
+  "Runemastered Ornate Ringmail": {
+   "zh_hans": "符文师匠华饰环甲",
+   "zh_hant": "符煉華貴環甲"
+  },
+  "Runemastered Painted Tower Shield": {
+   "zh_hans": "符文师匠彩绘塔盾",
+   "zh_hant": "符煉彩繪塔盾"
+  },
+  "Runemastered Pathfinder Coat": {
+   "zh_hans": "符文师匠寻路者外套",
+   "zh_hant": "符煉追獵者外套"
+  },
+  "Runemastered Pauascale Gloves": {
+   "zh_hans": "符文师匠海灵鳞缀手套",
+   "zh_hant": "符煉海靈鱗手套"
+  },
+  "Runemastered Pilgrim Vestments": {
+   "zh_hans": "符文师匠朝圣者长衣",
+   "zh_hant": "符煉朝聖者法衣"
+  },
+  "Runemastered Plate Gauntlets": {
+   "zh_hans": "符文师匠铁板护手",
+   "zh_hant": "符煉鎧甲護手"
+  },
+  "Runemastered Plated Buckler": {
+   "zh_hans": "符文师匠嵌板轻盾",
+   "zh_hant": "符煉鋼板輕盾"
+  },
+  "Runemastered Plated Raiment": {
+   "zh_hans": "符文师匠嵌板之衣",
+   "zh_hant": "符煉鎧甲之衣"
+  },
+  "Runemastered Plumed Focus": {
+   "zh_hans": "符文师匠彩羽法器",
+   "zh_hant": "符煉羽飾法器"
+  },
+  "Runemastered Primal Markings": {
+   "zh_hans": "符文师匠原始印记",
+   "zh_hant": "符煉野性標記"
+  },
+  "Runemastered Quilted Vest": {
+   "zh_hans": "符文师匠菱纹背心",
+   "zh_hant": "符煉襯墊背心"
+  },
+  "Runemastered Raider Plate": {
+   "zh_hans": "符文师匠劫掠之铠",
+   "zh_hant": "符煉俠客鎧甲"
+  },
+  "Runemastered Rampart Tower Shield": {
+   "zh_hans": "符文师匠壁垒塔盾",
+   "zh_hant": "符煉壁壘塔盾"
+  },
+  "Runemastered Revered Vestments": {
+   "zh_hans": "符文师匠崇礼长衣",
+   "zh_hant": "符煉尊敬法衣"
+  },
+  "Runemastered Rhoahide Coat": {
+   "zh_hans": "符文师匠恐喙鸟皮外套",
+   "zh_hant": "符煉恐喙鳥皮外套"
+  },
+  "Runemastered Ridged Buckler": {
+   "zh_hans": "符文师匠凸脊轻盾",
+   "zh_hant": "符煉脊狀輕盾"
+  },
+  "Runemastered Ringmail Gauntlets": {
+   "zh_hans": "符文师匠环锁手甲",
+   "zh_hant": "符煉環鎖護手"
+  },
+  "Runemastered Riveted Mitts": {
+   "zh_hans": "符文师匠铆接护手",
+   "zh_hant": "符煉鉚接長手套"
+  },
+  "Runemastered Rogue Armour": {
+   "zh_hans": "符文师匠盗贼护甲",
+   "zh_hant": "符煉盜賊護甲"
+  },
+  "Runemastered Rope Cuffs": {
+   "zh_hans": "符文师匠绳索袖带",
+   "zh_hant": "符煉繩索腕帶"
+  },
+  "Runemastered Rough Greaves": {
+   "zh_hans": "符文师匠粗制胫甲",
+   "zh_hant": "符煉粗糙脛甲"
+  },
+  "Runemastered Runic Fork": {
+   "zh_hans": "符文师匠符文之叉",
+   "zh_hant": "符煉符文尖叉"
+  },
+  "Runemastered Rusted Cuirass": {
+   "zh_hans": "符文师匠锈蚀胸甲",
+   "zh_hant": "符煉生鏽胸甲"
+  },
+  "Runemastered Rusted Greathelm": {
+   "zh_hans": "符文师匠锈蚀巨盔",
+   "zh_hant": "符煉鏽蝕巨盔"
+  },
+  "Runemastered Sacrificial Mantle": {
+   "zh_hans": "符文师匠献祭斗篷",
+   "zh_hant": "符煉獻祭披肩"
+  },
+  "Runemastered Sacrificial Regalia": {
+   "zh_hans": "符文师匠献祭盛装",
+   "zh_hant": "符煉獻祭法衣"
+  },
+  "Runemastered Scale Mail": {
+   "zh_hans": "符文师匠嵌鳞锁甲",
+   "zh_hant": "符煉鱗片鎖甲"
+  },
+  "Runemastered Scalper's Jacket": {
+   "zh_hans": "符文师匠猎头者外衣",
+   "zh_hant": "符煉投機者外衣"
+  },
+  "Runemastered Scout's Vest": {
+   "zh_hans": "符文师匠斥候背心",
+   "zh_hant": "符煉斥侯背心"
+  },
+  "Runemastered Sectioned Bracers": {
+   "zh_hans": "符文师匠截片护腕",
+   "zh_hant": "符煉分段護腕"
+  },
+  "Runemastered Secured Leggings": {
+   "zh_hans": "符文师匠牢靠绑腿",
+   "zh_hant": "符煉牢固護腿"
+  },
+  "Runemastered Serpentscale Coat": {
+   "zh_hans": "符文师匠蛇鳞外套",
+   "zh_hant": "符煉蛇鱗外套"
+  },
+  "Runemastered Shabby Hood": {
+   "zh_hans": "符文师匠破旧兜帽",
+   "zh_hant": "符煉破舊兜帽"
+  },
+  "Runemastered Shaman Mantle": {
+   "zh_hans": "符文师匠萨满斗篷",
+   "zh_hant": "符煉薩滿披肩"
+  },
+  "Runemastered Shielded Helm": {
+   "zh_hans": "符文师匠卫护之盔",
+   "zh_hant": "符煉庇護之盔"
+  },
+  "Runemastered Shrouded Vest": {
+   "zh_hans": "符文师匠蔽影背心",
+   "zh_hant": "符煉籠罩背心"
+  },
+  "Runemastered Sigil Crest Shield": {
+   "zh_hans": "符文师匠魔印纹章盾",
+   "zh_hant": "符煉符印紋章盾"
+  },
+  "Runemastered Silk Robe": {
+   "zh_hans": "符文师匠丝质之袍",
+   "zh_hant": "符煉絲質之袍"
+  },
+  "Runemastered Silk Slippers": {
+   "zh_hans": "符文师匠丝绸便鞋",
+   "zh_hant": "符煉絲綢便鞋"
+  },
+  "Runemastered Smuggler Coat": {
+   "zh_hans": "符文师匠走私者外套",
+   "zh_hant": "符煉走私者外套"
+  },
+  "Runemastered Soldier Greathelm": {
+   "zh_hans": "符文师匠兵卒巨盔",
+   "zh_hant": "符煉士兵巨盔"
+  },
+  "Runemastered Solid Mask": {
+   "zh_hans": "符文师匠坚固之面",
+   "zh_hant": "符煉堅固之面"
+  },
+  "Runemastered Sombre Gloves": {
+   "zh_hans": "符文师匠肃穆手套",
+   "zh_hant": "符煉暗淡手套"
+  },
+  "Runemastered Spiked Buckler": {
+   "zh_hans": "符文师匠尖刺轻盾",
+   "zh_hant": "符煉尖刺輕盾"
+  },
+  "Runemastered Spined Bracers": {
+   "zh_hans": "符文师匠精纺护腕",
+   "zh_hant": "符煉棘刺護腕"
+  },
+  "Runemastered Spiral Wraps": {
+   "zh_hans": "符文师匠螺旋裹手",
+   "zh_hant": "符煉盤繞裹手"
+  },
+  "Runemastered Spired Greathelm": {
+   "zh_hans": "符文师匠螺旋巨盔",
+   "zh_hant": "符煉尖頂巨盔"
+  },
+  "Runemastered Spiritbone Crown": {
+   "zh_hans": "符文师匠灵骨王冠",
+   "zh_hant": "符煉魂骨之冠"
+  },
+  "Runemastered Splintered Tower Shield": {
+   "zh_hans": "符文师匠朽木塔盾",
+   "zh_hant": "符煉朽木塔盾"
+  },
+  "Runemastered Stacked Sabatons": {
+   "zh_hans": "符文师匠层钢战靴",
+   "zh_hant": "符煉疊層鎧靴"
+  },
+  "Runemastered Steel Plate": {
+   "zh_hans": "符文师匠冷钢之铠",
+   "zh_hant": "符煉堅鋼鎧甲"
+  },
+  "Runemastered Steeltoe Boots": {
+   "zh_hans": "符文师匠钢趾靴",
+   "zh_hant": "符煉鐵趾長靴"
+  },
+  "Runemastered Stitched Gloves": {
+   "zh_hans": "符文师匠缝合手套",
+   "zh_hant": "符煉縫合手套"
+  },
+  "Runemastered Stocky Mitts": {
+   "zh_hans": "符文师匠敦实护手",
+   "zh_hant": "符煉結實長手套"
+  },
+  "Runemastered Stone Greaves": {
+   "zh_hans": "符文师匠坚石胫甲",
+   "zh_hant": "符煉岩石脛甲"
+  },
+  "Runemastered Straw Sandals": {
+   "zh_hans": "符文师匠稻草鞋履",
+   "zh_hant": "符煉乾草便鞋"
+  },
+  "Runemastered Strider Vest": {
+   "zh_hans": "符文师匠疾行者背心",
+   "zh_hant": "符煉疾行者背心"
+  },
+  "Runemastered Studded Greatclub": {
+   "zh_hans": "符文师匠镶钉巨棍",
+   "zh_hant": "符煉鑲釘巨棍棒"
+  },
+  "Runemastered Studded Vest": {
+   "zh_hans": "符文师匠嵌饰背心",
+   "zh_hant": "符煉鑲釘背心"
+  },
+  "Runemastered Suede Bracers": {
+   "zh_hans": "符文师匠绒皮护腕",
+   "zh_hant": "符煉麂皮護腕"
+  },
+  "Runemastered Tattered Robe": {
+   "zh_hans": "符文师匠破烂长袍",
+   "zh_hant": "符煉殘破長袍"
+  },
+  "Runemastered Tempered Mitts": {
+   "zh_hans": "符文师匠淬炼护手",
+   "zh_hant": "符煉淬鍊長手套"
+  },
+  "Runemastered Tenebrous Crown": {
+   "zh_hans": "符文师匠阴暗王冠",
+   "zh_hant": "符煉幽暗寶冠"
+  },
+  "Runemastered Tense Crossbow": {
+   "zh_hans": "符文师匠紧弦战弩",
+   "zh_hant": "符煉緊繃十字弓"
+  },
+  "Runemastered Threaded Shoes": {
+   "zh_hans": "符文师匠线缝便鞋",
+   "zh_hant": "符煉縫紉輕鞋"
+  },
+  "Runemastered Tideseer Mantle": {
+   "zh_hans": "符文师匠潮贤斗篷",
+   "zh_hant": "符煉潮汐先知披肩"
+  },
+  "Runemastered Titan Mitts": {
+   "zh_hans": "符文师匠泰坦护手",
+   "zh_hant": "符煉泰坦長手套"
+  },
+  "Runemastered Tonal Focus": {
+   "zh_hans": "符文师匠音调法器",
+   "zh_hant": "符煉音調法器"
+  },
+  "Runemastered Torment Club": {
+   "zh_hans": "符文师匠劫难战棒",
+   "zh_hant": "符煉磨難棍棒"
+  },
+  "Runemastered Torn Gloves": {
+   "zh_hans": "符文师匠破碎手套",
+   "zh_hant": "符煉撕裂手套"
+  },
+  "Runemastered Tribal Mask": {
+   "zh_hans": "符文师匠部族之面",
+   "zh_hant": "符煉部落之面"
+  },
+  "Runemastered Trimmed Greaves": {
+   "zh_hans": "符文师匠镶边胫甲",
+   "zh_hant": "符煉鑲邊脛甲"
+  },
+  "Runemastered Twig Circlet": {
+   "zh_hans": "符文师匠细枝头冠",
+   "zh_hant": "符煉嫩枝頭環"
+  },
+  "Runemastered Twig Focus": {
+   "zh_hans": "符文师匠枝条法器",
+   "zh_hant": "符煉枝條法器"
+  },
+  "Runemastered Twilight Tiara": {
+   "zh_hans": "符文师匠暮光冠冕",
+   "zh_hant": "符煉暮光頭冠"
+  },
+  "Runemastered Utility Wraps": {
+   "zh_hans": "符文师匠万用裹手",
+   "zh_hant": "符煉實用裹手"
+  },
+  "Runemastered Vaal Cuirass": {
+   "zh_hans": "符文师匠瓦尔胸甲",
+   "zh_hant": "符煉瓦爾胸甲"
+  },
+  "Runemastered Vaal Tower Shield": {
+   "zh_hans": "符文师匠瓦尔塔盾",
+   "zh_hant": "符煉瓦爾塔盾"
+  },
+  "Runemastered Vagabond Armour": {
+   "zh_hans": "符文师匠漂泊者护甲",
+   "zh_hant": "符煉流浪者護甲"
+  },
+  "Runemastered Veiled Mask": {
+   "zh_hans": "符文师匠蒙纱之面",
+   "zh_hant": "符煉隱匿之面"
+  },
+  "Runemastered Velour Shoes": {
+   "zh_hans": "符文师匠鹅绒便鞋",
+   "zh_hant": "符煉絲絨輕鞋"
+  },
+  "Runemastered Velvet Cap": {
+   "zh_hans": "符文师匠丝绒帽",
+   "zh_hant": "符煉天鵝絨便帽"
+  },
+  "Runemastered Venerable Defender": {
+   "zh_hans": "符文师匠庄严护卫",
+   "zh_hant": "符煉古老護衛盾"
+  },
+  "Runemastered Veridical Chain": {
+   "zh_hans": "符文师匠真相之链",
+   "zh_hant": "符煉幻象鎖鏈"
+  },
+  "Runemastered Verisium Cuffs": {
+   "zh_hans": "符文师匠维金袖带",
+   "zh_hant": "符煉維里西姆腕帶"
+  },
+  "Runemastered Vermeil Circlet": {
+   "zh_hans": "符文师匠朱砂头冠",
+   "zh_hant": "符煉鍍金頭環"
+  },
+  "Runemastered Viper Cap": {
+   "zh_hans": "符文师匠毒蝰帽",
+   "zh_hant": "符煉毒蛇便帽"
+  },
+  "Runemastered Visored Helm": {
+   "zh_hans": "符文师匠护面之盔",
+   "zh_hant": "符煉假面之盔"
+  },
+  "Runemastered Voodoo Focus": {
+   "zh_hans": "符文师匠巫毒法器",
+   "zh_hant": "符煉巫毒法器"
+  },
+  "Runemastered Votive Raiment": {
+   "zh_hans": "符文师匠奉愿之衣",
+   "zh_hant": "符煉還願之衣"
+  },
+  "Runemastered Warding Quarterstaff": {
+   "zh_hans": "符文师匠守护节杖",
+   "zh_hant": "符煉庇護細杖"
+  },
+  "Runemastered Warrior Greathelm": {
+   "zh_hans": "符文师匠战士巨盔",
+   "zh_hant": "符煉戰士巨盔"
+  },
+  "Runemastered Waxed Jacket": {
+   "zh_hans": "符文师匠防水外衣",
+   "zh_hant": "符煉打蠟外衣"
+  },
+  "Runemastered Wayfarer Jacket": {
+   "zh_hans": "符文师匠远行者外衣",
+   "zh_hant": "符煉旅人外衣"
+  },
+  "Runemastered Wicker Tiara": {
+   "zh_hans": "符文师匠柳枝冠冕",
+   "zh_hant": "符煉枝條頭冠"
+  },
+  "Runemastered Wooden Buckler": {
+   "zh_hans": "符文师匠木制轻盾",
+   "zh_hant": "符煉木頭輕盾"
+  },
+  "Runemastered Wooden Club": {
+   "zh_hans": "符文师匠木棒",
+   "zh_hant": "符煉木製棍棒"
+  },
+  "Runemastered Woven Focus": {
+   "zh_hans": "符文师匠织造法器",
+   "zh_hant": "符煉編織法器"
+  },
+  "Runemastered Wrapped Greathelm": {
+   "zh_hans": "符文师匠裹布巨盔",
+   "zh_hant": "符煉纏繞巨盔"
+  },
+  "Runemastered Wrapped Sandals": {
+   "zh_hans": "符文师匠裹布鞋履",
+   "zh_hant": "符煉裹腳便鞋"
+  },
+  "Runic Fork": {
+   "zh_hans": "符文之叉",
+   "zh_hant": "符文尖叉"
+  },
+  "Runic Shortsword": {
+   "zh_hans": "符文短剑",
+   "zh_hant": "符文短劍"
+  },
+  "Runner Vest": {
+   "zh_hans": "跑者背心",
+   "zh_hant": "奔走者背心"
+  },
+  "Rusted Cuirass": {
+   "zh_hans": "锈蚀胸甲",
+   "zh_hant": "生鏽胸甲"
+  },
+  "Rusted Greathelm": {
+   "zh_hans": "锈蚀巨盔",
+   "zh_hant": "鏽蝕巨盔"
+  },
+  "Sacral Quiver": {
+   "zh_hans": "圣骨箭袋",
+   "zh_hant": "聖禮箭袋"
+  },
+  "Sacramental Robe": {
+   "zh_hans": "圣礼束衣",
+   "zh_hant": "聖禮長袍"
+  },
+  "Sacred Focus": {
+   "zh_hans": "圣洁法器",
+   "zh_hant": "神聖法器"
+  },
+  "Sacred Maul": {
+   "zh_hans": "神圣巨锤",
+   "zh_hant": "神聖重錘"
+  },
+  "Sacrificial Axe": {
+   "zh_hans": "奉献之斧",
+   "zh_hant": "獻祭斧"
+  },
+  "Sacrificial Mantle": {
+   "zh_hans": "献祭斗篷",
+   "zh_hant": "獻祭披肩"
+  },
+  "Sacrificial Regalia": {
+   "zh_hans": "献祭盛装",
+   "zh_hant": "獻祭法衣"
+  },
+  "Saintly Crown": {
+   "zh_hans": "圣洁王冠",
+   "zh_hant": "聖徒之冠"
+  },
+  "Sanctified Staff": {
+   "zh_hans": "神圣长杖",
+   "zh_hant": "神化長杖"
+  },
+  "Sandsworn Cuirass": {
+   "zh_hans": "沙誓胸甲",
+   "zh_hant": "沙誓胸甲"
+  },
+  "Sandsworn Sandals": {
+   "zh_hans": "沙誓鞋履",
+   "zh_hant": "沙誓便鞋"
+  },
+  "Sandsworn Tiara": {
+   "zh_hans": "沙誓冠冕",
+   "zh_hant": "沙誓頭冠"
+  },
+  "Sapphire": {
+   "zh_hans": "蓝玉",
+   "zh_hant": "藍寶石"
+  },
+  "Sapphire Charm": {
+   "zh_hans": "蓝玉咒符",
+   "zh_hant": "藍玉護符"
+  },
+  "Sapphire Ring": {
+   "zh_hans": "蓝玉戒指",
+   "zh_hant": "藍玉戒指"
+  },
+  "Savage Greataxe": {
+   "zh_hans": "狂放大斧",
+   "zh_hant": "野蠻巨斧"
+  },
+  "Scale Mail": {
+   "zh_hans": "嵌鳞锁甲",
+   "zh_hant": "鱗片鎖甲"
+  },
+  "Scalper's Jacket": {
+   "zh_hans": "猎头者外衣",
+   "zh_hant": "投機者外衣"
+  },
+  "Scimitar": {
+   "zh_hans": "弯刀",
+   "zh_hant": "短彎刀"
+  },
+  "Scoundrel Armour": {
+   "zh_hans": "恶棍护甲",
+   "zh_hant": "惡棍護甲"
+  },
+  "Scoundrel Jacket": {
+   "zh_hans": "流贼外衣",
+   "zh_hant": "流氓外衣"
+  },
+  "Scout's Vest": {
+   "zh_hans": "斥候背心",
+   "zh_hant": "斥侯背心"
+  },
+  "Seaglass Spear": {
+   "zh_hans": "海琉长矛",
+   "zh_hant": "海玻璃長矛"
+  },
+  "Seastorm Mantle": {
+   "zh_hans": "海洋风暴斗篷",
+   "zh_hant": "海洋風暴披肩"
+  },
+  "Sectarian Crest Shield": {
+   "zh_hans": "宗室纹章盾",
+   "zh_hant": "宗派紋章盾"
+  },
+  "Sectioned Bracers": {
+   "zh_hans": "截片护腕",
+   "zh_hant": "分段護腕"
+  },
+  "Secured Leggings": {
+   "zh_hans": "牢靠绑腿",
+   "zh_hant": "牢固護腿"
+  },
+  "Secured Wraps": {
+   "zh_hans": "坚固裹手",
+   "zh_hant": "牢固裹手"
+  },
+  "Seer Crest Shield": {
+   "zh_hans": "先知纹章盾",
+   "zh_hant": "先知紋章盾"
+  },
+  "Sekhema Sandals": {
+   "zh_hans": "丝克玛便鞋",
+   "zh_hant": "絲克瑪便鞋"
+  },
+  "Sekheman Crest Shield": {
+   "zh_hans": "丝克玛纹章盾",
+   "zh_hant": "絲克瑪紋章盾"
+  },
+  "Sentinel Greathelm": {
+   "zh_hans": "哨卫巨盔",
+   "zh_hant": "守望巨盔"
+  },
+  "Serpentscale Boots": {
+   "zh_hans": "蛇鳞长靴",
+   "zh_hant": "蛇鱗長靴"
+  },
+  "Serpentscale Coat": {
+   "zh_hans": "蛇鳞外套",
+   "zh_hant": "蛇鱗外套"
+  },
+  "Serrated Quiver": {
+   "zh_hans": "锯齿箭袋",
+   "zh_hant": "鋸齒箭袋"
+  },
+  "Shabby Hood": {
+   "zh_hans": "破旧兜帽",
+   "zh_hant": "破舊兜帽"
+  },
+  "Shaded Mask": {
+   "zh_hans": "影蔽之面",
+   "zh_hant": "陰影之面"
+  },
+  "Shaman Mantle": {
+   "zh_hans": "萨满斗篷",
+   "zh_hant": "薩滿披肩"
+  },
+  "Shamanistic Leggings": {
+   "zh_hans": "萨满绑腿",
+   "zh_hant": "薩滿護腿"
+  },
+  "Sharktooth Claw": {
+   "zh_hans": "鲨颚爪",
+   "zh_hant": "鯊顎爪"
+  },
+  "Shielded Helm": {
+   "zh_hans": "卫护之盔",
+   "zh_hant": "庇護之盔"
+  },
+  "Shortbow": {
+   "zh_hans": "短弓",
+   "zh_hant": "短弓"
+  },
+  "Shortsword": {
+   "zh_hans": "短剑",
+   "zh_hant": "短劍"
+  },
+  "Shrapnel Trap": {
+   "zh_hans": "破片陷阱",
+   "zh_hant": "彈片陷阱"
+  },
+  "Shrine Sceptre": {
+   "zh_hans": "圣地权杖",
+   "zh_hant": "神殿權杖"
+  },
+  "Shrouded Mail": {
+   "zh_hans": "蔽影锁甲",
+   "zh_hant": "遮蔽鎖甲"
+  },
+  "Shrouded Vest": {
+   "zh_hans": "蔽影背心",
+   "zh_hant": "籠罩背心"
+  },
+  "Sickle Sword": {
+   "zh_hans": "镰刃剑",
+   "zh_hant": "鐮劍"
+  },
+  "Siege Crossbow": {
+   "zh_hans": "摧城弩",
+   "zh_hant": "攻城十字弓"
+  },
+  "Sigil Crest Shield": {
+   "zh_hans": "魔印纹章盾",
+   "zh_hant": "符印紋章盾"
+  },
+  "Signet Cuffs": {
+   "zh_hans": "纹饰袖带",
+   "zh_hant": "徽印腕帶"
+  },
+  "Silk Robe": {
+   "zh_hans": "丝质之袍",
+   "zh_hant": "絲質之袍"
+  },
+  "Silk Slippers": {
+   "zh_hans": "丝绸便鞋",
+   "zh_hant": "絲綢便鞋"
+  },
+  "Silver Charm": {
+   "zh_hans": "真银咒符",
+   "zh_hant": "白銀護符"
+  },
+  "Silverbuckled Shoes": {
+   "zh_hans": "银扣便鞋",
+   "zh_hant": "銀扣輕鞋"
+  },
+  "Simple Dagger": {
+   "zh_hans": "朴实匕首",
+   "zh_hant": "簡易匕首"
+  },
+  "Sinew Belt": {
+   "zh_hans": "肌力腰带",
+   "zh_hant": "韌筋腰帶"
+  },
+  "Sinister Quarterstaff": {
+   "zh_hans": "邪恶节杖",
+   "zh_hant": "邪惡細杖"
+  },
+  "Siphoning Wand": {
+   "zh_hans": "虹吸法杖",
+   "zh_hant": "虹吸法杖"
+  },
+  "Sirenscale Gloves": {
+   "zh_hans": "海妖之鳞手套",
+   "zh_hant": "海妖鱗手套"
+  },
+  "Skinning Knife": {
+   "zh_hans": "剥皮刀",
+   "zh_hant": "剝皮刀"
+  },
+  "Skulking Mask": {
+   "zh_hans": "潜行面具",
+   "zh_hant": "潛伏之面"
+  },
+  "Skullcrusher Quarterstaff": {
+   "zh_hans": "碎颅节杖",
+   "zh_hant": "碎顱細杖"
+  },
+  "Skycrown Tiara": {
+   "zh_hans": "天冠冠冕",
+   "zh_hant": "天冠頭冠"
+  },
+  "Slayer Armour": {
+   "zh_hans": "惩罚者护甲",
+   "zh_hant": "處刑者護甲"
+  },
+  "Sleek Boots": {
+   "zh_hans": "滑布长靴",
+   "zh_hant": "光滑長靴"
+  },
+  "Sleek Jacket": {
+   "zh_hans": "滑布外衣",
+   "zh_hant": "光滑外衣"
+  },
+  "Slender Flail": {
+   "zh_hans": "长鞭连枷",
+   "zh_hant": "纖細鏈錘"
+  },
+  "Slicing Quarterstaff": {
+   "zh_hans": "锋缘节杖",
+   "zh_hant": "斬割細杖"
+  },
+  "Slim Mace": {
+   "zh_hans": "细柄钉锤",
+   "zh_hant": "纖細之錘"
+  },
+  "Slipstrike Vest": {
+   "zh_hans": "滑击背心",
+   "zh_hant": "快速打擊背心"
+  },
+  "Smithing Hammer": {
+   "zh_hans": "锻铸之锤",
+   "zh_hant": "鍛造錘"
+  },
+  "Smooth Quarterstaff": {
+   "zh_hans": "优雅节杖",
+   "zh_hant": "平滑細杖"
+  },
+  "Smuggler Coat": {
+   "zh_hans": "走私者外套",
+   "zh_hant": "走私者外套"
+  },
+  "Snakewood Greathammer": {
+   "zh_hans": "蛇纹大锤",
+   "zh_hant": "蛇木巨錘"
+  },
+  "Snakewood Shortbow": {
+   "zh_hans": "蛇纹短弓",
+   "zh_hant": "蛇木短弓"
+  },
+  "Soaring Mask": {
+   "zh_hans": "翱翔面具",
+   "zh_hant": "翱翔之面"
+  },
+  "Soaring Spear": {
+   "zh_hans": "翱翔战矛",
+   "zh_hant": "展翼長矛"
+  },
+  "Soaring Targe": {
+   "zh_hans": "翱翔圆盾",
+   "zh_hant": "翱翔圓盾"
+  },
+  "Solar Amulet": {
+   "zh_hans": "日曜项链",
+   "zh_hant": "日耀項鍊"
+  },
+  "Soldier Cuirass": {
+   "zh_hans": "士兵胸甲",
+   "zh_hant": "士兵胸甲"
+  },
+  "Soldier Greathelm": {
+   "zh_hans": "兵卒巨盔",
+   "zh_hant": "士兵巨盔"
+  },
+  "Soldier Helm": {
+   "zh_hans": "士兵头盔",
+   "zh_hant": "士兵之盔"
+  },
+  "Soldiering Sabatons": {
+   "zh_hans": "士兵战靴",
+   "zh_hant": "軍旅鎧靴"
+  },
+  "Solemn Maul": {
+   "zh_hans": "肃穆巨锤",
+   "zh_hant": "莊嚴重錘"
+  },
+  "Solid Mask": {
+   "zh_hans": "坚固之面",
+   "zh_hant": "堅固之面"
+  },
+  "Sombre Gloves": {
+   "zh_hans": "肃穆手套",
+   "zh_hant": "暗淡手套"
+  },
+  "Sorcerous Tiara": {
+   "zh_hans": "法术冠冕",
+   "zh_hant": "巫術頭冠"
+  },
+  "Spike Trap": {
+   "zh_hans": "尖刺陷阱",
+   "zh_hant": "尖刺陷阱"
+  },
+  "Spiked Bracers": {
+   "zh_hans": "尖刺护腕",
+   "zh_hant": "尖刺護腕"
+  },
+  "Spiked Buckler": {
+   "zh_hans": "尖刺轻盾",
+   "zh_hant": "尖刺輕盾"
+  },
+  "Spiked Club": {
+   "zh_hans": "钝钉木棒",
+   "zh_hant": "鈍釘木棒"
+  },
+  "Spiked Spear": {
+   "zh_hans": "尖刺战矛",
+   "zh_hant": "尖刺長矛"
+  },
+  "Spikeward Buckler": {
+   "zh_hans": "尖刺守护轻盾",
+   "zh_hant": "尖衛輕盾"
+  },
+  "Spined Bracers": {
+   "zh_hans": "精纺护腕",
+   "zh_hant": "棘刺護腕"
+  },
+  "Spiny Talisman": {
+   "zh_hans": "荆刺魔符",
+   "zh_hant": "尖錐魔符"
+  },
+  "Spiral Wraps": {
+   "zh_hans": "螺旋裹手",
+   "zh_hant": "盤繞裹手"
+  },
+  "Spired Greathelm": {
+   "zh_hans": "螺旋巨盔",
+   "zh_hant": "尖頂巨盔"
+  },
+  "Spiritbone Crown": {
+   "zh_hans": "灵骨王冠",
+   "zh_hant": "魂骨之冠"
+  },
+  "Splintered Flail": {
+   "zh_hans": "碎裂连枷",
+   "zh_hant": "分裂鏈錘"
+  },
+  "Splintered Tower Shield": {
+   "zh_hans": "朽木塔盾",
+   "zh_hant": "朽木塔盾"
+  },
+  "Splitting Greataxe": {
+   "zh_hans": "裂刃大斧",
+   "zh_hant": "分裂巨斧"
+  },
+  "Spriggan Staff": {
+   "zh_hans": "鬼灵长杖",
+   "zh_hant": "狡詐長杖"
+  },
+  "Stacked Sabatons": {
+   "zh_hans": "层钢战靴",
+   "zh_hant": "疊層鎧靴"
+  },
+  "Staghorn Focus": {
+   "zh_hans": "鹿角法器",
+   "zh_hant": "鹿角法器"
+  },
+  "Stalking Belt": {
+   "zh_hans": "追踪腰带",
+   "zh_hant": "獵跡腰帶"
+  },
+  "Stalking Bracers": {
+   "zh_hans": "潜行护腕",
+   "zh_hant": "潛獵護腕"
+  },
+  "Stalking Spear": {
+   "zh_hans": "潜行战矛",
+   "zh_hant": "潛獵長矛"
+  },
+  "Staunching Charm": {
+   "zh_hans": "止血咒符",
+   "zh_hant": "止血護符"
+  },
+  "Steel Plate": {
+   "zh_hans": "冷钢之铠",
+   "zh_hant": "堅鋼鎧甲"
+  },
+  "Steelhead Spear": {
+   "zh_hans": "钢头战矛",
+   "zh_hant": "鋼尖長矛"
+  },
+  "Steelmail Gauntlets": {
+   "zh_hans": "钢甲手甲",
+   "zh_hant": "鋼鎖護手"
+  },
+  "Steelpoint Quarterstaff": {
+   "zh_hans": "钢缘节杖",
+   "zh_hant": "鋼尖細杖"
+  },
+  "Steelpoint Shoes": {
+   "zh_hans": "钢缘便鞋",
+   "zh_hant": "鋼尖輕鞋"
+  },
+  "Steeltoe Boots": {
+   "zh_hans": "钢趾靴",
+   "zh_hant": "鐵趾長靴"
+  },
+  "Stellar Amulet": {
+   "zh_hans": "星辉项链",
+   "zh_hant": "恆星項鍊"
+  },
+  "Stitched Gloves": {
+   "zh_hans": "缝合手套",
+   "zh_hant": "縫合手套"
+  },
+  "Stocky Mitts": {
+   "zh_hans": "敦实护手",
+   "zh_hant": "結實長手套"
+  },
+  "Stoic Crest Shield": {
+   "zh_hans": "清修纹章盾",
+   "zh_hant": "堅忍紋章盾"
+  },
+  "Stoic Sceptre": {
+   "zh_hans": "克己权杖",
+   "zh_hant": "魔道權杖"
+  },
+  "Stone Charm": {
+   "zh_hans": "磐石咒符",
+   "zh_hant": "岩石護符"
+  },
+  "Stone Cuirass": {
+   "zh_hans": "石制胸甲",
+   "zh_hant": "岩石胸甲"
+  },
+  "Stone Flail": {
+   "zh_hans": "巨石连枷",
+   "zh_hant": "岩石鏈錘"
+  },
+  "Stone Greatsword": {
+   "zh_hans": "磐石巨剑",
+   "zh_hant": "岩石巨劍"
+  },
+  "Stone Greaves": {
+   "zh_hans": "坚石胫甲",
+   "zh_hant": "岩石脛甲"
+  },
+  "Stone Targe": {
+   "zh_hans": "石制圆盾",
+   "zh_hant": "岩石圓盾"
+  },
+  "Stone Tower Shield": {
+   "zh_hans": "坚石塔盾",
+   "zh_hant": "岩石塔盾"
+  },
+  "Stout Crossbow": {
+   "zh_hans": "粗壮战弩",
+   "zh_hant": "牢固十字弓"
+  },
+  "Stratified Targe": {
+   "zh_hans": "分层圆盾",
+   "zh_hant": "分層圓盾"
+  },
+  "Straw Sandals": {
+   "zh_hans": "稻草鞋履",
+   "zh_hant": "乾草便鞋"
+  },
+  "Strider Vest": {
+   "zh_hans": "疾行者背心",
+   "zh_hant": "疾行者背心"
+  },
+  "Strife Pick": {
+   "zh_hans": "纷争之镐",
+   "zh_hant": "鬥爭鎬"
+  },
+  "Striking Quarterstaff": {
+   "zh_hans": "打击节杖",
+   "zh_hant": "打擊細杖"
+  },
+  "Striking Spear": {
+   "zh_hans": "精标长矛",
+   "zh_hant": "突擊長矛"
+  },
+  "Structured Hammer": {
+   "zh_hans": "构造之锤",
+   "zh_hant": "建構之錘"
+  },
+  "Studded Boots": {
+   "zh_hans": "镶钉长靴",
+   "zh_hant": "鑲釘長靴"
+  },
+  "Studded Greatclub": {
+   "zh_hans": "镶钉巨棍",
+   "zh_hant": "鑲釘巨棍棒"
+  },
+  "Studded Sandals": {
+   "zh_hans": "镶钉鞋履",
+   "zh_hant": "鑲釘便鞋"
+  },
+  "Studded Targe": {
+   "zh_hans": "镶钉圆盾",
+   "zh_hant": "鑲釘圓盾"
+  },
+  "Studded Vest": {
+   "zh_hans": "嵌饰背心",
+   "zh_hant": "鑲釘背心"
+  },
+  "Sturdy Crossbow": {
+   "zh_hans": "坚固战弩",
+   "zh_hant": "堅固十字弓"
+  },
+  "Suede Bracers": {
+   "zh_hans": "绒皮护腕",
+   "zh_hant": "麂皮護腕"
+  },
+  "Swathed Cap": {
+   "zh_hans": "缠丝帽",
+   "zh_hant": "裹頭便帽"
+  },
+  "Swift Bracers": {
+   "zh_hans": "迅捷护腕",
+   "zh_hant": "迅疾護腕"
+  },
+  "Swift Spear": {
+   "zh_hans": "迅捷战矛",
+   "zh_hant": "迅疾長矛"
+  },
+  "Swiftstalker Coat": {
+   "zh_hans": "迅捷潜行者外套",
+   "zh_hant": "迅疾潛獵者外套"
+  },
+  "Sword Spear": {
+   "zh_hans": "剑刃长矛",
+   "zh_hant": "劍刃長矛"
+  },
+  "Talon Claw": {
+   "zh_hans": "猛禽利爪",
+   "zh_hant": "猛禽爪"
+  },
+  "Tasalian Focus": {
+   "zh_hans": "塔萨里奥法器",
+   "zh_hant": "塔薩里奧法器"
+  },
+  "Tasalian Greaves": {
+   "zh_hans": "塔萨里奥胫甲",
+   "zh_hant": "塔薩里奧脛甲"
+  },
+  "Tattered Robe": {
+   "zh_hans": "破烂长袍",
+   "zh_hant": "殘破長袍"
+  },
+  "Taut Crossbow": {
+   "zh_hans": "绷紧战弩",
+   "zh_hant": "緊繃十字弓"
+  },
+  "Tawhoan Greatclub": {
+   "zh_hans": "塔赫亚巨棍",
+   "zh_hant": "塔赫亞巨棍棒"
+  },
+  "Tawhoan Tower Shield": {
+   "zh_hans": "塔赫亚塔盾",
+   "zh_hant": "塔赫亞塔盾"
+  },
+  "Tearing Flail": {
+   "zh_hans": "碎肉连枷",
+   "zh_hant": "撕裂鏈錘"
+  },
+  "Tempered Mitts": {
+   "zh_hans": "淬炼护手",
+   "zh_hant": "淬鍊長手套"
+  },
+  "Templar Vestments": {
+   "zh_hans": "圣堂武僧长衣",
+   "zh_hant": "聖騎士法衣"
+  },
+  "Temple Maul": {
+   "zh_hans": "神殿巨锤",
+   "zh_hant": "神殿重錘"
+  },
+  "Tenebrous Amulet": {
+   "zh_hans": "暗黑项链",
+   "zh_hant": "黑暗項鍊"
+  },
+  "Tenebrous Crown": {
+   "zh_hans": "阴暗王冠",
+   "zh_hant": "幽暗寶冠"
+  },
+  "Tenebrous Ring": {
+   "zh_hans": "暗黑戒指",
+   "zh_hant": "黑暗戒指"
+  },
+  "Tense Crossbow": {
+   "zh_hans": "紧弦战弩",
+   "zh_hant": "緊繃十字弓"
+  },
+  "Tethering Bands": {
+   "zh_hans": "锁魂束带",
+   "zh_hant": "解脫纏帶"
+  },
+  "Thane Mail": {
+   "zh_hans": "领主锁甲",
+   "zh_hant": "領主鎖甲"
+  },
+  "Thawing Charm": {
+   "zh_hans": "融冰咒符",
+   "zh_hant": "解凍護符"
+  },
+  "Threaded Shoes": {
+   "zh_hans": "线缝便鞋",
+   "zh_hant": "縫紉輕鞋"
+  },
+  "Thunder Talisman": {
+   "zh_hans": "雷霆魔符",
+   "zh_hant": "天雷魔符"
+  },
+  "Tideseer Mantle": {
+   "zh_hans": "潮贤斗篷",
+   "zh_hant": "潮汐先知披肩"
+  },
+  "Time-Lost Diamond": {
+   "zh_hans": "失落的宝钻",
+   "zh_hant": "時迭鑽石"
+  },
+  "Time-Lost Emerald": {
+   "zh_hans": "失落的翡翠",
+   "zh_hant": "時迭綠寶石"
+  },
+  "Time-Lost Ruby": {
+   "zh_hans": "失落的红玉",
+   "zh_hant": "時迭紅寶石"
+  },
+  "Time-Lost Sapphire": {
+   "zh_hans": "失落的蓝玉",
+   "zh_hant": "時迭藍寶石"
+  },
+  "Timeless Jewel": {
+   "zh_hans": "永恒珠宝",
+   "zh_hant": "永恆珠寶"
+  },
+  "Titan Mitts": {
+   "zh_hans": "泰坦护手",
+   "zh_hant": "泰坦長手套"
+  },
+  "Tonal Focus": {
+   "zh_hans": "音调法器",
+   "zh_hant": "音調法器"
+  },
+  "Topaz Charm": {
+   "zh_hans": "黄玉咒符",
+   "zh_hant": "黃玉護符"
+  },
+  "Topaz Ring": {
+   "zh_hans": "黄玉戒指",
+   "zh_hant": "黃玉戒指"
+  },
+  "Torment Club": {
+   "zh_hans": "劫难战棒",
+   "zh_hant": "磨難棍棒"
+  },
+  "Torment Jacket": {
+   "zh_hans": "磨难外衣",
+   "zh_hant": "苦難外衣"
+  },
+  "Torn Gloves": {
+   "zh_hans": "破碎手套",
+   "zh_hant": "撕裂手套"
+  },
+  "Torture Wand": {
+   "zh_hans": "煎熬法杖",
+   "zh_hant": "暴虐法杖"
+  },
+  "Totemic Greatclub": {
+   "zh_hans": "图腾巨棍",
+   "zh_hant": "圖騰巨棍棒"
+  },
+  "Totemic Greaves": {
+   "zh_hans": "图腾胫甲",
+   "zh_hant": "圖騰脛甲"
+  },
+  "Tournament Mail": {
+   "zh_hans": "演武锁甲",
+   "zh_hant": "競技鎖甲"
+  },
+  "Toxic Quiver": {
+   "zh_hans": "淬毒箭袋",
+   "zh_hant": "劇毒箭袋"
+  },
+  "Trailblazer Armour": {
+   "zh_hans": "开拓者护甲",
+   "zh_hant": "開拓者護甲"
+  },
+  "Transcendent Life Flask": {
+   "zh_hans": "非凡生命药剂",
+   "zh_hant": "卓越生命藥劑"
+  },
+  "Transcendent Mana Flask": {
+   "zh_hans": "非凡魔力药剂",
+   "zh_hant": "卓越魔力藥劑"
+  },
+  "Trapper Hood": {
+   "zh_hans": "猎人兜帽",
+   "zh_hant": "捕獵者之兜"
+  },
+  "Trarthan Cannon": {
+   "zh_hans": "特拉珊火炮",
+   "zh_hant": "特拉特斯巨砲"
+  },
+  "Treasured Blade": {
+   "zh_hans": "珍奇之刃",
+   "zh_hant": "貴重刀刃"
+  },
+  "Treerunner Shoes": {
+   "zh_hans": "林奔者便鞋",
+   "zh_hant": "樹行者輕鞋"
+  },
+  "Tribal Bow": {
+   "zh_hans": "部族弓",
+   "zh_hant": "部落弓"
+  },
+  "Tribal Mask": {
+   "zh_hans": "部族之面",
+   "zh_hant": "部落之面"
+  },
+  "Trimmed Greaves": {
+   "zh_hans": "镶边胫甲",
+   "zh_hant": "鑲邊脛甲"
+  },
+  "Twig Circlet": {
+   "zh_hans": "细枝头冠",
+   "zh_hant": "嫩枝頭環"
+  },
+  "Twig Focus": {
+   "zh_hans": "枝条法器",
+   "zh_hant": "枝條法器"
+  },
+  "Twilight Tiara": {
+   "zh_hans": "暮光冠冕",
+   "zh_hant": "暮光頭冠"
+  },
+  "Twin Bow": {
+   "zh_hans": "双生之弓",
+   "zh_hant": "雙生之弓"
+  },
+  "Twin Crossbow": {
+   "zh_hans": "双生战弩",
+   "zh_hant": "成雙十字弓"
+  },
+  "Twin Flail": {
+   "zh_hans": "双首连枷",
+   "zh_hant": "雙生鏈錘"
+  },
+  "Twisted Amulet": {
+   "zh_hans": "畸变项链",
+   "zh_hant": "扭曲項鍊"
+  },
+  "Twisted Wand": {
+   "zh_hans": "扭曲法杖",
+   "zh_hant": "扭曲法杖"
+  },
+  "Two-Point Quiver": {
+   "zh_hans": "双锋箭袋",
+   "zh_hant": "雙尖箭袋"
+  },
+  "Two-Stone Ring": {
+   "zh_hans": "双玉戒指",
+   "zh_hant": "雙玉戒指"
+  },
+  "Ultimate Life Flask": {
+   "zh_hans": "终极生命药剂",
+   "zh_hant": "終極生命藥劑"
+  },
+  "Ultimate Mana Flask": {
+   "zh_hans": "终极魔力药剂",
+   "zh_hant": "終極魔力藥劑"
+  },
+  "Ultra Greatsword": {
+   "zh_hans": "超凡巨剑",
+   "zh_hant": "終極巨劍"
+  },
+  "Unset Ring": {
+   "zh_hans": "潜能之戒",
+   "zh_hant": "潛能之戒"
+  },
+  "Urn Trap": {
+   "zh_hans": "古瓮陷阱",
+   "zh_hant": "甕陷阱"
+  },
+  "Utility Belt": {
+   "zh_hans": "万用腰带",
+   "zh_hant": "實用腰帶"
+  },
+  "Utility Wraps": {
+   "zh_hans": "万用裹手",
+   "zh_hant": "實用裹手"
+  },
+  "Utzaal Cuirass": {
+   "zh_hans": "乌扎尔胸甲",
+   "zh_hant": "奧札爾胸甲"
+  },
+  "Vaal Crest Shield": {
+   "zh_hans": "瓦尔纹章盾",
+   "zh_hant": "瓦爾紋章盾"
+  },
+  "Vaal Cuirass": {
+   "zh_hans": "瓦尔胸甲",
+   "zh_hant": "瓦爾胸甲"
+  },
+  "Vaal Gloves": {
+   "zh_hans": "瓦尔手套",
+   "zh_hant": "瓦爾手套"
+  },
+  "Vaal Greaves": {
+   "zh_hans": "瓦尔胫甲",
+   "zh_hant": "瓦爾脛甲"
+  },
+  "Vaal Mitts": {
+   "zh_hans": "瓦尔护手",
+   "zh_hant": "瓦爾長手套"
+  },
+  "Vaal Tower Shield": {
+   "zh_hans": "瓦尔塔盾",
+   "zh_hant": "瓦爾塔盾"
+  },
+  "Vaal Wraps": {
+   "zh_hans": "瓦尔裹手",
+   "zh_hant": "瓦爾裹手"
+  },
+  "Vagabond Armour": {
+   "zh_hans": "漂泊者护甲",
+   "zh_hant": "流浪者護甲"
+  },
+  "Vampiric Blade": {
+   "zh_hans": "喋血之刃",
+   "zh_hant": "嗜血之刃"
+  },
+  "Varnished Crossbow": {
+   "zh_hans": "浸漆战弩",
+   "zh_hant": "亮漆十字弓"
+  },
+  "Veiled Mask": {
+   "zh_hans": "蒙纱之面",
+   "zh_hant": "隱匿之面"
+  },
+  "Velour Shoes": {
+   "zh_hans": "鹅绒便鞋",
+   "zh_hant": "絲絨輕鞋"
+  },
+  "Velvet Cap": {
+   "zh_hans": "丝绒帽",
+   "zh_hant": "天鵝絨便帽"
+  },
+  "Venerable Defender": {
+   "zh_hans": "庄严护卫",
+   "zh_hant": "古老護衛盾"
+  },
+  "Venerated Mantle": {
+   "zh_hans": "崇圣斗篷",
+   "zh_hant": "崇敬披肩"
+  },
+  "Veridical Chain": {
+   "zh_hans": "真相之链",
+   "zh_hant": "幻象鎖鏈"
+  },
+  "Vermeil Circlet": {
+   "zh_hans": "朱砂头冠",
+   "zh_hant": "鍍金頭環"
+  },
+  "Veteran Sabatons": {
+   "zh_hans": "老兵战靴",
+   "zh_hant": "老兵鎧靴"
+  },
+  "Vicious Talisman": {
+   "zh_hans": "凶恶魔符",
+   "zh_hant": "惡毒魔符"
+  },
+  "Vile Greataxe": {
+   "zh_hans": "厄难大斧",
+   "zh_hant": "邪惡巨斧"
+  },
+  "Vile Robe": {
+   "zh_hans": "邪恶束衣",
+   "zh_hant": "惡毒長袍"
+  },
+  "Viper Cap": {
+   "zh_hans": "毒蝰帽",
+   "zh_hant": "毒蛇便帽"
+  },
+  "Visceral Quiver": {
+   "zh_hans": "贯心箭袋",
+   "zh_hant": "內臟箭袋"
+  },
+  "Visored Helm": {
+   "zh_hans": "护面之盔",
+   "zh_hant": "假面之盔"
+  },
+  "Vitalic Ring": {
+   "zh_hans": "活力戒指",
+   "zh_hant": "維生之戒"
+  },
+  "Volant Quiver": {
+   "zh_hans": "飞矢箭袋",
+   "zh_hant": "速射箭袋"
+  },
+  "Volatile Wand": {
+   "zh_hans": "易变法杖",
+   "zh_hant": "失衡法杖"
+  },
+  "Voltaic Staff": {
+   "zh_hans": "雷霆长杖",
+   "zh_hant": "電流長杖"
+  },
+  "Voltfang Talisman": {
+   "zh_hans": "电牙魔符",
+   "zh_hant": "伏特之牙魔符"
+  },
+  "Voodoo Focus": {
+   "zh_hans": "巫毒法器",
+   "zh_hant": "巫毒法器"
+  },
+  "Votive Raiment": {
+   "zh_hans": "奉愿之衣",
+   "zh_hant": "還願之衣"
+  },
+  "Wanderer Armour": {
+   "zh_hans": "流浪者护甲",
+   "zh_hant": "漫遊者護甲"
+  },
+  "Wanderer Shoes": {
+   "zh_hans": "游荡者便鞋",
+   "zh_hant": "漫遊者輕鞋"
+  },
+  "War Spear": {
+   "zh_hans": "历战长矛",
+   "zh_hant": "戰爭長矛"
+  },
+  "War Wraps": {
+   "zh_hans": "战争裹手",
+   "zh_hant": "戰爭裹手"
+  },
+  "Warded Helm": {
+   "zh_hans": "掩蔽头盔",
+   "zh_hant": "保衛之盔"
+  },
+  "Warden Bow": {
+   "zh_hans": "监守弓",
+   "zh_hant": "守護者之弓"
+  },
+  "Warding Quarterstaff": {
+   "zh_hans": "守护节杖",
+   "zh_hant": "庇護細杖"
+  },
+  "Warlock Leggings": {
+   "zh_hans": "术士护腿",
+   "zh_hant": "術士護腿"
+  },
+  "Warlord Cuirass": {
+   "zh_hans": "督军胸甲",
+   "zh_hant": "總督胸甲"
+  },
+  "Warmonger Bow": {
+   "zh_hans": "寻战之弓",
+   "zh_hant": "狂戰者之弓"
+  },
+  "Warmonger Greathelm": {
+   "zh_hans": "好战者巨盔",
+   "zh_hant": "狂戰者巨盔"
+  },
+  "Warpick": {
+   "zh_hans": "战镐",
+   "zh_hant": "戰鎬"
+  },
+  "Warrior Greathelm": {
+   "zh_hans": "战士巨盔",
+   "zh_hant": "戰士巨盔"
+  },
+  "Waxed Jacket": {
+   "zh_hans": "防水外衣",
+   "zh_hant": "打蠟外衣"
+  },
+  "Waxing Quarterstaff": {
+   "zh_hans": "蜡饰节杖",
+   "zh_hant": "白蠟細杖"
+  },
+  "Wayfarer Jacket": {
+   "zh_hans": "远行者外衣",
+   "zh_hant": "旅人外衣"
+  },
+  "Wayfarer Shoes": {
+   "zh_hans": "远行者便鞋",
+   "zh_hant": "旅行者輕鞋"
+  },
+  "Wayward Crest Shield": {
+   "zh_hans": "无定纹章盾",
+   "zh_hant": "剛愎紋章盾"
+  },
+  "Weaver Leggings": {
+   "zh_hans": "织履绑腿",
+   "zh_hant": "編織者護腿"
+  },
+  "Whorl Focus": {
+   "zh_hans": "涡旋法器",
+   "zh_hant": "螺旋法器"
+  },
+  "Wicker Tiara": {
+   "zh_hans": "柳枝冠冕",
+   "zh_hant": "枝條頭冠"
+  },
+  "Wide Belt": {
+   "zh_hans": "宽大腰带",
+   "zh_hant": "寬大腰帶"
+  },
+  "Wildwood Talisman": {
+   "zh_hans": "荒林魔符",
+   "zh_hant": "荒林魔符"
+  },
+  "Wingbeat Talisman": {
+   "zh_hans": "翼振魔符",
+   "zh_hant": "振翼魔符"
+  },
+  "Winged Spear": {
+   "zh_hans": "飞翼长矛",
+   "zh_hant": "羽翅長矛"
+  },
+  "Withered Wand": {
+   "zh_hans": "凋零法杖",
+   "zh_hant": "凋零法杖"
+  },
+  "Wolfbone Claw": {
+   "zh_hans": "狼骨利爪",
+   "zh_hant": "狼骨爪"
+  },
+  "Wolfskin Mantle": {
+   "zh_hans": "狼皮斗篷",
+   "zh_hant": "狼皮披肩"
+  },
+  "Wooden Buckler": {
+   "zh_hans": "木制轻盾",
+   "zh_hant": "木頭輕盾"
+  },
+  "Wooden Club": {
+   "zh_hans": "木棒",
+   "zh_hant": "木製棍棒"
+  },
+  "Wool Cap": {
+   "zh_hans": "羊毛帽",
+   "zh_hant": "羊毛便帽"
+  },
+  "Woven Cap": {
+   "zh_hans": "编织帽",
+   "zh_hant": "編織便帽"
+  },
+  "Woven Focus": {
+   "zh_hans": "织造法器",
+   "zh_hant": "編織法器"
+  },
+  "Wrapped Cap": {
+   "zh_hans": "包裹帽",
+   "zh_hant": "纏繞便帽"
+  },
+  "Wrapped Greathelm": {
+   "zh_hans": "裹布巨盔",
+   "zh_hant": "纏繞巨盔"
+  },
+  "Wrapped Quarterstaff": {
+   "zh_hans": "裹布节杖",
+   "zh_hant": "纏繞細杖"
+  },
+  "Wrapped Sandals": {
+   "zh_hans": "裹布鞋履",
+   "zh_hant": "裹腳便鞋"
+  },
+  "Wrath Sceptre": {
+   "zh_hans": "愤怒权杖",
+   "zh_hant": "暴怒權杖"
+  },
+  "Wreath Focus": {
+   "zh_hans": "花环法器",
+   "zh_hant": "花環法器"
+  },
+  "Wyrm Quarterstaff": {
+   "zh_hans": "腾龙节杖",
+   "zh_hant": "蠕蟲細杖"
+  },
+  "Wyrmscale Coat": {
+   "zh_hans": "巨龙鳞外套",
+   "zh_hant": "龍鱗外套"
+  },
+  "Zealot Bow": {
+   "zh_hans": "狂热弓",
+   "zh_hant": "狂熱者之弓"
+  },
+  "Zealot Crown": {
+   "zh_hans": "狂热者王冠",
+   "zh_hant": "狂熱之冠"
+  },
+  "Zealot Gauntlets": {
+   "zh_hans": "狂热者手套",
+   "zh_hant": "狂熱護手"
+  },
+  "Zealot Greathammer": {
+   "zh_hans": "狂热大锤",
+   "zh_hant": "狂熱巨錘"
+  },
+  "Zenith Vestments": {
+   "zh_hans": "天顶长衣",
+   "zh_hant": "極盛法衣"
+  }
+ },
+ "format": "poe2-pob-localization/1",
+ "languages": [
+  "zh_hans",
+  "zh_hant"
+ ],
+ "pob_commit": "601768bd105869618c3d6581b883e5d7aeec91b2",
+ "terms_version": "poe2db-1.0"
+}

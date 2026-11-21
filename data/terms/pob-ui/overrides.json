@@ -1,0 +1,757 @@
+{
+ "_doc": "P10b reviewed decisions for ops/pob_ui_fallback.py. zh: key (as in fallback.json, or new English text) -> Simplified Chinese; game terms follow PoE2DB (编年史) or the project's existing wording (精魂, 主手/副手, BD); item type names come from data/terms/poe2db-1.0/item_classes.json. subTypes: defence words for `Body Armour: Armour/Evasion`-style types (PoE2DB terms). english: candidates kept English (old PoE1 names, game words PoE2DB lacks, wrong sense). formats: [English string.format template, Chinese with {0}.. or %s in order]. patterns / plainPatterns: [Lua pattern, replacement] for lines PoB joins with .. (drawn text / text without colour codes). names: buff/state names PoE2DB lacks (user decision 2026-11-21), Simplified wording with its source; a PoE2DB name in keywords.json wins over these.",
+ "english": [
+  "Absolution",
+  "Abyss",
+  "Adrenaline",
+  "Ancestral Vision",
+  "Anger",
+  "Animate Weapon",
+  "Arcane Cloak",
+  "Arcanist Brand",
+  "Armageddon Brand",
+  "Autoexertion",
+  "Automation",
+  "Beast",
+  "Bladestorm",
+  "Blight",
+  "Blind",
+  "Blood Sacrament",
+  "Bone Nova",
+  "Bonechill",
+  "Brittle",
+  "Carapace",
+  "Catalyst",
+  "Chain",
+  "Combustion",
+  "Conductivity",
+  "Construct",
+  "Control",
+  "Corrupting Cry",
+  "Corruption",
+  "Crimson Jewel",
+  "Cruelty",
+  "Cry",
+  "Cursed",
+  "Cyclone",
+  "Default Attack",
+  "Delirious",
+  "Demon",
+  "Desecrated",
+  "Doom",
+  "Eldritch",
+  "Elegant Hubris",
+  "Embrace Madness",
+  "Ensnaring Arrow",
+  "Envy",
+  "Essence",
+  "Firesong",
+  "Fishing Rod",
+  "Flame Link",
+  "Flammability",
+  "Flesh",
+  "Forbidden Rite",
+  "Fortify",
+  "Fresh Meat",
+  "Frostbite",
+  "Ghost Reaver",
+  "Glorious Vanity",
+  "Gore Shockwave",
+  "Hatred",
+  "Icicle Burst",
+  "Idol",
+  "Insane",
+  "Intensify",
+  "Isolation",
+  "Keep",
+  "Lacerate",
+  "Lancing Steel",
+  "Link",
+  "Mageblood",
+  "Malediction",
+  "Manabond",
+  "Manaforged Arrows",
+  "Meat Shield",
+  "Militant Faith",
+  "Mine",
+  "Molten Burst",
+  "Molten Shell",
+  "Necrotic",
+  "Neural",
+  "Nightblade",
+  "Noxious",
+  "Pacify",
+  "Passage",
+  "Penance Brand",
+  "Perforate",
+  "Physical Aegis",
+  "Pinpoint",
+  "Pool",
+  "Predator",
+  "Pride",
+  "Punishment",
+  "Quicksilver Flask",
+  "Rage Vortex",
+  "Raise Spiders",
+  "Ravenous",
+  "Reflection",
+  "Relic",
+  "Scion",
+  "Seismic Trap",
+  "Shaper",
+  "Shock Ground",
+  "Silver Flask",
+  "Siphoning Trap",
+  "Skittering",
+  "Soul",
+  "Spectre",
+  "Split",
+  "Stalking Pustule",
+  "Storm Brand",
+  "Storm Cascade",
+  "Stormshroud",
+  "Summon Reaper",
+  "Summon Skeletons",
+  "Summon Skitterbots",
+  "Tailwind",
+  "Tandem Assault",
+  "The Agnostic",
+  "The Saviour",
+  "Trader",
+  "Trauma",
+  "Unhinge",
+  "Unstable",
+  "Vaal",
+  "Vampiric Link",
+  "Varunastra",
+  "Vigilant Strike",
+  "Viridian Jewel",
+  "Voltaxic Burst",
+  "Warden",
+  "Wintertide Brand",
+  "Wrath"
+ ],
+ "zh": {
+  "Allocate": "点亮",
+  "Allocates": "点亮",
+  "Build Import": "BD 导入",
+  "Build List": "BD 列表",
+  "Build Sharing": "分享 BD",
+  "Compare": "对比",
+  "Compare Build": "对比 BD",
+  "Comparison Build": "对比 BD",
+  "Similar Builds": "相似 BD",
+  "Freeze Chance": "冻结几率",
+  "League": "赛季",
+  "Magic": "魔法",
+  "Normal": "普通",
+  "Rare": "稀有",
+  "Unique": "传奇",
+  "Quest": "任务",
+  "Show Allocated": "显示已点亮",
+  "Show Unallocated": "显示未点亮",
+  "Gem": "宝石",
+  "Gem Options": "宝石选项",
+  "Total Attributes": "属性总计",
+  "Additional Reservation: {#} Spirit": "   额外保留：^7{0} 精魂",
+  "Attack Time: {#} sec": "   攻击时间：^7{0} 秒",
+  "Energy Shield: {#}{#}": "能量护盾：{0}{1}",
+  "Evasion Rating: {#}{#}": "闪避值：{0}{1}",
+  "Reservation: {#} Spirit": "   保留：^7{0} 精魂",
+  "Runic Ward: {#}{#}": "符文结界：{0}{1}",
+  "Activating this charm will give you:": "^7启用此咒符将使你获得：",
+  "Activating this flask will give you:": "^7启用此药剂将使你获得：",
+  "Disabling this gem will give you:": "^7禁用此宝石将使你获得：",
+  "Your unreserved Spirit is negative": "你未保留的精魂为负值",
+  "You have too many passive points allocated": "已点亮的天赋点数过多",
+  "Maximum hit damage breakdown": "最大承伤明细",
+  "Resulting ailment effect": "最终异常状态效果",
+  "Tip: You can drag items from the Items tab onto this dropdown to equip them onto the minion.": "提示：可把装备页的物品拖到此下拉框，给召唤生物装备。",
+  "Support Gems": "辅助宝石",
+  "Sort by Companion Reservation": "按伙伴保留排序",
+  "Total Energy Shield Degen": "能量护盾总流失",
+  "Total damage from the enemy": "来自敌人的总伤害",
+  "Total damage taken after mitigation": "减免后承受的总伤害",
+  "Total damage taken from the enemy after taken as": "按承受类型转换后来自敌人的总伤害",
+  "MH Hit Damage": "主手击中伤害",
+  "MH Impale Chance": "主手穿刺几率",
+  "MH Stored Damage": "主手储存伤害",
+  "MH Stun Duration": "主手晕眩持续时间",
+  "MH Stun Threshold": "主手晕眩阈值",
+  "OH Hit Damage": "副手击中伤害",
+  "OH Impale Chance": "副手穿刺几率",
+  "OH Stored Damage": "副手储存伤害",
+  "OH Stun Duration": "副手晕眩持续时间",
+  "OH Stun Threshold": "副手晕眩阈值",
+  "Minions Accuracy Rating": "召唤生物命中值",
+  "Non-Curse Aura Effect": "非诅咒光环效果",
+  "Duration of Curses": "诅咒持续时间",
+  "Attack Speed before increased Attack Speed": "计入攻击速度提高前的攻击速度",
+  "Calculating Mod Weights...": "正在计算词缀权重…",
+  "Calculating...": "计算中…",
+  "Choose Attribute": "选择属性",
+  "Authorize with Path of Exile": "^7通过 Path of Exile 授权",
+  "Burning Ground DPS exceeds in game limit": "燃烧地面 DPS 超出游戏上限",
+  "Caustic Ground DPS exceeds in game limit": "腐蚀地面 DPS 超出游戏上限",
+  "Minion Bleed DPS exceeds in game limit": "召唤生物流血 DPS 超出游戏上限",
+  "Minion DoT DPS exceeds in game limit": "召唤生物持续伤害 DPS 超出游戏上限",
+  "Minion Ignite DPS exceeds in game limit": "召唤生物点燃 DPS 超出游戏上限",
+  "Minion Poison dps exceeds in game limit": "召唤生物中毒 DPS 超出游戏上限",
+  "Mirage Burning Ground DPS exceeds in game limit": "幻影射手燃烧地面 DPS 超出游戏上限",
+  "Mirage Caustic Ground DPS exceeds in game limit": "幻影射手腐蚀地面 DPS 超出游戏上限",
+  "Minion:": "^7召唤生物：",
+  "Speed": "速度",
+  "Corrupted": "已腐化",
+  "Number of different Grenade types used in tha past 10s": "过去 10 秒内使用过的榴弹种类数",
+  "Number of different Ammunition types used in tha past 10s": "过去 10 秒内使用过的弹药种类数",
+  "This option sets whether or not the enemy has hit you with ^x3F6DB3Cold Damage^7 in the last 4 seconds.": "^7设置敌人在过去 4 秒内是否以^x3F6DB3冰霜^7伤害击中过你。",
+  "This option sets whether or not the enemy has hit you with ^xB97123Fire Damage^7 in the last 4 seconds.": "^7设置敌人在过去 4 秒内是否以^xB97123火焰^7伤害击中过你。",
+  "This option sets whether or not the enemy has hit you with ^xADAA47Lightning Damage^7 in the last 4 seconds.": "^7设置敌人在过去 4 秒内是否以^xADAA47闪电^7伤害击中过你。",
+  "This applies -20% ^xADAA47Lightning Resistance ^7to the enemy.": "对敌人施加 -20% ^xADAA47闪电抗性^7。",
+  "This also implies that the enemy is ^xB97123Burning.": "这也表示敌人正在^xB97123燃烧^7。",
+  "This also implies that you are ^xB97123Burning.": "这也表示你正在^xB97123燃烧^7。",
+  "Sets the total Resonance Count.": "设置共鸣总数。",
+  "your total Dexterity support gems.": "你的敏捷辅助宝石总数。",
+  "your total Intelligence support gems.": "你的智慧辅助宝石总数。",
+  "your total Strength support gems.": "你的力量辅助宝石总数。",
+  "Tip: Press Ctrl+D in the Items tab to disable the display of stat differences.": "提示：在装备页按 Ctrl+D 可关闭属性差异显示。",
+  "Tip: Hold Shift to display a tooltip for the granted skill.": "提示：按住 Shift 显示所赋予技能的提示。",
+  "Such a hit would drain the following resources:": "这样一击会消耗以下资源：",
+  "This part of the hit drains the following resources:": "这部分击中消耗以下资源：",
+  "Maximum hit is calculated in reverse -": "最大承伤为倒推计算——",
+  "from health pools, via damage reductions, to the max hit:": "从生命池经各项减伤推算到最大承伤：",
+  "rounded up to nearest server tick": "向上取整到服务器帧",
+  "Maximum of:": "取最大值：",
+  "Total life protected:": "受保护的生命总量：",
+  "min combined sources + (max combined sources - min combined sources) * average roll": "^8合计最小值 + (合计最大值 - 合计最小值) * 平均掷值",
+  "Non-Crit Dmg Derivation:": "非暴击伤害推算：",
+  "DPS Range:": "DPS 范围：",
+  "Energy Shield Regeneration:": "能量护盾再生：",
+  "Life Regeneration:": "生命再生：",
+  "Mana Regeneration:": "魔力再生：",
+  "Average Roll:": "平均掷值：",
+  "Approximate hit chance at:": "近似命中率：",
+  "Minimum Movement Speed while using this skill": "使用此技能时的最低移动速度",
+  "(This is the lowest movement speed you will reach while using this skill,": "（这是使用此技能时会降到的最低移动速度，",
+  "subject to acceleration and deceleration)": "受加速和减速影响）",
+  "NOTE: Having any energy shield when the hit occurs grants 50% chance to avoid stun.": "注意：被击中时只要有能量护盾，就有 50% 几率避免晕眩。",
+  "POB only applies this modifier when ES > Total incoming damage.": "PoB 只在能量护盾 > 承受总伤害时计入此修正。",
+  "Uses a weighted average formula when stack potential is over 100%": "叠层潜力超过 100% 时使用加权平均公式",
+  "The percentage of your max stacks that are applied on average if you are attacking constantly": "持续攻击时平均施加的层数占最大层数的百分比",
+  "This is the average roll of an ailment affecting the enemy if you are constantly attacking": "这是持续攻击时影响敌人的异常状态的平均掷值",
+  "Roll:": "掷值：",
+  "Del All": "全部删除",
+  "Buy similar": "购买相似",
+  "Modifier sorting:": "词缀排序：",
+  "modifiers to enemy damage": "敌人伤害修正",
+  "enemy crit effect": "敌人暴击效果",
+  "base mana cost": "基础魔力消耗",
+  "additional use": "额外使用次数",
+  "skill uses": "技能使用次数",
+  "total uses": "总使用次数",
+  "base from Life": "基础值来自生命",
+  "base from Item": "基础值来自物品",
+  "base from Life before Chaos Inoculation": "基础值来自异灵之体之前的生命",
+  "averaging <= 1 applications": "平均 <= 1 次施加",
+  "of damage taken from an Average hit": "平均一击的承受伤害",
+  "chance to be hit by an Average hit": "被平均一击命中的几率",
+  "base leech rate is 2% per second": "基础偷取速率为每秒 2%",
+  "Duration / max(Cooldown, Cast Time)": "持续时间 / max(冷却, 施法时间)",
+  "Uncapped ailment DPS Range": "未封顶异常 DPS 范围",
+  "Capped ailment DPS Range": "封顶异常 DPS 范围",
+  "ailment DPS Range": "异常 DPS 范围",
+  "Regular Hit Electrocute buildup": "普通击中触电积蓄",
+  "Crit Electrocute buildup": "暴击触电积蓄",
+  "Average Electrocute buildup": "平均触电积蓄",
+  "Regular Hit Freeze buildup": "普通击中冻结积蓄",
+  "Crit Freeze buildup": "暴击冻结积蓄",
+  "Average Freeze buildup": "平均冻结积蓄",
+  "Regular Hit Pin buildup": "普通击中定身积蓄",
+  "Crit Pin buildup": "暴击定身积蓄",
+  "Average Pin buildup": "平均定身积蓄",
+  "Regular Hit HeavyStun buildup": "普通击中晕眩积蓄",
+  "Crit HeavyStun buildup": "暴击晕眩积蓄",
+  "Average HeavyStun buildup": "平均晕眩积蓄",
+  "Rage Regeneration:": "怒火再生：",
+  "Double-click an item from one of the lists, or copy and paste an item from in game (hover over the item and Ctrl+C) to view or edit the item and add it to your build. You can also clone an item within Path of Building by copying and pasting it with Ctrl+C and Ctrl+V. You can Control + Click an item to equip it, or drag it onto the slot. This will also add it to your build if it's from the unique/template list. If there's 2 slots an item can go in, holding Shift will put it in the second.": "^7双击任一列表中的物品，\n或从游戏中复制粘贴物品\n（鼠标悬停在物品上按 Ctrl+C），\n即可查看、编辑物品并加入 BD。\n也可以在 PoB 内用 Ctrl+C 和\nCtrl+V 复制粘贴来克隆物品。\n\n按住 Ctrl 单击物品可直接装备，\n或把它拖到槽位上。若物品来自\n传奇/模板列表，也会同时加入 BD。\n若物品可放入 2 个槽位，\n按住 Shift 会放入第二个。",
+  "This will enable the Unholy Might buff.\n(Grants 30% of All Damage as extra ^xD02090Chaos ^7Damage)": "启用不洁之力增益。\n（获得等同于全部伤害 30% 的额外^xD02090混沌^7伤害）",
+  "This will enable the Unholy Might buff on your minions.\n\n(Grants 30% of All Damage as extra ^xD02090Chaos ^7Damage)": "为你的召唤生物启用不洁之力增益。\n\n（获得等同于全部伤害 30% 的额外^xD02090混沌^7伤害）",
+  "This will enable the Chaotic Might buff.\n(Grants 30% of Physical Damage as Extra ^xD02090Chaos ^7Damage)": "启用 Chaotic Might 增益。\n（获得等同于物理伤害 30% 的额外^xD02090混沌^7伤害）",
+  "This will enable the Chaotic Might buff on your minions.\n(Grants 30% of Physical Damage as Extra ^xD02090Chaos ^7Damage)": "为你的召唤生物启用 Chaotic Might 增益。\n（获得等同于物理伤害 30% 的额外^xD02090混沌^7伤害）",
+  "Recovers {#}{#} Life over {#}{#}0 Seconds": "回复 {#}{#} ^x7F7F7F生命，持续 {#}{#}0 ^x7F7F7F秒",
+  "Recovers {#}{#} Life instantly": "立即回复 {#}{#} ^x7F7F7F生命",
+  "Recovers {#}{#} Mana over {#}{#}0 Seconds": "回复 {#}{#} ^x7F7F7F魔力，持续 {#}{#}0 ^x7F7F7F秒",
+  "Recovers {#}{#} Mana instantly": "立即回复 {#}{#} ^x7F7F7F魔力",
+  "Toggling this option will give you:": "^7切换此选项将使你获得：",
+  "Selecting this option will give you:": "^7选择此选项将使你获得：",
+  "Any Loadout": "任意方案",
+  "Current Loadout": "当前方案",
+  "Unused Items": "未使用的物品",
+  "This is a list of items that will be shared between all of\nyour builds.\nYou can add items to this list by dragging them from\none of the other lists.": "^x7F7F7F这里的物品会在你所有 BD 之间共享。\n可从其他列表把物品拖到这里加入。",
+  "Fire Resist": "火焰抗性",
+  "Fire Resist Max": "火焰抗性上限",
+  "Cold Resist": "冰霜抗性",
+  "Cold Resist Max": "冰霜抗性上限",
+  "Lightning Resist": "闪电抗性",
+  "Lightning Resist Max": "闪电抗性上限",
+  "Chaos Resist": "混沌抗性",
+  "Chaos Resist Max": "混沌抗性上限",
+  "Consumes {#}{#} of {#}{#} Charges on use": "使用时消耗 {#}{#} ^x7F7F7F/{#}{#} ^x7F7F7F充能",
+  "Attack Damage: {#}%%": "攻击伤害：^7{0}%",
+  "Attack Damage: {#}%% of base": "   攻击伤害：^7基础的 {0}%",
+  "Attack Speed: {#}%% of base": "   攻击速度：^7基础的 {0}%",
+  "Chance to Block: {#}{#}%%": "格挡几率：{0}{1}%",
+  "Companion Reservation: {#}{#}%%": "^7伙伴保留：{0}{1}%",
+  "Critical Hit Chance: {#}%%": "   暴击率：^7{0}%",
+  "Critical Hit Chance: {#}{#}%%": "暴击率：{0}{1}%",
+  "Reservation: {#}%% Spirit": "   保留：^7{0}% 精魂",
+  "League:": "赛季:",
+  "Realm:": "服务器:",
+  "Price Item": "查价",
+  "Trader": "市集交易"
+ },
+ "formats": [
+  [
+   "You have %d Weapon set %d passives available",
+   "武器组 {1} 还有 {0} 点天赋可点亮"
+  ],
+  [
+   "You have allocated %d too many weapon set 1 passives",
+   "武器组 1 的天赋多点亮了 {0} 点"
+  ],
+  [
+   "You have allocated %d too many weapon set 2 passives",
+   "武器组 2 的天赋多点亮了 {0} 点"
+  ],
+  [
+   "%d%% over %d seconds",
+   "{0}%，持续 {1} 秒"
+  ],
+  [
+   "= %.1f%% over %d seconds",
+   "= {0}%，持续 {1} 秒"
+  ],
+  [
+   "%.2f%% of Maximum ailment DPS",
+   "为异常最大 DPS 的 {0}%"
+  ],
+  [
+   "Requires Level %s",
+   "需求等级 {0}"
+  ],
+  [
+   "Quality: %s",
+   "品质：{0}"
+  ],
+  [
+   "Charges used: %s of %s (%s uses)",
+   "充能消耗：{0} / {1}（可用 {2} 次）"
+  ],
+  [
+   "Charge gain modifier: %s",
+   "充能获取加成：{0}"
+  ],
+  [
+   "Life recovered: %s over %s",
+   "生命回复：{0}，耗时 {1}"
+  ],
+  [
+   "Mana recovered: %s over %s",
+   "魔力回复：{0}，耗时 {1}"
+  ],
+  [
+   "Energy Shield recovered: %s over %s",
+   "能量护盾回复：{0}，耗时 {1}"
+  ],
+  [
+   "(replacing %s)",
+   "（替换 {0}）"
+  ],
+  [
+   "Sockets: %s",
+   "插槽：{0}"
+  ],
+  [
+   "Charm Slots: %s",
+   "咒符栏位：{0}"
+  ],
+  [
+   "Socketed Jewel Effect: %s",
+   "插槽内珠宝效果：{0}"
+  ],
+  [
+   "%s points gained from unallocating these nodes",
+   "取消点亮这些节点可返还 {0} 点"
+  ],
+  [
+   "%s points to node",
+   "距此节点 {0} 点"
+  ],
+  [
+   "Min: %s",
+   "最小：{0}"
+  ],
+  [
+   "Max: %s",
+   "最大：{0}"
+  ],
+  [
+   "Avg: %s",
+   "平均：{0}"
+  ],
+  [
+   "Crit Min: %s",
+   "暴击最小：{0}"
+  ],
+  [
+   "Crit Max: %s",
+   "暴击最大：{0}"
+  ],
+  [
+   "Crit Avg: %s",
+   "暴击平均：{0}"
+  ],
+  [
+   "Enemy poise: %s",
+   "敌人姿态值：{0}"
+  ],
+  [
+   "from Default: %s",
+   "来自默认：{0}"
+  ],
+  [
+   "+ Enemy Pen: %s",
+   "+ 敌人穿透：{0}"
+  ],
+  [
+   "%s Energy Shield (%s remaining)",
+   "{0} 能量护盾（剩余 {1}）"
+  ],
+  [
+   "%s Life (%s remaining)",
+   "{0} 生命（剩余 {1}）"
+  ],
+  [
+   "%s Mana (%s remaining)",
+   "{0} 魔力（剩余 {1}）"
+  ],
+  [
+   "%s incoming damage",
+   "{0} 承受伤害"
+  ],
+  [
+   "Dot Damage Taken modifier: %s",
+   "持续伤害承受修正：{0}"
+  ],
+  [
+   "Effective Evasion: %s",
+   "有效闪避：{0}"
+  ],
+  [
+   "Non-bypassed Energy Shield: %s",
+   "未被绕过的能量护盾：{0}"
+  ],
+  [
+   "Total Effective Dot Pool: %s",
+   "有效持续伤害总池：{0}"
+  ],
+  [
+   "Approximate deflect chance: %s",
+   "近似偏转几率：{0}"
+  ],
+  [
+   "Approximate evade chance: %s",
+   "近似闪避几率：{0}"
+  ],
+  [
+   "Approximate melee evade chance: %s",
+   "近似近战闪避几率：{0}"
+  ],
+  [
+   "Approximate projectile evade chance: %s",
+   "近似投射物闪避几率：{0}"
+  ],
+  [
+   "Approximate spell evade chance: %s",
+   "近似法术闪避几率：{0}"
+  ],
+  [
+   "Approximate spell projectile evade chance: %s",
+   "近似法术投射物闪避几率：{0}"
+  ],
+  [
+   "Enemy evasion: %s",
+   "敌人闪避：{0}"
+  ],
+  [
+   "Enemy resistance: %s",
+   "敌人抗性：{0}"
+  ],
+  [
+   "Resistance: %s",
+   "抗性：{0}"
+  ],
+  [
+   "Reduction from Armour: %s",
+   "护甲减伤：{0}"
+  ],
+  [
+   "Time to reach max: %s",
+   "达到上限用时：{0}"
+  ],
+  [
+   "x %s damage mult",
+   "x {0} 伤害倍率"
+  ],
+  [
+   "x %s enemy attack/cast time",
+   "x {0} 敌人攻击/施法时间"
+  ],
+  [
+   "= %s maximum survivable enemy damage",
+   "= {0} 可承受的最大敌人伤害"
+  ],
+  [
+   "%s Overkill damage",
+   "{0} 溢出伤害"
+  ],
+  [
+   "%s Dexterity Support Gems",
+   "{0} 个敏捷辅助宝石"
+  ],
+  [
+   "%s Intelligence Support Gems",
+   "{0} 个智慧辅助宝石"
+  ],
+  [
+   "%s Strength Support Gems",
+   "{0} 个力量辅助宝石"
+  ],
+  [
+   "%s as Physical",
+   "{0} 视为物理"
+  ],
+  [
+   "%s as Fire",
+   "{0} 视为火焰"
+  ],
+  [
+   "%s as Cold",
+   "{0} 视为冰霜"
+  ],
+  [
+   "%s as Lightning",
+   "{0} 视为闪电"
+  ],
+  [
+   "%s as Chaos",
+   "{0} 视为混沌"
+  ],
+  [
+   "Final Physical Damage taken:",
+   "最终承受物理伤害："
+  ],
+  [
+   "Final Fire Damage taken:",
+   "最终承受火焰伤害："
+  ],
+  [
+   "Final Cold Damage taken:",
+   "最终承受冰霜伤害："
+  ],
+  [
+   "Final Lightning Damage taken:",
+   "最终承受闪电伤害："
+  ],
+  [
+   "Final Chaos Damage taken:",
+   "最终承受混沌伤害："
+  ],
+  [
+   "You can't deal Physical damage",
+   "你无法造成物理伤害"
+  ],
+  [
+   "You can't deal Fire damage",
+   "你无法造成火焰伤害"
+  ],
+  [
+   "You can't deal Cold damage",
+   "你无法造成冰霜伤害"
+  ],
+  [
+   "You can't deal Lightning damage",
+   "你无法造成闪电伤害"
+  ],
+  [
+   "You can't deal Chaos damage",
+   "你无法造成混沌伤害"
+  ],
+  [
+   "If hitting constantly, your average strongest ailment currently achieves %s of its max damage",
+   "持续击中时，你最强的异常状态平均达到其最大伤害的 {0}"
+  ],
+  [
+   "* %.2f (modifiers to enemy damage)",
+   "* {0} (敌人伤害修正)"
+  ],
+  [
+   "* %.3f (enemy crit effect)",
+   "* {0} (敌人暴击效果)"
+  ],
+  [
+   "x %.2f ^8(ailment deals %d%% per second)",
+   "x {0} ^8(异常状态每秒造成 {1}%)"
+  ],
+  [
+   "%.0f to %.0f ^8(ailment DPS Range)",
+   "{0} 至 {1} ^8(异常 DPS 范围)"
+  ],
+  [
+   "%.0f to %.0f ^8(Uncapped ailment DPS Range)",
+   "{0} 至 {1} ^8(未封顶异常 DPS 范围)"
+  ],
+  [
+   "%.0f to %.0f ^8(Capped ailment DPS Range)",
+   "{0} 至 {1} ^8(封顶异常 DPS 范围)"
+  ]
+ ],
+ "patterns": [],
+ "plainPatterns": [
+  [
+   "^You do not meet the Strength requirement of (.+)$",
+   "未满足 %1 的力量需求"
+  ],
+  [
+   "^You do not meet the Dexterity requirement of (.+)$",
+   "未满足 %1 的敏捷需求"
+  ],
+  [
+   "^You do not meet the Intelligence requirement of (.+)$",
+   "未满足 %1 的智慧需求"
+  ],
+  [
+   "^You have too many gem groups allocated%. Max allowed is (%d+)%. You have (%d+) non%-item/non%-granted gem groups allocated%.$",
+   "技能组过多：上限 %1 组，当前有 %2 组非装备、非赋予的技能组。"
+  ],
+  [
+   "^Total base DPS per Ignite:$",
+   "每个点燃的基础总 DPS："
+  ],
+  [
+   "^Total base DPS per Bleed:$",
+   "每个流血的基础总 DPS："
+  ],
+  [
+   "^Total base DPS per Poison:$",
+   "每个中毒的基础总 DPS："
+  ],
+  [
+   "^Average DPS for all Ignites:$",
+   "所有点燃的平均 DPS："
+  ],
+  [
+   "^Average DPS for all Bleeds:$",
+   "所有流血的平均 DPS："
+  ],
+  [
+   "^Average DPS for all Poisons:$",
+   "所有中毒的平均 DPS："
+  ],
+  [
+   "^Rune #(%d+)$",
+   "符文 #%1"
+  ],
+  [
+   "^Jewel #(%d+)$",
+   "珠宝 #%1"
+  ],
+  [
+   "^(.-) %(Not supported in PoB yet%)$",
+   "%1（PoB 暂不支持）"
+  ],
+  [
+   "^Body Rune (%d+):$",
+   "胸甲符文 %1："
+  ],
+  [
+   "^Boots Rune (%d+):$",
+   "鞋子符文 %1："
+  ],
+  [
+   "^Gloves Rune (%d+):$",
+   "手套符文 %1："
+  ],
+  [
+   "^Helmet Rune (%d+):$",
+   "头盔符文 %1："
+  ],
+  [
+   "^Equipping this item in (.+) will give you:$",
+   "装备到 %1 将使你获得："
+  ],
+  [
+   "^Removing this item from (.+) will give you:$",
+   "从 %1 移除此物品将使你获得："
+  ],
+  [
+   "^(.-)  %(Unused%)$",
+   "%1  (未使用)"
+  ]
+ ],
+ "subTypes": {
+  "Armour": "护甲",
+  "Evasion": "闪避",
+  "Energy Shield": "能量护盾"
+ },
+ "names": {
+  "Adrenaline": {
+   "zh": "肾上腺素",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Alchemist's Genius": {
+   "zh": "炼金奇才",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Chaotic Might": {
+   "zh": "混沌之力",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Fanaticism": {
+   "zh": "欣喜若狂",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Sap": {
+   "zh": "精疲力尽",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Covered in Ash": {
+   "zh": "灰烬缠身",
+   "source": "PoeCharm"
+  },
+  "Covered in Frost": {
+   "zh": "冰霜缠身",
+   "source": "PoeCharm"
+  },
+  "Profane Ground": {
+   "zh": "渎神地面",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Fungal Ground": {
+   "zh": "真菌地表",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Glorious Madness": {
+   "zh": "疯狂荣光",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Slipstream": {
+   "zh": "激流",
+   "source": "i18n-zh_CN, PoeCharm"
+  },
+  "Fortification": {
+   "zh": "护体",
+   "source": "i18n-zh_CN, PoeCharm"
+  }
+ }
+}

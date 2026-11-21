@@ -1,0 +1,2328 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Spirit_Gems",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Spirit_Gems",
+    "file": "us/Spirit_Gems.html",
+    "fetched": "2026-11-17T22:13+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Spirit_Gems",
+    "file": "cn/Spirit_Gems.html",
+    "fetched": "2026-11-17T22:13+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Spirit_Gems",
+    "file": "tw/Spirit_Gems.html",
+    "fetched": "2026-11-17T22:13+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "gem_join": "gems pair by href slug; 'pob' holds PoB Data/Gems.lua ids joined by English name",
+  "summary": {
+   "mismatches": 0,
+   "gems": 53,
+   "pob_joined": 53,
+   "missing_in_pob": 0,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 0,
+     "differ": 0,
+     "absent": 0
+    },
+    "names": {
+     "agree": 44,
+     "differ": 4,
+     "absent": 5
+    }
+   }
+  }
+ },
+ "gems": {
+  "Alchemists_Boon": {
+   "en": "Alchemist's Boon",
+   "zh_hans": "炼金师的恩典",
+   "zh_hant": "煉金師恩惠",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    }
+   ],
+   "gem_effect": "AlchemistsBoon",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemAlchemistsBoon",
+    "variantId": "AlchemistsBoon",
+    "grantedEffectId": "AlchemistsBoonPlayer"
+   }
+  },
+  "Archmage": {
+   "en": "Archmage",
+   "zh_hans": "大法师",
+   "zh_hant": "大法師",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    }
+   ],
+   "gem_effect": "Archmage",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemArchmage",
+    "variantId": "Archmage",
+    "grantedEffectId": "ArchmagePlayer"
+   }
+  },
+  "Arctic_Armour": {
+   "en": "Arctic Armour",
+   "zh_hans": "极地装甲",
+   "zh_hant": "極地裝甲",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Sustained",
+     "en": "Sustained",
+     "zh_hans": "持续性技能",
+     "zh_hant": "持續性"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "GainsStages",
+     "en": "Staged",
+     "zh_hans": "层数",
+     "zh_hant": "獲得疊層"
+    }
+   ],
+   "gem_effect": "ArcticArmour",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemArcticArmour",
+    "variantId": "ArcticArmour",
+    "grantedEffectId": "ArcticArmourPlayer"
+   }
+  },
+  "Attrition": {
+   "en": "Attrition",
+   "zh_hans": "持久鏖战",
+   "zh_hant": "損耗",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "Attrition",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemAttrition",
+    "variantId": "Attrition",
+    "grantedEffectId": "AttritionPlayer"
+   }
+  },
+  "Barkskin": {
+   "en": "Barkskin",
+   "zh_hans": "树肤术",
+   "zh_hant": "木質外膚",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "Barkskin",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemBarkskin",
+    "variantId": "Barkskin",
+    "grantedEffectId": "BarkskinPlayer"
+   }
+  },
+  "Barrier_Invocation": {
+   "en": "Barrier Invocation",
+   "zh_hans": "屏障咒言",
+   "zh_hant": "屏障祈願",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Invocation",
+     "en": "Invocation",
+     "zh_hans": "咒祈",
+     "zh_hant": "祈願"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "BarrierInvocation",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemBarrierInvocation",
+    "variantId": "BarrierInvocation",
+    "grantedEffectId": "MetaBarrierInvocationPlayer"
+   }
+  },
+  "Berserk": {
+   "en": "Berserk",
+   "zh_hans": "盛怒",
+   "zh_hant": "狂戰",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "Berserk",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemBerserk",
+    "variantId": "Berserk",
+    "grantedEffectId": "BerserkPlayer"
+   }
+  },
+  "Blasphemy": {
+   "en": "Blasphemy",
+   "zh_hans": "诅咒光环",
+   "zh_hant": "瀆神",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemBlasphemy",
+    "variantId": "Blasphemy",
+    "grantedEffectId": "BlasphemyPlayer"
+   }
+  },
+  "Blink": {
+   "en": "Blink",
+   "zh_hans": "闪现",
+   "zh_hant": "閃現",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Travel",
+     "en": "Travel",
+     "zh_hans": "旅行",
+     "zh_hant": "快行"
+    }
+   ],
+   "gem_effect": "BlinkReservation",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemBlink",
+    "variantId": "BlinkReservation",
+    "grantedEffectId": "BlinkReservationPlayer"
+   }
+  },
+  "Briarpatch": {
+   "en": "Briarpatch",
+   "zh_hans": "荆刺之缚",
+   "zh_hant": "荊棘叢",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Sustained",
+     "en": "Sustained",
+     "zh_hans": "持续性技能",
+     "zh_hant": "持續性"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Plant",
+     "en": "Plant",
+     "zh_hans": "植物技能与蔓生",
+     "zh_hant": "植物"
+    }
+   ],
+   "gem_effect": "Briarpatch",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemBriarpatch",
+    "variantId": "Briarpatch",
+    "grantedEffectId": "BriarpatchPlayer"
+   }
+  },
+  "Cast_on_Critical": {
+   "en": "Cast on Critical",
+   "zh_hans": "暴击时施放",
+   "zh_hant": "暴擊時施放",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "CastOnCriticalStrike",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemCastOnCritical",
+    "variantId": "CastOnCriticalStrike",
+    "grantedEffectId": "MetaCastOnCritPlayer"
+   }
+  },
+  "Cast_on_Dodge": {
+   "en": "Cast on Dodge",
+   "zh_hans": "躲闪时施放",
+   "zh_hant": "閃避時施放",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "CastOnDodge",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemCastOnDodge",
+    "variantId": "CastOnDodge",
+    "grantedEffectId": "MetaCastOnDodgePlayer"
+   }
+  },
+  "Cast_on_Elemental_Ailment": {
+   "en": "Cast on Elemental Ailment",
+   "zh_hans": "元素异常状态时施放",
+   "zh_hant": "元素異常狀態時施放",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "CastOnElementalAilment",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemCastOnElementalAilment",
+    "variantId": "CastOnElementalAilment",
+    "grantedEffectId": "MetaCastOnElementalAilmentPlayer"
+   }
+  },
+  "Cast_on_Minion_Death": {
+   "en": "Cast on Minion Death",
+   "zh_hans": "召唤生物死亡时施放",
+   "zh_hant": "召喚物死亡時施放",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "CastOnMinionDeath",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemCastOnMinionDeath",
+    "variantId": "CastOnMinionDeath",
+    "grantedEffectId": "MetaCastOnMinionDeathPlayer"
+   }
+  },
+  "Charge_Regulation": {
+   "en": "Charge Regulation",
+   "zh_hans": "能量球调节",
+   "zh_hant": "充能調節",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "ChargeRegulation",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemChargeInfusion",
+    "variantId": "ChargeRegulation",
+    "grantedEffectId": "ChargeRegulationPlayer"
+   }
+  },
+  "Combat_Frenzy": {
+   "en": "Combat Frenzy",
+   "zh_hans": "战斗狂怒",
+   "zh_hant": "戰鬥狂怒",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "CombatFrenzy",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+    "variantId": "CombatFrenzy",
+    "grantedEffectId": "CombatFrenzyPlayer"
+   }
+  },
+  "Convalescence": {
+   "en": "Convalescence",
+   "zh_hans": "康复",
+   "zh_hant": "恢復期",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "Convalescence",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemConvalescence",
+    "variantId": "Convalescence",
+    "grantedEffectId": "ConvalescencePlayer"
+   }
+  },
+  "Defiance_Banner": {
+   "en": "Defiance Banner",
+   "zh_hans": "抗争战旗",
+   "zh_hant": "反抗之旗",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Banner",
+     "en": "Banner",
+     "zh_hans": "旗帜",
+     "zh_hant": "鬥旗"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Conditional",
+     "en": "Conditional",
+     "zh_hans": "条件",
+     "zh_hant": "條件"
+    }
+   ],
+   "gem_effect": "DefianceBanner",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemDefianceBanner",
+    "variantId": "DefianceBanner",
+    "grantedEffectId": "DefianceBannerReservationPlayer"
+   }
+  },
+  "Dread_Banner": {
+   "en": "Dread Banner",
+   "zh_hans": "恐怖战旗",
+   "zh_hant": "恐懼之旗",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Banner",
+     "en": "Banner",
+     "zh_hans": "旗帜",
+     "zh_hant": "鬥旗"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Conditional",
+     "en": "Conditional",
+     "zh_hans": "条件",
+     "zh_hant": "條件"
+    }
+   ],
+   "gem_effect": "DreadBanner",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemDreadBanner",
+    "variantId": "DreadBanner",
+    "grantedEffectId": "DreadBannerReservationPlayer"
+   }
+  },
+  "Elemental_Conflux": {
+   "en": "Elemental Conflux",
+   "zh_hans": "元素汇流",
+   "zh_hant": "元素匯流",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "ElementalConflux",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemElementalConflux",
+    "variantId": "ElementalConflux",
+    "grantedEffectId": "ElementalConfluxPlayer"
+   }
+  },
+  "Elemental_Invocation": {
+   "en": "Elemental Invocation",
+   "zh_hans": "元素祈求",
+   "zh_hant": "元素祈願",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "Invocation",
+     "en": "Invocation",
+     "zh_hans": "咒祈",
+     "zh_hant": "祈願"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "ElementalInvocation",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemElementalInvocation",
+    "variantId": "ElementalInvocation",
+    "grantedEffectId": "MetaElementalInvocationPlayer"
+   }
+  },
+  "Eternal_Rage": {
+   "en": "Eternal Rage",
+   "zh_hans": "永恒狂怒",
+   "zh_hant": "無盡怒火",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "EternalRage",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemEternalRage",
+    "variantId": "EternalRage",
+    "grantedEffectId": "EternalRagePlayer"
+   }
+  },
+  "Feral_Invocation": {
+   "en": "Feral Invocation",
+   "zh_hans": "野性召唤",
+   "zh_hant": "野性祈求",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Invocation",
+     "en": "Invocation",
+     "zh_hans": "咒祈",
+     "zh_hant": "祈願"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "FeralInvocation",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemFeralInvocation",
+    "variantId": "FeralInvocation",
+    "grantedEffectId": "MetaFeralInvocationPlayer"
+   }
+  },
+  "Ghost_Dance": {
+   "en": "Ghost Dance",
+   "zh_hans": "幽灵舞步",
+   "zh_hant": "鬼魂之舞",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "GhostDance",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemGhostDance",
+    "variantId": "GhostDance",
+    "grantedEffectId": "GhostDancePlayer"
+   }
+  },
+  "Grim_Feast": {
+   "en": "Grim Feast",
+   "zh_hans": "饕餮飨宴",
+   "zh_hant": "冷酷之宴",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Remnant",
+     "en": "Remnant",
+     "zh_hans": "残片",
+     "zh_hant": "痕跡"
+    }
+   ],
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemGrimFeast",
+    "variantId": "GrimFeast",
+    "grantedEffectId": "GrimFeastPlayer"
+   }
+  },
+  "Herald_of_Ash": {
+   "en": "Herald of Ash",
+   "zh_hans": "灰烬之捷",
+   "zh_hant": "灰燼之捷",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Herald",
+     "en": "Herald",
+     "zh_hans": "捷",
+     "zh_hant": "捷光環"
+    }
+   ],
+   "gem_effect": "HeraldOfAsh",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemHeraldOfAsh",
+    "variantId": "HeraldOfAsh",
+    "grantedEffectId": "HeraldOfAshPlayer"
+   }
+  },
+  "Herald_of_Blood": {
+   "en": "Herald of Blood",
+   "zh_hans": "赤血之捷",
+   "zh_hant": "鮮血之捷",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Herald",
+     "en": "Herald",
+     "zh_hans": "捷",
+     "zh_hant": "捷光環"
+    },
+    {
+     "id": "Payoff",
+     "en": "Payoff",
+     "zh_hans": "清算",
+     "zh_hant": "遣散"
+    }
+   ],
+   "gem_effect": "HeraldOfBlood",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemHeraldOfBlood",
+    "variantId": "HeraldOfBlood",
+    "grantedEffectId": "HeraldOfBloodPlayer"
+   }
+  },
+  "Herald_of_Ice": {
+   "en": "Herald of Ice",
+   "zh_hans": "寒冰之捷",
+   "zh_hant": "冰霜之捷",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Herald",
+     "en": "Herald",
+     "zh_hans": "捷",
+     "zh_hant": "捷光環"
+    },
+    {
+     "id": "Payoff",
+     "en": "Payoff",
+     "zh_hans": "清算",
+     "zh_hant": "遣散"
+    }
+   ],
+   "gem_effect": "HeraldOfIce",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+    "variantId": "HeraldOfIce",
+    "grantedEffectId": "HeraldOfIcePlayer"
+   }
+  },
+  "Herald_of_Plague": {
+   "en": "Herald of Plague",
+   "zh_hans": "荒芜之捷",
+   "zh_hant": "瘟疫之捷",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    },
+    {
+     "id": "Herald",
+     "en": "Herald",
+     "zh_hans": "捷",
+     "zh_hant": "捷光環"
+    }
+   ],
+   "gem_effect": "HeraldOfPlague",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemHeraldOfPlague",
+    "variantId": "HeraldOfPlague",
+    "grantedEffectId": "HeraldOfPlaguePlayer"
+   }
+  },
+  "Herald_of_Thunder": {
+   "en": "Herald of Thunder",
+   "zh_hans": "闪电之捷",
+   "zh_hant": "閃電之捷",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Herald",
+     "en": "Herald",
+     "zh_hans": "捷",
+     "zh_hant": "捷光環"
+    },
+    {
+     "id": "Payoff",
+     "en": "Payoff",
+     "zh_hans": "清算",
+     "zh_hant": "遣散"
+    }
+   ],
+   "gem_effect": "HeraldOfThunder",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemHeraldOfThunder",
+    "variantId": "HeraldOfThunder",
+    "grantedEffectId": "HeraldOfThunderPlayer"
+   }
+  },
+  "Iron_Ward": {
+   "en": "Iron Ward",
+   "zh_hans": "钢铁看守",
+   "zh_hant": "鋼鐵守護",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Nova",
+     "en": "Nova",
+     "zh_hans": "新星",
+     "zh_hant": "新星"
+    }
+   ],
+   "gem_effect": "IronWard",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemIronWard",
+    "variantId": "IronWard",
+    "grantedEffectId": "IronWardPlayer"
+   }
+  },
+  "Lingering_Illusion": {
+   "en": "Lingering Illusion",
+   "zh_hans": "徘徊幻影",
+   "zh_hant": "殘留幻象",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Remnant",
+     "en": "Remnant",
+     "zh_hans": "残片",
+     "zh_hant": "痕跡"
+    }
+   ],
+   "gem_effect": "LingeringIllusion",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemLingeringIllusion",
+    "variantId": "LingeringIllusion",
+    "grantedEffectId": "LingeringIllusionPlayer"
+   }
+  },
+  "Magma_Barrier": {
+   "en": "Magma Barrier",
+   "zh_hans": "岩浆屏障",
+   "zh_hant": "熔岩屏障",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Melee",
+     "en": "Melee",
+     "zh_hans": "近战",
+     "zh_hant": "近戰"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    }
+   ],
+   "gem_effect": "MagmaBarrier",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemMagmaBarrier",
+    "variantId": "MagmaBarrier",
+    "grantedEffectId": "MagmaBarrierPlayer"
+   }
+  },
+  "Mana_Remnants": {
+   "en": "Mana Remnants",
+   "zh_hans": "魔力残片",
+   "zh_hant": "魔力痕跡",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Remnant",
+     "en": "Remnant",
+     "zh_hans": "残片",
+     "zh_hant": "痕跡"
+    }
+   ],
+   "gem_effect": "ManaRemnants",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemManaRemnants",
+    "variantId": "ManaRemnants",
+    "grantedEffectId": "ManaRemnantsPlayer"
+   }
+  },
+  "Mirage_Archer": {
+   "en": "Mirage Archer",
+   "zh_hans": "幻影射手",
+   "zh_hant": "幻影射手",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "MirageArcher",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemMirageArcher",
+    "variantId": "MirageArcher",
+    "grantedEffectId": "MetaMirageArcherPlayer"
+   }
+  },
+  "Overwhelming_Presence": {
+   "en": "Overwhelming Presence",
+   "zh_hans": "压迫气场",
+   "zh_hant": "壓倒性的存在",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    }
+   ],
+   "gem_effect": "OverwhelmingPresence",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemOverwhelmingPresence",
+    "variantId": "OverwhelmingPresence",
+    "grantedEffectId": "OverwhelmingPresencePlayer"
+   }
+  },
+  "Plague_Bearer": {
+   "en": "Plague Bearer",
+   "zh_hans": "瘟疫使者",
+   "zh_hant": "病疫之難",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    },
+    {
+     "id": "Nova",
+     "en": "Nova",
+     "zh_hans": "新星",
+     "zh_hant": "新星"
+    }
+   ],
+   "gem_effect": "PlagueBearer",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemPlagueBearer",
+    "variantId": "PlagueBearer",
+    "grantedEffectId": "PlagueBearerPlayer"
+   }
+  },
+  "Raging_Spirits": {
+   "en": "Raging Spirits",
+   "zh_hans": "愤怒狂灵",
+   "zh_hant": "憤怒狂靈",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "RagingSpirits",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemRagingSpirits",
+    "variantId": "RagingSpirits",
+    "grantedEffectId": "RagingSpiritsPlayer"
+   }
+  },
+  "Ravenous_Swarm": {
+   "en": "Ravenous Swarm",
+   "zh_hans": "饕餮虫群",
+   "zh_hant": "貪婪蟲群",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "RavenousSwarm",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemRavenousSwarm",
+    "variantId": "RavenousSwarm",
+    "grantedEffectId": "RavenousSwarmPlayer"
+   }
+  },
+  "Reapers_Invocation": {
+   "en": "Reaper's Invocation",
+   "zh_hans": "收割祈求",
+   "zh_hant": "收割者的祈願",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Invocation",
+     "en": "Invocation",
+     "zh_hans": "咒祈",
+     "zh_hant": "祈願"
+    },
+    {
+     "id": "Meta",
+     "en": "Meta",
+     "zh_hans": "非凡",
+     "zh_hant": "主要"
+    }
+   ],
+   "gem_effect": "ReapersInvocation",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemReapersInvocation",
+    "variantId": "ReapersInvocation",
+    "grantedEffectId": "MetaReapersInvocationPlayer"
+   }
+  },
+  "Rhoa_Mount": {
+   "en": "Rhoa Mount",
+   "zh_hans": "恐喙鸟坐骑",
+   "zh_hant": "恐喙鳥坐騎",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Companion",
+     "en": "Companion",
+     "zh_hans": "伙伴",
+     "zh_hant": "盟友"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "RhoaMount",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemRhoaMount",
+    "variantId": "RhoaMount",
+    "grantedEffectId": "RhoaMountPlayer"
+   }
+  },
+  "Sacrifice": {
+   "en": "Sacrifice",
+   "zh_hans": "替代牺牲",
+   "zh_hant": "獻祭",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "Sacrifice",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemSacrifice",
+    "variantId": "Sacrifice",
+    "grantedEffectId": "SacrificePlayer"
+   }
+  },
+  "Savage_Fury": {
+   "en": "Savage Fury",
+   "zh_hans": "凶蛮怒火",
+   "zh_hant": "殘猛狂怒",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "SavageFury",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemSavageFury",
+    "variantId": "SavageFury",
+    "grantedEffectId": "SavageFuryPlayer"
+   }
+  },
+  "Scavenged_Plating": {
+   "en": "Scavenged Plating",
+   "zh_hans": "装甲回收",
+   "zh_hant": "拾荒者護板",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "ScavengedPlating",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemScavengedPlating",
+    "variantId": "ScavengedPlating",
+    "grantedEffectId": "ScavengedPlatingPlayer"
+   }
+  },
+  "Shard_Scavenger": {
+   "en": "Shard Scavenger",
+   "zh_hans": "碎片回收",
+   "zh_hant": "碎片清除者",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "ShardScavenger",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemShardScavenger",
+    "variantId": "ShardScavenger",
+    "grantedEffectId": "ShardScavengerPlayer"
+   }
+  },
+  "Siphon_Elements": {
+   "en": "Siphon Elements",
+   "zh_hans": "汲取元素",
+   "zh_hant": "虹吸元素",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "Remnant",
+     "en": "Remnant",
+     "zh_hans": "残片",
+     "zh_hant": "痕跡"
+    }
+   ],
+   "gem_effect": "SiphonElements",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemSiphonElements",
+    "variantId": "SiphonElements",
+    "grantedEffectId": "SiphonElementsPlayer"
+   }
+  },
+  "Time_of_Need": {
+   "en": "Time of Need",
+   "zh_hans": "紧急时刻",
+   "zh_hant": "緊急時刻",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "TimeOfNeed",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemTimeOfNeed",
+    "variantId": "TimeOfNeed",
+    "grantedEffectId": "TimeOfNeedPlayer"
+   }
+  },
+  "Trail_of_Caltrops": {
+   "en": "Trail of Caltrops",
+   "zh_hans": "铁蒺藜之路",
+   "zh_hant": "蒺藜之徑",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Hazard",
+     "en": "Hazard",
+     "zh_hans": "危害",
+     "zh_hant": "危險"
+    }
+   ],
+   "gem_effect": "TrailOfCaltrops",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemTrailOfCaltrops",
+    "variantId": "TrailOfCaltrops",
+    "grantedEffectId": "TrailOfCaltropsPlayer"
+   }
+  },
+  "Trinity": {
+   "en": "Trinity",
+   "zh_hans": "三位一体",
+   "zh_hant": "三相",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    }
+   ],
+   "gem_effect": "Trinity",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemTrinity",
+    "variantId": "Trinity",
+    "grantedEffectId": "TrinityPlayer"
+   }
+  },
+  "War_Banner": {
+   "en": "War Banner",
+   "zh_hans": "战旗",
+   "zh_hant": "戰爭之旗",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Banner",
+     "en": "Banner",
+     "zh_hans": "旗帜",
+     "zh_hant": "鬥旗"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Conditional",
+     "en": "Conditional",
+     "zh_hans": "条件",
+     "zh_hant": "條件"
+    }
+   ],
+   "gem_effect": "WarBanner",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemWarBanner",
+    "variantId": "WarBanner",
+    "grantedEffectId": "WarBannerReservationPlayer"
+   }
+  },
+  "Wind_Dancer": {
+   "en": "Wind Dancer",
+   "zh_hans": "风舞者",
+   "zh_hant": "風魔舞者",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Melee",
+     "en": "Melee",
+     "zh_hans": "近战",
+     "zh_hant": "近戰"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "GainsStages",
+     "en": "Staged",
+     "zh_hans": "层数",
+     "zh_hant": "獲得疊層"
+    }
+   ],
+   "gem_effect": "WindDancer",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemWindDancer",
+    "variantId": "WindDancer",
+    "grantedEffectId": "WindDancerPlayer"
+   }
+  },
+  "Withering_Presence": {
+   "en": "Withering Presence",
+   "zh_hans": "凋零姿态",
+   "zh_hant": "凋零光環",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Aura",
+     "en": "Aura",
+     "zh_hans": "光环",
+     "zh_hant": "光環"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "WitheringPresence",
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SkillGemWitheringPresence",
+    "variantId": "WitheringPresence",
+    "grantedEffectId": "WitheringPresencePlayer"
+   }
+  },
+  "Wolf_Pack": {
+   "en": "Wolf Pack",
+   "zh_hans": "狼群",
+   "zh_hant": "召喚惡狼",
+   "colour": "",
+   "tags": [
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Companion",
+     "en": "Companion",
+     "zh_hans": "伙伴",
+     "zh_hant": "盟友"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    }
+   ],
+   "gem_effect": "WolfPack",
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SkillGemWolfPack",
+    "variantId": "WolfPack",
+    "grantedEffectId": "WolfPackPlayer"
+   }
+  }
+ }
+}

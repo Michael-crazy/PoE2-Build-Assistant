@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding2>
+  <Build className="Ranger" ascendClassName="None" level="90" characterLevelAutoMode="false" mainSocketGroup="1" targetVersion="0_1" viewMode="IMPORT"/>
+  <Notes>P06 完整引擎导出样本；非玩家角色或配装建议。按上游 HeadlessWrapper / SkillSet / ItemSet / Spec 测试布局构造。</Notes>
+  <Tree activeSpec="1">
+    <Spec title="开荒" treeVersion="0_5" classId="2" classInternalId="2" ascendClassId="0" ascendancyInternalId="" nodes="50459,56651" masteryEffects="">
+      <Notes><Note nodeId="56651">开荒天赋备注</Note></Notes>
+      <Sockets/>
+    </Spec>
+    <Spec title="终局" treeVersion="0_5" classId="2" classInternalId="2" ascendClassId="0" ascendancyInternalId="" nodes="50459,56651,13828" masteryEffects="">
+      <WeaponSet1 nodes="56651"/>
+      <WeaponSet2 nodes="13828"/>
+      <Notes><Note nodeId="13828">终局武器组二备注</Note></Notes>
+      <Sockets/>
+    </Spec>
+  </Tree>
+  <Skills activeSkillSet="1">
+    <SkillSet id="1" title="开荒">
+      <Skill enabled="true" mainActiveSkill="1" label="火球" includeInFullDPS="true">
+        <Gem gemId="Metadata/Items/Gem/SkillGemFireball" nameSpec="Fireball" level="10" quality="0" enabled="true" note="开荒火球备注"/>
+        <Gem gemId="Metadata/Items/Gems/SupportGemArcaneTempo" variantId="RapidCastingSupport" nameSpec="Rapid Casting I" level="1" quality="0" enabled="true"/>
+      </Skill>
+    </SkillSet>
+    <SkillSet id="2" title="终局">
+      <Skill enabled="true" mainActiveSkill="1" label="电球" includeInFullDPS="true">
+        <Gem gemId="Metadata/Items/Gems/SkillGemSpark" nameSpec="Spark" level="20" quality="20" enabled="true"/>
+        <Gem gemId="Metadata/Items/Gems/SupportGemArcaneTempo" variantId="RapidCastingSupport" nameSpec="Rapid Casting I" level="1" quality="0" enabled="true" note="终局支援备注"/>
+      </Skill>
+    </SkillSet>
+  </Skills>
+  <Items activeItemSet="1" useSecondWeaponSet="false">
+    <Item id="1"><![CDATA[Rarity: RARE
+Export Ring
+Gold Ring
+Implicits: 0
++10 to maximum Life]]></Item>
+    <Item id="2"><![CDATA[Rarity: RARE
+Endgame Ring
+Gold Ring
+Implicits: 0
++20 to maximum Life]]></Item>
+    <ItemSet id="1" title="开荒" useSecondWeaponSet="false">
+      <Slot name="Ring 1" itemId="1" note=""/>
+      <Slot name="Ring 2" itemId="0" note="开荒空槽备注"/>
+    </ItemSet>
+    <ItemSet id="2" title="终局" useSecondWeaponSet="false">
+      <Slot name="Ring 1" itemId="2" note=""/>
+      <Slot name="Ring 2" itemId="1" note="终局戒指备注优先"/>
+    </ItemSet>
+  </Items>
+</PathOfBuilding2>

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "source": {
+    "id": "authored-confirmation-guide",
+    "kind": "authored_structured",
+    "title": "Authored class guide",
+    "text": "Authored offline guide; not a client or live guide sample.\ntree_version=0_5\nclass_name=Warrior\nascendancy_name=Titan\nmain_skill_id=FireballPlayer\npassive_nodes=[4, 999999]"
+  },
+  "fields": {
+    "realm": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "league": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "game_version": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "stage": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "class_name": {
+      "value": "Warrior",
+      "origin": "stated",
+      "evidence": "class_name=Warrior",
+      "reason": null
+    },
+    "ascendancy_name": {
+      "value": "Titan",
+      "origin": "stated",
+      "evidence": "ascendancy_name=Titan",
+      "reason": null
+    },
+    "main_skill_name": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "main_skill_id": {
+      "value": "FireballPlayer",
+      "origin": "inferred",
+      "evidence": "main_skill_id=FireballPlayer",
+      "reason": "Authored uncertain extraction for confirmation tests."
+    },
+    "tree_version": {
+      "value": "0_5",
+      "origin": "stated",
+      "evidence": "tree_version=0_5",
+      "reason": null
+    },
+    "equipment_text": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "config_text": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "level": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "main_skill_level": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "main_skill_quality": {
+      "value": null,
+      "origin": "missing",
+      "evidence": null,
+      "reason": "Not provided in this authored fixture."
+    },
+    "passive_nodes": {
+      "value": [
+        4,
+        999999
+      ],
+      "origin": "inferred",
+      "evidence": "passive_nodes=[4, 999999]",
+      "reason": "Authored uncertain extraction for confirmation tests."
+    }
+  }
+}

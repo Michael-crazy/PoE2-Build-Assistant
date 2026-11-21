@@ -1,0 +1,174 @@
+{
+ "tree": "Default",
+ "classes": [
+  {
+   "name": "行者",
+   "ascendancies": [
+    {
+     "id": "Monk1",
+     "name": "武圣"
+    },
+    {
+     "id": "Monk2",
+     "name": "祈求者"
+    },
+    {
+     "id": "Monk3",
+     "name": "夏乌拉追随者"
+    }
+   ]
+  }
+ ],
+ "nodes": {
+  "4": {
+   "skill": 4,
+   "id": "lightning14",
+   "name": "感电几率",
+   "stats": [
+    "[Shock|感电]几率提高 15%"
+   ]
+  },
+  "240": {
+   "skill": 240,
+   "id": "mastery_lightning150",
+   "name": "闪电专精",
+   "stats": [],
+   "isMastery": true
+  },
+  "516": {
+   "skill": 516,
+   "id": "projectiles32",
+   "name": "投射物伤害",
+   "stats": [
+    "[Projectile|投射物]对 6 米外的敌人造成的击中伤害提高 15%"
+   ]
+  },
+  "2491": {
+   "skill": 2491,
+   "id": "jewel_slot1974",
+   "name": "[Jewel|珠宝]插槽",
+   "stats": [],
+   "isJewelSocket": true
+  },
+  "3281": {
+   "skill": 3281,
+   "id": "oracle_strength_spell4",
+   "name": "强效施法",
+   "stats": [
+    "每 10 点[Strength|力量]会使法术伤害提高 2%",
+    "需要无踪之道"
+   ],
+   "isNotable": true,
+   "unlockConstraint": {
+    "ascendancy": "Druid1"
+   }
+  },
+  "9994": {
+   "skill": 9994,
+   "id": "AscendancyMonk2Start",
+   "name": "四象尊",
+   "stats": [],
+   "isAscendancyStart": true,
+   "ascendancyName": "Monk2"
+  },
+  "11335": {
+   "skill": 11335,
+   "id": "AscendancyDruid1Small1",
+   "name": "天赋点数",
+   "stats": [
+    "赋予 1 天赋点数"
+   ],
+   "ascendancyName": "Druid1"
+  },
+  "14226": {
+   "skill": 14226,
+   "id": "passive_keystone_dance_with_death",
+   "name": "与亡共舞",
+   "stats": [
+    "副手为空，且主手装备一把[One-Handed|单手][MartialWeapon|战斗武器]时\n技能速度总增 25%。"
+   ],
+   "isKeystone": true,
+   "flavourText": [
+    "你带着敌意环绕黑蝎，屡败屡战。"
+   ]
+  },
+  "18684": {
+   "skill": 18684,
+   "id": "passive_keystone_avatar_of_fire",
+   "name": "火之化身",
+   "stats": [
+    "75% 的伤害转化为火焰伤害\n除火焰伤害外不造成其他伤害"
+   ],
+   "isKeystone": true,
+   "flavourText": [
+    "“我在梦境之中看到了一位伟大的战士……皮肤被烧成焦黑，拳头缠绕着火焰。”"
+   ]
+  },
+  "70000": {
+   "skill": 70000,
+   "name": "New In 1.0",
+   "stats": []
+  },
+  "51690": {
+   "skill": 51690,
+   "group": 77,
+   "orbit": 6,
+   "orbitIndex": 43,
+   "out": [],
+   "connections": [
+    {
+     "id": "12000",
+     "orbit": -5
+    }
+   ],
+   "in": [],
+   "id": "AscendancyWarrior1Small7",
+   "name": "生命回复",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/Titan/TitanNode.webp",
+   "stats": [
+    "生命每秒再生 0.5%"
+   ],
+   "ascendancyName": "Warrior1"
+  },
+  "20303": {
+   "skill": 20303,
+   "group": 402,
+   "orbit": 2,
+   "orbitIndex": 16,
+   "out": [],
+   "connections": [
+    {
+     "id": "9908",
+     "orbit": 0
+    }
+   ],
+   "in": [],
+   "id": "life_regeneration31",
+   "name": "生命恢复",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/lifepercentage.webp",
+   "stats": [
+    "生命再生率提高 10%"
+   ]
+  },
+  "38776": {
+   "skill": 38776,
+   "group": 791,
+   "orbit": 7,
+   "orbitIndex": 16,
+   "out": [],
+   "connections": [
+    {
+     "id": "57816",
+     "orbit": 0
+    }
+   ],
+   "in": [],
+   "id": "attributes105",
+   "name": "敏捷",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/plusdexterity.webp",
+   "stats": [
+    "+8 [Dexterity|敏捷]"
+   ]
+  }
+ }
+}

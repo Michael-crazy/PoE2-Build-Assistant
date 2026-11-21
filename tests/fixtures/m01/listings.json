@@ -1,0 +1,32 @@
+{
+  "result": [
+    {
+      "id": "authored-unique-001",
+      "item": {
+        "league": "Offline Test League",
+        "name": "Fixture Dawn",
+        "typeLine": "Gold Ring",
+        "baseType": "Gold Ring",
+        "rarity": "Unique",
+        "ilvl": 40,
+        "implicitMods": ["10% increased Rarity of Items found"],
+        "explicitMods": ["+25 to maximum Life", "+15% to Fire Resistance"]
+      },
+      "listing": {"price": {"amount": 1.5, "currency": "divine", "type": "~price"}}
+    },
+    {
+      "id": "authored-rare-002",
+      "item": {
+        "league": "Offline Test League",
+        "name": "Fixture Shelter",
+        "typeLine": "Linen Belt",
+        "baseType": "Linen Belt",
+        "rarity": "Rare",
+        "ilvl": 65,
+        "implicitMods": ["20% increased Mana Recovery from Flasks"],
+        "explicitMods": ["+80 to maximum Life", "+25% to Fire Resistance", "+30% to Cold Resistance", "+20 to Strength"]
+      },
+      "listing": {"price": {"amount": 12, "currency": "exalted", "type": "~b/o"}}
+    }
+  ]
+}

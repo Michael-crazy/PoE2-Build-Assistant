@@ -1,0 +1,57 @@
+{
+  "_provenance": "完全自编的合成示例；非腾讯客户端导出或接口响应；名称、赛季、词缀数值和报价均虚构。",
+  "result": [
+    {
+      "id": "synthetic-tencent-unique-001",
+      "item": {
+        "league": "合成腾讯测试赛季",
+        "name": "合成晨光",
+        "typeLine": "合成金戒指",
+        "baseType": "合成金戒指",
+        "rarity": "传奇",
+        "ilvl": 40,
+        "implicitMods": [
+          "物品稀有度提高 10%"
+        ],
+        "explicitMods": [
+          "最大生命 +25",
+          "火焰抗性 +15%"
+        ]
+      },
+      "listing": {
+        "price": {
+          "amount": 1.5,
+          "currency": "合成神圣石",
+          "type": "合成一口价"
+        }
+      }
+    },
+    {
+      "id": "synthetic-tencent-rare-002",
+      "item": {
+        "league": "合成腾讯测试赛季",
+        "name": "合成庇护",
+        "typeLine": "合成亚麻腰带",
+        "baseType": "合成亚麻腰带",
+        "rarity": "稀有",
+        "ilvl": 65,
+        "implicitMods": [
+          "药剂魔力恢复提高 20%"
+        ],
+        "explicitMods": [
+          "最大生命 +80",
+          "火焰抗性 +25%",
+          "冰霜抗性 +30%",
+          "力量 +20"
+        ]
+      },
+      "listing": {
+        "price": {
+          "amount": 12,
+          "currency": "合成崇高石",
+          "type": "合成议价"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+P10b preprocessing (ops/ui_fallback_prep.py)
+{
+ "pob_strings": 5724,
+ "already_ours": 1511,
+ "candidates": 1698,
+ "missing": 2515,
+ "by_source": {
+  "poecharm": 1024,
+  "i18n-zh_CN": 161,
+  "i18n-zh_TW": 513
+ },
+ "needs_review": 701,
+ "review_status": {
+  "likely_ui": 279,
+  "fixed_exact": 136,
+  "fixed_sub": 17,
+  "manual": 269
+ },
+ "sites_by_kind": {
+  "candidates": {
+   "breakdown": 203,
+   "config": 1487,
+   "control": 297,
+   "other": 2590,
+   "tooltip": 209,
+   "warning": 11
+  },
+  "missing": {
+   "breakdown": 638,
+   "config": 1351,
+   "control": 84,
+   "other": 3124,
+   "tooltip": 233,
+   "warning": 22
+  }
+ },
+ "learned_conflicts": 20,
+ "table_sizes": {
+  "poecharm": 20270,
+  "i18n-zh_CN": 1342,
+  "i18n-zh_TW": 3038
+ },
+ "poe2db_terms": 7323
+}
+
+per PoB file: candidates by source / missing
+  Modules/CalcOffence.lua                       poecharm=94  i18n-zh_CN=1  i18n-zh_TW=8  missing=475
+  Modules/ConfigOptions.lua                     poecharm=272  i18n-zh_CN=2  i18n-zh_TW=159  missing=73
+  Modules/CalcDefence.lua                       poecharm=44  i18n-zh_CN=1  i18n-zh_TW=14  missing=278
+  Classes/ItemsTab.lua                          poecharm=115  i18n-zh_CN=2  i18n-zh_TW=47  missing=147
+  Classes/Item.lua                              poecharm=63  i18n-zh_CN=3  i18n-zh_TW=5  missing=193
+  Modules/CalcPerform.lua                       poecharm=78  i18n-zh_CN=1  i18n-zh_TW=2  missing=129
+  Classes/TradeQueryGenerator.lua               poecharm=44  i18n-zh_CN=5  i18n-zh_TW=16  missing=136
+  Classes/ImportTab.lua                         poecharm=63  i18n-zh_CN=20  i18n-zh_TW=12  missing=105
+  Modules/Data.lua                              poecharm=102  i18n-zh_CN=0  i18n-zh_TW=5  missing=73
+  Modules/CalcTriggers.lua                      poecharm=31  i18n-zh_CN=0  i18n-zh_TW=3  missing=145
+  Classes/TreeTab.lua                           poecharm=104  i18n-zh_CN=7  i18n-zh_TW=21  missing=37
+  Modules/CalcSections.lua                      poecharm=20  i18n-zh_CN=2  i18n-zh_TW=95  missing=49
+  Modules/Build.lua                             poecharm=48  i18n-zh_CN=13  i18n-zh_TW=13  missing=69
+  Modules/Main.lua                              poecharm=17  i18n-zh_CN=13  i18n-zh_TW=16  missing=75
+  Modules/CalcSetup.lua                         poecharm=46  i18n-zh_CN=2  i18n-zh_TW=5  missing=68
+  Classes/CompareTab.lua                        poecharm=36  i18n-zh_CN=18  i18n-zh_TW=17  missing=49
+  Classes/TradeQuery.lua                        poecharm=28  i18n-zh_CN=5  i18n-zh_TW=33  missing=33
+  Classes/PassiveTreeView.lua                   poecharm=23  i18n-zh_CN=8  i18n-zh_TW=14  missing=43
+  Classes/TradeHelpers.lua                      poecharm=28  i18n-zh_CN=4  i18n-zh_TW=4  missing=49
+  Classes/SkillsTab.lua                         poecharm=36  i18n-zh_CN=5  i18n-zh_TW=10  missing=28
+  Modules/Calcs.lua                             poecharm=14  i18n-zh_CN=0  i18n-zh_TW=0  missing=63
+  Classes/PassiveSpec.lua                       poecharm=6  i18n-zh_CN=0  i18n-zh_TW=2  missing=57
+  Classes/TradeQueryRequests.lua                poecharm=17  i18n-zh_CN=1  i18n-zh_TW=2  missing=38
+  Modules/CalcBreakdown.lua                     poecharm=19  i18n-zh_CN=0  i18n-zh_TW=0  missing=37
+  Modules/BuildDisplayStats.lua                 poecharm=24  i18n-zh_CN=2  i18n-zh_TW=9  missing=15
+  Classes/ItemDBControl.lua                     poecharm=35  i18n-zh_CN=1  i18n-zh_TW=2  missing=7
+  Modules/CalcActiveSkill.lua                   poecharm=13  i18n-zh_CN=0  i18n-zh_TW=3  missing=28
+  Classes/CalcBreakdownControl.lua              poecharm=13  i18n-zh_CN=0  i18n-zh_TW=0  missing=30
+  Classes/GemTooltip.lua                        poecharm=4  i18n-zh_CN=0  i18n-zh_TW=23  missing=14
+  Classes/ConfigTab.lua                         poecharm=5  i18n-zh_CN=0  i18n-zh_TW=1  missing=33
+  Modules/CalcMirages.lua                       poecharm=14  i18n-zh_CN=0  i18n-zh_TW=0  missing=22
+  Modules/DataLegionLookUpTableHelper.lua       poecharm=5  i18n-zh_CN=0  i18n-zh_TW=0  missing=30
+  Classes/MinionListControl.lua                 poecharm=4  i18n-zh_CN=11  i18n-zh_TW=3  missing=15
+  Classes/PartyTab.lua                          poecharm=10  i18n-zh_CN=4  i18n-zh_TW=2  missing=16
+  Classes/SkillListControl.lua                  poecharm=17  i18n-zh_CN=5  i18n-zh_TW=4  missing=3
+  Classes/PassiveTree.lua                       poecharm=8  i18n-zh_CN=0  i18n-zh_TW=1  missing=19
+  Classes/ItemListControl.lua                   poecharm=11  i18n-zh_CN=0  i18n-zh_TW=6  missing=10
+  Classes/ItemSlotControl.lua                   poecharm=14  i18n-zh_CN=0  i18n-zh_TW=11  missing=2
+  Classes/PoEAPI.lua                            poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=25
+  Classes/NotableDBControl.lua                  poecharm=9  i18n-zh_CN=2  i18n-zh_TW=2  missing=10
+  Classes/CompareEntry.lua                      poecharm=8  i18n-zh_CN=1  i18n-zh_TW=1  missing=12
+  Classes/CalcsTab.lua                          poecharm=4  i18n-zh_CN=0  i18n-zh_TW=0  missing=17
+  Classes/CompareBuySimilar.lua                 poecharm=4  i18n-zh_CN=6  i18n-zh_TW=3  missing=8
+  Classes/CompareCalcsHelpers.lua               poecharm=4  i18n-zh_CN=1  i18n-zh_TW=1  missing=14
+  Classes/BuildListControl.lua                  poecharm=4  i18n-zh_CN=2  i18n-zh_TW=9  missing=3
+  Modules/Common.lua                            poecharm=0  i18n-zh_CN=0  i18n-zh_TW=1  missing=16
+  Modules/BuildExportPoE2.lua                   poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=17
+  Classes/MinionSearchListControl.lua           poecharm=2  i18n-zh_CN=14  i18n-zh_TW=0  missing=0
+  Classes/BuildSetListControl.lua               poecharm=2  i18n-zh_CN=9  i18n-zh_TW=1  missing=2
+  Classes/GemSelectControl.lua                  poecharm=3  i18n-zh_CN=3  i18n-zh_TW=1  missing=6
+  Modules/ConfigModBrowser.lua                  poecharm=2  i18n-zh_CN=0  i18n-zh_TW=0  missing=10
+  Classes/ItemSetListControl.lua                poecharm=4  i18n-zh_CN=4  i18n-zh_TW=2  missing=2
+  Classes/ExtBuildListControl.lua               poecharm=3  i18n-zh_CN=0  i18n-zh_TW=1  missing=8
+  Modules/BuildList.lua                         poecharm=3  i18n-zh_CN=1  i18n-zh_TW=0  missing=8
+  Classes/TradeQueryRateLimiter.lua             poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=12
+  Modules/BuildListHelpers.lua                  poecharm=1  i18n-zh_CN=0  i18n-zh_TW=3  missing=7
+  Classes/Tooltip.lua                           poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=11
+  Classes/SkillSetListControl.lua               poecharm=1  i18n-zh_CN=6  i18n-zh_TW=2  missing=1
+  Classes/PoBArchivesProvider.lua               poecharm=6  i18n-zh_CN=0  i18n-zh_TW=0  missing=4
+  Modules/ItemTools.lua                         poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=9
+  Classes/PassiveSpecListControl.lua            poecharm=2  i18n-zh_CN=4  i18n-zh_TW=1  missing=2
+  Modules/CalcTools.lua                         poecharm=2  i18n-zh_CN=0  i18n-zh_TW=0  missing=6
+  Modules/BuildSiteTools.lua                    poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=8
+  Classes/SharedItemSetListControl.lua          poecharm=4  i18n-zh_CN=1  i18n-zh_TW=1  missing=1
+  Classes/PowerReportListControl.lua            poecharm=4  i18n-zh_CN=0  i18n-zh_TW=0  missing=3
+  Classes/SharedItemListControl.lua             poecharm=3  i18n-zh_CN=1  i18n-zh_TW=0  missing=3
+  Classes/TimelessJewelListControl.lua          poecharm=3  i18n-zh_CN=0  i18n-zh_TW=0  missing=3
+  Classes/ConfigSetListControl.lua              poecharm=1  i18n-zh_CN=2  i18n-zh_TW=1  missing=1
+  Classes/ComparePowerReportListControl.lua     poecharm=2  i18n-zh_CN=0  i18n-zh_TW=3  missing=0
+  Classes/DropDownControl.lua                   poecharm=2  i18n-zh_CN=0  i18n-zh_TW=1  missing=1
+  Classes/FolderListControl.lua                 poecharm=1  i18n-zh_CN=1  i18n-zh_TW=2  missing=0
+  Classes/CalcSectionControl.lua                poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=2
+  Classes/NotesTab.lua                          poecharm=3  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Modules/StatDescriber.lua                     poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=3
+  Modules/Utils.lua                             poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=3
+  Classes/Control.lua                           poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+  Classes/EditControl.lua                       poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+  Classes/ListControl.lua                       poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+  Classes/ButtonControl.lua                     poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/CheckBoxControl.lua                   poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/DraggerControl.lua                    poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/LabelControl.lua                      poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/PathControl.lua                       poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/PopupDialog.lua                       poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/RectangleOutlineControl.lua           poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/ScrollBarControl.lua                  poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/SectionControl.lua                    poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/SliderControl.lua                     poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Classes/TextListControl.lua                   poecharm=1  i18n-zh_CN=0  i18n-zh_TW=0  missing=0
+  Modules/CalcFormat.lua                        poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+  Classes/ControlHost.lua                       poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+  Classes/TradeStatWeightMultiplierListControl.lua poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+  Classes/TooltipHost.lua                       poecharm=0  i18n-zh_CN=0  i18n-zh_TW=0  missing=1
+
+manual review (en | candidate | PoE2DB terms)
+  'Changing Stance' occurs by activating a Stance skill while it's toggl | 'Changing Stance' 會在姿態技能啟用時觸發（姿態處於開啟狀態） | activating=激活的
+  10 units equals 1 metre Player and Minion Attacks incur an Accuracy pe | 10單位等於1公尺 玩家與召喚生物的攻擊會根據傷害來源到目標的距離受到命中率懲罰 | minion=召唤生物, damage=伤害
+  A target is immobilised if it cannot move, for example due to being Fr | 目標無法移動時會被視為定身，例如因為被冰凍、被鎖定、重度暈眩或被感電。 | frozen=冻结的, heavy=重量的
+  Acrobatics | 移形换影 | acrobatics=None
+  Activating this charm will give you: | 啟用此護符會帶來: | activating=激活的
+  Activating this flask will give you: | 药剂生效后会使你: | activating=激活的
+  Additional Reservation: {#} Spirit | 額外保留: ^7%d 精魂 | spirit=精神
+  Allies on your Fungal Ground gain +25% Chaos Resistance. | ^xFFFFFF【真菌地表】上的友军获得+25%^xD02090混沌^7抗性。 | chaos resistance=混沌抗性
+  Amulet | 项链 | amulet=None
+  Arc | 电弧 | arc=None
+  Attack Damage: {#}%% | 攻擊傷害: ^7%d%% | attack damage=攻击伤害
+  Attack Damage: {#}%% of base | 攻擊傷害: 基礎的 ^7%s%% | attack damage=攻击伤害
+  Attack Speed before increased Attack Speed | 提高攻擊速度前的攻擊速度 | attack speed=攻击速度
+  Attack Speed: {#}%% of base | 攻擊速度: 基礎的 ^7%s%% | attack speed=攻击速度
+  Attack Time: {#} sec | 攻擊時間: ^7%s 秒 | attack=攻击
+  Atziri Flameblast | 阿兹里女王烈焰爆破 | atziri flameblast=None
+  Authorize with Path of Exile | 以《流放之路》授權 | of exile=流亡之
+  Base Maximum Rage is 30, and inherently grants 1% More Attack Damage p | 基礎最大 ^xFF9922Rage ^7 為 30，並且每 1 ^xFF9922 | maximum rage=怒火上限, attack damage=攻击伤害
+  Battlemage | 战斗法师 | battlemage=None
+  Belt | 腰带 | belt=None
+  Bleeding deals an extra 100{#}amage while the target is moving, or if  | 當目標移動中，或其流血被加劇時，流血傷害額外提高 100% | bleeding=流血的
+  Blight of Contagion | 传染之枯萎 | contagion=瘟疫
+  Body Armour | 胸甲 | armour=护甲
+  Boots | 鞋子 | boots=None
+  Bow | 弓箭 | bow=None
+  Bow Attacks fire an additional Arrow | 弓类攻击发射一支额外箭矢 | fire=火焰
+  Brand Damage | 烙印伤害 | brand damage=None
+  Brutal Restraint | 残酷的约束 | brutal=凶残
+  Burning Ground DPS exceeds in game limit | 燃烧地面DPS超过游戏上限 | burning=燃烧的
+  Calculating Mod Weights... | 正在計算模組權重... | calculating=计算的
+  Calculating... | 計算中... | calculating=计算的
+  Caustic Ground DPS exceeds in game limit | 腐蚀地面DPS超过游戏上限 | caustic=腐蚀性的
+  Chance to Block: {#}{#}%% | 格擋率: %s%d%% | block=格挡
+  Charm | 礼器 | charm=None
+  Choose Attribute | 選擇屬性 | attribute=属性
+  Claw | 爪 | claw=None
+  Cobalt Jewel | 钴蓝珠宝 | cobalt=钴蓝的
+  Cold Snap | 霜暴 | cold=冰霜, snap=激变
+  Cold Snap: | 【霜暴】: | cold=冰霜, snap=激变
+  Cold to Fire | 寒冰转烈焰(辅) | cold=冰霜, fire=火焰
+  Combust | 燃尽 | combust=None
+  Command: {#} | 号令：{0} | command=命令
+  Companion Reservation: {#}{#}%% | ^7同伴保留: %s%s%% | companion reservation=伙伴保留
+  Consecrated Path of Endurance | 强韧之奉献之路 | consecrated=奉献的, endurance=耐力
+  Consecrated Path of Endurance: | 【强韧之奉献之路】: | consecrated=奉献的, endurance=耐力
+  Controls how Defending with Double Armour is calculated: Minimum: neve | 控制「雙重護甲防禦」如何計算： 	Minimum：永不以雙重護甲防禦 	Aver | armour=护甲, damage=伤害
+  Controls how Life regeneration is calculated: Minimum: does not includ | 控制^xE05030生命^7再生的計算方式： 	Minimum：不包含突發再生  | life regeneration=生命恢复
+  Controls how ancestrally boosted attacks are calculated: Average: Aver | 控制祖先強化攻擊的計算方式： Average：以施放時間、攻擊速度與冷卻時間平均 | attack speed=攻击速度, ancestral=先祖的
+  Controls how the base damage for applying Ailments is calculated: Aver | 控制如何計算施加異常狀態的基礎傷害： 	Average：傷害依照平均施加值計算， | damage=伤害
+  Controls how the chance on hit to ignore enemy physical damage reducti | 控制命中時忽略敵方物理傷害減免機率如何計算： 	Minimum：除非機率至少達1 | physical damage=物理伤害
+  Controls which types of damage the EHP calculation uses: Average: uses | 控制 EHP 計算使用哪些傷害類型： 	Average：使用所有已類型化傷害的平 | damage=伤害
+  Corrupted | 已污染 | corrupted=None
+  Covered in Ash applies the following to the enemy: 20{#}ncreased Fire  | 敵人處於灰燼覆蓋中會套用以下效果： 	受到 ^xB97123火焰 ^7傷害提高2 | fire damage=火焰伤害, movement speed=移动速度
+  Covered in Frost applies the following to the enemy: 20{#}ncreased Col | 敵人處於冰霜覆蓋中會套用以下效果： 	受到 ^x3F6DB3寒冷 ^7傷害提高2 | cold damage=冰霜伤害, critical strike=暴击
+  Crackling Lance | 电殛长枪 | crackling=劈哩啪啦的
+  Critical Hit Chance: {#}%% | 暴擊率: ^7%s%% | critical hit chance=暴击率
+  Critical Hit Chance: {#}{#}%% | 暴擊率: %s%.2f%% | critical hit chance=暴击率
+  Crossbow | 战弩 | crossbow=None
+  Cruelty is a buff provided by Cruelty Support which grants up to 40% m | 「殘酷」是由【殘酷】輔助提供的增益，可使其支援的技能 最多獲得 40% 更多持續 | support=辅助, damage=伤害
+  Crushed enemies have 15% reduced Physical Damage Reduction. | 被【碾压】的敌人的物理减伤减少15%。 | physical damage=物理伤害
+  Dagger | 匕首 | dagger=None
+  Dark Pact: | 【暗夜血契】: | dark pact=暗夜契约
+  Dazed enemies take 50% more stun buildup for 8 seconds. | 被驚眩的敵人將在 8 秒內承受 50% 更高的暈眩累積。 | stun buildup=晕眩积蓄
+  Defences from Shield | 來自護盾的防禦 | defences=防御
+  Delirium scales enemy 'less Damage Taken' as well as enemy 'increased  | 譫妄會同步放大敵人的「承受更少傷害」與「造成更高傷害」。 在 100% 效果時： | damage=伤害
+  Demon Form: | 魔化形態: | demon form=走火入魔
+  Destructive Link | 毁灭羁绊 | destructive=灭绝的
+  Disabling this gem will give you: | 禁用此宝石将带来: | disabling=致残的
+  Doom Blast | 末日爆炸 | doom blast=None
+  Duration of Curses | 詛咒持續時間 | duration=持续时间
+  Each Faerie Fire Debuff causes Hits against the affected target to Gai | 每層精靈之火異常會讓對受影響目標的命中獲得2%傷害作為隨機元素的額外傷害。 該異 | fire=火焰, damage=伤害
+  Each stack of Corrosion applies -5000 to total Armour and -1000 to tot | 每層腐蝕會對敵人施加-5000總護甲和-1000總 ^x33FF77Evasio | evasion rating=闪避值, corrosion=腐蚀, armour=护甲, duration=持续时间
+  Each stack of critical weakness applies +0.5% to critical strike chanc | 每層暴擊虛弱使對受影響目標的暴擊機率提高 +0.5% | critical strike=暴击
+  Earthquake of Amplification | 增幅之地震 | of amplification=扩大之, earthquake=震地
+  Eldritch Empowerment: | 上古賦能: | eldritch empowerment=古神赋力
+  Elemental Discharge: | 元素放電: | elemental discharge=元素解放
+  Elemental Overload | 元素超载 | elemental overload=None
+  Enable any curse skills that your Companions have. | 啟用你的夥伴所擁有的任何詛咒技能。 | curse=诅咒
+  Enables additional damage given to Lingering Blades The exact weapon i | 提升給予 Lingering Blades 的傷害 精確武器不詳，但應該與 Gl | glass shank=玻璃利片, damage=伤害
+  Enchant | 附魔 | enchant=None
+  Enchants | 附魔 | enchants=None
+  Energy Shield: {#}{#} | 能量護盾: %s%d | energy shield=能量护盾
+  Evasion Rating: {#}{#} | 閃避值: %s%d | evasion rating=闪避值
+  Explosive Arrow | 爆炸箭矢 | explosive=炸药的
+  Explosive Trap | 爆炸陷阱 | explosive=炸药的
+  Eye of Winter has passed over Cold Ground Effect or Orb. | Eye of Winter 已經通過 ^x3F6DB3寒冷^7 地面效果或法球。 | eye of winter=凛冬之眼, cold=冰霜
+  Eye of Winter has passed over Lightning Ground Effect or Orb. | Eye of Winter 已經通過 ^xADAA47閃電^7 地面效果或法球。 | eye of winter=凛冬之眼, lightning=闪电
+  Eye of Winter: | 凜冬之眼: | eye of winter=凛冬之眼
+  Focus | 专注 | focus=None
+  General's Cry | 将军之吼 | general's=将军的
+  Gloves | 手套 | gloves=None
+  Greater Harbinger of Time Slipstream buff grants: 10{#}ncreased Action | Greater Harbinger of Time 的 Slipstream 增 | duration=持续时间
+  Harbinger of Time Slipstream buff grants: 10{#}ncreased Action Speed B | Harbinger of Time 的 Slipstream 增益提供： 提高1 | duration=持续时间
+  Helmet | 头部 | helmet=None
+  Herald of Ash's base Burning damage is equal to 25% of Overkill damage | ^7【灰烬之捷】的基础^xB97123燃烧^7伤害等同于25%的超出伤害。 | burning=燃烧的
+  Hits against Brittle enemies have up to +6% Critical Strike Chance. Th | 對 ^x3F6DB3Brittle ^7敵人的命中可提升至多 +6% 暴擊機率。 | critical strike=暴击
+  Hits against Critically Weak enemies have up to +10% Critical Strike C | 對 Critically Weak 敵人的命中可提升至多 +10% 暴擊機率。  | critical strike=暴击
+  In addition to allowing 'against Blinded Enemies' modifiers to apply,  | 除了允許『對致盲敵人』修飾詞生效外，致盲還會套用以下效果。  -20% 降低命中 | evasion=闪避
+  In addition to allowing 'against Maimed Enemies' modifiers to apply, M | 除了允許『對殘廢敵人』修飾詞生效外，殘廢還會套用以下效果。  -30% 移動速度 | movement speed=移动速度, maim=瘫痪, evasion=闪避
+  In addition to allowing any 'while Elusive' modifiers to apply, this w | 除了允許任何『處於靈巧』修飾詞生效外，這將啟用靈巧增益本身： 	15% 機率避免 | movement speed=移动速度, damage=伤害
+  In addition to allowing any 'while on Consecrated Ground' modifiers to | 除了允許任何『在奉獻地面上』修飾詞生效外，奉獻地面會賦予玩家及同伴5% ^xE0 | life regeneration=生命恢复, consecrated=奉献的
+  In addition to allowing any 'while you have Arcane Surge' modifiers to | 除了允許任何『你有秘術增強』修飾詞生效外，這將啟用秘術增強增益本身。（賦予15% | arcane surge=秘术增强, mana regeneration=魔力回复
+  In addition to allowing any 'while you have Onslaught' modifiers to ap | 除了允許任何『你有猛攻』修飾詞生效外，這將啟用猛攻增益本身。（賦予20%提高攻擊 | movement speed=移动速度, attack=攻击
+  In addition to allowing any 'while your minions have Onslaught' modifi | 除了允許任何『你的召喚物有猛攻』修飾詞生效外，這將啟用猛攻增益本身。（賦予20% | movement speed=移动速度, attack=攻击
+  Infused Channelling | 灌能吟唱(辅) | infused=灌注的
+  Intimidate is a Debuff that inflicts 10{#}ncreased damage taken and 10 | Intimidate 是一種減益，會使目標受到 10% 更多傷害並降低目標 10 | damage=伤害
+  Into the Breach: | 遁入裂痕: | into the breach=投身裂隙
+  Intuitive Link | 直觉羁绊 | intuitive=直觉的
+  Kaom (Strength of Blood) | 冈姆（鲜血之力） | strength=力量
+  Keystone | 匙石 | keystone=None
+  Labyrinth: Cruel Lab | 帝王迷宮: 残酷 | cruel=残酷的
+  Labyrinth: Merciless Lab | 帝王迷宮: 无情 | merciless=无情的
+  Lethal Pride | 致命的骄傲 | lethal=高危的
+  Lightning Spire Trap | 电塔陷阱 | lightning=闪电
+  MH Hit Damage | MH 命中傷害 | damage=伤害
+  MH Impale Chance | MH 穿刺機率 | impale chance=穿刺几率
+  MH Source Lightning | MH 閃電傷害來源 | lightning=闪电
+  MH Stored Damage | MH 儲存傷害 | damage=伤害
+  MH Stun Duration | MH 暈眩持續時間 | duration=持续时间
+  MH Stun Threshold | MH 暈眩門檻 | stun threshold=晕眩阈值
+  Maximum hit damage breakdown | 最大命中傷害明細 | damage=伤害
+  Minion Bleed DPS exceeds in game limit | 召唤物流血DPS超过游戏上限 | minion=召唤生物
+  Minion DoT DPS exceeds in game limit | 召唤物持续伤DPS超过游戏上限 | minion=召唤生物
+  Minion Ignite DPS exceeds in game limit | 召唤物点燃DPS超过游戏上限 | minion=召唤生物
+  Minion Poison dps exceeds in game limit | 召唤物中毒DPS超过游戏上限 | minion=召唤生物
+  Minion: | 召唤物: | minion=召唤生物
+  Minions Accuracy Rating | 召喚物命中率 | accuracy rating=命中值
+  Mirage Burning Ground DPS exceeds in game limit | 幻影射手燃烧地面DPS超过游戏上限 | burning=燃烧的
+  Mirage Caustic Ground DPS exceeds in game limit | 幻影射手腐蚀地面DPS超过游戏上限 | caustic=腐蚀性的
+  Mirrored | 已复制 | mirrored=None
+  Molten Shell reflects damage to the enemy, based on the amount of dama | Molten Shell 反彈造成的傷害給敵人，基於其已吸收的傷害量。 | damage=伤害
+  Non-Curse Aura Effect | 非詛咒光環效果 | aura effect=光环效果, curse=诅咒
+  Number of different Ammunition types used in tha past 10s | 過去10秒使用的不同彈藥種類 | ammunition=弹药
+  Number of different Grenade types used in tha past 10s | 過去10秒使用的不同手榴彈類型 | grenade=榴弹
+  OH Hit Damage | OH 命中傷害 | damage=伤害
+  OH Impale Chance | OH 穿刺機率 | impale chance=穿刺几率
+  OH Source Lightning | OH 閃電傷害來源 | lightning=闪电
+  OH Stored Damage | OH 儲存傷害 | damage=伤害
+  OH Stun Duration | OH 暈眩持續時間 | duration=持续时间
+  OH Stun Threshold | OH 暈眩門檻 | stun threshold=晕眩阈值
+  Override number of bolts reloaded in the past 6 seconds. Used to calcu | 覆寫過去 6 秒內重載的弩箭數量。 用來計算 Fresh Clip I 輔助的傷 | fresh clip i=新装箭匣 I, damage=伤害, support=辅助
+  Override number of bolts reloaded in the past 8 seconds. Used to calcu | 覆寫過去 8 秒內重載的弩箭數量。 用來計算 Fresh Clip II 輔助的 | fresh clip ii=新装箭匣 II, damage=伤害, support=辅助
+  Path of Building Community Fork v | Path of Building 社群版 v | fork=分叉
+  Penance Brand of Dissipation | 辐照之忏悔烙印 | of dissipation=消融之
+  Perforate of Duality | 对偶之凿击 | duality=二元一体
+  Phasing | 迷踪 | phasing=None
+  Players need a minimum of 2 Life to enter Demon Form, so you cannot us | 玩家必須至少擁有 2 ^xE05030生命 ^7才能進入魔化形態，因此無法與 C | demon form=走火入魔, chaos inoculation=异灵之体
+  Power determines how strong your Warcry buffs will be, and is based on | 力量會決定你的戰吼增益有多強，並且取決於附近敵人的總力量。 如果目標是 Boss | warcry=战吼
+  Precise Technique | 技艺精湛 | precise=精确的
+  Prismatic Jewel | 三相珠宝 | prismatic=虹光的
+  Protective Link | 防御羁绊 | protective=保护的
+  Quarterstaff | 细柄长杖 | quarterstaff=None
+  Queen's Demand | 女王敕令 | queen's=女王的
+  Quiver | 箭袋 | quiver=None
+  Rakiata (Tempered by War) | 拉凯尔塔（战争锤炼） | tempered=锻炼的
+  Rampage grants the following, up to 1000 stacks: 1{#}ncreased Movement | 暴走會賦予以下效果，最高可累積 1000 層: 	每 20 層暴走獲得 1% 移 | movement speed=移动速度, rampage=横冲直撞, damage=伤害
+  Reservation: {#} Spirit | 保留: ^7%s 精魂 | spirit=精神
+  Reservation: {#}%% Spirit | 保留: ^7%s%% 精魂 | spirit=精神
+  Resulting ailment effect | 最終異常狀態效果 | ailment effect=异常状态效果
+  Righteous Fire | 正义之火 | fire=火焰
+  Rising Tempest: | 崛起風暴: | rising tempest=风暴骤起
+  Rune | 奇术 | rune=None
+  Runic Ward: {#}{#} | 符文結界: %s%d | runic=锋芒的
+  Rupture applies more bleed damage and faster bleeds for 3 seconds, up  | Rupture 使流血在 3 秒內造成更多流血傷害並加快流血速度，最多可疊加 3 | bleed damage=流血伤害, rupture=残破
+  Sacrifice 5% Energy Shield when you cast a Spell to give that Spell 30 | 施放法術時犧牲 5% ^x88FFFF能量護盾^7，使該法術造成 30% 更多傷 | energy shield=能量护盾, sacrifice=替代牺牲, spell=法术, damage=伤害
+  Scavenged Plating: | 拾荒者護板: | scavenged plating=装甲回收
+  Sceptre | 短杖 | sceptre=None
+  Scorching Ray | 灼热光线 | scorching=酷热的
+  Scorching Ray of Immolation | 焚灭之灼热光线 | of immolation=献祭之, scorching=酷热的
+  Sets the total Resonance Count. | 設定總共鳴數。 | resonance=共鸣
+  Shattering Steel of Ammunition | 备弹之破碎铁刃 | shattering=碎离的, ammunition=弹药
+  Shield | 盾牌 | shield=None
+  Shrapnel Ballista | 散射弩炮 | shrapnel=破片
+  Shrapnel Ballista of Steel | 刚刃之散射弩炮 | shrapnel=破片
+  Shrapnel Ballista: | 【散射弩炮】: | shrapnel=破片
+  Some Skills, Items, Support Gems and other effects can Break Armour, w | 某些技能、物品、輔助寶石與其他效果可破甲，會使目標的護甲降低指定數值。 如果這使 | support=辅助, armour=护甲
+  Some skills and effects require a certain Combo count to use. Combo is | 某些技能與效果需要一定的連擊數才能使用。 連擊可透過成功擊中敵人建立。 | striking=显著的
+  Sort by Companion Reservation | 按同伴保留排序 | companion reservation=伙伴保留
+  Soul Eater grants the following, up to a base of 45 stacks: 5{#}ncreas | 噬魂者提供以下效果，最多可疊加 45 層： 	攻擊速度提高 5% 	施放速度提高 | attack speed=攻击速度, cast speed=施法速度
+  Spear | 长锋 | spear=None
+  Speed | 速度 | speed=None
+  Splitting Steel of Ammunition | 备弹之分裂钢刃 | ammunition=弹药
+  Staff | 长杖 | staff=None
+  Steel Wards are gained from using Shattering Steel of Ammunition with  | 鋼鐵護衛可透過使用 Shattering Steel of Ammunition | attack damage=攻击伤害, shattering=碎离的, ammunition=弹药, block=格挡
+  Storm Rain | 暴雨箭 | storm=风暴
+  Storm Rain of the Conduit | 引雷之暴雨箭 | storm=风暴, conduit=能量连接
+  Storm Rain of the Conduit: | 【引雷之暴雨箭】: | storm=风暴, conduit=能量连接
+  Storm Rain: | 【暴雨箭】: | storm=风暴
+  Summon Companion: | 召喚同伴: | companion=同伴的
+  Summon Sacred Wisps | 召唤圣洁鬼灵 | sacred=圣洁的
+  Support Gems | 支援寶石 | support=辅助
+  Tailwind grants the following, up to a base of 10 stacks: 1{#}ncreased | 流順之風提供以下效果，最多可疊加 10 層： 	移動速度提高 1% 	技能速度提 | movement speed=移动速度, evasion rating=闪避值
+  Talisman | 魔符 | talisman=None
+  The Parry debuff grants: Enemies take 50% more Attack Damage | 招架減益提供： 	敵人承受 50% 更多攻擊傷害 | attack damage=攻击伤害
+  The amount of valour consumed for the placed banner | 放置旗帜所消耗的勇气量 | of valour=勇气之
+  The enemy will automatically be considered to be Cursed if you have at | 若你至少啟用一個詛咒，敵人會自動視為已受詛咒， 但必要時你可以用此選項強制設定。 | curse=诅咒
+  The enemy will automatically be considered to be Unique if they are a  | 若敵人是 Boss，將自動視為傳奇。 用於設定基礎斬殺門檻。 | culling strike threshold=终结阈值
+  The percentage of the roll range the enemy hits for eg at 100% the ene | 敵人命中的擲值範圍百分比   例如在 100% 時，敵人會造成最大傷害 | damage=伤害
+  This also implies that the enemy is Burning. | ^xFFFFFF这也意味着敌人在^xB97123【燃烧】^7。 | burning=燃烧的
+  This also implies that the enemy is Chilled. | 这也意味着敌人被冰缓. | chilled=冰缓的
+  This also implies that you are Burning. | ^xFFFFFF这也意味着你在^xB97123燃烧^7。 | burning=燃烧的
+  This also implies that you are Chilled. | ^xFFFFFF这也意味着你被^x3F6DB3冰缓^7。 | chilled=冰缓的
+  This also implies that you have a Totem summoned. This will affect all | 這也表示你有召喚圖騰。 這會影響所有「每個已召喚圖騰」修正，即使是非圖騰技能也會 | totem=图腾
+  This also implies that you have used a Skill Recently. You will automa | 這也表示你近期有使用技能。 若你的主要技能是攻擊技能，系統會自動視為你近期有攻擊 | attack=攻击
+  This also implies that you have used a Skill Recently. You will automa | 這也表示你近期有使用技能。 若你的主要技能是法術，系統會自動視為你近期有施放法術 | spell=法术
+  This also implies that you have used a Skill Recently. You will automa | 這也表示你近期有使用技能。 若你的主要技能是召喚物技能，系統會自動視為你近期有使 | minion=召唤生物
+  This applies -20% Lightning Resistance to the enemy. | 此效果對敵人施加 -20% ^xADAA47閃電抗性^7。 | lightning resistance=闪电抗性
+  This is for party play, to export support character, it enables the ex | 用于团队游戏，导出支援角色，其可以输出光环，诅咒和修正给敌人 | support=辅助
+  This option enables Manastorm's Lightning Damage Buff. (When you cast  | 這個選項會啟用 Manastorm 的 ^xADAA47閃電^7 傷害增益。 （ | lightning damage=闪电伤害, spell=法术, sacrifice=替代牺牲
+  This option sets whether or not the enemy has hit you with Cold Damage | ^7此选项设置敌人是否在过去4秒内以^x3F6DB3冰霜^7伤害击中了你。 | cold damage=冰霜伤害
+  This option sets whether or not the enemy has hit you with Fire Damage | ^7此选项设置敌人是否在过去4秒内以^xB97123火焰^7伤害击中了你。 | fire damage=火焰伤害
+  This option sets whether or not the enemy has hit you with Lightning D | ^7此选项设置敌人是否在过去4秒内以^xADAA47闪电^7伤害击中了你。 | lightning damage=闪电伤害
+  This overrides the default damage amount used to estimate your damage  | 此選項會覆寫用來估算你從護甲獲得的傷害減免所使用的預設傷害量。 預設值是敵人基礎 | damage=伤害, armour=护甲
+  This overrides the default enemy level used to estimate your hit, evad | 此選項會覆寫用來估算你的命中、^x33FF77閃避^7機率與傷害減免的預設敵人等 | damage=伤害
+  This will enable the Adrenaline buff, which grants: 100{#}ncreased Dam | 啟用可賦予以下加成的腎上腺素增益： 	傷害提高 100% 	攻擊、施放與移動速度 | movement speed=移动速度, physical damage=物理伤害, attack=攻击
+  This will enable the Alchemist's Genius buff: 20{#}ncreased Flask Char | 這將啟用【鍊金奇才】增益： 充能獲得提高 20% 藥劑效果提高 10% | flask charges gained=药剂充能获取率
+  This will enable the Chaotic Might buff on your minions. (Grants 30% o | 這將啟用你召喚物的【混亂之力】增益。 （賦予30% 物理傷害作為額外的 ^xD0 | physical damage=物理伤害, chaos damage=混沌伤害, chaotic=混沌的
+  This will enable the Chaotic Might buff. (Grants 30% of Physical Damag | 這將啟用【混沌之力】增益。 （賦予30% 物理傷害作為額外的 ^xD02090混 | physical damage=物理伤害, chaos damage=混沌伤害, chaotic=混沌的
+  This will enable the Divinity buff, which grants: 50% more Elemental D | 這將啟用【神性】增益，賦予： 	50% 元素傷害提高 	受到的元素傷害降低20% | elemental damage=元素伤害
+  This will enable the Unholy Might buff on your minions. (Grants 30% of | 這將啟用你召喚物的【不潔之力】增益。  （賦予30% 所有傷害作為額外的 ^xD | chaos damage=混沌伤害
+  This will enable the Unholy Might buff. (Grants 30% of All Damage as e | 這將啟用【不潔之力】增益。 （賦予30% 所有傷害作為額外的 ^xD02090混 | chaos damage=混沌伤害
+  Tip: You can drag items from the Items tab onto this dropdown to equip | 提示:你可以将物品从“物品”选项卡中拖拽到这个下拉菜单中以将其装备到召唤物上。 | minion=召唤生物
+  Total Energy Shield Degen | 總能量護盾流失 | energy shield=能量护盾
+  Total damage from the enemy | 敵人總傷害 | damage=伤害
+  Total damage taken after mitigation | 減免後承受的總傷害 | damage=伤害
+  Total damage taken from the enemy after taken as | 經承受轉換後，來自敵人的總傷害 | damage=伤害
+  Toxic Rain | 毒雨 | toxic rain=None
+  Transfiguration of Mind | 心灵幻化 | of mind=心灵之
+  Trauma per second before increased Attack Speed | 每秒創傷（未計攻擊速度提高） | attack speed=攻击速度
+  Trinity: | 三相: | trinity=三位一体
+  Twister has passed over Cold Ground or consumed a Cold Whirlwind. | Twister 已通過 ^x3F6DB3寒冷^7 地面或消耗了 ^x3F6DB3 | twister=旋龙, cold=冰霜
+  Twister has passed over Lightning Ground or consumed a Lightning Whirl | Twister 已通過 ^xADAA47閃電^7 地面或消耗了 ^xADAA47 | twister=旋龙, lightning=闪电
+  Twister: | 旋風: | twister=旋龙
+  Unbound Avatar: | 【荒野之象】: | unbound avatar=不羁化身
+  Unravelling Bolt | 解構閃電 | unravelling=解析
+  Unravelling Flame | 解構火焰 | unravelling=解析
+  Unravelling Frost | 解構冰霜 | unravelling=解析
+  Use this field to set a custom Armour Break value. If left empty or se | 使用此欄位設定自訂破甲值。 若留空或設為 0，則會視為完全破碎的護甲。 除非另有 | armour break=护甲破损
+  Used in calculations for Silks of Veneration and The Mutable Star. Ove | 用於 ^xAF6025Silks of Veneration^7 和 ^xAF6 | silks of veneration=敬奉之绸, the mutable star=易变星辰, energy shield=能量护盾
+  Uses Lua pattern matching for complex searches. Prefix your search wit | 使用 Lua 模式匹配进行复杂搜索。 搜索前加上 "oil:" 可按涂油配方搜索 | area of effect=效果范围, fire damage=火焰伤害
+  Vaal Molten Shell reflects damage to the enemy, based on the amount of | Vaal Molten Shell 會根據其在過去 1 秒內所減免的傷害， 將傷 | damage=伤害
+  Vixen's Curse | 薇森的詛咒 | curse=诅咒
+  Wand | 法杖 | wand=None
+  Ward | 结界 | ward=None
+  Warlord's Mark | 督军印记 | warlord's=督军的
+  Watcher's Eye | 守望之眼 | watcher's=守望的
+  While affected by Unravelling, your Chaos Damage randomly either also  | 受【解構】影響時，你的 ^xD02090混沌^7 傷害會隨機地同時也貢獻於 ^x | chaos damage=混沌伤害, freeze buildup=冻结积蓄, shock chance=感电几率, unravelling=解析
+  While ensnared, enemies take increased Projectile Damage from Attack H | 被纏繞時，敵人會從攻擊命中的投射物傷害中承受更多傷害 被纏繞的敵人一律視為正在移 | projectile damage=投射物伤害, movement speed=移动速度, attack=攻击
+  Whirlwind has passed over Cold Ground. | 旋風已經通過 ^x3F6DB3寒冷^7 地面。 | cold=冰霜
+  Whirlwind has passed over Lightning Ground. | 旋風已經通過 ^xADAA47閃電^7 地面。 | lightning=闪电
+  Wind Dancer: | 風之舞： | wind dancer=风舞者
+  Withered | 凋萎 | withered=死亡凋零
+  Withered applies 5{#}ncreased Chaos Damage Taken to the enemy, up to 1 | 衰弱使敵人受到的 ^xD02090混沌 ^7傷害增加 5%，最多 10 層。 | chaos damage=混沌伤害
+  Withered applies 5{#}ncreased Chaos Damage Taken to the self, up to 10 | 衰弱使你受到的 ^xD02090混沌 ^7傷害增加 5%，最多 10 層。 | chaos damage=混沌伤害
+  Xibaqua (Divine Flesh) | 夏巴夸亚（神圣血肉） | divine=神圣的
+  You do not have enough Accuracy for Precise Technique | 你未拥有满足【技艺精湛】需求的命中值 | precise=精确的
+  You have 1% less damage taken from hits per stack of fortification: Ha | 每層堅固使你受到的擊中傷害降低 1%： 預設上限為 20 層。 | damage=伤害
+  You have too many passive points allocated | 你分配了过多的天赋点 | passive points=天赋点数
+  You will automatically be considered to be on Full Life if you have Ch | ^xFFFFFF如果你有【异灵之体】将自动被视为满^xE05030血^7状态, | life=生命
+  You will automatically be considered to be on Low Energy Shield if you | 若你至少保留了 50% 的 ^x88FFFFES ^7，系統會自動視為你處於低  | energy shield=能量护盾
+  You will automatically be considered to be on Low Mana if you have at  | 若你至少保留了 50% 的 ^x7070FF法力 ^7，系統會自動視為你處於低  | mana=魔力
+  You will automatically be considered to have Summoned a Totem Recently | 若你的主要技能是圖騰技能，系統會自動視為你近期召喚過圖騰， 但你可以在必要時用此 | totem=图腾
+  You will automatically be considered to have a Totem if your main skil | 若你的主要技能是圖騰技能，系統會自動視為你有圖騰， 但你可以在必要時用此選項強制 | totem=图腾
+  Your Absolution Skill Damage will not be scaled with Count setting. By | 你的 Absolution 技能傷害不會隨計數設定縮放。 預設下它會同時乘上僕從 | spell totem=法术图腾, spell cascade=多重范围施法, damage=伤害, minion=召唤生物, support=辅助
+  Your unreserved Spirit is negative | 你未保留的靈魂為負值 | spirit=精神
+  this will enable the Quicksand Hourglass buff itself. | 這將啟用流沙沙漏增益本身。 | quicksand hourglass=迅时沙漏
+  your total Dexterity support gems. | 你的敏捷輔助寶石總數。 | support=辅助
+  your total Intelligence support gems. | 你的智慧輔助寶石總數。 | support=辅助
+  your total Strength support gems. | 你的力量輔助寶石總數。 | support=辅助

@@ -1,0 +1,174 @@
+{
+ "tree": "Default",
+ "classes": [
+  {
+   "name": "僧侶",
+   "ascendancies": [
+    {
+     "id": "Monk1",
+     "name": "武聖"
+    },
+    {
+     "id": "Monk2",
+     "name": "祈靈者"
+    },
+    {
+     "id": "Monk3",
+     "name": "夏烏拉侍僧"
+    }
+   ]
+  }
+ ],
+ "nodes": {
+  "4": {
+   "skill": 4,
+   "id": "lightning14",
+   "name": "感電機率",
+   "stats": [
+    "增加15%[Shock|感電]機率"
+   ]
+  },
+  "240": {
+   "skill": 240,
+   "id": "mastery_lightning150",
+   "name": "閃電專精",
+   "stats": [],
+   "isMastery": true
+  },
+  "516": {
+   "skill": 516,
+   "id": "projectiles32",
+   "name": "投射物傷害",
+   "stats": [
+    "增加15%[Projectile|投射物]對距離超過6公尺的敵人造成的擊中傷害"
+   ]
+  },
+  "2491": {
+   "skill": 2491,
+   "id": "jewel_slot1974",
+   "name": "[Jewel|珠寶]插槽",
+   "stats": [],
+   "isJewelSocket": true
+  },
+  "3281": {
+   "skill": 3281,
+   "id": "oracle_strength_spell4",
+   "name": "強力施法",
+   "stats": [
+    "每10點[Strength|力量]增加2%法術傷害",
+    "需要 未見之道"
+   ],
+   "isNotable": true,
+   "unlockConstraint": {
+    "ascendancy": "Druid1"
+   }
+  },
+  "9994": {
+   "skill": 9994,
+   "id": "AscendancyMonk2Start",
+   "name": "元素大師",
+   "stats": [],
+   "isAscendancyStart": true,
+   "ascendancyName": "Monk2"
+  },
+  "11335": {
+   "skill": 11335,
+   "id": "AscendancyDruid1Small1",
+   "name": "天賦點",
+   "stats": [
+    "賦予 1 天賦點數"
+   ],
+   "ascendancyName": "Druid1"
+  },
+  "14226": {
+   "skill": 14226,
+   "id": "passive_keystone_dance_with_death",
+   "name": "和死共舞",
+   "stats": [
+    "副手無裝備且你的主手裝備\n[One-Handed|單手][MartialWeapon|軍用武器]時，得到25%更多技能速度"
+   ],
+   "isKeystone": true,
+   "flavourText": [
+    "你用敵意盤旋著黑蠍，一次又一次地挑戰它。"
+   ]
+  },
+  "18684": {
+   "skill": 18684,
+   "id": "passive_keystone_avatar_of_fire",
+   "name": "火之化身",
+   "stats": [
+    "75%的傷害轉換成火焰傷害\n除火焰傷害外不造成其他傷害"
+   ],
+   "isKeystone": true,
+   "flavourText": [
+    "「我在夢境之中看到了一位偉大的戰士……皮膚被燒成焦黑，拳頭纏繞著火焰。」"
+   ]
+  },
+  "70000": {
+   "skill": 70000,
+   "name": "New In 1.0",
+   "stats": []
+  },
+  "51690": {
+   "skill": 51690,
+   "group": 77,
+   "orbit": 6,
+   "orbitIndex": 43,
+   "out": [],
+   "connections": [
+    {
+     "id": "12000",
+     "orbit": -5
+    }
+   ],
+   "in": [],
+   "id": "AscendancyWarrior1Small7",
+   "name": "生命回復",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/Titan/TitanNode.webp",
+   "stats": [
+    "每秒回復0.5%生命"
+   ],
+   "ascendancyName": "Warrior1"
+  },
+  "20303": {
+   "skill": 20303,
+   "group": 402,
+   "orbit": 2,
+   "orbitIndex": 16,
+   "out": [],
+   "connections": [
+    {
+     "id": "9908",
+     "orbit": 0
+    }
+   ],
+   "in": [],
+   "id": "life_regeneration31",
+   "name": "生命回復",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/lifepercentage.webp",
+   "stats": [
+    "增加10%生命回復率"
+   ]
+  },
+  "38776": {
+   "skill": 38776,
+   "group": 791,
+   "orbit": 7,
+   "orbitIndex": 16,
+   "out": [],
+   "connections": [
+    {
+     "id": "57816",
+     "orbit": 0
+    }
+   ],
+   "in": [],
+   "id": "attributes105",
+   "name": "敏捷",
+   "icon": "https://cdn.poe2db.tw/image/Art/2DArt/SkillIcons/passives/plusdexterity.webp",
+   "stats": [
+    "+8[Dexterity|敏捷]"
+   ]
+  }
+ }
+}

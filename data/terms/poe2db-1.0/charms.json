@@ -1,0 +1,3806 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Charms",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Charms",
+    "file": "us/Charms.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Charms",
+    "file": "cn/Charms.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Charms",
+    "file": "tw/Charms.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "item_class_code": "UtilityFlask",
+  "mods_source": "ModsView",
+  "placeholders": "'#' replaces each rolled value; ranges lists [min, max] per '#' in English order",
+  "generation_types": {
+   "1": "Prefix",
+   "2": "Suffix",
+   "3": "Unique",
+   "5": "Corrupted"
+  },
+  "summary": {
+   "mismatches": 2,
+   "mods": 51,
+   "socketables": 0,
+   "base_types": 38,
+   "uniques": 37,
+   "page_entries": 51,
+   "pob_joined": 51,
+   "pob_text_differs": 0,
+   "missing_in_pob": 0,
+   "pob_only": 265,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 7,
+     "differ": 2,
+     "absent": 0
+    },
+    "names": {
+     "agree": 45,
+     "differ": 0,
+     "absent": 23
+    }
+   }
+  }
+ },
+ "mods": {
+  "CharmGainLifeOnUse1": {
+   "id": "CharmGainLifeOnUse1",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     8.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Herbal",
+    "zh_hans": "药草的",
+    "zh_hant": "草藥的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse2": {
+   "id": "CharmGainLifeOnUse2",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 14,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     35.0,
+     52.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Floral",
+    "zh_hans": "植被的",
+    "zh_hant": "花草的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse3": {
+   "id": "CharmGainLifeOnUse3",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 26,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     63.0,
+     92.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Blooming",
+    "zh_hans": "繁花的",
+    "zh_hant": "綻放的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse4": {
+   "id": "CharmGainLifeOnUse4",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 36,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     96.0,
+     130.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Sprouting",
+    "zh_hans": "萌发的",
+    "zh_hant": "萌發的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse5": {
+   "id": "CharmGainLifeOnUse5",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 47,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     134.0,
+     180.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Petaled",
+    "zh_hans": "苞蕾的",
+    "zh_hant": "花瓣的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse6": {
+   "id": "CharmGainLifeOnUse6",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 58,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     185.0,
+     230.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Botanic",
+    "zh_hans": "植物学的",
+    "zh_hant": "植物的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse7": {
+   "id": "CharmGainLifeOnUse7",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 67,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     235.0,
+     280.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Natural",
+    "zh_hans": "自然的",
+    "zh_hant": "天然的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainLifeOnUse8": {
+   "id": "CharmGainLifeOnUse8",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 76,
+   "en": [
+    "Recover # Life when Used"
+   ],
+   "ranges": [
+    [
+     285.0,
+     350.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 生命"
+   ],
+   "zh_hant": [
+    "使用後恢復#生命"
+   ],
+   "affix": {
+    "en": "Evergreen",
+    "zh_hans": "常青的",
+    "zh_hant": "常綠"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse1": {
+   "id": "CharmGainManaOnUse1",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     16.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Drizzling",
+    "zh_hans": "滴露的",
+    "zh_hant": "細雨的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse2": {
+   "id": "CharmGainManaOnUse2",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 14,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     33.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Soaked",
+    "zh_hans": "浸泡的",
+    "zh_hant": "浸泡的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse3": {
+   "id": "CharmGainManaOnUse3",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 26,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     55.0,
+     75.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Mistbound",
+    "zh_hans": "缚雾的",
+    "zh_hant": "霧縛的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse4": {
+   "id": "CharmGainManaOnUse4",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 36,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     80.0,
+     110.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Tidebound",
+    "zh_hans": "缚涛的",
+    "zh_hant": "潮縛的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse5": {
+   "id": "CharmGainManaOnUse5",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 47,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     115.0,
+     145.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Aqueous",
+    "zh_hans": "水生的",
+    "zh_hant": "流水的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse6": {
+   "id": "CharmGainManaOnUse6",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 58,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     150.0,
+     180.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Flooded",
+    "zh_hans": "泛滥的",
+    "zh_hant": "淹沒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse7": {
+   "id": "CharmGainManaOnUse7",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 67,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     185.0,
+     225.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Oceanic",
+    "zh_hans": "汪洋的",
+    "zh_hant": "海洋的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGainManaOnUse8": {
+   "id": "CharmGainManaOnUse8",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 76,
+   "en": [
+    "Recover # Mana when Used"
+   ],
+   "ranges": [
+    [
+     230.0,
+     300.0
+    ]
+   ],
+   "zh_hans": [
+    "使用时回复 # 魔力"
+   ],
+   "zh_hant": [
+    "使用後恢復#魔力"
+   ],
+   "affix": {
+    "en": "Raindancer's",
+    "zh_hans": "雨舞者的",
+    "zh_hant": "雨舞者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGuardWhileActive1": {
+   "id": "CharmGuardWhileActive1",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 10,
+   "en": [
+    "Also grants # Guard"
+   ],
+   "ranges": [
+    [
+     44.0,
+     66.0
+    ]
+   ],
+   "zh_hans": [
+    "同时获得 # 防卫"
+   ],
+   "zh_hant": [
+    "同時賦予#層守護"
+   ],
+   "affix": {
+    "en": "Sunny",
+    "zh_hans": "晴空的",
+    "zh_hant": "晴天的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGuardWhileActive2": {
+   "id": "CharmGuardWhileActive2",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 21,
+   "en": [
+    "Also grants # Guard"
+   ],
+   "ranges": [
+    [
+     85.0,
+     128.0
+    ]
+   ],
+   "zh_hans": [
+    "同时获得 # 防卫"
+   ],
+   "zh_hant": [
+    "同時賦予#層守護"
+   ],
+   "affix": {
+    "en": "Dawnlit",
+    "zh_hans": "晨辉的",
+    "zh_hant": "晨光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGuardWhileActive3": {
+   "id": "CharmGuardWhileActive3",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 36,
+   "en": [
+    "Also grants # Guard"
+   ],
+   "ranges": [
+    [
+     148.0,
+     200.0
+    ]
+   ],
+   "zh_hans": [
+    "同时获得 # 防卫"
+   ],
+   "zh_hant": [
+    "同時賦予#層守護"
+   ],
+   "affix": {
+    "en": "Bright",
+    "zh_hans": "光明的",
+    "zh_hant": "明亮"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGuardWhileActive4": {
+   "id": "CharmGuardWhileActive4",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 48,
+   "en": [
+    "Also grants # Guard"
+   ],
+   "ranges": [
+    [
+     205.0,
+     260.0
+    ]
+   ],
+   "zh_hans": [
+    "同时获得 # 防卫"
+   ],
+   "zh_hant": [
+    "同時賦予#層守護"
+   ],
+   "affix": {
+    "en": "Vibrant",
+    "zh_hans": "鲜活的",
+    "zh_hant": "生動的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGuardWhileActive5": {
+   "id": "CharmGuardWhileActive5",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Also grants # Guard"
+   ],
+   "ranges": [
+    [
+     265.0,
+     350.0
+    ]
+   ],
+   "zh_hans": [
+    "同时获得 # 防卫"
+   ],
+   "zh_hant": [
+    "同時賦予#層守護"
+   ],
+   "affix": {
+    "en": "Lustrous",
+    "zh_hans": "光辉的",
+    "zh_hant": "燦爛的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmGuardWhileActive6": {
+   "id": "CharmGuardWhileActive6",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Also grants # Guard"
+   ],
+   "ranges": [
+    [
+     355.0,
+     500.0
+    ]
+   ],
+   "zh_hans": [
+    "同时获得 # 防卫"
+   ],
+   "zh_hant": [
+    "同時賦予#層守護"
+   ],
+   "affix": {
+    "en": "Sunburst",
+    "zh_hans": "艳阳的",
+    "zh_hant": "散陽的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmIncreasedDuration1": {
+   "id": "CharmIncreasedDuration1",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Duration"
+   ],
+   "ranges": [
+    [
+     16.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%持續時間"
+   ],
+   "affix": {
+    "en": "Investigator's",
+    "zh_hans": "调查者的",
+    "zh_hant": "調查者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmIncreasedDuration2": {
+   "id": "CharmIncreasedDuration2",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 20,
+   "en": [
+    "#% increased Duration"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%持續時間"
+   ],
+   "affix": {
+    "en": "Analyst's",
+    "zh_hans": "分析家的",
+    "zh_hant": "分析師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmIncreasedDuration3": {
+   "id": "CharmIncreasedDuration3",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 42,
+   "en": [
+    "#% increased Duration"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%持續時間"
+   ],
+   "affix": {
+    "en": "Examiner's",
+    "zh_hans": "审查人的",
+    "zh_hant": "考官的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmIncreasedDuration4": {
+   "id": "CharmIncreasedDuration4",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 61,
+   "en": [
+    "#% increased Duration"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%持續時間"
+   ],
+   "affix": {
+    "en": "Clinician's",
+    "zh_hans": "临床师的",
+    "zh_hant": "臨床醫生的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "CharmIncreasedDuration5": {
+   "id": "CharmIncreasedDuration5",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 78,
+   "en": [
+    "#% increased Duration"
+   ],
+   "ranges": [
+    [
+     36.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "持续时间提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%持續時間"
+   ],
+   "affix": {
+    "en": "Experimenter's",
+    "zh_hans": "实验家的",
+    "zh_hant": "實驗家的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChanceRechargeOnKill1": {
+   "id": "FlaskChanceRechargeOnKill1",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "#% Chance to gain a Charge when you kill an enemy"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "击败敌人时有 #% 的几率获得一个能量球"
+   ],
+   "zh_hant": [
+    "殺死敵人時有#%機率獲得一顆充能"
+   ],
+   "affix": {
+    "en": "of the Medic",
+    "zh_hans": "救护之",
+    "zh_hant": "醫者之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChanceRechargeOnKill2": {
+   "id": "FlaskChanceRechargeOnKill2",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "#% Chance to gain a Charge when you kill an enemy"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "击败敌人时有 #% 的几率获得一个能量球"
+   ],
+   "zh_hant": [
+    "殺死敵人時有#%機率獲得一顆充能"
+   ],
+   "affix": {
+    "en": "of the Doctor",
+    "zh_hans": "医生之",
+    "zh_hant": "醫師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChanceRechargeOnKill3": {
+   "id": "FlaskChanceRechargeOnKill3",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "#% Chance to gain a Charge when you kill an enemy"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "击败敌人时有 #% 的几率获得一个能量球"
+   ],
+   "zh_hant": [
+    "殺死敵人時有#%機率獲得一顆充能"
+   ],
+   "affix": {
+    "en": "of the Surgeon",
+    "zh_hans": "手术之",
+    "zh_hant": "外科醫師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent1": {
+   "id": "FlaskChargesAddedIncreasePercent1",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     23.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Constant",
+    "zh_hans": "恒常之",
+    "zh_hant": "持續之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent2_": {
+   "id": "FlaskChargesAddedIncreasePercent2_",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 13,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     31.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Continuous",
+    "zh_hans": "恒续之",
+    "zh_hant": "連續的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent3_": {
+   "id": "FlaskChargesAddedIncreasePercent3_",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     39.0,
+     46.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Endless",
+    "zh_hans": "无穷之",
+    "zh_hant": "無盡的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent4_": {
+   "id": "FlaskChargesAddedIncreasePercent4_",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 48,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     47.0,
+     54.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Bottomless",
+    "zh_hans": "无底之",
+    "zh_hant": "無底的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent5__": {
+   "id": "FlaskChargesAddedIncreasePercent5__",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 63,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     55.0,
+     62.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Perpetual",
+    "zh_hans": "永久之",
+    "zh_hant": "永久的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent6": {
+   "id": "FlaskChargesAddedIncreasePercent6",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 82,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     63.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Eternal",
+    "zh_hans": "永恒之",
+    "zh_hant": "永恆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed1": {
+   "id": "FlaskChargesUsed1",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     15.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Apprentice",
+    "zh_hans": "学徒之",
+    "zh_hant": "學徒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed2": {
+   "id": "FlaskChargesUsed2",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 14,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     18.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Practitioner",
+    "zh_hans": "医者之",
+    "zh_hant": "從業者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed3__": {
+   "id": "FlaskChargesUsed3__",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 34,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     21.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Mixologist",
+    "zh_hans": "调剂之",
+    "zh_hant": "調酒師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed4__": {
+   "id": "FlaskChargesUsed4__",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 49,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     24.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Distiller",
+    "zh_hans": "蒸馏之",
+    "zh_hant": "釀酒師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed5": {
+   "id": "FlaskChargesUsed5",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 64,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     27.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Brewer",
+    "zh_hans": "烹煮之",
+    "zh_hant": "釀酒師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed6": {
+   "id": "FlaskChargesUsed6",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 83,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     30.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Chemist",
+    "zh_hans": "药学之",
+    "zh_hant": "化學家之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges1": {
+   "id": "FlaskExtraCharges1",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     23.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Wide",
+    "zh_hans": "宽大之",
+    "zh_hant": "寬的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges2__": {
+   "id": "FlaskExtraCharges2__",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 12,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     31.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Copious",
+    "zh_hans": "丰富之",
+    "zh_hant": "豐產的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges3_": {
+   "id": "FlaskExtraCharges3_",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 32,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     39.0,
+     46.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Plentiful",
+    "zh_hans": "丰厚之",
+    "zh_hant": "充足的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges4__": {
+   "id": "FlaskExtraCharges4__",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 47,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     47.0,
+     54.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Bountiful",
+    "zh_hans": "充裕之",
+    "zh_hant": "富裕的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges5": {
+   "id": "FlaskExtraCharges5",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 62,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     55.0,
+     62.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Abundant",
+    "zh_hans": "充足之",
+    "zh_hant": "富裕之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges6": {
+   "id": "FlaskExtraCharges6",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     63.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Ample",
+    "zh_hans": "丰沛之",
+    "zh_hant": "慷慨之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskFillChargesPerMinute1": {
+   "id": "FlaskFillChargesPerMinute1",
+   "family": [
+    "FlaskGainCharge"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "Gains # Charges per Second"
+   ],
+   "ranges": [
+    [
+     0.15,
+     0.15
+    ]
+   ],
+   "zh_hans": [
+    "每秒获得 # 次充能"
+   ],
+   "zh_hant": [
+    "每秒獲得#充能"
+   ],
+   "affix": {
+    "en": "of the Foliage",
+    "zh_hans": "施肥之",
+    "zh_hant": "枝葉之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskFillChargesPerMinute2": {
+   "id": "FlaskFillChargesPerMinute2",
+   "family": [
+    "FlaskGainCharge"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "Gains # Charges per Second"
+   ],
+   "ranges": [
+    [
+     0.2,
+     0.2
+    ]
+   ],
+   "zh_hans": [
+    "每秒获得 # 次充能"
+   ],
+   "zh_hant": [
+    "每秒獲得#充能"
+   ],
+   "affix": {
+    "en": "of the Verdant",
+    "zh_hans": "苍翠之",
+    "zh_hant": "自然之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskFillChargesPerMinute3": {
+   "id": "FlaskFillChargesPerMinute3",
+   "family": [
+    "FlaskGainCharge"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "Gains # Charges per Second"
+   ],
+   "ranges": [
+    [
+     0.25,
+     0.25
+    ]
+   ],
+   "zh_hans": [
+    "每秒获得 # 次充能"
+   ],
+   "zh_hant": [
+    "每秒獲得#充能"
+   ],
+   "affix": {
+    "en": "of the Sylvan",
+    "zh_hans": "林荫之",
+    "zh_hant": "森林之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  }
+ },
+ "socketables": {},
+ "base_types": {
+  "Amethyst_Charm": {
+   "en": "Amethyst Charm",
+   "zh_hans": "紫晶咒符",
+   "zh_hant": "紫晶護符",
+   "implicits": [
+    {
+     "en": "Used when you take Chaos damage from a Hit",
+     "zh_hans": "当你受到击中混沌伤害时使用",
+     "zh_hant": "當你被混沌傷害擊中時使用"
+    }
+   ]
+  },
+  "Antidote_Charm": {
+   "en": "Antidote Charm",
+   "zh_hans": "抗毒咒符",
+   "zh_hant": "解毒護符",
+   "implicits": [
+    {
+     "en": "Used when you become Poisoned",
+     "zh_hans": "陷入中毒时自动使用",
+     "zh_hant": "當你被中毒時使用"
+    }
+   ]
+  },
+  "Cat_Idol": {
+   "en": "Cat Idol",
+   "zh_hans": "灵猫雕像",
+   "zh_hant": "靈貓魔偶",
+   "implicits": [
+    {
+     "en": "Gloves: #% increased Accuracy Rating",
+     "zh_hans": "手套: 命中值提高 #%",
+     "zh_hant": "手套: 增加#%命中值"
+    },
+    {
+     "en": "Sceptres: Allies in your Presence have #% increased Critical Hit Chance",
+     "zh_hans": "权杖: 在场的友军的暴击几率提高 #%",
+     "zh_hant": "權杖: 處於你存在範圍中的友方增加#%暴擊率"
+    }
+   ]
+  },
+  "Cleansing_Charm": {
+   "en": "Cleansing Charm",
+   "zh_hans": "净化咒符",
+   "zh_hant": "淨化護符",
+   "implicits": [
+    {
+     "en": "Used when you become Cursed",
+     "zh_hans": "被诅咒时自动使用",
+     "zh_hant": "當你被詛咒時使用"
+    }
+   ]
+  },
+  "Double_Belt": {
+   "en": "Double Belt",
+   "zh_hans": "双重腰带",
+   "zh_hant": "雙層腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Charm Charges gained",
+     "zh_hans": "获得的咒符充能提高 #%",
+     "zh_hant": "增加#%護符充能獲取"
+    }
+   ]
+  },
+  "Dousing_Charm": {
+   "en": "Dousing Charm",
+   "zh_hans": "浸润咒符",
+   "zh_hant": "滅火護符",
+   "implicits": [
+    {
+     "en": "Used when you become Ignited",
+     "zh_hans": "被点燃时自动使用",
+     "zh_hant": "當你被點燃時使用"
+    }
+   ]
+  },
+  "Fine_Belt": {
+   "en": "Fine Belt",
+   "zh_hans": "精致腰带",
+   "zh_hant": "精良腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ]
+  },
+  "Forking_Belt": {
+   "en": "Forking Belt",
+   "zh_hans": "分叉腰带",
+   "zh_hant": "歧路腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Adds # to # Lightning damage to Attacks",
+     "zh_hans": "攻击附加 # - # 基础闪电伤害",
+     "zh_hant": "攻擊附加#至#閃電傷害"
+    }
+   ]
+  },
+  "Golden_Charm": {
+   "en": "Golden Charm",
+   "zh_hans": "黄金咒符",
+   "zh_hant": "黃金護符",
+   "implicits": [
+    {
+     "en": "Used when you kill a Rare or Unique enemy",
+     "zh_hans": "当你击败稀有或传奇敌人时使用",
+     "zh_hant": "當你擊殺稀有或傳奇敵人時使用"
+    }
+   ]
+  },
+  "Golden_Obi": {
+   "en": "Golden Obi",
+   "zh_hans": "金羽腰带",
+   "zh_hant": "金羽腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Rarity of Items found",
+     "zh_hans": "物品稀有度提高 #%",
+     "zh_hant": "增加#%找到的物品稀有度"
+    }
+   ]
+  },
+  "Grounding_Charm": {
+   "en": "Grounding Charm",
+   "zh_hans": "根基咒符",
+   "zh_hant": "接地護符",
+   "implicits": [
+    {
+     "en": "Used when you become Shocked",
+     "zh_hans": "陷入感电时自动使用",
+     "zh_hant": "當你被感電時使用"
+    }
+   ]
+  },
+  "Heavy_Belt": {
+   "en": "Heavy Belt",
+   "zh_hans": "重革腰带",
+   "zh_hant": "重革腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    }
+   ]
+  },
+  "Idol_of_Eramir": {
+   "en": "Idol of Eramir",
+   "zh_hans": "艾米尔之雕像",
+   "zh_hant": "艾米爾魔偶",
+   "implicits": [
+    {
+     "en": "Body Armours: Skills have #% chance to not remove Charges but still count as consuming them",
+     "zh_hans": "护甲: 技能有 #% 的几率不移除能量球，但仍视作消耗了它们",
+     "zh_hant": "胸甲: 技能有#%的機率不會移除能量球，但依然會視為將其消耗"
+    },
+    {
+     "en": "Sceptres: Allies in your Presence share Charges with you",
+     "zh_hans": "权杖: 在场的友军与你共享能量球",
+     "zh_hant": "權杖: 你存在範圍中的友方會和你共享能量球"
+    }
+   ]
+  },
+  "Idol_of_Maxarius": {
+   "en": "Idol of Maxarius",
+   "zh_hans": "玛萨留斯之雕像",
+   "zh_hant": "瑪薩里歐斯魔偶",
+   "implicits": [
+    {
+     "en": "Body Armours: +# Charm Slots",
+     "zh_hans": "护甲: 咒符栏 +#",
+     "zh_hant": "胸甲: +#護符欄位"
+    },
+    {
+     "en": "Sceptres: Flasks gain # charges per Second",
+     "zh_hans": "权杖: 药剂每秒获得 # 次充能",
+     "zh_hant": "權杖: 藥劑每秒獲得#充能"
+    }
+   ]
+  },
+  "Invoking_Belt": {
+   "en": "Invoking Belt",
+   "zh_hans": "祈求腰带",
+   "zh_hant": "祈喚腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Cast Speed",
+     "zh_hans": "施法速度提高 #%",
+     "zh_hant": "增加#%施法速度"
+    }
+   ]
+  },
+  "Legacy_of_Elevore": {
+   "en": "Legacy of Elevore",
+   "zh_hans": "艾尔弗雷之遗产",
+   "zh_hant": "傳承．愛勒弗",
+   "implicits": [
+    {
+     "en": "Helmets: Charms gain # charge per Second, +# Charm Slots",
+     "zh_hans": "头盔: 咒符每秒获得 # 次充能, 咒符栏 +#",
+     "zh_hant": "頭部: 護符每秒獲得#充能, +#護符欄位"
+    }
+   ]
+  },
+  "Linen_Belt": {
+   "en": "Linen Belt",
+   "zh_hans": "亚麻腰带",
+   "zh_hant": "麻布腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Mana Recovery from Flasks",
+     "zh_hans": "药剂的魔力回复提高 #%",
+     "zh_hant": "增加#%藥劑的魔力恢復"
+    }
+   ]
+  },
+  "Long_Belt": {
+   "en": "Long Belt",
+   "zh_hans": "加长腰带",
+   "zh_hant": "長腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Charm Effect Duration",
+     "zh_hans": "咒符效果的持续时间提高 #%",
+     "zh_hant": "增加#%護符效果持續時間"
+    }
+   ]
+  },
+  "Mail_Belt": {
+   "en": "Mail Belt",
+   "zh_hans": "环锁腰带",
+   "zh_hant": "鎖甲腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% reduced Flask Charges used",
+     "zh_hans": "使用的药剂充能降低 #%",
+     "zh_hant": "減少#%藥劑充能使用"
+    }
+   ]
+  },
+  "Ornate_Belt": {
+   "en": "Ornate Belt",
+   "zh_hans": "华丽腰带",
+   "zh_hant": "華麗腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% reduced Charm Charges used",
+     "zh_hans": "使用的咒符充能降低 #%",
+     "zh_hant": "減少#%護符充能使用"
+    }
+   ]
+  },
+  "Plate_Belt": {
+   "en": "Plate Belt",
+   "zh_hans": "嵌板腰带",
+   "zh_hant": "板甲腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "+# to Armour",
+     "zh_hans": "+# 护甲",
+     "zh_hant": "+#護甲值"
+    }
+   ]
+  },
+  "Rawhide_Belt": {
+   "en": "Rawhide Belt",
+   "zh_hans": "生皮腰带",
+   "zh_hant": "生皮腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Life Recovery from Flasks",
+     "zh_hans": "药剂的生命回复提高 #%",
+     "zh_hant": "增加#%藥劑的生命恢復"
+    }
+   ]
+  },
+  "Ruby_Charm": {
+   "en": "Ruby Charm",
+   "zh_hans": "红玉咒符",
+   "zh_hant": "紅玉護符",
+   "implicits": [
+    {
+     "en": "Used when you take Fire damage from a Hit",
+     "zh_hans": "当你受到击中火焰伤害时使用",
+     "zh_hant": "當你被火焰傷害擊中時使用"
+    }
+   ]
+  },
+  "Rune_of_Acrobatics": {
+   "en": "Rune of Acrobatics",
+   "zh_hans": "杂技符文",
+   "zh_hant": "崇敬巧技符文",
+   "implicits": [
+    {
+     "en": "Weapon: Flasks gain # charges per Second",
+     "zh_hans": "武器: 药剂每秒获得 # 次充能",
+     "zh_hant": "武器: 藥劑每秒獲得#充能"
+    },
+    {
+     "en": "Boots: +# metres to Dodge Roll distance",
+     "zh_hans": "鞋子: 闪避翻滚距离 +# 米",
+     "zh_hant": "鞋子: 閃避翻滾距離+#公尺"
+    }
+   ]
+  },
+  "Runemastered_Heavy_Belt": {
+   "en": "Runemastered Heavy Belt",
+   "zh_hans": "符文师匠重革腰带",
+   "zh_hant": "符煉重革腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    },
+    {
+     "en": "#% Life Recovery from Flasks also applies to Runic Ward",
+     "zh_hans": "药剂的 #% 生命回复效果也作用于符文结界",
+     "zh_hant": "來自藥劑的#%生命回復會套用至符文保護"
+    }
+   ]
+  },
+  "Runemastered_Heavy_Belt#2": {
+   "en": "Runemastered Heavy Belt",
+   "zh_hans": "符文师匠重革腰带",
+   "zh_hant": "符煉重革腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    },
+    {
+     "en": "#% increased Runic Ward Regeneration Rate",
+     "zh_hans": "符文结界再生率提高 #%",
+     "zh_hant": "增加#%符文保護回復率"
+    }
+   ]
+  },
+  "Runemastered_Heavy_Belt#3": {
+   "en": "Runemastered Heavy Belt",
+   "zh_hans": "符文师匠重革腰带",
+   "zh_hant": "符煉重革腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    },
+    {
+     "en": "Runic Ward recovery can Overflow maximum Runic Ward",
+     "zh_hans": "符文结界回复可溢出符文结界上限",
+     "zh_hant": "符文保護恢復可以溢出最大符文保護"
+    }
+   ]
+  },
+  "Runemastered_Heavy_Belt#4": {
+   "en": "Runemastered Heavy Belt",
+   "zh_hans": "符文师匠重革腰带",
+   "zh_hant": "符煉重革腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ]
+  },
+  "Sapphire_Charm": {
+   "en": "Sapphire Charm",
+   "zh_hans": "蓝玉咒符",
+   "zh_hant": "藍玉護符",
+   "implicits": [
+    {
+     "en": "Used when you take Cold damage from a Hit",
+     "zh_hans": "当你受到击中冰霜伤害时使用",
+     "zh_hant": "當你被冰冷傷害擊中時使用"
+    }
+   ]
+  },
+  "Silver_Charm": {
+   "en": "Silver Charm",
+   "zh_hans": "真银咒符",
+   "zh_hant": "白銀護符",
+   "implicits": [
+    {
+     "en": "Used when you are affected by a Slow",
+     "zh_hans": "当你受到减速影响时使用",
+     "zh_hant": "當你受到緩速效果影響時使用"
+    }
+   ]
+  },
+  "Sinew_Belt": {
+   "en": "Sinew Belt",
+   "zh_hans": "肌力腰带",
+   "zh_hant": "韌筋腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    }
+   ]
+  },
+  "Stalking_Belt": {
+   "en": "Stalking Belt",
+   "zh_hans": "追踪腰带",
+   "zh_hant": "獵跡腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "This item gains bonuses from Socketed Items as though it was Boots",
+     "zh_hans": "此物品可作为鞋子获得镶嵌物的加成",
+     "zh_hant": "此物品會被視為長靴，自插槽中的物品獲得加成"
+    }
+   ]
+  },
+  "Staunching_Charm": {
+   "en": "Staunching Charm",
+   "zh_hans": "止血咒符",
+   "zh_hant": "止血護符",
+   "implicits": [
+    {
+     "en": "Used when you start Bleeding",
+     "zh_hans": "你开始流血时自动使用",
+     "zh_hant": "當你開始流血時使用"
+    }
+   ]
+  },
+  "Stone_Charm": {
+   "en": "Stone Charm",
+   "zh_hans": "磐石咒符",
+   "zh_hant": "岩石護符",
+   "implicits": [
+    {
+     "en": "Used when you become Stunned",
+     "zh_hans": "当你被晕眩时使用",
+     "zh_hant": "當你被暈眩時使用"
+    }
+   ]
+  },
+  "Thawing_Charm": {
+   "en": "Thawing Charm",
+   "zh_hans": "融冰咒符",
+   "zh_hant": "解凍護符",
+   "implicits": [
+    {
+     "en": "Used when you become Frozen",
+     "zh_hans": "陷入冻结时自动使用",
+     "zh_hant": "當你被冰凍時使用"
+    }
+   ]
+  },
+  "Topaz_Charm": {
+   "en": "Topaz Charm",
+   "zh_hans": "黄玉咒符",
+   "zh_hant": "黃玉護符",
+   "implicits": [
+    {
+     "en": "Used when you take Lightning damage from a Hit",
+     "zh_hans": "当你受到击中闪电伤害时使用",
+     "zh_hant": "當你被閃電傷害擊中時使用"
+    }
+   ]
+  },
+  "Utility_Belt": {
+   "en": "Utility Belt",
+   "zh_hans": "万用腰带",
+   "zh_hant": "實用腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% of Flask Recovery applied Instantly",
+     "zh_hans": "#% 的药剂回复量立即生效",
+     "zh_hant": "#%的藥劑回復立即生效"
+    }
+   ]
+  },
+  "Wide_Belt": {
+   "en": "Wide Belt",
+   "zh_hans": "宽大腰带",
+   "zh_hant": "寬大腰帶",
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    }
+   ]
+  }
+ },
+ "uniques": {
+  "Arakaalis_Gift": {
+   "en": "Arakaali's Gift",
+   "zh_hans": "阿拉卡力的礼物",
+   "zh_hant": "艾爾卡莉的贈禮",
+   "base": {
+    "en": "Antidote Charm",
+    "zh_hans": "抗毒咒符",
+    "zh_hant": "解毒護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you become Poisoned",
+     "zh_hans": "陷入中毒时自动使用",
+     "zh_hant": "當你被中毒時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Recover Life equal to #% of Mana Flask's Recovery Amount when used",
+     "zh_hans": "使用时回复等于魔力药剂回复量的 #% 的生命",
+     "zh_hant": "使用時，恢復等同於魔力藥劑恢復量 #% 的生命"
+    },
+    {
+     "en": "Recover Mana equal to #% of Life Flask's Recovery Amount when used",
+     "zh_hans": "使用时回复等于生命药剂回复量的 #% 的魔力",
+     "zh_hant": "使用時，恢復等同於生命藥劑恢復量 #% 的魔力"
+    }
+   ]
+  },
+  "Beiras_Anguish": {
+   "en": "Beira's Anguish",
+   "zh_hans": "贝拉的苦楚",
+   "zh_hant": "貝伊拉的悲痛",
+   "base": {
+    "en": "Dousing Charm",
+    "zh_hans": "浸润咒符",
+    "zh_hant": "滅火護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you become Ignited",
+     "zh_hans": "被点燃时自动使用",
+     "zh_hant": "當你被點燃時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% Chance to gain a Charge when you kill an enemy",
+     "zh_hans": "击败敌人时有 #% 的几率获得一个能量球",
+     "zh_hant": "殺死敵人時有#%機率獲得一顆充能"
+    },
+    {
+     "en": "Creates Ignited Ground for 4 seconds when used, Igniting enemies as though dealing Fire damage equal to #% of your maximum Life",
+     "zh_hans": "使用时造成持续 4 秒的燃烧地面，地面点燃敌人时造成等同你生命上限 #% 的火焰伤害",
+     "zh_hant": "使用時生成持續4秒的點燃地面來點燃敵人，造成等同於你最大生命#%的火焰傷害"
+    }
+   ]
+  },
+  "Bijouborne": {
+   "en": "Bijouborne",
+   "zh_hans": "珠宝承载者",
+   "zh_hant": "寶石之源",
+   "base": {
+    "en": "Double Belt",
+    "zh_hans": "双重腰带",
+    "zh_hant": "雙層腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Level 11 Cast on Charm Use",
+     "zh_hans": "获得技能: 等级 11 使用咒符时施放",
+     "zh_hant": "賦予技能: 等級 11 使用護符時施放"
+    },
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Charm Charges gained",
+     "zh_hans": "获得的咒符充能提高 #%",
+     "zh_hant": "增加#%護符充能獲取"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "#% reduced Charm Effect Duration",
+     "zh_hans": "咒符效果的持续时间降低 #%",
+     "zh_hant": "減少#%護符效果持續時間"
+    },
+    {
+     "en": "+# Charm Slots",
+     "zh_hans": "咒符栏 +#",
+     "zh_hant": "+#護符欄位"
+    },
+    {
+     "en": "+# to Dexterity",
+     "zh_hans": "+# 敏捷",
+     "zh_hant": "+#點敏捷"
+    },
+    {
+     "en": "#% increased Charm Charges gained",
+     "zh_hans": "获得的咒符充能提高 #%",
+     "zh_hant": "增加#%護符充能獲取"
+    }
+   ]
+  },
+  "Birthright_Buckle": {
+   "en": "Birthright Buckle",
+   "zh_hans": "天赋扣带",
+   "zh_hant": "天生權利扣環",
+   "base": {
+    "en": "Wide Belt",
+    "zh_hans": "宽大腰带",
+    "zh_hant": "寬大腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to Armour",
+     "zh_hans": "+# 护甲",
+     "zh_hant": "+#護甲值"
+    },
+    {
+     "en": "#% reduced Flask Charges used",
+     "zh_hans": "使用的药剂充能降低 #%",
+     "zh_hant": "減少#%藥劑充能使用"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    },
+    {
+     "en": "Life Flasks used while on Low Life apply Recovery Instantly",
+     "zh_hans": "低血时使用生命药剂立即回复",
+     "zh_hant": "貧血狀態下使用生命藥劑會立即恢復生命"
+    },
+    {
+     "en": "Mana Flasks used while on Low Mana apply Recovery Instantly",
+     "zh_hans": "低魔时使用魔力药剂立即回复",
+     "zh_hant": "貧魔狀態下使用魔力藥劑會立即恢復"
+    }
+   ]
+  },
+  "Breath_of_the_Mountains": {
+   "en": "Breath of the Mountains",
+   "zh_hans": "群山之息",
+   "zh_hant": "山地之息",
+   "base": {
+    "en": "Sapphire Charm",
+    "zh_hans": "蓝玉咒符",
+    "zh_hant": "藍玉護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you take Cold damage from a Hit",
+     "zh_hans": "当你受到击中冰霜伤害时使用",
+     "zh_hant": "當你被冰冷傷害擊中時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% reduced Charges per use",
+     "zh_hans": "每次使用消耗的充能次数降低 #%",
+     "zh_hant": "每次使用減少#%充能"
+    },
+    {
+     "en": "Grants a Power Charge on use",
+     "zh_hans": "使用时给予一个能量球",
+     "zh_hant": "使用時賦予一顆暴擊球"
+    }
+   ]
+  },
+  "Byrnabas": {
+   "en": "Byrnabas",
+   "zh_hans": "伯纳巴斯",
+   "zh_hant": "布萊納巴斯",
+   "base": {
+    "en": "Wide Belt",
+    "zh_hans": "宽大腰带",
+    "zh_hant": "寬大腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "+#% to Lightning Resistance",
+     "zh_hans": "闪电抗性 +#%",
+     "zh_hant": "+#%閃電抗性"
+    },
+    {
+     "en": "# Life Regeneration per second",
+     "zh_hans": "生命每秒再生 #",
+     "zh_hant": "#每秒生命回復"
+    },
+    {
+     "en": "Cannot be Shocked",
+     "zh_hans": "无法被感电",
+     "zh_hant": "不會被感電"
+    }
+   ]
+  },
+  "Cat_O_Nine_Tails": {
+   "en": "Cat O' Nine Tails",
+   "zh_hans": "九尾灵猫",
+   "zh_hant": "九尾貓",
+   "base": {
+    "en": "Utility Belt",
+    "zh_hans": "万用腰带",
+    "zh_hant": "實用腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% of Flask Recovery applied Instantly",
+     "zh_hans": "#% 的药剂回复量立即生效",
+     "zh_hant": "#%的藥劑回復立即生效"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Life",
+     "zh_hans": "+# 生命上限",
+     "zh_hant": "+#最大生命"
+    },
+    {
+     "en": "Regenerate #% of maximum Life per second if you have been Hit Recently",
+     "zh_hans": "若你近期内被击中，则每秒回复 #% 生命",
+     "zh_hant": "若你近期被擊中，每秒回復#%最大生命"
+    },
+    {
+     "en": "#% increased Life Recovery rate",
+     "zh_hans": "生命回复率提高 #%",
+     "zh_hant": "增加#%生命恢復率"
+    },
+    {
+     "en": "Life Recovery other than Flasks cannot Recover Life to above Low Life",
+     "zh_hans": "除药剂外的生命回复无法将生命回复至低血以上",
+     "zh_hant": "藥劑以外的生命恢復無法使生命恢復到高於貧血狀態"
+    },
+    {
+     "en": "Gain Physical Thorns damage equal to #% - #% of maximum Life",
+     "zh_hans": "获得相当于生命上限 #% - #% 的 物理荆棘伤害",
+     "zh_hant": "獲得等同於最大生命#%-#%的物理荊棘傷害"
+    }
+   ]
+  },
+  "Cowards_Legacy": {
+   "en": "Coward's Legacy",
+   "zh_hans": "懦夫之遗",
+   "zh_hant": "懦夫的遺產",
+   "base": {
+    "en": "Mail Belt",
+    "zh_hans": "环锁腰带",
+    "zh_hant": "鎖甲腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% reduced Flask Charges used",
+     "zh_hans": "使用的药剂充能降低 #%",
+     "zh_hant": "減少#%藥劑充能使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "# to Strength",
+     "zh_hans": "# 力量",
+     "zh_hant": "#點力量"
+    },
+    {
+     "en": "+# to Dexterity",
+     "zh_hans": "+# 敏捷",
+     "zh_hant": "+#點敏捷"
+    },
+    {
+     "en": "#% increased Life and Mana Recovery from Flasks",
+     "zh_hans": "药剂的生命和魔力回复提高 #%",
+     "zh_hant": "增加#%藥劑的生命和魔力恢復"
+    },
+    {
+     "en": "You are considered on Low Life while at #% of maximum Life or below instead",
+     "zh_hans": "达到或低于生命上限的 #% 时将你视作低血",
+     "zh_hant": "你處於最大生命的#%或更低時，會視為貧血狀態"
+    }
+   ]
+  },
+  "Darkness_Enthroned": {
+   "en": "Darkness Enthroned",
+   "zh_hans": "夜临",
+   "zh_hant": "夜惡降臨",
+   "base": {
+    "en": "Fine Belt",
+    "zh_hans": "精致腰带",
+    "zh_hant": "精良腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased effect of Socketed Augment Items",
+     "zh_hans": "镶嵌的增幅器物品效果提高 #%",
+     "zh_hant": "增加#%鑲嵌的物品效果"
+    },
+    {
+     "en": "This item gains bonuses from Socketed Items as though it was a Body Armour",
+     "zh_hans": "此物品可作为胸甲获得镶嵌物的加成",
+     "zh_hant": "此物品會被視為身體護甲，自插槽中的物品獲得加成"
+    },
+    {
+     "en": "Has 2 Augment Sockets (Hidden)",
+     "zh_hans": "Has 2 Augment Sockets (Hidden)",
+     "zh_hant": "Has 2 Augment Sockets (Hidden)"
+    }
+   ]
+  },
+  "Darkness_Enthroned#2": {
+   "en": "Darkness Enthroned",
+   "zh_hans": "夜临",
+   "zh_hant": "夜惡降臨",
+   "base": {
+    "en": "Fine Belt",
+    "zh_hans": "精致腰带",
+    "zh_hant": "精良腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased effect of Socketed Augment Items",
+     "zh_hans": "镶嵌的增幅器物品效果提高 #%",
+     "zh_hant": "增加#%鑲嵌的物品效果"
+    },
+    {
+     "en": "This item gains bonuses from Socketed Items as though it was a Helmet",
+     "zh_hans": "此物品可作为头盔获得镶嵌物的加成",
+     "zh_hant": "此物品會被視為頭盔，自插槽中的物品獲得加成"
+    },
+    {
+     "en": "Has 2 Augment Sockets (Hidden)",
+     "zh_hans": "Has 2 Augment Sockets (Hidden)",
+     "zh_hant": "Has 2 Augment Sockets (Hidden)"
+    }
+   ]
+  },
+  "Darkness_Enthroned#3": {
+   "en": "Darkness Enthroned",
+   "zh_hans": "夜临",
+   "zh_hant": "夜惡降臨",
+   "base": {
+    "en": "Fine Belt",
+    "zh_hans": "精致腰带",
+    "zh_hant": "精良腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased effect of Socketed Augment Items",
+     "zh_hans": "镶嵌的增幅器物品效果提高 #%",
+     "zh_hant": "增加#%鑲嵌的物品效果"
+    },
+    {
+     "en": "This item gains bonuses from Socketed Items as though it was Gloves",
+     "zh_hans": "此物品可作为手套获得镶嵌物的加成",
+     "zh_hant": "此物品會被視為手套，自插槽中的物品獲得加成"
+    },
+    {
+     "en": "Has 2 Augment Sockets (Hidden)",
+     "zh_hans": "Has 2 Augment Sockets (Hidden)",
+     "zh_hant": "Has 2 Augment Sockets (Hidden)"
+    }
+   ]
+  },
+  "Darkness_Enthroned#4": {
+   "en": "Darkness Enthroned",
+   "zh_hans": "夜临",
+   "zh_hant": "夜惡降臨",
+   "base": {
+    "en": "Fine Belt",
+    "zh_hans": "精致腰带",
+    "zh_hant": "精良腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased effect of Socketed Augment Items",
+     "zh_hans": "镶嵌的增幅器物品效果提高 #%",
+     "zh_hant": "增加#%鑲嵌的物品效果"
+    },
+    {
+     "en": "This item gains bonuses from Socketed Items as though it was Boots",
+     "zh_hans": "此物品可作为鞋子获得镶嵌物的加成",
+     "zh_hant": "此物品會被視為長靴，自插槽中的物品獲得加成"
+    },
+    {
+     "en": "Has 2 Augment Sockets (Hidden)",
+     "zh_hans": "Has 2 Augment Sockets (Hidden)",
+     "zh_hant": "Has 2 Augment Sockets (Hidden)"
+    }
+   ]
+  },
+  "Darkness_Enthroned#5": {
+   "en": "Darkness Enthroned",
+   "zh_hans": "夜临",
+   "zh_hant": "夜惡降臨",
+   "base": {
+    "en": "Fine Belt",
+    "zh_hans": "精致腰带",
+    "zh_hant": "精良腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased effect of Socketed Augment Items",
+     "zh_hans": "镶嵌的增幅器物品效果提高 #%",
+     "zh_hant": "增加#%鑲嵌的物品效果"
+    },
+    {
+     "en": "This item gains bonuses from Socketed Items as though it was a Shield",
+     "zh_hans": "此物品可作为盾牌获得镶嵌物的加成",
+     "zh_hant": "此物品會被視為盾牌，自插槽中的物品獲得加成"
+    },
+    {
+     "en": "Has 2 Augment Sockets (Hidden)",
+     "zh_hans": "Has 2 Augment Sockets (Hidden)",
+     "zh_hant": "Has 2 Augment Sockets (Hidden)"
+    }
+   ]
+  },
+  "Elevore": {
+   "en": "Elevore",
+   "zh_hans": "艾尔弗雷",
+   "zh_hant": "愛勒弗",
+   "base": {
+    "en": "Hunter Hood",
+    "zh_hans": "猎者兜帽",
+    "zh_hant": "獵者之兜"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% increased Evasion Rating",
+     "zh_hans": "闪避值提高 #%",
+     "zh_hant": "增加#%閃避值"
+    },
+    {
+     "en": "+# to Dexterity",
+     "zh_hans": "+# 敏捷",
+     "zh_hant": "+#點敏捷"
+    },
+    {
+     "en": "Charms gain # charge per Second",
+     "zh_hans": "咒符每秒获得 # 次充能",
+     "zh_hant": "護符每秒獲得#充能"
+    },
+    {
+     "en": "+# Charm Slots",
+     "zh_hans": "咒符栏 +#",
+     "zh_hant": "+#護符欄位"
+    }
+   ]
+  },
+  "For_Utopia": {
+   "en": "For Utopia",
+   "zh_hans": "为了乌托邦",
+   "zh_hant": "為了烏托邦",
+   "base": {
+    "en": "Stone Charm",
+    "zh_hans": "磐石咒符",
+    "zh_hant": "岩石護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you become Stunned",
+     "zh_hans": "当你被晕眩时使用",
+     "zh_hant": "當你被暈眩時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Defend with 200% of Armour during effect",
+     "zh_hans": "效果期间以 200% 的护甲防御",
+     "zh_hant": "在效果期間，以200%護甲值防禦"
+    }
+   ]
+  },
+  "Forsaken_Bangle": {
+   "en": "Forsaken Bangle",
+   "zh_hans": "遗弃手镯",
+   "zh_hant": "遺落的手鐲",
+   "base": {
+    "en": "Amethyst Charm",
+    "zh_hans": "紫晶咒符",
+    "zh_hant": "紫晶護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you take Chaos damage from a Hit",
+     "zh_hans": "当你受到击中混沌伤害时使用",
+     "zh_hant": "當你被混沌傷害擊中時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Duration",
+     "zh_hans": "持续时间提高 #%",
+     "zh_hant": "增加#%持續時間"
+    },
+    {
+     "en": "#% of Chaos damage you prevent when Hit Recouped as Life and Mana during effect",
+     "zh_hans": "效果期间，你被击中时阻挡的混沌伤害的 #% 吸纳为生命和魔力",
+     "zh_hant": "抵禦遭擊中所承受的混沌傷害時，其#%會補償為生命和魔力"
+    }
+   ]
+  },
+  "Goregirdle": {
+   "en": "Goregirdle",
+   "zh_hans": "残血束腰",
+   "zh_hant": "血肉束腰",
+   "base": {
+    "en": "Plate Belt",
+    "zh_hans": "嵌板腰带",
+    "zh_hant": "板甲腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "+# to Armour",
+     "zh_hans": "+# 护甲",
+     "zh_hant": "+#護甲值"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    },
+    {
+     "en": "# Life Regeneration per second",
+     "zh_hans": "生命每秒再生 #",
+     "zh_hant": "#每秒生命回復"
+    },
+    {
+     "en": "Defend with 200% of Armour",
+     "zh_hans": "以 200% 的护甲防御",
+     "zh_hant": "以200%護甲值防禦"
+    },
+    {
+     "en": "Maximum Physical Damage Reduction is 50%",
+     "zh_hans": "物理伤害上限减免为 50%",
+     "zh_hant": "最大物理傷害減免為50%"
+    }
+   ]
+  },
+  "Headhunter": {
+   "en": "Headhunter",
+   "zh_hans": "猎首",
+   "zh_hant": "獵首",
+   "base": {
+    "en": "Heavy Belt",
+    "zh_hans": "重革腰带",
+    "zh_hant": "重革腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Life",
+     "zh_hans": "+# 生命上限",
+     "zh_hant": "+#最大生命"
+    },
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    },
+    {
+     "en": "+# to Dexterity",
+     "zh_hans": "+# 敏捷",
+     "zh_hant": "+#點敏捷"
+    },
+    {
+     "en": "When you kill a Rare monster, you gain its Modifiers for 60 seconds",
+     "zh_hans": "当你击败稀有怪物时，获得它的词缀，持续 60 秒",
+     "zh_hant": "當你殺死一個稀有怪物時，獲得其詞綴，持續60秒"
+    }
+   ]
+  },
+  "Infernoclasp": {
+   "en": "Infernoclasp",
+   "zh_hans": "狱焰之握",
+   "zh_hant": "地獄之握",
+   "base": {
+    "en": "Plate Belt",
+    "zh_hans": "嵌板腰带",
+    "zh_hant": "板甲腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "+# to Armour",
+     "zh_hans": "+# 护甲",
+     "zh_hant": "+#護甲值"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to Armour",
+     "zh_hans": "+# 护甲",
+     "zh_hant": "+#護甲值"
+    },
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    },
+    {
+     "en": "+#% to Maximum Fire Resistance",
+     "zh_hans": "+#% 火焰抗性上限",
+     "zh_hant": "+#%最大火焰抗性"
+    },
+    {
+     "en": "+#% to Fire Resistance",
+     "zh_hans": "火焰抗性 +#%",
+     "zh_hant": "+#%火焰抗性"
+    }
+   ]
+  },
+  "Ingenuity": {
+   "en": "Ingenuity",
+   "zh_hans": "奇思妙想",
+   "zh_hant": "獨創",
+   "base": {
+    "en": "Utility Belt",
+    "zh_hans": "万用腰带",
+    "zh_hant": "實用腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% of Flask Recovery applied Instantly",
+     "zh_hans": "#% 的药剂回复量立即生效",
+     "zh_hant": "#%的藥劑回復立即生效"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% reduced Charm Charges gained",
+     "zh_hans": "获得的咒符充能降低 #%",
+     "zh_hant": "減少#%護符充能獲取"
+    },
+    {
+     "en": "#% reduced Charm Charges used",
+     "zh_hans": "使用的咒符充能降低 #%",
+     "zh_hant": "減少#%護符充能使用"
+    },
+    {
+     "en": "#% increased bonuses gained from left Equipped Ring",
+     "zh_hans": "装备左边戒指获得的加成提高 #%",
+     "zh_hant": "增加#%自已裝備左手戒指獲得的加成"
+    },
+    {
+     "en": "#% increased bonuses gained from right Equipped Ring",
+     "zh_hans": "装备右边戒指获得的加成提高 #%",
+     "zh_hant": "增加#%自已裝備右手戒指獲得的加成"
+    }
+   ]
+  },
+  "Meginords_Girdle": {
+   "en": "Meginord's Girdle",
+   "zh_hans": "梅吉诺德的力量泉源",
+   "zh_hant": "梅吉諾德的力量泉源",
+   "base": {
+    "en": "Rawhide Belt",
+    "zh_hans": "生皮腰带",
+    "zh_hant": "生皮腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Life Recovery from Flasks",
+     "zh_hans": "药剂的生命回复提高 #%",
+     "zh_hant": "增加#%藥劑的生命恢復"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    },
+    {
+     "en": "+#% to Cold Resistance",
+     "zh_hans": "冰霜抗性 +#%",
+     "zh_hant": "+#%冰冷抗性"
+    },
+    {
+     "en": "#% increased Flask Charges used",
+     "zh_hans": "使用的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能使用"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    }
+   ]
+  },
+  "Midnight_Braid": {
+   "en": "Midnight Braid",
+   "zh_hans": "午夜穗带",
+   "zh_hant": "午夜護鏈",
+   "base": {
+    "en": "Rawhide Belt",
+    "zh_hans": "生皮腰带",
+    "zh_hant": "生皮腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Life Recovery from Flasks",
+     "zh_hans": "药剂的生命回复提高 #%",
+     "zh_hant": "增加#%藥劑的生命恢復"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "+#% to all Elemental Resistances",
+     "zh_hans": "所有元素抗性 +#%",
+     "zh_hant": "+#%全元素抗性"
+    },
+    {
+     "en": "#% of Damage taken Recouped as Mana",
+     "zh_hans": "将所受伤害的#%吸纳为魔力",
+     "zh_hant": "承受的#%傷害補償為魔力"
+    }
+   ]
+  },
+  "Nascent_Hope": {
+   "en": "Nascent Hope",
+   "zh_hans": "新生希望",
+   "zh_hant": "萌芽希望",
+   "base": {
+    "en": "Thawing Charm",
+    "zh_hans": "融冰咒符",
+    "zh_hant": "解凍護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you become Frozen",
+     "zh_hans": "陷入冻结时自动使用",
+     "zh_hant": "當你被冰凍時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% Chance to gain a Charge when you kill an enemy",
+     "zh_hans": "击败敌人时有 #% 的几率获得一个能量球",
+     "zh_hant": "殺死敵人時有#%機率獲得一顆充能"
+    },
+    {
+     "en": "Energy Shield Recharge starts on use",
+     "zh_hans": "使用时开始能量护盾充能",
+     "zh_hant": "使用時開始能量護盾充能"
+    }
+   ]
+  },
+  "Ngamahus_Chosen": {
+   "en": "Ngamahu's Chosen",
+   "zh_hans": "努葛玛呼的亲选",
+   "zh_hant": "拿瑪乎之選",
+   "base": {
+    "en": "Ruby Charm",
+    "zh_hans": "红玉咒符",
+    "zh_hant": "紅玉護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you take Fire damage from a Hit",
+     "zh_hans": "当你受到击中火焰伤害时使用",
+     "zh_hant": "當你被火焰傷害擊中時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Charges",
+     "zh_hans": "充能次数提高 #%",
+     "zh_hant": "增加#%充能"
+    },
+    {
+     "en": "Grants up to your maximum Rage on use",
+     "zh_hans": "使用时获得达到上限的怒火",
+     "zh_hant": "使用時賦予你最大盛怒"
+    }
+   ]
+  },
+  "Pragmatism": {
+   "en": "Pragmatism",
+   "zh_hans": "独断专行",
+   "zh_hant": "務實主義",
+   "base": {
+    "en": "Explorer Armour",
+    "zh_hans": "探索者护甲",
+    "zh_hant": "探索者護甲"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% increased Armour and Evasion",
+     "zh_hans": "护甲与闪避提高 #%",
+     "zh_hant": "增加#%護甲值和閃避"
+    },
+    {
+     "en": "+#% to all Elemental Resistances",
+     "zh_hans": "所有元素抗性 +#%",
+     "zh_hant": "+#%全元素抗性"
+    },
+    {
+     "en": "#% to Chaos Resistance",
+     "zh_hans": "混沌抗性 #%",
+     "zh_hant": "#%混沌抗性"
+    },
+    {
+     "en": "Charms use no Charges",
+     "zh_hans": "咒符不消耗充能",
+     "zh_hant": "護符不使用充能"
+    }
+   ]
+  },
+  "Rite_of_Passage": {
+   "en": "Rite of Passage",
+   "zh_hans": "仪式通道",
+   "zh_hant": "儀式通道",
+   "base": {
+    "en": "Golden Charm",
+    "zh_hans": "黄金咒符",
+    "zh_hant": "黃金護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you kill a Rare or Unique enemy",
+     "zh_hans": "当你击败稀有或传奇敌人时使用",
+     "zh_hant": "當你擊殺稀有或傳奇敵人時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Possessed by Spirit Of The [Azmeri Spirit] for (10–20) seconds on use",
+     "zh_hans": "Possessed by Spirit Of The [Azmeri Spirit] for (10–20) seconds on use",
+     "zh_hant": "Possessed by Spirit Of The [Azmeri Spirit] for (10–20) seconds on use"
+    }
+   ]
+  },
+  "Ryslathas_Coil": {
+   "en": "Ryslatha's Coil",
+   "zh_hans": "瑞斯拉萨的线圈",
+   "zh_hant": "瑞斯拉薩之纏",
+   "base": {
+    "en": "Ornate Belt",
+    "zh_hans": "华丽腰带",
+    "zh_hant": "華麗腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% reduced Charm Charges used",
+     "zh_hans": "使用的咒符充能降低 #%",
+     "zh_hant": "減少#%護符充能使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Life",
+     "zh_hans": "+# 生命上限",
+     "zh_hant": "+#最大生命"
+    },
+    {
+     "en": "#% increased Flask Life Recovery rate",
+     "zh_hans": "药剂生命回复速度提高 #%",
+     "zh_hant": "增加#%藥劑生命恢復率"
+    },
+    {
+     "en": "#% more maximum Physical Attack Damage",
+     "zh_hans": "物理攻击伤害上限总增 #%",
+     "zh_hant": "#%更多最大物理攻擊傷害"
+    },
+    {
+     "en": "#% less minimum Physical Attack Damage",
+     "zh_hans": "物理攻击伤害下限总降 #%",
+     "zh_hant": "#%更少最小物理攻擊傷害"
+    }
+   ]
+  },
+  "Sanguis_Heroum": {
+   "en": "Sanguis Heroum",
+   "zh_hans": "英雄血液",
+   "zh_hant": "嗜血英雄",
+   "base": {
+    "en": "Staunching Charm",
+    "zh_hans": "止血咒符",
+    "zh_hant": "止血護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you start Bleeding",
+     "zh_hans": "你开始流血时自动使用",
+     "zh_hant": "當你開始流血時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Gains # Charges per Second",
+     "zh_hans": "每秒获得 # 次充能",
+     "zh_hant": "每秒獲得#充能"
+    },
+    {
+     "en": "Creates Consecrated Ground on use",
+     "zh_hans": "使用时产生奉献地面",
+     "zh_hant": "使用時會製造奉獻地面"
+    },
+    {
+     "en": "charm create consecrated ground when used duration ms [4000]",
+     "zh_hans": "charm create consecrated ground when used duration ms [4000]",
+     "zh_hant": "charm create consecrated ground when used duration ms [4000]"
+    },
+    {
+     "en": "charm create consecrated ground when used radius [14]",
+     "zh_hans": "charm create consecrated ground when used radius [14]",
+     "zh_hant": "charm create consecrated ground when used radius [14]"
+    }
+   ]
+  },
+  "Shavronnes_Satchel": {
+   "en": "Shavronne's Satchel",
+   "zh_hans": "薛朗的背包",
+   "zh_hant": "薛朗的背包",
+   "base": {
+    "en": "Fine Belt",
+    "zh_hans": "精致腰带",
+    "zh_hant": "精良腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "Flasks gain # charges per Second",
+     "zh_hans": "药剂每秒获得 # 次充能",
+     "zh_hant": "藥劑每秒獲得#充能"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% reduced Flask Life Recovery rate",
+     "zh_hans": "药剂生命回复速度降低 #%",
+     "zh_hant": "減少#%藥劑生命恢復率"
+    },
+    {
+     "en": "+# to Intelligence",
+     "zh_hans": "+# 智慧",
+     "zh_hant": "+#點智慧"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    },
+    {
+     "en": "Life Recovery from Flasks also applies to Energy Shield",
+     "zh_hans": "药剂的生命回复效果也作用于能量护盾",
+     "zh_hant": "藥劑的生命恢復同時套用至能量護盾"
+    }
+   ]
+  },
+  "Soul_Tether": {
+   "en": "Soul Tether",
+   "zh_hans": "灵魂羁绊",
+   "zh_hant": "靈魂束縛",
+   "base": {
+    "en": "Long Belt",
+    "zh_hans": "加长腰带",
+    "zh_hant": "長腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Charm Effect Duration",
+     "zh_hans": "咒符效果的持续时间提高 #%",
+     "zh_hant": "增加#%護符效果持續時間"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Energy Shield",
+     "zh_hans": "+# 能量护盾上限",
+     "zh_hant": "+#最大能量護盾"
+    },
+    {
+     "en": "+# to Intelligence",
+     "zh_hans": "+# 智慧",
+     "zh_hant": "+#點智慧"
+    },
+    {
+     "en": "You lose #% of maximum Energy Shield per second",
+     "zh_hans": "每秒失去 #% 能量护盾",
+     "zh_hant": "你每秒失去#%最大能量護盾"
+    },
+    {
+     "en": "Excess Life Recovery from Leech is applied to Energy Shield",
+     "zh_hans": "偷取的溢出生命回复效果作用于能量护盾",
+     "zh_hant": "偷取的多餘生命恢復會套用至能量護盾"
+    }
+   ]
+  },
+  "The_Black_Cat": {
+   "en": "The Black Cat",
+   "zh_hans": "黑猫",
+   "zh_hant": "黑貓",
+   "base": {
+    "en": "Grounding Charm",
+    "zh_hans": "根基咒符",
+    "zh_hant": "接地護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you become Shocked",
+     "zh_hans": "陷入感电时自动使用",
+     "zh_hant": "當你被感電時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Duration",
+     "zh_hans": "持续时间提高 #%",
+     "zh_hant": "增加#%持續時間"
+    },
+    {
+     "en": "Lightning Damage of Enemies Hitting you is Unlucky during effect",
+     "zh_hans": "效果期间，敌人对你的击中闪电伤害不幸",
+     "zh_hant": "在效果期間，敵人擊中你的閃電傷害相當不幸"
+    }
+   ]
+  },
+  "The_Fall_of_the_Axe": {
+   "en": "The Fall of the Axe",
+   "zh_hans": "落刃时刻",
+   "zh_hant": "斧頭之隕",
+   "base": {
+    "en": "Silver Charm",
+    "zh_hans": "真银咒符",
+    "zh_hant": "白銀護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you are affected by a Slow",
+     "zh_hans": "当你受到减速影响时使用",
+     "zh_hant": "當你受到緩速效果影響時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Grants Onslaught during effect",
+     "zh_hans": "效果期间获得猛攻",
+     "zh_hant": "在效果期間賦予猛攻"
+    }
+   ]
+  },
+  "The_Gnashing_Sash": {
+   "en": "The Gnashing Sash",
+   "zh_hans": "狂獠饰带",
+   "zh_hant": "憤恨飾帶",
+   "base": {
+    "en": "Wide Belt",
+    "zh_hans": "宽大腰带",
+    "zh_hant": "寬大腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Flask Life Recovery rate",
+     "zh_hans": "药剂生命回复速度提高 #%",
+     "zh_hant": "增加#%藥劑生命恢復率"
+    },
+    {
+     "en": "+#% to Chaos Resistance",
+     "zh_hans": "混沌抗性 +#%",
+     "zh_hant": "+#%混沌抗性"
+    },
+    {
+     "en": "Lose #% of maximum Life per second",
+     "zh_hans": "每秒失去生命上限的 #%",
+     "zh_hant": "每秒失去#%最大生命"
+    },
+    {
+     "en": "Life Recovery from Flasks can Overflow Maximum Life",
+     "zh_hans": "药剂的生命回复可以溢出生命上限",
+     "zh_hant": "來自藥劑的生命回復可以使最大生命溢出"
+    }
+   ]
+  },
+  "Umbilicus_Immortalis": {
+   "en": "Umbilicus Immortalis",
+   "zh_hans": "不朽系命",
+   "zh_hant": "不朽繫命",
+   "base": {
+    "en": "Linen Belt",
+    "zh_hans": "亚麻腰带",
+    "zh_hant": "麻布腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Mana Recovery from Flasks",
+     "zh_hans": "药剂的魔力回复提高 #%",
+     "zh_hant": "增加#%藥劑的魔力恢復"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% reduced Flask Effect Duration",
+     "zh_hans": "药剂效果的持续时间降低 #%",
+     "zh_hant": "減少#%藥劑效果持續時間"
+    },
+    {
+     "en": "+# to Intelligence",
+     "zh_hans": "+# 智慧",
+     "zh_hant": "+#點智慧"
+    },
+    {
+     "en": "Minions have #% increased maximum Life",
+     "zh_hans": "召唤生物的生命上限提高 #%",
+     "zh_hant": "召喚物增加#%最大生命"
+    },
+    {
+     "en": "Your Life Flask also applies to your Minions",
+     "zh_hans": "你的生命药剂同样作用于你的召唤生物",
+     "zh_hant": "你的生命藥劑同時作用於你的召喚物"
+    },
+    {
+     "en": "Minions cannot Die while affected by a Life Flask",
+     "zh_hans": "受到生命药剂影响时召唤生物不会被击败",
+     "zh_hant": "在生命藥劑作用期間召喚物將不會死亡"
+    },
+    {
+     "en": "#% increased Flask Charges gained",
+     "zh_hans": "获得的药剂充能提高 #%",
+     "zh_hant": "增加#%藥劑充能獲取"
+    }
+   ]
+  },
+  "Valakos_Roar": {
+   "en": "Valako's Roar",
+   "zh_hans": "瓦拉克怒吼",
+   "zh_hant": "瓦拉庫之吼",
+   "base": {
+    "en": "Topaz Charm",
+    "zh_hans": "黄玉咒符",
+    "zh_hant": "黃玉護符"
+   },
+   "implicits": [
+    {
+     "en": "Used when you take Lightning damage from a Hit",
+     "zh_hans": "当你受到击中闪电伤害时使用",
+     "zh_hant": "當你被閃電傷害擊中時使用"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Charges gained",
+     "zh_hans": "获得的充能提高 #%",
+     "zh_hant": "增加#%獲得的充能"
+    },
+    {
+     "en": "Grants a Frenzy Charge on use",
+     "zh_hans": "使用时给予一个狂怒球",
+     "zh_hant": "使用時賦予一顆狂怒球"
+    }
+   ]
+  },
+  "Waistgate": {
+   "en": "Waistgate",
+   "zh_hans": "腰际之门",
+   "zh_hant": "腰閥",
+   "base": {
+    "en": "Heavy Belt",
+    "zh_hans": "重革腰带",
+    "zh_hant": "重革腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Life",
+     "zh_hans": "+# 生命上限",
+     "zh_hant": "+#最大生命"
+    },
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "#% increased Flask Life Recovery rate",
+     "zh_hans": "药剂生命回复速度提高 #%",
+     "zh_hant": "增加#%藥劑生命恢復率"
+    },
+    {
+     "en": "#% increased Flask Mana Recovery rate",
+     "zh_hans": "药剂魔力回复速度提高 #%",
+     "zh_hant": "增加#%藥劑魔力恢復率"
+    },
+    {
+     "en": "Life and Mana Flasks can be equipped in either slot",
+     "zh_hans": "生命和魔力药剂可装备于任意药剂栏位内",
+     "zh_hant": "生命和魔力藥劑可裝備於任一欄位"
+    }
+   ]
+  },
+  "Zerphis_Genesis": {
+   "en": "Zerphi's Genesis",
+   "zh_hans": "泽佛伊的本源",
+   "zh_hant": "澤佛伊的創世紀",
+   "base": {
+    "en": "Heavy Belt",
+    "zh_hans": "重革腰带",
+    "zh_hant": "重革腰帶"
+   },
+   "implicits": [
+    {
+     "en": "Has # Charm Slots",
+     "zh_hans": "具有 # 个咒符位",
+     "zh_hant": "有#個護符欄位"
+    },
+    {
+     "en": "#% increased Stun Threshold",
+     "zh_hans": "晕眩阈值提高 #%",
+     "zh_hant": "增加#%暈眩門檻"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Corrupted Charms effect duration",
+     "zh_hans": "被腐化咒符的效果持续时间提高 #%",
+     "zh_hant": "增加#%已污染護符效果持續時間"
+    },
+    {
+     "en": "#% of Charges consumed by used Charms are granted to your Life Flasks",
+     "zh_hans": "使用咒符时消耗充能的 #% 会赋予你的生命药剂",
+     "zh_hant": "使用護符所消耗充能的#%會充能你的生命藥劑"
+    },
+    {
+     "en": "#% of Charges consumed by used Life Flasks are granted to your Charms",
+     "zh_hans": "使用生命药剂时消耗充能的 #% 会赋予你的咒符",
+     "zh_hant": "使用生命藥劑所消耗充能的#%會充能你的護符"
+    },
+    {
+     "en": "+# to Strength",
+     "zh_hans": "+# 力量",
+     "zh_hant": "+#點力量"
+    },
+    {
+     "en": "Skills from Corrupted Gems have #% increased Cost Efficiency during any Flask Effect",
+     "zh_hans": "在任何药剂效果期间，被腐化宝石的技能消耗效能提高 #%",
+     "zh_hant": "任何藥劑效果期間增加#%已污染寶石技能的消耗效能"
+    },
+    {
+     "en": "Corrupted Blood cannot be inflicted on you",
+     "zh_hans": "腐化之血无法施加于你",
+     "zh_hant": "無法對你造成腐化之血"
+    }
+   ]
+  }
+ }
+}

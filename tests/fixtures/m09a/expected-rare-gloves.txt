@@ -1,0 +1,25 @@
+Item Class: Gloves
+Rarity: Rare
+Grim Grasp
+Grim Gloves
+--------
+Quality: +20%
+Energy Shield: 210
+--------
+Requires: Level 65, 77 Int
+--------
+Sockets: S S
+--------
+Item Level: 81
+--------
+20% increased Magnitude of Damaging Ailments you inflict (rune)
+15% Life Recovery from Flasks also applies to Runic Ward (rune)
+--------
+Adds 13 to 18 Cold damage to Attacks
+97% increased Energy Shield
++39% to Fire Resistance
+Gain 35 Mana per enemy killed
+16% increased Energy Shield Recharge Rate
++44 to maximum Energy Shield (desecrated)
+--------
+Corrupted

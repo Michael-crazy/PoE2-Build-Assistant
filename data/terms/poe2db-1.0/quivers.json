@@ -1,0 +1,5407 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Quivers",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Quivers",
+    "file": "us/Quivers.html",
+    "fetched": "2026-11-17T22:07+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Quivers",
+    "file": "cn/Quivers.html",
+    "fetched": "2026-11-17T22:07+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Quivers",
+    "file": "tw/Quivers.html",
+    "fetched": "2026-11-17T22:07+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "item_class_code": "Quiver",
+  "mods_source": "ModsView",
+  "placeholders": "'#' replaces each rolled value; ranges lists [min, max] per '#' in English order",
+  "generation_types": {
+   "1": "Prefix",
+   "2": "Suffix",
+   "3": "Unique",
+   "5": "Corrupted"
+  },
+  "summary": {
+   "mismatches": 0,
+   "mods": 143,
+   "socketables": 0,
+   "base_types": 11,
+   "uniques": 9,
+   "page_entries": 148,
+   "pob_joined": 143,
+   "pob_text_differs": 0,
+   "missing_in_pob": 0,
+   "pob_only": 24,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 32,
+     "differ": 4,
+     "absent": 0
+    },
+    "names": {
+     "agree": 9,
+     "differ": 0,
+     "absent": 11
+    }
+   }
+  }
+ },
+ "mods": {
+  "Dexterity1": {
+   "id": "Dexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Mongoose",
+    "zh_hans": "猫鼬之",
+    "zh_hant": "貓鼬之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity2": {
+   "id": "Dexterity2",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     9.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Lynx",
+    "zh_hans": "山猫之",
+    "zh_hant": "山貓之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity3": {
+   "id": "Dexterity3",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     13.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Fox",
+    "zh_hans": "狐狸之",
+    "zh_hant": "狐狸之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity4": {
+   "id": "Dexterity4",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     17.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Falcon",
+    "zh_hans": "猎鹰之",
+    "zh_hant": "獵鷹之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity5": {
+   "id": "Dexterity5",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     21.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Panther",
+    "zh_hans": "豹之",
+    "zh_hant": "豹之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity6": {
+   "id": "Dexterity6",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     25.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Leopard",
+    "zh_hans": "花豹之",
+    "zh_hant": "花豹之"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity7": {
+   "id": "Dexterity7",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 66,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     28.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Jaguar",
+    "zh_hans": "美洲豹之",
+    "zh_hant": "美洲豹之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "Dexterity8": {
+   "id": "Dexterity8",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "2",
+   "level": 74,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     31.0,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "affix": {
+    "en": "of the Phantom",
+    "zh_hans": "幻影之",
+    "zh_hant": "幻影之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage1": {
+   "id": "AddedPhysicalDamage1",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Glinting",
+    "zh_hans": "闪烁的",
+    "zh_hant": "反光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage2": {
+   "id": "AddedPhysicalDamage2",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     2.0,
+     3.0
+    ],
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Burnished",
+    "zh_hans": "磨光的",
+    "zh_hant": "磨光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage3": {
+   "id": "AddedPhysicalDamage3",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     2.0,
+     4.0
+    ],
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Polished",
+    "zh_hans": "抛光的",
+    "zh_hant": "拋光的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage4": {
+   "id": "AddedPhysicalDamage4",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ],
+    [
+     8.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Honed",
+    "zh_hans": "砥砺的",
+    "zh_hant": "砥礪的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage5": {
+   "id": "AddedPhysicalDamage5",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     5.0,
+     7.0
+    ],
+    [
+     9.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Gleaming",
+    "zh_hans": "熠熠的",
+    "zh_hant": "熠熠的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage6": {
+   "id": "AddedPhysicalDamage6",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     6.0,
+     10.0
+    ],
+    [
+     12.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Annealed",
+    "zh_hans": "韧炼的",
+    "zh_hant": "韌煉的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage7": {
+   "id": "AddedPhysicalDamage7",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     7.0,
+     11.0
+    ],
+    [
+     14.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Razor-sharp",
+    "zh_hans": "锋利的",
+    "zh_hant": "鋒利的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage8": {
+   "id": "AddedPhysicalDamage8",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ],
+    [
+     18.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Tempered",
+    "zh_hans": "锻炼的",
+    "zh_hant": "鍛煉的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedPhysicalDamage9": {
+   "id": "AddedPhysicalDamage9",
+   "family": [
+    "PhysicalDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Adds # to # Physical Damage to Attacks"
+   ],
+   "ranges": [
+    [
+     12.0,
+     19.0
+    ],
+    [
+     22.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 物理伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#物理傷害"
+   ],
+   "affix": {
+    "en": "Flaring",
+    "zh_hans": "迸出的",
+    "zh_hant": "迸出的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage1": {
+   "id": "AddedFireDamage1",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     3.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Heated",
+    "zh_hans": "加热的",
+    "zh_hant": "加熱的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage2": {
+   "id": "AddedFireDamage2",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     3.0,
+     5.0
+    ],
+    [
+     6.0,
+     9.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Smouldering",
+    "zh_hans": "闷烧的",
+    "zh_hant": "悶燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage3": {
+   "id": "AddedFireDamage3",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     6.0,
+     8.0
+    ],
+    [
+     10.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Smoking",
+    "zh_hans": "冒烟的",
+    "zh_hant": "冒煙的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage4": {
+   "id": "AddedFireDamage4",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     9.0,
+     11.0
+    ],
+    [
+     14.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Burning",
+    "zh_hans": "燃烧的",
+    "zh_hant": "燃燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage5": {
+   "id": "AddedFireDamage5",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     12.0,
+     13.0
+    ],
+    [
+     18.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Flaming",
+    "zh_hans": "烈火的",
+    "zh_hant": "火焰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage6": {
+   "id": "AddedFireDamage6",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     11.0,
+     16.0
+    ],
+    [
+     21.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Scorching",
+    "zh_hans": "酷热的",
+    "zh_hant": "酷熱的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage7": {
+   "id": "AddedFireDamage7",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     13.0,
+     19.0
+    ],
+    [
+     27.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Incinerating",
+    "zh_hans": "焚烧的",
+    "zh_hant": "焚燒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage8": {
+   "id": "AddedFireDamage8",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ],
+    [
+     33.0,
+     36.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Blasting",
+    "zh_hans": "爆破的",
+    "zh_hant": "爆破的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedFireDamage9": {
+   "id": "AddedFireDamage9",
+   "family": [
+    "FireDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Adds # to # Fire damage to Attacks"
+   ],
+   "ranges": [
+    [
+     25.0,
+     29.0
+    ],
+    [
+     37.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础火焰伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#火焰傷害"
+   ],
+   "affix": {
+    "en": "Cremating",
+    "zh_hans": "火化的",
+    "zh_hant": "火化的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage1": {
+   "id": "AddedColdDamage1",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     2.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Frosted",
+    "zh_hans": "结霜的",
+    "zh_hant": "結霜的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage2": {
+   "id": "AddedColdDamage2",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     3.0,
+     4.0
+    ],
+    [
+     5.0,
+     8.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Chilled",
+    "zh_hans": "冰缓的",
+    "zh_hant": "冷凍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage3": {
+   "id": "AddedColdDamage3",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     5.0,
+     6.0
+    ],
+    [
+     9.0,
+     11.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Icy",
+    "zh_hans": "结冰的",
+    "zh_hant": "結冰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage4": {
+   "id": "AddedColdDamage4",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     7.0,
+     8.0
+    ],
+    [
+     12.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Frigid",
+    "zh_hans": "寒风的",
+    "zh_hant": "寒風的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage5": {
+   "id": "AddedColdDamage5",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     9.0,
+     10.0
+    ],
+    [
+     15.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Freezing",
+    "zh_hans": "冰冻的",
+    "zh_hant": "急凍的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage6": {
+   "id": "AddedColdDamage6",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     11.0,
+     13.0
+    ],
+    [
+     18.0,
+     21.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Frozen",
+    "zh_hans": "冻结的",
+    "zh_hant": "冰凍"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage7": {
+   "id": "AddedColdDamage7",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     14.0,
+     15.0
+    ],
+    [
+     22.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Glaciated",
+    "zh_hans": "冰河的",
+    "zh_hant": "冰河的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage8": {
+   "id": "AddedColdDamage8",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     16.0,
+     20.0
+    ],
+    [
+     25.0,
+     31.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Polar",
+    "zh_hans": "极地的",
+    "zh_hant": "極地的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedColdDamage9": {
+   "id": "AddedColdDamage9",
+   "family": [
+    "ColdDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Adds # to # Cold damage to Attacks"
+   ],
+   "ranges": [
+    [
+     21.0,
+     24.0
+    ],
+    [
+     32.0,
+     37.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础冰霜伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#冰冷傷害"
+   ],
+   "affix": {
+    "en": "Entombing",
+    "zh_hans": "埋葬的",
+    "zh_hant": "埋葬的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage1": {
+   "id": "AddedLightningDamage1",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Humming",
+    "zh_hans": "低鸣的",
+    "zh_hant": "低鳴的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage2": {
+   "id": "AddedLightningDamage2",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 8,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Buzzing",
+    "zh_hans": "嗡嗡的",
+    "zh_hant": "嗡嗡的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage3": {
+   "id": "AddedLightningDamage3",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     16.0,
+     22.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Snapping",
+    "zh_hans": "捕捉的",
+    "zh_hant": "捕捉的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage4": {
+   "id": "AddedLightningDamage4",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     23.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Crackling",
+    "zh_hans": "劈哩啪啦的",
+    "zh_hant": "劈哩啪啦的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage5": {
+   "id": "AddedLightningDamage5",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ],
+    [
+     28.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Sparking",
+    "zh_hans": "火花的",
+    "zh_hant": "火花的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage6": {
+   "id": "AddedLightningDamage6",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 54,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     33.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Arcing",
+    "zh_hans": "电弧的",
+    "zh_hant": "電弧的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage7": {
+   "id": "AddedLightningDamage7",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     2.0
+    ],
+    [
+     41.0,
+     47.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Shocking",
+    "zh_hans": "感电的",
+    "zh_hant": "電震的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage8": {
+   "id": "AddedLightningDamage8",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     3.0
+    ],
+    [
+     48.0,
+     59.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Discharging",
+    "zh_hans": "放电的",
+    "zh_hant": "放電的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AddedLightningDamage9": {
+   "id": "AddedLightningDamage9",
+   "family": [
+    "LightningDamage"
+   ],
+   "generation_type": "1",
+   "level": 75,
+   "en": [
+    "Adds # to # Lightning damage to Attacks"
+   ],
+   "ranges": [
+    [
+     1.0,
+     4.0
+    ],
+    [
+     60.0,
+     71.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击附加 # - # 基础闪电伤害"
+   ],
+   "zh_hant": [
+    "攻擊附加#至#閃電傷害"
+   ],
+   "affix": {
+    "en": "Electrocuting",
+    "zh_hans": "电殛的",
+    "zh_hant": "電極的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "GlobalProjectileSkillGemLevel1": {
+   "id": "GlobalProjectileSkillGemLevel1",
+   "family": [
+    "IncreaseSocketedGemLevel"
+   ],
+   "generation_type": "2",
+   "level": 5,
+   "en": [
+    "+# to Level of all Projectile Skills"
+   ],
+   "ranges": [
+    [
+     1.0,
+     1.0
+    ]
+   ],
+   "zh_hans": [
+    "所有投射物技能等级 +#"
+   ],
+   "zh_hant": [
+    "全部投射物技能等級+#"
+   ],
+   "affix": {
+    "en": "of the Archer",
+    "zh_hans": "射手之",
+    "zh_hant": "弓箭手之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LifeGainedFromEnemyDeath1": {
+   "id": "LifeGainedFromEnemyDeath1",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "affix": {
+    "en": "of Success",
+    "zh_hans": "成功之",
+    "zh_hant": "成功之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LifeGainedFromEnemyDeath2": {
+   "id": "LifeGainedFromEnemyDeath2",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     7.0,
+     9.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "affix": {
+    "en": "of Victory",
+    "zh_hans": "胜利之",
+    "zh_hant": "勝利之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LifeGainedFromEnemyDeath3": {
+   "id": "LifeGainedFromEnemyDeath3",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     18.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "affix": {
+    "en": "of Triumph",
+    "zh_hans": "凯旋之",
+    "zh_hant": "凱旋之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LifeGainedFromEnemyDeath4": {
+   "id": "LifeGainedFromEnemyDeath4",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     19.0,
+     28.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "affix": {
+    "en": "of Conquest",
+    "zh_hans": "征服之",
+    "zh_hant": "征服之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LifeGainedFromEnemyDeath5": {
+   "id": "LifeGainedFromEnemyDeath5",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     29.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "affix": {
+    "en": "of Vanquishing",
+    "zh_hans": "称霸之",
+    "zh_hant": "征服之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "LifeGainedFromEnemyDeath6": {
+   "id": "LifeGainedFromEnemyDeath6",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     41.0,
+     53.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "affix": {
+    "en": "of Valour",
+    "zh_hans": "勇气之",
+    "zh_hant": "勇氣之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaGainedFromEnemyDeath1": {
+   "id": "ManaGainedFromEnemyDeath1",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     2.0,
+     3.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Absorption",
+    "zh_hans": "吸收之",
+    "zh_hant": "吸收之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaGainedFromEnemyDeath2": {
+   "id": "ManaGainedFromEnemyDeath2",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 12,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     4.0,
+     5.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Osmosis",
+    "zh_hans": "逆渗透之",
+    "zh_hant": "逆滲透之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaGainedFromEnemyDeath3": {
+   "id": "ManaGainedFromEnemyDeath3",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 23,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     6.0,
+     9.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Infusion",
+    "zh_hans": "灌输之",
+    "zh_hant": "注入之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaGainedFromEnemyDeath4": {
+   "id": "ManaGainedFromEnemyDeath4",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 34,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Enveloping",
+    "zh_hans": "裹挟之",
+    "zh_hant": "包覆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaGainedFromEnemyDeath5": {
+   "id": "ManaGainedFromEnemyDeath5",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Consumption",
+    "zh_hans": "消耗之",
+    "zh_hant": "消耗之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ManaGainedFromEnemyDeath6": {
+   "id": "ManaGainedFromEnemyDeath6",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "2",
+   "level": 56,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     21.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "affix": {
+    "en": "of Siphoning",
+    "zh_hans": "虹吸之",
+    "zh_hant": "虹吸之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAttackSpeed1": {
+   "id": "IncreasedAttackSpeed1",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     5.0,
+     7.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Skill",
+    "zh_hans": "技巧之",
+    "zh_hant": "技巧之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAttackSpeed2": {
+   "id": "IncreasedAttackSpeed2",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 22,
+   "en": [
+    "#% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     8.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Ease",
+    "zh_hans": "轻松之",
+    "zh_hant": "輕鬆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAttackSpeed3": {
+   "id": "IncreasedAttackSpeed3",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 37,
+   "en": [
+    "#% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     11.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Mastery",
+    "zh_hans": "成熟之",
+    "zh_hant": "成熟之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAttackSpeed4": {
+   "id": "IncreasedAttackSpeed4",
+   "family": [
+    "IncreasedAttackSpeed"
+   ],
+   "generation_type": "2",
+   "level": 60,
+   "en": [
+    "#% increased Attack Speed"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊速度"
+   ],
+   "affix": {
+    "en": "of Renown",
+    "zh_hans": "声望之",
+    "zh_hant": "聲望之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy1": {
+   "id": "IncreasedAccuracy1",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     11.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Precise",
+    "zh_hans": "精确的",
+    "zh_hant": "精確的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy2": {
+   "id": "IncreasedAccuracy2",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 11,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     33.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Reliable",
+    "zh_hans": "可靠的",
+    "zh_hant": "可靠的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy3": {
+   "id": "IncreasedAccuracy3",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 18,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     61.0,
+     84.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Focused",
+    "zh_hans": "专注的",
+    "zh_hant": "專注的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy4": {
+   "id": "IncreasedAccuracy4",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 26,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     85.0,
+     123.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Deliberate",
+    "zh_hans": "从容的",
+    "zh_hant": "慎重之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy5": {
+   "id": "IncreasedAccuracy5",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 36,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     124.0,
+     167.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Consistent",
+    "zh_hans": "如一的",
+    "zh_hant": "穩定之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy6": {
+   "id": "IncreasedAccuracy6",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 48,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     168.0,
+     236.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Steady",
+    "zh_hans": "稳健的",
+    "zh_hant": "安穩的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy7": {
+   "id": "IncreasedAccuracy7",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 58,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     237.0,
+     346.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Hunter's",
+    "zh_hans": "狩猎者的",
+    "zh_hant": "狩獵者的"
+   },
+   "sections": [
+    "normal",
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Battle",
+     "zh_hans": "强效激战精华",
+     "zh_hant": "高階戰鬥精髓",
+     "line": {
+      "en": [
+       "+# to Accuracy Rating"
+      ],
+      "zh_hans": [
+       "+# 命中值"
+      ],
+      "zh_hant": [
+       "+#命中值"
+      ],
+      "ranges": [
+       [
+        237.0,
+        346.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy8": {
+   "id": "IncreasedAccuracy8",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 67,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     347.0,
+     450.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Ranger's",
+    "zh_hans": "游侠的",
+    "zh_hant": "遊俠的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "IncreasedAccuracy9": {
+   "id": "IncreasedAccuracy9",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 76,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     451.0,
+     550.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "affix": {
+    "en": "Amazon's",
+    "zh_hans": "亚马逊的",
+    "zh_hant": "亞馬遜的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeChance1": {
+   "id": "AttackCriticalStrikeChance1",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 5,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Menace",
+    "zh_hans": "威胁之",
+    "zh_hant": "威脅之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeChance2": {
+   "id": "AttackCriticalStrikeChance2",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 20,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     15.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Havoc",
+    "zh_hans": "浩劫之",
+    "zh_hant": "浩劫之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeChance3": {
+   "id": "AttackCriticalStrikeChance3",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 30,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Disaster",
+    "zh_hans": "灾害之",
+    "zh_hant": "災害之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeChance4": {
+   "id": "AttackCriticalStrikeChance4",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     25.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Calamity",
+    "zh_hans": "灾难之",
+    "zh_hant": "血禍之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeChance5": {
+   "id": "AttackCriticalStrikeChance5",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 58,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     30.0,
+     34.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Ruin",
+    "zh_hans": "灭绝之",
+    "zh_hant": "滅絕之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeChance6": {
+   "id": "AttackCriticalStrikeChance6",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 72,
+   "en": [
+    "#% increased Critical Hit Chance for Attacks"
+   ],
+   "ranges": [
+    [
+     35.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击暴击率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊暴擊率"
+   ],
+   "affix": {
+    "en": "of Unmaking",
+    "zh_hans": "解构之",
+    "zh_hant": "奪位之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeMultiplier1": {
+   "id": "AttackCriticalStrikeMultiplier1",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Ire",
+    "zh_hans": "怒火之",
+    "zh_hant": "怒火之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeMultiplier2": {
+   "id": "AttackCriticalStrikeMultiplier2",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 21,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     15.0,
+     19.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Anger",
+    "zh_hans": "愤怒之",
+    "zh_hant": "憤怒之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeMultiplier3": {
+   "id": "AttackCriticalStrikeMultiplier3",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 31,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     20.0,
+     24.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Rage",
+    "zh_hans": "震怒之",
+    "zh_hant": "狂怒之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeMultiplier4": {
+   "id": "AttackCriticalStrikeMultiplier4",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     25.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Fury",
+    "zh_hans": "狂暴之",
+    "zh_hant": "憤恨之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeMultiplier5": {
+   "id": "AttackCriticalStrikeMultiplier5",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 59,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     30.0,
+     34.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Ferocity",
+    "zh_hans": "凶暴之",
+    "zh_hant": "狂暴之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AttackCriticalStrikeMultiplier6": {
+   "id": "AttackCriticalStrikeMultiplier6",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 74,
+   "en": [
+    "#% increased Critical Damage Bonus for Attack Damage"
+   ],
+   "ranges": [
+    [
+     35.0,
+     39.0
+    ]
+   ],
+   "zh_hans": [
+    "攻击伤害的暴击伤害加成 #%"
+   ],
+   "zh_hant": [
+    "增加#%攻擊傷害的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Destruction",
+    "zh_hans": "毁灭之",
+    "zh_hant": "毀滅之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ArrowPierceChance1": {
+   "id": "ArrowPierceChance1",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     12.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "affix": {
+    "en": "of Piercing",
+    "zh_hans": "刺穿之",
+    "zh_hant": "刺穿之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ArrowPierceChance2": {
+   "id": "ArrowPierceChance2",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     15.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "affix": {
+    "en": "of Drilling",
+    "zh_hans": "钻取之",
+    "zh_hant": "訓練之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ArrowPierceChance3": {
+   "id": "ArrowPierceChance3",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "2",
+   "level": 44,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     18.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "affix": {
+    "en": "of Puncturing",
+    "zh_hans": "穿孔之",
+    "zh_hant": "穿孔之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ArrowPierceChance4": {
+   "id": "ArrowPierceChance4",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "2",
+   "level": 61,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     21.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "affix": {
+    "en": "of Skewering",
+    "zh_hans": "穿钩之",
+    "zh_hant": "串起之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ArrowPierceChance5": {
+   "id": "ArrowPierceChance5",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "2",
+   "level": 77,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     24.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "affix": {
+    "en": "of Penetrating",
+    "zh_hans": "穿透之",
+    "zh_hant": "穿透之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AdditionalArrowChanceQuiver1": {
+   "id": "AdditionalArrowChanceQuiver1",
+   "family": [
+    "AdditionalArrows"
+   ],
+   "generation_type": "2",
+   "level": 46,
+   "en": [
+    "+#% Surpassing chance to fire an additional Arrow"
+   ],
+   "ranges": [
+    [
+     25.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 的溢出几率发射一支额外箭矢"
+   ],
+   "zh_hant": [
+    "+#%滿溢機率發射額外一枚箭矢"
+   ],
+   "affix": {
+    "en": "of Surplus",
+    "zh_hans": "盈余之",
+    "zh_hant": "剩餘之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "AdditionalArrowChanceQuiver2": {
+   "id": "AdditionalArrowChanceQuiver2",
+   "family": [
+    "AdditionalArrows"
+   ],
+   "generation_type": "2",
+   "level": 80,
+   "en": [
+    "+#% Surpassing chance to fire an additional Arrow"
+   ],
+   "ranges": [
+    [
+     41.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "+#% 的溢出几率发射一支额外箭矢"
+   ],
+   "zh_hant": [
+    "+#%滿溢機率發射額外一枚箭矢"
+   ],
+   "affix": {
+    "en": "of Splintering",
+    "zh_hans": "碎片之",
+    "zh_hant": "分裂之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ProjectileSpeed1": {
+   "id": "ProjectileSpeed1",
+   "family": [
+    "ProjectileSpeed"
+   ],
+   "generation_type": "1",
+   "level": 14,
+   "en": [
+    "#% increased Projectile Speed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物速度"
+   ],
+   "affix": {
+    "en": "Darting",
+    "zh_hans": "疾速的",
+    "zh_hant": "疾速的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ProjectileSpeed2": {
+   "id": "ProjectileSpeed2",
+   "family": [
+    "ProjectileSpeed"
+   ],
+   "generation_type": "1",
+   "level": 27,
+   "en": [
+    "#% increased Projectile Speed"
+   ],
+   "ranges": [
+    [
+     18.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物速度"
+   ],
+   "affix": {
+    "en": "Brisk",
+    "zh_hans": "轻快的",
+    "zh_hant": "輕快的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ProjectileSpeed3": {
+   "id": "ProjectileSpeed3",
+   "family": [
+    "ProjectileSpeed"
+   ],
+   "generation_type": "1",
+   "level": 41,
+   "en": [
+    "#% increased Projectile Speed"
+   ],
+   "ranges": [
+    [
+     26.0,
+     33.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物速度"
+   ],
+   "affix": {
+    "en": "Quick",
+    "zh_hans": "快速的",
+    "zh_hant": "快速的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ProjectileSpeed4": {
+   "id": "ProjectileSpeed4",
+   "family": [
+    "ProjectileSpeed"
+   ],
+   "generation_type": "1",
+   "level": 55,
+   "en": [
+    "#% increased Projectile Speed"
+   ],
+   "ranges": [
+    [
+     34.0,
+     41.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物速度"
+   ],
+   "affix": {
+    "en": "Rapid",
+    "zh_hans": "急速的",
+    "zh_hant": "疾速的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "ProjectileSpeed5": {
+   "id": "ProjectileSpeed5",
+   "family": [
+    "ProjectileSpeed"
+   ],
+   "generation_type": "1",
+   "level": 82,
+   "en": [
+    "#% increased Projectile Speed"
+   ],
+   "ranges": [
+    [
+     42.0,
+     46.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物速度"
+   ],
+   "affix": {
+    "en": "Nimble",
+    "zh_hans": "灵敏的",
+    "zh_hant": "靈活的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DamageWithBows1": {
+   "id": "DamageWithBows1",
+   "family": [
+    "DamageWithWeaponTypeSkill"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Damage with Bow Skills"
+   ],
+   "ranges": [
+    [
+     11.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类技能伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%弓技能的傷害"
+   ],
+   "affix": {
+    "en": "Acute",
+    "zh_hans": "敏锐的",
+    "zh_hant": "急性的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DamageWithBows2": {
+   "id": "DamageWithBows2",
+   "family": [
+    "DamageWithWeaponTypeSkill"
+   ],
+   "generation_type": "1",
+   "level": 16,
+   "en": [
+    "#% increased Damage with Bow Skills"
+   ],
+   "ranges": [
+    [
+     21.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类技能伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%弓技能的傷害"
+   ],
+   "affix": {
+    "en": "Trenchant",
+    "zh_hans": "尖刻的",
+    "zh_hant": "迷幻的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DamageWithBows3": {
+   "id": "DamageWithBows3",
+   "family": [
+    "DamageWithWeaponTypeSkill"
+   ],
+   "generation_type": "1",
+   "level": 33,
+   "en": [
+    "#% increased Damage with Bow Skills"
+   ],
+   "ranges": [
+    [
+     31.0,
+     36.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类技能伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%弓技能的傷害"
+   ],
+   "affix": {
+    "en": "Perforating",
+    "zh_hans": "凿击的",
+    "zh_hant": "穿孔的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DamageWithBows4": {
+   "id": "DamageWithBows4",
+   "family": [
+    "DamageWithWeaponTypeSkill"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "#% increased Damage with Bow Skills"
+   ],
+   "ranges": [
+    [
+     37.0,
+     42.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类技能伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%弓技能的傷害"
+   ],
+   "affix": {
+    "en": "Incisive",
+    "zh_hans": "锋尖的",
+    "zh_hant": "尖銳的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "DamageWithBows5": {
+   "id": "DamageWithBows5",
+   "family": [
+    "DamageWithWeaponTypeSkill"
+   ],
+   "generation_type": "1",
+   "level": 60,
+   "en": [
+    "#% increased Damage with Bow Skills"
+   ],
+   "ranges": [
+    [
+     43.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类技能伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%弓技能的傷害"
+   ],
+   "affix": {
+    "en": "Lacerating",
+    "zh_hans": "破空的",
+    "zh_hant": "撕裂的"
+   },
+   "sections": [
+    "normal",
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of Hysteria",
+     "zh_hans": "浮夸精华",
+     "zh_hant": "浮誇精髓"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "DamageWithBows6": {
+   "id": "DamageWithBows6",
+   "family": [
+    "DamageWithWeaponTypeSkill"
+   ],
+   "generation_type": "1",
+   "level": 81,
+   "en": [
+    "#% increased Damage with Bow Skills"
+   ],
+   "ranges": [
+    [
+     51.0,
+     59.0
+    ]
+   ],
+   "zh_hans": [
+    "弓类技能伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%弓技能的傷害"
+   ],
+   "affix": {
+    "en": "Impaling",
+    "zh_hans": "穿刺的",
+    "zh_hant": "穿刺的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModItem.lua"
+  },
+  "CorruptionIncreasedMana1": {
+   "id": "CorruptionIncreasedMana1",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     20.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionIncreasedAccuracy1": {
+   "id": "CorruptionIncreasedAccuracy1",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     50.0,
+     100.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionAllDamage1": {
+   "id": "CorruptionAllDamage1",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Damage"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%傷害"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionIncreasedSkillSpeed1": {
+   "id": "CorruptionIncreasedSkillSpeed1",
+   "family": [
+    "IncreasedSpeed"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Skill Speed"
+   ],
+   "ranges": [
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   "zh_hans": [
+    "技能速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%技能速度"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionCriticalStrikeMultiplier1": {
+   "id": "CorruptionCriticalStrikeMultiplier1",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%暴擊傷害加成"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionLifeGainedFromEnemyDeath1": {
+   "id": "CorruptionLifeGainedFromEnemyDeath1",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     20.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionManaGainedFromEnemyDeath1": {
+   "id": "CorruptionManaGainedFromEnemyDeath1",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     10.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionChanceToPierce1": {
+   "id": "CorruptionChanceToPierce1",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "CorruptionChainFromTerrain1": {
+   "id": "CorruptionChainFromTerrain1",
+   "family": [
+    "ChainFromTerrain"
+   ],
+   "generation_type": "5",
+   "level": 1,
+   "en": [
+    "Projectiles have #% chance to Chain an additional time from terrain"
+   ],
+   "ranges": [
+    [
+     10.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物击中地形时有 #% 的几率额外连锁一次"
+   ],
+   "zh_hant": [
+    "投射物有#%機率從地形額外連鎖一次"
+   ],
+   "sections": [
+    "corrupted"
+   ],
+   "essences": [],
+   "pob_file": "ModCorrupted.lua"
+  },
+  "AbyssModQuiverAmanamuPrefixProjectileDamageCloseRange": {
+   "id": "AbyssModQuiverAmanamuPrefixProjectileDamageCloseRange",
+   "family": [
+    "ProjectileDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Projectiles deal #% increased Damage with Hits against Enemies within 2m"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物对 2 米内的敌人造成的击中伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物對距離2公尺內的敵人造成的擊中傷害"
+   ],
+   "affix": {
+    "en": "Amanamu's",
+    "zh_hans": "阿曼娜姆的",
+    "zh_hant": "阿姆那姆的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModQuiverKurgalPrefixProjectileDamageFar": {
+   "id": "AbyssModQuiverKurgalPrefixProjectileDamageFar",
+   "family": [
+    "ProjectileDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Projectiles deal #% increased Damage with Hits against Enemies further than 6m"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物对 6 米外的敌人造成的击中伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物對距離超過6公尺的敵人造成的擊中傷害"
+   ],
+   "affix": {
+    "en": "Kurgal's",
+    "zh_hans": "古加尔的",
+    "zh_hant": "柯戈的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModQuiverAmanamuSuffixProjectileCriticalHitDamageCloseRange": {
+   "id": "AbyssModQuiverAmanamuSuffixProjectileCriticalHitDamageCloseRange",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "Projectiles have #% increased Critical Damage Bonus against Enemies within 2m"
+   ],
+   "ranges": [
+    [
+     18.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物对 2 米内的敌人的暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物對2公尺內敵人的暴擊傷害加成"
+   ],
+   "affix": {
+    "en": "of Amanamu",
+    "zh_hans": "阿曼娜姆之",
+    "zh_hant": "阿姆那姆之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModFourCatKurgalSuffixManaCostEfficiency": {
+   "id": "AbyssModFourCatKurgalSuffixManaCostEfficiency",
+   "family": [
+    "ManaCostEfficiency"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% increased Mana Cost Efficiency"
+   ],
+   "ranges": [
+    [
+     6.0,
+     10.0
+    ]
+   ],
+   "zh_hans": [
+    "魔力消耗效能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%魔力消耗效用"
+   ],
+   "affix": {
+    "en": "of Kurgal",
+    "zh_hans": "古加尔之",
+    "zh_hant": "柯戈之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModQuiverKurgalSuffixProjectileCriticalHitChanceFar": {
+   "id": "AbyssModQuiverKurgalSuffixProjectileCriticalHitChanceFar",
+   "family": [
+    "CriticalStrikeChanceIncrease"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "Projectiles have #% increased Critical Hit Chance against Enemies further than 6m"
+   ],
+   "ranges": [
+    [
+     18.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物对 6 米外的敌人的暴击几率提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%投射物對距離超過6公尺的敵人暴擊機率"
+   ],
+   "affix": {
+    "en": "of Kurgal",
+    "zh_hans": "古加尔之",
+    "zh_hant": "柯戈之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModQuiverUlamanSuffixChanceForExtraProjectilesWhileMoving": {
+   "id": "AbyssModQuiverUlamanSuffixChanceForExtraProjectilesWhileMoving",
+   "family": [
+    "AdditionalProjectiles"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "Projectile Attacks have a #% chance to fire two additional Projectiles while moving"
+   ],
+   "ranges": [
+    [
+     8.0,
+     12.0
+    ]
+   ],
+   "zh_hans": [
+    "移动时，投射物攻击有 #% 的几率额外发射两个投射物"
+   ],
+   "zh_hant": [
+    "移動時，投射物攻擊有#%機率發射2個額外投射物"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModQuiverUlamanSuffixAttackCostConvertedToLifeCost": {
+   "id": "AbyssModQuiverUlamanSuffixAttackCostConvertedToLifeCost",
+   "family": [
+    "LifeCost"
+   ],
+   "generation_type": "2",
+   "level": 65,
+   "en": [
+    "#% of Skill Mana Costs Converted to Life Costs"
+   ],
+   "ranges": [
+    [
+     10.0,
+     14.0
+    ]
+   ],
+   "zh_hans": [
+    "技能的魔力消耗的 #% 转化为生命消耗"
+   ],
+   "zh_hant": [
+    "#%技能魔力消耗轉換為生命消耗"
+   ],
+   "affix": {
+    "en": "of Ulaman",
+    "zh_hans": "乌拉曼之",
+    "zh_hant": "烏拉曼之"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "AbyssModQuiverUlamanPrefixIncreasesToProjectileSpeedApplyToDamage": {
+   "id": "AbyssModQuiverUlamanPrefixIncreasesToProjectileSpeedApplyToDamage",
+   "family": [
+    "ProjectileDamage"
+   ],
+   "generation_type": "1",
+   "level": 65,
+   "en": [
+    "Increases and Reductions to Projectile Speed also apply to Damage with Bows"
+   ],
+   "ranges": [],
+   "zh_hans": [
+    "投射物速度的增幅和减益也会作用于弓类伤害"
+   ],
+   "zh_hant": [
+    "投射物速度增減也會套用於弓的傷害"
+   ],
+   "affix": {
+    "en": "Ulaman's",
+    "zh_hans": "乌拉曼的",
+    "zh_hant": "烏拉曼的"
+   },
+   "sections": [
+    "desecrated"
+   ],
+   "essences": [],
+   "pob_file": "ModVeiled.lua"
+  },
+  "CorruptionUpgradeAllDamage1": {
+   "id": "CorruptionUpgradeAllDamage1",
+   "family": [
+    "AllDamage"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Damage"
+   ],
+   "ranges": [
+    [
+     40.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "伤害提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%傷害"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeChainFromTerrain1": {
+   "id": "CorruptionUpgradeChainFromTerrain1",
+   "family": [
+    "ChainFromTerrain"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Projectiles have #% chance to Chain an additional time from terrain"
+   ],
+   "ranges": [
+    [
+     25.0,
+     40.0
+    ]
+   ],
+   "zh_hans": [
+    "投射物击中地形时有 #% 的几率额外连锁一次"
+   ],
+   "zh_hant": [
+    "投射物有#%機率從地形額外連鎖一次"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeChanceToPierce1": {
+   "id": "CorruptionUpgradeChanceToPierce1",
+   "family": [
+    "ChanceToPierce"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% chance to Pierce an Enemy"
+   ],
+   "ranges": [
+    [
+     50.0,
+     75.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率穿透一个敌人"
+   ],
+   "zh_hant": [
+    "有#%機率穿透一個敵人"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeCriticalStrikeMultiplier1": {
+   "id": "CorruptionUpgradeCriticalStrikeMultiplier1",
+   "family": [
+    "CriticalStrikeMultiplier"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Critical Damage Bonus"
+   ],
+   "ranges": [
+    [
+     30.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "暴击伤害加成提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%暴擊傷害加成"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeIncreasedAccuracy1": {
+   "id": "CorruptionUpgradeIncreasedAccuracy1",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Accuracy Rating"
+   ],
+   "ranges": [
+    [
+     150.0,
+     300.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 命中值"
+   ],
+   "zh_hant": [
+    "+#命中值"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeIncreasedMana1": {
+   "id": "CorruptionUpgradeIncreasedMana1",
+   "family": [
+    "IncreasedMana"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to maximum Mana"
+   ],
+   "ranges": [
+    [
+     80.0,
+     100.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 魔力上限"
+   ],
+   "zh_hant": [
+    "+#最大魔力"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeIncreasedSkillSpeed1": {
+   "id": "CorruptionUpgradeIncreasedSkillSpeed1",
+   "family": [
+    "IncreasedSpeed"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "#% increased Skill Speed"
+   ],
+   "ranges": [
+    [
+     8.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "技能速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%技能速度"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelChaosResist1": {
+   "id": "CorruptionUpgradeJewelChaosResist1",
+   "family": [
+    "ChaosResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Chaos Resistance"
+   ],
+   "ranges": [
+    [
+     10.0,
+     13.0
+    ]
+   ],
+   "zh_hans": [
+    "混沌抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%混沌抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelColdResist1": {
+   "id": "CorruptionUpgradeJewelColdResist1",
+   "family": [
+    "ColdResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Cold Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "冰霜抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%冰冷抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelDexterity1": {
+   "id": "CorruptionUpgradeJewelDexterity1",
+   "family": [
+    "Dexterity"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Dexterity"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 敏捷"
+   ],
+   "zh_hant": [
+    "+#點敏捷"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelFireResist1": {
+   "id": "CorruptionUpgradeJewelFireResist1",
+   "family": [
+    "FireResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Fire Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "火焰抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%火焰抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelIntelligence1": {
+   "id": "CorruptionUpgradeJewelIntelligence1",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Intelligence"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 智慧"
+   ],
+   "zh_hant": [
+    "+#點智慧"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelLightningResist1": {
+   "id": "CorruptionUpgradeJewelLightningResist1",
+   "family": [
+    "LightningResistance"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+#% to Lightning Resistance"
+   ],
+   "ranges": [
+    [
+     15.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "闪电抗性 +#%"
+   ],
+   "zh_hant": [
+    "+#%閃電抗性"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeJewelStrength1": {
+   "id": "CorruptionUpgradeJewelStrength1",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "+# to Strength"
+   ],
+   "ranges": [
+    [
+     14.0,
+     16.0
+    ]
+   ],
+   "zh_hans": [
+    "+# 力量"
+   ],
+   "zh_hant": [
+    "+#點力量"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeLifeGainedFromEnemyDeath1": {
+   "id": "CorruptionUpgradeLifeGainedFromEnemyDeath1",
+   "family": [
+    "LifeGainedFromEnemyDeath"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Gain # Life per enemy killed"
+   ],
+   "ranges": [
+    [
+     40.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点生命"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#生命"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "CorruptionUpgradeManaGainedFromEnemyDeath1": {
+   "id": "CorruptionUpgradeManaGainedFromEnemyDeath1",
+   "family": [
+    "ManaGainedFromEnemyDeath"
+   ],
+   "generation_type": "3",
+   "level": 1,
+   "en": [
+    "Gain # Mana per enemy killed"
+   ],
+   "ranges": [
+    [
+     20.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "每击败一名敌人获得 # 点魔力"
+   ],
+   "zh_hant": [
+    "每個被擊殺的敵人，獲得#魔力"
+   ],
+   "sections": [
+    "corruption_upgrade"
+   ],
+   "essences": [],
+   "pob_file": "ModItemExclusive.lua"
+  },
+  "Strength2": {
+   "id": "Strength2",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence2": {
+   "id": "Intelligence2",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 11,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Lesser Essence of the Infinite",
+     "zh_hans": "次级永恒精华",
+     "zh_hant": "低階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        9.0,
+        12.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength4": {
+   "id": "Strength4",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence4": {
+   "id": "Intelligence4",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Infinite",
+     "zh_hans": "永恒精华",
+     "zh_hant": "無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        17.0,
+        20.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "LocalIncreasedAccuracy7": {
+   "id": "LocalIncreasedAccuracy7",
+   "family": [
+    "IncreasedAccuracy"
+   ],
+   "generation_type": "1",
+   "level": 58,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of Battle",
+     "zh_hans": "强效激战精华",
+     "zh_hant": "高階戰鬥精髓",
+     "line": {
+      "en": [
+       "+# to Accuracy Rating"
+      ],
+      "zh_hans": [
+       "+# 命中值"
+      ],
+      "zh_hant": [
+       "+#命中值"
+      ],
+      "ranges": [
+       [
+        237.0,
+        346.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Strength6": {
+   "id": "Strength6",
+   "family": [
+    "Strength"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "Intelligence6": {
+   "id": "Intelligence6",
+   "family": [
+    "Intelligence"
+   ],
+   "generation_type": "2",
+   "level": 55,
+   "sections": [
+    "essence"
+   ],
+   "essences": [
+    {
+     "en": "Greater Essence of the Infinite",
+     "zh_hans": "强效永恒精华",
+     "zh_hant": "高階無限精髓",
+     "line": {
+      "en": [
+       "+# to Strength, Dexterity or Intelligence"
+      ],
+      "zh_hans": [
+       "力量、敏捷或智慧 +#"
+      ],
+      "zh_hant": [
+       "+#力量、敏捷或智慧"
+      ],
+      "ranges": [
+       [
+        25.0,
+        27.0
+       ]
+      ]
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAbyssPrefix": {
+   "id": "EssenceAbyssPrefix",
+   "family": [
+    "EssenceAbyss"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Abyss",
+     "zh_hans": "深渊精华",
+     "zh_hant": "深淵精髓",
+     "line": {
+      "en": [
+       "Mark of the Abyssal Lord"
+      ],
+      "zh_hans": [
+       "深渊领主的印记"
+      ],
+      "zh_hant": [
+       "深淵領主印記"
+      ],
+      "ranges": []
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "EssenceAbyssSuffix": {
+   "id": "EssenceAbyssSuffix",
+   "family": [
+    "EssenceAbyss"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Essence of the Abyss",
+     "zh_hans": "深渊精华",
+     "zh_hant": "深淵精髓",
+     "line": {
+      "en": [
+       "Mark of the Abyssal Lord"
+      ],
+      "zh_hans": [
+       "深渊领主的印记"
+      ],
+      "zh_hant": [
+       "深淵領主印記"
+      ],
+      "ranges": []
+     }
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  },
+  "AlloyChanceToChain1": {
+   "id": "AlloyChanceToChain1",
+   "family": [
+    "Chain"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "#% chance to Chain an additional time"
+   ],
+   "ranges": [
+    [
+     25.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "#% 的几率额外连锁一次"
+   ],
+   "zh_hant": [
+    "有#%機率額外連鎖一次"
+   ],
+   "sections": [
+    "perfect_essence"
+   ],
+   "essences": [
+    {
+     "en": "Mystic Alloy",
+     "zh_hans": "神秘合金",
+     "zh_hant": "秘能合金"
+    }
+   ],
+   "pob_file": "ModItem.lua"
+  }
+ },
+ "socketables": {},
+ "base_types": {
+  "Blunt_Quiver": {
+   "en": "Blunt Quiver",
+   "zh_hans": "钝矢箭袋",
+   "zh_hant": "鈍箭袋",
+   "implicits": [
+    {
+     "en": "#% increased Stun Buildup",
+     "zh_hans": "晕眩积蓄值提高 #%",
+     "zh_hant": "增加#%暈眩累積"
+    }
+   ]
+  },
+  "Broadhead_Quiver": {
+   "en": "Broadhead Quiver",
+   "zh_hans": "宽矢箭袋",
+   "zh_hant": "寬頭箭袋",
+   "implicits": [
+    {
+     "en": "Adds # to # Physical Damage to Attacks",
+     "zh_hans": "攻击附加 # - # 物理伤害",
+     "zh_hant": "攻擊附加#至#物理傷害"
+    }
+   ]
+  },
+  "Fire_Quiver": {
+   "en": "Fire Quiver",
+   "zh_hans": "火灵箭袋",
+   "zh_hant": "火焰箭袋",
+   "implicits": [
+    {
+     "en": "Adds # to # Fire damage to Attacks",
+     "zh_hans": "攻击附加 # - # 基础火焰伤害",
+     "zh_hant": "攻擊附加#至#火焰傷害"
+    }
+   ]
+  },
+  "Penetrating_Quiver": {
+   "en": "Penetrating Quiver",
+   "zh_hans": "穿射箭袋",
+   "zh_hant": "穿透箭袋",
+   "implicits": [
+    {
+     "en": "#% chance to Pierce an Enemy",
+     "zh_hans": "#% 的几率穿透一个敌人",
+     "zh_hant": "有#%機率穿透一個敵人"
+    }
+   ]
+  },
+  "Primed_Quiver": {
+   "en": "Primed Quiver",
+   "zh_hans": "精工箭袋",
+   "zh_hant": "灌注箭袋",
+   "implicits": [
+    {
+     "en": "#% increased Attack Speed",
+     "zh_hans": "攻击速度提高 #%",
+     "zh_hant": "增加#%攻擊速度"
+    }
+   ]
+  },
+  "Sacral_Quiver": {
+   "en": "Sacral Quiver",
+   "zh_hans": "圣骨箭袋",
+   "zh_hant": "聖禮箭袋",
+   "implicits": [
+    {
+     "en": "Gain # Life per Enemy Hit with Attacks",
+     "zh_hans": "攻击每击中一名敌人获得#点生命",
+     "zh_hant": "攻擊每擊中一名敵人，獲得#生命"
+    }
+   ]
+  },
+  "Serrated_Quiver": {
+   "en": "Serrated Quiver",
+   "zh_hans": "锯齿箭袋",
+   "zh_hant": "鋸齒箭袋",
+   "implicits": [
+    {
+     "en": "Attacks have #% chance to cause Bleeding",
+     "zh_hans": "攻击有 #% 的几率导致流血",
+     "zh_hant": "攻擊有#%機率造成流血"
+    }
+   ]
+  },
+  "Toxic_Quiver": {
+   "en": "Toxic Quiver",
+   "zh_hans": "淬毒箭袋",
+   "zh_hant": "劇毒箭袋",
+   "implicits": [
+    {
+     "en": "#% chance to Poison on Hit with Attacks",
+     "zh_hans": "攻击击中时有 #% 的几率使目标中毒",
+     "zh_hant": "攻擊有#%機率在擊中時造成中毒"
+    }
+   ]
+  },
+  "Two-Point_Quiver": {
+   "en": "Two-Point Quiver",
+   "zh_hans": "双锋箭袋",
+   "zh_hant": "雙尖箭袋",
+   "implicits": [
+    {
+     "en": "#% increased Accuracy Rating",
+     "zh_hans": "命中值提高 #%",
+     "zh_hant": "增加#%命中值"
+    }
+   ]
+  },
+  "Visceral_Quiver": {
+   "en": "Visceral Quiver",
+   "zh_hans": "贯心箭袋",
+   "zh_hant": "內臟箭袋",
+   "implicits": [
+    {
+     "en": "#% increased Critical Hit Chance for Attacks",
+     "zh_hans": "攻击暴击率提高 #%",
+     "zh_hant": "增加#%攻擊暴擊率"
+    }
+   ]
+  },
+  "Volant_Quiver": {
+   "en": "Volant Quiver",
+   "zh_hans": "飞矢箭袋",
+   "zh_hant": "速射箭袋",
+   "implicits": [
+    {
+     "en": "#% increased Arrow Speed",
+     "zh_hans": "箭矢速度提高 #%",
+     "zh_hant": "增加#%箭矢速度"
+    }
+   ]
+  }
+ },
+ "uniques": {
+  "Asphyxias_Wrath": {
+   "en": "Asphyxia's Wrath",
+   "zh_hans": "冰灵之吼",
+   "zh_hant": "冰靈之吼",
+   "base": {
+    "en": "Broadhead Quiver",
+    "zh_hans": "宽矢箭袋",
+    "zh_hant": "寬頭箭袋"
+   },
+   "implicits": [
+    {
+     "en": "Adds # to # Physical Damage to Attacks",
+     "zh_hans": "攻击附加 # - # 物理伤害",
+     "zh_hant": "攻擊附加#至#物理傷害"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Adds # to # Cold damage to Attacks",
+     "zh_hans": "攻击附加 # - # 基础冰霜伤害",
+     "zh_hant": "攻擊附加#至#冰冷傷害"
+    },
+    {
+     "en": "Attacks Gain #% of Damage as Extra Cold Damage",
+     "zh_hans": "攻击获得相当于伤害 #% 的额外冰霜伤害",
+     "zh_hant": "攻擊獲得等同於傷害#%的額外冰冷傷害"
+    },
+    {
+     "en": "#% increased Attack Speed",
+     "zh_hans": "攻击速度提高 #%",
+     "zh_hant": "增加#%攻擊速度"
+    },
+    {
+     "en": "+#% to Cold Resistance",
+     "zh_hans": "冰霜抗性 +#%",
+     "zh_hant": "+#%冰冷抗性"
+    },
+    {
+     "en": "Enemies Chilled by your Hits increase damage taken by Chill Magnitude",
+     "zh_hans": "被你的击中冰缓的敌人受到的伤害提高，取决于冰缓强度",
+     "zh_hant": "被你的擊中所冰緩的敵人根據冰緩幅度增加承受傷害"
+    }
+   ]
+  },
+  "Beyond_Reach": {
+   "en": "Beyond Reach",
+   "zh_hans": "望而不及",
+   "zh_hant": "無法到達",
+   "base": {
+    "en": "Visceral Quiver",
+    "zh_hans": "贯心箭袋",
+    "zh_hant": "內臟箭袋"
+   },
+   "implicits": [
+    {
+     "en": "#% increased Critical Hit Chance for Attacks",
+     "zh_hans": "攻击暴击率提高 #%",
+     "zh_hant": "增加#%攻擊暴擊率"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% reduced Attack Speed",
+     "zh_hans": "攻击速度降低 #%",
+     "zh_hant": "減少#%攻擊速度"
+    },
+    {
+     "en": "Attacks Gain #% of Physical Damage as extra Chaos Damage",
+     "zh_hans": "攻击获得相当于物理伤害 #% 的额外混沌伤害",
+     "zh_hant": "攻擊獲得等同於物理傷害#%的額外混沌傷害"
+    },
+    {
+     "en": "Chaos Damage from Hits also Contributes to Freeze Buildup",
+     "zh_hans": "击中造成的混沌伤害也会作用于冻结积蓄",
+     "zh_hant": "擊中的混沌傷害也會貢獻至冰凍累積"
+    },
+    {
+     "en": "Chaos Damage from Hits also Contributes to Electrocute Buildup",
+     "zh_hans": "击中混沌伤害同时作用于触电积蓄",
+     "zh_hant": "擊中的混沌傷害也會貢獻至觸電累積"
+    }
+   ]
+  },
+  "Blackgleam": {
+   "en": "Blackgleam",
+   "zh_hans": "黑炎之芒",
+   "zh_hant": "黑炎之芒",
+   "base": {
+    "en": "Fire Quiver",
+    "zh_hans": "火灵箭袋",
+    "zh_hant": "火焰箭袋"
+   },
+   "implicits": [
+    {
+     "en": "Adds # to # Fire damage to Attacks",
+     "zh_hans": "攻击附加 # - # 基础火焰伤害",
+     "zh_hant": "攻擊附加#至#火焰傷害"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Adds # to # Fire damage to Attacks",
+     "zh_hans": "攻击附加 # - # 基础火焰伤害",
+     "zh_hant": "攻擊附加#至#火焰傷害"
+    },
+    {
+     "en": "Attacks Gain #% of Damage as Extra Fire Damage",
+     "zh_hans": "攻击获得相当于伤害 #% 的额外火焰伤害",
+     "zh_hant": "攻擊獲得等同於傷害#%的額外火焰傷害"
+    },
+    {
+     "en": "+# to maximum Mana",
+     "zh_hans": "+# 魔力上限",
+     "zh_hant": "+#最大魔力"
+    },
+    {
+     "en": "#% increased Flammability Magnitude",
+     "zh_hans": "易燃强度提高 #%",
+     "zh_hant": "增加#%易燃幅度"
+    },
+    {
+     "en": "Projectiles Pierce all Ignited enemies",
+     "zh_hans": "投射物穿透所有点燃的敌人",
+     "zh_hant": "投射物會穿透所有被點燃的敵人"
+    }
+   ]
+  },
+  "Cadiros_Gambit": {
+   "en": "Cadiro's Gambit",
+   "zh_hans": "卡迪罗的赌局",
+   "zh_hant": "卡迪羅的詭計",
+   "base": {
+    "en": "Primed Quiver",
+    "zh_hans": "精工箭袋",
+    "zh_hant": "灌注箭袋"
+   },
+   "implicits": [
+    {
+     "en": "#% increased Attack Speed",
+     "zh_hans": "攻击速度提高 #%",
+     "zh_hant": "增加#%攻擊速度"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow",
+     "zh_hans": "每支射出的箭都是渐强、裂片、回转、金刚、贪婪或钝击箭矢",
+     "zh_hant": "每支射出的箭矢為逐漸增強、碎片、倒轉、鑽石、貪婪，或重擊箭矢"
+    }
+   ]
+  },
+  "Drillneck": {
+   "en": "Drillneck",
+   "zh_hans": "穿心",
+   "zh_hant": "穿心",
+   "base": {
+    "en": "Penetrating Quiver",
+    "zh_hans": "穿射箭袋",
+    "zh_hant": "穿透箭袋"
+   },
+   "implicits": [
+    {
+     "en": "#% chance to Pierce an Enemy",
+     "zh_hans": "#% 的几率穿透一个敌人",
+     "zh_hant": "有#%機率穿透一個敵人"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "+# to maximum Life",
+     "zh_hans": "+# 生命上限",
+     "zh_hant": "+#最大生命"
+    },
+    {
+     "en": "#% increased Attack Speed",
+     "zh_hans": "攻击速度提高 #%",
+     "zh_hant": "增加#%攻擊速度"
+    },
+    {
+     "en": "Gain Deflection Rating equal to #% of Evasion Rating",
+     "zh_hans": "获得相当于闪避值 #% 的偏转值",
+     "zh_hant": "獲得等同#%閃避值的偏斜值"
+    },
+    {
+     "en": "Attack Projectiles Return if they Pierced at least # times",
+     "zh_hans": "攻击投射物会在穿透至少 # 次后归返",
+     "zh_hant": "攻擊投射物會在穿透#次後返回"
+    },
+    {
+     "en": "Projectiles have #% increased Critical Hit chance for each time they have Pierced",
+     "zh_hans": "投射物每穿透一次，暴击几率提高 #%",
+     "zh_hant": "投射物每穿透1次，增加#%暴擊機率"
+    },
+    {
+     "en": "Projectiles deal #% increased Damage with Hits for each time they have Pierced",
+     "zh_hans": "投射物每穿透一次，造成的击中伤害提高 #%",
+     "zh_hant": "投射物每穿透1次，增加#%造成的擊中傷害"
+    }
+   ]
+  },
+  "Murkshaft": {
+   "en": "Murkshaft",
+   "zh_hans": "沉郁之棍",
+   "zh_hant": "陰暗通道",
+   "base": {
+    "en": "Toxic Quiver",
+    "zh_hans": "淬毒箭袋",
+    "zh_hant": "劇毒箭袋"
+   },
+   "implicits": [
+    {
+     "en": "Grants Skill: Level 10 Bursting Fen Toad",
+     "zh_hans": "获得技能: 等级 10 爆裂沼蟾",
+     "zh_hant": "賦予技能: 等級 10 爆發沼地蟾蜍"
+    },
+    {
+     "en": "#% chance to Poison on Hit with Attacks",
+     "zh_hans": "攻击击中时有 #% 的几率使目标中毒",
+     "zh_hant": "攻擊有#%機率在擊中時造成中毒"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Adds # to # Physical Damage to Attacks",
+     "zh_hans": "攻击附加 # - # 物理伤害",
+     "zh_hant": "攻擊附加#至#物理傷害"
+    },
+    {
+     "en": "Gain # Mana per enemy killed",
+     "zh_hans": "每击败一名敌人获得 # 点魔力",
+     "zh_hant": "每個被擊殺的敵人，獲得#魔力"
+    },
+    {
+     "en": "#% increased Poison Duration",
+     "zh_hans": "中毒持续时间提高 #%",
+     "zh_hant": "增加#%中毒持續時間"
+    },
+    {
+     "en": "#% chance to Poison on Hit with Attacks",
+     "zh_hans": "攻击击中时有 #% 的几率使目标中毒",
+     "zh_hant": "攻擊有#%機率在擊中時造成中毒"
+    },
+    {
+     "en": "Blind Targets when you Poison them",
+     "zh_hans": "使目标中毒时还会使其致盲",
+     "zh_hant": "對目標施加中毒時，對其致盲"
+    },
+    {
+     "en": "local display triggers level x toad on kill [1]",
+     "zh_hans": "local display triggers level x toad on kill [1]",
+     "zh_hant": "local display triggers level x toad on kill [1]"
+    }
+   ]
+  },
+  "Rearguard": {
+   "en": "Rearguard",
+   "zh_hans": "寒锋之卫",
+   "zh_hant": "寒鋒之衛",
+   "base": {
+    "en": "Blunt Quiver",
+    "zh_hans": "钝矢箭袋",
+    "zh_hant": "鈍箭袋"
+   },
+   "implicits": [
+    {
+     "en": "#% increased Stun Buildup",
+     "zh_hans": "晕眩积蓄值提高 #%",
+     "zh_hant": "增加#%暈眩累積"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "Adds # to # Physical Damage to Attacks",
+     "zh_hans": "攻击附加 # - # 物理伤害",
+     "zh_hant": "攻擊附加#至#物理傷害"
+    },
+    {
+     "en": "+# to Armour",
+     "zh_hans": "+# 护甲",
+     "zh_hant": "+#護甲值"
+    },
+    {
+     "en": "#% increased Projectile Speed",
+     "zh_hans": "投射物速度提高 #%",
+     "zh_hant": "增加#%投射物速度"
+    },
+    {
+     "en": "+#% to Block chance",
+     "zh_hans": "格挡几率 +#%",
+     "zh_hant": "+#%至格擋率"
+    }
+   ]
+  },
+  "The_Lethal_Draw": {
+   "en": "The Lethal Draw",
+   "zh_hans": "攫命",
+   "zh_hant": "致命抽取",
+   "base": {
+    "en": "Sacral Quiver",
+    "zh_hans": "圣骨箭袋",
+    "zh_hant": "聖禮箭袋"
+   },
+   "implicits": [
+    {
+     "en": "Gain # Life per Enemy Hit with Attacks",
+     "zh_hans": "攻击每击中一名敌人获得#点生命",
+     "zh_hant": "攻擊每擊中一名敵人，獲得#生命"
+    }
+   ],
+   "explicits": [
+    {
+     "en": "#% increased Attack Speed",
+     "zh_hans": "攻击速度提高 #%",
+     "zh_hant": "增加#%攻擊速度"
+    },
+    {
+     "en": "Gain # Life per Enemy Hit with Attacks",
+     "zh_hans": "攻击每击中一名敌人获得#点生命",
+     "zh_hant": "攻擊每擊中一名敵人，獲得#生命"
+    },
+    {
+     "en": "#% chance to Pierce an Enemy",
+     "zh_hans": "#% 的几率穿透一个敌人",
+     "zh_hant": "有#%機率穿透一個敵人"
+    },
+    {
+     "en": "Bow Attacks consume #% of your maximum Life Flask Charges if possible to deal added Physical damage equal to #% of Flask's Life Recovery amount",
+     "zh_hans": "弓类攻击尽量消耗生命上限药剂充能的 #%，附加相当于药剂生命回复量 #% 的物理伤害",
+     "zh_hant": "情況許可時，弓的攻擊會消耗你所擁有最大生命藥劑充能的#%，造成等同於藥劑生命恢復量#%的附加物理傷害"
+    }
+   ]
+  },
+  "Widowhail": {
+   "en": "Widowhail",
+   "zh_hans": "遗孀之雹",
+   "zh_hant": "鰥寡之托",
+   "base": {
+    "en": "Crude Bow",
+    "zh_hans": "粗制弓",
+    "zh_hant": "粗製弓"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% increased bonuses gained from Equipped Quiver",
+     "zh_hans": "装备箭袋获得的加成提高 #%",
+     "zh_hant": "增加#%從已裝備箭袋獲得的加成"
+    }
+   ]
+  }
+ }
+}

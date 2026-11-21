@@ -1,0 +1,2163 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Life_Flasks",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Life_Flasks",
+    "file": "us/Life_Flasks.html",
+    "fetched": "2026-11-17T22:11+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Life_Flasks",
+    "file": "cn/Life_Flasks.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Life_Flasks",
+    "file": "tw/Life_Flasks.html",
+    "fetched": "2026-11-17T22:12+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "item_class_code": "LifeFlask",
+  "mods_source": "ModsView",
+  "placeholders": "'#' replaces each rolled value; ranges lists [min, max] per '#' in English order",
+  "generation_types": {
+   "1": "Prefix",
+   "2": "Suffix",
+   "3": "Unique",
+   "5": "Corrupted"
+  },
+  "summary": {
+   "mismatches": 0,
+   "mods": 57,
+   "socketables": 0,
+   "base_types": 9,
+   "uniques": 3,
+   "page_entries": 57,
+   "pob_joined": 57,
+   "pob_text_differs": 0,
+   "missing_in_pob": 0,
+   "pob_only": 7,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 12,
+     "differ": 2,
+     "absent": 0
+    },
+    "names": {
+     "agree": 7,
+     "differ": 0,
+     "absent": 5
+    }
+   }
+  }
+ },
+ "mods": {
+  "FlaskChanceRechargeOnKill1": {
+   "id": "FlaskChanceRechargeOnKill1",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "#% Chance to gain a Charge when you kill an enemy"
+   ],
+   "ranges": [
+    [
+     21.0,
+     25.0
+    ]
+   ],
+   "zh_hans": [
+    "击败敌人时有 #% 的几率获得一个能量球"
+   ],
+   "zh_hant": [
+    "殺死敵人時有#%機率獲得一顆充能"
+   ],
+   "affix": {
+    "en": "of the Medic",
+    "zh_hans": "救护之",
+    "zh_hant": "醫者之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChanceRechargeOnKill2": {
+   "id": "FlaskChanceRechargeOnKill2",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "#% Chance to gain a Charge when you kill an enemy"
+   ],
+   "ranges": [
+    [
+     26.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "击败敌人时有 #% 的几率获得一个能量球"
+   ],
+   "zh_hant": [
+    "殺死敵人時有#%機率獲得一顆充能"
+   ],
+   "affix": {
+    "en": "of the Doctor",
+    "zh_hans": "医生之",
+    "zh_hant": "醫師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChanceRechargeOnKill3": {
+   "id": "FlaskChanceRechargeOnKill3",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "#% Chance to gain a Charge when you kill an enemy"
+   ],
+   "ranges": [
+    [
+     31.0,
+     35.0
+    ]
+   ],
+   "zh_hans": [
+    "击败敌人时有 #% 的几率获得一个能量球"
+   ],
+   "zh_hant": [
+    "殺死敵人時有#%機率獲得一顆充能"
+   ],
+   "affix": {
+    "en": "of the Surgeon",
+    "zh_hans": "手术之",
+    "zh_hant": "外科醫師之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent1": {
+   "id": "FlaskChargesAddedIncreasePercent1",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     23.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Constant",
+    "zh_hans": "恒常之",
+    "zh_hant": "持續之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent2_": {
+   "id": "FlaskChargesAddedIncreasePercent2_",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 13,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     31.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Continuous",
+    "zh_hans": "恒续之",
+    "zh_hant": "連續的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent3_": {
+   "id": "FlaskChargesAddedIncreasePercent3_",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 33,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     39.0,
+     46.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Endless",
+    "zh_hans": "无穷之",
+    "zh_hant": "無盡的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent4_": {
+   "id": "FlaskChargesAddedIncreasePercent4_",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 48,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     47.0,
+     54.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Bottomless",
+    "zh_hans": "无底之",
+    "zh_hant": "無底的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent5__": {
+   "id": "FlaskChargesAddedIncreasePercent5__",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 63,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     55.0,
+     62.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Perpetual",
+    "zh_hans": "永久之",
+    "zh_hant": "永久的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesAddedIncreasePercent6": {
+   "id": "FlaskChargesAddedIncreasePercent6",
+   "family": [
+    "FlaskRechargeRate"
+   ],
+   "generation_type": "2",
+   "level": 82,
+   "en": [
+    "#% increased Charges gained"
+   ],
+   "ranges": [
+    [
+     63.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "获得的充能提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%獲得的充能"
+   ],
+   "affix": {
+    "en": "of the Eternal",
+    "zh_hans": "永恒之",
+    "zh_hant": "永恆之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed1": {
+   "id": "FlaskChargesUsed1",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     15.0,
+     17.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Apprentice",
+    "zh_hans": "学徒之",
+    "zh_hant": "學徒的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed2": {
+   "id": "FlaskChargesUsed2",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 14,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     18.0,
+     20.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Practitioner",
+    "zh_hans": "医者之",
+    "zh_hant": "從業者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed3__": {
+   "id": "FlaskChargesUsed3__",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 34,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     21.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Mixologist",
+    "zh_hans": "调剂之",
+    "zh_hant": "調酒師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed4__": {
+   "id": "FlaskChargesUsed4__",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 49,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     24.0,
+     26.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Distiller",
+    "zh_hans": "蒸馏之",
+    "zh_hant": "釀酒師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed5": {
+   "id": "FlaskChargesUsed5",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 64,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     27.0,
+     29.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Brewer",
+    "zh_hans": "烹煮之",
+    "zh_hant": "釀酒師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskChargesUsed6": {
+   "id": "FlaskChargesUsed6",
+   "family": [
+    "FlaskChargesUsed"
+   ],
+   "generation_type": "2",
+   "level": 83,
+   "en": [
+    "#% reduced Charges per use"
+   ],
+   "ranges": [
+    [
+     30.0,
+     32.0
+    ]
+   ],
+   "zh_hans": [
+    "每次使用消耗的充能次数降低 #%"
+   ],
+   "zh_hant": [
+    "每次使用減少#%充能"
+   ],
+   "affix": {
+    "en": "of the Chemist",
+    "zh_hans": "药学之",
+    "zh_hant": "化學家之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges1": {
+   "id": "FlaskExtraCharges1",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 1,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     23.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Wide",
+    "zh_hans": "宽大之",
+    "zh_hant": "寬的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges2__": {
+   "id": "FlaskExtraCharges2__",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 12,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     31.0,
+     38.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Copious",
+    "zh_hans": "丰富之",
+    "zh_hant": "豐產的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges3_": {
+   "id": "FlaskExtraCharges3_",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 32,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     39.0,
+     46.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Plentiful",
+    "zh_hans": "丰厚之",
+    "zh_hant": "充足的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges4__": {
+   "id": "FlaskExtraCharges4__",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 47,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     47.0,
+     54.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Bountiful",
+    "zh_hans": "充裕之",
+    "zh_hant": "富裕的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges5": {
+   "id": "FlaskExtraCharges5",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 62,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     55.0,
+     62.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Abundant",
+    "zh_hans": "充足之",
+    "zh_hant": "富裕之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraCharges6": {
+   "id": "FlaskExtraCharges6",
+   "family": [
+    "FlaskNumCharges"
+   ],
+   "generation_type": "2",
+   "level": 81,
+   "en": [
+    "#% increased Charges"
+   ],
+   "ranges": [
+    [
+     63.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "充能次数提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%充能"
+   ],
+   "affix": {
+    "en": "of the Ample",
+    "zh_hans": "丰沛之",
+    "zh_hant": "慷慨之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskExtraLifeCostsMana1": {
+   "id": "FlaskExtraLifeCostsMana1",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 13,
+   "en": [
+    "#% increased Life Recovered",
+    "Removes #% of Life Recovered from Mana when used"
+   ],
+   "ranges": [
+    [
+     61.0,
+     68.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "生命回复提高 #%",
+    "使用时会移除魔力，等同于生命回复值的 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命恢復",
+    "使用時，會扣除生命恢復值#%的魔力"
+   ],
+   "affix": {
+    "en": "Impairing",
+    "zh_hans": "削妨的",
+    "zh_hant": "損害的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskExtraLifeCostsMana2": {
+   "id": "FlaskExtraLifeCostsMana2",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 30,
+   "en": [
+    "#% increased Life Recovered",
+    "Removes #% of Life Recovered from Mana when used"
+   ],
+   "ranges": [
+    [
+     69.0,
+     76.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "生命回复提高 #%",
+    "使用时会移除魔力，等同于生命回复值的 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命恢復",
+    "使用時，會扣除生命恢復值#%的魔力"
+   ],
+   "affix": {
+    "en": "Dizzying",
+    "zh_hans": "眼昏的",
+    "zh_hant": "眼花繚亂的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskExtraLifeCostsMana3": {
+   "id": "FlaskExtraLifeCostsMana3",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 47,
+   "en": [
+    "#% increased Life Recovered",
+    "Removes #% of Life Recovered from Mana when used"
+   ],
+   "ranges": [
+    [
+     77.0,
+     84.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "生命回复提高 #%",
+    "使用时会移除魔力，等同于生命回复值的 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命恢復",
+    "使用時，會扣除生命恢復值#%的魔力"
+   ],
+   "affix": {
+    "en": "Depleting",
+    "zh_hans": "耗尽的",
+    "zh_hant": "消耗的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskExtraLifeCostsMana4": {
+   "id": "FlaskExtraLifeCostsMana4",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 64,
+   "en": [
+    "#% increased Life Recovered",
+    "Removes #% of Life Recovered from Mana when used"
+   ],
+   "ranges": [
+    [
+     85.0,
+     92.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "生命回复提高 #%",
+    "使用时会移除魔力，等同于生命回复值的 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命恢復",
+    "使用時，會扣除生命恢復值#%的魔力"
+   ],
+   "affix": {
+    "en": "Vitiating",
+    "zh_hans": "损坏的",
+    "zh_hant": "維他命的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskExtraLifeCostsMana5_": {
+   "id": "FlaskExtraLifeCostsMana5_",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 81,
+   "en": [
+    "#% increased Life Recovered",
+    "Removes #% of Life Recovered from Mana when used"
+   ],
+   "ranges": [
+    [
+     93.0,
+     100.0
+    ],
+    [
+     15.0,
+     15.0
+    ]
+   ],
+   "zh_hans": [
+    "生命回复提高 #%",
+    "使用时会移除魔力，等同于生命回复值的 #%"
+   ],
+   "zh_hant": [
+    "增加#%生命恢復",
+    "使用時，會扣除生命恢復值#%的魔力"
+   ],
+   "affix": {
+    "en": "Sapping",
+    "zh_hans": "削弱的",
+    "zh_hant": "削弱的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskFillChargesPerMinute1": {
+   "id": "FlaskFillChargesPerMinute1",
+   "family": [
+    "FlaskGainCharge"
+   ],
+   "generation_type": "2",
+   "level": 8,
+   "en": [
+    "Gains # Charges per Second"
+   ],
+   "ranges": [
+    [
+     0.15,
+     0.15
+    ]
+   ],
+   "zh_hans": [
+    "每秒获得 # 次充能"
+   ],
+   "zh_hant": [
+    "每秒獲得#充能"
+   ],
+   "affix": {
+    "en": "of the Foliage",
+    "zh_hans": "施肥之",
+    "zh_hant": "枝葉之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskFillChargesPerMinute2": {
+   "id": "FlaskFillChargesPerMinute2",
+   "family": [
+    "FlaskGainCharge"
+   ],
+   "generation_type": "2",
+   "level": 26,
+   "en": [
+    "Gains # Charges per Second"
+   ],
+   "ranges": [
+    [
+     0.2,
+     0.2
+    ]
+   ],
+   "zh_hans": [
+    "每秒获得 # 次充能"
+   ],
+   "zh_hant": [
+    "每秒獲得#充能"
+   ],
+   "affix": {
+    "en": "of the Verdant",
+    "zh_hans": "苍翠之",
+    "zh_hant": "自然之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskFillChargesPerMinute3": {
+   "id": "FlaskFillChargesPerMinute3",
+   "family": [
+    "FlaskGainCharge"
+   ],
+   "generation_type": "2",
+   "level": 45,
+   "en": [
+    "Gains # Charges per Second"
+   ],
+   "ranges": [
+    [
+     0.25,
+     0.25
+    ]
+   ],
+   "zh_hans": [
+    "每秒获得 # 次充能"
+   ],
+   "zh_hant": [
+    "每秒獲得#充能"
+   ],
+   "affix": {
+    "en": "of the Sylvan",
+    "zh_hans": "林荫之",
+    "zh_hant": "森林之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModCharm.lua"
+  },
+  "FlaskFullInstantRecovery1": {
+   "id": "FlaskFullInstantRecovery1",
+   "family": [
+    "FlaskBuffWhileHealing"
+   ],
+   "generation_type": "1",
+   "level": 42,
+   "en": [
+    "#% reduced Amount Recovered",
+    "Instant Recovery"
+   ],
+   "ranges": [
+    [
+     50.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量降低 #%",
+    "立即回复"
+   ],
+   "zh_hant": [
+    "減少#%恢復量",
+    "立即恢復"
+   ],
+   "affix": {
+    "en": "Seething",
+    "zh_hans": "沸腾的",
+    "zh_hant": "沸騰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskHealsMinions1": {
+   "id": "FlaskHealsMinions1",
+   "family": [
+    "FlaskHealsOthers"
+   ],
+   "generation_type": "1",
+   "level": 10,
+   "en": [
+    "Grants #% of Life Recovery to Minions"
+   ],
+   "ranges": [
+    [
+     51.0,
+     56.0
+    ]
+   ],
+   "zh_hans": [
+    "给召唤生物提供 #% 生命恢复效果"
+   ],
+   "zh_hant": [
+    "得到#%召喚物生命恢復"
+   ],
+   "affix": {
+    "en": "Novice's",
+    "zh_hans": "新手的",
+    "zh_hant": "新手的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskHealsMinions2": {
+   "id": "FlaskHealsMinions2",
+   "family": [
+    "FlaskHealsOthers"
+   ],
+   "generation_type": "1",
+   "level": 28,
+   "en": [
+    "Grants #% of Life Recovery to Minions"
+   ],
+   "ranges": [
+    [
+     57.0,
+     62.0
+    ]
+   ],
+   "zh_hans": [
+    "给召唤生物提供 #% 生命恢复效果"
+   ],
+   "zh_hant": [
+    "得到#%召喚物生命恢復"
+   ],
+   "affix": {
+    "en": "Acolyte's",
+    "zh_hans": "侍僧的",
+    "zh_hant": "侍僧之"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskHealsMinions3": {
+   "id": "FlaskHealsMinions3",
+   "family": [
+    "FlaskHealsOthers"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "Grants #% of Life Recovery to Minions"
+   ],
+   "ranges": [
+    [
+     63.0,
+     68.0
+    ]
+   ],
+   "zh_hans": [
+    "给召唤生物提供 #% 生命恢复效果"
+   ],
+   "zh_hant": [
+    "得到#%召喚物生命恢復"
+   ],
+   "affix": {
+    "en": "Summoner's",
+    "zh_hans": "召唤者的",
+    "zh_hant": "召喚者的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskHealsMinions4____": {
+   "id": "FlaskHealsMinions4____",
+   "family": [
+    "FlaskHealsOthers"
+   ],
+   "generation_type": "1",
+   "level": 64,
+   "en": [
+    "Grants #% of Life Recovery to Minions"
+   ],
+   "ranges": [
+    [
+     69.0,
+     74.0
+    ]
+   ],
+   "zh_hans": [
+    "给召唤生物提供 #% 生命恢复效果"
+   ],
+   "zh_hant": [
+    "得到#%召喚物生命恢復"
+   ],
+   "affix": {
+    "en": "Conjurer's",
+    "zh_hans": "咒师的",
+    "zh_hant": "魔法師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskHealsMinions5": {
+   "id": "FlaskHealsMinions5",
+   "family": [
+    "FlaskHealsOthers"
+   ],
+   "generation_type": "1",
+   "level": 82,
+   "en": [
+    "Grants #% of Life Recovery to Minions"
+   ],
+   "ranges": [
+    [
+     75.0,
+     80.0
+    ]
+   ],
+   "zh_hans": [
+    "给召唤生物提供 #% 生命恢复效果"
+   ],
+   "zh_hant": [
+    "得到#%召喚物生命恢復"
+   ],
+   "affix": {
+    "en": "Necromancer's",
+    "zh_hans": "死灵法师的",
+    "zh_hant": "死靈師的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount1": {
+   "id": "FlaskIncreasedRecoveryAmount1",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     41.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Opaque",
+    "zh_hans": "蔽光的",
+    "zh_hant": "不透明的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount2_": {
+   "id": "FlaskIncreasedRecoveryAmount2_",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 11,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     46.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Compact",
+    "zh_hans": "紧凑的",
+    "zh_hant": "緊湊"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount3": {
+   "id": "FlaskIncreasedRecoveryAmount3",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 23,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     51.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Full-bodied",
+    "zh_hans": "全型的",
+    "zh_hant": "濃郁的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount4": {
+   "id": "FlaskIncreasedRecoveryAmount4",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 34,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     56.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Abundant",
+    "zh_hans": "充裕的",
+    "zh_hant": "富裕的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount5": {
+   "id": "FlaskIncreasedRecoveryAmount5",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     61.0,
+     65.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Substantial",
+    "zh_hans": "重多的",
+    "zh_hant": "重大的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount6": {
+   "id": "FlaskIncreasedRecoveryAmount6",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 56,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     66.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Concentrated",
+    "zh_hans": "浓缩的",
+    "zh_hant": "集中的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount7": {
+   "id": "FlaskIncreasedRecoveryAmount7",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 67,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     71.0,
+     75.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Potent",
+    "zh_hans": "强力的",
+    "zh_hant": "功效的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryAmount8": {
+   "id": "FlaskIncreasedRecoveryAmount8",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 83,
+   "en": [
+    "#% increased Amount Recovered"
+   ],
+   "ranges": [
+    [
+     76.0,
+     80.0
+    ]
+   ],
+   "zh_hans": [
+    "回复量提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復量"
+   ],
+   "affix": {
+    "en": "Saturated",
+    "zh_hans": "饱和的",
+    "zh_hant": "飽和的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryOnLowLife1": {
+   "id": "FlaskIncreasedRecoveryOnLowLife1",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 2,
+   "en": [
+    "#% more Recovery if used while on Low Life"
+   ],
+   "ranges": [
+    [
+     51.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "恢复效果在低血状态下使用时总增 #%"
+   ],
+   "zh_hant": [
+    "貧血狀態時使用有#%更多恢復量"
+   ],
+   "affix": {
+    "en": "Prudent",
+    "zh_hans": "谨简的",
+    "zh_hant": "謹慎的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryOnLowLife2_": {
+   "id": "FlaskIncreasedRecoveryOnLowLife2_",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 25,
+   "en": [
+    "#% more Recovery if used while on Low Life"
+   ],
+   "ranges": [
+    [
+     61.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "恢复效果在低血状态下使用时总增 #%"
+   ],
+   "zh_hant": [
+    "貧血狀態時使用有#%更多恢復量"
+   ],
+   "affix": {
+    "en": "Prepared",
+    "zh_hans": "全备的",
+    "zh_hant": "準備的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryOnLowLife3": {
+   "id": "FlaskIncreasedRecoveryOnLowLife3",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 44,
+   "en": [
+    "#% more Recovery if used while on Low Life"
+   ],
+   "ranges": [
+    [
+     71.0,
+     80.0
+    ]
+   ],
+   "zh_hans": [
+    "恢复效果在低血状态下使用时总增 #%"
+   ],
+   "zh_hant": [
+    "貧血狀態時使用有#%更多恢復量"
+   ],
+   "affix": {
+    "en": "Wary",
+    "zh_hans": "谨戒的",
+    "zh_hant": "警惕的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryOnLowLife4": {
+   "id": "FlaskIncreasedRecoveryOnLowLife4",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 63,
+   "en": [
+    "#% more Recovery if used while on Low Life"
+   ],
+   "ranges": [
+    [
+     81.0,
+     90.0
+    ]
+   ],
+   "zh_hans": [
+    "恢复效果在低血状态下使用时总增 #%"
+   ],
+   "zh_hant": [
+    "貧血狀態時使用有#%更多恢復量"
+   ],
+   "affix": {
+    "en": "Careful",
+    "zh_hans": "谨细的",
+    "zh_hant": "小心的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoveryOnLowLife5": {
+   "id": "FlaskIncreasedRecoveryOnLowLife5",
+   "family": [
+    "FlaskRecoveryAmount"
+   ],
+   "generation_type": "1",
+   "level": 82,
+   "en": [
+    "#% more Recovery if used while on Low Life"
+   ],
+   "ranges": [
+    [
+     91.0,
+     100.0
+    ]
+   ],
+   "zh_hans": [
+    "恢复效果在低血状态下使用时总增 #%"
+   ],
+   "zh_hant": [
+    "貧血狀態時使用有#%更多恢復量"
+   ],
+   "affix": {
+    "en": "Cautious",
+    "zh_hans": "谨慎之",
+    "zh_hant": "謹慎的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoverySpeed1": {
+   "id": "FlaskIncreasedRecoverySpeed1",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 1,
+   "en": [
+    "#% increased Recovery rate"
+   ],
+   "ranges": [
+    [
+     41.0,
+     45.0
+    ]
+   ],
+   "zh_hans": [
+    "回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復率"
+   ],
+   "affix": {
+    "en": "Dense",
+    "zh_hans": "浓稠的",
+    "zh_hant": "稠密"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoverySpeed2": {
+   "id": "FlaskIncreasedRecoverySpeed2",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 15,
+   "en": [
+    "#% increased Recovery rate"
+   ],
+   "ranges": [
+    [
+     46.0,
+     50.0
+    ]
+   ],
+   "zh_hans": [
+    "回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復率"
+   ],
+   "affix": {
+    "en": "Undiluted",
+    "zh_hans": "原汁的",
+    "zh_hant": "未稀釋的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoverySpeed3_": {
+   "id": "FlaskIncreasedRecoverySpeed3_",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 31,
+   "en": [
+    "#% increased Recovery rate"
+   ],
+   "ranges": [
+    [
+     51.0,
+     55.0
+    ]
+   ],
+   "zh_hans": [
+    "回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復率"
+   ],
+   "affix": {
+    "en": "Hearty",
+    "zh_hans": "暖心的",
+    "zh_hant": "爽朗"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoverySpeed4": {
+   "id": "FlaskIncreasedRecoverySpeed4",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "#% increased Recovery rate"
+   ],
+   "ranges": [
+    [
+     56.0,
+     60.0
+    ]
+   ],
+   "zh_hans": [
+    "回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復率"
+   ],
+   "affix": {
+    "en": "Viscous",
+    "zh_hans": "黏性的",
+    "zh_hant": "粘性的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoverySpeed5": {
+   "id": "FlaskIncreasedRecoverySpeed5",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 61,
+   "en": [
+    "#% increased Recovery rate"
+   ],
+   "ranges": [
+    [
+     61.0,
+     65.0
+    ]
+   ],
+   "zh_hans": [
+    "回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復率"
+   ],
+   "affix": {
+    "en": "Condensed",
+    "zh_hans": "浓黏的",
+    "zh_hant": "濃縮的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskIncreasedRecoverySpeed6": {
+   "id": "FlaskIncreasedRecoverySpeed6",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 81,
+   "en": [
+    "#% increased Recovery rate"
+   ],
+   "ranges": [
+    [
+     66.0,
+     70.0
+    ]
+   ],
+   "zh_hans": [
+    "回复速度提高 #%"
+   ],
+   "zh_hant": [
+    "增加#%恢復率"
+   ],
+   "affix": {
+    "en": "Catalysed",
+    "zh_hans": "催化的",
+    "zh_hant": "催化的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskPartialInstantRecovery1": {
+   "id": "FlaskPartialInstantRecovery1",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 3,
+   "en": [
+    "#% of Recovery applied Instantly"
+   ],
+   "ranges": [
+    [
+     20.0,
+     23.0
+    ]
+   ],
+   "zh_hans": [
+    "立即回复#% 回复量"
+   ],
+   "zh_hant": [
+    "#%恢復量立即恢復"
+   ],
+   "affix": {
+    "en": "Simmering",
+    "zh_hans": "煨闷的",
+    "zh_hant": "煨煨的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskPartialInstantRecovery2": {
+   "id": "FlaskPartialInstantRecovery2",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 27,
+   "en": [
+    "#% of Recovery applied Instantly"
+   ],
+   "ranges": [
+    [
+     24.0,
+     27.0
+    ]
+   ],
+   "zh_hans": [
+    "立即回复#% 回复量"
+   ],
+   "zh_hant": [
+    "#%恢復量立即恢復"
+   ],
+   "affix": {
+    "en": "Effervescent",
+    "zh_hans": "沸熔的",
+    "zh_hant": "泡騰的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  },
+  "FlaskPartialInstantRecovery3": {
+   "id": "FlaskPartialInstantRecovery3",
+   "family": [
+    "FlaskRecoverySpeed"
+   ],
+   "generation_type": "1",
+   "level": 46,
+   "en": [
+    "#% of Recovery applied Instantly"
+   ],
+   "ranges": [
+    [
+     28.0,
+     30.0
+    ]
+   ],
+   "zh_hans": [
+    "立即回复#% 回复量"
+   ],
+   "zh_hant": [
+    "#%恢復量立即恢復"
+   ],
+   "affix": {
+    "en": "Bubbling",
+    "zh_hans": "起泡的",
+    "zh_hant": "起泡的"
+   },
+   "sections": [
+    "normal"
+   ],
+   "essences": [],
+   "pob_file": "ModFlask.lua"
+  }
+ },
+ "socketables": {},
+ "base_types": {
+  "Colossal_Life_Flask": {
+   "en": "Colossal Life Flask",
+   "zh_hans": "高阶生命药剂",
+   "zh_hant": "高階生命藥劑",
+   "implicits": []
+  },
+  "Gargantuan_Life_Flask": {
+   "en": "Gargantuan Life Flask",
+   "zh_hans": "恢弘生命药剂",
+   "zh_hant": "巨大生命藥劑",
+   "implicits": []
+  },
+  "Giant_Life_Flask": {
+   "en": "Giant Life Flask",
+   "zh_hans": "巨型生命药剂",
+   "zh_hant": "巨型生命藥劑",
+   "implicits": []
+  },
+  "Grand_Life_Flask": {
+   "en": "Grand Life Flask",
+   "zh_hans": "优质生命药剂",
+   "zh_hant": "優質生命藥劑",
+   "implicits": []
+  },
+  "Greater_Life_Flask": {
+   "en": "Greater Life Flask",
+   "zh_hans": "良质生命药剂",
+   "zh_hant": "良質生命藥劑",
+   "implicits": []
+  },
+  "Lesser_Life_Flask": {
+   "en": "Lesser Life Flask",
+   "zh_hans": "次级生命药剂",
+   "zh_hant": "低階生命藥劑",
+   "implicits": []
+  },
+  "Medium_Life_Flask": {
+   "en": "Medium Life Flask",
+   "zh_hans": "中型生命药剂",
+   "zh_hant": "中型生命藥劑",
+   "implicits": []
+  },
+  "Transcendent_Life_Flask": {
+   "en": "Transcendent Life Flask",
+   "zh_hans": "非凡生命药剂",
+   "zh_hant": "卓越生命藥劑",
+   "implicits": []
+  },
+  "Ultimate_Life_Flask": {
+   "en": "Ultimate Life Flask",
+   "zh_hans": "终极生命药剂",
+   "zh_hant": "終極生命藥劑",
+   "implicits": []
+  }
+ },
+ "uniques": {
+  "Blood_of_the_Warrior": {
+   "en": "Blood of the Warrior",
+   "zh_hans": "战士之血",
+   "zh_hant": "戰士之血",
+   "base": {
+    "en": "Gargantuan Life Flask",
+    "zh_hans": "恢弘生命药剂",
+    "zh_hant": "巨大生命藥劑"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% less Life Recovered",
+     "zh_hans": "生命回复总降 #%",
+     "zh_hant": "恢復#%更少生命"
+    },
+    {
+     "en": "Effect is not removed when Unreserved Life is Filled",
+     "zh_hans": "未保留的生命全满时不移除效果",
+     "zh_hant": "未保留生命已滿時不移除效果"
+    },
+    {
+     "en": "#% of Damage taken during effect Recouped as Life",
+     "zh_hans": "效果期间将所受伤害的 #% 吸纳为生命",
+     "zh_hant": "在效果期間所受傷害的#%補償為生命"
+    },
+    {
+     "en": "Gain # Rage when Hit by an Enemy during effect",
+     "zh_hans": "效果期间被敌人击中时获得 # 点怒火",
+     "zh_hant": "在效果期間內遭敵人擊中時，獲得#盛怒"
+    },
+    {
+     "en": "No Inherent loss of Rage during effect",
+     "zh_hans": "效果期间不具有固有的怒火损失",
+     "zh_hant": "效果期間內無固有盛怒損失"
+    },
+    {
+     "en": "#% increased Duration",
+     "zh_hans": "持续时间提高 #%",
+     "zh_hant": "增加#%持續時間"
+    }
+   ]
+  },
+  "Olroths_Resolve": {
+   "en": "Olroth's Resolve",
+   "zh_hans": "欧罗什的决心",
+   "zh_hant": "奧爾羅斯的決心",
+   "base": {
+    "en": "Ultimate Life Flask",
+    "zh_hans": "终极生命药剂",
+    "zh_hant": "終極生命藥劑"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "#% increased Charges per use",
+     "zh_hans": "每次使用消耗的充能次数提高 #%",
+     "zh_hant": "每次使用增加#%充能"
+    },
+    {
+     "en": "Regenerate #% of maximum Runic Ward per second during Effect",
+     "zh_hans": "效果期间，每秒回复符文结界上限的 #%",
+     "zh_hant": "效果期間內每秒回復#%最大符文保護"
+    },
+    {
+     "en": "Gain Guard equal to Current Runic Ward for # seconds when Effect ends",
+     "zh_hans": "效果结束时，获得相当于当前符文结界的防卫，持续 # 秒",
+     "zh_hant": "效果結束時獲得等同於當前符文保護的守護，持續#秒"
+    }
+   ]
+  },
+  "Opportunity": {
+   "en": "Opportunity",
+   "zh_hans": "机遇",
+   "zh_hant": "契機",
+   "base": {
+    "en": "Ultimate Life Flask",
+    "zh_hans": "终极生命药剂",
+    "zh_hant": "終極生命藥劑"
+   },
+   "implicits": [],
+   "explicits": [
+    {
+     "en": "Effect is not removed when Unreserved Life is Filled",
+     "zh_hans": "未保留的生命全满时不移除效果",
+     "zh_hant": "未保留生命已滿時不移除效果"
+    },
+    {
+     "en": "Cannot be Used manually",
+     "zh_hans": "不能手动使用",
+     "zh_hant": "無法被手動使用"
+    },
+    {
+     "en": "Used when you release a skill with Perfect Timing",
+     "zh_hans": "在你于完美时机释放技能时使用",
+     "zh_hant": "將於你釋放一個擁有完美時機的技能時使用"
+    },
+    {
+     "en": "Skills have #% longer Perfect Timing window during effect",
+     "zh_hans": "技能在效果持续期间的完美时机窗口延长 #%",
+     "zh_hant": "技能在效果持續時間內擁有#%更長的完美時機空檔"
+    },
+    {
+     "en": "#% increased Amount Recovered",
+     "zh_hans": "回复量提高 #%",
+     "zh_hant": "增加#%恢復量"
+    },
+    {
+     "en": "#% reduced Recovery rate",
+     "zh_hans": "回复速度降低 #%",
+     "zh_hant": "減少#%恢復率"
+    },
+    {
+     "en": "#% reduced Charges per use",
+     "zh_hans": "每次使用消耗的充能次数降低 #%",
+     "zh_hant": "每次使用減少#%充能"
+    }
+   ]
+  }
+ }
+}

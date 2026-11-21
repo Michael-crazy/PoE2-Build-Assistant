@@ -1,0 +1,7 @@
+# P02 parity inputs have byte hashes; preserve them on Windows checkouts.
+/tests/fixtures/p02/real/*.xml text eol=lf
+/tests/fixtures/p02/real/*.txt text eol=lf
+/tests/fixtures/p02/real/*.json text eol=lf
+tests/artifacts/p06/*.build text eol=lf
+tests/fixtures/p06/*.xml text eol=lf
+/tests/fixtures/p05/**/*.txt text eol=lf

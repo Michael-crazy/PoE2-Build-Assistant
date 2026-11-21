@@ -1,0 +1,8 @@
+{
+  "upstream": "https://github.com/Kvan7/Exiled-Exchange-2.git",
+  "upstream_branch": "master",
+  "base": "cca30662bf31eaf38bd711e2ec1a6b899a06c40e",
+  "branch": "poe2-assistant",
+  "home": "~/git/Exiled-Exchange-2.git",
+  "head": "e206e0c91cc2efb53d6b093a57f34fbdbaf1ff84"
+}

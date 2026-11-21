@@ -1,0 +1,3591 @@
+{
+ "metadata": {
+  "version": "poe2db-1.0",
+  "item_class": "Lineage_Supports",
+  "site_version": "Release (腾讯服) 1.0 / 1.0 Conquerors of Wraeclast (cn home page, 2026-11-17)",
+  "sources": [
+   {
+    "url": "https://poe2db.tw/us/Lineage_Supports",
+    "file": "us/Lineage_Supports.html",
+    "fetched": "2026-11-17T22:13+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/cn/Lineage_Supports",
+    "file": "cn/Lineage_Supports.html",
+    "fetched": "2026-11-17T22:14+08:00"
+   },
+   {
+    "url": "https://poe2db.tw/tw/Lineage_Supports",
+    "file": "tw/Lineage_Supports.html",
+    "fetched": "2026-11-17T22:14+08:00"
+   }
+  ],
+  "license": "PoE2DB (https://poe2db.tw) wiki content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with the site owner. Game data (c) Grinding Gear Games.",
+  "manifest_license_note": "page footer: Wikis Content is available under CC BY-NC-SA 3.0 unless otherwise noted; bulk use pending confirmation with site owner",
+  "languages": [
+   "en",
+   "zh_hans",
+   "zh_hant"
+  ],
+  "gem_join": "gems pair by href slug; 'pob' holds PoB Data/Gems.lua ids joined by English name",
+  "summary": {
+   "mismatches": 11,
+   "gems": 77,
+   "pob_joined": 77,
+   "missing_in_pob": 0,
+   "poecharm": {
+    "mod_lines": {
+     "agree": 0,
+     "differ": 0,
+     "absent": 0
+    },
+    "names": {
+     "agree": 39,
+     "differ": 0,
+     "absent": 38
+    }
+   }
+  }
+ },
+ "gems": {
+  "Ahns_Citadel": {
+   "en": "Ahn's Citadel",
+   "zh_hans": "汉恩的城塞",
+   "zh_hant": "漢恩的城塞",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助产生一排墙体的技能，使其改为沿着裂缝创造。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助創造出一道直線牆的技能，使其改為沿著裂縫創造出一道牆。Dropped by: Global"
+    ],
+    "en": [
+     "Supports skills that create walls in a line, causing them to instead be created along a fissure.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemAhnsCitadel",
+    "variantId": "AhnsCitadelSupport",
+    "grantedEffectId": "SupportAhnsCitadelPlayer"
+   }
+  },
+  "Ailiths_Chimes": {
+   "en": "Ailith's Chimes",
+   "zh_hans": "艾利丝钟琴",
+   "zh_hant": "艾里絲的管鐘",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可以消耗连击的技能。被辅助技能消耗连击时，你有机会根据消耗的连击数量获得暴击球。Dropped by: 艾芙琳，凋零玫瑰, 瓦洛克，灰烬领主"
+    ],
+    "zh_hant": [
+     "輔助可消耗連擊的技能。以被輔助的技能消耗連擊時，你有機率會根據消耗的連擊數量獲得暴擊球。Dropped by: 凋零玫瑰．艾維琳, 灰燼領主．瓦爾洛奇"
+    ],
+    "en": [
+     "Supports Skills which can expend Combo. On expending Combo with Supported Skills, you have a chance to gain Power Charges based on the amount of Combo expended.Dropped by: Avelyne, the Withered Rose, Varloch, the Ashen Lord"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemAilithLineage",
+    "variantId": "AilithLineageSupport",
+    "grantedEffectId": "SupportAilithLineagePlayer"
+   }
+  },
+  "Amanamus_Tithe": {
+   "en": "Amanamu's Tithe",
+   "zh_hans": "阿曼娜姆的奉纳",
+   "zh_hant": "阿姆那姆的稅賦",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "AmanamusTitheSupport",
+   "description": {
+    "zh_hans": [
+     "辅助永久性召唤生物的技能，使被辅助的召唤生物为你而被击败后有几率获得一个深渊怪物词缀。Dropped by: Large Abyssal Troves"
+    ],
+    "zh_hant": [
+     "輔助持續召喚物技能。使被輔助的召喚物為你而死時，有機率獲得一條深淵怪物詞綴。Dropped by: Large Abyssal Troves"
+    ],
+    "en": [
+     "Supports Persistent Minion Skills, granting a chance when Supported Minions die for you to gain an Abyssal Monster Modifier.Dropped by: Large Abyssal Troves"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemAmanamusTithe",
+    "variantId": "AmanamusTitheSupport",
+    "grantedEffectId": "SupportAmanamusTithePlayer"
+   }
+  },
+  "Arakaalis_Lust": {
+   "en": "Arakaali's Lust",
+   "zh_hans": "阿拉卡力的欲望",
+   "zh_hant": "艾爾卡莉之慾",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助任意击中敌人的技能，目标身上中毒越多，造成的伤害越高。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助任何可以擊中敵人的技能，目標身上越多中毒效果，使其造成的傷害逐漸提高。Dropped by: Global"
+    ],
+    "en": [
+     "Supports any Skill that Hits Enemies, causing it to deal increasingly higher damage the more Poisons are on the target.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemArakaalisLust",
+    "variantId": "ArakaalisLustSupport",
+    "grantedEffectId": "SupportArakaalisLustPlayer"
+   }
+  },
+  "Arbiters_Ignition": {
+   "en": "Arbiter's Ignition",
+   "zh_hans": "仲裁官的点燃",
+   "zh_hant": "仲裁者的燃灼",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助火焰法术技能。用被辅助技能点燃敌人时有获得元素执政官。Dropped by: 灰烬仲裁官"
+    ],
+    "zh_hant": [
+     "輔助火焰法術技能。以被輔助的技能點燃時，有一定機率獲得元素統治者。Dropped by: 灰燼仲裁者"
+    ],
+    "en": [
+     "Supports Fire Spell Skills causing you to gain Elemental Archon when Igniting with them.Dropped by: The Arbiter of Ash"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemArbitersIgnition",
+    "variantId": "ArbitersIngitionSupport",
+    "grantedEffectId": "SupportArbitersIgnitionPlayer"
+   }
+  },
+  "Arbiters_Reach": {
+   "en": "Arbiter's Reach",
+   "zh_hans": "仲裁官之握",
+   "zh_hant": "仲裁者的延伸",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "ArbitersReachSupport",
+   "description": {
+    "zh_hans": [
+     "辅助持续性 增益状态技能。技能激活时，定期为你存在范围内的盟友提供防卫。"
+    ],
+    "zh_hant": [
+     "輔助持續性的增益效果技能，使你在該技能啟動期間定期為你存在範圍內的友方賦予守護。"
+    ],
+    "en": [
+     "Supports Persistent Buff Skills, causing you periodically grant Guard to allies in your Presence while the Skill is active."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemArbitersReach",
+    "variantId": "ArbitersReachSupport",
+    "grantedEffectId": "ArbitersReachWardPlayer"
+   }
+  },
+  "Arjuns_Medal": {
+   "en": "Arjun's Medal",
+   "zh_hans": "阿尔琼的勋章",
+   "zh_hant": "亞瓊的獎章",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Ammunition",
+     "en": "Ammunition",
+     "zh_hans": "弹药",
+     "zh_hant": "彈藥"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助战弩技能，击败敌人时为所有战弩弹药装填一发弩箭。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助十字弓技能，在被輔助的技能造成擊殺時，裝填一發弩箭至所有十字弓彈藥技能。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Crossbow Skills, causing them to load a bolt into all Crossbow Ammunition on kill.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemAmmoConservationFour",
+    "variantId": "AmmoConservationSupportFour",
+    "grantedEffectId": "SupportAmmoConservationPlayerFour"
+   }
+  },
+  "Ataluis_Bloodletting": {
+   "en": "Atalui's Bloodletting",
+   "zh_hans": "阿图鲁伊的放血术",
+   "zh_hant": "阿特路伊的出血",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助任意技能，将部分魔力消耗转换为生命消耗。无法辅助保留精魂的技能。被辅助技能获得相当于部分生命消耗的额外物理伤害。Dropped by: 玛兹特里，血肉塑造者, Ytzara, Blood Oracle"
+    ],
+    "zh_hant": [
+     "輔助任何技能，使其一部分的魔力消耗轉換為消耗生命。無法輔助保留精魂的技能。被輔助的技能會獲得相當於部分生命消耗的額外物理傷害。Dropped by: 血肉塑造者．馬茲里, Ytzara, Blood Oracle"
+    ],
+    "en": [
+     "Supports any Skill, turning a portion of its Mana cost into a Life cost. Does not support Skills which reserve Spirit. Supported Skills Gain a portion of their Life cost as extra Physical Damage.Dropped by: Maztli, Flesh-Shaper, Ytzara, Blood Oracle"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemAtaluiBloodletting",
+    "variantId": "AtaluiBloodlettingSupport",
+    "grantedEffectId": "SupportAtaluiBloodlettingPlayer"
+   }
+  },
+  "Atziris_Allure": {
+   "en": "Atziri's Allure",
+   "zh_hans": "阿兹里的魅惑",
+   "zh_hant": "阿茲里的魅惑",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Curse",
+     "en": "Curse",
+     "zh_hans": "诅咒",
+     "zh_hant": "詛咒"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助你释放的诅咒法术技能，使这些诅咒突破通常的诅咒上限，但施放时会将效果反弹至你自身。Dropped by: 玛兹特里，血肉塑造者, 伊察拉，鲜血神谕者"
+    ],
+    "zh_hant": [
+     "輔助你自身施放的詛咒法術技能，使這些詛咒無視一般詛咒上限，但會反射至你身上。Dropped by: 血肉塑造者．馬茲里, 鮮血先知．伊查拉"
+    ],
+    "en": [
+     "Supports Curse Spells you cast yourself, causing those Curses to ignore the usual Curse Limit, but be reflected back to you when inflicted.Dropped by: Maztli, Flesh-Shaper, Ytzara, Blood Oracle"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemAtzirisAllure",
+    "variantId": "AtzirisAllureSupport",
+    "grantedEffectId": "SupportAtzirisAllurePlayer"
+   }
+  },
+  "Atziris_Communion": {
+   "en": "Atziri's Communion",
+   "zh_hans": "阿兹里的圣礼",
+   "zh_hant": "阿茲里的共融",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "AtzirisCommunionSupport",
+   "description": {
+    "zh_hans": [
+     "辅助永久性技能，使其改为保留生命而非精魂。无法辅助产生召唤生物的技能。Dropped by: 阿兹里，红女王"
+    ],
+    "zh_hant": [
+     "輔助常駐技能，使其保留生命而非精魂。無法輔助會創造召喚物的技能。Dropped by: 豔紅女王．阿茲里"
+    ],
+    "en": [
+     "Supports Persistent Skills, making them Reserve Life instead of Spirit. Cannot Support Skills which create Minions.Dropped by: Atziri, the Red Queen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+    "variantId": "AtzirisCommunionSupport",
+    "grantedEffectId": "SupportAtzirisCommunionPlayer"
+   }
+  },
+  "Atziris_Impatience": {
+   "en": "Atziri's Impatience",
+   "zh_hans": "阿兹里的焦躁",
+   "zh_hant": "阿茲里的不耐",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助拥有冷却时间的技能，大幅提升其冷却回复速度，但使用时会消耗你的生命、魔力与能量护盾。无法辅助非凡技能、永久性技能或影响召唤生物的技能。Dropped by: 阿兹里，红女王"
+    ],
+    "zh_hant": [
+     "輔助由自身使用、且具有冷卻時間的技能，大幅增加其冷卻時間恢復率速度，但使用時會使你失去生命、魔力和能量護盾。無法輔助主要技能或持續技能，或改變召喚物的技能。Dropped by: 豔紅女王．阿茲里"
+    ],
+    "en": [
+     "Supports Skills you use yourself that have Cooldowns, dramatically increasing the rate at which those Cooldowns Recover, but causing you to lose Life, Mana, and Energy Shield when they are used. Cannot Support Meta Skills or Persistent Skills, or modify the Skills of Minions.Dropped by: Atziri, the Red Queen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemAtzirisImpatience",
+    "variantId": "AtzirisImpatienceSupport",
+    "grantedEffectId": "SupportAtzirisImpatiencePlayer"
+   }
+  },
+  "Bhatairs_Vengeance": {
+   "en": "Bhatair's Vengeance",
+   "zh_hans": "巴蒂尔的复仇",
+   "zh_hant": "瓦特爾的復仇",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Warcry",
+     "en": "Warcry",
+     "zh_hans": "战吼",
+     "zh_hant": "戰吼"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助你使用的攻击和战吼。使用被辅助技能冻结敌人后，你和友军在短时间内附加冰霜伤害。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助自身使用的攻擊和戰吼技能。以被輔助的技能凍結一名敵人會短暫的以冰冷傷害強化自身和友方，持續一段時間。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Attacks and Warcries you use yourself. Freezing an enemy with Supported Skills infuses you and your allies with Cold damage for a short time. Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemBhatairsVengeance",
+    "variantId": "BhatairsVengeanceSupport",
+    "grantedEffectId": "SupportBhatairsVengeancePlayer"
+   }
+  },
+  "Breachlords_Amalgam": {
+   "en": "Breachlord's Amalgam",
+   "zh_hans": "裂隙领主的融合体",
+   "zh_hant": "裂痕領主的融合",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    }
+   ],
+   "gem_effect": "BreachlordsAmalgamSupport",
+   "description": {
+    "zh_hans": [
+     "辅助你使用的、发射投射物且尚无冷却时间的闪电或冰霜技能，增加技能冷却时间，并使投射物能够返回，返回时穿透目标。"
+    ],
+    "zh_hant": [
+     "輔助由自身使用的、發射投射物且原本沒有冷卻時間的閃電或冰冷技能，為其新增冷卻時間，使投射物在穿透目標後返回。"
+    ],
+    "en": [
+     "Supports Lightning or Cold skills you use yourself which fire Projectiles and do not already have cooldowns, adding a cooldown and making the Projectiles return, piercing through targets as they do so."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemBreachlordsAmalgam",
+    "variantId": "BreachlordsAmalgamSupport",
+    "grantedEffectId": "SupportBreachlordsAmalgam"
+   }
+  },
+  "Breachlords_Rift": {
+   "en": "Breachlord's Rift",
+   "zh_hans": "裂隙领主的分歧",
+   "zh_hant": "裂痕領主的裂隙",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    }
+   ],
+   "gem_effect": "BreachlordsRiftSupport",
+   "description": {
+    "zh_hans": [
+     "辅助能够击中敌人的技能，使其对冻结或触电的敌人造成护甲破损。"
+    ],
+    "zh_hant": [
+     "輔助任何會擊中敵人的技能，使其冰凍或觸電的敵人被護甲破壞。"
+    ],
+    "en": [
+     "Supports any skill that Hits enemies, causing it to Break Armour of enemies it Freezes or Electrocutes."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemBreachlordsRift",
+    "variantId": "BreachlordsRiftSupport",
+    "grantedEffectId": "SupportBreachlordsRift"
+   }
+  },
+  "Brutus_Brain": {
+   "en": "Brutus' Brain",
+   "zh_hans": "布鲁特斯之脑",
+   "zh_hant": "布魯特斯的腦",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助产生召唤生物的技能，使这些召唤生物无法造成或承受伤害。无法辅助产生无敌召唤生物的技能。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助創造召喚物的技能，使那些召喚物無法造成或承受傷害。無法輔助創造無法被傷害的召喚物的技能。Dropped by: Global"
+    ],
+    "en": [
+     "Supports skills which create Minions, causing those Minions to be unable to deal or take Damage. Cannot support skills which create undamageable Minions.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemBrutusBrain",
+    "variantId": "BrutusBrainSupport",
+    "grantedEffectId": "SupportBrutusBrainPlayer"
+   }
+  },
+  "Cathas_Brilliance": {
+   "en": "Catha's Brilliance",
+   "zh_hans": "卡莎的光辉",
+   "zh_hant": "凱莎的輝煌",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    }
+   ],
+   "gem_effect": "CathasBrillianceSupport",
+   "description": {
+    "zh_hans": [
+     "辅助能够创造伙伴的技能，致盲并点燃伙伴附近的敌人。点燃伤害基于被辅助召唤生物的生命值。Dropped by: 伯达克"
+    ],
+    "zh_hant": [
+     "輔助創造盟友的技能，使附近的敵人致盲並點燃。點燃的傷害基於被輔助召喚物的生命值計算。Dropped by: 博德克"
+    ],
+    "en": [
+     "Supports skills which create Companions, causing enemies near them to be Blinded and Ignited. The damage of the Ignite is based on the Life of the supported Minion.Dropped by: The Bodach"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemCathasBrilliance",
+    "variantId": "CathasBrillianceSupport",
+    "grantedEffectId": "SupportCathasBrilliance"
+   }
+  },
+  "Cirels_Cultivation": {
+   "en": "Cirel's Cultivation",
+   "zh_hans": "西雷尔的教化",
+   "zh_hant": "西瑞爾的耕植",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Totem",
+     "en": "Totem",
+     "zh_hans": "图腾",
+     "zh_hant": "圖騰"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可创建图腾的技能，但仅允许拥有一个该种图腾，但会依据周围友军拥有的图腾数量，为被辅助的图腾提供显著增益。无法辅助由召唤生物施放的技能。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助會創造圖騰的技能，使你無法擁有超過一根該圖騰，但是會根據周遭的友方圖騰給予被輔助的圖騰大量增益。無法輔助召喚物使用的技能。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Skills which create Totems, preventing you from having more than one of that Totem but granting significant benefits for Supported Totems based how many allied Totems are near them. Does not Support Skills used by Minions.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemGreatwood",
+    "variantId": "CirelsCultivationSupport",
+    "grantedEffectId": "SupportCirelsCultivationPlayer"
+   }
+  },
+  "Daressos_Passion": {
+   "en": "Daresso's Passion",
+   "zh_hans": "德瑞索的热情",
+   "zh_hant": "德瑞索的熱情",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "Banner",
+     "en": "Banner",
+     "zh_hans": "旗帜",
+     "zh_hant": "鬥旗"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助旗帜技能，使其需要的荣耀大幅降低。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助鬥旗技能，使其使用的榮耀需求大量減少Dropped by: Global"
+    ],
+    "en": [
+     "Supports Banner Skills, causing them to require significantly less Glory to use.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemDaressosPassion",
+    "variantId": "DaressosPassionSupport",
+    "grantedEffectId": "SupportDaressosPassionPlayer"
+   }
+  },
+  "Diallas_Desire": {
+   "en": "Dialla's Desire",
+   "zh_hans": "达拉的渴望",
+   "zh_hant": "達拉的渴望",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助任何有等级的技能，提高等级和品质，同时降低消耗和保留。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助任何有等級的技能，增加其等級和品質，並減少其消耗和保留。Dropped by: Global"
+    ],
+    "en": [
+     "Supports any Skill which has levels, increasing the level and Quality, while reducing the cost and Reservation.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemDiallasDesire",
+    "variantId": "DiallasDesireSupport",
+    "grantedEffectId": "SupportDiallasDesirePlayer"
+   }
+  },
+  "Doedres_Undoing": {
+   "en": "Doedre's Undoing",
+   "zh_hans": "德瑞的毁灭",
+   "zh_hant": "德瑞的毀滅",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    },
+    {
+     "id": "Curse",
+     "en": "Curse",
+     "zh_hans": "诅咒",
+     "zh_hant": "詛咒"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助诅咒技能。被辅助技能会创造一个区域，诅咒其中的敌人，并在该区域生成女巫蟾蜍。女巫蟾蜍会跳向靠近的敌人，并以更高的攻击性寻找被诅咒的敌人。当蟾蜍跳跃击中敌人时，会触发黑暗恶果，发生猛烈爆炸。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助詛咒技能。被輔助的技能會創造一個區域，詛咒其中的敵人，並在該區域生成巫蟾。巫蟾會跳向靠近的敵人，並更積極地尋找被詛咒的敵人。當牠們以跳躍擊中敵人時，黑暗業報會被觸發，使巫蟾猛烈爆炸。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Curse Skills. Supported Skills create an area which Curses Enemies within it, and spawns Witchtoads in that area. Witchtoads leap at enemies that get close, and seek out Cursed enemies with higher aggression. Dark Consequences will be Triggered when they hit enemies with their leap, violently exploding the Witchtoad.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemDoedresUndoing",
+    "variantId": "DoedresUndoingSupport",
+    "grantedEffectId": "SupportDoedresUndoingPlayer"
+   }
+  },
+  "Dominus_Grasp": {
+   "en": "Dominus' Grasp",
+   "zh_hans": "神主之握",
+   "zh_hant": "神主的掌握",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    },
+    {
+     "id": "Chain",
+     "en": "Chaining",
+     "zh_hans": "连锁",
+     "zh_hant": "連鎖"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助投射物技能及其他可连锁的技能，增加它们的连锁次数。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助投射物和任何可以連鎖的技能，使他們連鎖更多次。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Projectile skills and any other skills that Chain, causing them to Chain more times.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemPietysMercy",
+    "variantId": "PietysMercySupport",
+    "grantedEffectId": "SupportPietysMercyPlayer"
+   }
+  },
+  "Einhars_Beastrite": {
+   "en": "Einhar's Beastrite",
+   "zh_hans": "伊恩哈尔的魔物仪式",
+   "zh_hant": "埃哈的野獸儀式",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Melee",
+     "en": "Melee",
+     "zh_hans": "近战",
+     "zh_hant": "近戰"
+    },
+    {
+     "id": "Strike",
+     "en": "Strike",
+     "zh_hans": "打击",
+     "zh_hant": "打擊"
+    }
+   ],
+   "gem_effect": "EinharsBeastriteSupport",
+   "description": {
+    "zh_hans": [
+     "辅助近战打击技能，使其从击败的稀有怪物处窃取一个词缀，持续时间较长，但无法对非低血敌人造成伤害。无法修改召唤生物使用的技能。Dropped by: 艾芙琳，凋零玫瑰, 瓦洛克，灰烬领主"
+    ],
+    "zh_hant": [
+     "輔助近戰打擊技能，使其能竊取所擊殺的稀有怪物身上的一條詞綴並持續一段較長的時間，但其無法對未處於貧血狀態的敵人造成傷害。無法改變召喚物使用的技能。Dropped by: 凋零玫瑰．艾維琳, 灰燼領主．瓦爾洛奇"
+    ],
+    "en": [
+     "Supports Melee Strike skills, causing them to steal a Modifier from Rare monsters they kill for a lengthy duration, while being unable to damage enemies not on low Life. Does not modify skills used by Minions.Dropped by: Avelyne, the Withered Rose, Varloch, the Ashen Lord"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemEinharsBeastrite",
+    "variantId": "EinharsBeastriteSupport",
+    "grantedEffectId": "SupportEinharsBeastritePlayer"
+   }
+  },
+  "Eonyrs_Thunder": {
+   "en": "Eonyr's Thunder",
+   "zh_hans": "伊奥尼尔的雷霆",
+   "zh_hant": "伊歐涅的雷霆",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    }
+   ],
+   "gem_effect": "EonyrsThunderSupport",
+   "description": {
+    "zh_hans": [
+     "辅助任意造成伤害的技能。被辅助技能的闪电伤害可以造成触电，但被辅助技能无法施加感电。被辅助技能的触电击杀的敌人会爆炸，造成其最大生命一定百分比的闪电伤害。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助會造成傷害的技能。被輔助的技能的閃電傷害可以施加觸電，但被輔助的技能無法施加感電。於觸電時被擊殺的敵人會爆炸，造成等同於一部分生命的閃電傷害。Dropped by: Global"
+    ],
+    "en": [
+     "Supports any Skill which can deal damage. Lightning damage from Supported Skills can inflict Electrocute, but Supported Skills cannot inflict Shock. Enemies slain while Electrocuted by Supported Skills explode, dealing a percentage of their maximum Life as Lightning damage.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemEonyrsThunder",
+    "variantId": "EonyrsThunderSupport",
+    "grantedEffectId": "SupportEonyrsThunderPlayer"
+   }
+  },
+  "Eshs_Prowess": {
+   "en": "Esh's Prowess",
+   "zh_hans": "艾许的骁勇",
+   "zh_hant": "艾許的威能",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    }
+   ],
+   "gem_effect": "EshsProwessSupport",
+   "description": {
+    "zh_hans": [
+     "辅助能够击中的闪电技能，使其等级 +1，并且造成的闪电伤害仅取最小值或最大值。无法辅助没有等级的技能。Dropped by: 曾为艾许之物, 曾为托沃之物"
+    ],
+    "zh_hant": [
+     "輔助擊中目標的閃電技能，為其賦予額外一個等級，並使其對閃電傷害只擲出最低或最高值。無法輔助無等級的技能。 Dropped by: 昔日之艾許, 昔日之托沃"
+    ],
+    "en": [
+     "Supports Lightning Skills that Hit, granting them an additional level and causing them to only roll the minimum or maximum value for Lightning damage. Does not Support Skills which do not have levels.Dropped by: It That Was Esh, It That Was Tul"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemEshsProwess",
+    "variantId": "EshsProwessSupport",
+    "grantedEffectId": "SupportEshsProwess"
+   }
+  },
+  "Eshs_Radiance": {
+   "en": "Esh's Radiance",
+   "zh_hans": "艾许的光辉",
+   "zh_hant": "艾許的光芒",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可造成伤害性击中的技能，提供额外混沌伤害，使混沌伤害作用于感电。Dropped by: 薛斯，万魔一体"
+    ],
+    "zh_hant": [
+     "輔助會造成傷害型擊中的技能，賦予其額外混沌傷害，並使混沌傷害貢獻至感電。Dropped by: 萬眾歸一．烈許"
+    ],
+    "en": [
+     "Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Shock.Dropped by: Xesht, We That Are One"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemEshsRadiance",
+    "variantId": "EshsRadianceSupport",
+    "grantedEffectId": "SupportEshsRadiancePlayer"
+   }
+  },
+  "Garukhans_Resolve": {
+   "en": "Garukhan's Resolve",
+   "zh_hans": "格鲁坎的决心",
+   "zh_hant": "卡洛翰的決心",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Conditional",
+     "en": "Conditional",
+     "zh_hans": "条件",
+     "zh_hant": "條件"
+    }
+   ],
+   "gem_effect": "GarukhansResolveSupport",
+   "description": {
+    "zh_hans": [
+     "辅助你自己使用且不具有使用条件的攻击技能。被辅助技能将拥有最大暴击率，但会分叉暴击率。Dropped by: 扎米尔，刀锋之主"
+    ],
+    "zh_hant": [
+     "輔助由自身使用，且原先沒有使用條件的攻擊技能。被輔助的技能擁有最大暴擊率，但會分岔暴擊。Dropped by: 刀鋒之主．札米爾"
+    ],
+    "en": [
+     "Supports Attack Skills you use yourself which do not already have some Condition for use. Supported Skills have a maximum Critical Hit chance, but will Bifurcate Critical Hit Chance.Dropped by: Zahmir, the Blade Sovereign"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+    "variantId": "GarukhansResolveSupport",
+    "grantedEffectId": "SupportGarukhansResolvePlayer"
+   }
+  },
+  "Guatelitzis_Ablation": {
+   "en": "Guatelitzi's Ablation",
+   "zh_hans": "瓜铁雷兹的消融",
+   "zh_hant": "瓜特利斯的消融",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助奉献技能。使用被辅助技能会使你牺牲一部分生命。当被辅助技能产生的奉献尖刺存留期间，你会周期性获得一个暴击球。当尖刺消失时，基于该奉献技能的持续时长，每秒回复一定比例的最大生命与魔力。Dropped by: 阿兹里神庙"
+    ],
+    "zh_hant": [
+     "輔助奉獻技能。 被輔助的技能在使用時會犧牲一定比例的自身血量。當被輔助的技能的奉獻尖刺存在時，你會週期性的獲得暴擊球。當被輔助的技能的尖刺消失時，根據該奉獻持續的時間按比例每秒回復一部分最大生命和魔力。Dropped by: 阿茲里的神廟"
+    ],
+    "en": [
+     "Supports Offering Skills. Supported Skills Sacrifice a portion of your life on use. While Offering spikes from Supported Skills persist, you are periodically granted a Power Charge. When spikes from Supported Skills die, Regenerate a percentage of your maximum Life and Mana per second based on the duration the Offering persisted.Dropped by: Atziri's Temple"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemGuatelitzi",
+    "variantId": "GuatelitzisAblationSupport",
+    "grantedEffectId": "SupportGuatelitzisAblationPlayer"
+   }
+  },
+  "Hayoxis_Fulmination": {
+   "en": "Hayoxi's Fulmination",
+   "zh_hans": "海幽夏的诛罚",
+   "zh_hant": "荷霖蔡的轟鳴",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Lightning",
+     "en": "Lightning",
+     "zh_hans": "闪电",
+     "zh_hant": "閃電"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    },
+    {
+     "id": "Curse",
+     "en": "Curse",
+     "zh_hans": "诅咒",
+     "zh_hant": "詛咒"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助诅咒类技能。被辅助技能会拥有短暂的冷却时间，但会生成多个区域，敌人处于区域内将持续被诅咒。被辅助技能生成的诅咒区域会积蓄力量，经过短暂延迟后迸发一束摧残之光。Dropped by: 阿兹里神庙"
+    ],
+    "zh_hant": [
+     "輔助詛咒技能，使其擁有短暫的冷卻時間，但會產生使範圍內敵人受到詛咒的區域。來自被輔助的技能的被詛咒區域會積蓄能量，並在延遲後噴發一道毀天滅地的光束。Dropped by: 阿茲里的神廟"
+    ],
+    "en": [
+     "Supports Curse Skills, giving them a short cooldown but causing them to create areas which Curse enemies so long as they are within them. Cursed areas from Supported Skills gather power before erupting in a column of annihilating light after a moderate delay.Dropped by: Atziri's Temple"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemHayoxisFulmination",
+    "variantId": "HayoxisFulminationSupport",
+    "grantedEffectId": "SupportHayoxisBindingPlayer"
+   }
+  },
+  "Helbryms_Hide": {
+   "en": "Helbrym's Hide",
+   "zh_hans": "赫尔布林的隐瞒",
+   "zh_hant": "海爾賓姆的躲藏",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Shapeshift",
+     "en": "Shapeshift",
+     "zh_hans": "变形",
+     "zh_hant": "變形"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    }
+   ],
+   "gem_effect": "HelbrymsHideSupport",
+   "description": {
+    "zh_hans": [
+     "辅助变形技能，使你变形时，于短时间内获得赫尔布林的沉着。若在结束前再次变形为不同形态，该增益状态将被移除且不产生效果。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助變形技能，使其在使你變形時短暫賦予海爾賓姆的沉著一段時間。",
+     "在增益效果持續時間結束前變形成其他型態會移除此效果。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Shapeshifting Skills, causing them to grant Helbrym's Composure for a brief duration when they cause you to Shapeshift. Shapeshifting into a different form before the Buff expires causes it to be removed without effect.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemHelbrymsHide",
+    "variantId": "HelbrymsHideSupport",
+    "grantedEffectId": "SupportHelbrymsHidePlayer"
+   }
+  },
+  "Her_Declaration": {
+   "en": "Her Declaration",
+   "zh_hans": "她的宣言",
+   "zh_hant": "她的宣告",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "HerDeclarationSupport",
+   "description": {
+    "zh_hans": [
+     "辅助持续性 增益状态技能。技能激活时，进入你存在范围内的敌人会被威吓。Dropped by: 神圣仲裁官"
+    ],
+    "zh_hant": [
+     "輔助持續性的增益效果技能，使進入你存在範圍的敵人在該技能啟動期間成為被威嚇狀態。Dropped by: 神聖仲裁者"
+    ],
+    "en": [
+     "Supports Persistent Buff Skills, causing enemies that enter your Presence to become Intimidated while the Skill is active.Dropped by: The Arbiter of Divinity"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemHerDeclaration",
+    "variantId": "HerDeclarationSupport",
+    "grantedEffectId": "SupportHerDeclarationPlayer"
+   }
+  },
+  "Ixchels_Torment": {
+   "en": "Ixchel's Torment",
+   "zh_hans": "伊克切尔的折磨",
+   "zh_hant": "薩雷許的折磨",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助触发其他技能的技能。被辅助技能触发的技能在被触发时伤害、效果范围和投射物速度随机增减，被触发时还会随机回复一定消耗。Dropped by: 试炼使者"
+    ],
+    "zh_hant": [
+     "輔助會觸發其他技能的技能。由被輔助的技能所觸發的技能，在被觸發時的傷害、效果範圍及投射物速度會隨機提高或降低，且在觸發時會恢復隨機比例的消耗量。Dropped by: 試煉大師"
+    ],
+    "en": [
+     "Supports Skills which Trigger other Skills. Skills Triggered by Supported Skills have their Damage, Area of Effect, and Projectile Speed randomly raised or lowered when Triggered, as well as recovering a random amount of their cost when Triggered.Dropped by: The Trialmaster"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemFlukeTwo",
+    "variantId": "FlukeSupportTwo",
+    "grantedEffectId": "SupportFlukePlayerTwo"
+   }
+  },
+  "Kalisas_Crescendo": {
+   "en": "Kalisa's Crescendo",
+   "zh_hans": "卡莉莎的强音",
+   "zh_hant": "卡莉莎的漸強",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助诅咒技能。被辅助技能诅咒的敌人在被辅助诅咒持续时间的最后阶段被宁心。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助詛咒技能。於被輔助的詛咒最後一段持續時間內，受被輔助的技能施加的詛咒影響的敵人變得平靜。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Curse Skills. Enemies Cursed by Supported Skills are Pacified for the final portion of the Supported Curse's duration.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemKalisasCrescendo",
+    "variantId": "KalisasCrescendoSupport",
+    "grantedEffectId": "SupportKalisasCrescendoPlayer"
+   }
+  },
+  "Kaoms_Madness": {
+   "en": "Kaom's Madness",
+   "zh_hans": "冈姆的疯狂",
+   "zh_hant": "岡姆的癲狂",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Melee",
+     "en": "Melee",
+     "zh_hans": "近战",
+     "zh_hant": "近戰"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助在地上产生裂缝的技能，使其产生大量额外的裂缝，但会牺牲伤害、攻击速度和效果范围。Dropped by: 马诺基，天命者"
+    ],
+    "zh_hant": [
+     "輔助在地面製造裂縫的技能，使其以降低傷害、攻擊速度和效果範圍為代價來製造多條額外的裂縫。Dropped by: 選召者．瑪諾奇"
+    ],
+    "en": [
+     "Supports Skills which create fissures in the ground, causing them to create many additional fissures at the cost of damage, speed, and area of effect.Dropped by: Manoki, the Chosen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemKaomsMadness",
+    "variantId": "KaomsMadnessSupport",
+    "grantedEffectId": "SupportKaomsMadnessPlayer"
+   }
+  },
+  "Khatals_Rejuvenation": {
+   "en": "Khatal's Rejuvenation",
+   "zh_hans": "卡哈塔的复苏",
+   "zh_hant": "卡塔爾的恢復",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Remnant",
+     "en": "Remnant",
+     "zh_hans": "残片",
+     "zh_hant": "痕跡"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可生成残片的技能。拾取被辅助技能生成的残片时，将获得卡塔尔的复苏。Dropped by: 扎米尔，刀锋之主"
+    ],
+    "zh_hant": [
+     "輔助會生成痕跡的技能。拾起來自被輔助的技能所生成的痕跡時會賦予卡塔爾的回春。Dropped by: 刀鋒之主．札米爾"
+    ],
+    "en": [
+     "Supports Skills that generate Remnants. Picking up Remnants from Supported Skills grants Khatal's Rejuvenation.Dropped by: Zahmir, the Blade Sovereign"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+    "variantId": "KhatalsRejuvenationSupport",
+    "grantedEffectId": "SupportKhatalsRejuvenationPlayer"
+   }
+  },
+  "Kulemaks_Dominion": {
+   "en": "Kulemak's Dominion",
+   "zh_hans": "库勒马克的统治",
+   "zh_hant": "骷髏馬克的支配",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助奉献技能，使你的可扩散法术扩散至被辅助的奉献技能的所在位置。Dropped by: Large Abyssal Troves"
+    ],
+    "zh_hant": [
+     "輔助奉獻技能，使你的可爆發法術爆發至奉獻周圍的區域。Dropped by: Large Abyssal Troves"
+    ],
+    "en": [
+     "Supports Offering Skills, causing your Cascadable Spells to Cascade to the locations of Supported Offerings.Dropped by: Large Abyssal Troves"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemKulemaksDominion",
+    "variantId": "KulemaksDominionSupport",
+    "grantedEffectId": "SupportKulemaksDominionPlayer"
+   }
+  },
+  "Kurgals_Leash": {
+   "en": "Kurgal's Leash",
+   "zh_hans": "古加尔的缰绳",
+   "zh_hant": "柯戈的繩索",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    }
+   ],
+   "gem_effect": "KurgalsLeashSupport",
+   "description": {
+    "zh_hans": [
+     "辅助可命令的召唤生物，使你和被辅助召唤生物在命令它们时获得不洁之力。Dropped by: Large Abyssal Troves"
+    ],
+    "zh_hant": [
+     "輔助可命令的召喚物，使你與被輔助的召喚物在你號令他們時獲得不潔之力。Dropped by: Large Abyssal Troves"
+    ],
+    "en": [
+     "Supports Commandable Minions causing you and the Supported Minion to gain Unholy Might when you Command them.Dropped by: Large Abyssal Troves"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemKurgalsLeash",
+    "variantId": "KurgalsLeashSupport",
+    "grantedEffectId": "SupportKurgalsLeashPlayer"
+   }
+  },
+  "Medveds_Felling": {
+   "en": "Medved's Felling",
+   "zh_hans": "梅德维德的砍伐",
+   "zh_hant": "梅德偉的殞落",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Melee",
+     "en": "Melee",
+     "zh_hans": "近战",
+     "zh_hant": "近戰"
+    }
+   ],
+   "gem_effect": "MedvedsFellingSupport",
+   "description": {
+    "zh_hans": [
+     "辅助你施展的近战攻击，使其根据你拥有的怒气提高攻击速度，并在击中时提供怒气，但使用时也会根据你的怒气损失生命。"
+    ],
+    "zh_hant": [
+     "輔助由自身使用的近戰攻擊，使其擊中時賦予一定比例的最大盛怒。同時會使被輔助的近戰攻擊根據盛怒量增加攻擊速度，並使你在使用被輔助的技能時失去一定比例的最大生命。"
+    ],
+    "en": [
+     "Supports Melee Attacks you use yourself, causing them to attack faster the more Rage you have and grant Rage on Hit, but also making you lose Life based on your Rage when using them."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemMedvedsFelling",
+    "variantId": "MedvedsFellingSupport",
+    "grantedEffectId": "SupportMedvedsFelling"
+   }
+  },
+  "Morganas_Tempest": {
+   "en": "Morgana's Tempest",
+   "zh_hans": "莫甘娜的暴风",
+   "zh_hant": "魔甘娜的風暴",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Storm",
+     "en": "Storm",
+     "zh_hans": "风暴",
+     "zh_hant": "風暴"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助风暴技能，增加其数量上限，并使其从玩家处更快移向目标地点，但效果会减弱。无法辅助触发类技能。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助風暴技能，增加其上限，並使其從使用者快速移動至目標位置，但效果降低。無法輔助觸發技能。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Storm skills, increasing their Limit and causing them to move quickly from the user to the target location, but become less effective. Cannot Support Triggered Skills.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemMorganasTempest",
+    "variantId": "MorganasTempestSupport",
+    "grantedEffectId": "SupportMorganasTempestPlayer"
+   }
+  },
+  "Mórrigans_Insight": {
+   "en": "Mórrigan's Insight",
+   "zh_hans": "莫丽根的洞察",
+   "zh_hant": "莫里根的洞察",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    },
+    {
+     "id": "Payoff",
+     "en": "Payoff",
+     "zh_hans": "清算",
+     "zh_hant": "遣散"
+    }
+   ],
+   "gem_effect": "MorrigansInsightSupport",
+   "description": {
+    "zh_hans": [
+     "辅助能够击中敌人的技能，造成更多伤害，并在消耗敌人的冰冻时触发自然交换。无法辅助会消耗冰冻的技能。Dropped by: 伯达克"
+    ],
+    "zh_hant": [
+     "輔助任何會擊中敵人的技能，使其造成更多傷害，並在消耗敵人身上的冰凍時觸發自然交換。無法輔助會消耗冰凍的技能。Dropped by: 博德克"
+    ],
+    "en": [
+     "Supports any skill that Hits enemies, causing them to deal more damage and trigger Nature's Exchange when consuming Freeze on enemies. Cannot support skills that Consume Freeze.Dropped by: The Bodach"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemMorrigansInsight",
+    "variantId": "MorrigansInsightSupport",
+    "grantedEffectId": "SupportMorrigansInsight"
+   }
+  },
+  "Oisíns_Oath": {
+   "en": "Oisín's Oath",
+   "zh_hans": "奥辛之誓",
+   "zh_hant": "歐辛的誓言",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助任意击中敌人的技能，使其魔力偷取效果改为基于元素伤害而非物理伤害进行恢复。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助會擊中敵人的技能，使其的魔力偷取基於元素傷害而不是物理傷害。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Skills which Hit enemies, causing their Mana Leech to recover based on Elemental damage instead of Physical damage.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemOisinsOath",
+    "variantId": "OisinsOathSupport",
+    "grantedEffectId": "SupportOisinsOathPlayer"
+   }
+  },
+  "Olroths_Conviction": {
+   "en": "Olroth's Conviction",
+   "zh_hans": "欧罗什的信念",
+   "zh_hant": "奧爾羅斯的信念",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "gem_effect": "OlrothsConvictionSupport",
+   "description": {
+    "zh_hans": [
+     "辅助能够强化特定数量其他技能的技能，使其可以应用于更多技能使用次数。Dropped by: 畸变者"
+    ],
+    "zh_hant": [
+     "輔助可強化特定數量其他技能的技能，使其套用至更多次技能使用。Dropped by: 異變體"
+    ],
+    "en": [
+     "Supports skills that can Empower a specific number of other skills, causing them to apply to more skill uses.Dropped by: The Aberration"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportOlrothsConviction",
+    "variantId": "OlrothsConvictionSupport",
+    "grantedEffectId": "SupportOlrothsConvictionPlayer"
+   }
+  },
+  "Olroths_Hubris": {
+   "en": "Olroth's Hubris",
+   "zh_hans": "欧罗什的傲慢",
+   "zh_hant": "奧爾羅斯的傲慢",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "gem_effect": "OlrothsHubrisSupport",
+   "description": {
+    "zh_hans": [
+     "辅助你自己使用或你自己触发的攻击，使其使用时消耗符文结界，并根据消耗的符文结界值造成额外的物理和冰霜伤害，此外，物理伤害也会作用于冻结积蓄。无法辅助持续吟唱技能、持续性技能或无消耗的技能。"
+    ],
+    "zh_hant": [
+     "輔助你使用或自行觸發的攻擊，使其消耗符文保護來使用，但會根據其符文保護消耗量造成額外物理和冰冷傷害，並使物理傷害貢獻至冰凍累積。不能輔助引導技能、持續技能或沒有消耗的技能。"
+    ],
+    "en": [
+     "Supports Attacks you use or Trigger yourself, causing them to cost Runic Ward to use but deal additional Physical and Cold damage based on their Runic Ward cost, in addition to causing Physical damage to Contribute to Freeze buildup. Cannot Support Channelling Skills, Sustained Skills, or Skills without a cost."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemOlrothsHubris",
+    "variantId": "OlrothsHubrisSupport",
+    "grantedEffectId": "SupportOlrothsHubrisPlayer"
+   }
+  },
+  "Paquates_Pact": {
+   "en": "Paquate's Pact",
+   "zh_hans": "帕夸特的契约",
+   "zh_hant": "帕科特的協議",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Warcry",
+     "en": "Warcry",
+     "zh_hans": "战吼",
+     "zh_hant": "戰吼"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "CorruptingCrySupportThree",
+   "description": {
+    "zh_hans": [
+     "辅助战吼技能，触发腐化战吼，消耗生命，对其效果范围内的敌人施加腐化之血。Dropped by: 玛兹特里，血肉塑造者, 伯达克, 伊察拉，鲜血神谕者"
+    ],
+    "zh_hant": [
+     "輔助戰吼，使其以你的生命為代價，觸發扭曲契約，對其效果範圍內的敵人施加腐化之血。Dropped by: 血肉塑造者．馬茲里, 博德克, 鮮血先知．伊查拉"
+    ],
+    "en": [
+     "Supports Warcries, Triggering Twisted Pact to inflict Corrupted Blood on enemies in their area of effect., at the cost of your Life.Dropped by: Maztli, Flesh-Shaper, The Bodach, Ytzara, Blood Oracle"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemCorruptingCryThree",
+    "variantId": "CorruptingCrySupportThree",
+    "grantedEffectId": "SupportCorruptingCryPlayerThree"
+   }
+  },
+  "Prototype_Seventeen": {
+   "en": "Prototype Seventeen",
+   "zh_hans": "原型十七",
+   "zh_hant": "十七號原型機",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "gem_effect": "PrototypeSeventeenSupport",
+   "description": {
+    "zh_hans": [
+     "辅助任何你施放的、能够击中敌人的非持续吟唱技能，使其根据怒气获得暴击几率，但当你暴击时也会使你失去所有怒气。Dropped by: 神圣仲裁官"
+    ],
+    "zh_hant": [
+     "輔助任何會擊中敵人的非引導技能，使其根據盛怒獲得暴擊機率，但會在你暴擊時消耗所有盛怒。Dropped by: 神聖仲裁者"
+    ],
+    "en": [
+     "Supports non-Channelling skill you use yourself that Hits enemies, causing it to gain Critical Hit chance based on Rage, but also remove all Rage upon Critically Hitting.Dropped by: The Arbiter of Divinity"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemPrototypeSeventeen",
+    "variantId": "PrototypeSeventeenSupport",
+    "grantedEffectId": "SupportPrototypeSeventeenPlayer"
+   }
+  },
+  "Rakiatas_Flow": {
+   "en": "Rakiata's Flow",
+   "zh_hans": "拉其塔之流",
+   "zh_hant": "萊基亞塔的流動",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可造成伤害性击中的技能，使击中将敌人的元素抗性视为反转。Dropped by: 马诺基，天命者"
+    ],
+    "zh_hant": [
+     "輔助會造成傷害型擊中的技能，使其擊中將敵人元素抗性視為顛倒。Dropped by: 選召者．瑪諾奇"
+    ],
+    "en": [
+     "Supports Skills that can cause Damaging Hits, causing those Hits to treat Enemy Elemental Resistances as inverted.Dropped by: Manoki, the Chosen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+    "variantId": "RakiatasFlowSupport",
+    "grantedEffectId": "SupportRakiatasFlowPlayer"
+   }
+  },
+  "Rathas_Assault": {
+   "en": "Ratha's Assault",
+   "zh_hans": "拉莎的突袭",
+   "zh_hant": "菈妲的強襲",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Ammunition",
+     "en": "Ammunition",
+     "zh_hans": "弹药",
+     "zh_hant": "彈藥"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助战弩弹药技能，使其装填多发额外弩箭并提升击发速度。被辅助技能无法正常装填，改为在闪避时进行装填。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助十字弓彈藥技能，使其裝填多發額外弩箭。被輔助的技能無法正常重新裝填，而是在你躲避時裝填弩箭。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Crossbow Ammunition Skills, causing them to load multiple extra bolts and attack faster. Supported Skills cannot reload normally, instead loading bolts when you Dodge.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemCombatReload",
+    "variantId": "CombatReloadSupport",
+    "grantedEffectId": "SupportCombatReloadPlayer"
+   }
+  },
+  "Rigwalds_Ferocity": {
+   "en": "Rigwald's Ferocity",
+   "zh_hans": "瑞佛的凶猛",
+   "zh_hant": "瑞佛的狂暴",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助攻击技能，根据使用的武器组，以伤害为代价提供攻击速度，或以攻击速度为代价提供伤害。不会修改召唤生物使用的技能。Dropped by: 艾芙琳，凋零玫瑰, 瓦洛克，灰烬领主"
+    ],
+    "zh_hant": [
+     "輔助攻擊技能，賦予其攻擊速度，但犧牲傷害；或是賦予傷害，但犧牲攻擊速度，根據其使用的武器套裝而定。無法改變召喚物使用的技能。Dropped by: 凋零玫瑰．艾維琳, 灰燼領主．瓦爾洛奇"
+    ],
+    "en": [
+     "Supports Attack skills, granting them Attack Speed at the cost of Damage or Damage at the cost of Attack Speed depending on Weapon Set they are used in. Does not modify skills used by Minions.Dropped by: Avelyne, the Withered Rose, Varloch, the Ashen Lord"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemRigwaldsFerocity",
+    "variantId": "RigwaldsFerocitySupport",
+    "grantedEffectId": "SupportRigwaldsFerocityPlayer"
+   }
+  },
+  "Romiras_Requital": {
+   "en": "Romira's Requital",
+   "zh_hans": "罗米拉的报复",
+   "zh_hant": "羅米拉的報復",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助产生能够受到伤害的伙伴的技能。被辅助技能产生的召唤生物会替你承担一定比例的击中伤害，但其生命上限降低。以此方式受到的一部分伤害会吸纳为你的生命。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助可創造能受到傷害的盟友的技能。由被輔助的技能產生的召喚物會承受你原本要承受的一部分擊中傷害，但其最大生命減少。以此方式承受的一部分傷害會補償為你的[Life|生命]。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Skills that create Companions which can be damaged. Minions created by Supported Skills take a portion of Hit Damage you would otherwise have taken, but have lowered maximum Life. A percentage of Damage taken this way is Recouped by you as Life.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemRomirasRequital",
+    "variantId": "RomirasRequitalSupport",
+    "grantedEffectId": "SupportRomirasRequitalPlayer"
+   }
+  },
+  "Seraphs_Heart": {
+   "en": "Seraph's Heart",
+   "zh_hans": "炽天使之心",
+   "zh_hant": "神使之心",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Buff",
+     "en": "Buff",
+     "zh_hans": "增益",
+     "zh_hant": "增益效果"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "SeraphsHeartSupport",
+   "description": {
+    "zh_hans": [
+     "辅助持续性 增益状态技能。技能激活时，有几率使敌人的击中视你的抗性为 90%来计算。"
+    ],
+    "zh_hant": [
+     "輔助持續性的增益效果技能，使敵人有機率以你的抗性為 90% 計算其擊中傷害，該技能啟動期間生效。"
+    ],
+    "en": [
+     "Supports Persistent Buff Skills, providing a chance for enemies to calculate their Hits as though your Resistances were 90% while the skill is active."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemSeraphsHeart",
+    "variantId": "SeraphsHeartSupport",
+    "grantedEffectId": "SupportSeraphsHeartPlayer"
+   }
+  },
+  "Siones_Temper": {
+   "en": "Sione's Temper",
+   "zh_hans": "西奥妮的怒火",
+   "zh_hant": "西奧妮的鍛鍊",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助投射物法术。被辅助法术额外环形发射大量投射物的几率越来越高，触发时重置几率。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助投射物法術。被輔助的法術按遞增機率以環形發射更多額外的投射物。引起環狀發射後機率重置。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Projectile Spells. Supported Spells have an increasingly higher chance to fire many additional Projectiles in a circle, resetting when they do.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemWildshardsThree",
+    "variantId": "WildshardsSupportThree",
+    "grantedEffectId": "SupportWildshardsPlayerThree"
+   }
+  },
+  "Styrns_Ferocity": {
+   "en": "Styrn's Ferocity",
+   "zh_hans": "斯泰恩的凶残",
+   "zh_hant": "斯塔恩的暴行",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    }
+   ],
+   "gem_effect": "StyrnsFerocitySupport",
+   "description": {
+    "zh_hans": [
+     "辅助能够击中的盾牌技能，使这些击中能够碾压目标，并且对处于被碾压状态的目标造成的物理击中都会造成护甲破损。Dropped by: 斯泰恩，堕落奥杜尔骑士"
+    ],
+    "zh_hant": [
+     "輔助擊中敵人的盾牌技能，使那些擊中對目標造成壓碎，此外當對被壓碎的目標造成任何物理傷害擊中時，同時會破壞護甲。 Dropped by: 阿德爾的墮道騎士．斯塔恩"
+    ],
+    "en": [
+     "Supports Shield Skills that Hit, causing those Hits to Crush their targets, and Physical Hits against those targets while Crushed to Break their Armour.Dropped by: Styrn, Fallen Knight of Aldur"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemStyrnsFerocity",
+    "variantId": "StyrnsFerocitySupport",
+    "grantedEffectId": "SupportStyrnsFerocity"
+   }
+  },
+  "Styrns_Mountain": {
+   "en": "Styrn's Mountain",
+   "zh_hans": "斯泰恩的山岳",
+   "zh_hant": "斯塔恩的山巔",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "gem_effect": "StyrnsMountainSupport",
+   "description": {
+    "zh_hans": [
+     "辅助架盾技能，使你在格挡时，其他近战技能造成更多伤害。Dropped by: 斯泰恩，堕落奥杜尔骑士"
+    ],
+    "zh_hant": [
+     "輔助會舉起盾牌的技能，格擋時使你非盾牌的近戰技能造成更多傷害。Dropped by: 阿德爾的墮道騎士．斯塔恩"
+    ],
+    "en": [
+     "Supports Skills that Raise your Shield causing your other melee skills to deal more damage if you block.Dropped by: Styrn, Fallen Knight of Aldur"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemStyrnsMountain",
+    "variantId": "StyrnsMountainSupport",
+    "grantedEffectId": "SupportStyrnsMountain"
+   }
+  },
+  "Tacatis_Ire": {
+   "en": "Tacati's Ire",
+   "zh_hans": "塔卡提之怒",
+   "zh_hant": "特卡蒂的憤怒",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可造成伤害性击中的技能。根据你的怒火数量，被辅助技能施加的中毒伤害生效更快。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助可造成傷害性擊中的技能。你的盛怒越高，被輔助的技能施加的中毒造成傷害的速度越快。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Skills which can cause Damaging Hits. Poison inflicted with Supported Skills deals Damage faster the higher your Rage.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTacatisIre",
+    "variantId": "TacatisIreSupport",
+    "grantedEffectId": "SupportTacatisIrePlayer"
+   }
+  },
+  "Tangmazus_Thurible": {
+   "en": "Tangmazu's Thurible",
+   "zh_hans": "唐玛祖的香炉",
+   "zh_hant": "湯馬祖的提爐",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    }
+   ],
+   "gem_effect": "TangmazusThuribleSupport",
+   "description": {
+    "zh_hans": [
+     "辅助召唤伙伴的技能，使其体型变为庞然大物，并获得基于你自身的闪避和偏转。Dropped by: 黑鸦欺诈者"
+    ],
+    "zh_hant": [
+     "輔助召喚盟友的技能，使其極大，並根據你自身的閃避和偏斜獲得相應加成。Dropped by: 渡鴉欺詐者"
+    ],
+    "en": [
+     "Supports Skills which summon Companions causing them to be Gigantic and gain Evasion and Deflection based on your own.Dropped by: The Raven Trickster"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTangmazusThurible",
+    "variantId": "TangmazusThuribleSupport",
+    "grantedEffectId": "SupportTangMazusThuriblePlayer"
+   }
+  },
+  "Tasalios_Rhythm": {
+   "en": "Tasalio's Rhythm",
+   "zh_hans": "塔萨里奥的律动",
+   "zh_hant": "塔薩里奧的律動",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助在完美时机使用能获得加成的技能。被辅助技能成功把握完美时机会获得塔萨里奥的律动。塔萨里奥的律动会使被辅助技能造成更多伤害，且每层律动都会缩短技能的完美时机判定窗口。未能把握完美时机（包括未受到塔萨里奥的律动辅助的技能）会移除你身上的所有塔萨里奥的律动。Dropped by: 马诺基，天命者"
+    ],
+    "zh_hant": [
+     "輔助在完美時機使用時能獲益的技能。當成功以被輔助的技能施展完美時機時，會獲得[TasaliosPerfectionBuff|塔薩里奧的律動]。每一層塔薩里奧的律動會使被輔助的技能造成更多傷害且擁有更短的完美時機空檔。 未能成功施展任何完美時機（即使是非由塔薩里奧的律動輔助的技能）時，將會移除你身上的所有[TasaliosPerfectionBuff|塔薩里奧的律動]。Dropped by: 選召者．瑪諾奇"
+    ],
+    "en": [
+     "Supports Skills which have a benefit for Perfectly Timing their use. On successfully executing Perfect Timing with Supported Skills, gain Tasalio's Rhythm. Tasalio's Rhythm causes Supported Skills to deal more damage and have shorter Perfect Timing windows for each stack. Failing to execute any Perfect Timing (even with skills not supported by Tasalio's Rhythm) will remove all Tasalio's Rhythm on you.Dropped by: Manoki, the Chosen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTasaliosRhythm",
+    "variantId": "TasaliosRhythmSupport",
+    "grantedEffectId": "SupportTasaliosRhythmPlayer"
+   }
+  },
+  "Tawhoas_Tending": {
+   "en": "Tawhoa's Tending",
+   "zh_hans": "塔赫亚的照料",
+   "zh_hant": "塔赫亞的照顧",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Totem",
+     "en": "Totem",
+     "zh_hans": "图腾",
+     "zh_hant": "圖騰"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助产生图腾的技能，使图腾拥有更多生命。被辅助技能产生的图腾被击败时爆炸，根据其生命造成物理伤害。Dropped by: 马诺基，天命者"
+    ],
+    "zh_hant": [
+     "輔助會產生圖騰的技能，使這些圖騰擁有更多生命。被輔助的技能產生的圖騰會在死亡時爆炸，依據其生命造成物理傷害。Dropped by: 選召者．瑪諾奇"
+    ],
+    "en": [
+     "Supports Skills which create Totems, causing those Totems to have more Life. Totems created by Supported Skills explode on death, dealing Physical damage based on their Life.Dropped by: Manoki, the Chosen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemHardyTotemsThree",
+    "variantId": "HardyTotemsSupportThree",
+    "grantedEffectId": "SupportHardyTotemsPlayerThree"
+   }
+  },
+  "Tecrods_Revenge": {
+   "en": "Tecrod's Revenge",
+   "zh_hans": "特克罗的复仇",
+   "zh_hant": "特克羅德的復仇",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Minion",
+     "en": "Minion",
+     "zh_hans": "召唤生物",
+     "zh_hant": "召喚物"
+    },
+    {
+     "id": "Persistent",
+     "en": "Persistent",
+     "zh_hans": "永久性",
+     "zh_hant": "持續"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助能够产生永久性召唤生物的技能，使召唤生物在受到致命伤害后仍会继续战斗，持续一段时间后才会死亡。被辅助技能召唤的召唤生物在进入此状态时，获得噬魂者和速度爆发。Dropped by: 库勒马克之躯"
+    ],
+    "zh_hant": [
+     "輔助創造出持續召喚物的技能，使這些召喚物在承受致命傷害時仍可持續戰鬥，並在一小段時間後死亡。進入此狀態時，被輔助的技能的召喚物獲得噬魂者及瞬間加速。Dropped by: 骷髏馬克的容器"
+    ],
+    "en": [
+     "Supports Skills that create Persistent Minions, causing those Minions to fight on when they are fatally wounded, dying after a duration. Minions from Supported Skills gain Soul Eater and a burst of speed on entering this state.Dropped by: Vessel of Kulemak"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTecrodsRevenge",
+    "variantId": "TecrodsRevengeSupport",
+    "grantedEffectId": "SupportTecrodsRevengePlayer"
+   }
+  },
+  "Tricksters_Shard": {
+   "en": "Trickster's Shard",
+   "zh_hans": "欺诈者碎片",
+   "zh_hant": "欺詐者的碎片",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "TrickstersShardSupport",
+   "description": {
+    "zh_hans": [
+     "辅助你自己施放的非瞬发法术。被辅助的法术将触发“破碎拟像”，创造一个破碎拟像，若你获得足够数量的拟像，它们将施放该法术。Dropped by: 黑鸦欺诈者"
+    ],
+    "zh_hant": [
+     "輔助你所施放的非立即法術。被輔助的法術會觸發破碎仿身，創造一個會在你擁有足夠數量時施放該法術的破碎複製體。Dropped by: 渡鴉欺詐者"
+    ],
+    "en": [
+     "Supports non-instant Spells you cast yourself. Supported Spells will Trigger Fragment Self, creating a Fractured Mimic which will cast that Spell if you get enough of them.Dropped by: The Raven Trickster"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTrickstersShard",
+    "variantId": "TrickstersShardSupport",
+    "grantedEffectId": "SupportTrickstersShardPlayer"
+   }
+  },
+  "Tuls_Avalanche": {
+   "en": "Tul's Avalanche",
+   "zh_hans": "托沃的雪崩",
+   "zh_hant": "托沃的雪崩",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    }
+   ],
+   "gem_effect": "TulsAvalancheSupport",
+   "description": {
+    "zh_hans": [
+     "辅助你自己施放的可扩散法术，在你格挡时为其附加封印。使用时打破封印，每层封印使该法术产生一次回响。无法辅助有冷却时间或能获得封印的技能。Dropped by: 曾为艾许之物, 曾为托沃之物"
+    ],
+    "zh_hant": [
+     "輔助由你自身施放的可爆發法術，在你格擋時封印它們。使用時破除封印，使每個法術迴響。無法輔助具有冷卻時間或已獲得封印的技能。Dropped by: 昔日之艾許, 昔日之托沃"
+    ],
+    "en": [
+     "Supports Cascadable Spells you cast yourself, Sealing them when you Block, The Seals are broken when used, each making the Spell Echo. Cannot support skills with a Cooldown or which already gain Seals.Dropped by: It That Was Esh, It That Was Tul"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTulsAvalanche",
+    "variantId": "TulsAvalancheSupport",
+    "grantedEffectId": "SupportTulsAvalanche"
+   }
+  },
+  "Tuls_Stillness": {
+   "en": "Tul's Stillness",
+   "zh_hans": "托沃的寂静",
+   "zh_hant": "托沃的寧靜",
+   "colour": "green",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Cold",
+     "en": "Cold",
+     "zh_hans": "冰霜",
+     "zh_hant": "冰冷"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可造成伤害性击中的技能，提供额外混沌伤害，使混沌伤害作用于冻结积蓄。Dropped by: 薛斯，万魔一体"
+    ],
+    "zh_hant": [
+     "輔助會造成傷害型擊中的技能，賦予其額外混沌傷害，並使混沌傷害貢獻至冰凍累積。Dropped by: 萬眾歸一．烈許"
+    ],
+    "en": [
+     "Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Freeze Buildup.Dropped by: Xesht, We That Are One"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemTulsStillness",
+    "variantId": "TulsStillnessSupport",
+    "grantedEffectId": "SupportTulsStillnessPlayer"
+   }
+  },
+  "Uhtreds_Augury": {
+   "en": "Uhtred's Augury",
+   "zh_hans": "乌崔德的占卜",
+   "zh_hant": "烏特雷的占卜術",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可升级的技能，在恰好有两个其他辅助宝石修改被辅助技能的情况下，提供额外等级。无法辅助没有等级的技能。Dropped by: 欧罗什，堕落之源"
+    ],
+    "zh_hant": [
+     "輔助可升級的技能，若被輔助的技能恰好搭配一顆其他輔助寶石，則賦予其額外等級。無法輔助無等級的技能。Dropped by: 墮落起源．奧爾羅斯"
+    ],
+    "en": [
+     "Supports Skills which can gain levels, granting them additional levels provided exactly two other supports are used with the supported Skill. Does not support skills which do not have levels.Dropped by: Olroth, Origin of the Fall"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemUhtredsAugury",
+    "variantId": "UhtredAugurySupport",
+    "grantedEffectId": "SupportUhtredAuguryPlayer"
+   }
+  },
+  "Uhtreds_Constellation": {
+   "en": "Uhtred's Constellation",
+   "zh_hans": "乌崔德的星图",
+   "zh_hant": "烏特雷的星座",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "gem_effect": "UhtredsConstellationSupport",
+   "description": {
+    "zh_hans": [
+     "辅助有冷却时间的非瞬发技能，为其增加 2 次额外的冷却使用次数，并且你近期每使用一种不同的具有冷却时间的技能，被辅助技能就会获得更多伤害。Dropped by: 乌崔德，吞星者"
+    ],
+    "zh_hant": [
+     "輔助具有冷卻時間的非即時技能，為其額外賦予兩次冷卻用量，並根據你最近使用過的不同冷卻時間技能數量獲得更多傷害。Dropped by: 飲星者．烏特雷"
+    ],
+    "en": [
+     "Supports non-instant skills which have a cooldown, granting them two additional cooldown uses and more damage per different skill with a cooldown you have used recently.Dropped by: Uhtred, the Stardrinker"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemUhtredsConstellation",
+    "variantId": "UhtredsConstellationSupport",
+    "grantedEffectId": "SupportUhtredsConstellation"
+   }
+  },
+  "Uhtreds_Exodus": {
+   "en": "Uhtred's Exodus",
+   "zh_hans": "乌崔德的出走",
+   "zh_hant": "烏特雷的出走",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可升级的技能，在没有其他辅助宝石修改被辅助技能的情况下，提供大量额外等级。Dropped by: 欧罗什，堕落之源"
+    ],
+    "zh_hant": [
+     "輔助可升級的技能，若被輔助的技能沒有搭配其他輔助寶石，則賦予其許多額外等級。無法輔助無等級的技能。Dropped by: 墮落起源．奧爾羅斯"
+    ],
+    "en": [
+     "Supports Skills which can gain levels, granting them many additional levels provided no other supports are used with the supported Skill. Does not support skills which do not have levels.Dropped by: Olroth, Origin of the Fall"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemUhtredsExodus",
+    "variantId": "UhtredExodusSupport",
+    "grantedEffectId": "SupportUhtredExodusPlayer"
+   }
+  },
+  "Uhtreds_Omen": {
+   "en": "Uhtred's Omen",
+   "zh_hans": "乌崔德的预兆",
+   "zh_hant": "烏特雷的徵兆",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可升级的技能，在恰好有一个其他辅助宝石修改被辅助技能的情况下，提供额外等级。无法辅助没有等级的技能。Dropped by: 欧罗什，堕落之源"
+    ],
+    "zh_hant": [
+     "輔助可升級的技能，若被輔助的技能恰好搭配一顆其他輔助寶石，則賦予其額外等級。無法輔助無等級的技能。Dropped by: 墮落起源．奧爾羅斯"
+    ],
+    "en": [
+     "Supports Skills which can gain levels, granting them additional levels provided exactly one other support is used with the supported Skill. Does not support skills which do not have levels.Dropped by: Olroth, Origin of the Fall"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemUhtredsOmen",
+    "variantId": "UhtredOmenSupport",
+    "grantedEffectId": "SupportUhtredOmenPlayer"
+   }
+  },
+  "Uhtreds_Rite": {
+   "en": "Uhtred's Rite",
+   "zh_hans": "乌崔德仪式",
+   "zh_hant": "烏特雷的儀式",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "DurationSkill",
+     "en": "Duration",
+     "zh_hans": "持续时间",
+     "zh_hant": "持續時間"
+    }
+   ],
+   "gem_effect": "UhtredsRiteSupport",
+   "description": {
+    "zh_hans": [
+     "辅助有冷却时间的技能，使其在使用时获得满溢圣杯。被辅助技能在生命药剂生效期间造成更多伤害，并在魔力药剂生效期间提高魔力消耗效能。Dropped by: 乌崔德，吞星者"
+    ],
+    "zh_hant": [
+     "輔助具有冷卻時間的技能，使其使用時獲得滿溢聖杯。被輔助的技能在你的生命藥劑效果期間造成更多傷害，並在你的魔力藥劑效果期間獲得更高的魔力消耗效用。Dropped by: 飲星者．烏特雷"
+    ],
+    "en": [
+     "Supports skills with Cooldowns, causing them to grant Overflowing Chalice when used. Supported skills deal more damage during the effect of your Life Flask and have increased Mana Cost Efficiency during the effect of your Mana Flask.Dropped by: Uhtred, the Stardrinker"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemUhtredsRite",
+    "variantId": "UhtredsRiteSupport",
+    "grantedEffectId": "SupportUhtredsRitePlayer"
+   }
+  },
+  "Uruks_Smelting": {
+   "en": "Uruk's Smelting",
+   "zh_hans": "厄罗克的熔炼术",
+   "zh_hant": "厄羅克的鍛鍊",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助任意技能，使其造成的护甲破损更强。被辅助技能完全粉碎护甲时，永久增加受影响目标受到的物理伤害，该效果有上限。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助任何技能，加強其破甲效果。以被輔助的技能達到完全破甲時，會永久增加受影響對象受到的物理傷害，直到達上限值。Dropped by: Global"
+    ],
+    "en": [
+     "Supports any skill, causing Armour Break it inflicts to be stronger. Fully Breaking Armour with Supported Skills permanently increases the Physical Damage taken by those affected, up to a cap.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemUruksSmelting",
+    "variantId": "UruksSmeltingSupport",
+    "grantedEffectId": "SupportUruksSmeltingPlayer"
+   }
+  },
+  "Uul-Netols_Embrace": {
+   "en": "Uul-Netol's Embrace",
+   "zh_hans": "乌尔尼多的拥抱",
+   "zh_hant": "烏爾尼多的擁抱",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Physical",
+     "en": "Physical",
+     "zh_hans": "物理",
+     "zh_hant": "物理"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可造成伤害性击中的技能，提供额外混沌伤害，使混沌伤害粉碎护甲。Dropped by: 薛斯，万魔一体"
+    ],
+    "zh_hant": [
+     "輔助會造成傷害型擊中的技能，賦予其額外混沌傷害，並使混沌傷害可以破甲。Dropped by: 萬眾歸一．烈許"
+    ],
+    "en": [
+     "Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Break Armour.Dropped by: Xesht, We That Are One"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemUulNetolsEmbrace",
+    "variantId": "UulNetolsEmbraceSupport",
+    "grantedEffectId": "SupportUulNetolsEmbracePlayer"
+   }
+  },
+  "Varashtas_Blessing": {
+   "en": "Varashta's Blessing",
+   "zh_hans": "瓦拉煞的祝福",
+   "zh_hant": "瓦拉什塔的祝福",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    }
+   ],
+   "gem_effect": "VarashtasBlessingSupport",
+   "description": {
+    "zh_hans": [
+     "辅助任意可造成伤害的技能，根据你在过去几秒内使用过的不同命令技能的数量，提高其伤害。无法影响召唤生物的技能。Dropped by: 扎米尔，刀锋之主, 扎洛卡，时空之灵"
+    ],
+    "zh_hant": [
+     "輔助任何可以造成傷害的技能，使其根據過去幾秒內所使用的不同號令技能數量造成更多傷害。無法改變召喚物技能。Dropped by: 刀鋒之主．札米爾, 時空之靈．澤洛克"
+    ],
+    "en": [
+     "Supports any Skill that can deal damage, causing it to deal more damage for each different Command Skill you have used in the past few seconds. Cannot modify the Skills of Minions.Dropped by: Zahmir, the Blade Sovereign, Zarokh, the Temporal"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemVarashtasBlessing",
+    "variantId": "VarashtasBlessingSupport",
+    "grantedEffectId": "SupportVarashtasBlessingPlayer"
+   }
+  },
+  "Vilentas_Propulsion": {
+   "en": "Vilenta's Propulsion",
+   "zh_hans": "薇伦塔之推进",
+   "zh_hant": "范尼達的奮進",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "Projectile",
+     "en": "Projectile",
+     "zh_hans": "投射物",
+     "zh_hant": "投射物"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助发射投射物的法术技能，对施法速度的加速与减缓也同样作用于投射物速度。Dropped by: Global"
+    ],
+    "zh_hant": [
+     "輔助發射火焰投射物的法術技能，使施法速度的增減同時套用至投射物速度。Dropped by: Global"
+    ],
+    "en": [
+     "Supports Spell Skills that fire Projectiles, causing increases and reductions to cast speed to also apply to Projectile speed.Dropped by: Global"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemVilentasPropulsion",
+    "variantId": "VilentasPropulsionSupport",
+    "grantedEffectId": "SupportVilentasPropulsionPlayer"
+   }
+  },
+  "Voranas_Siege": {
+   "en": "Vorana's Siege",
+   "zh_hans": "沃拉娜的围城",
+   "zh_hant": "沃拉娜的圍攻",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    }
+   ],
+   "gem_effect": "VoranasSiegeSupport",
+   "description": {
+    "zh_hans": [
+     "辅助具有效果区域且能击中目标的技能，使其范围扩大，并对孤立目标造成更高的击中伤害。Dropped by: 梅德维德，堕落先知"
+    ],
+    "zh_hant": [
+     "輔助擊中目標且具有範圍效果的技能，擴大其影響範圍，並使其對孤立目標造成更多擊中傷害。Dropped by: 墮落先知．梅德偉"
+    ],
+    "en": [
+     "Supports skills which Hit targets and have an area of effect, increasing the affected area and causing it to Hit Isolated targets harder.Dropped by: Medved, the Fallen Seer"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemVoranasSiege",
+    "variantId": "VoranasSiegeSupport",
+    "grantedEffectId": "SupportVoranasSiege"
+   }
+  },
+  "Vruuns_Aftermath": {
+   "en": "Vruun's Aftermath",
+   "zh_hans": "弗伦的余波",
+   "zh_hant": "弗倫的餘波",
+   "colour": "",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Warcry",
+     "en": "Warcry",
+     "zh_hans": "战吼",
+     "zh_hant": "戰吼"
+    }
+   ],
+   "gem_effect": "VruunsAftermathSupport",
+   "description": {
+    "zh_hans": [
+     "辅助战吼类技能，使其能够摧毁冰晶和冰霜碎片。若被辅助技能摧毁足够数量的冰晶和冰霜碎片，则会强化额外的攻击。"
+    ],
+    "zh_hant": [
+     "輔助戰吼技能，使其摧毀冰晶和寒冰碎片。被輔助的技能若摧毀足夠冰晶和寒冰碎片，則會強化額外攻擊次數。"
+    ],
+    "en": [
+     "Supports Warcries, causing them to destroy Ice Crystals and Ice Fragments. Supported Skills empower additional Attacks if they destroy enough Ice Crystals and Ice Fragments."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemVruunsAftermath",
+    "variantId": "VruunsAftermathSupport",
+    "grantedEffectId": "SupportVruunsAftermath"
+   }
+  },
+  "Vruuns_Inevitability": {
+   "en": "Vruun's Inevitability",
+   "zh_hans": "弗伦的必然",
+   "zh_hant": "弗倫的必然",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Attack",
+     "en": "Attack",
+     "zh_hans": "攻击",
+     "zh_hant": "攻擊"
+    },
+    {
+     "id": "Melee",
+     "en": "Melee",
+     "zh_hans": "近战",
+     "zh_hant": "近戰"
+    },
+    {
+     "id": "Conditional",
+     "en": "Conditional",
+     "zh_hans": "条件",
+     "zh_hant": "條件"
+    }
+   ],
+   "gem_effect": "VruunsInevitabilitySupport",
+   "description": {
+    "zh_hans": [
+     "辅助近战 攻击技能。当你使用其他近战 攻击成功打击敌人时，被辅助技能获得连击。被辅助技能使用时花费连击数，使用时连击数越高，获得的效果区域越大。无法辅助能获得连击的技能。无法修改召唤生物的技能。"
+    ],
+    "zh_hant": [
+     "輔助近戰攻擊技能。當你以其他近戰攻擊成功打擊敵人時，被輔助的技能獲得連擊。使用被輔助的技能時即消耗其連擊，使用時擁有的連擊數越多，範圍效果就越大。不能輔助已經獲得連擊的技能。無法修改由召喚物使用的技能。"
+    ],
+    "en": [
+     "Supports Melee Attack Skills. Supported Skills gain Combo when you successfully Strike Enemies with other Melee Attacks. Supported Skills expend their Combo when used, gaining more area of effect the higher Combo they had. Cannot support skills which already gain Combo. Cannot modify the Skills of Minions."
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemVruunsInevitability",
+    "variantId": "VruunsInevitabilitySupport",
+    "grantedEffectId": "SupportVruunsInevitability"
+   }
+  },
+  "Xibaquas_Rending": {
+   "en": "Xibaqua's Rending",
+   "zh_hans": "夏巴夸亚的撕裂",
+   "zh_hant": "賽巴昆的撕裂",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    },
+    {
+     "id": "Trigger",
+     "en": "Trigger",
+     "zh_hans": "触发",
+     "zh_hant": "觸發"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可跃向空中的技能。落地时，使你着陆区域内的灵柩猛烈爆炸，并对周围敌人造成伤害。Dropped by: 玛兹特里，血肉塑造者, 伊察拉，鲜血神谕者"
+    ],
+    "zh_hant": [
+     "輔助會躍至空中的技能，使你著地位置周遭的屍體劇烈的爆炸，對周遭敵人造成傷害。 Dropped by: 血肉塑造者．馬茲里, 鮮血先知．伊查拉"
+    ],
+    "en": [
+     "Supports Skills that leap into the air, causing Corpses in the area you land to violently explode, damaging surrounding enemies.Dropped by: Maztli, Flesh-Shaper, Ytzara, Blood Oracle"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemXibaquasRending",
+    "variantId": "XibaquasRendingSupport",
+    "grantedEffectId": "SupportXibaquasRendingPlayer"
+   }
+  },
+  "Xophs_Pyre": {
+   "en": "Xoph's Pyre",
+   "zh_hans": "索伏的葬火",
+   "zh_hant": "索伏的燃焰",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Fire",
+     "en": "Fire",
+     "zh_hans": "火焰",
+     "zh_hant": "火焰"
+    },
+    {
+     "id": "Chaos",
+     "en": "Chaos",
+     "zh_hans": "混沌",
+     "zh_hant": "混沌"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助可造成伤害性击中的技能，提供额外混沌伤害，使混沌伤害作用于点燃。Dropped by: 薛斯，万魔一体"
+    ],
+    "zh_hant": [
+     "輔助會造成傷害型擊中的技能，賦予其額外混沌傷害，並使混沌傷害貢獻至點燃。Dropped by: 萬眾歸一．烈許"
+    ],
+    "en": [
+     "Supports Skills that can cause Damaging Hits, granting extra Chaos damage and causing Chaos damage to Contribute to Ignites.Dropped by: Xesht, We That Are One"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemXophsPyre",
+    "variantId": "XophsPyreSupport",
+    "grantedEffectId": "SupportXophsPyrePlayer"
+   }
+  },
+  "Zarokhs_Refrain": {
+   "en": "Zarokh's Refrain",
+   "zh_hans": "扎洛卡的克制",
+   "zh_hant": "澤洛克的克制",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    },
+    {
+     "id": "AoESkill",
+     "en": "AoE",
+     "zh_hans": "效果区域",
+     "zh_hant": "範圍效果"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助你自身施放的扩散 法术。被辅助的法术产生 3 次法术 回响，但会增加冷却时间。无法辅助有冷却时间的技能。Dropped by: 扎米尔，刀锋之主, 扎洛卡，时空之灵"
+    ],
+    "zh_hant": [
+     "輔助由你自身施放的可爆發法術。被輔助的法術會迴響三次，但被輔助的技能會增加一小段冷卻時間。無法輔助已有冷卻時間的技能。Dropped by: 刀鋒之主．札米爾, 時空之靈．澤洛克"
+    ],
+    "en": [
+     "Supports Cascadable Spells you cast yourself. Supported Spells Echo thrice, but are given a Cooldown. Cannot support skills which already have a Cooldown.Dropped by: Zahmir, the Blade Sovereign, Zarokh, the Temporal"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemZarokhsRefrain",
+    "variantId": "ZarokhsRefrainSupport",
+    "grantedEffectId": "SupportZarokhsRefrainPlayer"
+   }
+  },
+  "Zarokhs_Revolt": {
+   "en": "Zarokh's Revolt",
+   "zh_hans": "扎洛卡的反叛",
+   "zh_hant": "澤洛克的反叛",
+   "colour": "blue",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "Spell",
+     "en": "Spell",
+     "zh_hans": "法术",
+     "zh_hant": "法術"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助你施放的可重复法术，使其随时间获得封印并增加一个适中的冷却时间。施放时打破封印，每层封印使该法术重复一次。无法辅助已有冷却时间或能获得封印的技能。Dropped by: 扎洛卡，时空之灵"
+    ],
+    "zh_hant": [
+     "輔助由你自身施放的可重複法術，使其隨時間獲得封印，並給予其適中的冷卻時間。施放時會破除封印，每個封印都會使該法術重複。無法輔助已具有冷卻時間或會獲得封印的技能。Dropped by: 時空之靈．澤洛克"
+    ],
+    "en": [
+     "Supports Repeatable Spells you cast yourself, Sealing them over time and giving them a moderate Cooldown. The Seals are broken when cast, each causing the Spell to Repeat. Cannot support skills which already have a Cooldown or gain seals.Dropped by: Zarokh, the Temporal"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gems/SupportGemZarokhsRevolt",
+    "variantId": "ZarokhsRevoltSupport",
+    "grantedEffectId": "SupportZarokhsRevoltPlayer"
+   }
+  },
+  "Zerphis_Infamy": {
+   "en": "Zerphi's Infamy",
+   "zh_hans": "泽佛伊的恶名",
+   "zh_hant": "澤佛伊的惡名",
+   "colour": "red",
+   "tags": [
+    {
+     "id": "SupportGem",
+     "en": "Support",
+     "zh_hans": "辅助",
+     "zh_hant": "輔助"
+    },
+    {
+     "id": "LineageSupports",
+     "en": "Lineage",
+     "zh_hans": "血统",
+     "zh_hant": "族裔"
+    },
+    {
+     "id": "Warcry",
+     "en": "Warcry",
+     "zh_hans": "战吼",
+     "zh_hant": "戰吼"
+    }
+   ],
+   "description": {
+    "zh_hans": [
+     "辅助你施放的攻击与战吼。被辅助的技能将需要消耗荣耀，并且当你在技能上消耗生命时会积攒荣耀。被辅助的技能会造成更多伤害，并显著",
+     "扩大影响范围。Dropped by: 阿兹里，红女王"
+    ],
+    "zh_hant": [
+     "輔助自身使用的攻擊和戰吼。被輔助的技能獲得榮耀消耗需求，且在你消耗生命施放技能時累積榮耀。被輔助的技能造成更多傷害，且顯著",
+     "的提升範圍效果。Dropped by: 豔紅女王．阿茲里"
+    ],
+    "en": [
+     "Supports Attacks and Warcries you use yourself. Supported Skills gain a Glory requirement, and build Glory when you spend Life on Skills. Supported Skills deal more damage and have significantly",
+     "increased area of effect.Dropped by: Atziri, the Red Queen"
+    ]
+   },
+   "pob": {
+    "gameId": "Metadata/Items/Gem/SupportGemZerphisLegacy",
+    "variantId": "ZerphisLegacySupport",
+    "grantedEffectId": "SupportZerphisLegacyPlayer"
+   }
+  }
+ }
+}

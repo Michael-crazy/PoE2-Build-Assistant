@@ -1,0 +1,38 @@
+{
+  "schema": "poe2-terminology/1",
+  "engine_commit": "601768bd105869618c3d6581b883e5d7aeec91b2",
+  "data_version": "synthetic/1",
+  "sources": {
+    "original-p03": {
+      "origin": "Original invented examples authored for this offline checkpoint; not game terminology or Tencent observations.",
+      "license": "CC0-1.0 (these synthetic example records only)",
+      "verification": "synthetic-only; no upstream ID or translation verification"
+    }
+  },
+  "entries": [
+    {
+      "id": "synthetic:skill:paper-comet",
+      "kind": "skill",
+      "aliases": {"en": ["Paper Comet", "Practice Spark"], "zh-Hans": ["纸彗星", "练习火花"], "zh-Hant": ["紙彗星", "練習火花"]},
+      "source": "original-p03"
+    },
+    {
+      "id": "synthetic:passive:paper-orbit",
+      "kind": "passive",
+      "aliases": {"en": ["Paper Orbit", "Practice Spark"], "zh-Hans": ["纸轨道", "练习火花"], "zh-Hant": ["紙軌道", "練習火花"]},
+      "source": "original-p03"
+    },
+    {
+      "id": "synthetic:item:paper-lantern",
+      "kind": "item",
+      "aliases": {"en": ["Paper Lantern"], "zh-Hans": ["纸灯笼", "试验纸灯"], "zh-Hant": ["紙燈籠", "試驗紙燈"]},
+      "source": "original-p03"
+    },
+    {
+      "id": "synthetic:mod:paper-brightness",
+      "kind": "mod",
+      "aliases": {"en": ["Paper Brightness"], "zh-Hans": ["纸光亮度"], "zh-Hant": ["紙光亮度"]},
+      "source": "original-p03"
+    }
+  ]
+}
